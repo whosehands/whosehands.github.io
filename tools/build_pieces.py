@@ -268,8 +268,9 @@ def genre_of(r):
 for r in cat["recordings"]:
     r["genre"] = genre_of(r)
     if r["genre"] == "Songs" and r.get("kind") != "record": r["genre"] = "Piano music"   # a pianist's song transcription is piano music
-# the game keeps opera, orchestral and piano music; songs that aren't from an opera and instrumental solos are left out
-cat["recordings"] = [r for r in cat["recordings"] if r["genre"] in ("Opera & stage", "Orchestral", "Piano music")]
+    if r["genre"] == "Songs": r["genre"] = "Art songs" if r.get("artSong") else "drop"
+# the game keeps opera, art songs, orchestral and piano music; popular songs and instrumental solos are left out
+cat["recordings"] = [r for r in cat["recordings"] if r["genre"] in ("Opera & stage", "Art songs", "Orchestral", "Piano music")]
 print(collections.Counter(r["genre"] for r in cat["recordings"]))
 
 # how well known the composer and the performers are (number of Wikipedia articles), for the practice filters
