@@ -233,6 +233,13 @@ for r in cat["recordings"]:
     r["performerFame"] = "famous" if r.get("famous") and best < 30 else tier(best, 30, 8)
 print("composers:", collections.Counter(r["composerFame"] for r in cat["recordings"]), "performers:", collections.Counter(r["performerFame"] for r in cat["recordings"]))
 
+# manual fixes from player reports: data/overrides.json maps a recording id to fields to replace
+try: overrides = json.load(open("data/overrides.json", encoding="utf-8"))
+except FileNotFoundError: overrides = {}
+for r in cat["recordings"]:
+    for k, v in (overrides.get(r["id"]) or {}).items(): r[k] = v
+cat["recordings"] = [r for r in cat["recordings"] if not r.get("exclude")]
+
 # drop option names that collide (same text, different key)
 seen = collections.Counter(options.values())
 cat["pieceOptions"] = sorted(([n, k] for k, n in options.items() if seen[n] == 1 or any(r["pieceKey"] == k for r in cat["recordings"])), key=lambda x: x[0])
