@@ -1,10 +1,16 @@
 name: Fetch recording sources
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [tools/fetch_loc.py, .github/workflows/fetch-sources.yml]
   schedule:
     - cron: "17 9 3 * *"   # monthly, 3rd day, 09:17 UTC
 permissions:
   contents: write
+concurrency:
+  group: fetch-sources
+  cancel-in-progress: false
 jobs:
   fetch:
     runs-on: ubuntu-latest
