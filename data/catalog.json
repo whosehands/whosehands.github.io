@@ -1833,7 +1833,7 @@
    },
    "composer": "Frédéric Chopin",
    "composerDates": "1810-1849",
-   "piece": "Chopin – Ballade No. 3 in A♭ major, Op. 47",
+   "piece": "Chopin – Ballade No. 3 in A-flat major, Op. 47",
    "work": "Chopin – Ballade No. 3 in A♭ major, Op. 47",
    "part": "",
    "arranged": false,
@@ -1897,7 +1897,7 @@
    },
    "composer": "Felix Mendelssohn-Bartholdy",
    "composerDates": "1809-1847",
-   "piece": "Mendelssohn-Bartholdy – Capriccio brillant",
+   "piece": "Mendelssohn-Bartholdy – Capriccio Brillant",
    "work": "Mendelssohn-Bartholdy – Capriccio brillant",
    "part": "",
    "arranged": true,
@@ -2041,7 +2041,7 @@
    "source": "https://purl.stanford.edu/bj021jc9795",
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
-   "pieceKey": "chopin|op57|",
+   "pieceKey": "chopin|t|berceuse",
    "movement": "",
    "genre": "Piano music",
    "composerFame": "famous",
@@ -2073,7 +2073,7 @@
    "source": "https://purl.stanford.edu/bj093nh2591",
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
-   "pieceKey": "schumann|op54|",
+   "pieceKey": "schumann|t|concerto",
    "movement": "Allegro affettuoso",
    "genre": "Orchestral",
    "composerFame": "famous",
@@ -2153,7 +2153,7 @@
    },
    "composer": "Frédéric Chopin",
    "composerDates": "1810-1849",
-   "piece": "Chopin – Polonaise, Op. 40 No. 1",
+   "piece": "Chopin – Polonaise Op. 40 No. 1 in A major",
    "work": "Chopin – Polonaise, Op. 40 No. 1",
    "part": "",
    "arranged": false,
@@ -2281,7 +2281,7 @@
    },
    "composer": "Frédéric Chopin",
    "composerDates": "1810-1849",
-   "piece": "Chopin – Piano Concerto No. 1 in E minor, Op. 11",
+   "piece": "Chopin – Concerto for Piano and Orchestra no. 1 in E minor, Op. 11",
    "work": "Chopin – Piano Concerto No. 1 in E minor, Op. 11",
    "part": "Romance",
    "arranged": true,
@@ -2505,7 +2505,7 @@
    },
    "composer": "Charles Cuvillier",
    "composerDates": "1877-1955",
-   "piece": "Cuvillier – Lila Domino",
+   "piece": "Cuvillier – Lilac Domino",
    "work": "Cuvillier – Lila Domino",
    "part": "Waltz",
    "arranged": false,
@@ -2537,7 +2537,7 @@
    },
    "composer": "Frédéric Chopin",
    "composerDates": "1810-1849",
-   "piece": "Chopin – Étude, Op. 25 No. 9",
+   "piece": "Chopin – Étude Op. 25, No. 9",
    "work": "Chopin – Étude, Op. 25 No. 9",
    "part": "",
    "arranged": false,
@@ -2649,7 +2649,7 @@
    "source": "https://purl.stanford.edu/cm852bp8620",
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
-   "pieceKey": "schubert|d760|",
+   "pieceKey": "schubert|t|fantasy wanderer",
    "movement": "selections",
    "genre": "Piano music",
    "composerFame": "famous",
@@ -2697,7 +2697,7 @@
    },
    "composer": "Camille Saint-Saëns",
    "composerDates": "1835-1921",
-   "piece": "Saint-Saëns – Samson et Dalila",
+   "piece": "Saint-Saëns – Samson and Delilah",
    "work": "Saint-Saëns – Samson et Dalila",
    "part": "Mon cœur s'ouvre à ta voix",
    "arranged": true,
@@ -2713,7 +2713,7 @@
    "source": "https://purl.stanford.edu/cp259ms0085",
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
-   "pieceKey": "saint-saens|t|dalila samson",
+   "pieceKey": "saint-saens|t|delilah samson",
    "movement": "Mon cœur s'ouvre à ta voix",
    "genre": "Opera & stage",
    "composerFame": "famous",
@@ -2793,7 +2793,7 @@
    },
    "composer": "Franz Liszt",
    "composerDates": "1811-1886",
-   "piece": "Liszt – Études d'exécution transcendante, No 8",
+   "piece": "Liszt – Transcendental Étude No. 8",
    "work": "Liszt – Études d'exécution transcendante, No 8",
    "part": "Wilde Jagd",
    "arranged": false,
@@ -2825,7 +2825,7 @@
    },
    "composer": "Frédéric Chopin",
    "composerDates": "1810-1849",
-   "piece": "Chopin – Waltz, Op. 64 No. 1",
+   "piece": "Chopin – Waltz No. 6 in D-flat major, Op. 64, No. 1",
    "work": "Chopin – Waltz, Op. 64 No. 1",
    "part": "",
    "arranged": false,
@@ -3113,7 +3113,7 @@
    },
    "composer": "Claude Debussy",
    "composerDates": "1862-1918",
-   "piece": "Debussy – Children's corner",
+   "piece": "Debussy – Children's Corner",
    "work": "Debussy – Children's corner",
    "part": "",
    "arranged": false,
@@ -3337,7 +3337,7 @@
    },
    "composer": "Hector Berlioz",
    "composerDates": "1803-1869",
-   "piece": "Berlioz – Damnation de Faust",
+   "piece": "Berlioz – La damnation de Faust",
    "work": "Berlioz – Damnation de Faust",
    "part": "Ballet des sylphes",
    "arranged": true,
@@ -3497,7 +3497,7 @@
    },
    "composer": "Franz Liszt",
    "composerDates": "1811-1886",
-   "piece": "Liszt – Loreley (1861)",
+   "piece": "Liszt – Loreley, piano (1861)",
    "work": "Liszt – Loreley (1861)",
    "part": "",
    "arranged": false,
@@ -3723,7 +3723,7 @@
    },
    "composer": "Engelbert Humperdinck",
    "composerDates": "1854-1921",
-   "piece": "Humperdinck – Hänsel und Gretel",
+   "piece": "Humperdinck – Hänsel und Gretel Suite",
    "work": "Humperdinck – Hänsel und Gretel",
    "part": "selections",
    "arranged": true,
@@ -3787,7 +3787,7 @@
    },
    "composer": "Richard Wagner",
    "composerDates": "1813-1883",
-   "piece": "Wagner – Meistersinger von Nürnberg",
+   "piece": "Wagner – Die Meistersinger von Nürnberg",
    "work": "Wagner – Meistersinger von Nürnberg",
    "part": "Vorspiel",
    "arranged": true,
@@ -3893,7 +3893,7 @@
    },
    "composer": "Arthur Sullivan",
    "composerDates": "1842-1900",
-   "piece": "Sullivan – Yeomen of the Guard",
+   "piece": "Sullivan – The Yeomen of the Guard",
    "work": "Sullivan – Yeomen of the Guard",
    "part": "selections",
    "arranged": true,
@@ -4213,7 +4213,7 @@
    },
    "composer": "Frédéric Chopin",
    "composerDates": "1810-1849",
-   "piece": "Chopin – Polonaise in A♭ major, Op. 53",
+   "piece": "Chopin – Polonaise in A-flat major \"Heroic\", Op. 53",
    "work": "Chopin – Polonaise in A♭ major, Op. 53",
    "part": "",
    "arranged": false,
@@ -4277,7 +4277,7 @@
    },
    "composer": "Charles Lecocq",
    "composerDates": "1832-1918",
-   "piece": "Lecocq – Fille de Madame Angot",
+   "piece": "Lecocq – La fille de Madame Angot",
    "work": "Lecocq – Fille de Madame Angot",
    "part": "selections",
    "arranged": true,
@@ -4309,7 +4309,7 @@
    },
    "composer": "Frédéric Chopin",
    "composerDates": "1810-1849",
-   "piece": "Chopin – Étude, Op. 25 No. 9",
+   "piece": "Chopin – Étude Op. 25, No. 9",
    "work": "Chopin – Étude, Op. 25 No. 9",
    "part": "",
    "arranged": false,
@@ -4565,7 +4565,7 @@
    },
    "composer": "Frédéric Chopin",
    "composerDates": "1810-1849",
-   "piece": "Chopin – Nocturne, Op. 9 No. 1",
+   "piece": "Chopin – Nocturne No. 1 in B-flat minor, Op. 9, No. 1",
    "work": "Chopin – Nocturne, Op. 9 No. 1",
    "part": "",
    "arranged": false,
@@ -4613,7 +4613,7 @@
    "source": "https://purl.stanford.edu/gf569df0451",
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
-   "pieceKey": "schumann|op17|",
+   "pieceKey": "schumann|t|fantasie",
    "movement": "Durchaus phantastisch und leidenschaftlich vorzutragen",
    "genre": "Piano music",
    "composerFame": "famous",
@@ -4629,7 +4629,7 @@
    },
    "composer": "Frédéric Chopin",
    "composerDates": "1810-1849",
-   "piece": "Chopin – Nocturne, Op. 32 No. 1",
+   "piece": "Chopin – Nocturne No. 9 in B major, Op. 32, No. 1",
    "work": "Chopin – Nocturne, Op. 32 No. 1",
    "part": "",
    "arranged": false,
@@ -4917,7 +4917,7 @@
    },
    "composer": "Christian Sinding",
    "composerDates": "1856-1941",
-   "piece": "Sinding – Stücke, Op. 32",
+   "piece": "Sinding – Sechs Stücke für das Pianoforte opus 32",
    "work": "Sinding – Stücke, Op. 32",
    "part": "Frühlingsrauschen",
    "arranged": false,
@@ -5016,7 +5016,7 @@
    },
    "composer": "Charles Gounod",
    "composerDates": "1818-1893",
-   "piece": "Gounod – Roméo et Juliette",
+   "piece": "Gounod – Roméo et Juliete",
    "work": "Gounod – Roméo et Juliette",
    "part": "",
    "arranged": true,
@@ -5048,7 +5048,7 @@
    },
    "composer": "Frédéric Chopin",
    "composerDates": "1810-1849",
-   "piece": "Chopin – Nocturne, Op. 48 No. 1",
+   "piece": "Chopin – Nocturne No. 13 in C minor, Op. 48, No. 1",
    "work": "Chopin – Nocturne, Op. 48 No. 1",
    "part": "",
    "arranged": false,
@@ -5080,7 +5080,7 @@
    },
    "composer": "Frédéric Chopin",
    "composerDates": "1810-1849",
-   "piece": "Chopin – Prelude, Op. 28",
+   "piece": "Chopin – 24 Preludes Op. 28",
    "work": "Chopin – Prelude, Op. 28",
    "part": "selections",
    "arranged": false,
@@ -5112,7 +5112,7 @@
    },
    "composer": "Jean Sibelius",
    "composerDates": "1865-1957",
-   "piece": "Sibelius – Romance in D♭ major, Op. 24 No. 9",
+   "piece": "Sibelius – Romance, Op. 24, no. 9",
    "work": "Sibelius – Romance in D♭ major, Op. 24 No. 9",
    "part": "",
    "arranged": false,
@@ -5176,7 +5176,7 @@
    },
    "composer": "S. M. Liapunov",
    "composerDates": "1859-1924",
-   "piece": "Liapunov – Études d'exécution transcendante",
+   "piece": "Liapunov – 12 Transcendental Études, Op. 11",
    "work": "Li͡apunov – Études d'exécution transcendante",
    "part": "Carillon",
    "arranged": false,
@@ -5192,7 +5192,7 @@
    "source": "https://purl.stanford.edu/gx118hr0306",
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
-   "pieceKey": "liapunov|t|etude execution transcendante",
+   "pieceKey": "liapunov|op11|",
    "movement": "Carillon",
    "genre": "Piano music",
    "composerFame": "known",
@@ -5208,7 +5208,7 @@
    },
    "composer": "Franz Liszt",
    "composerDates": "1811-1886",
-   "piece": "Liszt – Piano Sonata in B minor",
+   "piece": "Liszt – Piano Sonata in B Minor, S. 178",
    "work": "Liszt – Piano Sonata in B minor",
    "part": "selections",
    "arranged": false,
@@ -5240,7 +5240,7 @@
    },
    "composer": "Franz Liszt",
    "composerDates": "1811-1886",
-   "piece": "Liszt – Études d'exécution transcendante, No 11",
+   "piece": "Liszt – Transcendental Étude No. 11",
    "work": "Liszt – Études d'exécution transcendante, No 11",
    "part": "Harmonies du soir",
    "arranged": false,
@@ -5272,7 +5272,7 @@
    },
    "composer": "Frédéric Chopin",
    "composerDates": "1810-1849",
-   "piece": "Chopin – Ballade No. 3 in A♭ major, Op. 47",
+   "piece": "Chopin – Ballade No. 3 in A-flat major, Op. 47",
    "work": "Chopin – Ballade No. 3 in A♭ major, Op. 47",
    "part": "",
    "arranged": false,
@@ -5352,7 +5352,7 @@
    "source": "https://purl.stanford.edu/hg174cq6672",
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
-   "pieceKey": "liszt|t|2 hungarian roidy",
+   "pieceKey": "liszt|t|2 hungarian rhapsody",
    "movement": "",
    "genre": "Piano music",
    "composerFame": "famous",
@@ -5400,7 +5400,7 @@
    },
    "composer": "Richard Wagner",
    "composerDates": "1813-1883",
-   "piece": "Wagner – Meistersinger von Nürnberg",
+   "piece": "Wagner – Die Meistersinger von Nürnberg",
    "work": "Wagner – Meistersinger von Nürnberg",
    "part": "selections",
    "arranged": false,
@@ -5560,7 +5560,7 @@
    },
    "composer": "Edvard Grieg",
    "composerDates": "1843-1907",
-   "piece": "Grieg – Lyriske stykker, Op. 43",
+   "piece": "Grieg – Lyric Pieces, Op. 43",
    "work": "Grieg – Lyriske stykker, Op. 43",
    "part": "Sommerfugl",
    "arranged": false,
@@ -5578,6 +5578,10 @@
    "famous": false,
    "pieceKey": "grieg|op43|",
    "movement": "Sommerfugl",
+   "acceptKeys": [
+    "grieg|t|at day troldhaugen wedding",
+    "grieg|t|march troll"
+   ],
    "genre": "Piano music",
    "composerFame": "famous",
    "performerFame": "obscure"
@@ -5656,7 +5660,7 @@
    },
    "composer": "Franz Liszt",
    "composerDates": "1811-1886",
-   "piece": "Liszt – Réminiscences de Don Juan",
+   "piece": "Liszt – Réminiscences de Don Juan, S. 418",
    "work": "Liszt – Réminiscences de Don Juan",
    "part": "",
    "arranged": false,
@@ -5752,7 +5756,7 @@
    },
    "composer": "Frédéric Chopin",
    "composerDates": "1810-1849",
-   "piece": "Chopin – Étude, Op. 25 No. 9",
+   "piece": "Chopin – Étude Op. 25, No. 9",
    "work": "Chopin – Étude, Op. 25 No. 9",
    "part": "",
    "arranged": false,
@@ -5848,7 +5852,7 @@
    },
    "composer": "Edvard Grieg",
    "composerDates": "1843-1907",
-   "piece": "Grieg – Lyriske stykker, Op. 65",
+   "piece": "Grieg – Lyric Pieces, Op. 65",
    "work": "Grieg – Lyriske stykker, Op. 65",
    "part": "Bryllupsdag på Troldhaugen",
    "arranged": false,
@@ -5914,7 +5918,7 @@
    },
    "composer": "Franz Liszt",
    "composerDates": "1811-1886",
-   "piece": "Liszt – Ballade No. 2 in B minor",
+   "piece": "Liszt – Ballade No. 2",
    "work": "Liszt – Ballade No. 2 in B minor",
    "part": "",
    "arranged": false,
@@ -5946,7 +5950,7 @@
    },
    "composer": "George Frideric Handel",
    "composerDates": "1685-1759",
-   "piece": "Handel – Suite in E major, HWV 430",
+   "piece": "Handel – Keyboard suite in E major (HWV 430)",
    "work": "Handel – Suite in E major, HWV 430",
    "part": "Air con variazioni",
    "arranged": false,
@@ -5978,7 +5982,7 @@
    },
    "composer": "F. Halévy",
    "composerDates": "1799-1862",
-   "piece": "Halévy – Juive",
+   "piece": "Halévy – La Juive",
    "work": "Halévy – Juive",
    "part": "",
    "arranged": true,
@@ -6106,7 +6110,7 @@
    },
    "composer": "Lowell Mason",
    "composerDates": "1792-1872",
-   "piece": "Mason – Nearer my God to Thee",
+   "piece": "Mason – Nearer, My God, to Thee",
    "work": "Mason – Nearer my God to Thee",
    "part": "",
    "arranged": false,
@@ -6138,7 +6142,7 @@
    },
    "composer": "Paul Whiteman",
    "composerDates": "1890-1967",
-   "piece": "Whiteman – Wonderful one",
+   "piece": "Whiteman – Wonderful One",
    "work": "Whiteman – Wonderful one",
    "part": "",
    "arranged": true,
@@ -6202,7 +6206,7 @@
    },
    "composer": "Franz Liszt",
    "composerDates": "1811-1886",
-   "piece": "Liszt – Polonaise No. 2 in E major",
+   "piece": "Liszt – Polonaise, piano, no. 2, E major",
    "work": "Liszt – Polonaise No. 2 in E major",
    "part": "",
    "arranged": false,
@@ -6266,7 +6270,7 @@
    },
    "composer": "Jacques Offenbach",
    "composerDates": "1819-1880",
-   "piece": "Offenbach – Contes d'Hoffmann",
+   "piece": "Offenbach – The Tales of Hoffmann",
    "work": "Offenbach – Contes d'Hoffmann",
    "part": "Belle nuit",
    "arranged": true,
@@ -6282,7 +6286,7 @@
    "source": "https://purl.stanford.edu/jf942gh3232",
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
-   "pieceKey": "offenbach|t|conte hoffmann",
+   "pieceKey": "offenbach|t|hoffmann tale",
    "movement": "Belle nuit",
    "genre": "Opera & stage",
    "composerFame": "famous",
@@ -6346,7 +6350,7 @@
    "source": "https://purl.stanford.edu/jg717nb8731",
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
-   "pieceKey": "liszt|t|2 hungarian roidy",
+   "pieceKey": "liszt|t|2 hungarian rhapsody",
    "movement": "",
    "genre": "Piano music",
    "composerFame": "famous",
@@ -6362,7 +6366,7 @@
    },
    "composer": "Frédéric Chopin",
    "composerDates": "1810-1849",
-   "piece": "Chopin – Waltz, Op. 64 No. 2",
+   "piece": "Chopin – Waltz No. 7 in C-sharp minor, Op. 64, No. 2",
    "work": "Chopin – Waltz, Op. 64 No. 2",
    "part": "",
    "arranged": false,
@@ -6810,7 +6814,7 @@
    },
    "composer": "Edvard Grieg",
    "composerDates": "1843-1907",
-   "piece": "Grieg – Lyriske stykker, Op. 43",
+   "piece": "Grieg – Lyric Pieces, Op. 43",
    "work": "Grieg – Lyriske stykker, Op. 43",
    "part": "Sommerfugl",
    "arranged": false,
@@ -6828,6 +6832,10 @@
    "famous": false,
    "pieceKey": "grieg|op43|",
    "movement": "Sommerfugl",
+   "acceptKeys": [
+    "grieg|t|at day troldhaugen wedding",
+    "grieg|t|march troll"
+   ],
    "genre": "Piano music",
    "composerFame": "famous",
    "performerFame": "famous"
@@ -6906,7 +6914,7 @@
    },
    "composer": "Franz Liszt",
    "composerDates": "1811-1886",
-   "piece": "Liszt – Piano Concerto No. 1 in E♭ major",
+   "piece": "Liszt – Piano Concerto No. 1",
    "work": "Liszt – Piano Concerto No. 1 in E♭ major",
    "part": "Allegro maestoso",
    "arranged": true,
@@ -6954,7 +6962,7 @@
    "source": "https://purl.stanford.edu/kf903tz5142",
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
-   "pieceKey": "schubert|d760|",
+   "pieceKey": "schubert|t|fantasy wanderer",
    "movement": "selections",
    "genre": "Piano music",
    "composerFame": "famous",
@@ -7002,7 +7010,7 @@
    },
    "composer": "Johannes Brahms",
    "composerDates": "1833-1897",
-   "piece": "Brahms – Waltz, Op. 39",
+   "piece": "Brahms – Sixteen Waltzes, Op. 39",
    "work": "Brahms – Waltz, Op. 39",
    "part": "selections",
    "arranged": true,
@@ -7034,7 +7042,7 @@
    },
    "composer": "Frédéric Chopin",
    "composerDates": "1810-1849",
-   "piece": "Chopin – Prelude, Op. 28",
+   "piece": "Chopin – 24 Preludes Op. 28",
    "work": "Chopin – Prelude, Op. 28",
    "part": "selections",
    "arranged": false,
@@ -7066,7 +7074,7 @@
    },
    "composer": "Edvard Grieg",
    "composerDates": "1843-1907",
-   "piece": "Grieg – Lyriske stykker, Op. 43",
+   "piece": "Grieg – Lyric Pieces, Op. 43",
    "work": "Grieg – Lyriske stykker, Op. 43",
    "part": "Til foråret",
    "arranged": false,
@@ -7084,6 +7092,10 @@
    "famous": true,
    "pieceKey": "grieg|op43|",
    "movement": "Til foråret",
+   "acceptKeys": [
+    "grieg|t|at day troldhaugen wedding",
+    "grieg|t|march troll"
+   ],
    "genre": "Piano music",
    "composerFame": "famous",
    "performerFame": "famous"
@@ -7133,7 +7145,7 @@
    },
    "composer": "Johann Strauss",
    "composerDates": "1825-1899",
-   "piece": "Strauss – Man lebt nur einmal",
+   "piece": "Strauss – Man lebt nur einmal!",
    "work": "Strauss – Man lebt nur einmal",
    "part": "",
    "arranged": true,
@@ -7359,7 +7371,7 @@
    },
    "composer": "Frédéric Chopin",
    "composerDates": "1810-1849",
-   "piece": "Chopin – Waltz, Op. 70 No. 1",
+   "piece": "Chopin – Waltz No. 11 in G-flat major, Op. 70, No. 1",
    "work": "Chopin – Waltz, Op. 70 No. 1",
    "part": "",
    "arranged": false,
@@ -7487,7 +7499,7 @@
    },
    "composer": "Frédéric Chopin",
    "composerDates": "1810-1849",
-   "piece": "Chopin – Waltz, Op. 69 No. 1",
+   "piece": "Chopin – Waltz No. 9 in A-flat major, Op. posth. 69, No. 1",
    "work": "Chopin – Waltz, Op. 69 No. 1",
    "part": "",
    "arranged": false,
@@ -7599,7 +7611,7 @@
    "source": "https://purl.stanford.edu/kx034vy1374",
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
-   "pieceKey": "schumann|op17|",
+   "pieceKey": "schumann|t|fantasie",
    "movement": "Mäßig--Durchaus energisch",
    "genre": "Piano music",
    "composerFame": "famous",
@@ -7663,7 +7675,7 @@
    "source": "https://purl.stanford.edu/kx695yq4528",
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
-   "pieceKey": "schumann|op7|",
+   "pieceKey": "schumann|t|toccata",
    "movement": "",
    "genre": "Piano music",
    "composerFame": "famous",
@@ -7743,7 +7755,7 @@
    },
    "composer": "Rudolf Friml",
    "composerDates": "1879-1972",
-   "piece": "Friml – Firefly",
+   "piece": "Friml – The Firefly",
    "work": "Friml – Firefly",
    "part": "Sympathy",
    "arranged": true,
@@ -7967,7 +7979,7 @@
    },
    "composer": "Richard Wagner",
    "composerDates": "1813-1883",
-   "piece": "Wagner – Meistersinger von Nürnberg",
+   "piece": "Wagner – Die Meistersinger von Nürnberg",
    "work": "Wagner – Meistersinger von Nürnberg",
    "part": "Am stillen Herd",
    "arranged": true,
@@ -8095,7 +8107,7 @@
    },
    "composer": "Frédéric Chopin",
    "composerDates": "1810-1849",
-   "piece": "Chopin – Étude, Op. 10 No. 12",
+   "piece": "Chopin – Étude Op. 10, No. 12",
    "work": "Chopin – Étude, Op. 10 No. 12",
    "part": "",
    "arranged": false,
@@ -8223,7 +8235,7 @@
    },
    "composer": "Frédéric Chopin",
    "composerDates": "1810-1849",
-   "piece": "Chopin – Śpiewy polskie",
+   "piece": "Chopin – Pieśni, Op. posth. 74",
    "work": "Chopin – Śpiewy polskie",
    "part": "Mädchens Wunsch",
    "arranged": true,
@@ -8239,8 +8251,29 @@
    "source": "https://purl.stanford.edu/mv259zt7103",
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
-   "pieceKey": "chopin|t|polskie spiewy",
+   "pieceKey": "chopin|op74|",
    "movement": "Mädchens Wunsch",
+   "acceptKeys": [
+    "chopin|t|11 czary iva kk",
+    "chopin|t|9 dumka ivb kk",
+    "chopin|t|ch opiec sliczny",
+    "chopin|t|czego ma nie trzeba",
+    "chopin|t|dwojaki koniec",
+    "chopin|t|gdzie lubi",
+    "chopin|t|hulanka",
+    "chopin|t|litewska piosnka",
+    "chopin|t|melodia",
+    "chopin|t|mogi spiew",
+    "chopin|t|moich oczu precz",
+    "chopin|t|moja pieszczotka",
+    "chopin|t|narzeczony",
+    "chopin|t|pierscien",
+    "chopin|t|pose",
+    "chopin|t|rzeka smutna",
+    "chopin|t|wiosna",
+    "chopin|t|wojak",
+    "chopin|t|zyczenie"
+   ],
    "genre": "Piano music",
    "composerFame": "famous",
    "performerFame": "famous"
@@ -8479,7 +8512,7 @@
    },
    "composer": "Frédéric Chopin",
    "composerDates": "1810-1849",
-   "piece": "Chopin – Nocturne, Op. 55 No. 2",
+   "piece": "Chopin – Nocturne No. 16 in E-flat major, Op. 55, No. 2",
    "work": "Chopin – Nocturne, Op. 55 No. 2",
    "part": "",
    "arranged": false,
@@ -8511,7 +8544,7 @@
    },
    "composer": "Frédéric Chopin",
    "composerDates": "1810-1849",
-   "piece": "Chopin – Waltz, Op. 64 No. 2",
+   "piece": "Chopin – Waltz No. 7 in C-sharp minor, Op. 64, No. 2",
    "work": "Chopin – Waltz, Op. 64 No. 2",
    "part": "",
    "arranged": false,
@@ -8703,7 +8736,7 @@
    },
    "composer": "Frédéric Chopin",
    "composerDates": "1810-1849",
-   "piece": "Chopin – Mazurka, Op. 67 No. 4",
+   "piece": "Chopin – Mazurka in A minor, Op. 67 no. 4",
    "work": "Chopin – Mazurka, Op. 67 No. 4",
    "part": "",
    "arranged": false,
@@ -8767,7 +8800,7 @@
    },
    "composer": "Frédéric Chopin",
    "composerDates": "1810-1849",
-   "piece": "Chopin – Nocturne, Op. 9 No. 2",
+   "piece": "Chopin – Nocturne No. 2 in E-flat major, Op. 9, No. 2",
    "work": "Chopin – Nocturne, Op. 9 No. 2",
    "part": "",
    "arranged": false,
@@ -8863,7 +8896,7 @@
    },
    "composer": "Johann Strauss",
    "composerDates": "1825-1899",
-   "piece": "Strauss – Tausend und eine Nacht (Waltz)",
+   "piece": "Strauss – Intermezzo aus \"Tausend und eine Nacht\"",
    "work": "Strauss – Tausend und eine Nacht (Waltz)",
    "part": "",
    "arranged": true,
@@ -9151,7 +9184,7 @@
    },
    "composer": "Camille Saint-Saëns",
    "composerDates": "1835-1921",
-   "piece": "Saint-Saëns – Samson et Dalila",
+   "piece": "Saint-Saëns – Samson and Delilah",
    "work": "Saint-Saëns – Samson et Dalila",
    "part": "Mon cœur s'ouvre à ta voix",
    "arranged": true,
@@ -9167,7 +9200,7 @@
    "source": "https://purl.stanford.edu/pc276zv7038",
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
-   "pieceKey": "saint-saens|t|dalila samson",
+   "pieceKey": "saint-saens|t|delilah samson",
    "movement": "Mon cœur s'ouvre à ta voix",
    "genre": "Opera & stage",
    "composerFame": "famous",
@@ -9183,7 +9216,7 @@
    },
    "composer": "Franz Lehár",
    "composerDates": "1870-1948",
-   "piece": "Lehár – Graf von Luxemburg",
+   "piece": "Lehár – Der Graf von Luxemburg",
    "work": "Lehár – Graf von Luxemburg",
    "part": "selections",
    "arranged": true,
@@ -9345,7 +9378,7 @@
    },
    "composer": "Frédéric Chopin",
    "composerDates": "1810-1849",
-   "piece": "Chopin – Scherzo No. 2 in B♭ minor, Op. 31",
+   "piece": "Chopin – Scherzo no. 2 in B-flat minor, Op. 31",
    "work": "Chopin – Scherzo No. 2 in B♭ minor, Op. 31",
    "part": "",
    "arranged": false,
@@ -9409,7 +9442,7 @@
    },
    "composer": "Camille Saint-Saëns",
    "composerDates": "1835-1921",
-   "piece": "Saint-Saëns – Samson et Dalila",
+   "piece": "Saint-Saëns – Samson and Delilah",
    "work": "Saint-Saëns – Samson et Dalila",
    "part": "Printemps qui commence",
    "arranged": true,
@@ -9425,7 +9458,7 @@
    "source": "https://purl.stanford.edu/pk349zj4179",
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
-   "pieceKey": "saint-saens|t|dalila samson",
+   "pieceKey": "saint-saens|t|delilah samson",
    "movement": "Printemps qui commence",
    "genre": "Opera & stage",
    "composerFame": "famous",
@@ -9741,7 +9774,7 @@
    },
    "composer": "Frédéric Chopin",
    "composerDates": "1810-1849",
-   "piece": "Chopin – Prelude, Op. 28",
+   "piece": "Chopin – 24 Preludes Op. 28",
    "work": "Chopin – Prelude, Op. 28",
    "part": "selections",
    "arranged": false,
@@ -9904,7 +9937,7 @@
    },
    "composer": "Frédéric Chopin",
    "composerDates": "1810-1849",
-   "piece": "Chopin – Piano Concerto No. 1 in E minor, Op. 11",
+   "piece": "Chopin – Concerto for Piano and Orchestra no. 1 in E minor, Op. 11",
    "work": "Chopin – Piano Concerto No. 1 in E minor, Op. 11",
    "part": "Romance",
    "arranged": true,
@@ -9936,7 +9969,7 @@
    },
    "composer": "Frédéric Chopin",
    "composerDates": "1810-1849",
-   "piece": "Chopin – Piano Concerto No. 1 in E minor, Op. 11",
+   "piece": "Chopin – Concerto for Piano and Orchestra no. 1 in E minor, Op. 11",
    "work": "Chopin – Piano Concerto No. 1 in E minor, Op. 11",
    "part": "Allegro maestoso",
    "arranged": true,
@@ -10000,7 +10033,7 @@
    },
    "composer": "Christian Sinding",
    "composerDates": "1856-1941",
-   "piece": "Sinding – Stücke, Op. 32",
+   "piece": "Sinding – Sechs Stücke für das Pianoforte opus 32",
    "work": "Sinding – Stücke, Op. 32",
    "part": "Marche grotesque",
    "arranged": false,
@@ -10166,7 +10199,7 @@
    },
    "composer": "Christian Sinding",
    "composerDates": "1856-1941",
-   "piece": "Sinding – Stücke, Op. 32",
+   "piece": "Sinding – Sechs Stücke für das Pianoforte opus 32",
    "work": "Sinding – Stücke, Op. 32",
    "part": "Frühlingsrauschen",
    "arranged": false,
@@ -10425,7 +10458,7 @@
    },
    "composer": "Frédéric Chopin",
    "composerDates": "1810-1849",
-   "piece": "Chopin – Étude, Op. 10 No. 3",
+   "piece": "Chopin – Étude Op. 10, No. 3",
    "work": "Chopin – Étude, Op. 10 No. 3",
    "part": "",
    "arranged": false,
@@ -10489,7 +10522,7 @@
    },
    "composer": "Robert Schumann",
    "composerDates": "1810-1856",
-   "piece": "Schumann – Études symphoniques",
+   "piece": "Schumann – Symphonic Studies",
    "work": "Schumann – Études symphoniques",
    "part": "selections",
    "arranged": false,
@@ -10505,7 +10538,7 @@
    "source": "https://purl.stanford.edu/qw257qp8232",
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
-   "pieceKey": "schumann|t|etude symphonique",
+   "pieceKey": "schumann|t|studie symphonic",
    "movement": "selections",
    "genre": "Piano music",
    "composerFame": "famous",
@@ -10521,7 +10554,7 @@
    },
    "composer": "Camille Saint-Saëns",
    "composerDates": "1835-1921",
-   "piece": "Saint-Saëns – Samson et Dalila",
+   "piece": "Saint-Saëns – Samson and Delilah",
    "work": "Saint-Saëns – Samson et Dalila",
    "part": "Printemps qui commence",
    "arranged": true,
@@ -10537,7 +10570,7 @@
    "source": "https://purl.stanford.edu/qz155gk0442",
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
-   "pieceKey": "saint-saens|t|dalila samson",
+   "pieceKey": "saint-saens|t|delilah samson",
    "movement": "Printemps qui commence",
    "genre": "Opera & stage",
    "composerFame": "famous",
@@ -10649,7 +10682,7 @@
    },
    "composer": "Franz Schubert",
    "composerDates": "1797-1828",
-   "piece": "Schubert – Marche militaire",
+   "piece": "Schubert – Three Marches Militaires",
    "work": "Schubert – Marche militaire",
    "part": "",
    "arranged": true,
@@ -10809,7 +10842,7 @@
    },
    "composer": "Arthur Sullivan",
    "composerDates": "1842-1900",
-   "piece": "Sullivan – Gondoliers",
+   "piece": "Sullivan – The Gondoliers",
    "work": "Sullivan – Gondoliers",
    "part": "selections",
    "arranged": true,
@@ -10841,7 +10874,7 @@
    },
    "composer": "Frédéric Chopin",
    "composerDates": "1810-1849",
-   "piece": "Chopin – Nocturne, Op. 37 No. 2",
+   "piece": "Chopin – Nocturne No. 12 in G major, Op. 37, No. 2",
    "work": "Chopin – Nocturne, Op. 37 No. 2",
    "part": "",
    "arranged": false,
@@ -10937,7 +10970,7 @@
    },
    "composer": "Johann Strauss",
    "composerDates": "1825-1899",
-   "piece": "Strauss – An der schönen, blauen Donau",
+   "piece": "Strauss – The Blue Danube",
    "work": "Strauss – An der schönen, blauen Donau",
    "part": "",
    "arranged": true,
@@ -10953,9 +10986,9 @@
    "source": "https://purl.stanford.edu/rn154dd5329",
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
-   "pieceKey": "strauss|t|blauen der donau schonen",
+   "pieceKey": "strauss|t|blue danube",
    "movement": "",
-   "genre": "Piano music",
+   "genre": "Orchestral",
    "composerFame": "famous",
    "performerFame": "obscure"
   },
@@ -10969,7 +11002,7 @@
    },
    "composer": "Richard Wagner",
    "composerDates": "1813-1883",
-   "piece": "Wagner – Meistersinger von Nürnberg",
+   "piece": "Wagner – Die Meistersinger von Nürnberg",
    "work": "Wagner – Meistersinger von Nürnberg",
    "part": "Am stillen Herd",
    "arranged": true,
@@ -11001,7 +11034,7 @@
    },
    "composer": "Frédéric Chopin",
    "composerDates": "1810-1849",
-   "piece": "Chopin – Nocturne, Op. 27 No. 2",
+   "piece": "Chopin – Nocturne No. 8 in D-flat major, Op. 27, No. 2",
    "work": "Chopin – Nocturne, Op. 27 No. 2",
    "part": "",
    "arranged": false,
@@ -11161,7 +11194,7 @@
    },
    "composer": "Engelbert Humperdinck",
    "composerDates": "1854-1921",
-   "piece": "Humperdinck – Hänsel und Gretel",
+   "piece": "Humperdinck – Hänsel und Gretel Suite",
    "work": "Humperdinck – Hänsel und Gretel",
    "part": "Traum-Pantomim",
    "arranged": true,
@@ -11209,7 +11242,7 @@
    "source": "https://purl.stanford.edu/rt595wj4442",
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
-   "pieceKey": "schumann|op54|",
+   "pieceKey": "schumann|t|concerto",
    "movement": "Allegro affettuoso",
    "genre": "Orchestral",
    "composerFame": "famous",
@@ -11353,7 +11386,7 @@
    },
    "composer": "Jean Gilbert",
    "composerDates": "1879-1942",
-   "piece": "Gilbert – Keusche Susanne",
+   "piece": "Gilbert – Die keusche Susanne",
    "work": "Gilbert – Keusche Susanne",
    "part": "",
    "arranged": true,
@@ -11417,7 +11450,7 @@
    },
    "composer": "Gioacchino Rossini",
    "composerDates": "1792-1868",
-   "piece": "Rossini – Guillaume Tell",
+   "piece": "Rossini – William Tell",
    "work": "Rossini – Guillaume Tell",
    "part": "Ouverture",
    "arranged": true,
@@ -11433,7 +11466,7 @@
    "source": "https://purl.stanford.edu/sb158jt0685",
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
-   "pieceKey": "rossini|t|guillaume tell",
+   "pieceKey": "rossini|t|tell william",
    "movement": "Ouverture",
    "genre": "Opera & stage",
    "composerFame": "famous",
@@ -11545,7 +11578,7 @@
    },
    "composer": "James A. Bland",
    "composerDates": "",
-   "piece": "Bland – Carry me back to ole Virginny",
+   "piece": "Bland – Carry Me Back to Old Virginny",
    "work": "Bland – Carry me back to ole Virginny",
    "part": "",
    "arranged": false,
@@ -11705,7 +11738,7 @@
    },
    "composer": "Johann Strauss",
    "composerDates": "1825-1899",
-   "piece": "Strauss – Wiener Blut (Waltz)",
+   "piece": "Strauss – Wiener Blut",
    "work": "Strauss – Wiener Blut (Waltz)",
    "part": "",
    "arranged": true,
@@ -11801,7 +11834,7 @@
    },
    "composer": "Frédéric Chopin",
    "composerDates": "1810-1849",
-   "piece": "Chopin – Polonaise in A♭ major, Op. 53",
+   "piece": "Chopin – Polonaise in A-flat major \"Heroic\", Op. 53",
    "work": "Chopin – Polonaise in A♭ major, Op. 53",
    "part": "",
    "arranged": false,
@@ -11833,7 +11866,7 @@
    },
    "composer": "Frédéric Chopin",
    "composerDates": "1810-1849",
-   "piece": "Chopin – Prelude, Op. 28",
+   "piece": "Chopin – 24 Preludes Op. 28",
    "work": "Chopin – Prelude, Op. 28",
    "part": "selections",
    "arranged": false,
@@ -12057,7 +12090,7 @@
    },
    "composer": "Frédéric Chopin",
    "composerDates": "1810-1849",
-   "piece": "Chopin – Étude, Op. 10 No. 5",
+   "piece": "Chopin – Étude Op. 10, No. 5",
    "work": "Chopin – Étude, Op. 10 No. 5",
    "part": "",
    "arranged": false,
@@ -12089,7 +12122,7 @@
    },
    "composer": "Frédéric Chopin",
    "composerDates": "1810-1849",
-   "piece": "Chopin – Nocturne, Op. 37 No. 2",
+   "piece": "Chopin – Nocturne No. 12 in G major, Op. 37, No. 2",
    "work": "Chopin – Nocturne, Op. 37 No. 2",
    "part": "",
    "arranged": false,
@@ -12153,7 +12186,7 @@
    },
    "composer": "Vincent Youmans",
    "composerDates": "1898-1946",
-   "piece": "Youmans – No, no, Nanette",
+   "piece": "Youmans – No, No, Nanette",
    "work": "Youmans – No, no, Nanette",
    "part": "Tea for two",
    "arranged": true,
@@ -12505,7 +12538,7 @@
    },
    "composer": "Claude Debussy",
    "composerDates": "1862-1918",
-   "piece": "Debussy – Prelude",
+   "piece": "Debussy – Préludes",
    "work": "Debussy – Prelude",
    "part": "selections",
    "arranged": false,
@@ -12569,7 +12602,7 @@
    },
    "composer": "Jacques Offenbach",
    "composerDates": "1819-1880",
-   "piece": "Offenbach – Contes d'Hoffmann",
+   "piece": "Offenbach – The Tales of Hoffmann",
    "work": "Offenbach – Contes d'Hoffmann",
    "part": "selections",
    "arranged": true,
@@ -12585,7 +12618,7 @@
    "source": "https://purl.stanford.edu/tr981xw2871",
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
-   "pieceKey": "offenbach|t|conte hoffmann",
+   "pieceKey": "offenbach|t|hoffmann tale",
    "movement": "selections",
    "genre": "Opera & stage",
    "composerFame": "famous",
@@ -12729,7 +12762,7 @@
    },
    "composer": "Frédéric Chopin",
    "composerDates": "1810-1849",
-   "piece": "Chopin – Nocturne, Op. 15 No. 2",
+   "piece": "Chopin – Nocturne No. 5 in F-sharp major, Op. 15, No. 2",
    "work": "Chopin – Nocturne, Op. 15 No. 2",
    "part": "",
    "arranged": false,
@@ -12857,7 +12890,7 @@
    },
    "composer": "Richard Wagner",
    "composerDates": "1813-1883",
-   "piece": "Wagner – Ring des Nibelungen",
+   "piece": "Wagner – Der Ring des Nibelungen",
    "work": "Wagner – Ring des Nibelungen",
    "part": "Siegfried. Waldweben",
    "arranged": true,
@@ -13035,7 +13068,7 @@
    "source": "https://purl.stanford.edu/vm096df0179",
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
-   "pieceKey": "schumann|op17|",
+   "pieceKey": "schumann|t|fantasie",
    "movement": "Langsam getragen--Durchweg leise zu halten",
    "genre": "Piano music",
    "composerFame": "famous",
@@ -13083,7 +13116,7 @@
    },
    "composer": "Frédéric Chopin",
    "composerDates": "1810-1849",
-   "piece": "Chopin – Nocturne, Op. 15 No. 2",
+   "piece": "Chopin – Nocturne No. 5 in F-sharp major, Op. 15, No. 2",
    "work": "Chopin – Nocturne, Op. 15 No. 2",
    "part": "",
    "arranged": false,
@@ -13243,7 +13276,7 @@
    },
    "composer": "Frédéric Chopin",
    "composerDates": "1810-1849",
-   "piece": "Chopin – Nocturne, Op. 27 No. 2",
+   "piece": "Chopin – Nocturne No. 8 in D-flat major, Op. 27, No. 2",
    "work": "Chopin – Nocturne, Op. 27 No. 2",
    "part": "",
    "arranged": false,
@@ -13275,7 +13308,7 @@
    },
    "composer": "Aleksandr Konstantinovich Glazunov",
    "composerDates": "1865-1936",
-   "piece": "Glazunov – Raĭmonda",
+   "piece": "Glazunov – Raymonda",
    "work": "Glazunov – Raĭmonda",
    "part": "selections",
    "arranged": true,
@@ -13339,7 +13372,7 @@
    },
    "composer": "Frédéric Chopin",
    "composerDates": "1810-1849",
-   "piece": "Chopin – Waltz in A♭ major, Op. 42",
+   "piece": "Chopin – Waltz No. 5 in A-flat major, Op. 42",
    "work": "Chopin – Waltz in A♭ major, Op. 42",
    "part": "",
    "arranged": false,
@@ -13371,7 +13404,7 @@
    },
    "composer": "Franz Liszt",
    "composerDates": "1811-1886",
-   "piece": "Liszt – Piano Sonata in B minor",
+   "piece": "Liszt – Piano Sonata in B Minor, S. 178",
    "work": "Liszt – Piano Sonata in B minor",
    "part": "selections",
    "arranged": false,
@@ -13403,7 +13436,7 @@
    },
    "composer": "Frédéric Chopin",
    "composerDates": "1810-1849",
-   "piece": "Chopin – Prelude, Op. 28",
+   "piece": "Chopin – 24 Preludes Op. 28",
    "work": "Chopin – Prelude, Op. 28",
    "part": "selections",
    "arranged": false,
@@ -13563,7 +13596,7 @@
    },
    "composer": "Frédéric Chopin",
    "composerDates": "1810-1849",
-   "piece": "Chopin – Étude, Op. 10 No. 5",
+   "piece": "Chopin – Étude Op. 10, No. 5",
    "work": "Chopin – Étude, Op. 10 No. 5",
    "part": "",
    "arranged": false,
@@ -13595,7 +13628,7 @@
    },
    "composer": "Johannes Brahms",
    "composerDates": "1833-1897",
-   "piece": "Brahms – Stücke, Op. 119, C major",
+   "piece": "Brahms – Four Pieces for Piano, Op. 119",
    "work": "Brahms – Stücke, Op. 119, C major",
    "part": "Intermezzo",
    "arranged": false,
@@ -13627,7 +13660,7 @@
    },
    "composer": "Frédéric Chopin",
    "composerDates": "1810-1849",
-   "piece": "Chopin – Mazurka, Op. 17 No. 4",
+   "piece": "Chopin – Mazurka no. 13 in A minor, Op. 17 no. 4",
    "work": "Chopin – Mazurka, Op. 17 No. 4",
    "part": "",
    "arranged": false,
@@ -14075,7 +14108,7 @@
    },
    "composer": "Frédéric Chopin",
    "composerDates": "1810-1849",
-   "piece": "Chopin – Śpiewy polskie",
+   "piece": "Chopin – Pieśni, Op. posth. 74",
    "work": "Chopin – Śpiewy polskie",
    "part": "Meine Freuden",
    "arranged": true,
@@ -14091,8 +14124,29 @@
    "source": "https://purl.stanford.edu/ww627mg3287",
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
-   "pieceKey": "chopin|t|polskie spiewy",
+   "pieceKey": "chopin|op74|",
    "movement": "Meine Freuden",
+   "acceptKeys": [
+    "chopin|t|11 czary iva kk",
+    "chopin|t|9 dumka ivb kk",
+    "chopin|t|ch opiec sliczny",
+    "chopin|t|czego ma nie trzeba",
+    "chopin|t|dwojaki koniec",
+    "chopin|t|gdzie lubi",
+    "chopin|t|hulanka",
+    "chopin|t|litewska piosnka",
+    "chopin|t|melodia",
+    "chopin|t|mogi spiew",
+    "chopin|t|moich oczu precz",
+    "chopin|t|moja pieszczotka",
+    "chopin|t|narzeczony",
+    "chopin|t|pierscien",
+    "chopin|t|pose",
+    "chopin|t|rzeka smutna",
+    "chopin|t|wiosna",
+    "chopin|t|wojak",
+    "chopin|t|zyczenie"
+   ],
    "genre": "Piano music",
    "composerFame": "famous",
    "performerFame": "famous"
@@ -14139,7 +14193,7 @@
    },
    "composer": "Frédéric Chopin",
    "composerDates": "1810-1849",
-   "piece": "Chopin – Nocturne, Op. 15 No. 2",
+   "piece": "Chopin – Nocturne No. 5 in F-sharp major, Op. 15, No. 2",
    "work": "Chopin – Nocturne, Op. 15 No. 2",
    "part": "",
    "arranged": false,
@@ -14171,7 +14225,7 @@
    },
    "composer": "Frédéric Chopin",
    "composerDates": "1810-1849",
-   "piece": "Chopin – Scherzo No. 4 in E major, Op. 54",
+   "piece": "Chopin – Scherzo no. 4 in E major, Op. 54",
    "work": "Chopin – Scherzo No. 4 in E major, Op. 54",
    "part": "",
    "arranged": false,
@@ -14203,7 +14257,7 @@
    },
    "composer": "Arthur Sullivan",
    "composerDates": "1842-1900",
-   "piece": "Sullivan – Mikado",
+   "piece": "Sullivan – The Mikado",
    "work": "Sullivan – Mikado",
    "part": "selections",
    "arranged": true,
@@ -14299,7 +14353,7 @@
    },
    "composer": "Walter Blaufuss",
    "composerDates": "1883-1945",
-   "piece": "Blaufuss – My isle of golden dreams",
+   "piece": "Blaufuss – My Isle of Golden Dreams",
    "work": "Blaufuss – My isle of golden dreams",
    "part": "",
    "arranged": false,
@@ -14363,7 +14417,7 @@
    },
    "composer": "Robert Schumann",
    "composerDates": "1810-1856",
-   "piece": "Schumann – Waldscenen",
+   "piece": "Schumann – Waldszenen",
    "work": "Schumann – Waldscenen",
    "part": "Vogel als Prophet",
    "arranged": false,
@@ -14427,7 +14481,7 @@
    },
    "composer": "Johannes Brahms",
    "composerDates": "1833-1897",
-   "piece": "Brahms – Waltz, Op. 39",
+   "piece": "Brahms – Sixteen Waltzes, Op. 39",
    "work": "Brahms – Waltz, Op. 39",
    "part": "selections",
    "arranged": true,
@@ -14875,7 +14929,7 @@
    },
    "composer": "Cécile Chaminade",
    "composerDates": "1857-1944",
-   "piece": "Chaminade – Callirhoé",
+   "piece": "Chaminade – Callirhoë",
    "work": "Chaminade – Callirhoé",
    "part": "Danse d'écharpe",
    "arranged": false,
@@ -15121,7 +15175,7 @@
    },
    "composer": "Frédéric Chopin",
    "composerDates": "1810-1849",
-   "piece": "Chopin – Piano Concerto No. 1 in E minor, Op. 11",
+   "piece": "Chopin – Concerto for Piano and Orchestra no. 1 in E minor, Op. 11",
    "work": "Chopin – Piano Concerto No. 1 in E minor, Op. 11",
    "part": "Rondo",
    "arranged": true,
@@ -15233,7 +15287,7 @@
    "source": "https://purl.stanford.edu/ym773gh2267",
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
-   "pieceKey": "grieg|op16|",
+   "pieceKey": "grieg|t|concerto",
    "movement": "Allegro molto moderato",
    "genre": "Orchestral",
    "composerFame": "famous",
@@ -15329,7 +15383,7 @@
    "source": "https://purl.stanford.edu/yr522jf5585",
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
-   "pieceKey": "grieg|op16|",
+   "pieceKey": "grieg|t|concerto",
    "movement": "Allegro molto moderato",
    "genre": "Orchestral",
    "composerFame": "famous",
@@ -15409,7 +15463,7 @@
    },
    "composer": "Franz Liszt",
    "composerDates": "1811-1886",
-   "piece": "Liszt – Études d'exécution transcendante, No 9",
+   "piece": "Liszt – Transcendental Étude No. 9",
    "work": "Liszt – Études d'exécution transcendante, No 9",
    "part": "Ricordanza",
    "arranged": false,
@@ -15473,7 +15527,7 @@
    },
    "composer": "Johannes Brahms",
    "composerDates": "1833-1897",
-   "piece": "Brahms – Waltz, Op. 39",
+   "piece": "Brahms – Sixteen Waltzes, Op. 39",
    "work": "Brahms – Waltz, Op. 39",
    "part": "selections",
    "arranged": true,
@@ -15505,7 +15559,7 @@
    },
    "composer": "Franz Schubert",
    "composerDates": "1797-1828",
-   "piece": "Schubert – Du bist die Ruh",
+   "piece": "Schubert – Du bist die Ruh'",
    "work": "Schubert – Du bist die Ruh",
    "part": "",
    "arranged": true,
@@ -15665,7 +15719,7 @@
    },
    "composer": "Frédéric Chopin",
    "composerDates": "1810-1849",
-   "piece": "Chopin – Andante spianato et Grande polonaise brillante",
+   "piece": "Chopin – Andante spianato et grande polonaise brillante",
    "work": "Chopin – Andante spianato et Grande polonaise brillante",
    "part": "Grande polonaise brillante",
    "arranged": false,
@@ -15761,7 +15815,7 @@
    },
    "composer": "Edvard Grieg",
    "composerDates": "1843-1907",
-   "piece": "Grieg – Lyriske stykker, Op. 43",
+   "piece": "Grieg – Lyric Pieces, Op. 43",
    "work": "Grieg – Lyriske stykker, Op. 43",
    "part": "Småfugl",
    "arranged": false,
@@ -15779,6 +15833,10 @@
    "famous": false,
    "pieceKey": "grieg|op43|",
    "movement": "Småfugl",
+   "acceptKeys": [
+    "grieg|t|at day troldhaugen wedding",
+    "grieg|t|march troll"
+   ],
    "genre": "Piano music",
    "composerFame": "famous",
    "performerFame": "famous"
@@ -15841,7 +15899,7 @@
    "source": "https://purl.stanford.edu/zk440mh1715",
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
-   "pieceKey": "liszt|t|2 hungarian roidy",
+   "pieceKey": "liszt|t|2 hungarian rhapsody",
    "movement": "",
    "genre": "Piano music",
    "composerFame": "famous",
@@ -15889,7 +15947,7 @@
    },
    "composer": "Gabriel Pierné",
    "composerDates": "1863-1937",
-   "piece": "Pierné – Serenades, Op. 7",
+   "piece": "Pierné – Sérénade, Op. 7",
    "work": "Pierné – Serenades, Op. 7",
    "part": "",
    "arranged": true,
@@ -15921,7 +15979,7 @@
    },
    "composer": "Arthur Sullivan",
    "composerDates": "1842-1900",
-   "piece": "Sullivan – Mikado",
+   "piece": "Sullivan – The Mikado",
    "work": "Sullivan – Mikado",
    "part": "selections",
    "arranged": true,
@@ -15953,7 +16011,7 @@
    },
    "composer": "Frédéric Chopin",
    "composerDates": "1810-1849",
-   "piece": "Chopin – Piano Concerto No. 1 in E minor, Op. 11",
+   "piece": "Chopin – Concerto for Piano and Orchestra no. 1 in E minor, Op. 11",
    "work": "Chopin – Piano Concerto No. 1 in E minor, Op. 11",
    "part": "Romance",
    "arranged": true,
@@ -16241,7 +16299,7 @@
    },
    "composer": "Frédéric Chopin",
    "composerDates": "1810-1849",
-   "piece": "Chopin – Waltz, Op. 70 No. 1",
+   "piece": "Chopin – Waltz No. 11 in G-flat major, Op. 70, No. 1",
    "work": "Chopin – Waltz, Op. 70 No. 1",
    "part": "",
    "arranged": false,
@@ -16273,7 +16331,7 @@
    },
    "composer": "Frédéric Chopin",
    "composerDates": "1810-1849",
-   "piece": "Chopin – Scherzo No. 3 in C♯ minor, Op. 39",
+   "piece": "Chopin – Scherzo no. 3 in C-sharp minor, Op. 39",
    "work": "Chopin – Scherzo No. 3 in C♯ minor, Op. 39",
    "part": "",
    "arranged": false,
@@ -17148,7 +17206,7 @@
    "composer": "J. S. Fearis",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Fearis – Beautiful Isle of Somewhere",
+   "piece": "Fearis – Droomland",
    "work": "Fearis – Beautiful Isle of Somewhere",
    "part": "",
    "title": "Beautiful Isle of Somewhere",
@@ -17165,7 +17223,7 @@
    "license": "Public domain (US)",
    "genreHint": "Songs",
    "famous": false,
-   "pieceKey": "fearis|t|beautiful isle somewhere",
+   "pieceKey": "fearis|t|droomland",
    "movement": "",
    "genre": "Songs",
    "composerFame": "obscure",
@@ -19084,7 +19142,7 @@
    "composer": "Gus Edwards",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Edwards – By the light of the silv'ry moon",
+   "piece": "Edwards – By the Light of the Silvery Moon",
    "work": "Edwards – By the light of the silv'ry moon",
    "part": "",
    "title": "By the light of the silv'ry moon",
@@ -19396,7 +19454,7 @@
    "composer": "Franz Lehár",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Lehár – Merry widow waltz",
+   "piece": "Lehár – The Merry Widow",
    "work": "Lehár – Merry widow waltz",
    "part": "",
    "title": "Merry widow waltz",
@@ -20498,7 +20556,7 @@
    "composer": "Gioacchino Rossini",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Rossini – William Tell fantasie",
+   "piece": "Rossini – William Tell",
    "work": "Rossini – William Tell fantasie",
    "part": "",
    "title": "William Tell fantasie",
@@ -21160,7 +21218,7 @@
    "composer": "Michael Arne",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Arne – The lass with the delicate air",
+   "piece": "Arne – Lass with the delicate air",
    "work": "Arne – The lass with the delicate air",
    "part": "",
    "title": "The lass with the delicate air",
@@ -21882,7 +21940,7 @@
    "composer": "Jacques Offenbach",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Offenbach – Melody from 'La belle Helene'",
+   "piece": "Offenbach – La Belle Hélène",
    "work": "Offenbach – Melody from 'La belle Helene'",
    "part": "",
    "title": "Melody from 'La belle Helene'",
@@ -22268,7 +22326,7 @@
    "composer": "H. P. Danks",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Danks – Silver threads among the gold",
+   "piece": "Danks – Silver Threads Among the Gold",
    "work": "Danks – Silver threads among the gold",
    "part": "",
    "title": "Silver threads among the gold",
@@ -22660,7 +22718,7 @@
    "otherComposers": [
     "Roy Webb"
    ],
-   "piece": "Hein – When dreams come true",
+   "piece": "Hein – When Dreams Come True",
    "work": "Hein – When dreams come true",
    "part": "",
    "title": "When dreams come true",
@@ -23186,7 +23244,7 @@
    "composer": "H. P. Danks",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Danks – Silver threads among the gold",
+   "piece": "Danks – Silver Threads Among the Gold",
    "work": "Danks – Silver threads among the gold",
    "part": "",
    "title": "Silver threads among the gold",
@@ -23224,7 +23282,7 @@
    "composer": "H. P. Danks",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Danks – Silver threads among the gold",
+   "piece": "Danks – Silver Threads Among the Gold",
    "work": "Danks – Silver threads among the gold",
    "part": "",
    "title": "Silver threads among the gold",
@@ -23666,7 +23724,7 @@
    "composer": "Charles Gounod",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Gounod – Nazareth",
+   "piece": "Gounod – Jésus de Nazareth",
    "work": "Gounod – Nazareth",
    "part": "",
    "title": "Nazareth",
@@ -23683,7 +23741,7 @@
    "license": "Public domain (US)",
    "genreHint": "Songs",
    "famous": false,
-   "pieceKey": "gounod|t|nazareth",
+   "pieceKey": "gounod|t|jesu nazareth",
    "movement": "",
    "genre": "Songs",
    "composerFame": "famous",
@@ -24066,7 +24124,7 @@
    "composer": "Wolfgang Amadeus Mozart",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Mozart – Jupiter symphony",
+   "piece": "Mozart – Symphony No. 41",
    "work": "Mozart – Jupiter symphony",
    "part": "",
    "title": "Jupiter symphony",
@@ -24083,7 +24141,7 @@
    "license": "Public domain (US)",
    "genreHint": "Orchestral",
    "famous": false,
-   "pieceKey": "mozart|t|jupiter symphony",
+   "pieceKey": "mozart|t|41 symphony",
    "movement": "",
    "genre": "Orchestral",
    "composerFame": "famous",
@@ -24106,7 +24164,7 @@
    "composer": "Wolfgang Amadeus Mozart",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Mozart – Jupiter symphony",
+   "piece": "Mozart – Symphony No. 41",
    "work": "Mozart – Jupiter symphony",
    "part": "",
    "title": "Jupiter symphony",
@@ -24123,7 +24181,7 @@
    "license": "Public domain (US)",
    "genreHint": "Orchestral",
    "famous": false,
-   "pieceKey": "mozart|t|jupiter symphony",
+   "pieceKey": "mozart|t|41 symphony",
    "movement": "",
    "genre": "Orchestral",
    "composerFame": "famous",
@@ -24614,7 +24672,7 @@
    "composer": "Eduardo Di Capua",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Di Capua – O sole mio",
+   "piece": "Di Capua – 'O Sole Mio",
    "work": "Di Capua – O sole mio",
    "part": "",
    "title": "O sole mio",
@@ -24930,7 +24988,7 @@
    "composer": "Gioacchino Rossini",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Rossini – William Tell overture",
+   "piece": "Rossini – William Tell Overture",
    "work": "Rossini – William Tell overture",
    "part": "",
    "title": "William Tell overture",
@@ -24970,7 +25028,7 @@
    "composer": "Gioacchino Rossini",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Rossini – William Tell overture",
+   "piece": "Rossini – William Tell Overture",
    "work": "Rossini – William Tell overture",
    "part": "",
    "title": "William Tell overture",
@@ -25764,7 +25822,7 @@
    "otherComposers": [
     "André Ernest Modeste Grétry"
    ],
-   "piece": "Mozart – Les petits riens (Gavotte)",
+   "piece": "Mozart – Les petits riens",
    "work": "Mozart – Les petits riens (Gavotte)",
    "part": "",
    "title": "Les petits riens (Gavotte)",
@@ -26208,7 +26266,7 @@
    "composer": "Gioacchino Rossini",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Rossini – William Tell overture",
+   "piece": "Rossini – William Tell Overture",
    "work": "Rossini – William Tell overture",
    "part": "",
    "title": "William Tell overture",
@@ -26248,7 +26306,7 @@
    "composer": "Gioacchino Rossini",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Rossini – William Tell overture",
+   "piece": "Rossini – William Tell Overture",
    "work": "Rossini – William Tell overture",
    "part": "",
    "title": "William Tell overture",
@@ -27010,7 +27068,7 @@
    "composer": "Felix Mendelssohn-Bartholdy",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Mendelssohn-Bartholdy – Hope",
+   "piece": "Mendelssohn-Bartholdy – Andante Op. 38 no. 4",
    "work": "Mendelssohn-Bartholdy – Hope",
    "part": "",
    "title": "Hope",
@@ -27027,7 +27085,7 @@
    "license": "Public domain (US)",
    "genreHint": "Instrumental solos",
    "famous": false,
-   "pieceKey": "mendelssohn-bartholdy|t|hope",
+   "pieceKey": "mendelssohn-bartholdy|op38|4",
    "movement": "",
    "genre": "Instrumental solos",
    "composerFame": "famous",
@@ -27614,7 +27672,7 @@
    "composer": "Gabriel-Marie",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Gabriel-Marie – La cinquantaine",
+   "piece": "Gabriel-Marie – The Golden Wedding",
    "work": "Gabriel-Marie – La cinquantaine",
    "part": "",
    "title": "La cinquantaine",
@@ -27631,7 +27689,7 @@
    "license": "Public domain (US)",
    "genreHint": "Orchestral",
    "famous": false,
-   "pieceKey": "gabriel-marie|t|cinquantaine",
+   "pieceKey": "gabriel-marie|t|golden wedding",
    "movement": "",
    "genre": "Orchestral",
    "composerFame": "obscure",
@@ -27846,7 +27904,7 @@
    "composer": "Fred Fisher",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Fisher – Oui, oui, Marie",
+   "piece": "Fisher – Oui, Oui, Marie",
    "work": "Fisher – Oui, oui, Marie",
    "part": "",
    "title": "Oui, oui, Marie",
@@ -28176,7 +28234,7 @@
    "composer": "Carl Maria von Weber",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Weber – Andante e rondo",
+   "piece": "Weber – Andante e Rondo ungarese",
    "work": "Weber – Andante e rondo",
    "part": "",
    "title": "Andante e rondo",
@@ -29112,7 +29170,7 @@
    "composer": "Wolfgang Amadeus Mozart",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Mozart – Magic flute : Overture",
+   "piece": "Mozart – The Magic Flute",
    "work": "Mozart – Magic flute : Overture",
    "part": "",
    "title": "Magic flute : Overture",
@@ -29152,7 +29210,7 @@
    "composer": "Wolfgang Amadeus Mozart",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Mozart – Magic flute : Overture",
+   "piece": "Mozart – The Magic Flute",
    "work": "Mozart – Magic flute : Overture",
    "part": "",
    "title": "Magic flute : Overture",
@@ -30582,7 +30640,7 @@
    "composer": "Giuseppe Verdi",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Verdi – Brinidisi",
+   "piece": "Verdi – Brindisi",
    "work": "Verdi – Brinidisi",
    "part": "",
    "title": "Brinidisi",
@@ -30778,7 +30836,7 @@
    "composer": "Juventino Rosas",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Rosas – Sobre las olas",
+   "piece": "Rosas – Sobre las Olas",
    "work": "Rosas – Sobre las olas",
    "part": "",
    "title": "Sobre las olas",
@@ -30896,7 +30954,7 @@
    "composer": "Johann Strauss",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Strauss – Blue Danube waltz",
+   "piece": "Strauss – The Blue Danube",
    "work": "Strauss – Blue Danube waltz",
    "part": "",
    "title": "Blue Danube waltz",
@@ -31128,7 +31186,7 @@
    "composer": "Johann Strauss",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Strauss – Blue Danube waltz",
+   "piece": "Strauss – The Blue Danube",
    "work": "Strauss – Blue Danube waltz",
    "part": "",
    "title": "Blue Danube waltz",
@@ -31168,7 +31226,7 @@
    "composer": "Johann Strauss",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Strauss – Blue Danube waltz",
+   "piece": "Strauss – The Blue Danube",
    "work": "Strauss – Blue Danube waltz",
    "part": "",
    "title": "Blue Danube waltz",
@@ -31512,7 +31570,7 @@
    "composer": "Peter Ilich Tchaikovsky",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Tchaikovsky – Eugene Onegin : Aria",
+   "piece": "Tchaikovsky – Eugene Onegin",
    "work": "Tchaikovsky – Eugene Onegin : Aria",
    "part": "",
    "title": "Eugene Onegin : Aria",
@@ -31860,7 +31918,7 @@
    "composer": "Victor Herbert",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Herbert – Mlle. Modiste waltzes",
+   "piece": "Herbert – Mlle. Modiste",
    "work": "Herbert – Mlle. Modiste waltzes",
    "part": "",
    "title": "Mlle. Modiste waltzes",
@@ -32636,7 +32694,7 @@
    "composer": "Robert Schumann",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Schumann – The two grenadiers",
+   "piece": "Schumann – Beiden Grenadiere",
    "work": "Schumann – The two grenadiers",
    "part": "",
    "title": "The two grenadiers",
@@ -32653,7 +32711,7 @@
    "license": "Public domain (US)",
    "genreHint": "Songs",
    "famous": false,
-   "pieceKey": "schumann|t|grenadier two",
+   "pieceKey": "schumann|t|beiden grenadiere",
    "movement": "",
    "genre": "Songs",
    "composerFame": "famous",
@@ -32896,7 +32954,7 @@
    "composer": "Johann Strauss",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Strauss – Artist's life waltz",
+   "piece": "Strauss – Künstlerleben",
    "work": "Strauss – Artist's life waltz",
    "part": "",
    "title": "Artist's life waltz",
@@ -32913,7 +32971,7 @@
    "license": "Public domain (US)",
    "genreHint": "Instrumental solos",
    "famous": false,
-   "pieceKey": "strauss|t|artist life waltz",
+   "pieceKey": "strauss|t|kunstlerleben",
    "movement": "",
    "genre": "Instrumental solos",
    "composerFame": "famous",
@@ -33024,7 +33082,7 @@
    "composer": "Johann Strauss",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Strauss – Blue Danube waltz",
+   "piece": "Strauss – The Blue Danube",
    "work": "Strauss – Blue Danube waltz",
    "part": "",
    "title": "Blue Danube waltz",
@@ -33186,7 +33244,7 @@
    "composer": "Johann Strauss",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Strauss – Blue Danube waltz",
+   "piece": "Strauss – The Blue Danube",
    "work": "Strauss – Blue Danube waltz",
    "part": "",
    "title": "Blue Danube waltz",
@@ -34265,7 +34323,7 @@
    "composer": "Ivan Caryll",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Caryll – Pink lady waltzes",
+   "piece": "Caryll – The Pink Lady",
    "work": "Caryll – Pink lady waltzes",
    "part": "",
    "title": "Pink lady waltzes",
@@ -34571,7 +34629,7 @@
    "composer": "Ludwig van Beethoven",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Beethoven – Leonore overture, no. 3",
+   "piece": "Beethoven – Leonore Overture No. 3",
    "work": "Beethoven – Leonore overture, no. 3",
    "part": "",
    "title": "Leonore overture, no. 3",
@@ -34609,7 +34667,7 @@
    "composer": "Ludwig van Beethoven",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Beethoven – Leonore overture, no. 3",
+   "piece": "Beethoven – Leonore Overture No. 3",
    "work": "Beethoven – Leonore overture, no. 3",
    "part": "",
    "title": "Leonore overture, no. 3",
@@ -34647,7 +34705,7 @@
    "composer": "Ludwig van Beethoven",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Beethoven – Leonore overture, no. 3",
+   "piece": "Beethoven – Leonore Overture No. 3",
    "work": "Beethoven – Leonore overture, no. 3",
    "part": "",
    "title": "Leonore overture, no. 3",
@@ -35269,7 +35327,7 @@
    "composer": "Ermanno Wolf-Ferrari",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Wolf-Ferrari – Jewels of the Madonna : Intermezzo",
+   "piece": "Wolf-Ferrari – I gioielli della Madonna",
    "work": "Wolf-Ferrari – Jewels of the Madonna : Intermezzo",
    "part": "",
    "title": "Jewels of the Madonna : Intermezzo",
@@ -35286,7 +35344,7 @@
    "license": "Public domain (US)",
    "genreHint": "Opera & stage",
    "famous": false,
-   "pieceKey": "wolf-ferrari|t|intermezzo jewel madonna",
+   "pieceKey": "wolf-ferrari|t|della gioielli madonna",
    "movement": "",
    "genre": "Opera & stage",
    "composerFame": "known",
@@ -35505,7 +35563,7 @@
    "otherComposers": [
     "Edvard Grieg"
    ],
-   "piece": "Sinding – Rustle of spring [Fruhlingsrauschen]",
+   "piece": "Sinding – Frühlingsrauschen",
    "work": "Sinding – Rustle of spring [Fruhlingsrauschen]",
    "part": "",
    "title": "Rustle of spring [Fruhlingsrauschen]",
@@ -35522,7 +35580,7 @@
    "license": "Public domain (US)",
    "genreHint": "Piano music",
    "famous": false,
-   "pieceKey": "sinding|t|fruhlingsrauschen rustle spring",
+   "pieceKey": "sinding|t|fruhlingsrauschen",
    "movement": "",
    "genre": "Piano music",
    "composerFame": "known",
@@ -36641,7 +36699,7 @@
    "composer": "Franz Xaver Gruber",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Gruber – Stille Nacht, heilige Nacht",
+   "piece": "Gruber – Stille Nacht Heilige Nacht",
    "work": "Gruber – Stille Nacht, heilige Nacht",
    "part": "",
    "title": "Stille Nacht, heilige Nacht",
@@ -37189,7 +37247,7 @@
    "composer": "Franz Schubert",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Schubert – Musical moments",
+   "piece": "Schubert – Six moments musicaux",
    "work": "Schubert – Musical moments",
    "part": "",
    "title": "Musical moments",
@@ -37698,7 +37756,7 @@
    "composer": "Eduardo Di Capua",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Di Capua – O sole mio",
+   "piece": "Di Capua – 'O Sole Mio",
    "work": "Di Capua – O sole mio",
    "part": "",
    "title": "O sole mio",
@@ -37932,7 +37990,7 @@
    "composer": "Johann Strauss",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Strauss – Artist's life waltz",
+   "piece": "Strauss – Künstlerleben",
    "work": "Strauss – Artist's life waltz",
    "part": "",
    "title": "Artist's life waltz",
@@ -37949,7 +38007,7 @@
    "license": "Public domain (US)",
    "genreHint": "Orchestral",
    "famous": false,
-   "pieceKey": "strauss|t|artist life waltz",
+   "pieceKey": "strauss|t|kunstlerleben",
    "movement": "",
    "genre": "Orchestral",
    "composerFame": "famous",
@@ -38703,7 +38761,7 @@
    "composer": "George M. Cohan",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Cohan – Over there",
+   "piece": "Cohan – Over There",
    "work": "Cohan – Over there",
    "part": "",
    "title": "Over there",
@@ -40791,7 +40849,7 @@
    "composer": "Camille Saint-Saëns",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Saint-Saëns – Mon coeur s'ouvre a ta voix",
+   "piece": "Saint-Saëns – Mon cœur s'ouvre à ta voix",
    "work": "Saint-Saëns – Mon coeur s'ouvre a ta voix",
    "part": "",
    "title": "Mon coeur s'ouvre a ta voix",
@@ -41615,7 +41673,7 @@
    "composer": "Emanuele Nutile",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Nutile – Mamma mia, che vo sape",
+   "piece": "Nutile – Mamma mia che vo' sapé?!",
    "work": "Nutile – Mamma mia, che vo sape",
    "part": "",
    "title": "Mamma mia, che vo sape",
@@ -42385,7 +42443,7 @@
    "composer": "Robert Planquette",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Planquette – Le regiment de Sambre et Meuse",
+   "piece": "Planquette – Le Régiment de Sambre et Meuse",
    "work": "Planquette – Le regiment de Sambre et Meuse",
    "part": "",
    "title": "Le regiment de Sambre et Meuse",
@@ -42805,7 +42863,7 @@
    "composer": "Arthur Sullivan",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Sullivan – The lost chord",
+   "piece": "Sullivan – The Lost Chord",
    "work": "Sullivan – The lost chord",
    "part": "",
    "title": "The lost chord",
@@ -42965,7 +43023,7 @@
    "otherComposers": [
     "Carlo De Flaviis"
    ],
-   "piece": "Pennino – Pecche",
+   "piece": "Pennino – Pecchè?",
    "work": "Pennino – Pecche",
    "part": "",
    "title": "Pecche",
@@ -45365,7 +45423,7 @@
    "composer": "Camille Saint-Saëns",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Saint-Saëns – Mon coeur s'ouvre a ta voix",
+   "piece": "Saint-Saëns – Mon cœur s'ouvre à ta voix",
    "work": "Saint-Saëns – Mon coeur s'ouvre a ta voix",
    "part": "",
    "title": "Mon coeur s'ouvre a ta voix",
@@ -46557,7 +46615,7 @@
    "composer": "Robert Schumann",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Schumann – Les deux grenadiers",
+   "piece": "Schumann – Beiden Grenadiere",
    "work": "Schumann – Les deux grenadiers",
    "part": "",
    "title": "Les deux grenadiers",
@@ -46574,7 +46632,7 @@
    "license": "Public domain (US)",
    "genreHint": "Songs",
    "famous": false,
-   "pieceKey": "schumann|t|deux grenadier",
+   "pieceKey": "schumann|t|beiden grenadiere",
    "movement": "",
    "genre": "Songs",
    "composerFame": "famous",
@@ -47023,7 +47081,7 @@
    "composer": "Friedrich Silcher",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Silcher – Lorelei",
+   "piece": "Silcher – LORELEI",
    "work": "Silcher – Lorelei",
    "part": "",
    "title": "Lorelei",
@@ -48515,7 +48573,7 @@
    "composer": "Félicien David",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "David – Charmant oiseau",
+   "piece": "David – Charmant Oiseau",
    "work": "David – Charmant oiseau",
    "part": "",
    "title": "Charmant oiseau",
@@ -48975,7 +49033,7 @@
    "composer": "Charles Gounod",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Gounod – Le veau d'or",
+   "piece": "Gounod – Le veau d'or est toujours debout",
    "work": "Gounod – Le veau d'or",
    "part": "",
    "title": "Le veau d'or",
@@ -48992,7 +49050,7 @@
    "license": "Public domain (US)",
    "genreHint": "Opera & stage",
    "famous": false,
-   "pieceKey": "gounod|t|or veau",
+   "pieceKey": "gounod|t|debout est or toujour veau",
    "movement": "",
    "genre": "Opera & stage",
    "composerFame": "famous",
@@ -50588,7 +50646,7 @@
    "composer": "Camille Saint-Saëns",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Saint-Saëns – Mon coeur s'ouvre a ta voix",
+   "piece": "Saint-Saëns – Mon cœur s'ouvre à ta voix",
    "work": "Saint-Saëns – Mon coeur s'ouvre a ta voix",
    "part": "",
    "title": "Mon coeur s'ouvre a ta voix",
@@ -51134,7 +51192,7 @@
    "composer": "Claude Debussy",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Debussy – Nuit d'etoiles",
+   "piece": "Debussy – Nuit d'étoiles",
    "work": "Debussy – Nuit d'etoiles",
    "part": "",
    "title": "Nuit d'etoiles",
@@ -52442,7 +52500,7 @@
    "composer": "Bernhard Henrik Crusell",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Crusell – Hell dig, du hoga Nord!",
+   "piece": "Crusell – Hell dig, du höga Nord",
    "work": "Crusell – Hell dig, du hoga Nord!",
    "part": "",
    "title": "Hell dig, du hoga Nord!",
@@ -52902,7 +52960,7 @@
    "composer": "Charles Gounod",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Gounod – Le veau d'or",
+   "piece": "Gounod – Le veau d'or est toujours debout",
    "work": "Gounod – Le veau d'or",
    "part": "",
    "title": "Le veau d'or",
@@ -52919,7 +52977,7 @@
    "license": "Public domain (US)",
    "genreHint": "Opera & stage",
    "famous": false,
-   "pieceKey": "gounod|t|or veau",
+   "pieceKey": "gounod|t|debout est or toujour veau",
    "movement": "",
    "genre": "Opera & stage",
    "composerFame": "famous",
@@ -56208,7 +56266,7 @@
    "composer": "Félicien David",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "David – Charmant oiseau",
+   "piece": "David – Charmant Oiseau",
    "work": "David – Charmant oiseau",
    "part": "",
    "title": "Charmant oiseau",
@@ -56248,7 +56306,7 @@
    "composer": "Félicien David",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "David – Charmant oiseau",
+   "piece": "David – Charmant Oiseau",
    "work": "David – Charmant oiseau",
    "part": "",
    "title": "Charmant oiseau",
@@ -57610,7 +57668,7 @@
    "composer": "Hermann Löhr",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Löhr – Little grey home in the West",
+   "piece": "Löhr – Little Grey Home in the West",
    "work": "Löhr – Little grey home in the West",
    "part": "",
    "title": "Little grey home in the West",
@@ -58803,7 +58861,7 @@
    "composer": "Jules Massenet",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Massenet – Elegie",
+   "piece": "Massenet – Élégie",
    "work": "Massenet – Elegie",
    "part": "",
    "title": "Elegie",
@@ -59527,7 +59585,7 @@
    "composer": "Charles Gounod",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Gounod – O merveille!",
+   "piece": "Gounod – Mireille",
    "work": "Gounod – O merveille!",
    "part": "",
    "title": "O merveille!",
@@ -59607,7 +59665,7 @@
    "composer": "Edward Elgar",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Elgar – Salut d'amour",
+   "piece": "Elgar – Salut d'Amour",
    "work": "Elgar – Salut d'amour",
    "part": "",
    "title": "Salut d'amour",
@@ -60131,7 +60189,7 @@
    "composer": "Giuseppe Verdi",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Verdi – Dio che nell' alma infondere",
+   "piece": "Verdi – Dio, che nell’alma infondere amor…",
    "work": "Verdi – Dio che nell' alma infondere",
    "part": "",
    "title": "Dio che nell' alma infondere",
@@ -60483,7 +60541,7 @@
    "composer": "Richard Strauss",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Strauss – Standchen",
+   "piece": "Strauss – Ständchen",
    "work": "Strauss – Standchen",
    "part": "",
    "title": "Standchen",
@@ -62201,7 +62259,7 @@
    "composer": "Franz Schubert",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Schubert – Der Tod und das Madchen",
+   "piece": "Schubert – Der Tod und das Mädchen",
    "work": "Schubert – Der Tod und das Madchen",
    "part": "",
    "title": "Der Tod und das Madchen",
@@ -62892,7 +62950,7 @@
    "composer": "Benjamin Godard",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Godard – Viens avec nous",
+   "piece": "Godard – Viens avec nous, petit",
    "work": "Godard – Viens avec nous",
    "part": "",
    "title": "Viens avec nous",
@@ -63200,7 +63258,7 @@
    "composer": "Wolfgang Amadeus Mozart",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Mozart – Alleluja",
+   "piece": "Mozart – Alleluia",
    "work": "Mozart – Alleluja",
    "part": "",
    "title": "Alleluja",
@@ -65806,7 +65864,7 @@
    "composer": "Camille Saint-Saëns",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Saint-Saëns – Mon coeur s'ouvre a ta voix",
+   "piece": "Saint-Saëns – Mon cœur s'ouvre à ta voix",
    "work": "Saint-Saëns – Mon coeur s'ouvre a ta voix",
    "part": "",
    "title": "Mon coeur s'ouvre a ta voix",
@@ -68830,7 +68888,7 @@
    "composer": "Chauncey Olcott",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Olcott – My wild Irish rose",
+   "piece": "Olcott – My Wild Irish Rose",
    "work": "Olcott – My wild Irish rose",
    "part": "",
    "title": "My wild Irish rose",
@@ -69750,7 +69808,7 @@
    "composer": "Thomas Haynes Bayly",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Bayly – Long, long ago",
+   "piece": "Bayly – Long, Long Ago",
    "work": "Bayly – Long, long ago",
    "part": "",
    "title": "Long, long ago",
@@ -70392,6 +70450,10 @@
    "arne|t|olimpiade"
   ],
   [
+   "Arne – Lass with the delicate air",
+   "arne|t|air delicate lass with"
+  ],
+  [
    "Arne – Love and Glory",
    "arne|t|glory love"
   ],
@@ -70502,10 +70564,6 @@
   [
    "Arne – The Triumph of Peace",
    "arne|t|peace triumph"
-  ],
-  [
-   "Arne – The lass with the delicate air",
-   "arne|t|air delicate lass with"
   ],
   [
    "Arne – Thomas and Sally",
@@ -73884,7 +73942,7 @@
    "bayly|t|ar blodet herre som utgjutet"
   ],
   [
-   "Bayly – Long, long ago",
+   "Bayly – Long, Long Ago",
    "bayly|t|ago long"
   ],
   [
@@ -74208,7 +74266,7 @@
    "beethoven|t|2 leonore overture"
   ],
   [
-   "Beethoven – Leonore overture, no. 3",
+   "Beethoven – Leonore Overture No. 3",
    "beethoven|t|3 leonore overture"
   ],
   [
@@ -75436,10 +75494,6 @@
    "berlioz|t|chant sacre"
   ],
   [
-   "Berlioz – Damnation de Faust",
-   "berlioz|t|damnation faust"
-  ],
-  [
    "Berlioz – Feuillets d'album",
    "berlioz|t|album feuillet"
   ],
@@ -75506,6 +75560,10 @@
   [
    "Berlioz – La Nonne sanglante",
    "berlioz|t|nonne sanglante"
+  ],
+  [
+   "Berlioz – La damnation de Faust",
+   "berlioz|t|damnation faust"
   ],
   [
    "Berlioz – La mort de Cléopâtre",
@@ -75892,7 +75950,7 @@
    "bizet|t|"
   ],
   [
-   "Bland – Carry me back to ole Virginny",
+   "Bland – Carry Me Back to Old Virginny",
    "bland|t|back carry me old virginny"
   ],
   [
@@ -75900,7 +75958,7 @@
    "bland|t|har smakt som"
   ],
   [
-   "Blaufuss – My isle of golden dreams",
+   "Blaufuss – My Isle of Golden Dreams",
    "blaufuss|t|dream golden isle my"
   ],
   [
@@ -76236,6 +76294,10 @@
    "brahms|t|fest gedenkspruche und"
   ],
   [
+   "Brahms – Four Pieces for Piano, Op. 119",
+   "brahms|op119|"
+  ],
+  [
    "Brahms – Fünf Gesänge, Op. 104",
    "brahms|op104|"
   ],
@@ -76396,6 +76458,10 @@
    "brahms|op118|"
   ],
   [
+   "Brahms – Sixteen Waltzes, Op. 39",
+   "brahms|op39|"
+  ],
+  [
    "Brahms – Sonata for Cello and Piano No. 2 in F Major, Op. 99",
    "brahms|op99|"
   ],
@@ -76426,10 +76492,6 @@
   [
    "Brahms – String Sextet No. 2",
    "brahms|t|2 sextet string"
-  ],
-  [
-   "Brahms – Stücke, Op. 119, C major",
-   "brahms|op119|"
   ],
   [
    "Brahms – Stücke, Op. 76, B minor",
@@ -76518,10 +76580,6 @@
   [
    "Brahms – Violin Sonata No. 3",
    "brahms|t|3 sonata violin"
-  ],
-  [
-   "Brahms – Waltz, Op. 39",
-   "brahms|op39|"
   ],
   [
    "Brahms – Waltzes 1, 2, and 9",
@@ -76944,10 +77002,6 @@
    "caryll|t|carte marriage"
   ],
   [
-   "Caryll – Pink lady waltzes",
-   "caryll|t|lady pink"
-  ],
-  [
    "Caryll – The Circus Girl",
    "caryll|t|circu girl"
   ],
@@ -76986,6 +77040,10 @@
   [
    "Caryll – The Orchid",
    "caryll|t|orchid"
+  ],
+  [
+   "Caryll – The Pink Lady",
+   "caryll|t|lady pink"
   ],
   [
    "Caryll – The Spring Chicken",
@@ -77064,7 +77122,7 @@
    "chaminade|t|automne"
   ],
   [
-   "Chaminade – Callirhoé",
+   "Chaminade – Callirhoë",
    "chaminade|t|callirhoe"
   ],
   [
@@ -77172,6 +77230,10 @@
    "chopin|t|16 2 mazurka"
   ],
   [
+   "Chopin – 24 Preludes Op. 28",
+   "chopin|op28|"
+  ],
+  [
    "Chopin – A Month in the Country",
    "chopin|t|country month"
   ],
@@ -77188,7 +77250,7 @@
    "chopin|op46|"
   ],
   [
-   "Chopin – Andante spianato et Grande polonaise brillante",
+   "Chopin – Andante spianato et grande polonaise brillante",
    "chopin|t|andante brillante grande polonaise spianato"
   ],
   [
@@ -77208,7 +77270,7 @@
    "chopin|op38|"
   ],
   [
-   "Chopin – Ballade No. 3 in A♭ major, Op. 47",
+   "Chopin – Ballade No. 3 in A-flat major, Op. 47",
    "chopin|op47|"
   ],
   [
@@ -77220,12 +77282,8 @@
    "chopin|t|barcarole"
   ],
   [
-   "Chopin – Berceuse",
-   "chopin|t|berceuse"
-  ],
-  [
    "Chopin – Berceuse, Op. 57, D♭ major",
-   "chopin|op57|"
+   "chopin|t|berceuse"
   ],
   [
    "Chopin – Bolero",
@@ -77246,6 +77304,10 @@
   [
    "Chopin – Chopin",
    "chopin|t|"
+  ],
+  [
+   "Chopin – Concerto for Piano and Orchestra no. 1 in E minor, Op. 11",
+   "chopin|op11|"
   ],
   [
    "Chopin – Concerto for Piano and Orchestra no. 2 in F minor, Op. 21",
@@ -77420,6 +77482,10 @@
    "chopin|op59|1"
   ],
   [
+   "Chopin – Mazurka in A minor, Op. 67 no. 4",
+   "chopin|op67|4"
+  ],
+  [
    "Chopin – Mazurka in A minor, Op. 68 no. 2",
    "chopin|op68|2"
   ],
@@ -77544,6 +77610,10 @@
    "chopin|op17|3"
   ],
   [
+   "Chopin – Mazurka no. 13 in A minor, Op. 17 no. 4",
+   "chopin|op17|4"
+  ],
+  [
    "Chopin – Mazurka no. 14 in G minor, Op. 24 no. 1",
    "chopin|op24|1"
   ],
@@ -77598,14 +77668,6 @@
   [
    "Chopin – Mazurka no. 9 in C major, Op. 7 no. 5",
    "chopin|op7|5"
-  ],
-  [
-   "Chopin – Mazurka, Op. 17 No. 4",
-   "chopin|op17|4"
-  ],
-  [
-   "Chopin – Mazurka, Op. 67 No. 4",
-   "chopin|op67|4"
   ],
   [
    "Chopin – Mazurkas, Op. 17",
@@ -77684,8 +77746,20 @@
    "chopin|t|nijinsky"
   ],
   [
+   "Chopin – Nocturne No. 1 in B-flat minor, Op. 9, No. 1",
+   "chopin|op9|1"
+  ],
+  [
    "Chopin – Nocturne No. 11 in G minor, Op. 37, No. 1",
    "chopin|op37|1"
+  ],
+  [
+   "Chopin – Nocturne No. 12 in G major, Op. 37, No. 2",
+   "chopin|op37|2"
+  ],
+  [
+   "Chopin – Nocturne No. 13 in C minor, Op. 48, No. 1",
+   "chopin|op48|1"
   ],
   [
    "Chopin – Nocturne No. 14 in F-sharp minor, Op. 48, No. 2",
@@ -77694,6 +77768,10 @@
   [
    "Chopin – Nocturne No. 15 in F minor, Op. 55, No. 1",
    "chopin|op55|1"
+  ],
+  [
+   "Chopin – Nocturne No. 16 in E-flat major, Op. 55, No. 2",
+   "chopin|op55|2"
   ],
   [
    "Chopin – Nocturne No. 17 in B major, Op. 62, No. 1",
@@ -77706,6 +77784,10 @@
   [
    "Chopin – Nocturne No. 19 in E minor, Op. posth. 72, No. 1",
    "chopin|op72|1"
+  ],
+  [
+   "Chopin – Nocturne No. 2 in E-flat major, Op. 9, No. 2",
+   "chopin|op9|2"
   ],
   [
    "Chopin – Nocturne No. 20 in C-sharp minor, Op. posth.",
@@ -77724,12 +77806,24 @@
    "chopin|op15|1"
   ],
   [
+   "Chopin – Nocturne No. 5 in F-sharp major, Op. 15, No. 2",
+   "chopin|op15|2"
+  ],
+  [
    "Chopin – Nocturne No. 6 in G minor, Op. 15, No. 3",
    "chopin|op15|3"
   ],
   [
    "Chopin – Nocturne No. 7 in C-sharp minor, Op. 27, No. 1",
    "chopin|op27|1"
+  ],
+  [
+   "Chopin – Nocturne No. 8 in D-flat major, Op. 27, No. 2",
+   "chopin|op27|2"
+  ],
+  [
+   "Chopin – Nocturne No. 9 in B major, Op. 32, No. 1",
+   "chopin|op32|1"
   ],
   [
    "Chopin – Nocturne No.10 in A-flat major, Op. 32, No.2",
@@ -77740,48 +77834,12 @@
    "chopin|t|nocturne"
   ],
   [
-   "Chopin – Nocturne, Op. 15 No. 2",
-   "chopin|op15|2"
-  ],
-  [
-   "Chopin – Nocturne, Op. 27 No. 2",
-   "chopin|op27|2"
-  ],
-  [
-   "Chopin – Nocturne, Op. 32 No. 1",
-   "chopin|op32|1"
-  ],
-  [
-   "Chopin – Nocturne, Op. 37 No. 2",
-   "chopin|op37|2"
-  ],
-  [
-   "Chopin – Nocturne, Op. 48 No. 1",
-   "chopin|op48|1"
-  ],
-  [
-   "Chopin – Nocturne, Op. 55 No. 2",
-   "chopin|op55|2"
-  ],
-  [
-   "Chopin – Nocturne, Op. 9 No. 1",
-   "chopin|op9|1"
-  ],
-  [
-   "Chopin – Nocturne, Op. 9 No. 2",
-   "chopin|op9|2"
-  ],
-  [
    "Chopin – O wiem, że Polska, KK Anh.Ic/4",
    "chopin|t|4 anh ic kk polska wiem ze"
   ],
   [
    "Chopin – Other Dances",
    "chopin|t|dance other"
-  ],
-  [
-   "Chopin – Piano Concerto No. 1 in E minor, Op. 11",
-   "chopin|op11|"
   ],
   [
    "Chopin – Piano Concerto No. 3",
@@ -77824,12 +77882,16 @@
    "chopin|t|parizi ples"
   ],
   [
-   "Chopin – Polonaise in A-flat major, B.5",
-   "chopin|t|5 keyaflatmaj polonaise"
+   "Chopin – Polonaise Op. 40 No. 1 in A major",
+   "chopin|op40|1"
   ],
   [
-   "Chopin – Polonaise in A♭ major, Op. 53",
+   "Chopin – Polonaise in A-flat major \"Heroic\", Op. 53",
    "chopin|op53|"
+  ],
+  [
+   "Chopin – Polonaise in A-flat major, B.5",
+   "chopin|t|5 keyaflatmaj polonaise"
   ],
   [
    "Chopin – Polonaise in B-flat major, B.3",
@@ -77866,10 +77928,6 @@
   [
    "Chopin – Polonaise, Op. 26, No. 2 in E-flat minor",
    "chopin|op26|2"
-  ],
-  [
-   "Chopin – Polonaise, Op. 40 No. 1",
-   "chopin|op40|1"
   ],
   [
    "Chopin – Polonaise, Op. posth. [71], No. 1 in D minor",
@@ -77924,10 +77982,6 @@
    "chopin|t|27 devil keyeflatmin prelude trill"
   ],
   [
-   "Chopin – Prelude, Op. 28",
-   "chopin|op28|"
-  ],
-  [
    "Chopin – Prelude, Op. 28 No. 15",
    "chopin|op28|15"
   ],
@@ -77980,15 +78034,15 @@
    "chopin|op20|"
   ],
   [
-   "Chopin – Scherzo No. 2 in B♭ minor, Op. 31",
+   "Chopin – Scherzo no. 2 in B-flat minor, Op. 31",
    "chopin|op31|"
   ],
   [
-   "Chopin – Scherzo No. 3 in C♯ minor, Op. 39",
+   "Chopin – Scherzo no. 3 in C-sharp minor, Op. 39",
    "chopin|op39|"
   ],
   [
-   "Chopin – Scherzo No. 4 in E major, Op. 54",
+   "Chopin – Scherzo no. 4 in E major, Op. 54",
    "chopin|op54|"
   ],
   [
@@ -78060,6 +78114,10 @@
    "chopin|op69|2"
   ],
   [
+   "Chopin – Waltz No. 11 in G-flat major, Op. 70, No. 1",
+   "chopin|op70|1"
+  ],
+  [
    "Chopin – Waltz No. 12 in F minor, Op. 70, No. 2",
    "chopin|op70|2"
   ],
@@ -78104,32 +78162,28 @@
    "chopin|op34|3"
   ],
   [
+   "Chopin – Waltz No. 5 in A-flat major, Op. 42",
+   "chopin|op42|"
+  ],
+  [
+   "Chopin – Waltz No. 6 in D-flat major, Op. 64, No. 1",
+   "chopin|op64|1"
+  ],
+  [
+   "Chopin – Waltz No. 7 in C-sharp minor, Op. 64, No. 2",
+   "chopin|op64|2"
+  ],
+  [
    "Chopin – Waltz No. 8 in A flat major, Op. 64, No. 3",
    "chopin|op64|3"
   ],
   [
-   "Chopin – Waltz in A minor",
-   "chopin|t|keyamin waltz"
-  ],
-  [
-   "Chopin – Waltz in A♭ major, Op. 42",
-   "chopin|op42|"
-  ],
-  [
-   "Chopin – Waltz, Op. 64 No. 1",
-   "chopin|op64|1"
-  ],
-  [
-   "Chopin – Waltz, Op. 64 No. 2",
-   "chopin|op64|2"
-  ],
-  [
-   "Chopin – Waltz, Op. 69 No. 1",
+   "Chopin – Waltz No. 9 in A-flat major, Op. posth. 69, No. 1",
    "chopin|op69|1"
   ],
   [
-   "Chopin – Waltz, Op. 70 No. 1",
-   "chopin|op70|1"
+   "Chopin – Waltz in A minor",
+   "chopin|t|keyamin waltz"
   ],
   [
    "Chopin – Waltzes, Op. 34",
@@ -78180,12 +78234,24 @@
    "chopin|op10|11"
   ],
   [
+   "Chopin – Étude Op. 10, No. 12",
+   "chopin|op10|12"
+  ],
+  [
    "Chopin – Étude Op. 10, No. 2",
    "chopin|op10|2"
   ],
   [
+   "Chopin – Étude Op. 10, No. 3",
+   "chopin|op10|3"
+  ],
+  [
    "Chopin – Étude Op. 10, No. 4",
    "chopin|op10|4"
+  ],
+  [
+   "Chopin – Étude Op. 10, No. 5",
+   "chopin|op10|5"
   ],
   [
    "Chopin – Étude Op. 10, No. 6",
@@ -78248,19 +78314,7 @@
    "chopin|op25|8"
   ],
   [
-   "Chopin – Étude, Op. 10 No. 12",
-   "chopin|op10|12"
-  ],
-  [
-   "Chopin – Étude, Op. 10 No. 3",
-   "chopin|op10|3"
-  ],
-  [
-   "Chopin – Étude, Op. 10 No. 5",
-   "chopin|op10|5"
-  ],
-  [
-   "Chopin – Étude, Op. 25 No. 9",
+   "Chopin – Étude Op. 25, No. 9",
    "chopin|op25|9"
   ],
   [
@@ -78270,10 +78324,6 @@
   [
    "Chopin – Śpiew z mogiły",
    "chopin|t|mogi spiew"
-  ],
-  [
-   "Chopin – Śpiewy polskie",
-   "chopin|t|polskie spiewy"
   ],
   [
    "Chopin – Życzenie",
@@ -78352,7 +78402,7 @@
    "cohan|t|kelly little nellie"
   ],
   [
-   "Cohan – Over there",
+   "Cohan – Over There",
    "cohan|t|over there"
   ],
   [
@@ -78560,7 +78610,7 @@
    "crusell|t|ej fortvina gamla gota kan lejon norden stamtrad"
   ],
   [
-   "Crusell – Hell dig, du hoga Nord!",
+   "Crusell – Hell dig, du höga Nord",
    "crusell|t|dig hell hoga nord"
   ],
   [
@@ -78640,7 +78690,7 @@
    "cuvillier|t|cinq devant femme mes vingt"
   ],
   [
-   "Cuvillier – Lila Domino",
+   "Cuvillier – Lilac Domino",
    "cuvillier|t|domino lilac"
   ],
   [
@@ -78716,7 +78766,7 @@
    "danks|t|all dearest is jesu name"
   ],
   [
-   "Danks – Silver threads among the gold",
+   "Danks – Silver Threads Among the Gold",
    "danks|t|among gold silver thread"
   ],
   [
@@ -78752,7 +78802,7 @@
    "dargomyzhski|t|guest stone"
   ],
   [
-   "David – Charmant oiseau",
+   "David – Charmant Oiseau",
    "david|t|charmant oiseau"
   ],
   [
@@ -78972,7 +79022,7 @@
    "debussy|t|chanson triste"
   ],
   [
-   "Debussy – Children's corner",
+   "Debussy – Children's Corner",
    "debussy|t|children corner"
   ],
   [
@@ -79316,7 +79366,7 @@
    "debussy|t|nocturne"
   ],
   [
-   "Debussy – Nuit d'etoiles",
+   "Debussy – Nuit d'étoiles",
    "debussy|t|etoile nuit"
   ],
   [
@@ -79368,10 +79418,6 @@
    "debussy|t|pour"
   ],
   [
-   "Debussy – Prelude",
-   "debussy|t|prelude"
-  ],
-  [
    "Debussy – Prelude, book 1",
    "debussy|t|1 book prelude"
   ],
@@ -79394,6 +79440,10 @@
   [
    "Debussy – Prélude à l'après-midi d'un faune",
    "debussy|t|apre faune midi prelude un"
+  ],
+  [
+   "Debussy – Préludes",
+   "debussy|t|prelude"
   ],
   [
    "Debussy – Préludes pour piano Deuxième livre",
@@ -79788,6 +79838,10 @@
    "di capua|t|rose serenata"
   ],
   [
+   "Di Capua – 'O Sole Mio",
+   "di capua|t|mio sole"
+  ],
+  [
    "Di Capua – Buona sera / Oh Marie",
    "di capua|t|buona marie oh sera"
   ],
@@ -79810,10 +79864,6 @@
   [
    "Di Capua – Maria Marì",
    "di capua|t|mari maria"
-  ],
-  [
-   "Di Capua – O sole mio",
-   "di capua|t|mio sole"
   ],
   [
    "Di Capua – There's No Tomorrow",
@@ -81012,7 +81062,7 @@
    "eckert|t|echo song swiss"
   ],
   [
-   "Edwards – By the light of the silv'ry moon",
+   "Edwards – By the Light of the Silvery Moon",
    "edwards|t|by light moon silvery"
   ],
   [
@@ -81308,7 +81358,7 @@
    "elgar|t|eyes knew light little never roundel that"
   ],
   [
-   "Elgar – Salut d'amour",
+   "Elgar – Salut d'Amour",
    "elgar|t|amour salut"
   ],
   [
@@ -81600,10 +81650,6 @@
    "faure|t|palm"
   ],
   [
-   "Fearis – Beautiful Isle of Somewhere",
-   "fearis|t|beautiful isle somewhere"
-  ],
-  [
    "Fearis – Droomland",
    "fearis|t|droomland"
   ],
@@ -81720,7 +81766,7 @@
    "fisher|t|lorraine"
   ],
   [
-   "Fisher – Oui, oui, Marie",
+   "Fisher – Oui, Oui, Marie",
    "fisher|t|marie oui"
   ],
   [
@@ -82112,10 +82158,6 @@
    "franck|t|sonata violin"
   ],
   [
-   "Friml – Firefly",
-   "friml|t|firefly"
-  ],
-  [
    "Friml – Giannina mia",
    "friml|t|giannina mia"
   ],
@@ -82152,6 +82194,10 @@
    "friml|t|blue kitten"
   ],
   [
+   "Friml – The Firefly",
+   "friml|t|firefly"
+  ],
+  [
    "Friml – The Three Musketeers",
    "friml|t|musketeer three"
   ],
@@ -82178,10 +82224,6 @@
   [
    "Fysher – Prends moi!",
    "fysher|t|moi prend"
-  ],
-  [
-   "Gabriel-Marie – La cinquantaine",
-   "gabriel-marie|t|cinquantaine"
   ],
   [
    "Gabriel-Marie – Songe d'enfant",
@@ -82340,6 +82382,10 @@
    "gilbert|t|cudna zuzana"
   ],
   [
+   "Gilbert – Die keusche Susanne",
+   "gilbert|t|die keusche susanne"
+  ],
+  [
    "Gilbert – Die kleine Sünderin",
    "gilbert|t|die kleine sunderin"
   ],
@@ -82350,10 +82396,6 @@
   [
    "Gilbert – Katja, die Tänzerin",
    "gilbert|t|die katja tanzerin"
-  ],
-  [
-   "Gilbert – Keusche Susanne",
-   "gilbert|t|die keusche susanne"
   ],
   [
    "Gilbert – Polnische Wirtschaft",
@@ -82548,7 +82590,7 @@
    "glazunov|t|corde quintette"
   ],
   [
-   "Glazunov – Raĭmonda",
+   "Glazunov – Raymonda",
    "glazunov|t|raymonda"
   ],
   [
@@ -82928,7 +82970,7 @@
    "godard|t|gothique symphonie"
   ],
   [
-   "Godard – Viens avec nous",
+   "Godard – Viens avec nous, petit",
    "godard|t|avec nous petit vien"
   ],
   [
@@ -83560,10 +83602,6 @@
    "gounod|t|tribut zamora"
   ],
   [
-   "Gounod – Le veau d'or",
-   "gounod|t|or veau"
-  ],
-  [
    "Gounod – Le veau d'or est toujours debout",
    "gounod|t|debout est or toujour veau"
   ],
@@ -83600,8 +83638,8 @@
    "gounod|t|7 breve messe"
   ],
   [
-   "Gounod – Mirella",
-   "gounod|t|mirella"
+   "Gounod – Mireille",
+   "gounod|t|mireille"
   ],
   [
    "Gounod – Mon coeur est penetre d'epouvante",
@@ -83620,10 +83658,6 @@
    "gounod|t|curtain na scenu up"
   ],
   [
-   "Gounod – Nazareth",
-   "gounod|t|nazareth"
-  ],
-  [
    "Gounod – O Xaïma! daigue m'entendre!",
    "gounod|t|daigue entendre xaima"
   ],
@@ -83634,10 +83668,6 @@
   [
    "Gounod – O ma lyre immortelle",
    "gounod|t|immortelle lyre ma"
-  ],
-  [
-   "Gounod – O merveille!",
-   "gounod|t|mireille"
   ],
   [
    "Gounod – Petite Symphonie",
@@ -83684,7 +83714,7 @@
    "gounod|t|cg80 requiem"
   ],
   [
-   "Gounod – Roméo et Juliette",
+   "Gounod – Roméo et Juliete",
    "gounod|t|juliete romeo"
   ],
   [
@@ -83969,7 +83999,7 @@
   ],
   [
    "Grieg – Concerto, Op. 16, A minor",
-   "grieg|op16|"
+   "grieg|t|concerto"
   ],
   [
    "Grieg – Danse caprice : Op. 28, no. 3",
@@ -84056,16 +84086,16 @@
    "grieg|t|landkjenning"
   ],
   [
-   "Grieg – Lyric Pieces",
-   "grieg|t|lyric piece"
-  ],
-  [
    "Grieg – Lyric Pieces, Op. 12",
    "grieg|op12|"
   ],
   [
    "Grieg – Lyric Pieces, Op. 38",
    "grieg|op38|"
+  ],
+  [
+   "Grieg – Lyric Pieces, Op. 43",
+   "grieg|op43|"
   ],
   [
    "Grieg – Lyric Pieces, Op. 47",
@@ -84080,6 +84110,10 @@
    "grieg|op62|"
   ],
   [
+   "Grieg – Lyric Pieces, Op. 65",
+   "grieg|op65|"
+  ],
+  [
    "Grieg – Lyric Pieces, Op. 68",
    "grieg|op68|"
   ],
@@ -84090,14 +84124,6 @@
   [
    "Grieg – Lyric Suite",
    "grieg|t|lyric suite"
-  ],
-  [
-   "Grieg – Lyriske stykker, Op. 43",
-   "grieg|op43|"
-  ],
-  [
-   "Grieg – Lyriske stykker, Op. 65",
-   "grieg|op65|"
   ],
   [
    "Grieg – March of the Trolls",
@@ -84122,10 +84148,6 @@
   [
    "Grieg – Peer Gynt Suite No. 1",
    "grieg|t|1 gynt peer suite"
-  ],
-  [
-   "Grieg – Piano Concerto",
-   "grieg|t|concerto"
   ],
   [
    "Grieg – Piano Sonata",
@@ -84260,7 +84282,7 @@
    "gruber|t|nacht stille"
   ],
   [
-   "Gruber – Stille Nacht, heilige Nacht",
+   "Gruber – Stille Nacht Heilige Nacht",
    "gruber|t|heilige nacht stille"
   ],
   [
@@ -84480,10 +84502,6 @@
    "halevy|t|della moschettieri regina"
   ],
   [
-   "Halévy – Juive",
-   "halevy|t|juive"
-  ],
-  [
    "Halévy – L'artisan",
    "halevy|t|artisan"
   ],
@@ -84494,6 +84512,10 @@
   [
    "Halévy – La Dame de pique",
    "halevy|t|dame pique"
+  ],
+  [
+   "Halévy – La Juive",
+   "halevy|t|juive"
   ],
   [
    "Halévy – La magicienne",
@@ -85056,6 +85078,10 @@
    "handel|hwv437|"
   ],
   [
+   "Handel – Keyboard suite in E major (HWV 430)",
+   "handel|hwv430|"
+  ],
+  [
    "Handel – Keyboard suite in G major (HWV 435)",
    "handel|hwv435|"
   ],
@@ -85398,10 +85424,6 @@
   [
    "Handel – Suite G minor HWV 452",
    "handel|hwv452|"
-  ],
-  [
-   "Handel – Suite in E major, HWV 430",
-   "handel|hwv430|"
   ],
   [
    "Handel – Suites pour clavecin",
@@ -86604,7 +86626,7 @@
    "hein|t|maurice tango"
   ],
   [
-   "Hein – When dreams come true",
+   "Hein – When Dreams Come True",
    "hein|t|come dream true when"
   ],
   [
@@ -86764,7 +86786,7 @@
    "herbert|t|dollar dolly miss"
   ],
   [
-   "Herbert – Mlle. Modiste waltzes",
+   "Herbert – Mlle. Modiste",
    "herbert|t|mlle modiste"
   ],
   [
@@ -86972,7 +86994,7 @@
    "humperdinck|t|hexenritt"
   ],
   [
-   "Humperdinck – Hänsel und Gretel",
+   "Humperdinck – Hänsel und Gretel Suite",
    "humperdinck|t|gretel hansel suite und"
   ],
   [
@@ -87728,10 +87750,6 @@
    "lecocq|t|aimee bein fatma ma"
   ],
   [
-   "Lecocq – Fille de Madame Angot",
-   "lecocq|t|angot fille madame"
-  ],
-  [
    "Lecocq – Fleur-de-Thé",
    "lecocq|t|fleur"
   ],
@@ -87774,6 +87792,10 @@
   [
    "Lecocq – La belle au bois dormant",
    "lecocq|t|au belle bois dormant"
+  ],
+  [
+   "Lecocq – La fille de Madame Angot",
+   "lecocq|t|angot fille madame"
   ],
   [
    "Lecocq – Le coeur et la main",
@@ -87850,6 +87872,10 @@
   [
    "Lehár – Der Fürst der Berge",
    "lehar|t|berge der furst"
+  ],
+  [
+   "Lehár – Der Graf von Luxemburg",
+   "lehar|t|der graf luxemburg von"
   ],
   [
    "Lehár – Der Göttergatte",
@@ -87936,10 +87962,6 @@
    "lehar|t|gold silber und"
   ],
   [
-   "Lehár – Graf von Luxemburg",
-   "lehar|t|der graf luxemburg von"
-  ],
-  [
    "Lehár – Gypsy Love",
    "lehar|t|gypsy love"
   ],
@@ -87958,10 +87980,6 @@
   [
    "Lehár – Lustige Witwe",
    "lehar|t|lustige witwe"
-  ],
-  [
-   "Lehár – Merry widow waltz",
-   "lehar|t|merry widow"
   ],
   [
    "Lehár – Mitislaw der Moderne",
@@ -88002,6 +88020,10 @@
   [
    "Lehár – The Land of Smiles",
    "lehar|t|land smile"
+  ],
+  [
+   "Lehár – The Merry Widow",
+   "lehar|t|merry widow"
   ],
   [
    "Lehár – The man with three wives' waltz",
@@ -88332,7 +88354,7 @@
    "liszt|t|1 ballade"
   ],
   [
-   "Liszt – Ballade No. 2 in B minor",
+   "Liszt – Ballade No. 2",
    "liszt|t|2 ballade"
   ],
   [
@@ -88545,7 +88567,7 @@
   ],
   [
    "Liszt – Hungarian Rhapsody No. 2",
-   "liszt|t|2 hungarian roidy"
+   "liszt|t|2 hungarian rhapsody"
   ],
   [
    "Liszt – Hungarian Rhapsody No. 3",
@@ -88648,7 +88670,7 @@
    "liszt|t|poem symphonic"
   ],
   [
-   "Liszt – Loreley (1861)",
+   "Liszt – Loreley, piano (1861)",
    "liszt|t|1861 loreley"
   ],
   [
@@ -88720,7 +88742,7 @@
    "liszt|t|concert paraphrase"
   ],
   [
-   "Liszt – Piano Concerto No. 1 in E♭ major",
+   "Liszt – Piano Concerto No. 1",
    "liszt|t|1 concerto"
   ],
   [
@@ -88732,11 +88754,11 @@
    "liszt|t|3 concerto"
   ],
   [
-   "Liszt – Piano Sonata in B minor",
+   "Liszt – Piano Sonata in B Minor, S. 178",
    "liszt|s178|"
   ],
   [
-   "Liszt – Polonaise No. 2 in E major",
+   "Liszt – Polonaise, piano, no. 2, E major",
    "liszt|t|2 keyemaj polonaise"
   ],
   [
@@ -88760,7 +88782,7 @@
    "liszt|s252|"
   ],
   [
-   "Liszt – Réminiscences de Don Juan",
+   "Liszt – Réminiscences de Don Juan, S. 418",
    "liszt|s418|"
   ],
   [
@@ -88816,6 +88838,10 @@
    "liszt|t|10 etude transcendental"
   ],
   [
+   "Liszt – Transcendental Étude No. 11",
+   "liszt|t|11 etude transcendental"
+  ],
+  [
    "Liszt – Transcendental Étude No. 12",
    "liszt|t|12 etude transcendental"
   ],
@@ -88842,6 +88868,14 @@
   [
    "Liszt – Transcendental Étude No. 7",
    "liszt|t|7 etude transcendental"
+  ],
+  [
+   "Liszt – Transcendental Étude No. 8",
+   "liszt|t|8 etude transcendental"
+  ],
+  [
+   "Liszt – Transcendental Étude No. 9",
+   "liszt|t|9 etude transcendental"
   ],
   [
    "Liszt – Tre sonetti di Petrarca",
@@ -88908,18 +88942,6 @@
    "liszt|t|allegri ave chapelle corpu miserere mozart sixtine verum"
   ],
   [
-   "Liszt – Études d'exécution transcendante, No 11",
-   "liszt|t|11 etude transcendental"
-  ],
-  [
-   "Liszt – Études d'exécution transcendante, No 8",
-   "liszt|t|8 etude transcendental"
-  ],
-  [
-   "Liszt – Études d'exécution transcendante, No 9",
-   "liszt|t|9 etude transcendental"
-  ],
-  [
    "Liszt – Études de concert (1849), No 2",
    "liszt|t|1849 2 concert etude"
   ],
@@ -88954,10 +88976,6 @@
   [
    "Liapunov – Rhapsody on Ukrainian Themes",
    "liapunov|t|rhapsody theme ukrainian"
-  ],
-  [
-   "Liapunov – Études d'exécution transcendante",
-   "liapunov|t|etude execution transcendante"
   ],
   [
    "Loewe – Ah, lean down, you who are full of sorrow",
@@ -89196,7 +89214,7 @@
    "lohr|t|any are heaven if is me near place you"
   ],
   [
-   "Löhr – Little grey home in the West",
+   "Löhr – Little Grey Home in the West",
    "lohr|t|grey home little west"
   ],
   [
@@ -89532,7 +89550,7 @@
    "mason|t|concert fantaisie god my nearer thee"
   ],
   [
-   "Mason – Nearer my God to Thee",
+   "Mason – Nearer, My God, to Thee",
    "mason|t|god my nearer thee"
   ],
   [
@@ -89630,10 +89648,6 @@
   [
    "Massenet – Don Quichotte",
    "massenet|t|don quichotte"
-  ],
-  [
-   "Massenet – Elegie",
-   "massenet|t|elegie"
   ],
   [
    "Massenet – Esclarmonde",
@@ -89796,6 +89810,10 @@
    "massenet|t|eve"
   ],
   [
+   "Massenet – Élégie",
+   "massenet|t|elegie"
+  ],
+  [
    "Massé – Air du tigre",
    "masse|t|air tigre"
   ],
@@ -89892,7 +89910,7 @@
    "mendelssohn-bartholdy|t|calm prosperou sea voyage"
   ],
   [
-   "Mendelssohn-Bartholdy – Capriccio brillant",
+   "Mendelssohn-Bartholdy – Capriccio Brillant",
    "mendelssohn-bartholdy|t|brillant capriccio"
   ],
   [
@@ -90002,10 +90020,6 @@
   [
    "Mendelssohn-Bartholdy – Hear My Prayer",
    "mendelssohn-bartholdy|t|hear my prayer"
-  ],
-  [
-   "Mendelssohn-Bartholdy – Hope",
-   "mendelssohn-bartholdy|t|hope"
   ],
   [
    "Mendelssohn-Bartholdy – Humboldt-Kantate",
@@ -91472,7 +91486,7 @@
    "mozart|t|allegro keydmaj"
   ],
   [
-   "Mozart – Alleluja",
+   "Mozart – Alleluia",
    "mozart|t|alleluia"
   ],
   [
@@ -91960,10 +91974,6 @@
    "mozart|t|ar jag jesu lamm lilla"
   ],
   [
-   "Mozart – Jupiter symphony",
-   "mozart|t|jupiter symphony"
-  ],
-  [
    "Mozart – KV 34",
    "mozart|k34|"
   ],
@@ -92044,7 +92054,7 @@
    "mozart|t|isis mystere"
   ],
   [
-   "Mozart – Les petits riens (Gavotte)",
+   "Mozart – Les petits riens",
    "mozart|t|petit rien"
   ],
   [
@@ -92070,10 +92080,6 @@
   [
    "Mozart – Lucio Silla",
    "mozart|t|lucio silla"
-  ],
-  [
-   "Mozart – Magic flute : Overture",
-   "mozart|t|flute magic"
   ],
   [
    "Mozart – Maličkosti",
@@ -93036,6 +93042,10 @@
    "mozart|t|box jewel"
   ],
   [
+   "Mozart – The Magic Flute",
+   "mozart|t|flute magic"
+  ],
+  [
    "Mozart – The Marriage of Figaro",
    "mozart|t|figaro marriage"
   ],
@@ -93464,7 +93474,7 @@
    "nordraak|t|norvege vieille"
   ],
   [
-   "Nutile – Mamma mia, che vo sape",
+   "Nutile – Mamma mia che vo' sapé?!",
    "nutile|t|che mamma mia sape vo"
   ],
   [
@@ -93526,10 +93536,6 @@
   [
    "Offenbach – Boule-de-Neige",
    "offenbach|t|boule neige"
-  ],
-  [
-   "Offenbach – Contes d'Hoffmann",
-   "offenbach|t|conte hoffmann"
   ],
   [
    "Offenbach – Croquefer, ou Le dernier des paladins",
@@ -93614,6 +93620,10 @@
   [
    "Offenbach – L'île de Tulipatan",
    "offenbach|t|ile tulipatan"
+  ],
+  [
+   "Offenbach – La Belle Hélène",
+   "offenbach|t|belle helene"
   ],
   [
    "Offenbach – La Boîte au lait",
@@ -93792,10 +93802,6 @@
    "offenbach|t|maitre peronilla"
   ],
   [
-   "Offenbach – Melody from 'La belle Helene'",
-   "offenbach|t|belle helene"
-  ],
-  [
    "Offenbach – Mesdames de la Halle",
    "offenbach|t|halle mesdame"
   ],
@@ -93924,7 +93930,7 @@
    "olcott|t|machree mother"
   ],
   [
-   "Olcott – My wild Irish rose",
+   "Olcott – My Wild Irish Rose",
    "olcott|t|irish my rose wild"
   ],
   [
@@ -94000,7 +94006,7 @@
    "parelli|t|il meco ruscello vien"
   ],
   [
-   "Pennino – Pecche",
+   "Pennino – Pecchè?",
    "pennino|t|pecche"
   ],
   [
@@ -94160,16 +94166,16 @@
    "pierne|t|serenade"
   ],
   [
-   "Pierné – Serenades, Op. 7",
-   "pierne|op7|"
-  ],
-  [
    "Pierné – Six pieces",
    "pierne|t|piece six"
   ],
   [
    "Pierné – Sonata da camera",
    "pierne|t|camera da sonata"
+  ],
+  [
+   "Pierné – Sérénade, Op. 7",
+   "pierne|op7|"
   ],
   [
    "Pierné – Trio for violin, cello and piano",
@@ -94204,7 +94210,7 @@
    "pinsuti|t|brightest is life when"
   ],
   [
-   "Planquette – Le regiment de Sambre et Meuse",
+   "Planquette – Le Régiment de Sambre et Meuse",
    "planquette|t|meuse regiment sambre"
   ],
   [
@@ -95236,7 +95242,7 @@
    "ronald|t|espagnole serenade"
   ],
   [
-   "Rosas – Sobre las olas",
+   "Rosas – Sobre las Olas",
    "rosas|t|las olas sobre"
   ],
   [
@@ -95354,10 +95360,6 @@
   [
    "Rossini – Giovanna d'Arco",
    "rossini|t|arco giovanna"
-  ],
-  [
-   "Rossini – Guillaume Tell",
-   "rossini|t|guillaume tell"
   ],
   [
    "Rossini – Il pesceballo",
@@ -95616,11 +95618,11 @@
    "rossini|t|warner"
   ],
   [
-   "Rossini – William Tell fantasie",
+   "Rossini – William Tell",
    "rossini|t|tell william"
   ],
   [
-   "Rossini – William Tell overture",
+   "Rossini – William Tell Overture",
    "rossini|t|overture tell william"
   ],
   [
@@ -96004,7 +96006,7 @@
    "saint-saens|t|herz mein"
   ],
   [
-   "Saint-Saëns – Mon coeur s'ouvre a ta voix",
+   "Saint-Saëns – Mon cœur s'ouvre à ta voix",
    "saint-saens|t|mon ouvre ta ur voix"
   ],
   [
@@ -96102,10 +96104,6 @@
   [
    "Saint-Saëns – Samson and Delilah",
    "saint-saens|t|delilah samson"
-  ],
-  [
-   "Saint-Saëns – Samson et Dalila",
-   "saint-saens|t|dalila samson"
   ],
   [
    "Saint-Saëns – Septet in E-flat major, Op. 65",
@@ -96420,7 +96418,7 @@
    "schubert|t|als der hydraulicu teufel"
   ],
   [
-   "Schubert – Der Tod und das Madchen",
+   "Schubert – Der Tod und das Mädchen",
    "schubert|t|das der madchen tod und"
   ],
   [
@@ -96496,7 +96494,7 @@
    "schubert|d946|"
   ],
   [
-   "Schubert – Du bist die Ruh",
+   "Schubert – Du bist die Ruh'",
    "schubert|t|bist die ruh"
   ],
   [
@@ -96537,7 +96535,7 @@
   ],
   [
    "Schubert – Fantasy in C major, D. 760",
-   "schubert|d760|"
+   "schubert|t|fantasy wanderer"
   ],
   [
    "Schubert – Fantasy in G major",
@@ -96720,10 +96718,6 @@
    "schubert|t|majestatsche sonnenrosse"
   ],
   [
-   "Schubert – Marche militaire",
-   "schubert|t|marche militaire three"
-  ],
-  [
    "Schubert – Marche militaire No. 3",
    "schubert|t|3 marche militaire"
   ],
@@ -96778,10 +96772,6 @@
   [
    "Schubert – Moment musical No. 3",
    "schubert|t|3 moment musical"
-  ],
-  [
-   "Schubert – Musical moments",
-   "schubert|t|moment musicaux six"
   ],
   [
    "Schubert – Nacht und Träume",
@@ -96972,6 +96962,10 @@
    "schubert|t|serenata"
   ],
   [
+   "Schubert – Six moments musicaux",
+   "schubert|t|moment musicaux six"
+  ],
+  [
    "Schubert – Sonata for Violin and Piano in A Major D. 574, \"Duo\"",
    "schubert|d574|"
   ],
@@ -97144,6 +97138,10 @@
    "schubert|t|rock shepherd"
   ],
   [
+   "Schubert – Three Marches Militaires",
+   "schubert|t|marche militaire three"
+  ],
+  [
    "Schubert – To coachman Chronos",
    "schubert|t|chrono coachman"
   ],
@@ -97174,10 +97172,6 @@
   [
    "Schubert – Wanderer (Song), D. 489",
    "schubert|d489|"
-  ],
-  [
-   "Schubert – Wanderer Fantasy",
-   "schubert|t|fantasy wanderer"
   ],
   [
    "Schubert – Wandrers Nachtlied II",
@@ -97320,10 +97314,6 @@
    "schumann|t|sonata"
   ],
   [
-   "Schumann – Fantasie in C",
-   "schumann|t|fantasie"
-  ],
-  [
    "Schumann – Fantasiestücke, Op. 12",
    "schumann|op12|"
   ],
@@ -97337,7 +97327,7 @@
   ],
   [
    "Schumann – Fantasy in C major, Op. 17",
-   "schumann|op17|"
+   "schumann|t|fantasie"
   ],
   [
    "Schumann – Faschingsschwank aus Wien",
@@ -97406,10 +97396,6 @@
   [
    "Schumann – Kreisleriana",
    "schumann|t|kreisleriana"
-  ],
-  [
-   "Schumann – Les deux grenadiers",
-   "schumann|t|deux grenadier"
   ],
   [
    "Schumann – Lied Lynceus des Türmers",
@@ -97504,12 +97490,8 @@
    "schumann|t|paradise peri"
   ],
   [
-   "Schumann – Piano Concerto",
-   "schumann|t|concerto"
-  ],
-  [
    "Schumann – Piano Concerto in A minor, Op. 54",
-   "schumann|op54|"
+   "schumann|t|concerto"
   ],
   [
    "Schumann – Piano Quartet",
@@ -97620,10 +97602,6 @@
    "schumann|t|farmer happy"
   ],
   [
-   "Schumann – The two grenadiers",
-   "schumann|t|grenadier two"
-  ],
-  [
    "Schumann – Three Fantasy Pieces for Clarinet and Piano",
    "schumann|t|clarinet fantasy piece three"
   ],
@@ -97636,12 +97614,8 @@
    "schumann|t|abegg nom sur theme varie"
   ],
   [
-   "Schumann – Toccata",
-   "schumann|t|toccata"
-  ],
-  [
    "Schumann – Toccata, Op. 7, C major",
-   "schumann|op7|"
+   "schumann|t|toccata"
   ],
   [
    "Schumann – Tres sonates per a violí i piano",
@@ -97676,7 +97650,7 @@
    "schumann|t|3 sonata violin"
   ],
   [
-   "Schumann – Waldscenen",
+   "Schumann – Waldszenen",
    "schumann|t|waldszenen"
   ],
   [
@@ -97686,10 +97660,6 @@
   [
    "Schumann – Études After Paganini Caprices",
    "schumann|t|after caprice etude paganini"
-  ],
-  [
-   "Schumann – Études symphoniques",
-   "schumann|t|etude symphonique"
   ],
   [
    "Schwartz – A Night in Spain",
@@ -98316,7 +98286,7 @@
    "sibelius|t|rakastava"
   ],
   [
-   "Sibelius – Romance in D♭ major, Op. 24 No. 9",
+   "Sibelius – Romance, Op. 24, no. 9",
    "sibelius|op24|9"
   ],
   [
@@ -98584,12 +98554,12 @@
    "silcher|t|einem grunde kuhlen"
   ],
   [
-   "Silcher – Lord, Take My Hand and Lead Me",
-   "silcher|t|hand lead lord me my take"
+   "Silcher – LORELEI",
+   "silcher|t|lorelei"
   ],
   [
-   "Silcher – Lorelei",
-   "silcher|t|lorelei"
+   "Silcher – Lord, Take My Hand and Lead Me",
+   "silcher|t|hand lead lord me my take"
   ],
   [
    "Silcher – Loreley",
@@ -98864,6 +98834,10 @@
    "sinding|t|concerto"
   ],
   [
+   "Sinding – Pianoforte-Stücke",
+   "sinding|t|stucke"
+  ],
+  [
    "Sinding – Pianotrio No. 1",
    "sinding|t|1 pianotrio"
   ],
@@ -98916,10 +98890,6 @@
    "sinding|t|mineur romance viool voor"
   ],
   [
-   "Sinding – Rustle of spring [Fruhlingsrauschen]",
-   "sinding|t|fruhlingsrauschen rustle spring"
-  ],
-  [
    "Sinding – Rythmeskvulp",
    "sinding|t|rythmeskvulp"
   ],
@@ -98958,6 +98928,10 @@
   [
    "Sinding – Sechs Stücke für das Pianoforte opus 31",
    "sinding|op31|"
+  ],
+  [
+   "Sinding – Sechs Stücke für das Pianoforte opus 32",
+   "sinding|op32|"
   ],
   [
    "Sinding – Sechs Stücke für das Pianoforte opus 74",
@@ -99006,10 +98980,6 @@
   [
    "Sinding – String Quartet in A minor",
    "sinding|t|keyamin quartet string"
-  ],
-  [
-   "Sinding – Stücke, Op. 32",
-   "sinding|op32|"
   ],
   [
    "Sinding – Suite for piano 4 hands",
@@ -99544,10 +99514,6 @@
    "strauss|t|der wolga"
   ],
   [
-   "Strauss – An der schönen, blauen Donau",
-   "strauss|t|blauen der donau schonen"
-  ],
-  [
    "Strauss – Annen-Polka",
    "strauss|t|annen polka"
   ],
@@ -99578,10 +99544,6 @@
   [
    "Strauss – Armen-Ball-Polka",
    "strauss|t|armen ball polka"
-  ],
-  [
-   "Strauss – Artist's life waltz",
-   "strauss|t|artist life waltz"
   ],
   [
    "Strauss – Aschenbrödel",
@@ -99718,10 +99680,6 @@
   [
    "Strauss – Blindekuh",
    "strauss|t|blindekuh"
-  ],
-  [
-   "Strauss – Blue Danube waltz",
-   "strauss|t|blue danube"
   ],
   [
    "Strauss – Bluette",
@@ -100692,6 +100650,10 @@
    "strauss|t|intermezzo"
   ],
   [
+   "Strauss – Intermezzo aus \"Tausend und eine Nacht\"",
+   "strauss|t|eine intermezzo nacht tausend und"
+  ],
+  [
    "Strauss – Invitation a la Polka-Mazur",
    "strauss|t|invitation mazur polka"
   ],
@@ -101032,7 +100994,7 @@
    "strauss|trv297|"
   ],
   [
-   "Strauss – Man lebt nur einmal",
+   "Strauss – Man lebt nur einmal!",
    "strauss|t|einmal lebt man nur"
   ],
   [
@@ -101724,10 +101686,6 @@
    "strauss|t|land stadt und"
   ],
   [
-   "Strauss – Standchen",
-   "strauss|t|standchen"
-  ],
-  [
    "Strauss – Straussiana",
    "strauss|t|straussiana"
   ],
@@ -101770,6 +101728,10 @@
   [
    "Strauss – Studentenlust",
    "strauss|t|studentenlust"
+  ],
+  [
+   "Strauss – Ständchen",
+   "strauss|t|standchen"
   ],
   [
    "Strauss – Stürmisch in Lieb’ und Tanz",
@@ -101836,12 +101798,12 @@
    "strauss|t|polka taubenpost"
   ],
   [
-   "Strauss – Tausend und eine Nacht (Waltz)",
-   "strauss|t|eine intermezzo nacht tausend und"
-  ],
-  [
    "Strauss – Telegrafische Depeschen",
    "strauss|t|depeschen telegrafische"
+  ],
+  [
+   "Strauss – The Blue Danube",
+   "strauss|t|blue danube"
   ],
   [
    "Strauss – The Gypsy Baron",
@@ -102060,7 +102022,7 @@
    "strauss|t|mein sinn wien"
   ],
   [
-   "Strauss – Wiener Blut (Waltz)",
+   "Strauss – Wiener Blut",
    "strauss|t|blut wiener"
   ],
   [
@@ -102208,10 +102170,6 @@
    "sullivan|t|asyn guds her star vi"
   ],
   [
-   "Sullivan – Gondoliers",
-   "sullivan|t|gondolier"
-  ],
-  [
    "Sullivan – H.M.S. Pinafore",
    "sullivan|t|pinafore"
   ],
@@ -102268,10 +102226,6 @@
    "sullivan|t|bound memphi"
   ],
   [
-   "Sullivan – Mikado",
-   "sullivan|t|mikado"
-  ],
-  [
    "Sullivan – Onward, Christian Soldiers",
    "sullivan|t|christian onward soldier"
   ],
@@ -102324,12 +102278,24 @@
    "sullivan|t|golden legend"
   ],
   [
+   "Sullivan – The Gondoliers",
+   "sullivan|t|gondolier"
+  ],
+  [
    "Sullivan – The Grand Duke",
    "sullivan|t|duke grand"
   ],
   [
+   "Sullivan – The Lost Chord",
+   "sullivan|t|chord lost"
+  ],
+  [
    "Sullivan – The Merchant of Venice",
    "sullivan|t|merchant venice"
+  ],
+  [
+   "Sullivan – The Mikado",
+   "sullivan|t|mikado"
   ],
   [
    "Sullivan – The Mikado lancers",
@@ -102352,8 +102318,8 @@
    "sullivan|t|window"
   ],
   [
-   "Sullivan – The lost chord",
-   "sullivan|t|chord lost"
+   "Sullivan – The Yeomen of the Guard",
+   "sullivan|t|guard yeomen"
   ],
   [
    "Sullivan – Thespis",
@@ -102362,10 +102328,6 @@
   [
    "Sullivan – Trial by Jury",
    "sullivan|t|by jury trial"
-  ],
-  [
-   "Sullivan – Yeomen of the Guard",
-   "sullivan|t|guard yeomen"
   ],
   [
    "Suppé – Banditenstreiche",
@@ -102680,7 +102642,7 @@
    "tchaikovsky|t|etude"
   ],
   [
-   "Tchaikovsky – Eugene Onegin : Aria",
+   "Tchaikovsky – Eugene Onegin",
    "tchaikovsky|t|eugene onegin"
   ],
   [
@@ -103656,12 +103618,12 @@
    "verdi|t|ballo della regina"
   ],
   [
-   "Verdi – Brindisi, Inaffia i'ugola",
-   "verdi|t|brindisi inaffia ugola"
+   "Verdi – Brindisi",
+   "verdi|t|brindisi"
   ],
   [
-   "Verdi – Brinidisi",
-   "verdi|t|brindisi"
+   "Verdi – Brindisi, Inaffia i'ugola",
+   "verdi|t|brindisi inaffia ugola"
   ],
   [
    "Verdi – Caro nome",
@@ -103692,7 +103654,7 @@
    "verdi|t|di fedele se tu"
   ],
   [
-   "Verdi – Dio che nell' alma infondere",
+   "Verdi – Dio, che nell’alma infondere amor…",
    "verdi|t|alma amor che dio infondere nell"
   ],
   [
@@ -104108,6 +104070,10 @@
    "wagner|t|das liebesverbot"
   ],
   [
+   "Wagner – Der Ring des Nibelungen",
+   "wagner|t|der nibelungen ring"
+  ],
+  [
    "Wagner – Die Feen",
    "wagner|t|die feen"
   ],
@@ -104118,6 +104084,10 @@
   [
    "Wagner – Die Laune des Verliebten",
    "wagner|t|die laune verliebten"
+  ],
+  [
+   "Wagner – Die Meistersinger von Nürnberg",
+   "wagner|t|die meistersinger nurnberg von"
   ],
   [
    "Wagner – Elegy in A-flat major",
@@ -104200,10 +104170,6 @@
    "wagner|t|fire magic spell"
   ],
   [
-   "Wagner – Meistersinger von Nürnberg",
-   "wagner|t|die meistersinger nurnberg von"
-  ],
-  [
    "Wagner – Mime hiess ein mürrischer Zwerg",
    "wagner|t|ein hiess mime murrischer zwerg"
   ],
@@ -104246,10 +104212,6 @@
   [
    "Wagner – Rienzi",
    "wagner|t|rienzi"
-  ],
-  [
-   "Wagner – Ring des Nibelungen",
-   "wagner|t|der nibelungen ring"
   ],
   [
    "Wagner – Seit er von dir geschieden",
@@ -104404,7 +104366,7 @@
    "weber|t|abu hassan"
   ],
   [
-   "Weber – Andante e rondo",
+   "Weber – Andante e Rondo ungarese",
    "weber|t|andante rondo ungarese"
   ],
   [
@@ -104704,7 +104666,7 @@
    "whiteman|t|stomp"
   ],
   [
-   "Whiteman – Wonderful one",
+   "Whiteman – Wonderful One",
    "whiteman|t|one wonderful"
   ],
   [
@@ -104868,10 +104830,6 @@
    "wolf-ferrari|t|di il segreto susanna"
   ],
   [
-   "Wolf-Ferrari – Jewels of the Madonna : Intermezzo",
-   "wolf-ferrari|t|intermezzo jewel madonna"
-  ],
-  [
    "Wolf-Ferrari – L'amore medico",
    "wolf-ferrari|t|amore medico"
   ],
@@ -104948,7 +104906,7 @@
    "youmans|t|know more than you"
   ],
   [
-   "Youmans – No, no, Nanette",
+   "Youmans – No, No, Nanette",
    "youmans|t|nanette"
   ],
   [
@@ -105142,15 +105100,15 @@
  ],
  "pieceAliases": [
   [
-   "Arne – Lass with the delicate air",
+   "Arne – The lass with the delicate air",
    "arne|t|air delicate lass with"
   ],
   [
-   "Bayly – Long, Long Ago",
+   "Bayly – Long, long ago",
    "bayly|t|ago long"
   ],
   [
-   "Beethoven – Leonore Overture No. 3",
+   "Beethoven – Leonore overture, no. 3",
    "beethoven|t|3 leonore overture"
   ],
   [
@@ -105190,27 +105148,27 @@
    "beethoven|t|3 symphony"
   ],
   [
-   "Berlioz – La damnation de Faust",
+   "Berlioz – Damnation de Faust",
    "berlioz|t|damnation faust"
   ],
   [
-   "Bland – Carry Me Back to Old Virginny",
+   "Bland – Carry me back to ole Virginny",
    "bland|t|back carry me old virginny"
   ],
   [
-   "Blaufuss – My Isle of Golden Dreams",
+   "Blaufuss – My isle of golden dreams",
    "blaufuss|t|dream golden isle my"
-  ],
-  [
-   "Brahms – Four Pieces for Piano, Op. 119",
-   "brahms|op119|"
   ],
   [
    "Brahms – Piano Sonata No. 3",
    "brahms|t|3 sonata"
   ],
   [
-   "Brahms – Sixteen Waltzes, Op. 39",
+   "Brahms – Stücke, Op. 119, C major",
+   "brahms|op119|"
+  ],
+  [
+   "Brahms – Waltz, Op. 39",
    "brahms|op39|"
   ],
   [
@@ -105218,68 +105176,64 @@
    "brahms|t|wiegenlied"
   ],
   [
-   "Caryll – The Pink Lady",
+   "Caryll – Pink lady waltzes",
    "caryll|t|lady pink"
   ],
   [
-   "Chaminade – Callirhoë",
+   "Chaminade – Callirhoé",
    "chaminade|t|callirhoe"
   ],
   [
-   "Chopin – 24 Preludes Op. 28",
-   "chopin|op28|"
-  ],
-  [
-   "Chopin – Andante spianato et grande polonaise brillante",
+   "Chopin – Andante spianato et Grande polonaise brillante",
    "chopin|t|andante brillante grande polonaise spianato"
   ],
   [
-   "Chopin – Ballade No. 3 in A-flat major, Op. 47",
+   "Chopin – Ballade No. 3 in A♭ major, Op. 47",
    "chopin|op47|"
   ],
   [
-   "Chopin – Concerto for Piano and Orchestra no. 1 in E minor, Op. 11",
-   "chopin|op11|"
+   "Chopin – Berceuse",
+   "chopin|t|berceuse"
   ],
   [
-   "Chopin – Mazurka in A minor, Op. 67 no. 4",
-   "chopin|op67|4"
-  ],
-  [
-   "Chopin – Mazurka no. 13 in A minor, Op. 17 no. 4",
+   "Chopin – Mazurka, Op. 17 No. 4",
    "chopin|op17|4"
   ],
   [
-   "Chopin – Nocturne No. 1 in B-flat minor, Op. 9, No. 1",
-   "chopin|op9|1"
+   "Chopin – Mazurka, Op. 67 No. 4",
+   "chopin|op67|4"
   ],
   [
-   "Chopin – Nocturne No. 12 in G major, Op. 37, No. 2",
-   "chopin|op37|2"
-  ],
-  [
-   "Chopin – Nocturne No. 13 in C minor, Op. 48, No. 1",
-   "chopin|op48|1"
-  ],
-  [
-   "Chopin – Nocturne No. 16 in E-flat major, Op. 55, No. 2",
-   "chopin|op55|2"
-  ],
-  [
-   "Chopin – Nocturne No. 2 in E-flat major, Op. 9, No. 2",
-   "chopin|op9|2"
-  ],
-  [
-   "Chopin – Nocturne No. 5 in F-sharp major, Op. 15, No. 2",
+   "Chopin – Nocturne, Op. 15 No. 2",
    "chopin|op15|2"
   ],
   [
-   "Chopin – Nocturne No. 8 in D-flat major, Op. 27, No. 2",
+   "Chopin – Nocturne, Op. 27 No. 2",
    "chopin|op27|2"
   ],
   [
-   "Chopin – Nocturne No. 9 in B major, Op. 32, No. 1",
+   "Chopin – Nocturne, Op. 32 No. 1",
    "chopin|op32|1"
+  ],
+  [
+   "Chopin – Nocturne, Op. 37 No. 2",
+   "chopin|op37|2"
+  ],
+  [
+   "Chopin – Nocturne, Op. 48 No. 1",
+   "chopin|op48|1"
+  ],
+  [
+   "Chopin – Nocturne, Op. 55 No. 2",
+   "chopin|op55|2"
+  ],
+  [
+   "Chopin – Nocturne, Op. 9 No. 1",
+   "chopin|op9|1"
+  ],
+  [
+   "Chopin – Nocturne, Op. 9 No. 2",
+   "chopin|op9|2"
   ],
   [
    "Chopin – Nocturnes, Op. 15",
@@ -105310,11 +105264,11 @@
    "chopin|t|nocturne"
   ],
   [
-   "Chopin – Polonaise Op. 40 No. 1 in A major",
-   "chopin|op40|1"
+   "Chopin – Piano Concerto No. 1 in E minor, Op. 11",
+   "chopin|op11|"
   ],
   [
-   "Chopin – Polonaise in A-flat major \"Heroic\", Op. 53",
+   "Chopin – Polonaise in A♭ major, Op. 53",
    "chopin|op53|"
   ],
   [
@@ -105322,15 +105276,23 @@
    "chopin|t|keyfsharpmin polonaise"
   ],
   [
-   "Chopin – Scherzo no. 2 in B-flat minor, Op. 31",
+   "Chopin – Polonaise, Op. 40 No. 1",
+   "chopin|op40|1"
+  ],
+  [
+   "Chopin – Prelude, Op. 28",
+   "chopin|op28|"
+  ],
+  [
+   "Chopin – Scherzo No. 2 in B♭ minor, Op. 31",
    "chopin|op31|"
   ],
   [
-   "Chopin – Scherzo no. 3 in C-sharp minor, Op. 39",
+   "Chopin – Scherzo No. 3 in C♯ minor, Op. 39",
    "chopin|op39|"
   ],
   [
-   "Chopin – Scherzo no. 4 in E major, Op. 54",
+   "Chopin – Scherzo No. 4 in E major, Op. 54",
    "chopin|op54|"
   ],
   [
@@ -105338,75 +105300,79 @@
    "chopin|t|flute keyemaj variation"
   ],
   [
-   "Chopin – Waltz No. 11 in G-flat major, Op. 70, No. 1",
-   "chopin|op70|1"
-  ],
-  [
-   "Chopin – Waltz No. 5 in A-flat major, Op. 42",
+   "Chopin – Waltz in A♭ major, Op. 42",
    "chopin|op42|"
   ],
   [
-   "Chopin – Waltz No. 6 in D-flat major, Op. 64, No. 1",
+   "Chopin – Waltz, Op. 64 No. 1",
    "chopin|op64|1"
   ],
   [
-   "Chopin – Waltz No. 7 in C-sharp minor, Op. 64, No. 2",
+   "Chopin – Waltz, Op. 64 No. 2",
    "chopin|op64|2"
   ],
   [
-   "Chopin – Waltz No. 9 in A-flat major, Op. posth. 69, No. 1",
+   "Chopin – Waltz, Op. 69 No. 1",
    "chopin|op69|1"
   ],
   [
-   "Chopin – Étude Op. 10, No. 12",
+   "Chopin – Waltz, Op. 70 No. 1",
+   "chopin|op70|1"
+  ],
+  [
+   "Chopin – Étude, Op. 10 No. 12",
    "chopin|op10|12"
   ],
   [
-   "Chopin – Étude Op. 10, No. 3",
+   "Chopin – Étude, Op. 10 No. 3",
    "chopin|op10|3"
   ],
   [
-   "Chopin – Étude Op. 10, No. 5",
+   "Chopin – Étude, Op. 10 No. 5",
    "chopin|op10|5"
   ],
   [
-   "Chopin – Étude Op. 25, No. 9",
+   "Chopin – Étude, Op. 25 No. 9",
    "chopin|op25|9"
   ],
   [
-   "Cohan – Over There",
+   "Chopin – Śpiewy polskie",
+   "chopin|op74|"
+  ],
+  [
+   "Cohan – Over there",
    "cohan|t|over there"
   ],
   [
-   "Crusell – Hell dig, du höga Nord",
+   "Crusell – Hell dig, du hoga Nord!",
    "crusell|t|dig hell hoga nord"
   ],
   [
-   "Cuvillier – Lilac Domino",
+   "Cuvillier – Lila Domino",
    "cuvillier|t|domino lilac"
   ],
   [
-   "Danks – Silver Threads Among the Gold",
+   "Danks – Silver threads among the gold",
    "danks|t|among gold silver thread"
   ],
   [
-   "David – Charmant Oiseau",
+   "David – Charmant oiseau",
    "david|t|charmant oiseau"
   ],
   [
-   "Debussy – Children's Corner",
+   "Debussy – Children's corner",
    "debussy|t|children corner"
   ],
   [
-   "Debussy – Nuit d'étoiles",
+   "Debussy – Nuit d'etoiles",
    "debussy|t|etoile nuit"
   ],
   [
-   "Debussy – Préludes",
+   "Debussy – Prelude",
    "debussy|t|prelude"
   ],
   [
-   "Di Capua – 'O Sole Mio",
+   "Di Capua – O sole mio",
    "di capua|t|mio sole"
   ],
   [
@@ -105414,87 +105380,111 @@
    "dvorak|t|humoresque"
   ],
   [
-   "Edwards – By the Light of the Silvery Moon",
+   "Edwards – By the light of the silv'ry moon",
    "edwards|t|by light moon silvery"
   ],
   [
-   "Elgar – Salut d'Amour",
+   "Elgar – Salut d'amour",
    "elgar|t|amour salut"
   ],
   [
-   "Fisher – Oui, Oui, Marie",
+   "Fearis – Beautiful Isle of Somewhere",
+   "fearis|t|droomland"
+  ],
+  [
+   "Fisher – Oui, oui, Marie",
    "fisher|t|marie oui"
   ],
   [
-   "Friml – The Firefly",
+   "Friml – Firefly",
    "friml|t|firefly"
   ],
   [
-   "Gilbert – Die keusche Susanne",
+   "Gabriel-Marie – La cinquantaine",
+   "gabriel-marie|t|golden wedding"
+  ],
+  [
+   "Gilbert – Keusche Susanne",
    "gilbert|t|die keusche susanne"
   ],
   [
-   "Glazunov – Raymonda",
+   "Glazunov – Raĭmonda",
    "glazunov|t|raymonda"
   ],
   [
-   "Godard – Viens avec nous, petit",
+   "Godard – Viens avec nous",
    "godard|t|avec nous petit vien"
   ],
   [
-   "Gounod – Mireille",
+   "Gounod – Le veau d'or",
+   "gounod|t|debout est or toujour veau"
+  ],
+  [
+   "Gounod – Mirella",
    "gounod|t|mireille"
   ],
   [
-   "Gounod – Roméo et Juliete",
+   "Gounod – O merveille!",
+   "gounod|t|mireille"
+  ],
+  [
+   "Gounod – Roméo et Juliette",
    "gounod|t|juliete romeo"
   ],
   [
-   "Grieg – Lyric Pieces, Op. 43",
+   "Grieg – Lyric Pieces",
    "grieg|op43|"
   ],
   [
-   "Grieg – Lyric Pieces, Op. 65",
+   "Grieg – Lyriske stykker, Op. 43",
+   "grieg|op43|"
+  ],
+  [
+   "Grieg – Lyriske stykker, Op. 65",
    "grieg|op65|"
   ],
   [
-   "Gruber – Stille Nacht Heilige Nacht",
+   "Grieg – Piano Concerto",
+   "grieg|t|concerto"
+  ],
+  [
+   "Gruber – Stille Nacht, heilige Nacht",
    "gruber|t|heilige nacht stille"
   ],
   [
-   "Halévy – La Juive",
+   "Halévy – Juive",
    "halevy|t|juive"
   ],
   [
-   "Handel – Keyboard suite in E major (HWV 430)",
+   "Handel – Suite in E major, HWV 430",
    "handel|hwv430|"
   ],
   [
-   "Hein – When Dreams Come True",
+   "Hein – When dreams come true",
    "hein|t|come dream true when"
   ],
   [
-   "Herbert – Mlle. Modiste",
+   "Herbert – Mlle. Modiste waltzes",
    "herbert|t|mlle modiste"
   ],
   [
-   "Humperdinck – Hänsel und Gretel Suite",
+   "Humperdinck – Hänsel und Gretel",
    "humperdinck|t|gretel hansel suite und"
   ],
   [
-   "Lecocq – La fille de Madame Angot",
+   "Lecocq – Fille de Madame Angot",
    "lecocq|t|angot fille madame"
   ],
   [
-   "Lehár – Der Graf von Luxemburg",
+   "Lehár – Graf von Luxemburg",
    "lehar|t|der graf luxemburg von"
   ],
   [
-   "Lehár – The Merry Widow",
+   "Lehár – Merry widow waltz",
    "lehar|t|merry widow"
   ],
   [
-   "Liszt – Ballade No. 2",
+   "Liszt – Ballade No. 2 in B minor",
    "liszt|t|2 ballade"
   ],
   [
@@ -105502,76 +105492,84 @@
    "liszt|s102|"
   ],
   [
-   "Liszt – Hungarian Roidy No. 2",
-   "liszt|t|2 hungarian roidy"
-  ],
-  [
-   "Liszt – Loreley, piano (1861)",
+   "Liszt – Loreley (1861)",
    "liszt|t|1861 loreley"
   ],
   [
-   "Liszt – Piano Concerto No. 1",
+   "Liszt – Piano Concerto No. 1 in E♭ major",
    "liszt|t|1 concerto"
   ],
   [
-   "Liszt – Piano Sonata in B Minor, S. 178",
+   "Liszt – Piano Sonata in B minor",
    "liszt|s178|"
   ],
   [
-   "Liszt – Polonaise, piano, no. 2, E major",
+   "Liszt – Polonaise No. 2 in E major",
    "liszt|t|2 keyemaj polonaise"
   ],
   [
-   "Liszt – Réminiscences de Don Juan, S. 418",
+   "Liszt – Réminiscences de Don Juan",
    "liszt|s418|"
   ],
   [
-   "Liszt – Transcendental Étude No. 11",
+   "Liszt – Études d'exécution transcendante, No 11",
    "liszt|t|11 etude transcendental"
   ],
   [
-   "Liszt – Transcendental Étude No. 8",
+   "Liszt – Études d'exécution transcendante, No 8",
    "liszt|t|8 etude transcendental"
   ],
   [
-   "Liszt – Transcendental Étude No. 9",
+   "Liszt – Études d'exécution transcendante, No 9",
    "liszt|t|9 etude transcendental"
   ],
   [
-   "Löhr – Little Grey Home in the West",
+   "Li͡apunov – Études d'exécution transcendante",
+   "liapunov|op11|"
+  ],
+  [
+   "Löhr – Little grey home in the West",
    "lohr|t|grey home little west"
   ],
   [
-   "Mason – Nearer, My God, to Thee",
+   "Mason – Nearer my God to Thee",
    "mason|t|god my nearer thee"
   ],
   [
-   "Massenet – Élégie",
+   "Massenet – Elegie",
    "massenet|t|elegie"
   ],
   [
-   "Mendelssohn-Bartholdy – Capriccio Brillant",
+   "Mendelssohn-Bartholdy – Capriccio brillant",
    "mendelssohn-bartholdy|t|brillant capriccio"
+  ],
+  [
+   "Mendelssohn-Bartholdy – Hope",
+   "mendelssohn-bartholdy|op38|4"
   ],
   [
    "Mendelssohn-Bartholdy – Symphony No. 3",
    "mendelssohn-bartholdy|t|3 symphony"
   ],
   [
-   "Mozart – Alleluia",
+   "Mozart – Alleluja",
    "mozart|t|alleluia"
   ],
   [
-   "Mozart – Les petits riens",
+   "Mozart – Jupiter symphony",
+   "mozart|t|41 symphony"
+  ],
+  [
+   "Mozart – Les petits riens (Gavotte)",
    "mozart|t|petit rien"
+  ],
+  [
+   "Mozart – Magic flute : Overture",
+   "mozart|t|flute magic"
   ],
   [
    "Mozart – Rondo in B-flat for Violin and Orchestra",
    "mozart|k373|"
-  ],
-  [
-   "Mozart – The Magic Flute",
-   "mozart|t|flute magic"
   ],
   [
    "Mozart – Violin Sonata No. 27",
@@ -105594,19 +105592,19 @@
    "mozart|k31|"
   ],
   [
-   "Nutile – Mamma mia che vo' sapé?!",
+   "Nutile – Mamma mia, che vo sape",
    "nutile|t|che mamma mia sape vo"
   ],
   [
-   "Offenbach – La Belle Hélène",
+   "Offenbach – Melody from 'La belle Helene'",
    "offenbach|t|belle helene"
   ],
   [
-   "Olcott – My Wild Irish Rose",
+   "Olcott – My wild Irish rose",
    "olcott|t|irish my rose wild"
   ],
   [
-   "Pennino – Pecchè?",
+   "Pennino – Pecche",
    "pennino|t|pecche"
   ],
   [
@@ -105614,11 +105612,11 @@
    "pergolesi|t|mater stabat"
   ],
   [
-   "Pierné – Sérénade, Op. 7",
+   "Pierné – Serenades, Op. 7",
    "pierne|op7|"
   ],
   [
-   "Planquette – Le Régiment de Sambre et Meuse",
+   "Planquette – Le regiment de Sambre et Meuse",
    "planquette|t|meuse regiment sambre"
   ],
   [
@@ -105630,23 +105628,23 @@
    "rachmaninoff|t|prelude"
   ],
   [
-   "Rosas – Sobre las Olas",
+   "Rosas – Sobre las olas",
    "rosas|t|las olas sobre"
   ],
   [
-   "Rossini – William Tell",
-   "rossini|t|tell william"
-  ],
-  [
-   "Rossini – William Tell Overture",
+   "Rossini – William Tell overture",
    "rossini|t|overture tell william"
   ],
   [
-   "Saint-Saëns – Mon cœur s'ouvre à ta voix",
+   "Saint-Saëns – Mon coeur s'ouvre a ta voix",
    "saint-saens|t|mon ouvre ta ur voix"
   ],
   [
-   "Schubert – Der Tod und das Mädchen",
+   "Saint-Saëns – Samson et Dalila",
+   "saint-saens|t|delilah samson"
+  ],
+  [
+   "Schubert – Der Tod und das Madchen",
    "schubert|t|das der madchen tod und"
   ],
   [
@@ -105654,16 +105652,20 @@
    "schubert|t|die forelle"
   ],
   [
-   "Schubert – Du bist die Ruh'",
+   "Schubert – Du bist die Ruh",
    "schubert|t|bist die ruh"
   ],
   [
-   "Schubert – Six moments musicaux",
+   "Schubert – Marche militaire",
+   "schubert|t|marche militaire three"
+  ],
+  [
+   "Schubert – Musical moments",
    "schubert|t|moment musicaux six"
   ],
   [
-   "Schubert – Three Marches Militaires",
-   "schubert|t|marche militaire three"
+   "Schubert – Wanderer Fantasy",
+   "schubert|t|fantasy wanderer"
   ],
   [
    "Schumann – Albumblätter",
@@ -105674,32 +105676,52 @@
    "schumann|t|arabeske keycmaj"
   ],
   [
+   "Schumann – Fantasie in C",
+   "schumann|t|fantasie"
+  ],
+  [
+   "Schumann – Piano Concerto",
+   "schumann|t|concerto"
+  ],
+  [
    "Schumann – Piano Sonata No. 2",
    "schumann|t|2 sonata"
   ],
   [
-   "Schumann – Waldszenen",
+   "Schumann – Toccata",
+   "schumann|t|toccata"
+  ],
+  [
+   "Schumann – Waldscenen",
    "schumann|t|waldszenen"
+  ],
+  [
+   "Schumann – Études symphoniques",
+   "schumann|t|studie symphonic"
   ],
   [
    "Scriabin – Prélude et Nocturne for Piano",
    "scriabin|t|nocturne prelude"
   ],
   [
-   "Sibelius – Romance, Op. 24, no. 9",
+   "Sibelius – Romance in D♭ major, Op. 24 No. 9",
    "sibelius|op24|9"
   ],
   [
-   "Silcher – LORELEI",
+   "Silcher – Lorelei",
    "silcher|t|lorelei"
   ],
   [
-   "Sinding – Pianoforte-Stücke",
+   "Sinding – Rustle of spring [Fruhlingsrauschen]",
+   "sinding|t|fruhlingsrauschen"
+  ],
+  [
+   "Sinding – Stücke, Op. 32",
    "sinding|op32|"
   ],
   [
-   "Sinding – Sechs Stücke für das Pianoforte opus 32",
-   "sinding|op32|"
+   "Strauss – Artist's life waltz",
+   "strauss|t|kunstlerleben"
   ],
   [
    "Strauss – Burleske",
@@ -105710,15 +105732,11 @@
    "strauss|trv156|"
   ],
   [
-   "Strauss – Intermezzo aus \"Tausend und eine Nacht\"",
-   "strauss|t|eine intermezzo nacht tausend und"
-  ],
-  [
-   "Strauss – Man lebt nur einmal!",
+   "Strauss – Man lebt nur einmal",
    "strauss|t|einmal lebt man nur"
   ],
   [
-   "Strauss – Ständchen",
+   "Strauss – Standchen",
    "strauss|t|standchen"
   ],
   [
@@ -105726,27 +105744,27 @@
    "strauss|t|eine intermezzo nacht tausend und"
   ],
   [
-   "Strauss – The Blue Danube",
-   "strauss|t|blue danube"
+   "Strauss – Tausend und eine Nacht (Waltz)",
+   "strauss|t|eine intermezzo nacht tausend und"
   ],
   [
-   "Strauss – Wiener Blut",
+   "Strauss – Wiener Blut (Waltz)",
    "strauss|t|blut wiener"
   ],
   [
-   "Sullivan – The Gondoliers",
+   "Sullivan – Gondoliers",
    "sullivan|t|gondolier"
   ],
   [
-   "Sullivan – The Lost Chord",
-   "sullivan|t|chord lost"
-  ],
-  [
-   "Sullivan – The Mikado",
+   "Sullivan – Mikado",
    "sullivan|t|mikado"
   ],
   [
-   "Sullivan – The Yeomen of the Guard",
+   "Sullivan – The lost chord",
+   "sullivan|t|chord lost"
+  ],
+  [
+   "Sullivan – Yeomen of the Guard",
    "sullivan|t|guard yeomen"
   ],
   [
@@ -105754,7 +105772,7 @@
    "tchaikovsky|op6|"
   ],
   [
-   "Tchaikovsky – Eugene Onegin",
+   "Tchaikovsky – Eugene Onegin : Aria",
    "tchaikovsky|t|eugene onegin"
   ],
   [
@@ -105762,31 +105780,35 @@
    "tchaikovsky|t|6 symphony"
   ],
   [
-   "Verdi – Brindisi",
+   "Verdi – Brinidisi",
    "verdi|t|brindisi"
   ],
   [
-   "Verdi – Dio, che nell’alma infondere amor…",
+   "Verdi – Dio che nell' alma infondere",
    "verdi|t|alma amor che dio infondere nell"
   ],
   [
-   "Wagner – Der Ring des Nibelungen",
-   "wagner|t|der nibelungen ring"
-  ],
-  [
-   "Wagner – Die Meistersinger von Nürnberg",
+   "Wagner – Meistersinger von Nürnberg",
    "wagner|t|die meistersinger nurnberg von"
   ],
   [
-   "Weber – Andante e Rondo ungarese",
+   "Wagner – Ring des Nibelungen",
+   "wagner|t|der nibelungen ring"
+  ],
+  [
+   "Weber – Andante e rondo",
    "weber|t|andante rondo ungarese"
   ],
   [
-   "Whiteman – Wonderful One",
+   "Whiteman – Wonderful one",
    "whiteman|t|one wonderful"
   ],
   [
-   "Youmans – No, No, Nanette",
+   "Wolf-Ferrari – Jewels of the Madonna : Intermezzo",
+   "wolf-ferrari|t|della gioielli madonna"
+  ],
+  [
+   "Youmans – No, no, Nanette",
    "youmans|t|nanette"
   ]
  ]

@@ -96,9 +96,12 @@ for r in cat["recordings"]:
     if r["composer"] and r["composer"] != "Traditional":
         surname_of[r["composer"]] = (r.get("work") or r["piece"]).split(" – ")[0]
 
-# 1. answer options from Wikidata
+# 1. answer options from Wikidata (data/label-fixes.json corrects typos in Wikidata titles)
+try: LABEL_FIX = json.load(open("data/label-fixes.json", encoding="utf-8"))
+except FileNotFoundError: LABEL_FIX = {}
 options = {}            # key -> display name
 plain_of = {}           # key -> label without added catalog number
+names_of = {}           # key -> the work's titles in several languages
 key_of_item = {}        # wikidata id -> option key
 kind_of_key = {}        # option key -> forms and genres text, for the genre filter
 children_items = []     # (composer surname, label of an aria/movement, wikidata id of its parent work)
@@ -120,7 +123,7 @@ for comp, info in wd.items():
             for p in parents:                          # a movement or aria of a bigger work: the bigger work is the answer
                 children_items.append((sn, w["label"], p["id"]))
             continue
-        label = re.sub(r"\s*\((?:%s|[^)]*%s[^)]*)\)" % (re.escape(sn), re.escape(sn)), "", w["label"]).strip()
+        label = re.sub(r"\s*\((?:%s|[^)]*%s[^)]*)\)" % (re.escape(sn), re.escape(sn)), "", LABEL_FIX.get(w["label"], w["label"])).strip()
         label = re.sub(r"\bnr\.?\s*", "No. ", label, flags=re.I); label = re.sub(r"\bop\.\s*", "Op. ", label, flags=re.I)
         plain = label
         if w["catalog"] and not numbers(label) and not re.search(r"\d", label):
@@ -129,6 +132,7 @@ for comp, info in wd.items():
         name = f"{sn} – {label}"
         k = key_for(comp, label, sn)
         plain_of[k] = plain
+        names_of[k] = [plain] + [a for a in w.get("alt", []) if a and len(a) < 120]
         kind_of_key[k] = (forms + " " + " ".join(w["genres"]).lower()).strip()
         key_of_item[w["id"]] = k
         parents_of_key[k] |= set(w["partOf"])
@@ -178,17 +182,19 @@ for r in cat["recordings"]:
         bnum = numbers(base)
         for ok, on in options.items():
             if not ok.startswith(fold(sn) + "|"): continue
-            ow = title_words(plain_of.get(ok, on.split(" – ", 1)[1]), sn)
-            odig = {w for w in ow if w.isdigit()}
-            if not tw or not ow or (tdig and odig and tdig != odig) or (tdig and not odig): continue
-            if any(x in ow and x not in tw for x in INSTR): continue
             if bnum and "|t|" not in ok: continue           # numbered piece: only a same-number match (done above) or an unnumbered set
-            j = sim(tw, ow)
+            j = 0
+            for nm in names_of.get(ok, [plain_of.get(ok, on.split(" – ", 1)[1])]):
+                ow = title_words(nm, sn)
+                odig = {w for w in ow if w.isdigit()}
+                if not tw or not ow or (tdig and odig and tdig != odig) or (tdig and not odig): continue
+                if any(x in ow and x not in tw for x in INSTR): continue
+                j = max(j, sim(tw, ow))
             if j >= 0.6 and (best is None or j > best[0]): best = (j, ok, on)
         if best: k, name = best[1], best[2]
     if not name:
         name = f"{sn} – {base if 'work' in r else pretty_uniform(base)}"
-        options.setdefault(k, name); unmatched.append(name)
+        options.setdefault(k, name); unmatched.append(name); r["_unmatched"] = True
     r["piece"], r["pieceKey"], r["movement"] = name, k, mov
     r["_own"] = f"{sn} – {base}" if "work" in r and not (r.get("kind") == "record" and mov) else None
 
@@ -197,12 +203,20 @@ own = collections.defaultdict(set)
 for r in cat["recordings"]: own[r["pieceKey"]].add(r["_own"])
 for r in cat["recordings"]:
     names = own[r["pieceKey"]]
-    if len(names) == 1 and r["_own"]:
+    wd_name = options.get(r["pieceKey"])
+    own_better = r["_own"] and (not wd_name or r.get("_unmatched") or (numbers(r["_own"]) and not numbers(wd_name)))
+    if len(names) == 1 and r["_own"] and not own_better:
+        if wd_name and wd_name != r["_own"]:
+            alt_names[r["_own"]] = r["pieceKey"]
+            extra = re.search(r"(?:,\s*|\bNo\.?\s*|\bNr\.?\s*)(\d+)\s*$", r["_own"].split(" – ", 1)[1])
+            if extra and not re.search(r"\d", wd_name.split(" – ", 1)[1]) and not r.get("movement"): r["movement"] = "No. " + extra.group(1)
+        r["piece"] = wd_name
+    elif len(names) == 1 and r["_own"]:
         old = options.get(r["pieceKey"])
         if old and old != r["_own"]: alt_names[old] = r["pieceKey"]
         r["piece"] = r["_own"]; options[r["pieceKey"]] = r["_own"]
     else: r["piece"] = options.get(r["pieceKey"], r["piece"])
-    del r["_own"]
+    del r["_own"]; r.pop("_unmatched", None)
 
 game_keys = {r["pieceKey"]: r for r in cat["recordings"]}
 by_comp = collections.defaultdict(list)
