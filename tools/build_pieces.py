@@ -89,6 +89,7 @@ for r in cat["recordings"]:
 options = {}            # key -> display name
 plain_of = {}           # key -> label without added catalog number
 key_of_item = {}        # wikidata id -> option key
+kind_of_key = {}        # option key -> forms and genres text, for the genre filter
 parents_of_key = collections.defaultdict(set)
 work_by_key = {}
 for comp, info in wd.items():
@@ -114,6 +115,7 @@ for comp, info in wd.items():
         name = f"{sn} – {label}"
         k = key_for(comp, label, sn)
         plain_of[k] = plain
+        kind_of_key[k] = (forms + " " + " ".join(w["genres"]).lower()).strip()
         key_of_item[w["id"]] = k
         parents_of_key[k] |= set(w["partOf"])
         if k not in options or (len(name) < len(options[k]) and numbers(name)): options[k] = name
@@ -185,6 +187,36 @@ for r in cat["recordings"]:
     acc = sorted(children.get(r["pieceKey"], set()) - {r["pieceKey"]})
     if acc: r["acceptKeys"] = acc
     else: r.pop("acceptKeys", None)
+
+# genre, for the practice filters
+def genre_of(r):
+    text = fold(r["piece"] + " " + (r.get("movement") or "") + " " + (r.get("rollLabel") or ""))
+    kinds = kind_of_key.get(r["pieceKey"], "")
+    cdesc = fold(((wd.get(r["composer"]) or {}).get("description")) or "")
+    if re.search(r"\b(rag|fox-?trot|one-?step|two-?step|tango|revue|blues|cake-?walk|shimmy)\b", text):
+        return "Popular & dance"
+    if re.search(r"opera|operetta|ballet|dramatico|stage|musical theatre|singspiel|zarzuela", kinds) or re.search(
+            r"\b(opera|operette|reminiscences|paraphrase de concert|fantasi[ae]? (?:on|sur|uber|über)|lohengrin|tannhauser|tristan|meistersinger|parsifal|rienzi|ring des|faust|carmen|aida|rigoletto|trovatore|traviata|boheme|tosca|madama butterfly|pagliacci|cavalleria|manon|werther|thais|lakme|samson|norma|don juan|don giovanni|lustige witwe|fledermaus|mikado|gondoliers|yeomen|henry viii|tiefland|guillaume tell|juive|hoffmann|frau luna|sadko|rose-marie|firefly)\b", text):
+        return "Opera & stage"
+    if re.search(r"symphon|concert|overture|orchestral|suite|tone poem", kinds) or re.search(r"\b(symphony|concerto|overture|ouverture|peer gynt|finlandia|heldenleben|suite)\b", text):
+        return "Orchestral"
+    if re.search(r"popular|ragtime|jazz|foxtrot|tango|dance music", kinds) or re.search(r"songwriter|popular|ragtime|bandleader|tin pan|cabaret|operetta|musical", cdesc):
+        return "Popular & dance"
+    if re.search(r"\bsong|lied|hymn|aria|anthem", kinds) or re.search(r"\b(lied|lieder|song|songs|hymn|gesang|melodie|ständchen|standchen)\b", text):
+        return "Songs"
+    return "Piano music"
+for r in cat["recordings"]: r["genre"] = genre_of(r)
+print(collections.Counter(r["genre"] for r in cat["recordings"]))
+
+# how well known the composer and the performers are (number of Wikipedia articles), for the practice filters
+try: people = json.load(open("sources/wikidata-people.json", encoding="utf-8"))
+except FileNotFoundError: people = {}
+def tier(n, hi, mid): return "famous" if n >= hi else "known" if n >= mid else "obscure"
+for r in cat["recordings"]:
+    r["composerFame"] = tier(((wd.get(r["composer"]) or {}).get("sitelinks") or 0), 60, 20)
+    best = max(((people.get(p) or {}).get("sitelinks") or 0) for p in r["performers"])
+    r["performerFame"] = "famous" if r.get("famous") and best < 30 else tier(best, 30, 8)
+print("composers:", collections.Counter(r["composerFame"] for r in cat["recordings"]), "performers:", collections.Counter(r["performerFame"] for r in cat["recordings"]))
 
 # drop option names that collide (same text, different key)
 seen = collections.Counter(options.values())

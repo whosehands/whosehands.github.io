@@ -21,6 +21,7 @@
 
   let CAT, BY_ID, DAY;            // catalog, recordings by id, today's day number (0 = No. 1)
   let MODE, P, S;                 // "daily" | "practice", current recording, current game state
+  let DRAW_LIMIT = SNIPS[0];      // seconds of the piece the player is allowed to see on the roll
 
   /* ---------- helpers ---------- */
   function dayIndex(epoch) {
@@ -181,7 +182,7 @@
     g.fillStyle = hole;
     const span = 3.2, px = h / span, now = Player.start + (at || 0);
     for (const n of Player.notes) {
-      if (n.time > now + span) break;
+      if (n.time > now + span || n.time > Player.start + DRAW_LIMIT + 0.02) break;   // never show notes past the unlocked clip
       const len = Math.min(n.dur, 1.2);
       if (n.time + len < now - 0.2) continue;
       const x = ((n.midi - 21) / 88) * (w - 16) + 8, y = h - (n.time - now) * px - 18;
@@ -196,13 +197,64 @@
   }
   const stateKey = () => (MODE === "daily" ? "wh3-day-" + DAY : "wh3-practice");
   const save = () => store.set(stateKey(), S);
+  const FAME = [["any", "Any"], ["famous", "Famous"], ["known", "Well known"], ["obscure", "Obscure"]];
+  function defaultFilters() { return { kinds: { roll: true, record: true }, genres: {}, yearFrom: YEAR_MIN, yearTo: YEAR_MAX, composer: "any", performer: "any" }; }
+  let FILTERS = null;
+  const filters = () => (FILTERS = FILTERS || Object.assign(defaultFilters(), store.get("wh3-filters", {})));
+  function passes(r, f) {
+    if (f.kinds[r.kind || "roll"] === false) return false;
+    if (f.genres[r.genre] === false) return false;
+    if (r.yearMax < f.yearFrom || r.yearMin > f.yearTo) return false;
+    if (f.composer !== "any" && (r.composerFame || "obscure") !== f.composer) return false;
+    if (f.performer !== "any" && (r.performerFame || (r.famous ? "famous" : "obscure")) !== f.performer) return false;
+    return true;
+  }
   function practicePool() {
     const soon = new Set();
     for (let d = DAY; d < DAY + 30; d++) soon.add(CAT.schedule[d % CAT.schedule.length]);   // keep the next month's dailies unspoiled
-    return CAT.recordings.filter(r => !soon.has(r.id));
+    const f = filters();
+    return CAT.recordings.filter(r => !soon.has(r.id) && passes(r, f));
+  }
+  function filtersHTML() {
+    const f = filters(), n = practicePool().length;
+    const genres = [...new Set(CAT.recordings.map(r => r.genre).filter(Boolean))].sort();
+    const kinds = [...new Set(CAT.recordings.map(r => r.kind || "roll"))];
+    const years = []; for (let y = YEAR_MIN; y <= YEAR_MAX; y++) years.push(y);
+    const sel = (id, val, opts) => `<select id="${id}">${opts.map(([v, l]) => `<option value="${v}" ${String(v) === String(val) ? "selected" : ""}>${l}</option>`).join("")}</select>`;
+    const hasFame = CAT.recordings.some(r => r.composerFame);
+    return `<details class="panel filters" ${store.get("wh3-filters-open", false) ? "open" : ""}>
+      <summary><span class="label">Filters</span><span class="pts" id="fcount">${n} recording${n === 1 ? "" : "s"} match</span></summary>
+      ${kinds.length > 1 ? `<fieldset><legend class="label">Format</legend>${kinds.map(k => `<label class="check"><input type="checkbox" data-kind="${k}" ${f.kinds[k] !== false ? "checked" : ""}> ${k === "roll" ? "Piano rolls" : "78 records"}</label>`).join("")}</fieldset>` : ""}
+      <fieldset><legend class="label">Genre</legend>${genres.map(g => `<label class="check"><input type="checkbox" data-genre="${esc(g)}" ${f.genres[g] !== false ? "checked" : ""}> ${esc(g)}</label>`).join("")}</fieldset>
+      <fieldset class="fyears"><legend class="label">Recorded</legend>${sel("f-from", f.yearFrom, years.map(y => [y, y]))}<span>to</span>${sel("f-to", f.yearTo, years.map(y => [y, y]))}</fieldset>
+      ${hasFame ? `<fieldset class="fyears"><legend class="label">Composer</legend>${sel("f-comp", f.composer, FAME)}</fieldset>` : ""}
+      <fieldset class="fyears"><legend class="label">${CAT.recordings.some(r => r.kind === "record") ? "Performer" : "Pianist"}</legend>${sel("f-perf", f.performer, hasFame ? FAME : FAME.filter(x => x[0] !== "known"))}</fieldset>
+      <div class="controls"><button class="btn primary" id="fapply" ${n ? "" : "disabled"}>New puzzle with these filters</button><button class="btn" id="freset">Reset</button></div>
+    </details>`;
+  }
+  function wireFilters() {
+    const box = document.querySelector(".filters"); if (!box) return;
+    box.addEventListener("toggle", () => store.set("wh3-filters-open", box.open));
+    const f = filters();
+    const update = () => {
+      box.querySelectorAll("[data-kind]").forEach(el => (f.kinds[el.dataset.kind] = el.checked));
+      box.querySelectorAll("[data-genre]").forEach(el => (f.genres[el.dataset.genre] = el.checked));
+      f.yearFrom = +document.getElementById("f-from").value; f.yearTo = +document.getElementById("f-to").value;
+      if (f.yearFrom > f.yearTo) [f.yearFrom, f.yearTo] = [f.yearTo, f.yearFrom];
+      const c = document.getElementById("f-comp"); if (c) f.composer = c.value;
+      f.performer = document.getElementById("f-perf").value;
+      store.set("wh3-filters", f);
+      const n = practicePool().length;
+      document.getElementById("fcount").textContent = `${n} recording${n === 1 ? "" : "s"} match`;
+      document.getElementById("fapply").disabled = !n;
+    };
+    box.querySelectorAll("input, select").forEach(el => el.addEventListener("change", update));
+    document.getElementById("fapply").onclick = () => { Player.reset(); newPractice(); render(); Player.load().then(() => draw(document.getElementById("roll"), 0)).catch(() => {}); };
+    document.getElementById("freset").onclick = () => { FILTERS = defaultFilters(); store.set("wh3-filters", FILTERS); render(); };
   }
   function newPractice() {
-    const pool = practicePool();
+    let pool = practicePool();
+    if (!pool.length) pool = CAT.recordings;
     const r = pool[Math.floor(Math.random() * pool.length)];
     S = freshState(r.id, Math.random()); P = r; save();
   }
@@ -298,7 +350,7 @@
       ? "This recording was made on a 78 record between 1900 and 1925. Guess everyone featured on it, the piece, and the year."
       : "A pianist recorded this on a piano roll between 1905 and 1925. You hear their exact notes, pedaling and timing on a modern piano. Guess who, what, and when."}
       You hear a random part of the piece. Right answers keep the clip as it is; each miss plays more and adds a hint.</p>` : ""}
-    ${!daily ? `<div class="controls"><button class="btn" id="newp">${S.done ? "Next puzzle" : "Skip to a new puzzle"}</button></div>` : ""}
+    ${!daily ? filtersHTML() + `<div class="controls"><button class="btn" id="newp">${S.done ? "Next puzzle" : "Skip to a new puzzle"}</button></div>` : ""}
 
     <section class="player" aria-label="Recording">
       <div class="rollbox"><canvas id="roll" aria-hidden="true"></canvas><span class="tag">${tag}</span><span class="status" id="status"></span></div>
@@ -340,6 +392,7 @@
     P.performers.forEach((_, i) => { const el = document.getElementById("g-p" + i); if (el && !el.disabled) suggest(el, CAT.nameIndex); });
     const pin = document.getElementById("g-piece"); if (pin && !pin.disabled) suggest(pin, CAT.pieceIndex);
     const canvas = document.getElementById("roll"), status = document.getElementById("status");
+    DRAW_LIMIT = secs;
     draw(canvas, 0);
     const bars = [...app.querySelectorAll(".bar span i")];
     const tick = el => {
@@ -352,6 +405,7 @@
       catch (e) { status.textContent = "COULDN'T LOAD AUDIO"; console.error(e); }
     };
     document.getElementById("stop").onclick = () => { Player.stop(); status.textContent = ""; };
+    wireFilters();
     const np = document.getElementById("newp");
     if (np) np.onclick = () => { Player.reset(); newPractice(); render(); Player.load().then(() => draw(document.getElementById("roll"), 0)).catch(() => {}); };
 
@@ -399,7 +453,7 @@
       catch (e) { const r = document.createRange(); r.selectNodeContents(box); const s = getSelection(); s.removeAllRanges(); s.addRange(r); copy.textContent = "Selected, now copy"; }
     };
     const full = document.getElementById("full");
-    if (full) full.onclick = () => { window.scrollTo({ top: 0, behavior: "smooth" }); document.getElementById("status").textContent = "PLAYING"; Player.play(60, tick, () => { status.textContent = ""; }); };
+    if (full) full.onclick = () => { DRAW_LIMIT = 60; window.scrollTo({ top: 0, behavior: "smooth" }); document.getElementById("status").textContent = "PLAYING"; Player.play(60, tick, () => { status.textContent = ""; }); };
   }
 
   function shareText() {

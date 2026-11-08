@@ -481,7 +481,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "chopin|op47|",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "bc072xf6791",
@@ -510,7 +513,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "beethoven|t|adelaide",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "bd915bs0646",
@@ -539,7 +545,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "mendelssohn-bartholdy|t|brillant capriccio",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "bf074nj8801",
@@ -568,7 +577,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "beethoven|t|23 sonata",
-   "movement": "selections"
+   "movement": "selections",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "bf644yy6536",
@@ -597,7 +609,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "grieg|t|1 gynt peer suite",
-   "movement": ""
+   "movement": "",
+   "genre": "Orchestral",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "bg098gg3899",
@@ -626,7 +641,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "liszt|t|13 hungarian rhapsody",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "bj021jc9795",
@@ -655,7 +673,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "chopin|op57|",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "bj093nh2591",
@@ -684,7 +705,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "schumann|op54|",
-   "movement": "Allegro affettuoso"
+   "movement": "Allegro affettuoso",
+   "genre": "Orchestral",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "bj606rp8160",
@@ -713,7 +737,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "chopin|op23|",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "bk297ff8944",
@@ -742,7 +769,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "tchaikovsky|t|6 symphony",
-   "movement": "selections"
+   "movement": "selections",
+   "genre": "Orchestral",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "bm016sg7202",
@@ -771,7 +801,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "chopin|op40|1",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "bp952tr1116",
@@ -800,7 +833,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "dohnanyi|op11|2",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "known",
+   "performerFame": "obscure"
   },
   {
    "id": "bq744nq5945",
@@ -829,7 +865,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "beethoven|t|32 sonata",
-   "movement": "Maestoso"
+   "movement": "Maestoso",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "bs173rx9307",
@@ -858,7 +897,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "wagner|t|isolde tristan und",
-   "movement": "Liebestod"
+   "movement": "Liebestod",
+   "genre": "Opera & stage",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "bs279zc9206",
@@ -887,7 +929,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "chopin|op11|",
-   "movement": "Romance"
+   "movement": "Romance",
+   "genre": "Orchestral",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "bs533ns1949",
@@ -916,7 +961,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "delibes|t|naila",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "known",
+   "performerFame": "obscure"
   },
   {
    "id": "bx815rz0622",
@@ -945,7 +993,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "liszt|t|12 hungarian rhapsody",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "by076cz0337",
@@ -974,7 +1025,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "gounod|t|faust",
-   "movement": "Ballet"
+   "movement": "Ballet",
+   "genre": "Opera & stage",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "bz327kz4744",
@@ -1003,7 +1057,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "berlin|t|1923 box music revue",
-   "movement": "What'll I do?"
+   "movement": "What'll I do?",
+   "genre": "Popular & dance",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "cd381jt9273",
@@ -1032,7 +1089,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "mendelssohn-bartholdy|t|3 symphony",
-   "movement": "Allegro vivacissimo"
+   "movement": "Allegro vivacissimo",
+   "genre": "Orchestral",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "cd435bw2771",
@@ -1061,7 +1121,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "chaminade|t|arlequine",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "known",
+   "performerFame": "famous"
   },
   {
    "id": "cg834ff4729",
@@ -1090,7 +1153,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "cuvillier|t|domino lila",
-   "movement": "Waltz"
+   "movement": "Waltz",
+   "genre": "Piano music",
+   "composerFame": "obscure",
+   "performerFame": "obscure"
   },
   {
    "id": "ch197br4742",
@@ -1119,7 +1185,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "chopin|op25|9",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "ch401rm7382",
@@ -1148,7 +1217,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "liszt|t|lied mignon",
-   "movement": ""
+   "movement": "",
+   "genre": "Songs",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "ch718mg2581",
@@ -1177,7 +1249,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "beethoven|t|18 sonata",
-   "movement": "Menuetto"
+   "movement": "Menuetto",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "cm852bp8620",
@@ -1206,7 +1281,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "schubert|d760|",
-   "movement": "selections"
+   "movement": "selections",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "cp145vd3423",
@@ -1235,7 +1313,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "rubinstein|op16|",
-   "movement": "Sérénade espagnole"
+   "movement": "Sérénade espagnole",
+   "genre": "Piano music",
+   "composerFame": "known",
+   "performerFame": "known"
   },
   {
    "id": "cp259ms0085",
@@ -1264,7 +1345,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "saint-saens|t|dalila samson",
-   "movement": "Mon cœur s'ouvre à ta voix"
+   "movement": "Mon cœur s'ouvre à ta voix",
+   "genre": "Opera & stage",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "cs175wr2428",
@@ -1293,7 +1377,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "schumann|t|kreisleriana",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "ct503bz7189",
@@ -1322,7 +1409,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "korngold|t|marchenbilder",
-   "movement": "selections"
+   "movement": "selections",
+   "genre": "Piano music",
+   "composerFame": "known",
+   "performerFame": "obscure"
   },
   {
    "id": "cv806rf2664",
@@ -1351,7 +1441,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "liszt|t|8 etude execution transcendante",
-   "movement": "Wilde Jagd"
+   "movement": "Wilde Jagd",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "cw078rn1143",
@@ -1380,7 +1473,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "chopin|op64|1",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "cw211cn1219",
@@ -1409,7 +1505,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "schumann|t|davidsbundlertanze",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "known"
   },
   {
    "id": "cw378sb0125",
@@ -1438,7 +1537,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "chaminade|t|parole romance sans",
-   "movement": "Élévation"
+   "movement": "Élévation",
+   "genre": "Piano music",
+   "composerFame": "known",
+   "performerFame": "famous"
   },
   {
    "id": "cw427tw4145",
@@ -1467,7 +1569,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "mendelssohn-bartholdy|t|capriccioso rondo",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "cw965qx3168",
@@ -1496,7 +1601,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "henderson|t|follow swallow",
-   "movement": ""
+   "movement": "",
+   "genre": "Popular & dance",
+   "composerFame": "obscure",
+   "performerFame": "obscure"
   },
   {
    "id": "cz847th6835",
@@ -1525,7 +1633,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "liszt|t|8 hungarian rhapsody",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "cz952kx0008",
@@ -1554,7 +1665,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "schelling|t|romance",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "obscure",
+   "performerFame": "famous"
   },
   {
    "id": "dc021nq1464",
@@ -1583,7 +1697,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "paderewski|t|concert humoresque",
-   "movement": "Menuet célèbre"
+   "movement": "Menuet célèbre",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "dc661yr7679",
@@ -1612,7 +1729,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "brahms|t|1 dance hungarian",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "dc920rk8870",
@@ -1641,7 +1761,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "debussy|t|children corner",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "dj406yq6980",
@@ -1670,7 +1793,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "brassin|t|der nibelungen richard ring wagner",
-   "movement": "Feuerzauber"
+   "movement": "Feuerzauber",
+   "genre": "Opera & stage",
+   "composerFame": "obscure",
+   "performerFame": "famous"
   },
   {
    "id": "dp497dz1055",
@@ -1699,7 +1825,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "macdowell|t|fantasiestucke",
-   "movement": "Hexentanz"
+   "movement": "Hexentanz",
+   "genre": "Piano music",
+   "composerFame": "known",
+   "performerFame": "obscure"
   },
   {
    "id": "dp801zr4347",
@@ -1728,7 +1857,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "beethoven|t|1806 fidelio",
-   "movement": "Ouverture"
+   "movement": "Ouverture",
+   "genre": "Orchestral",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "dq126tp4234",
@@ -1757,7 +1889,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "mozart|t|don giovanni",
-   "movement": "Ouverture"
+   "movement": "Ouverture",
+   "genre": "Opera & stage",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "dq276yn8963",
@@ -1786,7 +1921,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "glazunov|t|goda vremena",
-   "movement": "selections"
+   "movement": "selections",
+   "genre": "Piano music",
+   "composerFame": "known",
+   "performerFame": "famous"
   },
   {
    "id": "dr835xg3992",
@@ -1815,7 +1953,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "wagner|t|rienzi",
-   "movement": "Ouvertüre"
+   "movement": "Ouvertüre",
+   "genre": "Opera & stage",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "dr971dy1221",
@@ -1844,7 +1985,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "berlioz|t|damnation faust",
-   "movement": "Ballet des sylphes"
+   "movement": "Ballet des sylphes",
+   "genre": "Opera & stage",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "ds710xd1794",
@@ -1873,7 +2017,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "schumann|t|kinderscenen",
-   "movement": "selections"
+   "movement": "selections",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "dt046tz6296",
@@ -1902,7 +2049,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "wagner|t|lohengrin",
-   "movement": "Einsam in trüben Tagen"
+   "movement": "Einsam in trüben Tagen",
+   "genre": "Opera & stage",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "dt352gh2011",
@@ -1931,7 +2081,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "rubinstein|t|22 kamennoi ostrow",
-   "movement": "Rêve angélique"
+   "movement": "Rêve angélique",
+   "genre": "Piano music",
+   "composerFame": "known",
+   "performerFame": "obscure"
   },
   {
    "id": "dw005gw3358",
@@ -1960,7 +2113,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "debussy|t|estampe",
-   "movement": "Soirée dans Grenade"
+   "movement": "Soirée dans Grenade",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "dw083wh0675",
@@ -1989,7 +2145,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "liszt|t|1861 loreley",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "dw479gk0103",
@@ -2018,7 +2177,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "paderewski|t|concert humoresque",
-   "movement": "Menuet célèbre"
+   "movement": "Menuet célèbre",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "dw559kr7002",
@@ -2047,7 +2209,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "chopin|op58|",
-   "movement": "selections"
+   "movement": "selections",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "dx555xv9093",
@@ -2076,7 +2241,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "beethoven|t|14 sonata",
-   "movement": "selections"
+   "movement": "selections",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "dy191sv5188",
@@ -2105,7 +2273,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "epstein|t|walzer wiener",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "obscure",
+   "performerFame": "obscure"
   },
   {
    "id": "dz112ky5575",
@@ -2136,7 +2307,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "beethoven|t|3 symphony",
-   "movement": "Marcia funebre"
+   "movement": "Marcia funebre",
+   "genre": "Orchestral",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "dz678wd2724",
@@ -2165,7 +2339,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "schytte|op26|7",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "obscure",
+   "performerFame": "obscure"
   },
   {
    "id": "fb100cb2366",
@@ -2194,7 +2371,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "humperdinck|t|gretel hansel suite und",
-   "movement": "selections"
+   "movement": "selections",
+   "genre": "Orchestral",
+   "composerFame": "known",
+   "performerFame": "obscure"
   },
   {
    "id": "fb623cd1247",
@@ -2223,7 +2403,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "henselt|t|caracteristique concert etude",
-   "movement": "Si oiseau j'étais, à toi je volerais"
+   "movement": "Si oiseau j'étais, à toi je volerais",
+   "genre": "Piano music",
+   "composerFame": "known",
+   "performerFame": "obscure"
   },
   {
    "id": "fd660zf8362",
@@ -2252,7 +2435,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "wagner|t|die meistersinger nurnberg von",
-   "movement": "Vorspiel"
+   "movement": "Vorspiel",
+   "genre": "Opera & stage",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "fd761bx2206",
@@ -2291,7 +2477,10 @@
     "liszt|t|obermann vallee",
     "liszt|t|orage",
     "liszt|t|sposalizio"
-   ]
+   ],
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "fg074rf2950",
@@ -2320,7 +2509,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "schubert|t|cycle schwanengesang song",
-   "movement": "Am Meer"
+   "movement": "Am Meer",
+   "genre": "Songs",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "fg895gs1373",
@@ -2349,7 +2541,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "sullivan|t|guard yeomen",
-   "movement": "selections"
+   "movement": "selections",
+   "genre": "Opera & stage",
+   "composerFame": "known",
+   "performerFame": "obscure"
   },
   {
    "id": "fh358rd2268",
@@ -2378,7 +2573,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "chopin|op35|",
-   "movement": "Grave, Doppio movimento"
+   "movement": "Grave, Doppio movimento",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "fj448by1666",
@@ -2407,7 +2605,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "liszt|t|lohengrin stucke tannhauser und",
-   "movement": "Einzug der Gäste auf der Wartburg"
+   "movement": "Einzug der Gäste auf der Wartburg",
+   "genre": "Opera & stage",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "fk036vh7282",
@@ -2436,7 +2637,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "puccini|t|butterfly madama",
-   "movement": "selections"
+   "movement": "selections",
+   "genre": "Opera & stage",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "fk269mx8427",
@@ -2465,7 +2669,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "macdowell|t|etuden virtuosen",
-   "movement": "Polonaise"
+   "movement": "Polonaise",
+   "genre": "Piano music",
+   "composerFame": "known",
+   "performerFame": "obscure"
   },
   {
    "id": "fk960pq3086",
@@ -2494,7 +2701,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "tchaikovsky|t|shchelkunchik suite",
-   "movement": ""
+   "movement": "",
+   "genre": "Orchestral",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "fm197wc9522",
@@ -2523,7 +2733,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "massenet|t|manon",
-   "movement": "selections"
+   "movement": "selections",
+   "genre": "Opera & stage",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "fn111kx0654",
@@ -2552,7 +2765,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "chopin|op28|20",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "fn744pq2157",
@@ -2581,7 +2797,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "glazunov|t|bol kontsertnyi shoi val",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "known",
+   "performerFame": "known"
   },
   {
    "id": "fr396nf3639",
@@ -2610,7 +2829,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "steinway|t|madeleine",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "obscure",
+   "performerFame": "obscure"
   },
   {
    "id": "fr853pn6519",
@@ -2639,7 +2861,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "chopin|op53|",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "fr859hh7893",
@@ -2668,7 +2893,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "joyce|t|dreaming",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "obscure",
+   "performerFame": "obscure"
   },
   {
    "id": "ft113cg5195",
@@ -2697,7 +2925,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "lecocq|t|angot fille madame",
-   "movement": "selections"
+   "movement": "selections",
+   "genre": "Opera & stage",
+   "composerFame": "known",
+   "performerFame": "obscure"
   },
   {
    "id": "ft746ns5736",
@@ -2726,7 +2957,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "chopin|op25|9",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "fv104hn7521",
@@ -2755,7 +2989,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "liszt|t|5 hungarian rhapsody",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "fw547rc7021",
@@ -2784,7 +3021,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "lincke|t|frau luna",
-   "movement": "selections"
+   "movement": "selections",
+   "genre": "Opera & stage",
+   "composerFame": "known",
+   "performerFame": "obscure"
   },
   {
    "id": "fy803vj4057",
@@ -2813,7 +3053,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "saint-saens|op66|",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "fz215xr4723",
@@ -2842,7 +3085,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "beethoven|t|23 sonata",
-   "movement": "selections"
+   "movement": "selections",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "fz632cv0288",
@@ -2871,7 +3117,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "dohnanyi|op11|3",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "known",
+   "performerFame": "famous"
   },
   {
    "id": "gb034mq5877",
@@ -2900,7 +3149,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "schubert|d899|",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "gc795vb4435",
@@ -2929,7 +3181,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "chopin|op28|15",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "gf160gq3516",
@@ -2958,7 +3213,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "chopin|op9|1",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "gf569df0451",
@@ -2987,7 +3245,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "schumann|op17|",
-   "movement": "Durchaus phantastisch und leidenschaftlich vorzutragen"
+   "movement": "Durchaus phantastisch und leidenschaftlich vorzutragen",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "gg384dv5303",
@@ -3016,7 +3277,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "chopin|op32|1",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "gg920pz0818",
@@ -3045,7 +3309,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "liszt|t|3 liebestraume",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "gh208gz5033",
@@ -3074,7 +3341,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "vogrich|t|caprice staccato",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "obscure",
+   "performerFame": "famous"
   },
   {
    "id": "gh272kd2238",
@@ -3103,7 +3373,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "grieg|op41|",
-   "movement": "Ich liebe dich"
+   "movement": "Ich liebe dich",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "gm170gy7498",
@@ -3132,7 +3405,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "beethoven|t|23 sonata",
-   "movement": "Allegro assai"
+   "movement": "Allegro assai",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "gm296rz0673",
@@ -3161,7 +3437,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "korngold|op2|",
-   "movement": "selections"
+   "movement": "selections",
+   "genre": "Piano music",
+   "composerFame": "known",
+   "performerFame": "famous"
   },
   {
    "id": "gq169nf1405",
@@ -3190,7 +3469,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "grunfeld|t|mignonne valse",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "obscure",
+   "performerFame": "famous"
   },
   {
    "id": "gq401ng9171",
@@ -3219,7 +3501,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "schubert|t|3 marche militaire",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "gq898yv9510",
@@ -3248,7 +3533,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "schubert|t|erlkonig",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "gq990gn6753",
@@ -3280,7 +3568,10 @@
    "movement": "Frühlingsrauschen",
    "acceptKeys": [
     "sinding|t|fruhlingsrauschen"
-   ]
+   ],
+   "genre": "Piano music",
+   "composerFame": "known",
+   "performerFame": "obscure"
   },
   {
    "id": "gr034qm4805",
@@ -3309,7 +3600,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "bizet|t|carmen",
-   "movement": "selections"
+   "movement": "selections",
+   "genre": "Opera & stage",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "gr136pc5388",
@@ -3338,7 +3632,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "tchaikovsky|t|6 symphony",
-   "movement": "Allegro molto vivace"
+   "movement": "Allegro molto vivace",
+   "genre": "Orchestral",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "gs012fx5529",
@@ -3367,7 +3664,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "gounod|t|juliette romeo",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "gs556hk6631",
@@ -3396,7 +3696,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "chopin|op48|1",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "gs573tj9547",
@@ -3425,7 +3728,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "chopin|op28|",
-   "movement": "selections"
+   "movement": "selections",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "known"
   },
   {
    "id": "gt485ys0625",
@@ -3454,7 +3760,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "sibelius|op24|9",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "gx107hd3026",
@@ -3483,7 +3792,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "schubert|d759|",
-   "movement": "Andante con motto"
+   "movement": "Andante con motto",
+   "genre": "Orchestral",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "gx118hr0306",
@@ -3512,7 +3824,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "liapunov|t|etude execution transcendante",
-   "movement": "Carillon"
+   "movement": "Carillon",
+   "genre": "Piano music",
+   "composerFame": "obscure",
+   "performerFame": "obscure"
   },
   {
    "id": "gy310qs3678",
@@ -3541,7 +3856,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "liszt|s178|",
-   "movement": "selections"
+   "movement": "selections",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "gz430tm0196",
@@ -3570,7 +3888,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "liszt|t|11 etude execution transcendante",
-   "movement": "Harmonies du soir"
+   "movement": "Harmonies du soir",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "hc229ht1024",
@@ -3599,7 +3920,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "chopin|op47|",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "hc909pp9868",
@@ -3628,7 +3952,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "carreno|t|kleiner walzer",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "known",
+   "performerFame": "famous"
   },
   {
    "id": "hg174cq6672",
@@ -3657,7 +3984,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "liszt|t|2 hungarian rhapsody",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "hg282mg9396",
@@ -3686,7 +4016,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "liszt|t|12 hungarian rhapsody",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "hg709nf1997",
@@ -3715,7 +4048,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "wagner|t|die meistersinger nurnberg von",
-   "movement": "selections"
+   "movement": "selections",
+   "genre": "Opera & stage",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "hh095vc8073",
@@ -3744,7 +4080,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "wagner|t|tannhauser",
-   "movement": "Ouvertüre"
+   "movement": "Ouvertüre",
+   "genre": "Opera & stage",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "hh429fw8081",
@@ -3773,7 +4112,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "liszt|t|1862 konzertetuden",
-   "movement": "Gnomenreigen"
+   "movement": "Gnomenreigen",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "known"
   },
   {
    "id": "hh466mq4616",
@@ -3802,7 +4144,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "raff|op204|",
-   "movement": "Rigaudon"
+   "movement": "Rigaudon",
+   "genre": "Orchestral",
+   "composerFame": "known",
+   "performerFame": "famous"
   },
   {
    "id": "hj604wr7502",
@@ -3831,7 +4176,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "fall|t|bauer fidele",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "known",
+   "performerFame": "obscure"
   },
   {
    "id": "hk155fw7898",
@@ -3860,7 +4208,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "grieg|op43|",
-   "movement": "Sommerfugl"
+   "movement": "Sommerfugl",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "hk752ck1008",
@@ -3889,7 +4240,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "tchaikovsky|t|6 symphony",
-   "movement": "Allegro con grazia"
+   "movement": "Allegro con grazia",
+   "genre": "Orchestral",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "hm373bm3807",
@@ -3918,7 +4272,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "gounod|t|faust",
-   "movement": "Ouverture"
+   "movement": "Ouverture",
+   "genre": "Opera & stage",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "hm523dq5554",
@@ -3947,7 +4304,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "liszt|s418|",
-   "movement": ""
+   "movement": "",
+   "genre": "Opera & stage",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "hn285vs3930",
@@ -3976,7 +4336,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "schumann|t|2 sonata",
-   "movement": "selections"
+   "movement": "selections",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "known"
   },
   {
    "id": "hn488rk0690",
@@ -4005,7 +4368,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "liszt|t|4 soiree vienne",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "hp956bx4547",
@@ -4034,7 +4400,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "chopin|op25|9",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "hq933dq4264",
@@ -4063,7 +4432,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "moszkowski|t|fruhling",
-   "movement": "Liebeswalzer"
+   "movement": "Liebeswalzer",
+   "genre": "Piano music",
+   "composerFame": "known",
+   "performerFame": "famous"
   },
   {
    "id": "hr679fk5315",
@@ -4092,7 +4464,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "gounod|t|jesu nazareth",
-   "movement": ""
+   "movement": "",
+   "genre": "Songs",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "hs635sh6729",
@@ -4121,7 +4496,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "grieg|op65|",
-   "movement": "Bryllupsdag på Troldhaugen"
+   "movement": "Bryllupsdag på Troldhaugen",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "ht339gy6128",
@@ -4152,7 +4530,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "beethoven|t|3 symphony",
-   "movement": "Scherzo"
+   "movement": "Scherzo",
+   "genre": "Orchestral",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "hw588xk2111",
@@ -4181,7 +4562,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "liszt|t|2 ballade",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "hx184ww0780",
@@ -4210,7 +4594,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "handel|hwv430|",
-   "movement": "Air con variazioni"
+   "movement": "Air con variazioni",
+   "genre": "Orchestral",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "hx789sg2918",
@@ -4239,7 +4626,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "halevy|t|juive",
-   "movement": ""
+   "movement": "",
+   "genre": "Opera & stage",
+   "composerFame": "known",
+   "performerFame": "obscure"
   },
   {
    "id": "hy749gh2331",
@@ -4268,7 +4658,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "schumann|t|albumblatter",
-   "movement": "Schlummerlied"
+   "movement": "Schlummerlied",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "jb107tz1859",
@@ -4297,7 +4690,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "schumann|t|kinderscenen",
-   "movement": "selections"
+   "movement": "selections",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "jc718cb5784",
@@ -4326,7 +4722,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "chaminade|t|retour",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "known",
+   "performerFame": "famous"
   },
   {
    "id": "jd052zg1047",
@@ -4355,7 +4754,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "mason|t|god my nearer thee",
-   "movement": ""
+   "movement": "",
+   "genre": "Songs",
+   "composerFame": "obscure",
+   "performerFame": "obscure"
   },
   {
    "id": "jd143sb1087",
@@ -4384,7 +4786,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "whiteman|t|one wonderful",
-   "movement": ""
+   "movement": "",
+   "genre": "Popular & dance",
+   "composerFame": "known",
+   "performerFame": "obscure"
   },
   {
    "id": "jd625tw2164",
@@ -4413,7 +4818,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "grunfeld|op42|1",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "obscure",
+   "performerFame": "famous"
   },
   {
    "id": "jf649gs2184",
@@ -4442,7 +4850,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "liszt|t|2 keyemaj polonaise",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "jf938sf5847",
@@ -4471,7 +4882,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "brahms|op117|2",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "known"
   },
   {
    "id": "jf942gh3232",
@@ -4500,7 +4914,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "offenbach|t|conte hoffmann",
-   "movement": "Belle nuit"
+   "movement": "Belle nuit",
+   "genre": "Opera & stage",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "jg699wz4435",
@@ -4529,7 +4946,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "leoncavallo|t|pagliacci",
-   "movement": "Prologo"
+   "movement": "Prologo",
+   "genre": "Opera & stage",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "jg717nb8731",
@@ -4558,7 +4978,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "liszt|t|2 hungarian rhapsody",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "jh069yf5255",
@@ -4587,7 +5010,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "chopin|op64|2",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "jh696my0069",
@@ -4616,7 +5042,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "debussy|t|2nd image ser",
-   "movement": "Poissons d'or"
+   "movement": "Poissons d'or",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "jj589sc7898",
@@ -4645,7 +5074,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "brahms|op76|",
-   "movement": "Capriccio"
+   "movement": "Capriccio",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "jk211zx0169",
@@ -4674,7 +5106,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "schumann|t|abegg nom sur theme varie",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "jk702cg2022",
@@ -4703,7 +5138,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "mendelssohn-bartholdy|op62|6",
-   "movement": "Frühlingslied"
+   "movement": "Frühlingslied",
+   "genre": "Songs",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "jk842rg9750",
@@ -4732,7 +5170,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "beethoven|t|28 sonata",
-   "movement": "selections"
+   "movement": "selections",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "jm300wy4714",
@@ -4761,7 +5202,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "chopin|op28|18",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "jn038xx9588",
@@ -4790,7 +5234,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "wagner|t|lohengrin",
-   "movement": "Treulich geführt"
+   "movement": "Treulich geführt",
+   "genre": "Opera & stage",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "jn782fq7439",
@@ -4819,7 +5266,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "weber|t|brillante rondo",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "jq774vx6544",
@@ -4848,7 +5298,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "schubert|t|3 marche militaire",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "jt036qh8967",
@@ -4877,7 +5330,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "foster|t|at black folk home joe old river swanee upon way",
-   "movement": ""
+   "movement": "",
+   "genre": "Popular & dance",
+   "composerFame": "known",
+   "performerFame": "obscure"
   },
   {
    "id": "jt308hp0877",
@@ -4906,7 +5362,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "straus|t|soldat tapfere",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "known",
+   "performerFame": "obscure"
   },
   {
    "id": "jt465zc6779",
@@ -4935,7 +5394,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "gold|t|driftwood",
-   "movement": ""
+   "movement": "",
+   "genre": "Popular & dance",
+   "composerFame": "obscure",
+   "performerFame": "obscure"
   },
   {
    "id": "jv484vp9065",
@@ -4964,7 +5426,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "schubert|d935|",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "jw822wm2644",
@@ -4993,7 +5458,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "grieg|op43|",
-   "movement": "Sommerfugl"
+   "movement": "Sommerfugl",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "jx095ty1753",
@@ -5022,7 +5490,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "mozart|k331|",
-   "movement": "Andante grazioso"
+   "movement": "Andante grazioso",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "jy277ht0636",
@@ -5051,7 +5522,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "gottschalk|t|hope last",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "known",
+   "performerFame": "obscure"
   },
   {
    "id": "jy572md2211",
@@ -5080,7 +5554,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "liszt|t|1 concerto",
-   "movement": "Allegro maestoso"
+   "movement": "Allegro maestoso",
+   "genre": "Orchestral",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "kf903tz5142",
@@ -5109,7 +5586,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "schubert|d760|",
-   "movement": "selections"
+   "movement": "selections",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "kg263bn9176",
@@ -5138,7 +5618,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "beethoven|t|21 sonata",
-   "movement": "selections"
+   "movement": "selections",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "kg327qk8426",
@@ -5167,7 +5650,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "brahms|op39|",
-   "movement": "selections"
+   "movement": "selections",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "kg488qt3887",
@@ -5196,7 +5682,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "chopin|op28|",
-   "movement": "selections"
+   "movement": "selections",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "kj344bw3083",
@@ -5225,7 +5714,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "grieg|op43|",
-   "movement": "Til foråret"
+   "movement": "Til foråret",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "kj388dj3308",
@@ -5257,7 +5749,10 @@
    "movement": "Prélude",
    "acceptKeys": [
     "rachmaninoff|t|keycsharpmin prelude"
-   ]
+   ],
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "kp368nb7707",
@@ -5286,7 +5781,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "strauss|t|einmal lebt man nur",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "kq525dc4373",
@@ -5315,7 +5813,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "schumann|t|myrthen",
-   "movement": "Widmung"
+   "movement": "Widmung",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "kq892pn7618",
@@ -5344,7 +5845,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "glazunov|t|bol kontsertnyi shoi val",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "known",
+   "performerFame": "obscure"
   },
   {
    "id": "kr397bv2881",
@@ -5373,7 +5877,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "beethoven|t|8 sonata",
-   "movement": "Rondo"
+   "movement": "Rondo",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "kr645mg0298",
@@ -5402,7 +5909,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "holzmann|t|land love",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "obscure",
+   "performerFame": "obscure"
   },
   {
    "id": "ks452px2704",
@@ -5433,7 +5943,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "beethoven|t|3 symphony",
-   "movement": "Finale"
+   "movement": "Finale",
+   "genre": "Orchestral",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "kt568yb8982",
@@ -5462,7 +5975,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "strauss|t|dorfschwalben osterreich",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "obscure",
+   "performerFame": "famous"
   },
   {
    "id": "kt780tm7975",
@@ -5491,7 +6007,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "chopin|op70|1",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "kt852zf4103",
@@ -5520,7 +6039,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "bizet|t|carmen",
-   "movement": "Tra-la-la-la"
+   "movement": "Tra-la-la-la",
+   "genre": "Opera & stage",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "kv550vj8954",
@@ -5549,7 +6071,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "liszt|t|3 etude grande paganini",
-   "movement": "Campanella"
+   "movement": "Campanella",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "kv601my2750",
@@ -5578,7 +6103,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "chopin|op28|17",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "kv921kh0629",
@@ -5607,7 +6135,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "chopin|op69|1",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "kw215gn3365",
@@ -5636,7 +6167,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "raff|t|cachoucha caprice",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "known",
+   "performerFame": "obscure"
   },
   {
    "id": "kw738fg7467",
@@ -5665,7 +6199,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "chopin|op35|",
-   "movement": "selections"
+   "movement": "selections",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "kx034vy1374",
@@ -5694,7 +6231,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "schumann|op17|",
-   "movement": "Mäßig--Durchaus energisch"
+   "movement": "Mäßig--Durchaus energisch",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "kx293yk2859",
@@ -5723,7 +6263,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "glazunov|op72|",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "known",
+   "performerFame": "obscure"
   },
   {
    "id": "kx695yq4528",
@@ -5752,7 +6295,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "schumann|op7|",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "ky445sz4630",
@@ -5781,7 +6327,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "liszt|t|2 soiree vienne",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "kz379jn2491",
@@ -5810,7 +6359,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "liszt|t|3 liebestraume",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "kz819wb8990",
@@ -5839,7 +6391,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "friml|t|firefly",
-   "movement": "Sympathy"
+   "movement": "Sympathy",
+   "genre": "Opera & stage",
+   "composerFame": "obscure",
+   "performerFame": "obscure"
   },
   {
    "id": "mb915gc4689",
@@ -5868,7 +6423,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "alkan|t|6 dans majeur mineur prelude tons tous",
-   "movement": "Ancienne mélodie de la synagogue"
+   "movement": "Ancienne mélodie de la synagogue",
+   "genre": "Songs",
+   "composerFame": "known",
+   "performerFame": "famous"
   },
   {
    "id": "md331fy4209",
@@ -5897,7 +6455,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "schubert|d839|",
-   "movement": ""
+   "movement": "",
+   "genre": "Songs",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "md908xy8241",
@@ -5926,7 +6487,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "malderen|t|reve tango",
-   "movement": ""
+   "movement": "",
+   "genre": "Popular & dance",
+   "composerFame": "obscure",
+   "performerFame": "obscure"
   },
   {
    "id": "mf320jq4997",
@@ -5955,7 +6519,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "schumann|t|kinderscenen",
-   "movement": "Träumerei"
+   "movement": "Träumerei",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "mf443ns5829",
@@ -5984,7 +6551,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "liszt|t|concert paraphrase",
-   "movement": "Rigoletto"
+   "movement": "Rigoletto",
+   "genre": "Opera & stage",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "mf940cg4339",
@@ -6013,7 +6583,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "poldini|t|marionette",
-   "movement": "Poupée valsante"
+   "movement": "Poupée valsante",
+   "genre": "Piano music",
+   "composerFame": "obscure",
+   "performerFame": "famous"
   },
   {
    "id": "mg285ps6787",
@@ -6042,7 +6615,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "wagner|t|die meistersinger nurnberg von",
-   "movement": "Am stillen Herd"
+   "movement": "Am stillen Herd",
+   "genre": "Opera & stage",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "mh120sr5901",
@@ -6071,7 +6647,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "liszt|t|2 etude grande paganini",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "mh156nr8259",
@@ -6100,7 +6679,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "beethoven|t|23 sonata",
-   "movement": "Allegro assai"
+   "movement": "Allegro assai",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "mh255vw4599",
@@ -6129,7 +6711,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "grieg|t|folkelivsbilleder",
-   "movement": "Brudefølget drager forbi"
+   "movement": "Brudefølget drager forbi",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "mj416dn1432",
@@ -6158,7 +6743,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "chopin|op10|12",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "mn110mt1775",
@@ -6187,7 +6775,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "moszkowski|t|barcarole conte hoffmann offenbach opera",
-   "movement": ""
+   "movement": "",
+   "genre": "Opera & stage",
+   "composerFame": "known",
+   "performerFame": "obscure"
   },
   {
    "id": "mr400mf6531",
@@ -6216,7 +6807,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "keefer|t|daddy dream",
-   "movement": ""
+   "movement": "",
+   "genre": "Popular & dance",
+   "composerFame": "obscure",
+   "performerFame": "obscure"
   },
   {
    "id": "ms935qj0194",
@@ -6245,7 +6839,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "puccini|t|boheme",
-   "movement": "selections"
+   "movement": "selections",
+   "genre": "Opera & stage",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "mv259zt7103",
@@ -6274,7 +6871,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "chopin|t|polskie spiewy",
-   "movement": "Mädchens Wunsch"
+   "movement": "Mädchens Wunsch",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "mv647hz9361",
@@ -6303,7 +6903,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "fall|t|percy sergeant",
-   "movement": ""
+   "movement": "",
+   "genre": "Popular & dance",
+   "composerFame": "obscure",
+   "performerFame": "obscure"
   },
   {
    "id": "mw198ym5807",
@@ -6332,7 +6935,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "ellis|t|hum little tune",
-   "movement": ""
+   "movement": "",
+   "genre": "Popular & dance",
+   "composerFame": "obscure",
+   "performerFame": "obscure"
   },
   {
    "id": "mw870hc7232",
@@ -6361,7 +6967,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "beethoven|t|2 symphony",
-   "movement": "selections"
+   "movement": "selections",
+   "genre": "Orchestral",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "mx460bt7026",
@@ -6390,7 +6999,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "liszt|t|12 hungarian rhapsody",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "mx599qs6329",
@@ -6419,7 +7031,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "mendelssohn-bartholdy|op53|5",
-   "movement": "Volkslied"
+   "movement": "Volkslied",
+   "genre": "Songs",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "my670qk6863",
@@ -6448,7 +7063,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "monk|t|hymn",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "obscure",
+   "performerFame": "obscure"
   },
   {
    "id": "mz508vq7890",
@@ -6477,7 +7095,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "mendelssohn-bartholdy|op16|2",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "nf274ng7905",
@@ -6506,7 +7127,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "chopin|op55|2",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "nf733yv1324",
@@ -6535,7 +7159,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "chopin|op64|2",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "ng103jj1150",
@@ -6564,7 +7191,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "liszt|t|3 liebestraume",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "nk632jz1564",
@@ -6593,7 +7223,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "schumann|op28|2",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "nn203bm7432",
@@ -6622,7 +7255,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "wagner|t|isolde tristan und",
-   "movement": "1. Aufzug: Einleitung"
+   "movement": "1. Aufzug: Einleitung",
+   "genre": "Opera & stage",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "np204br1080",
@@ -6651,7 +7287,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "verdi|t|rigoletto",
-   "movement": "selections"
+   "movement": "selections",
+   "genre": "Opera & stage",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "np829dt9039",
@@ -6680,7 +7319,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "liszt|t|1 hungarian rhapsody",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "known"
   },
   {
    "id": "nq087cp3030",
@@ -6709,7 +7351,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "chopin|op67|4",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "nq190zp1066",
@@ -6738,7 +7383,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "verdi|t|aida",
-   "movement": ""
+   "movement": "",
+   "genre": "Opera & stage",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "nq628rc4181",
@@ -6767,7 +7415,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "chopin|op9|2",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "ns598kr8616",
@@ -6796,7 +7447,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "liszt|t|lohengrin stucke tannhauser und",
-   "movement": "Einzug der Gäste auf der Wartburg"
+   "movement": "Einzug der Gäste auf der Wartburg",
+   "genre": "Opera & stage",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "nt812xg8796",
@@ -6825,7 +7479,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "europe|t|castle house rag",
-   "movement": ""
+   "movement": "",
+   "genre": "Popular & dance",
+   "composerFame": "obscure",
+   "performerFame": "obscure"
   },
   {
    "id": "nv508pk0096",
@@ -6854,7 +7511,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "strauss|t|eine nacht tausend und",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "nw765mr4994",
@@ -6883,7 +7543,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "grainger|t|british folk music setting",
-   "movement": "Shepherd's hey"
+   "movement": "Shepherd's hey",
+   "genre": "Piano music",
+   "composerFame": "known",
+   "performerFame": "obscure"
   },
   {
    "id": "nx970yn7253",
@@ -6912,7 +7575,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "verdi|t|traviata",
-   "movement": "selections"
+   "movement": "selections",
+   "genre": "Opera & stage",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "ny706rg1119",
@@ -6941,7 +7607,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "liszt|t|9 hungarian rhapsody",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "ny937ph6981",
@@ -6970,7 +7639,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "schutt|op38|",
-   "movement": "Romance"
+   "movement": "Romance",
+   "genre": "Piano music",
+   "composerFame": "obscure",
+   "performerFame": "obscure"
   },
   {
    "id": "nz678zw1579",
@@ -6999,7 +7671,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "glazunov|op74|",
-   "movement": "Andante"
+   "movement": "Andante",
+   "genre": "Piano music",
+   "composerFame": "known",
+   "performerFame": "famous"
   },
   {
    "id": "nz852nk6103",
@@ -7028,7 +7703,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "massenet|t|thai",
-   "movement": "Méditation"
+   "movement": "Méditation",
+   "genre": "Opera & stage",
+   "composerFame": "famous",
+   "performerFame": "known"
   },
   {
    "id": "pb026mb0704",
@@ -7057,7 +7735,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "schutt|t|concert johann paraphrasen strauss uber von walzer",
-   "movement": "Kunstlerleben"
+   "movement": "Kunstlerleben",
+   "genre": "Piano music",
+   "composerFame": "obscure",
+   "performerFame": "obscure"
   },
   {
    "id": "pb477ps9097",
@@ -7086,7 +7767,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "raff|op61|3",
-   "movement": ""
+   "movement": "",
+   "genre": "Opera & stage",
+   "composerFame": "known",
+   "performerFame": "obscure"
   },
   {
    "id": "pc276zv7038",
@@ -7115,7 +7799,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "saint-saens|t|dalila samson",
-   "movement": "Mon cœur s'ouvre à ta voix"
+   "movement": "Mon cœur s'ouvre à ta voix",
+   "genre": "Opera & stage",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "pc364sy7115",
@@ -7144,7 +7831,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "lehar|t|der graf luxemburg von",
-   "movement": "selections"
+   "movement": "selections",
+   "genre": "Opera & stage",
+   "composerFame": "known",
+   "performerFame": "obscure"
   },
   {
    "id": "pd354nj6106",
@@ -7173,7 +7863,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "traditional|t|anthem god king national save",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "obscure",
+   "performerFame": "obscure"
   },
   {
    "id": "pf050rx0162",
@@ -7202,7 +7895,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "puccini|t|butterfly madama",
-   "movement": "selections"
+   "movement": "selections",
+   "genre": "Opera & stage",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "ph502kz9777",
@@ -7231,7 +7927,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "schumann|op18|",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "known"
   },
   {
    "id": "ph692rh6823",
@@ -7262,7 +7961,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "beethoven|t|3 symphony",
-   "movement": "Allegro con brio"
+   "movement": "Allegro con brio",
+   "genre": "Orchestral",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "pj688nx2384",
@@ -7291,7 +7993,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "chopin|op31|",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "pk245pq3468",
@@ -7320,7 +8025,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "verdi|t|trovatore",
-   "movement": ""
+   "movement": "",
+   "genre": "Opera & stage",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "pk349zj4179",
@@ -7349,7 +8057,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "saint-saens|t|dalila samson",
-   "movement": "Printemps qui commence"
+   "movement": "Printemps qui commence",
+   "genre": "Opera & stage",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "pp798fc0175",
@@ -7378,7 +8089,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "berlin|t|1924 box music revue",
-   "movement": "All alone"
+   "movement": "All alone",
+   "genre": "Popular & dance",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "pr464zk8674",
@@ -7407,7 +8121,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "rachmaninoff|t|prelude",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "ps108fn1431",
@@ -7436,7 +8153,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "borel-clerc|t|mattchiche",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "obscure",
+   "performerFame": "obscure"
   },
   {
    "id": "ps656vb4839",
@@ -7465,7 +8185,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "schumann|t|albumblatter",
-   "movement": "Schlummerlied"
+   "movement": "Schlummerlied",
+   "genre": "Songs",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "ps751km7125",
@@ -7494,7 +8217,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "marx-goldschmidt|t|hongroise rhapsodie",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "obscure",
+   "performerFame": "obscure"
   },
   {
    "id": "ps931qh5746",
@@ -7523,7 +8249,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "schumann|t|2 capricen nach paganini studien von",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "pv151xx7555",
@@ -7552,7 +8281,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "liszt|t|concert paraphrase",
-   "movement": "Rigoletto"
+   "movement": "Rigoletto",
+   "genre": "Opera & stage",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "pv279zy5193",
@@ -7581,7 +8313,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "beethoven|t|23 sonata",
-   "movement": "selections"
+   "movement": "selections",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "py987gg6088",
@@ -7610,7 +8345,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "gounod|t|faust",
-   "movement": "Prelude"
+   "movement": "Prelude",
+   "genre": "Opera & stage",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "pz175wg5571",
@@ -7639,7 +8377,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "chopin|op28|",
-   "movement": "selections"
+   "movement": "selections",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "pz923dx9638",
@@ -7671,7 +8412,10 @@
    "movement": "Prélude",
    "acceptKeys": [
     "rachmaninoff|t|keycsharpmin prelude"
-   ]
+   ],
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "qb477sd2923",
@@ -7700,7 +8444,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "pachmann|t|einer gebet improvisation jungfrau uber",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "obscure",
+   "performerFame": "famous"
   },
   {
    "id": "qc650tp0469",
@@ -7729,7 +8476,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "carreno|t|kleiner walzer",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "known",
+   "performerFame": "famous"
   },
   {
    "id": "qd424rx3516",
@@ -7758,7 +8508,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "german|t|henry viii",
-   "movement": "selections"
+   "movement": "selections",
+   "genre": "Opera & stage",
+   "composerFame": "obscure",
+   "performerFame": "obscure"
   },
   {
    "id": "qd784zj3903",
@@ -7787,7 +8540,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "chopin|op11|",
-   "movement": "Romance"
+   "movement": "Romance",
+   "genre": "Orchestral",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "qf640sj3141",
@@ -7816,7 +8572,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "chopin|op11|",
-   "movement": "Allegro maestoso"
+   "movement": "Allegro maestoso",
+   "genre": "Orchestral",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "qf751dd5412",
@@ -7845,7 +8604,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "wagner|t|tannhauser",
-   "movement": "Ouvertüre"
+   "movement": "Ouvertüre",
+   "genre": "Opera & stage",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "qg041hb4569",
@@ -7877,7 +8639,10 @@
    "movement": "Marche grotesque",
    "acceptKeys": [
     "sinding|t|fruhlingsrauschen"
-   ]
+   ],
+   "genre": "Piano music",
+   "composerFame": "known",
+   "performerFame": "famous"
   },
   {
    "id": "qg121rz6125",
@@ -7906,7 +8671,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "liszt|t|10 hungarian rhapsody",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "qg708tz0324",
@@ -7935,7 +8703,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "wagner|t|lohengrin",
-   "movement": "Vorspiel"
+   "movement": "Vorspiel",
+   "genre": "Opera & stage",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "qj203cn5343",
@@ -7967,7 +8738,10 @@
    "movement": "Polichinelle",
    "acceptKeys": [
     "rachmaninoff|t|keycsharpmin prelude"
-   ]
+   ],
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "qj233tv5549",
@@ -7996,7 +8770,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "schutt|op16|",
-   "movement": "Etude mignonne"
+   "movement": "Etude mignonne",
+   "genre": "Piano music",
+   "composerFame": "obscure",
+   "performerFame": "obscure"
   },
   {
    "id": "qk333zc6515",
@@ -8028,7 +8805,10 @@
    "movement": "Frühlingsrauschen",
    "acceptKeys": [
     "sinding|t|fruhlingsrauschen"
-   ]
+   ],
+   "genre": "Piano music",
+   "composerFame": "known",
+   "performerFame": "obscure"
   },
   {
    "id": "qk926qc7779",
@@ -8057,7 +8837,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "fall|t|dem hans knie lieber machst mit was",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "obscure",
+   "performerFame": "obscure"
   },
   {
    "id": "qm069fy5200",
@@ -8086,7 +8869,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "tchaikovsky|t|6 symphony",
-   "movement": "Finale"
+   "movement": "Finale",
+   "genre": "Orchestral",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "qp421cd7297",
@@ -8115,7 +8901,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "straus|t|soldat tapfere",
-   "movement": "selections"
+   "movement": "selections",
+   "genre": "Piano music",
+   "composerFame": "known",
+   "performerFame": "obscure"
   },
   {
    "id": "qp506dy4541",
@@ -8144,7 +8933,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "strauss|t|fledermau",
-   "movement": "Du und Du"
+   "movement": "Du und Du",
+   "genre": "Opera & stage",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "qq244fh1388",
@@ -8173,7 +8965,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "chopin|t|keyfsharpmin polonaise",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "qq914np5449",
@@ -8202,7 +8997,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "liszt|t|10 hungarian rhapsody",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "qt363fp0799",
@@ -8231,7 +9029,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "paderewski|t|miscellanea",
-   "movement": "Nocturne"
+   "movement": "Nocturne",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "qv334zb6243",
@@ -8260,7 +9061,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "chopin|op10|3",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "qv976bq3639",
@@ -8289,7 +9093,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "grainger|t|british folk music setting",
-   "movement": "Irish tune from County Derry"
+   "movement": "Irish tune from County Derry",
+   "genre": "Piano music",
+   "composerFame": "known",
+   "performerFame": "obscure"
   },
   {
    "id": "qw257qp8232",
@@ -8318,7 +9125,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "schumann|t|etude symphonique",
-   "movement": "selections"
+   "movement": "selections",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "known"
   },
   {
    "id": "qz155gk0442",
@@ -8347,7 +9157,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "saint-saens|t|dalila samson",
-   "movement": "Printemps qui commence"
+   "movement": "Printemps qui commence",
+   "genre": "Opera & stage",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "qz671pq0609",
@@ -8376,7 +9189,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "beethoven|t|21 sonata",
-   "movement": "Allegro con brio"
+   "movement": "Allegro con brio",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "rb625rv7300",
@@ -8405,7 +9221,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "liszt|t|1849 3 concert etude",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "rb861vm6094",
@@ -8434,7 +9253,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "korngold|op2|",
-   "movement": "selections"
+   "movement": "selections",
+   "genre": "Piano music",
+   "composerFame": "known",
+   "performerFame": "famous"
   },
   {
    "id": "rc749wx0227",
@@ -8463,7 +9285,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "schubert|t|marche militaire three",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "rd899zb5188",
@@ -8492,7 +9317,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "rimsky-korsakov|t|opera sadko",
-   "movement": "Pesni͡a indiĭskogo gosti͡a"
+   "movement": "Pesni͡a indiĭskogo gosti͡a",
+   "genre": "Popular & dance",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "rf416pb7833",
@@ -8521,7 +9349,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "meyer-helmund|op21|",
-   "movement": "Zauberlied"
+   "movement": "Zauberlied",
+   "genre": "Songs",
+   "composerFame": "obscure",
+   "performerFame": "obscure"
   },
   {
    "id": "rg591sj4242",
@@ -8550,7 +9381,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "debussy|t|pour",
-   "movement": "Toccata"
+   "movement": "Toccata",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "rg931dy5023",
@@ -8579,7 +9413,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "gounod|t|faust",
-   "movement": "selections"
+   "movement": "selections",
+   "genre": "Opera & stage",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "rh801bs4556",
@@ -8608,7 +9445,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "sullivan|t|gondolier",
-   "movement": "selections"
+   "movement": "selections",
+   "genre": "Opera & stage",
+   "composerFame": "known",
+   "performerFame": "obscure"
   },
   {
    "id": "rj799hj0968",
@@ -8637,7 +9477,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "chopin|op37|2",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "rk591jt8964",
@@ -8666,7 +9509,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "brahms|t|3 sonata",
-   "movement": "Allegro maestoso"
+   "movement": "Allegro maestoso",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "rk796xd9697",
@@ -8695,7 +9541,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "brahms|op79|2",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "rn154dd5329",
@@ -8724,7 +9573,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "strauss|t|blauen der donau schonen",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "rp146dk0477",
@@ -8753,7 +9605,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "wagner|t|die meistersinger nurnberg von",
-   "movement": "Am stillen Herd"
+   "movement": "Am stillen Herd",
+   "genre": "Opera & stage",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "rp390kt0160",
@@ -8782,7 +9637,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "chopin|op27|2",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "rq642tt1626",
@@ -8811,7 +9669,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "d'egville|t|canadian rondo",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "obscure",
+   "performerFame": "obscure"
   },
   {
    "id": "rq927dq9061",
@@ -8840,7 +9701,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "liszt|t|1 liebestraume",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "rr990ym0199",
@@ -8869,7 +9733,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "puccini|t|tosca",
-   "movement": "selections"
+   "movement": "selections",
+   "genre": "Opera & stage",
+   "composerFame": "famous",
+   "performerFame": "known"
   },
   {
    "id": "rs765sm2000",
@@ -8898,7 +9765,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "massenet|t|thai",
-   "movement": "selections"
+   "movement": "selections",
+   "genre": "Opera & stage",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "rt308hy9235",
@@ -8927,7 +9797,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "humperdinck|t|gretel hansel suite und",
-   "movement": "Traum-Pantomim"
+   "movement": "Traum-Pantomim",
+   "genre": "Orchestral",
+   "composerFame": "known",
+   "performerFame": "famous"
   },
   {
    "id": "rt595wj4442",
@@ -8956,7 +9829,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "schumann|op54|",
-   "movement": "Allegro affettuoso"
+   "movement": "Allegro affettuoso",
+   "genre": "Orchestral",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "rv703vf3503",
@@ -8985,7 +9861,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "traditional|t|boatmen song volga",
-   "movement": ""
+   "movement": "",
+   "genre": "Songs",
+   "composerFame": "obscure",
+   "performerFame": "famous"
   },
   {
    "id": "rv766dc1369",
@@ -9014,7 +9893,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "tchaikovsky|t|6 symphony",
-   "movement": "Adagio"
+   "movement": "Adagio",
+   "genre": "Orchestral",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "rv790qz2532",
@@ -9043,7 +9925,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "rosenzweig|t|gut mir sei",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "obscure",
+   "performerFame": "obscure"
   },
   {
    "id": "rx933wn3761",
@@ -9072,7 +9957,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "chaminade|t|concert etude",
-   "movement": "Automne"
+   "movement": "Automne",
+   "genre": "Piano music",
+   "composerFame": "known",
+   "performerFame": "famous"
   },
   {
    "id": "ry050yb9492",
@@ -9101,7 +9989,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "gilbert|t|die keusche susanne",
-   "movement": ""
+   "movement": "",
+   "genre": "Opera & stage",
+   "composerFame": "obscure",
+   "performerFame": "obscure"
   },
   {
    "id": "ry948sf9078",
@@ -9130,7 +10021,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "liszt|t|legende",
-   "movement": "St. François de Paule marchant sur les flots"
+   "movement": "St. François de Paule marchant sur les flots",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "sb158jt0685",
@@ -9159,7 +10053,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "rossini|t|guillaume tell",
-   "movement": "Ouverture"
+   "movement": "Ouverture",
+   "genre": "Opera & stage",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "sb487jm2092",
@@ -9188,7 +10085,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "paderewski|t|miscellanea",
-   "movement": "Nocturne"
+   "movement": "Nocturne",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "sc188ff2842",
@@ -9217,7 +10117,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "schubert|t|erlkonig",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "sc787kg5664",
@@ -9246,7 +10149,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "henselt|t|caracteristique concert etude",
-   "movement": "Si oiseau j'étais, à toi je volerais"
+   "movement": "Si oiseau j'étais, à toi je volerais",
+   "genre": "Piano music",
+   "composerFame": "known",
+   "performerFame": "obscure"
   },
   {
    "id": "sg713kb1834",
@@ -9275,7 +10181,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "bland|t|back carry me old virginny",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "obscure",
+   "performerFame": "obscure"
   },
   {
    "id": "sj250cc6451",
@@ -9304,7 +10213,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "strauss|t|dem rosen suden",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "sj582bt2976",
@@ -9333,7 +10245,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "gounod|t|faust",
-   "movement": "selections"
+   "movement": "selections",
+   "genre": "Opera & stage",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "sj617nc3041",
@@ -9362,7 +10277,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "adam|t|etai roi si",
-   "movement": "Ouverture"
+   "movement": "Ouverture",
+   "genre": "Opera & stage",
+   "composerFame": "known",
+   "performerFame": "obscure"
   },
   {
    "id": "sk293jg8184",
@@ -9391,7 +10309,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "schumann|t|2 sonata",
-   "movement": "Andantino"
+   "movement": "Andantino",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "known"
   },
   {
    "id": "sk565bp3463",
@@ -9420,7 +10341,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "strauss|t|blut wiener",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "sk832rf0203",
@@ -9449,7 +10373,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "schubert|d489|",
-   "movement": ""
+   "movement": "",
+   "genre": "Songs",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "sk925fn6049",
@@ -9478,7 +10405,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "scriabin|t|nocturne prelude",
-   "movement": "Prélude"
+   "movement": "Prélude",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "sm246yb9650",
@@ -9507,7 +10437,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "chopin|op53|",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "sn610pr8684",
@@ -9536,7 +10469,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "chopin|op28|",
-   "movement": "selections"
+   "movement": "selections",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "sp773vt2651",
@@ -9565,7 +10501,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "schutt|t|carnaval mignon",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "obscure",
+   "performerFame": "obscure"
   },
   {
    "id": "sq235zh0909",
@@ -9594,7 +10533,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "meyer-helmund|op12|",
-   "movement": "Dein gedenk' ich, Margaretha"
+   "movement": "Dein gedenk' ich, Margaretha",
+   "genre": "Songs",
+   "composerFame": "obscure",
+   "performerFame": "obscure"
   },
   {
    "id": "sq640bh1919",
@@ -9623,7 +10565,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "schlozer|t|1 concert etude",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "obscure",
+   "performerFame": "famous"
   },
   {
    "id": "sr504pc8797",
@@ -9652,7 +10597,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "liszt|t|lohengrin stucke tannhauser und",
-   "movement": "Elsas Brautzug zum Münster"
+   "movement": "Elsas Brautzug zum Münster",
+   "genre": "Opera & stage",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "sr577gv4813",
@@ -9681,7 +10629,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "verdi|t|rigoletto",
-   "movement": "selections"
+   "movement": "selections",
+   "genre": "Opera & stage",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "st011pr3757",
@@ -9710,7 +10661,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "liszt|t|1862 konzertetuden",
-   "movement": "Waldesrauschen"
+   "movement": "Waldesrauschen",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "known"
   },
   {
    "id": "st755cm2486",
@@ -9739,7 +10693,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "chopin|op10|5",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "st828pc9818",
@@ -9768,7 +10725,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "chopin|op37|2",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "sw740gd4329",
@@ -9797,7 +10757,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "handel|t|serse",
-   "movement": "Ombra mai fù"
+   "movement": "Ombra mai fù",
+   "genre": "Opera & stage",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "sx275gw8801",
@@ -9826,7 +10789,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "youmans|t|nanette",
-   "movement": "Tea for two"
+   "movement": "Tea for two",
+   "genre": "Popular & dance",
+   "composerFame": "known",
+   "performerFame": "obscure"
   },
   {
    "id": "sx417qf9868",
@@ -9855,7 +10821,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "schubert|d839|",
-   "movement": ""
+   "movement": "",
+   "genre": "Songs",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "sz207mm8382",
@@ -9884,7 +10853,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "schlozer|t|1 concert etude",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "obscure",
+   "performerFame": "famous"
   },
   {
    "id": "tb323rh4122",
@@ -9913,7 +10885,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "mendelssohn-bartholdy|t|capriccioso rondo",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "tb707nd8515",
@@ -9942,7 +10917,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "liszt|t|liebeslied",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "td134mh2760",
@@ -9971,7 +10949,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "rubinstein|op3|1",
-   "movement": ""
+   "movement": "",
+   "genre": "Songs",
+   "composerFame": "known",
+   "performerFame": "famous"
   },
   {
    "id": "tj337qh7786",
@@ -10000,7 +10981,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "schubert|t|3 moment musical",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "tj759sv4290",
@@ -10029,7 +11013,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "michaelis|t|patrol turkish",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "obscure",
+   "performerFame": "obscure"
   },
   {
    "id": "tm408mz6807",
@@ -10058,7 +11045,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "chaminade|t|parole romance sans",
-   "movement": "Élévation"
+   "movement": "Élévation",
+   "genre": "Piano music",
+   "composerFame": "known",
+   "performerFame": "famous"
   },
   {
    "id": "tp302mb4101",
@@ -10087,7 +11077,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "liszt|t|norma reminiscence",
-   "movement": ""
+   "movement": "",
+   "genre": "Opera & stage",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "tp747vf1137",
@@ -10116,7 +11109,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "bizet|t|carmen",
-   "movement": "selections"
+   "movement": "selections",
+   "genre": "Opera & stage",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "tq268fs9721",
@@ -10145,7 +11141,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "debussy|t|prelude",
-   "movement": "selections"
+   "movement": "selections",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "tr243mz6407",
@@ -10174,7 +11173,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "chaminade|t|lisonjera",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "known",
+   "performerFame": "famous"
   },
   {
    "id": "tr981xw2871",
@@ -10203,7 +11205,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "offenbach|t|conte hoffmann",
-   "movement": "selections"
+   "movement": "selections",
+   "genre": "Opera & stage",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "ts972sy8288",
@@ -10232,7 +11237,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "leschetizky|t|italie souvenir",
-   "movement": "Barcarola"
+   "movement": "Barcarola",
+   "genre": "Piano music",
+   "composerFame": "known",
+   "performerFame": "famous"
   },
   {
    "id": "tt435dd2897",
@@ -10261,7 +11269,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "beethoven|t|capriccio rondo",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "tw054jm0773",
@@ -10290,7 +11301,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "verdi|t|traviata",
-   "movement": ""
+   "movement": "",
+   "genre": "Opera & stage",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "tx437pj1389",
@@ -10319,7 +11333,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "brahms|t|3 sonata",
-   "movement": "Andante"
+   "movement": "Andante",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "tx963yw9164",
@@ -10348,7 +11365,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "chopin|op15|2",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "ty382mw3181",
@@ -10377,7 +11397,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "beethoven|t|28 sonata",
-   "movement": "selections"
+   "movement": "selections",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "ty610zx2946",
@@ -10406,7 +11429,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "d'albert|t|tiefland",
-   "movement": "Ballade"
+   "movement": "Ballade",
+   "genre": "Opera & stage",
+   "composerFame": "known",
+   "performerFame": "famous"
   },
   {
    "id": "vb685pd6967",
@@ -10435,7 +11461,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "grunfeld|t|den fruhlingsstimmen paraphrase uber walzer",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "obscure",
+   "performerFame": "famous"
   },
   {
    "id": "vb983gg2310",
@@ -10464,7 +11493,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "wagner|t|der nibelungen ring",
-   "movement": "Siegfried. Waldweben"
+   "movement": "Siegfried. Waldweben",
+   "genre": "Opera & stage",
+   "composerFame": "famous",
+   "performerFame": "known"
   },
   {
    "id": "vd312rr8990",
@@ -10495,7 +11527,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "friml|t|high jink",
-   "movement": "Ting-a-ling-a-ling"
+   "movement": "Ting-a-ling-a-ling",
+   "genre": "Piano music",
+   "composerFame": "obscure",
+   "performerFame": "famous"
   },
   {
    "id": "vf252dc4872",
@@ -10524,7 +11559,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "scott|t|",
-   "movement": "selections"
+   "movement": "selections",
+   "genre": "Songs",
+   "composerFame": "known",
+   "performerFame": "known"
   },
   {
    "id": "vj052cw2158",
@@ -10553,7 +11591,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "thalberg|t|home sweet",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "known",
+   "performerFame": "obscure"
   },
   {
    "id": "vj076nk8220",
@@ -10582,7 +11623,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "chopin|op28|20",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "vm096df0179",
@@ -10611,7 +11655,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "schumann|op17|",
-   "movement": "Langsam getragen--Durchweg leise zu halten"
+   "movement": "Langsam getragen--Durchweg leise zu halten",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "vm351pv9656",
@@ -10640,7 +11687,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "mascagni|t|cavalleria rusticana",
-   "movement": "Intermezzo"
+   "movement": "Intermezzo",
+   "genre": "Opera & stage",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "vm423wb2944",
@@ -10669,7 +11719,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "chopin|op15|2",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "vp438dy0628",
@@ -10698,7 +11751,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "sibelius|t|finlandia",
-   "movement": ""
+   "movement": "",
+   "genre": "Orchestral",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "vq227vv6345",
@@ -10727,7 +11783,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "raff|t|fileuse",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "known",
+   "performerFame": "obscure"
   },
   {
    "id": "vq976gr5492",
@@ -10756,7 +11815,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "mahler|t|eine fahrenden gesellen lieder",
-   "movement": "Ging heut' morgens übers Feld"
+   "movement": "Ging heut' morgens übers Feld",
+   "genre": "Songs",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "vs059bb4318",
@@ -10785,7 +11847,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "liszt|t|2 liebestraume",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "vs167qc5364",
@@ -10814,7 +11879,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "chopin|op27|2",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "vs880hb3425",
@@ -10843,7 +11911,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "glazunov|t|raimonda",
-   "movement": "selections"
+   "movement": "selections",
+   "genre": "Piano music",
+   "composerFame": "known",
+   "performerFame": "famous"
   },
   {
    "id": "vw531zy4220",
@@ -10872,7 +11943,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "schumann|t|2 capricen nach paganini studien von",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "vy018tw5237",
@@ -10901,7 +11975,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "chopin|op42|",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "vy193qr6005",
@@ -10930,7 +12007,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "liszt|s178|",
-   "movement": "selections"
+   "movement": "selections",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "vy941zv8672",
@@ -10959,7 +12039,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "chopin|op28|",
-   "movement": "selections"
+   "movement": "selections",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "vz717bq6543",
@@ -10988,7 +12071,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "grieg|t|1 gynt peer suite",
-   "movement": ""
+   "movement": "",
+   "genre": "Orchestral",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "wb381qd3151",
@@ -11017,7 +12103,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "beethoven|op51|1",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "wc588rr6112",
@@ -11046,7 +12135,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "liszt|t|6 hungarian rhapsody",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "wf903pd7291",
@@ -11075,7 +12167,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "moszkowski|t|sourire tristesse",
-   "movement": "Prés du berceau"
+   "movement": "Prés du berceau",
+   "genre": "Piano music",
+   "composerFame": "known",
+   "performerFame": "obscure"
   },
   {
    "id": "wg598sj1504",
@@ -11104,7 +12199,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "chopin|op10|5",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "wh678yv0330",
@@ -11133,7 +12231,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "brahms|op119|",
-   "movement": "Intermezzo"
+   "movement": "Intermezzo",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "wj177bx9196",
@@ -11162,7 +12263,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "chopin|op17|4",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "wj488tq5861",
@@ -11191,7 +12295,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "lehar|t|lustige witwe",
-   "movement": ""
+   "movement": "",
+   "genre": "Opera & stage",
+   "composerFame": "known",
+   "performerFame": "obscure"
   },
   {
    "id": "wk295jd5289",
@@ -11220,7 +12327,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "beethoven|woo80|",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "wk320bj4724",
@@ -11249,7 +12359,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "schumann|t|carnaval",
-   "movement": "selections"
+   "movement": "selections",
+   "genre": "Opera & stage",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "wn516xn5163",
@@ -11278,7 +12391,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "czerny|t|33 der fingerfertigkeit kunst",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "known",
+   "performerFame": "famous"
   },
   {
    "id": "wp442mf3514",
@@ -11307,7 +12423,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "liszt|t|1849 2 concert etude",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "wp666fn2104",
@@ -11336,7 +12455,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "daly|t|flirting stop",
-   "movement": "Oh gee! Oh gosh"
+   "movement": "Oh gee! Oh gosh",
+   "genre": "Popular & dance",
+   "composerFame": "obscure",
+   "performerFame": "obscure"
   },
   {
    "id": "wp877mn0317",
@@ -11365,7 +12487,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "beethoven|t|14 sonata",
-   "movement": "Presto agitato"
+   "movement": "Presto agitato",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "wq296df7434",
@@ -11394,7 +12519,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "chopin|op28|16",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "ws250sr1272",
@@ -11423,7 +12551,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "debussy|t|1 book prelude",
-   "movement": "selections"
+   "movement": "selections",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "ws749sk4778",
@@ -11452,7 +12583,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "leschetizky|t|alouette deux",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "known",
+   "performerFame": "famous"
   },
   {
    "id": "wt621xq0875",
@@ -11481,7 +12615,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "beethoven|t|8 sonata",
-   "movement": "Adagio cantabile"
+   "movement": "Adagio cantabile",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "wv641dn9264",
@@ -11510,7 +12647,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "rubinstein|t|bal",
-   "movement": "Polka"
+   "movement": "Polka",
+   "genre": "Piano music",
+   "composerFame": "known",
+   "performerFame": "famous"
   },
   {
    "id": "wv912mm2332",
@@ -11539,7 +12679,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "schumann|t|kinderscenen",
-   "movement": "Träumerei"
+   "movement": "Träumerei",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "ww627mg3287",
@@ -11568,7 +12711,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "chopin|t|polskie spiewy",
-   "movement": "Meine Freuden"
+   "movement": "Meine Freuden",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "wz252pk3255",
@@ -11597,7 +12743,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "chopin|op58|",
-   "movement": "selections"
+   "movement": "selections",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "wz719qg6993",
@@ -11626,7 +12775,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "chopin|op15|2",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "xc665jf8254",
@@ -11655,7 +12807,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "chopin|op54|",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "known"
   },
   {
    "id": "xg228jc5213",
@@ -11684,7 +12839,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "sullivan|t|mikado",
-   "movement": "selections"
+   "movement": "selections",
+   "genre": "Opera & stage",
+   "composerFame": "known",
+   "performerFame": "obscure"
   },
   {
    "id": "xg670df7262",
@@ -11713,7 +12871,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "waldteufel|t|jamai ou toujour",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "known",
+   "performerFame": "obscure"
   },
   {
    "id": "xg924dm1245",
@@ -11742,7 +12903,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "toselli|op6|",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "known",
+   "performerFame": "obscure"
   },
   {
    "id": "xg976jt9573",
@@ -11771,7 +12935,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "blaufuss|t|dream golden isle my",
-   "movement": ""
+   "movement": "",
+   "genre": "Songs",
+   "composerFame": "obscure",
+   "performerFame": "obscure"
   },
   {
    "id": "xh403hj3866",
@@ -11800,7 +12967,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "kreisler|t|alt tanzweisen wiener",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "known",
+   "performerFame": "famous"
   },
   {
    "id": "xj540rr2929",
@@ -11829,7 +12999,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "schumann|t|waldscenen",
-   "movement": "Vogel als Prophet"
+   "movement": "Vogel als Prophet",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "xk500gs5691",
@@ -11858,7 +13031,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "lincke|t|berliner luft",
-   "movement": "Berliner Luft"
+   "movement": "Berliner Luft",
+   "genre": "Opera & stage",
+   "composerFame": "known",
+   "performerFame": "obscure"
   },
   {
    "id": "xm978sg7252",
@@ -11887,7 +13063,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "brahms|op39|",
-   "movement": "selections"
+   "movement": "selections",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "xm993qd2681",
@@ -11916,7 +13095,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "beethoven|t|14 sonata",
-   "movement": "Presto agitato"
+   "movement": "Presto agitato",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "xn585zh2707",
@@ -11945,7 +13127,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "delibes|t|lakme",
-   "movement": "selections"
+   "movement": "selections",
+   "genre": "Opera & stage",
+   "composerFame": "known",
+   "performerFame": "obscure"
   },
   {
    "id": "xn796bh4368",
@@ -11974,7 +13159,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "mendelssohn-bartholdy|op19|",
-   "movement": ""
+   "movement": "",
+   "genre": "Songs",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "xp003dy0437",
@@ -12003,7 +13191,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "mendelssohn-bartholdy|op34|",
-   "movement": "Auf Flügeln des Gesanges"
+   "movement": "Auf Flügeln des Gesanges",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "xq762nt7491",
@@ -12032,7 +13223,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "liszt|t|faust opera valse",
-   "movement": ""
+   "movement": "",
+   "genre": "Opera & stage",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "xr433hz5827",
@@ -12061,7 +13255,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "rosoff|t|seventeen were when you",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "obscure",
+   "performerFame": "obscure"
   },
   {
    "id": "xr682fm1233",
@@ -12090,7 +13287,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "rubinstein|op3|1",
-   "movement": ""
+   "movement": "",
+   "genre": "Songs",
+   "composerFame": "known",
+   "performerFame": "famous"
   },
   {
    "id": "xw872bc8052",
@@ -12119,7 +13319,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "schumann|t|carnaval",
-   "movement": "selections"
+   "movement": "selections",
+   "genre": "Opera & stage",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "xx766cn9843",
@@ -12148,7 +13351,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "beethoven|woo82|",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "known"
   },
   {
    "id": "xx912rs1788",
@@ -12177,7 +13383,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "wagner|t|parsifal",
-   "movement": "Vorspiel"
+   "movement": "Vorspiel",
+   "genre": "Opera & stage",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "xy699sy1462",
@@ -12206,7 +13415,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "dvorak|op101|7",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "known"
   },
   {
    "id": "xy812vy7103",
@@ -12235,7 +13447,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "macdowell|t|fireside tale",
-   "movement": "selections"
+   "movement": "selections",
+   "genre": "Piano music",
+   "composerFame": "known",
+   "performerFame": "obscure"
   },
   {
    "id": "yb187qn0290",
@@ -12264,7 +13479,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "beethoven|t|14 sonata",
-   "movement": "selections"
+   "movement": "selections",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "yb682jn2494",
@@ -12293,7 +13511,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "chaminade|t|callirhoe",
-   "movement": "Danse d'écharpe"
+   "movement": "Danse d'écharpe",
+   "genre": "Piano music",
+   "composerFame": "known",
+   "performerFame": "obscure"
   },
   {
    "id": "yc867qr9425",
@@ -12332,7 +13553,10 @@
     "liszt|t|obermann vallee",
     "liszt|t|orage",
     "liszt|t|sposalizio"
-   ]
+   ],
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "yg150mb0559",
@@ -12361,7 +13585,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "schumann|op12|1",
-   "movement": "Abends"
+   "movement": "Abends",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "yg250xz9762",
@@ -12390,7 +13617,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "rachmaninoff|t|prelude",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "yg667ds7662",
@@ -12419,7 +13649,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "schubert|t|divertissement hongroise",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "yg939nd3043",
@@ -12448,7 +13681,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "busoni|t|4 ballettszene",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "known",
+   "performerFame": "obscure"
   },
   {
    "id": "yj598pj2879",
@@ -12477,7 +13713,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "liszt|t|2 soiree vienne",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "yk477xx5343",
@@ -12506,7 +13745,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "chopin|op11|",
-   "movement": "Rondo"
+   "movement": "Rondo",
+   "genre": "Orchestral",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "ym117yd8356",
@@ -12535,7 +13777,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "chopin|op35|",
-   "movement": "selections"
+   "movement": "selections",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "ym420hv4366",
@@ -12564,7 +13809,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "mendelssohn-bartholdy|op62|4",
-   "movement": ""
+   "movement": "",
+   "genre": "Songs",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "ym773gh2267",
@@ -12593,7 +13841,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "grieg|op16|",
-   "movement": "Allegro molto moderato"
+   "movement": "Allegro molto moderato",
+   "genre": "Orchestral",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "yn137rt9938",
@@ -12622,7 +13873,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "schulz-evler|t|arabesken blauen der donau schonen themen uber walzer",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "obscure",
+   "performerFame": "famous"
   },
   {
    "id": "yr287jf4422",
@@ -12651,7 +13905,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "wagner|t|tannhauser",
-   "movement": "O du mein holder Abendstern"
+   "movement": "O du mein holder Abendstern",
+   "genre": "Opera & stage",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "yr522jf5585",
@@ -12680,7 +13937,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "grieg|op16|",
-   "movement": "Allegro molto moderato"
+   "movement": "Allegro molto moderato",
+   "genre": "Orchestral",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "ys250pr2232",
@@ -12709,7 +13969,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "friml|t|marie rose",
-   "movement": "Indian love call"
+   "movement": "Indian love call",
+   "genre": "Popular & dance",
+   "composerFame": "obscure",
+   "performerFame": "obscure"
   },
   {
    "id": "ys288dd6430",
@@ -12738,7 +14001,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "wagner|t|lohengrin",
-   "movement": "Mein lieber Schwan"
+   "movement": "Mein lieber Schwan",
+   "genre": "Opera & stage",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "yt837kd6607",
@@ -12767,7 +14033,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "liszt|t|9 etude execution transcendante",
-   "movement": "Ricordanza"
+   "movement": "Ricordanza",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "yt974cv2625",
@@ -12796,7 +14065,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "beethoven|t|32 sonata",
-   "movement": "Arietta"
+   "movement": "Arietta",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "yw484ky7093",
@@ -12825,7 +14097,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "brahms|op39|",
-   "movement": "selections"
+   "movement": "selections",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "yx139bt6626",
@@ -12854,7 +14129,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "schubert|t|bist die ruh",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "yx536mq2915",
@@ -12883,7 +14161,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "liszt|t|6 hungarian rhapsody",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "zb497jz4405",
@@ -12912,7 +14193,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "mozart|k331|",
-   "movement": "Alla turca"
+   "movement": "Alla turca",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "zc118hn1152",
@@ -12941,7 +14225,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "tchaikovsky|t|shchelkunchik suite",
-   "movement": ""
+   "movement": "",
+   "genre": "Orchestral",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "zc568zf0361",
@@ -12970,7 +14257,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "rubinstein|t|album danse differente nation populaire",
-   "movement": "Valse"
+   "movement": "Valse",
+   "genre": "Piano music",
+   "composerFame": "known",
+   "performerFame": "famous"
   },
   {
    "id": "zc614qh7060",
@@ -12999,7 +14289,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "chopin|t|andante brillante grande polonaise spianato",
-   "movement": "Grande polonaise brillante"
+   "movement": "Grande polonaise brillante",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "zf037wk3650",
@@ -13028,7 +14321,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "chaminade|t|pierrette",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "known",
+   "performerFame": "obscure"
   },
   {
    "id": "zf673fy4620",
@@ -13057,7 +14353,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "scriabin|op32|1",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "zf882fv0052",
@@ -13086,7 +14385,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "grieg|op43|",
-   "movement": "Småfugl"
+   "movement": "Småfugl",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "zk082zq3962",
@@ -13115,7 +14417,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "friml|t|marie rose",
-   "movement": "Rose-Marie"
+   "movement": "Rose-Marie",
+   "genre": "Popular & dance",
+   "composerFame": "obscure",
+   "performerFame": "obscure"
   },
   {
    "id": "zk440mh1715",
@@ -13144,7 +14449,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "liszt|t|2 hungarian rhapsody",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "zn339mg3395",
@@ -13173,7 +14481,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "gabrilowitsch|op3|",
-   "movement": "Caprice-burlesque"
+   "movement": "Caprice-burlesque",
+   "genre": "Piano music",
+   "composerFame": "obscure",
+   "performerFame": "famous"
   },
   {
    "id": "zp085nr8664",
@@ -13202,7 +14513,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "pierne|op7|",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "known",
+   "performerFame": "obscure"
   },
   {
    "id": "zp424ps8426",
@@ -13231,7 +14545,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "sullivan|t|mikado",
-   "movement": "selections"
+   "movement": "selections",
+   "genre": "Opera & stage",
+   "composerFame": "known",
+   "performerFame": "obscure"
   },
   {
    "id": "zp866tm4852",
@@ -13260,7 +14577,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "chopin|op11|",
-   "movement": "Romance"
+   "movement": "Romance",
+   "genre": "Orchestral",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "zr938kz3902",
@@ -13289,7 +14609,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "massenet|t|werther",
-   "movement": "selections"
+   "movement": "selections",
+   "genre": "Opera & stage",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "zt739gs4926",
@@ -13318,7 +14641,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "schumann|t|carnaval",
-   "movement": "selections"
+   "movement": "selections",
+   "genre": "Opera & stage",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "zv706jf8277",
@@ -13347,7 +14673,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "mendelssohn-bartholdy|op38|6",
-   "movement": "Duett"
+   "movement": "Duett",
+   "genre": "Songs",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "zv884mc0794",
@@ -13376,7 +14705,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "liszt|t|10 hungarian rhapsody",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "zw485gh6070",
@@ -13405,7 +14737,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "strauss|t|heldenleben",
-   "movement": "Liebesszene"
+   "movement": "Liebesszene",
+   "genre": "Orchestral",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "zw751nw0097",
@@ -13434,7 +14769,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "leoncavallo|t|boheme",
-   "movement": "Valzer di Musetta"
+   "movement": "Valzer di Musetta",
+   "genre": "Opera & stage",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "zw755dp8285",
@@ -13463,7 +14801,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "liszt|t|faust opera valse",
-   "movement": ""
+   "movement": "",
+   "genre": "Opera & stage",
+   "composerFame": "famous",
+   "performerFame": "obscure"
   },
   {
    "id": "zw828tx0197",
@@ -13492,7 +14833,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "silesu|t|amour peu",
-   "movement": ""
+   "movement": "",
+   "genre": "Songs",
+   "composerFame": "obscure",
+   "performerFame": "obscure"
   },
   {
    "id": "zw904vm6502",
@@ -13521,7 +14865,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
    "pieceKey": "chopin|op70|1",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "famous"
   },
   {
    "id": "zx463rv8885",
@@ -13550,7 +14897,10 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "chopin|op39|",
-   "movement": ""
+   "movement": "",
+   "genre": "Piano music",
+   "composerFame": "famous",
+   "performerFame": "known"
   }
  ],
  "pieceOptions": [
@@ -33375,7 +34725,7 @@
    "tchaikovsky|t|labuti ze zivota"
   ],
   [
-   "Tchaikovsky – Эрос",
+   "Tchaikovsky – Песнь Земфиры",
    "tchaikovsky|t|"
   ],
   [

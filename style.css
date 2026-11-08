@@ -85,3 +85,15 @@ a.btn{text-decoration:none;display:inline-block}
 .suggest li{padding:8px 10px;border-radius:6px;cursor:pointer;font-size:.92rem;overflow-wrap:anywhere}
 .suggest li:hover,.suggest li.on{background:color-mix(in srgb,var(--roll) 14%,transparent)}
 .suggest li.none{color:var(--muted);cursor:default}
+
+/* Practice filters */
+.filters summary{display:flex;justify-content:space-between;align-items:baseline;cursor:pointer;list-style:none}
+.filters summary::-webkit-details-marker{display:none}
+.filters summary .label::before{content:"▸ ";color:var(--roll)}
+.filters[open] summary .label::before{content:"▾ "}
+.filters fieldset{border:0;margin:6px 0 0;padding:0;display:flex;flex-wrap:wrap;gap:6px 14px;align-items:center}
+.filters legend{float:left;width:100%;margin-bottom:6px}
+.check{display:inline-flex;align-items:center;gap:6px;font-size:.92rem;cursor:pointer}
+.check input{accent-color:var(--roll);width:16px;height:16px}
+.filters select{font:inherit;padding:6px 8px;border-radius:8px;border:1px solid var(--line);background:var(--paper);color:var(--ink)}
+.fyears span{color:var(--muted);font-size:.9rem}
