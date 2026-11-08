@@ -265,12 +265,11 @@ def genre_of(r):
     if re.search(r"\bsong|lied|hymn|aria|anthem", kinds) or re.search(r"\b(lied|lieder|song|songs|hymn|gesang|ständchen|standchen)\b", text):
         return "Songs"
     return "Piano music"
-VOCAL = {"soprano", "tenor", "baritone", "bass", "contralto", "mezzo-soprano", "vocalist", "chorus", "boy soprano", "countertenor"}
 for r in cat["recordings"]:
     r["genre"] = genre_of(r)
-    if r["genre"] == "Instrumental solos" and VOCAL & set(r.get("roles") or []): r["genre"] = "Songs"
-    if r["genre"] in ("Songs", "Opera & stage"): r["genre"] = "Opera & songs"    # one vocal category
-cat["recordings"] = [r for r in cat["recordings"] if r["genre"] != "Popular & dance"]   # not what this game is about
+    if r["genre"] == "Songs" and r.get("kind") != "record": r["genre"] = "Piano music"   # a pianist's song transcription is piano music
+# the game keeps opera, orchestral and piano music; songs that aren't from an opera and instrumental solos are left out
+cat["recordings"] = [r for r in cat["recordings"] if r["genre"] in ("Opera & stage", "Orchestral", "Piano music")]
 print(collections.Counter(r["genre"] for r in cat["recordings"]))
 
 # how well known the composer and the performers are (number of Wikipedia articles), for the practice filters
