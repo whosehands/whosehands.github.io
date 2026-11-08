@@ -1,0 +1,27 @@
+name: Rebuild catalog
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "41 10 5 * *"   # monthly, 5th day, after the source downloads
+permissions:
+  contents: write
+concurrency:
+  group: rebuild
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Get Stanford's roll archive
+        run: git clone --depth 1 https://github.com/pianoroll/SUPRA ../SUPRA
+      - name: Rebuild
+        run: SUPRA=../SUPRA sh tools/build_all.sh
+      - name: Commit
+        run: |
+          git config user.name "whose-hands-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data midi
+          git commit -m "Monthly catalog rebuild" || echo "nothing to commit"
+          git pull --rebase origin main
+          git push
