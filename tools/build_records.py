@@ -5,9 +5,10 @@ cat = json.load(open(CAT, encoding="utf-8"))
 sel = json.load(open("sources/loc-selected.json", encoding="utf-8"))
 cat["recordings"] = [r for r in cat["recordings"] if r.get("kind") != "record"]
 def surname(n):
+    """Conventional short name: 'Ludwig van Beethoven' -> 'Beethoven', 'Reginald De Koven' -> 'De Koven'."""
     n = re.sub(r"\s*\(.*?\)", "", n).strip()
     parts = n.split()
-    if len(parts) >= 2 and parts[-2].lower() in ("de", "da", "di", "van", "von", "del", "la", "le"): return " ".join(parts[-2:])
+    if len(parts) >= 2 and parts[-2] in ("De", "Di", "Da", "Del", "Van", "La", "Le", "Mac", "Mc"): return " ".join(parts[-2:])
     return parts[-1] if parts else n
 def genre_hint(r):
     roles = {x for _, x in r["performers"]}

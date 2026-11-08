@@ -352,8 +352,8 @@
       <a href="#practice" class="${daily ? "" : "on"}" ${daily ? "" : 'aria-current="page"'}>Practice</a>
     </nav>
     ${fresh ? `<p class="how">${P.kind === "record"
-      ? "This recording was made on a 78 record between 1900 and 1925. Guess everyone featured on it, the piece, and the year."
-      : "A pianist recorded this on a piano roll between 1905 and 1925. You hear their exact notes, pedaling and timing on a modern piano. Guess who, what, and when."}
+      ? "This is a 78 record. Guess everyone featured on it, the piece, and the year it was recorded."
+      : "A pianist recorded this on a piano roll. You hear their exact notes, pedaling and timing on a modern piano. Guess who, what, and the year it was recorded."}
       You hear a random part of the piece. Right answers keep the clip as it is; each miss plays more and adds a hint.</p>` : ""}
     ${!daily ? filtersHTML() + `<div class="controls"><button class="btn" id="newp">${S.done ? "Next puzzle" : "Skip to a new puzzle"}</button></div>` : ""}
 

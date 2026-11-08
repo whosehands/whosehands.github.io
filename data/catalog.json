@@ -1945,7 +1945,7 @@
    "source": "https://purl.stanford.edu/bf074nj8801",
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
-   "pieceKey": "beethoven|op57|",
+   "pieceKey": "beethoven|t|23 sonata",
    "movement": "selections",
    "genre": "Piano music",
    "composerFame": "famous",
@@ -2233,7 +2233,7 @@
    "source": "https://purl.stanford.edu/bq744nq5945",
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
-   "pieceKey": "beethoven|op111|",
+   "pieceKey": "beethoven|t|32 sonata",
    "movement": "Maestoso",
    "genre": "Piano music",
    "composerFame": "famous",
@@ -2617,7 +2617,7 @@
    "source": "https://purl.stanford.edu/ch718mg2581",
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
-   "pieceKey": "beethoven|op31|3",
+   "pieceKey": "beethoven|t|18 sonata",
    "movement": "Menuetto",
    "genre": "Piano music",
    "composerFame": "famous",
@@ -3609,7 +3609,7 @@
    "source": "https://purl.stanford.edu/dx555xv9093",
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
-   "pieceKey": "beethoven|op27|2",
+   "pieceKey": "beethoven|t|14 sonata",
    "movement": "selections",
    "genre": "Piano music",
    "composerFame": "famous",
@@ -3675,7 +3675,7 @@
    "source": "https://purl.stanford.edu/dz112ky5575",
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
-   "pieceKey": "beethoven|op55|",
+   "pieceKey": "beethoven|t|3 symphony",
    "movement": "Marcia funebre",
    "genre": "Orchestral",
    "composerFame": "famous",
@@ -4453,7 +4453,7 @@
    "source": "https://purl.stanford.edu/fz215xr4723",
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
-   "pieceKey": "beethoven|op57|",
+   "pieceKey": "beethoven|t|23 sonata",
    "movement": "selections",
    "genre": "Piano music",
    "composerFame": "famous",
@@ -4773,7 +4773,7 @@
    "source": "https://purl.stanford.edu/gm170gy7498",
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
-   "pieceKey": "beethoven|op57|",
+   "pieceKey": "beethoven|t|23 sonata",
    "movement": "Allegro assai",
    "genre": "Piano music",
    "composerFame": "famous",
@@ -5898,7 +5898,7 @@
    "source": "https://purl.stanford.edu/ht339gy6128",
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
-   "pieceKey": "beethoven|op55|",
+   "pieceKey": "beethoven|t|3 symphony",
    "movement": "Scherzo",
    "genre": "Orchestral",
    "composerFame": "famous",
@@ -6538,7 +6538,7 @@
    "source": "https://purl.stanford.edu/jk842rg9750",
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
-   "pieceKey": "beethoven|op101|",
+   "pieceKey": "beethoven|t|28 sonata",
    "movement": "selections",
    "genre": "Piano music",
    "composerFame": "famous",
@@ -6986,7 +6986,7 @@
    "source": "https://purl.stanford.edu/kg263bn9176",
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
-   "pieceKey": "beethoven|op53|",
+   "pieceKey": "beethoven|t|21 sonata",
    "movement": "selections",
    "genre": "Piano music",
    "composerFame": "famous",
@@ -7245,7 +7245,7 @@
    "source": "https://purl.stanford.edu/kr397bv2881",
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
-   "pieceKey": "beethoven|op13|",
+   "pieceKey": "beethoven|t|8 sonata",
    "movement": "Rondo",
    "genre": "Piano music",
    "composerFame": "famous",
@@ -7311,7 +7311,7 @@
    "source": "https://purl.stanford.edu/ks452px2704",
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
-   "pieceKey": "beethoven|op55|",
+   "pieceKey": "beethoven|t|3 symphony",
    "movement": "Finale",
    "genre": "Orchestral",
    "composerFame": "famous",
@@ -8047,7 +8047,7 @@
    "source": "https://purl.stanford.edu/mh156nr8259",
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
-   "pieceKey": "beethoven|op57|",
+   "pieceKey": "beethoven|t|23 sonata",
    "movement": "Allegro assai",
    "genre": "Piano music",
    "composerFame": "famous",
@@ -8335,7 +8335,7 @@
    "source": "https://purl.stanford.edu/mw870hc7232",
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
-   "pieceKey": "beethoven|op36|",
+   "pieceKey": "beethoven|t|2 symphony",
    "movement": "selections",
    "genre": "Orchestral",
    "composerFame": "famous",
@@ -9329,7 +9329,7 @@
    "source": "https://purl.stanford.edu/ph692rh6823",
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
-   "pieceKey": "beethoven|op55|",
+   "pieceKey": "beethoven|t|3 symphony",
    "movement": "Allegro con brio",
    "genre": "Orchestral",
    "composerFame": "famous",
@@ -9681,7 +9681,7 @@
    "source": "https://purl.stanford.edu/pv279zy5193",
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
-   "pieceKey": "beethoven|op57|",
+   "pieceKey": "beethoven|t|23 sonata",
    "movement": "selections",
    "genre": "Piano music",
    "composerFame": "famous",
@@ -10557,7 +10557,7 @@
    "source": "https://purl.stanford.edu/qz671pq0609",
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
-   "pieceKey": "beethoven|op53|",
+   "pieceKey": "beethoven|t|21 sonata",
    "movement": "Allegro con brio",
    "genre": "Piano music",
    "composerFame": "famous",
@@ -12765,7 +12765,7 @@
    "source": "https://purl.stanford.edu/ty382mw3181",
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
-   "pieceKey": "beethoven|op101|",
+   "pieceKey": "beethoven|t|28 sonata",
    "movement": "selections",
    "genre": "Piano music",
    "composerFame": "famous",
@@ -13855,7 +13855,7 @@
    "source": "https://purl.stanford.edu/wp877mn0317",
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
-   "pieceKey": "beethoven|op27|2",
+   "pieceKey": "beethoven|t|14 sonata",
    "movement": "Presto agitato",
    "genre": "Piano music",
    "composerFame": "famous",
@@ -13983,7 +13983,7 @@
    "source": "https://purl.stanford.edu/wt621xq0875",
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
-   "pieceKey": "beethoven|op13|",
+   "pieceKey": "beethoven|t|8 sonata",
    "movement": "Adagio cantabile",
    "genre": "Piano music",
    "composerFame": "famous",
@@ -14463,7 +14463,7 @@
    "source": "https://purl.stanford.edu/xm993qd2681",
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
-   "pieceKey": "beethoven|op27|2",
+   "pieceKey": "beethoven|t|14 sonata",
    "movement": "Presto agitato",
    "genre": "Piano music",
    "composerFame": "famous",
@@ -14847,7 +14847,7 @@
    "source": "https://purl.stanford.edu/yb187qn0290",
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
-   "pieceKey": "beethoven|op27|2",
+   "pieceKey": "beethoven|t|14 sonata",
    "movement": "selections",
    "genre": "Piano music",
    "composerFame": "famous",
@@ -15433,7 +15433,7 @@
    "source": "https://purl.stanford.edu/yt974cv2625",
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
-   "pieceKey": "beethoven|op111|",
+   "pieceKey": "beethoven|t|32 sonata",
    "movement": "Arietta",
    "genre": "Piano music",
    "composerFame": "famous",
@@ -16292,8 +16292,8 @@
    "composer": "Friedrich von Flotow",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "von Flotow – Che vuol dir cio",
-   "work": "von Flotow – Che vuol dir cio",
+   "piece": "Flotow – Che vuol dir cio",
+   "work": "Flotow – Che vuol dir cio",
    "part": "",
    "title": "Che vuol dir cio",
    "rollLabel": "",
@@ -16309,7 +16309,7 @@
    "license": "Public domain (US)",
    "genreHint": "Opera & stage",
    "famous": false,
-   "pieceKey": "von flotow|t|che cio dir vuol",
+   "pieceKey": "flotow|t|che cio dir vuol",
    "movement": "",
    "genre": "Opera & stage",
    "composerFame": "known",
@@ -16704,8 +16704,8 @@
    "composer": "Miguel Lerdo de Tejada",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "de Tejada – Perjura!",
-   "work": "de Tejada – Perjura!",
+   "piece": "Tejada – Perjura!",
+   "work": "Tejada – Perjura!",
    "part": "",
    "title": "Perjura!",
    "rollLabel": "",
@@ -16721,7 +16721,7 @@
    "license": "Public domain (US)",
    "genreHint": "Songs",
    "famous": false,
-   "pieceKey": "de tejada|t|perjura",
+   "pieceKey": "tejada|t|perjura",
    "movement": "",
    "genre": "Songs",
    "composerFame": "obscure",
@@ -17470,8 +17470,8 @@
    "composer": "Ch. de Bériot",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "de Bériot – Andantino",
-   "work": "de Bériot – Andantino",
+   "piece": "Bériot – Andantino",
+   "work": "Bériot – Andantino",
    "part": "",
    "title": "Andantino",
    "rollLabel": "",
@@ -17487,7 +17487,7 @@
    "license": "Public domain (US)",
    "genreHint": "Instrumental solos",
    "famous": false,
-   "pieceKey": "de beriot|t|andantino",
+   "pieceKey": "beriot|t|andantino",
    "movement": "",
    "genre": "Instrumental solos",
    "composerFame": "known",
@@ -18204,8 +18204,8 @@
    "composer": "Carl Maria von Weber",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "von Weber – Prayer from Freischutz",
-   "work": "von Weber – Prayer from Freischutz",
+   "piece": "Weber – Prayer from Freischutz",
+   "work": "Weber – Prayer from Freischutz",
    "part": "",
    "title": "Prayer from Freischutz",
    "rollLabel": "",
@@ -18221,7 +18221,7 @@
    "license": "Public domain (US)",
    "genreHint": "Opera & stage",
    "famous": false,
-   "pieceKey": "von weber|t|freischutz prayer",
+   "pieceKey": "weber|t|freischutz prayer",
    "movement": "",
    "genre": "Opera & stage",
    "composerFame": "famous",
@@ -23320,8 +23320,8 @@
    "composer": "Daniel van Goens",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "van Goens – Song without words",
-   "work": "van Goens – Song without words",
+   "piece": "Goens – Song without words",
+   "work": "Goens – Song without words",
    "part": "",
    "title": "Song without words",
    "rollLabel": "",
@@ -23337,7 +23337,7 @@
    "license": "Public domain (US)",
    "genreHint": "Orchestral",
    "famous": false,
-   "pieceKey": "van goens|t|song without word",
+   "pieceKey": "goens|t|song without word",
    "movement": "",
    "genre": "Orchestral",
    "composerFame": "obscure",
@@ -23434,8 +23434,8 @@
    "composer": "René de Boisdeffre",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "de Boisdeffre – At the brook",
-   "work": "de Boisdeffre – At the brook",
+   "piece": "Boisdeffre – At the brook",
+   "work": "Boisdeffre – At the brook",
    "part": "",
    "title": "At the brook",
    "rollLabel": "",
@@ -23451,7 +23451,7 @@
    "license": "Public domain (US)",
    "genreHint": "Orchestral",
    "famous": false,
-   "pieceKey": "de boisdeffre|t|at brook",
+   "pieceKey": "boisdeffre|t|at brook",
    "movement": "",
    "genre": "Orchestral",
    "composerFame": "obscure",
@@ -24370,8 +24370,8 @@
    "otherComposers": [
     "Thibaud"
    ],
-   "piece": "de Coucy – Merci clamant",
-   "work": "de Coucy – Merci clamant",
+   "piece": "Coucy – Merci clamant",
+   "work": "Coucy – Merci clamant",
    "part": "",
    "title": "Merci clamant",
    "rollLabel": "",
@@ -24387,7 +24387,7 @@
    "license": "Public domain (US)",
    "genreHint": "Songs",
    "famous": false,
-   "pieceKey": "de coucy|t|clamant merci",
+   "pieceKey": "coucy|t|clamant merci",
    "movement": "",
    "genre": "Songs",
    "composerFame": "obscure",
@@ -28152,8 +28152,8 @@
    "composer": "Carl Maria von Weber",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "von Weber – Andante e rondo",
-   "work": "von Weber – Andante e rondo",
+   "piece": "Weber – Andante e rondo",
+   "work": "Weber – Andante e rondo",
    "part": "",
    "title": "Andante e rondo",
    "rollLabel": "",
@@ -28169,7 +28169,7 @@
    "license": "Public domain (US)",
    "genreHint": "Instrumental solos",
    "famous": false,
-   "pieceKey": "von weber|t|andante rondo ungarese",
+   "pieceKey": "weber|t|andante rondo ungarese",
    "movement": "",
    "genre": "Instrumental solos",
    "composerFame": "famous",
@@ -29672,8 +29672,8 @@
    "composer": "Carl Maria von Weber",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "von Weber – Softly now the light of day",
-   "work": "von Weber – Softly now the light of day",
+   "piece": "Weber – Softly now the light of day",
+   "work": "Weber – Softly now the light of day",
    "part": "",
    "title": "Softly now the light of day",
    "rollLabel": "",
@@ -29689,7 +29689,7 @@
    "license": "Public domain (US)",
    "genreHint": "Instrumental solos",
    "famous": false,
-   "pieceKey": "von weber|t|day light now softly",
+   "pieceKey": "weber|t|day light now softly",
    "movement": "",
    "genre": "Instrumental solos",
    "composerFame": "famous",
@@ -29712,8 +29712,8 @@
    "composer": "Friedrich von Flotow",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "von Flotow – Porter song",
-   "work": "von Flotow – Porter song",
+   "piece": "Flotow – Porter song",
+   "work": "Flotow – Porter song",
    "part": "",
    "title": "Porter song",
    "rollLabel": "",
@@ -29729,7 +29729,7 @@
    "license": "Public domain (US)",
    "genreHint": "Opera & stage",
    "famous": false,
-   "pieceKey": "von flotow|t|porter song",
+   "pieceKey": "flotow|t|porter song",
    "movement": "",
    "genre": "Opera & stage",
    "composerFame": "known",
@@ -29906,8 +29906,8 @@
    "composer": "Ch. de Bériot",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "de Bériot – Andantino",
-   "work": "de Bériot – Andantino",
+   "piece": "Bériot – Andantino",
+   "work": "Bériot – Andantino",
    "part": "",
    "title": "Andantino",
    "rollLabel": "",
@@ -29923,7 +29923,7 @@
    "license": "Public domain (US)",
    "genreHint": "Instrumental solos",
    "famous": false,
-   "pieceKey": "de beriot|t|andantino",
+   "pieceKey": "beriot|t|andantino",
    "movement": "",
    "genre": "Instrumental solos",
    "composerFame": "known",
@@ -32498,8 +32498,8 @@
    "composer": "Pablo de Sarasate",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "de Sarasate – Gypsy airs",
-   "work": "de Sarasate – Gypsy airs",
+   "piece": "Sarasate – Gypsy airs",
+   "work": "Sarasate – Gypsy airs",
    "part": "",
    "title": "Gypsy airs",
    "rollLabel": "",
@@ -32515,7 +32515,7 @@
    "license": "Public domain (US)",
    "genreHint": "Instrumental solos",
    "famous": false,
-   "pieceKey": "de sarasate|t|airs gypsy",
+   "pieceKey": "sarasate|t|airs gypsy",
    "movement": "",
    "genre": "Instrumental solos",
    "composerFame": "known",
@@ -32912,8 +32912,8 @@
    "composer": "Friedrich von Flotow",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "von Flotow – Lost, proscribed",
-   "work": "von Flotow – Lost, proscribed",
+   "piece": "Flotow – Lost, proscribed",
+   "work": "Flotow – Lost, proscribed",
    "part": "",
    "title": "Lost, proscribed",
    "rollLabel": "",
@@ -32929,7 +32929,7 @@
    "license": "Public domain (US)",
    "genreHint": "Opera & stage",
    "famous": false,
-   "pieceKey": "von flotow|t|lost proscribed",
+   "pieceKey": "flotow|t|lost proscribed",
    "movement": "",
    "genre": "Opera & stage",
    "composerFame": "known",
@@ -34554,8 +34554,8 @@
    "composer": "Ludwig van Beethoven",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "van Beethoven – Leonore overture, no. 3",
-   "work": "van Beethoven – Leonore overture, no. 3",
+   "piece": "Beethoven – Leonore overture, no. 3",
+   "work": "Beethoven – Leonore overture, no. 3",
    "part": "",
    "title": "Leonore overture, no. 3",
    "rollLabel": "",
@@ -34571,7 +34571,7 @@
    "license": "Public domain (US)",
    "genreHint": "Opera & stage",
    "famous": false,
-   "pieceKey": "van beethoven|t|3 leonore overture",
+   "pieceKey": "beethoven|t|3 leonore overture",
    "movement": "",
    "genre": "Opera & stage",
    "composerFame": "famous",
@@ -34592,8 +34592,8 @@
    "composer": "Ludwig van Beethoven",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "van Beethoven – Leonore overture, no. 3",
-   "work": "van Beethoven – Leonore overture, no. 3",
+   "piece": "Beethoven – Leonore overture, no. 3",
+   "work": "Beethoven – Leonore overture, no. 3",
    "part": "",
    "title": "Leonore overture, no. 3",
    "rollLabel": "",
@@ -34609,7 +34609,7 @@
    "license": "Public domain (US)",
    "genreHint": "Opera & stage",
    "famous": false,
-   "pieceKey": "van beethoven|t|3 leonore overture",
+   "pieceKey": "beethoven|t|3 leonore overture",
    "movement": "",
    "genre": "Opera & stage",
    "composerFame": "famous",
@@ -34630,8 +34630,8 @@
    "composer": "Ludwig van Beethoven",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "van Beethoven – Leonore overture, no. 3",
-   "work": "van Beethoven – Leonore overture, no. 3",
+   "piece": "Beethoven – Leonore overture, no. 3",
+   "work": "Beethoven – Leonore overture, no. 3",
    "part": "",
    "title": "Leonore overture, no. 3",
    "rollLabel": "",
@@ -34647,7 +34647,7 @@
    "license": "Public domain (US)",
    "genreHint": "Orchestral",
    "famous": false,
-   "pieceKey": "van beethoven|t|3 leonore overture",
+   "pieceKey": "beethoven|t|3 leonore overture",
    "movement": "",
    "genre": "Orchestral",
    "composerFame": "famous",
@@ -35056,8 +35056,8 @@
    "composer": "Friedrich von Flotow",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "von Flotow – Stradella overture",
-   "work": "von Flotow – Stradella overture",
+   "piece": "Flotow – Stradella overture",
+   "work": "Flotow – Stradella overture",
    "part": "",
    "title": "Stradella overture",
    "rollLabel": "",
@@ -35073,7 +35073,7 @@
    "license": "Public domain (US)",
    "genreHint": "Opera & stage",
    "famous": false,
-   "pieceKey": "von flotow|t|overture stradella",
+   "pieceKey": "flotow|t|overture stradella",
    "movement": "",
    "genre": "Opera & stage",
    "composerFame": "known",
@@ -35170,8 +35170,8 @@
    "composer": "Franz von Suppé",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "von Suppé – Light cavalry overture",
-   "work": "von Suppé – Light cavalry overture",
+   "piece": "Suppé – Light cavalry overture",
+   "work": "Suppé – Light cavalry overture",
    "part": "",
    "title": "Light cavalry overture",
    "rollLabel": "",
@@ -35187,7 +35187,7 @@
    "license": "Public domain (US)",
    "genreHint": "Opera & stage",
    "famous": false,
-   "pieceKey": "von suppe|t|cavalry light overture",
+   "pieceKey": "suppe|t|cavalry light overture",
    "movement": "",
    "genre": "Opera & stage",
    "composerFame": "known",
@@ -37368,8 +37368,8 @@
    "composer": "Franz von Suppé",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "von Suppé – Serenata",
-   "work": "von Suppé – Serenata",
+   "piece": "Suppé – Serenata",
+   "work": "Suppé – Serenata",
    "part": "",
    "title": "Serenata",
    "rollLabel": "",
@@ -37385,7 +37385,7 @@
    "license": "Public domain (US)",
    "genreHint": "Opera & stage",
    "famous": false,
-   "pieceKey": "von suppe|t|serenata",
+   "pieceKey": "suppe|t|serenata",
    "movement": "",
    "genre": "Opera & stage",
    "composerFame": "known",
@@ -37408,8 +37408,8 @@
    "composer": "Claude Joseph Rouget de Lisle",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "de Lisle – La Marseillaise",
-   "work": "de Lisle – La Marseillaise",
+   "piece": "Lisle – La Marseillaise",
+   "work": "Lisle – La Marseillaise",
    "part": "",
    "title": "La Marseillaise",
    "rollLabel": "",
@@ -37425,7 +37425,7 @@
    "license": "Public domain (US)",
    "genreHint": "Songs",
    "famous": false,
-   "pieceKey": "de lisle|t|marseillaise",
+   "pieceKey": "lisle|t|marseillaise",
    "movement": "",
    "genre": "Songs",
    "composerFame": "obscure",
@@ -39675,8 +39675,8 @@
    "composer": "Pablo de Sarasate",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "de Sarasate – Gipsy airs",
-   "work": "de Sarasate – Gipsy airs",
+   "piece": "Sarasate – Gipsy airs",
+   "work": "Sarasate – Gipsy airs",
    "part": "",
    "title": "Gipsy airs",
    "rollLabel": "",
@@ -39692,7 +39692,7 @@
    "license": "Public domain (US)",
    "genreHint": "Instrumental solos",
    "famous": false,
-   "pieceKey": "de sarasate|t|airs gipsy",
+   "pieceKey": "sarasate|t|airs gipsy",
    "movement": "",
    "genre": "Instrumental solos",
    "composerFame": "known",
@@ -41167,8 +41167,8 @@
    "composer": "Friedrich von Flotow",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "von Flotow – Good night quartet",
-   "work": "von Flotow – Good night quartet",
+   "piece": "Flotow – Good night quartet",
+   "work": "Flotow – Good night quartet",
    "part": "",
    "title": "Good night quartet",
    "rollLabel": "",
@@ -41184,7 +41184,7 @@
    "license": "Public domain (US)",
    "genreHint": "Opera & stage",
    "famous": false,
-   "pieceKey": "von flotow|t|good night quartet",
+   "pieceKey": "flotow|t|good night quartet",
    "movement": "",
    "genre": "Opera & stage",
    "composerFame": "known",
@@ -43877,8 +43877,8 @@
    "composer": "Claude Joseph Rouget de Lisle",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "de Lisle – La Marseillaise",
-   "work": "de Lisle – La Marseillaise",
+   "piece": "Lisle – La Marseillaise",
+   "work": "Lisle – La Marseillaise",
    "part": "",
    "title": "La Marseillaise",
    "rollLabel": "",
@@ -43894,7 +43894,7 @@
    "license": "Public domain (US)",
    "genreHint": "Songs",
    "famous": false,
-   "pieceKey": "de lisle|t|marseillaise",
+   "pieceKey": "lisle|t|marseillaise",
    "movement": "",
    "genre": "Songs",
    "composerFame": "obscure",
@@ -47807,8 +47807,8 @@
    "composer": "Friedrich von Flotow",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "von Flotow – Like a dream",
-   "work": "von Flotow – Like a dream",
+   "piece": "Flotow – Like a dream",
+   "work": "Flotow – Like a dream",
    "part": "",
    "title": "Like a dream",
    "rollLabel": "",
@@ -47824,7 +47824,7 @@
    "license": "Public domain (US)",
    "genreHint": "Opera & stage",
    "famous": false,
-   "pieceKey": "von flotow|t|dream like",
+   "pieceKey": "flotow|t|dream like",
    "movement": "",
    "genre": "Opera & stage",
    "composerFame": "known",
@@ -48879,8 +48879,8 @@
    "composer": "Friedrich von Flotow",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "von Flotow – Canzone del porter",
-   "work": "von Flotow – Canzone del porter",
+   "piece": "Flotow – Canzone del porter",
+   "work": "Flotow – Canzone del porter",
    "part": "",
    "title": "Canzone del porter",
    "rollLabel": "",
@@ -48896,7 +48896,7 @@
    "license": "Public domain (US)",
    "genreHint": "Opera & stage",
    "famous": false,
-   "pieceKey": "von flotow|t|canzone del porter",
+   "pieceKey": "flotow|t|canzone del porter",
    "movement": "",
    "genre": "Opera & stage",
    "composerFame": "known",
@@ -48917,8 +48917,8 @@
    "composer": "Friedrich von Flotow",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "von Flotow – Canzone del porter",
-   "work": "von Flotow – Canzone del porter",
+   "piece": "Flotow – Canzone del porter",
+   "work": "Flotow – Canzone del porter",
    "part": "",
    "title": "Canzone del porter",
    "rollLabel": "",
@@ -48934,7 +48934,7 @@
    "license": "Public domain (US)",
    "genreHint": "Opera & stage",
    "famous": false,
-   "pieceKey": "von flotow|t|canzone del porter",
+   "pieceKey": "flotow|t|canzone del porter",
    "movement": "",
    "genre": "Opera & stage",
    "composerFame": "known",
@@ -52688,8 +52688,8 @@
    "composer": "Carl Maria von Weber",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "von Weber – Leise, leise, fromme Weise",
-   "work": "von Weber – Leise, leise, fromme Weise",
+   "piece": "Weber – Leise, leise, fromme Weise",
+   "work": "Weber – Leise, leise, fromme Weise",
    "part": "",
    "title": "Leise, leise, fromme Weise",
    "rollLabel": "",
@@ -52705,7 +52705,7 @@
    "license": "Public domain (US)",
    "genreHint": "Opera & stage",
    "famous": false,
-   "pieceKey": "von weber|t|fromme leise weise",
+   "pieceKey": "weber|t|fromme leise weise",
    "movement": "",
    "genre": "Opera & stage",
    "composerFame": "famous",
@@ -52958,8 +52958,8 @@
    "composer": "Friedrich von Flotow",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "von Flotow – Canzone del porter",
-   "work": "von Flotow – Canzone del porter",
+   "piece": "Flotow – Canzone del porter",
+   "work": "Flotow – Canzone del porter",
    "part": "",
    "title": "Canzone del porter",
    "rollLabel": "",
@@ -52975,7 +52975,7 @@
    "license": "Public domain (US)",
    "genreHint": "Opera & stage",
    "famous": false,
-   "pieceKey": "von flotow|t|canzone del porter",
+   "pieceKey": "flotow|t|canzone del porter",
    "movement": "",
    "genre": "Opera & stage",
    "composerFame": "known",
@@ -55644,8 +55644,8 @@
    "composer": "Friedrich von Flotow",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "von Flotow – M'appari",
-   "work": "von Flotow – M'appari",
+   "piece": "Flotow – M'appari",
+   "work": "Flotow – M'appari",
    "part": "",
    "title": "M'appari",
    "rollLabel": "",
@@ -55661,7 +55661,7 @@
    "license": "Public domain (US)",
    "genreHint": "Opera & stage",
    "famous": false,
-   "pieceKey": "von flotow|t|appari",
+   "pieceKey": "flotow|t|appari",
    "movement": "",
    "genre": "Opera & stage",
    "composerFame": "known",
@@ -59467,8 +59467,8 @@
    "composer": "Friedrich von Flotow",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "von Flotow – Solo, profugo",
-   "work": "von Flotow – Solo, profugo",
+   "piece": "Flotow – Solo, profugo",
+   "work": "Flotow – Solo, profugo",
    "part": "",
    "title": "Solo, profugo",
    "rollLabel": "",
@@ -59484,7 +59484,7 @@
    "license": "Public domain (US)",
    "genreHint": "Opera & stage",
    "famous": false,
-   "pieceKey": "von flotow|t|profugo solo",
+   "pieceKey": "flotow|t|profugo solo",
    "movement": "",
    "genre": "Opera & stage",
    "composerFame": "known",
@@ -60539,8 +60539,8 @@
    "composer": "Friedrich von Flotow",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "von Flotow – Canzone del porter",
-   "work": "von Flotow – Canzone del porter",
+   "piece": "Flotow – Canzone del porter",
+   "work": "Flotow – Canzone del porter",
    "part": "",
    "title": "Canzone del porter",
    "rollLabel": "",
@@ -60556,7 +60556,7 @@
    "license": "Public domain (US)",
    "genreHint": "Opera & stage",
    "famous": false,
-   "pieceKey": "von flotow|t|canzone del porter",
+   "pieceKey": "flotow|t|canzone del porter",
    "movement": "",
    "genre": "Opera & stage",
    "composerFame": "known",
@@ -64332,8 +64332,8 @@
    "composer": "Friedrich von Flotow",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "von Flotow – Porter song",
-   "work": "von Flotow – Porter song",
+   "piece": "Flotow – Porter song",
+   "work": "Flotow – Porter song",
    "part": "",
    "title": "Porter song",
    "rollLabel": "",
@@ -64349,7 +64349,7 @@
    "license": "Public domain (US)",
    "genreHint": "Opera & stage",
    "famous": false,
-   "pieceKey": "von flotow|t|porter song",
+   "pieceKey": "flotow|t|porter song",
    "movement": "",
    "genre": "Opera & stage",
    "composerFame": "known",
@@ -64370,8 +64370,8 @@
    "composer": "Friedrich von Flotow",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "von Flotow – M'appari",
-   "work": "von Flotow – M'appari",
+   "piece": "Flotow – M'appari",
+   "work": "Flotow – M'appari",
    "part": "",
    "title": "M'appari",
    "rollLabel": "",
@@ -64387,7 +64387,7 @@
    "license": "Public domain (US)",
    "genreHint": "Opera & stage",
    "famous": false,
-   "pieceKey": "von flotow|t|appari",
+   "pieceKey": "flotow|t|appari",
    "movement": "",
    "genre": "Opera & stage",
    "composerFame": "known",
@@ -73912,48 +73912,552 @@
    "becker|t|fruhlingszeit"
   ],
   [
+   "Beethoven – 25 Irish Songs",
+   "beethoven|t|25 irish song"
+  ],
+  [
+   "Beethoven – 32 Variations in C minor",
+   "beethoven|t|32 keycmin variation"
+  ],
+  [
    "Beethoven – 32 Variations, WoO 80, C minor",
    "beethoven|woo80|"
+  ],
+  [
+   "Beethoven – 6 Variations on 'Ich denke dein', WoO 74",
+   "beethoven|woo74|"
+  ],
+  [
+   "Beethoven – Abendlied unterm gestirnten Himmel",
+   "beethoven|t|abendlied gestirnten himmel unterm"
   ],
   [
    "Beethoven – Adelaide",
    "beethoven|t|adelaide"
   ],
   [
+   "Beethoven – Ah! perfido",
+   "beethoven|t|ah perfido"
+  ],
+  [
+   "Beethoven – Allegretto for Piano Trio, WoO. 39",
+   "beethoven|woo39|"
+  ],
+  [
+   "Beethoven – An die ferne Geliebte",
+   "beethoven|t|die ferne geliebte"
+  ],
+  [
+   "Beethoven – Andante favori",
+   "beethoven|t|andante favori"
+  ],
+  [
+   "Beethoven – Anthem of Europe",
+   "beethoven|t|anthem europe"
+  ],
+  [
+   "Beethoven – Aus den Liedern verschiedener Völker",
+   "beethoven|t|den liedern verschiedener volker"
+  ],
+  [
+   "Beethoven – Bagatelle Op. 33, no. 1",
+   "beethoven|op33|1"
+  ],
+  [
+   "Beethoven – Bagatelle Op. 33, no. 2",
+   "beethoven|op33|2"
+  ],
+  [
+   "Beethoven – Bagatelle Op. 33, no. 3",
+   "beethoven|op33|3"
+  ],
+  [
+   "Beethoven – Bagatelle Op. 33, no. 4",
+   "beethoven|op33|4"
+  ],
+  [
+   "Beethoven – Bagatelle Op. 33, no. 5",
+   "beethoven|op33|5"
+  ],
+  [
+   "Beethoven – Bagatelle Op. 33, no. 6",
+   "beethoven|op33|6"
+  ],
+  [
+   "Beethoven – Bagatelle Op. 33, no. 7",
+   "beethoven|op33|7"
+  ],
+  [
+   "Beethoven – Bagatelle for piano in B-flat major",
+   "beethoven|t|bagatelle keybflatmaj"
+  ],
+  [
+   "Beethoven – Bagatelles, Op. 119",
+   "beethoven|op119|"
+  ],
+  [
+   "Beethoven – Bagatelles, Op. 126",
+   "beethoven|op126|"
+  ],
+  [
+   "Beethoven – Beethoven",
+   "beethoven|t|"
+  ],
+  [
+   "Beethoven – Beethoven Romance",
+   "beethoven|t|romance"
+  ],
+  [
+   "Beethoven – Beethoven in Havana",
+   "beethoven|t|havana"
+  ],
+  [
+   "Beethoven – Cantata on the Accession of Emperor Leopold II",
+   "beethoven|t|accession cantata emperor ii leopold"
+  ],
+  [
+   "Beethoven – Cantata on the Death of Emperor Joseph II",
+   "beethoven|t|cantata death emperor ii joseph"
+  ],
+  [
+   "Beethoven – Cello Sonata No. 1",
+   "beethoven|t|1 cello sonata"
+  ],
+  [
+   "Beethoven – Cello Sonata No. 2",
+   "beethoven|t|2 cello sonata"
+  ],
+  [
+   "Beethoven – Cello Sonata No. 3",
+   "beethoven|t|3 cello sonata"
+  ],
+  [
+   "Beethoven – Choral Fantasy",
+   "beethoven|t|choral fantasy"
+  ],
+  [
+   "Beethoven – Choral Fantasy in C Minor, Op. 80",
+   "beethoven|op80|"
+  ],
+  [
+   "Beethoven – Christ on the Mount of Olives",
+   "beethoven|t|christ mount olive"
+  ],
+  [
+   "Beethoven – Coriolan Overture",
+   "beethoven|t|coriolan overture"
+  ],
+  [
+   "Beethoven – Der glorreiche Augenblick, Op. 136",
+   "beethoven|op136|"
+  ],
+  [
+   "Beethoven – Diabelli Variations",
+   "beethoven|t|diabelli variation"
+  ],
+  [
+   "Beethoven – Egmont",
+   "beethoven|t|egmont"
+  ],
+  [
+   "Beethoven – Elegischer Gesang",
+   "beethoven|t|elegischer gesang"
+  ],
+  [
+   "Beethoven – Eroica Variations",
+   "beethoven|t|eroica variation"
+  ],
+  [
+   "Beethoven – Es ist vollbracht",
+   "beethoven|t|es ist vollbracht"
+  ],
+  [
+   "Beethoven – Eyeglass Duo",
+   "beethoven|t|duo eyeglass"
+  ],
+  [
+   "Beethoven – Fantasia in G minor",
+   "beethoven|t|fantasia keygmin"
+  ],
+  [
+   "Beethoven – Fidelio",
+   "beethoven|t|fidelio"
+  ],
+  [
    "Beethoven – Fidelio (1806)",
    "beethoven|t|1806 fidelio"
+  ],
+  [
+   "Beethoven – Finále-7. symfonie A dur",
+   "beethoven|t|7 finale keyamaj symfonie"
+  ],
+  [
+   "Beethoven – Flute Sonata in B-flat major",
+   "beethoven|t|flute keybflatmaj sonata"
+  ],
+  [
+   "Beethoven – Fugue for String Quintet, Op. 137",
+   "beethoven|op137|"
+  ],
+  [
+   "Beethoven – Für Elise, WoO 59",
+   "beethoven|woo59|"
+  ],
+  [
+   "Beethoven – GORTON",
+   "beethoven|t|gorton"
+  ],
+  [
+   "Beethoven – Gegenliebe",
+   "beethoven|t|gegenliebe"
+  ],
+  [
+   "Beethoven – Germania",
+   "beethoven|t|germania"
+  ],
+  [
+   "Beethoven – Germany",
+   "beethoven|t|germany"
+  ],
+  [
+   "Beethoven – Gesänge, Op. 75. Kennst du das Land",
+   "beethoven|op75|"
+  ],
+  [
+   "Beethoven – Gesänge, Op. 83. Mit einem gemalten Band",
+   "beethoven|op83|"
+  ],
+  [
+   "Beethoven – Gods and Dogs",
+   "beethoven|t|dogs gods"
+  ],
+  [
+   "Beethoven – Große Fuge",
+   "beethoven|t|fuge gro"
+  ],
+  [
+   "Beethoven – Gustav Mahler's orchestration of Beethoven's Symphony No. 9",
+   "beethoven|t|9 gustav mahler orchestration symphony"
+  ],
+  [
+   "Beethoven – Horn Sonata",
+   "beethoven|t|horn sonata"
+  ],
+  [
+   "Beethoven – Hymn to Joy",
+   "beethoven|t|hymn joy"
+  ],
+  [
+   "Beethoven – Hymne an die Nacht",
+   "beethoven|t|die hymne nacht"
+  ],
+  [
+   "Beethoven – Ihr weisen Gründer glücklicher Staaten",
+   "beethoven|t|glucklicher grunder ihr staaten weisen"
+  ],
+  [
+   "Beethoven – Impressing the Czar",
+   "beethoven|t|czar impressing"
+  ],
+  [
+   "Beethoven – Joyful, Joyful We Adore Thee",
+   "beethoven|t|adore joyful thee we"
+  ],
+  [
+   "Beethoven – Kakadu Variations",
+   "beethoven|t|kakadu variation"
+  ],
+  [
+   "Beethoven – King Stephen",
+   "beethoven|t|king stephen"
+  ],
+  [
+   "Beethoven – L'île des pirates",
+   "beethoven|t|ile pirate"
+  ],
+  [
+   "Beethoven – Leonora III",
+   "beethoven|t|iii leonora"
+  ],
+  [
+   "Beethoven – Leonore",
+   "beethoven|t|leonore"
+  ],
+  [
+   "Beethoven – Leonore Overture No. 1",
+   "beethoven|t|1 leonore overture"
+  ],
+  [
+   "Beethoven – Leonore Overture No. 2",
+   "beethoven|t|2 leonore overture"
+  ],
+  [
+   "Beethoven – Leonore overture, no. 3",
+   "beethoven|t|3 leonore overture"
+  ],
+  [
+   "Beethoven – Marmotte",
+   "beethoven|t|marmotte"
+  ],
+  [
+   "Beethoven – Mass in C major",
+   "beethoven|t|keycmaj mass"
+  ],
+  [
+   "Beethoven – Meeresstille und glückliche Fahrt",
+   "beethoven|t|fahrt gluckliche meeresstille und"
+  ],
+  [
+   "Beethoven – Merkenstein",
+   "beethoven|t|merkenstein"
+  ],
+  [
+   "Beethoven – Minuet in G major, WoO 10, No. 2",
+   "beethoven|woo10|2"
   ],
   [
    "Beethoven – Minuets, WoO 82, E♭ major",
    "beethoven|woo82|"
   ],
   [
+   "Beethoven – Missa Solemnis",
+   "beethoven|t|missa solemni"
+  ],
+  [
+   "Beethoven – Musik zu einem Ritterballett, WoO 1",
+   "beethoven|woo1|"
+  ],
+  [
+   "Beethoven – Nine variations for piano on a march by Ernst Christoph Dressler, WoO 63",
+   "beethoven|woo63|"
+  ],
+  [
+   "Beethoven – O Heimat, dich zu lieben",
+   "beethoven|t|dich heimat lieben zu"
+  ],
+  [
+   "Beethoven – Octet in E-flat Major, Op. 103",
+   "beethoven|op103|"
+  ],
+  [
+   "Beethoven – Piano Concerto No. 0",
+   "beethoven|t|0 concerto"
+  ],
+  [
+   "Beethoven – Piano Concerto No. 1",
+   "beethoven|t|1 concerto"
+  ],
+  [
+   "Beethoven – Piano Concerto No. 2",
+   "beethoven|t|2 concerto"
+  ],
+  [
+   "Beethoven – Piano Concerto No. 3",
+   "beethoven|t|3 concerto"
+  ],
+  [
+   "Beethoven – Piano Concerto No. 4",
+   "beethoven|t|4 concerto"
+  ],
+  [
+   "Beethoven – Piano Concerto No. 5",
+   "beethoven|t|5 concerto"
+  ],
+  [
+   "Beethoven – Piano Concerto No. 6",
+   "beethoven|t|6 concerto"
+  ],
+  [
+   "Beethoven – Piano Sonata No. 1",
+   "beethoven|t|1 sonata"
+  ],
+  [
+   "Beethoven – Piano Sonata No. 10",
+   "beethoven|t|10 sonata"
+  ],
+  [
+   "Beethoven – Piano Sonata No. 11",
+   "beethoven|t|11 sonata"
+  ],
+  [
+   "Beethoven – Piano Sonata No. 12",
+   "beethoven|t|12 sonata"
+  ],
+  [
+   "Beethoven – Piano Sonata No. 13",
+   "beethoven|t|13 sonata"
+  ],
+  [
    "Beethoven – Piano Sonata No. 14 in C♯ minor, Op. 27 No. 2",
-   "beethoven|op27|2"
+   "beethoven|t|14 sonata"
+  ],
+  [
+   "Beethoven – Piano Sonata No. 15",
+   "beethoven|t|15 sonata"
+  ],
+  [
+   "Beethoven – Piano Sonata No. 16",
+   "beethoven|t|16 sonata"
+  ],
+  [
+   "Beethoven – Piano Sonata No. 17",
+   "beethoven|t|17 sonata"
   ],
   [
    "Beethoven – Piano Sonata No. 18 in E♭ major, Op. 31 No. 3",
-   "beethoven|op31|3"
+   "beethoven|t|18 sonata"
+  ],
+  [
+   "Beethoven – Piano Sonata No. 19",
+   "beethoven|t|19 sonata"
+  ],
+  [
+   "Beethoven – Piano Sonata No. 2",
+   "beethoven|t|2 sonata"
+  ],
+  [
+   "Beethoven – Piano Sonata No. 20",
+   "beethoven|t|20 sonata"
   ],
   [
    "Beethoven – Piano Sonata No. 21 in C major, Op. 53",
-   "beethoven|op53|"
+   "beethoven|t|21 sonata"
+  ],
+  [
+   "Beethoven – Piano Sonata No. 22",
+   "beethoven|t|22 sonata"
   ],
   [
    "Beethoven – Piano Sonata No. 23 in F minor, Op. 57",
-   "beethoven|op57|"
+   "beethoven|t|23 sonata"
+  ],
+  [
+   "Beethoven – Piano Sonata No. 24",
+   "beethoven|t|24 sonata"
+  ],
+  [
+   "Beethoven – Piano Sonata No. 25",
+   "beethoven|t|25 sonata"
+  ],
+  [
+   "Beethoven – Piano Sonata No. 26",
+   "beethoven|t|26 sonata"
+  ],
+  [
+   "Beethoven – Piano Sonata No. 27",
+   "beethoven|t|27 sonata"
   ],
   [
    "Beethoven – Piano Sonata No. 28 in A major, Op. 101",
-   "beethoven|op101|"
+   "beethoven|t|28 sonata"
+  ],
+  [
+   "Beethoven – Piano Sonata No. 29",
+   "beethoven|t|29 sonata"
+  ],
+  [
+   "Beethoven – Piano Sonata No. 3",
+   "beethoven|t|3 sonata"
+  ],
+  [
+   "Beethoven – Piano Sonata No. 30",
+   "beethoven|t|30 sonata"
+  ],
+  [
+   "Beethoven – Piano Sonata No. 31",
+   "beethoven|t|31 sonata"
   ],
   [
    "Beethoven – Piano Sonata No. 32 in C minor, Op. 111",
-   "beethoven|op111|"
+   "beethoven|t|32 sonata"
+  ],
+  [
+   "Beethoven – Piano Sonata No. 4",
+   "beethoven|t|4 sonata"
+  ],
+  [
+   "Beethoven – Piano Sonata No. 5",
+   "beethoven|t|5 sonata"
+  ],
+  [
+   "Beethoven – Piano Sonata No. 6",
+   "beethoven|t|6 sonata"
+  ],
+  [
+   "Beethoven – Piano Sonata No. 7",
+   "beethoven|t|7 sonata"
   ],
   [
    "Beethoven – Piano Sonata No. 8 in C minor, Op. 13",
-   "beethoven|op13|"
+   "beethoven|t|8 sonata"
+  ],
+  [
+   "Beethoven – Piano Sonata No. 9",
+   "beethoven|t|9 sonata"
+  ],
+  [
+   "Beethoven – Piano Sonata, WoO. 51",
+   "beethoven|woo51|"
+  ],
+  [
+   "Beethoven – Piano Trio No. 1 in E-flat major",
+   "beethoven|t|1 keyeflatmaj trio"
+  ],
+  [
+   "Beethoven – Piano Trio No. 2 in G major",
+   "beethoven|t|2 keygmaj trio"
+  ],
+  [
+   "Beethoven – Piano Trio No. 3 in C minor",
+   "beethoven|t|3 keycmin trio"
+  ],
+  [
+   "Beethoven – Piano Trio in B-flat Major, Op. 11",
+   "beethoven|op11|"
+  ],
+  [
+   "Beethoven – Piano Trio, Op. 38",
+   "beethoven|op38|"
+  ],
+  [
+   "Beethoven – Piano Trio, Op. 97",
+   "beethoven|op97|"
+  ],
+  [
+   "Beethoven – Piano Trio, WoO. 38",
+   "beethoven|woo38|"
+  ],
+  [
+   "Beethoven – Polonaise in C major",
+   "beethoven|t|keycmaj polonaise"
+  ],
+  [
+   "Beethoven – Prométheovi lidé aneb Moc hudb",
+   "beethoven|t|aneb hudb lide moc prometheovi"
+  ],
+  [
+   "Beethoven – Quartetto con maschera rossa (Il mito di Don Juan)",
+   "beethoven|t|con di don il juan maschera mito quartetto rossa"
+  ],
+  [
+   "Beethoven – Quintet for Piano and Winds",
+   "beethoven|t|quintet wind"
+  ],
+  [
+   "Beethoven – Quintettsatz in D minor",
+   "beethoven|t|keydmin quintettsatz"
+  ],
+  [
+   "Beethoven – Rage Over a Lost Penny",
+   "beethoven|t|lost over penny rage"
+  ],
+  [
+   "Beethoven – Rise, O Voices of Rhodesia",
+   "beethoven|t|rhodesia rise voice"
+  ],
+  [
+   "Beethoven – Rondo for piano and orchestra",
+   "beethoven|t|orchestra rondo"
   ],
   [
    "Beethoven – Rondo à capriccio",
@@ -73964,12 +74468,300 @@
    "beethoven|op51|1"
   ],
   [
+   "Beethoven – Sehnsucht, WoO 134",
+   "beethoven|woo134|"
+  ],
+  [
+   "Beethoven – Septet",
+   "beethoven|t|septet"
+  ],
+  [
+   "Beethoven – Serenade for Violin, Viola and Cello",
+   "beethoven|t|cello serenade viola violin"
+  ],
+  [
+   "Beethoven – Serenade for flute, violin and viola",
+   "beethoven|t|flute serenade viola violin"
+  ],
+  [
+   "Beethoven – Sextet for Horns and String Quartet",
+   "beethoven|t|horn quartet sextet string"
+  ],
+  [
+   "Beethoven – Six variations on a Swiss song for piano or harp",
+   "beethoven|t|harp or six song swiss variation"
+  ],
+  [
+   "Beethoven – Sonate opus 6",
+   "beethoven|op6|"
+  ],
+  [
+   "Beethoven – Sonatina in Bes",
+   "beethoven|t|bes sonatina"
+  ],
+  [
+   "Beethoven – Sonatina in G major",
+   "beethoven|t|keygmaj sonatina"
+  ],
+  [
+   "Beethoven – Streichquartett F-Dur nach Sonate Op. 14,1",
+   "beethoven|op14|"
+  ],
+  [
+   "Beethoven – String Quartet No. 1",
+   "beethoven|t|1 quartet string"
+  ],
+  [
+   "Beethoven – String Quartet No. 10",
+   "beethoven|t|10 quartet string"
+  ],
+  [
+   "Beethoven – String Quartet No. 11",
+   "beethoven|t|11 quartet string"
+  ],
+  [
+   "Beethoven – String Quartet No. 12",
+   "beethoven|t|12 quartet string"
+  ],
+  [
+   "Beethoven – String Quartet No. 13",
+   "beethoven|t|13 quartet string"
+  ],
+  [
+   "Beethoven – String Quartet No. 14",
+   "beethoven|t|14 quartet string"
+  ],
+  [
+   "Beethoven – String Quartet No. 15",
+   "beethoven|t|15 quartet string"
+  ],
+  [
+   "Beethoven – String Quartet No. 16",
+   "beethoven|t|16 quartet string"
+  ],
+  [
+   "Beethoven – String Quartet No. 2",
+   "beethoven|t|2 quartet string"
+  ],
+  [
+   "Beethoven – String Quartet No. 3",
+   "beethoven|t|3 quartet string"
+  ],
+  [
+   "Beethoven – String Quartet No. 4",
+   "beethoven|t|4 quartet string"
+  ],
+  [
+   "Beethoven – String Quartet No. 5",
+   "beethoven|t|5 quartet string"
+  ],
+  [
+   "Beethoven – String Quartet No. 6",
+   "beethoven|t|6 quartet string"
+  ],
+  [
+   "Beethoven – String Quintet, Op. 104",
+   "beethoven|op104|"
+  ],
+  [
+   "Beethoven – String Quintet, Op. 29",
+   "beethoven|op29|"
+  ],
+  [
+   "Beethoven – String Quintet, Op. 4",
+   "beethoven|op4|"
+  ],
+  [
+   "Beethoven – String Trio, Op. 3",
+   "beethoven|op3|"
+  ],
+  [
+   "Beethoven – String Trios, Op. 9",
+   "beethoven|op9|"
+  ],
+  [
+   "Beethoven – Stvoření Prométheovo",
+   "beethoven|t|prometheovo stvoreni"
+  ],
+  [
+   "Beethoven – Symphony No. 1",
+   "beethoven|t|1 symphony"
+  ],
+  [
    "Beethoven – Symphony No. 2 in D major, Op. 36",
-   "beethoven|op36|"
+   "beethoven|t|2 symphony"
   ],
   [
    "Beethoven – Symphony No. 3 in E♭ major, Op. 55",
-   "beethoven|op55|"
+   "beethoven|t|3 symphony"
+  ],
+  [
+   "Beethoven – Symphony No. 4",
+   "beethoven|t|4 symphony"
+  ],
+  [
+   "Beethoven – Symphony No. 5",
+   "beethoven|t|5 symphony"
+  ],
+  [
+   "Beethoven – Symphony No. 6",
+   "beethoven|t|6 symphony"
+  ],
+  [
+   "Beethoven – Symphony No. 7",
+   "beethoven|t|7 symphony"
+  ],
+  [
+   "Beethoven – Symphony No. 8",
+   "beethoven|t|8 symphony"
+  ],
+  [
+   "Beethoven – Symphony No. 9",
+   "beethoven|t|9 symphony"
+  ],
+  [
+   "Beethoven – Ten National Airs with Variations for Flute and Piano",
+   "beethoven|t|airs flute national ten variation with"
+  ],
+  [
+   "Beethoven – The Consecration of the House",
+   "beethoven|t|consecration house"
+  ],
+  [
+   "Beethoven – The Creatures of Prometheus",
+   "beethoven|t|creature prometheu"
+  ],
+  [
+   "Beethoven – The Ruins of Athens",
+   "beethoven|t|athen ruin"
+  ],
+  [
+   "Beethoven – Three Equali for Four Trombones, WoO 30",
+   "beethoven|woo30|"
+  ],
+  [
+   "Beethoven – Three Piano Sonatas, WoO 47",
+   "beethoven|woo47|"
+  ],
+  [
+   "Beethoven – Trio for Piano, Flute and Bassoon, WoO 37",
+   "beethoven|woo37|"
+  ],
+  [
+   "Beethoven – Triple Concerto",
+   "beethoven|t|concerto triple"
+  ],
+  [
+   "Beethoven – Turkish March",
+   "beethoven|t|march turkish"
+  ],
+  [
+   "Beethoven – Twenty-Five Scottish Songs",
+   "beethoven|t|five scottish song twenty"
+  ],
+  [
+   "Beethoven – Two Preludes Through all Major Keys",
+   "beethoven|t|all keys prelude through two"
+  ],
+  [
+   "Beethoven – Two rondos for piano",
+   "beethoven|t|rondo two"
+  ],
+  [
+   "Beethoven – VI. symfonie F-dur Pastorální",
+   "beethoven|t|keyfmaj pastoralni symfonie vi"
+  ],
+  [
+   "Beethoven – Variations on an original theme in E-flat major",
+   "beethoven|t|keyeflatmaj original theme variation"
+  ],
+  [
+   "Beethoven – Vestas Feuer",
+   "beethoven|t|feuer vesta"
+  ],
+  [
+   "Beethoven – Violin Concerto in C",
+   "beethoven|t|concerto violin"
+  ],
+  [
+   "Beethoven – Violin Concerto in D major, Op. 61",
+   "beethoven|op61|"
+  ],
+  [
+   "Beethoven – Violin Romance No. 1",
+   "beethoven|t|1 romance violin"
+  ],
+  [
+   "Beethoven – Violin Romance No. 2",
+   "beethoven|t|2 romance violin"
+  ],
+  [
+   "Beethoven – Violin Sonata No. 1",
+   "beethoven|t|1 sonata violin"
+  ],
+  [
+   "Beethoven – Violin Sonata No. 10",
+   "beethoven|t|10 sonata violin"
+  ],
+  [
+   "Beethoven – Violin Sonata No. 2",
+   "beethoven|t|2 sonata violin"
+  ],
+  [
+   "Beethoven – Violin Sonata No. 3",
+   "beethoven|t|3 sonata violin"
+  ],
+  [
+   "Beethoven – Violin Sonata No. 4",
+   "beethoven|t|4 sonata violin"
+  ],
+  [
+   "Beethoven – Violin Sonata No. 5",
+   "beethoven|t|5 sonata violin"
+  ],
+  [
+   "Beethoven – Violin Sonata No. 6",
+   "beethoven|t|6 sonata violin"
+  ],
+  [
+   "Beethoven – Violin Sonata No. 7",
+   "beethoven|t|7 sonata violin"
+  ],
+  [
+   "Beethoven – Violin Sonata No. 8",
+   "beethoven|t|8 sonata violin"
+  ],
+  [
+   "Beethoven – Violin Sonata No. 9",
+   "beethoven|t|9 sonata violin"
+  ],
+  [
+   "Beethoven – Visan om solen, månen och planeterna",
+   "beethoven|t|manen och om planeterna solen visan"
+  ],
+  [
+   "Beethoven – Wellington's Victory",
+   "beethoven|t|victory wellington"
+  ],
+  [
+   "Beethoven – Yorckscher Marsch",
+   "beethoven|t|marsch yorckscher"
+  ],
+  [
+   "Beethoven – Zur Namensfeier",
+   "beethoven|t|namensfeier zur"
+  ],
+  [
+   "Beethoven – Zärtliche Liebe",
+   "beethoven|t|liebe zartliche"
+  ],
+  [
+   "Beethoven – piano music of Beethoven",
+   "beethoven|t|music"
+  ],
+  [
+   "Beethoven – trois duos pour clarinette et basson",
+   "beethoven|t|basson clarinette duos pour troi"
   ],
   [
    "Bellini – Adelson e Salvini",
@@ -75172,6 +75964,10 @@
    "bohm|t|nordische romanze"
   ],
   [
+   "Boisdeffre – At the brook",
+   "boisdeffre|t|at brook"
+  ],
+  [
    "Borel-Clerc – Ah ! le petit vin blanc",
    "borel-clerc|t|ah blanc petit vin"
   ],
@@ -75842,6 +76638,10 @@
   [
    "Buzzi-Peccia – Lolita",
    "buzzi-peccia|t|lolita"
+  ],
+  [
+   "Bériot – Andantino",
+   "beriot|t|andantino"
   ],
   [
    "Cadman – A Witch of Salem",
@@ -77678,6 +78478,10 @@
   [
    "Costa – Sei morta ne la vita mia!",
    "costa|t|mia morta ne sei vita"
+  ],
+  [
+   "Coucy – Merci clamant",
+   "coucy|t|clamant merci"
   ],
   [
    "Cowen – Harold or the Norman Conquest",
@@ -80984,6 +81788,134 @@
    "flies|t|wiegenlied"
   ],
   [
+   "Flotow – A m'adorer tout vous convie",
+   "flotow|t|adorer convie tout vous"
+  ],
+  [
+   "Flotow – Ah, quelle conduite outrageaute",
+   "flotow|t|ah conduite outrageaute quelle"
+  ],
+  [
+   "Flotow – Alessandro Stradella",
+   "flotow|t|alessandro stradella"
+  ],
+  [
+   "Flotow – Bella reggia addio",
+   "flotow|t|addio bella reggia"
+  ],
+  [
+   "Flotow – Canzone del porter",
+   "flotow|t|canzone del porter"
+  ],
+  [
+   "Flotow – Che vuol dir cio",
+   "flotow|t|che cio dir vuol"
+  ],
+  [
+   "Flotow – Chi ridona alle mie gote",
+   "flotow|t|alle chi gote mie ridona"
+  ],
+  [
+   "Flotow – Devant tes charmes qu'il adore",
+   "flotow|t|adore charme devant il qu tes"
+  ],
+  [
+   "Flotow – Di quella fronte il bel sereno",
+   "flotow|t|bel di fronte il quella sereno"
+  ],
+  [
+   "Flotow – Good night quartet",
+   "flotow|t|good night quartet"
+  ],
+  [
+   "Flotow – Je n'ai qu'en ami dans la vie",
+   "flotow|t|ai ami dans je qu vie"
+  ],
+  [
+   "Flotow – Je n'aurais pas un seul galant",
+   "flotow|t|aurai galant je pas seul un"
+  ],
+  [
+   "Flotow – L'Ombre",
+   "flotow|t|ombre"
+  ],
+  [
+   "Flotow – L'anima in pena",
+   "flotow|t|anima pena"
+  ],
+  [
+   "Flotow – Lady Henriette",
+   "flotow|t|henriette lady"
+  ],
+  [
+   "Flotow – Like a dream",
+   "flotow|t|dream like"
+  ],
+  [
+   "Flotow – Lost, proscribed",
+   "flotow|t|lost proscribed"
+  ],
+  [
+   "Flotow – M'appari",
+   "flotow|t|appari"
+  ],
+  [
+   "Flotow – Ma chere enfant, le mariage",
+   "flotow|t|chere enfant ma mariage"
+  ],
+  [
+   "Flotow – Martha",
+   "flotow|t|martha"
+  ],
+  [
+   "Flotow – Naїda",
+   "flotow|t|da na"
+  ],
+  [
+   "Flotow – Par pitie, ne me chassez pas!",
+   "flotow|t|chassez me ne par pas pitie"
+  ],
+  [
+   "Flotow – Pauvre ange dont la triste vie",
+   "flotow|t|ange dont pauvre triste vie"
+  ],
+  [
+   "Flotow – Porter song",
+   "flotow|t|porter song"
+  ],
+  [
+   "Flotow – Que dit l'oiseau de Bengali",
+   "flotow|t|bengali dit oiseau que"
+  ],
+  [
+   "Flotow – Quelle souffrance!",
+   "flotow|t|quelle souffrance"
+  ],
+  [
+   "Flotow – Ridente asilo",
+   "flotow|t|asilo ridente"
+  ],
+  [
+   "Flotow – Solo, profugo",
+   "flotow|t|profugo solo"
+  ],
+  [
+   "Flotow – Sophie Catherine",
+   "flotow|t|catherine sophie"
+  ],
+  [
+   "Flotow – Stradella overture",
+   "flotow|t|overture stradella"
+  ],
+  [
+   "Flotow – Tentare io vo' l'impresa ardita",
+   "flotow|t|ardita impresa io tentare vo"
+  ],
+  [
+   "Flotow – Zilda",
+   "flotow|t|zilda"
+  ],
+  [
    "Foster – Ah! May the Red Rose Live Alway",
    "foster|t|ah alway live may red rose"
   ],
@@ -82042,6 +82974,10 @@
   [
    "Godfrey – The friendly rivals",
    "godfrey|t|friendly rival"
+  ],
+  [
+   "Goens – Song without words",
+   "goens|t|song without word"
   ],
   [
    "Gold – Driftwood",
@@ -87430,6 +88366,10 @@
   [
    "Lindblad – Ångbåtssång / Paa Damperen (\"Sätt maschinen [maskinen] i gång, herr Kapten\")",
    "lindblad|t|angbatssang damperen gang herr kapten maschinen maskinen paa satt"
+  ],
+  [
+   "Lisle – La Marseillaise",
+   "lisle|t|marseillaise"
   ],
   [
    "Liszt – A dream of love",
@@ -95400,6 +96340,34 @@
    "sanderson|t|until"
   ],
   [
+   "Sarasate – Caprice Basque",
+   "sarasate|t|basque caprice"
+  ],
+  [
+   "Sarasate – Carmen Fantasy",
+   "sarasate|t|carmen fantasy"
+  ],
+  [
+   "Sarasate – Gipsy airs",
+   "sarasate|t|airs gipsy"
+  ],
+  [
+   "Sarasate – Gypsy airs",
+   "sarasate|t|airs gypsy"
+  ],
+  [
+   "Sarasate – Introduction et Tarantelle",
+   "sarasate|t|introduction tarantelle"
+  ],
+  [
+   "Sarasate – Spanish Dances",
+   "sarasate|t|dance spanish"
+  ],
+  [
+   "Sarasate – Zigeunerweisen",
+   "sarasate|t|zigeunerweisen"
+  ],
+  [
    "Saro – Winter-Marchen",
    "saro|t|marchen winter"
   ],
@@ -101524,6 +102492,138 @@
    "sullivan|t|guard yeomen"
   ],
   [
+   "Suppé – Banditenstreiche",
+   "suppe|t|banditenstreiche"
+  ],
+  [
+   "Suppé – Bellman",
+   "suppe|t|bellman"
+  ],
+  [
+   "Suppé – Boccaccio",
+   "suppe|t|boccaccio"
+  ],
+  [
+   "Suppé – Boccace",
+   "suppe|t|boccace"
+  ],
+  [
+   "Suppé – Das Pensionat",
+   "suppe|t|das pensionat"
+  ],
+  [
+   "Suppé – Der Gascogner",
+   "suppe|t|der gascogner"
+  ],
+  [
+   "Suppé – Der Teufel auf Erden",
+   "suppe|t|auf der erden teufel"
+  ],
+  [
+   "Suppé – Des Matrosen Heimkehr",
+   "suppe|t|heimkehr matrosen"
+  ],
+  [
+   "Suppé – Die Afrikareise",
+   "suppe|t|afrikareise die"
+  ],
+  [
+   "Suppé – Die Frau Meisterin",
+   "suppe|t|die frau meisterin"
+  ],
+  [
+   "Suppé – Die Jagd nach dem Glück",
+   "suppe|t|dem die gluck jagd nach"
+  ],
+  [
+   "Suppé – Die Kartenschlägerin",
+   "suppe|t|die kartenschlagerin"
+  ],
+  [
+   "Suppé – Die Leichte Kavallerie",
+   "suppe|t|die kavallerie leichte"
+  ],
+  [
+   "Suppé – Die schöne Galathee",
+   "suppe|t|die galathee schone"
+  ],
+  [
+   "Suppé – Donna Juanita",
+   "suppe|t|donna juanita"
+  ],
+  [
+   "Suppé – Fatinica",
+   "suppe|t|fatinica"
+  ],
+  [
+   "Suppé – Fatinitza",
+   "suppe|t|fatinitza"
+  ],
+  [
+   "Suppé – Flotte Bursche",
+   "suppe|t|bursche flotte"
+  ],
+  [
+   "Suppé – Franz Schubert",
+   "suppe|t|franz schubert"
+  ],
+  [
+   "Suppé – Freigeister",
+   "suppe|t|freigeister"
+  ],
+  [
+   "Suppé – Leichte Kavallerie",
+   "suppe|t|kavallerie leichte"
+  ],
+  [
+   "Suppé – Light cavalry overture",
+   "suppe|t|cavalry light overture"
+  ],
+  [
+   "Suppé – Lohengelb, oder Die Jungfrau von Dragant (Tragant)",
+   "suppe|t|die dragant jungfrau lohengelb oder tragant von"
+  ],
+  [
+   "Suppé – Missa Dalmatica",
+   "suppe|t|dalmatica missa"
+  ],
+  [
+   "Suppé – Morning, Noon and Night in Vienna",
+   "suppe|t|morning night noon vienna"
+  ],
+  [
+   "Suppé – Mozart",
+   "suppe|t|mozart"
+  ],
+  [
+   "Suppé – Pique Dame",
+   "suppe|t|dame pique"
+  ],
+  [
+   "Suppé – Poet and Peasant",
+   "suppe|t|peasant poet"
+  ],
+  [
+   "Suppé – Requiem in D minor",
+   "suppe|t|keydmin requiem"
+  ],
+  [
+   "Suppé – Rote Rosen",
+   "suppe|t|rosen rote"
+  ],
+  [
+   "Suppé – Serenata",
+   "suppe|t|serenata"
+  ],
+  [
+   "Suppé – Vojáci císařovny",
+   "suppe|t|cisarovny vojaci"
+  ],
+  [
+   "Suppé – Zehn Mädchen und kein Mann",
+   "suppe|t|kein madchen mann und zehn"
+  ],
+  [
    "Svendsen – Symphony No. 1",
    "svendsen|t|1 symphony"
   ],
@@ -102178,6 +103278,10 @@
   [
    "Tchaikovsky – Песнь Земфиры",
    "tchaikovsky|t|"
+  ],
+  [
+   "Tejada – Perjura!",
+   "tejada|t|perjura"
   ],
   [
    "Thalberg – Hexameron, S. 392",
@@ -103436,8 +104540,256 @@
    "waters|t|somewhere"
   ],
   [
+   "Weber – 6 sonates progressives",
+   "weber|t|6 progressive sonate"
+  ],
+  [
+   "Weber – Abu Hassan",
+   "weber|t|abu hassan"
+  ],
+  [
+   "Weber – Andante e rondo",
+   "weber|t|andante rondo ungarese"
+  ],
+  [
+   "Weber – Bassoon Concerto",
+   "weber|t|bassoon concerto"
+  ],
+  [
+   "Weber – Clarinet Concerto No. 1",
+   "weber|t|1 clarinet concerto"
+  ],
+  [
+   "Weber – Clarinet Concerto No. 2",
+   "weber|t|2 clarinet concerto"
+  ],
+  [
+   "Weber – Clarinet Quintet",
+   "weber|t|clarinet quintet"
+  ],
+  [
+   "Weber – Concertino for Clarinet",
+   "weber|t|clarinet concertino"
+  ],
+  [
+   "Weber – Concertino for Horn and Orchestra",
+   "weber|t|concertino horn orchestra"
+  ],
+  [
+   "Weber – Der Freischütz",
+   "weber|t|der freischutz"
+  ],
+  [
+   "Weber – Die Macht der Liebe und des Weins",
+   "weber|t|der die liebe macht und wein"
+  ],
+  [
+   "Weber – Die Temperamente beim Verluste der Geliebten",
+   "weber|t|beim der die geliebten temperamente verluste"
+  ],
+  [
+   "Weber – Die drei Pintos",
+   "weber|t|die drei pinto"
+  ],
+  [
+   "Weber – Douze Danses allemandes",
+   "weber|t|allemande danse douze"
+  ],
+  [
+   "Weber – Euriante",
+   "weber|t|euriante"
+  ],
+  [
+   "Weber – Euryanthe",
+   "weber|t|euryanthe"
+  ],
+  [
+   "Weber – Grand Duo Concertant",
+   "weber|t|concertant duo grand"
+  ],
+  [
+   "Weber – Grande Polonaise",
+   "weber|t|grande polonaise"
+  ],
+  [
+   "Weber – Huit Pièces",
+   "weber|t|huit piece"
+  ],
+  [
+   "Weber – Invitation to the Dance",
+   "weber|t|dance invitation"
+  ],
+  [
+   "Weber – JEWETT",
+   "weber|t|jewett"
+  ],
+  [
+   "Weber – Jubel Ouverture",
+   "weber|t|jubel ouverture"
+  ],
+  [
+   "Weber – Konzertstück in F minor",
+   "weber|t|keyfmin konzertstuck"
+  ],
+  [
+   "Weber – Le Spectre de la Rose",
+   "weber|t|rose spectre"
+  ],
+  [
+   "Weber – Leise, leise, fromme Weise",
+   "weber|t|fromme leise weise"
+  ],
+  [
+   "Weber – Missa sancta, no. 1",
+   "weber|t|1 missa sancta"
+  ],
+  [
+   "Weber – Momento capriccioso in B-flat major, Op. 12",
+   "weber|op12|"
+  ],
+  [
+   "Weber – Oberon",
+   "weber|t|oberon"
+  ],
+  [
+   "Weber – Peter Schmoll und seine Nachbarn",
+   "weber|t|nachbarn peter schmoll seine und"
+  ],
+  [
+   "Weber – Piano Concerto No. 1",
+   "weber|t|1 concerto"
+  ],
+  [
+   "Weber – Piano Concerto No. 2",
+   "weber|t|2 concerto"
+  ],
+  [
+   "Weber – Piano Quartet in B-flat major, J.76",
+   "weber|t|76 keybflatmaj quartet"
+  ],
+  [
+   "Weber – Piano Sonata No.1",
+   "weber|t|1 sonata"
+  ],
+  [
+   "Weber – Piano Sonata No.3",
+   "weber|t|3 sonata"
+  ],
+  [
+   "Weber – Piano Sonata No.4",
+   "weber|t|4 sonata"
+  ],
+  [
+   "Weber – Polacca brillante",
+   "weber|t|brillante polacca"
+  ],
+  [
+   "Weber – Prayer from Freischutz",
+   "weber|t|freischutz prayer"
+  ],
+  [
+   "Weber – Preciosa",
+   "weber|t|preciosa"
+  ],
+  [
+   "Weber – Romance",
+   "weber|t|romance"
+  ],
+  [
    "Weber – Rondo brillante",
    "weber|t|brillante rondo"
+  ],
+  [
+   "Weber – Rübezahl",
+   "weber|t|rubezahl"
+  ],
+  [
+   "Weber – Seymour",
+   "weber|t|seymour"
+  ],
+  [
+   "Weber – Silvana",
+   "weber|t|silvana"
+  ],
+  [
+   "Weber – Six Fughettes",
+   "weber|t|fughette six"
+  ],
+  [
+   "Weber – Six Petites pièces faciles",
+   "weber|t|facile petite piece six"
+  ],
+  [
+   "Weber – Six Pièces",
+   "weber|t|piece six"
+  ],
+  [
+   "Weber – Six Écossaises",
+   "weber|t|ecossaise six"
+  ],
+  [
+   "Weber – Softly now the light of day",
+   "weber|t|day light now softly"
+  ],
+  [
+   "Weber – Sonata for Piano no. 2 in A-flat major, Op. 39",
+   "weber|op39|"
+  ],
+  [
+   "Weber – Symphony No. 1",
+   "weber|t|1 symphony"
+  ],
+  [
+   "Weber – Symphony No. 2",
+   "weber|t|2 symphony"
+  ],
+  [
+   "Weber – Trio for Piano, Flute and Cello",
+   "weber|t|cello flute trio"
+  ],
+  [
+   "Weber – Variations on \"Schöne Minka\"",
+   "weber|t|minka schone variation"
+  ],
+  [
+   "Weber – Variations on a theme from the opera \"Silvana\", Opus 33",
+   "weber|op33|"
+  ],
+  [
+   "Weber – Variations sur chant tzigane",
+   "weber|t|chant sur tzigane variation"
+  ],
+  [
+   "Weber – Variations sur l'air « Vien quà Dorina bella »",
+   "weber|t|air bella dorina qua sur variation vien"
+  ],
+  [
+   "Weber – Variations sur un thème de « Castor et Pollux »",
+   "weber|t|castor pollux sur theme un variation"
+  ],
+  [
+   "Weber – Variations sur un thème de « Joseph »",
+   "weber|t|joseph sur theme un variation"
+  ],
+  [
+   "Weber – Variations sur un thème de « Samori »",
+   "weber|t|samori sur theme un variation"
+  ],
+  [
+   "Weber – Variations sur un thème original Op. 2",
+   "weber|op2|"
+  ],
+  [
+   "Weber – Variations sur un thème original Op. 9",
+   "weber|op9|"
+  ],
+  [
+   "Weber – Vyzvání k tanci",
+   "weber|t|tanci vyzvani"
+  ],
+  [
+   "Weber – WILMOT",
+   "weber|t|wilmot"
   ],
   [
    "Weckerlin – Mignonette",
@@ -103930,1402 +105282,6 @@
   [
    "d'Albret – Life preserver",
    "d'albret|t|life preserver"
-  ],
-  [
-   "de Boisdeffre – At the brook",
-   "de boisdeffre|t|at brook"
-  ],
-  [
-   "de Bériot – Andantino",
-   "de beriot|t|andantino"
-  ],
-  [
-   "de Coucy – Merci clamant",
-   "de coucy|t|clamant merci"
-  ],
-  [
-   "de Lisle – La Marseillaise",
-   "de lisle|t|marseillaise"
-  ],
-  [
-   "de Sarasate – Caprice Basque",
-   "de sarasate|t|basque caprice"
-  ],
-  [
-   "de Sarasate – Carmen Fantasy",
-   "de sarasate|t|carmen fantasy"
-  ],
-  [
-   "de Sarasate – Gipsy airs",
-   "de sarasate|t|airs gipsy"
-  ],
-  [
-   "de Sarasate – Gypsy airs",
-   "de sarasate|t|airs gypsy"
-  ],
-  [
-   "de Sarasate – Introduction et Tarantelle",
-   "de sarasate|t|introduction tarantelle"
-  ],
-  [
-   "de Sarasate – Spanish Dances",
-   "de sarasate|t|dance spanish"
-  ],
-  [
-   "de Sarasate – Zigeunerweisen",
-   "de sarasate|t|zigeunerweisen"
-  ],
-  [
-   "de Tejada – Perjura!",
-   "de tejada|t|perjura"
-  ],
-  [
-   "van Beethoven – 25 Irish Songs",
-   "van beethoven|t|25 irish song"
-  ],
-  [
-   "van Beethoven – 32 Variations in C minor",
-   "van beethoven|t|32 keycmin variation"
-  ],
-  [
-   "van Beethoven – 6 Variations on 'Ich denke dein', WoO 74",
-   "van beethoven|woo74|"
-  ],
-  [
-   "van Beethoven – Abendlied unterm gestirnten Himmel",
-   "van beethoven|t|abendlied gestirnten himmel unterm"
-  ],
-  [
-   "van Beethoven – Adelaide",
-   "van beethoven|t|adelaide"
-  ],
-  [
-   "van Beethoven – Ah! perfido",
-   "van beethoven|t|ah perfido"
-  ],
-  [
-   "van Beethoven – Allegretto for Piano Trio, WoO. 39",
-   "van beethoven|woo39|"
-  ],
-  [
-   "van Beethoven – An die ferne Geliebte",
-   "van beethoven|t|die ferne geliebte"
-  ],
-  [
-   "van Beethoven – Andante favori",
-   "van beethoven|t|andante favori"
-  ],
-  [
-   "van Beethoven – Anthem of Europe",
-   "van beethoven|t|anthem europe"
-  ],
-  [
-   "van Beethoven – Aus den Liedern verschiedener Völker",
-   "van beethoven|t|den liedern verschiedener volker"
-  ],
-  [
-   "van Beethoven – Bagatelle Op. 33, no. 1",
-   "van beethoven|op33|1"
-  ],
-  [
-   "van Beethoven – Bagatelle Op. 33, no. 2",
-   "van beethoven|op33|2"
-  ],
-  [
-   "van Beethoven – Bagatelle Op. 33, no. 3",
-   "van beethoven|op33|3"
-  ],
-  [
-   "van Beethoven – Bagatelle Op. 33, no. 4",
-   "van beethoven|op33|4"
-  ],
-  [
-   "van Beethoven – Bagatelle Op. 33, no. 5",
-   "van beethoven|op33|5"
-  ],
-  [
-   "van Beethoven – Bagatelle Op. 33, no. 6",
-   "van beethoven|op33|6"
-  ],
-  [
-   "van Beethoven – Bagatelle Op. 33, no. 7",
-   "van beethoven|op33|7"
-  ],
-  [
-   "van Beethoven – Bagatelle for piano in B-flat major",
-   "van beethoven|t|bagatelle keybflatmaj"
-  ],
-  [
-   "van Beethoven – Bagatelles, Op. 119",
-   "van beethoven|op119|"
-  ],
-  [
-   "van Beethoven – Bagatelles, Op. 126",
-   "van beethoven|op126|"
-  ],
-  [
-   "van Beethoven – Beethoven",
-   "van beethoven|t|beethoven"
-  ],
-  [
-   "van Beethoven – Beethoven Romance",
-   "van beethoven|t|beethoven romance"
-  ],
-  [
-   "van Beethoven – Beethoven in Havana",
-   "van beethoven|t|beethoven havana"
-  ],
-  [
-   "van Beethoven – Cantata on the Accession of Emperor Leopold II",
-   "van beethoven|t|accession cantata emperor ii leopold"
-  ],
-  [
-   "van Beethoven – Cantata on the Death of Emperor Joseph II",
-   "van beethoven|t|cantata death emperor ii joseph"
-  ],
-  [
-   "van Beethoven – Cello Sonata No. 1",
-   "van beethoven|t|1 cello sonata"
-  ],
-  [
-   "van Beethoven – Cello Sonata No. 2",
-   "van beethoven|t|2 cello sonata"
-  ],
-  [
-   "van Beethoven – Cello Sonata No. 3",
-   "van beethoven|t|3 cello sonata"
-  ],
-  [
-   "van Beethoven – Choral Fantasy",
-   "van beethoven|t|choral fantasy"
-  ],
-  [
-   "van Beethoven – Choral Fantasy in C Minor, Op. 80",
-   "van beethoven|op80|"
-  ],
-  [
-   "van Beethoven – Christ on the Mount of Olives",
-   "van beethoven|t|christ mount olive"
-  ],
-  [
-   "van Beethoven – Coriolan Overture",
-   "van beethoven|t|coriolan overture"
-  ],
-  [
-   "van Beethoven – Der glorreiche Augenblick, Op. 136",
-   "van beethoven|op136|"
-  ],
-  [
-   "van Beethoven – Diabelli Variations",
-   "van beethoven|t|diabelli variation"
-  ],
-  [
-   "van Beethoven – Egmont",
-   "van beethoven|t|egmont"
-  ],
-  [
-   "van Beethoven – Elegischer Gesang",
-   "van beethoven|t|elegischer gesang"
-  ],
-  [
-   "van Beethoven – Eroica Variations",
-   "van beethoven|t|eroica variation"
-  ],
-  [
-   "van Beethoven – Es ist vollbracht",
-   "van beethoven|t|es ist vollbracht"
-  ],
-  [
-   "van Beethoven – Eyeglass Duo",
-   "van beethoven|t|duo eyeglass"
-  ],
-  [
-   "van Beethoven – Fantasia in G minor",
-   "van beethoven|t|fantasia keygmin"
-  ],
-  [
-   "van Beethoven – Fidelio",
-   "van beethoven|t|fidelio"
-  ],
-  [
-   "van Beethoven – Finále-7. symfonie A dur",
-   "van beethoven|t|7 finale keyamaj symfonie"
-  ],
-  [
-   "van Beethoven – Flute Sonata in B-flat major",
-   "van beethoven|t|flute keybflatmaj sonata"
-  ],
-  [
-   "van Beethoven – Fugue for String Quintet, Op. 137",
-   "van beethoven|op137|"
-  ],
-  [
-   "van Beethoven – Für Elise, WoO 59",
-   "van beethoven|woo59|"
-  ],
-  [
-   "van Beethoven – GORTON (Beethoven)",
-   "van beethoven|t|beethoven gorton"
-  ],
-  [
-   "van Beethoven – Gegenliebe",
-   "van beethoven|t|gegenliebe"
-  ],
-  [
-   "van Beethoven – Germania",
-   "van beethoven|t|germania"
-  ],
-  [
-   "van Beethoven – Germany",
-   "van beethoven|t|germany"
-  ],
-  [
-   "van Beethoven – Gesänge, Op. 75. Kennst du das Land",
-   "van beethoven|op75|"
-  ],
-  [
-   "van Beethoven – Gesänge, Op. 83. Mit einem gemalten Band",
-   "van beethoven|op83|"
-  ],
-  [
-   "van Beethoven – Gods and Dogs",
-   "van beethoven|t|dogs gods"
-  ],
-  [
-   "van Beethoven – Große Fuge",
-   "van beethoven|t|fuge gro"
-  ],
-  [
-   "van Beethoven – Gustav Mahler's orchestration of Beethoven's Symphony No. 9",
-   "van beethoven|t|9 beethoven gustav mahler orchestration symphony"
-  ],
-  [
-   "van Beethoven – Horn Sonata",
-   "van beethoven|t|horn sonata"
-  ],
-  [
-   "van Beethoven – Hymn to Joy",
-   "van beethoven|t|hymn joy"
-  ],
-  [
-   "van Beethoven – Hymne an die Nacht",
-   "van beethoven|t|die hymne nacht"
-  ],
-  [
-   "van Beethoven – Ihr weisen Gründer glücklicher Staaten",
-   "van beethoven|t|glucklicher grunder ihr staaten weisen"
-  ],
-  [
-   "van Beethoven – Impressing the Czar",
-   "van beethoven|t|czar impressing"
-  ],
-  [
-   "van Beethoven – Joyful, Joyful We Adore Thee",
-   "van beethoven|t|adore joyful thee we"
-  ],
-  [
-   "van Beethoven – Kakadu Variations",
-   "van beethoven|t|kakadu variation"
-  ],
-  [
-   "van Beethoven – King Stephen",
-   "van beethoven|t|king stephen"
-  ],
-  [
-   "van Beethoven – L'île des pirates",
-   "van beethoven|t|ile pirate"
-  ],
-  [
-   "van Beethoven – Leonora III",
-   "van beethoven|t|iii leonora"
-  ],
-  [
-   "van Beethoven – Leonore",
-   "van beethoven|t|leonore"
-  ],
-  [
-   "van Beethoven – Leonore Overture No. 1",
-   "van beethoven|t|1 leonore overture"
-  ],
-  [
-   "van Beethoven – Leonore Overture No. 2",
-   "van beethoven|t|2 leonore overture"
-  ],
-  [
-   "van Beethoven – Leonore overture, no. 3",
-   "van beethoven|t|3 leonore overture"
-  ],
-  [
-   "van Beethoven – Marmotte",
-   "van beethoven|t|marmotte"
-  ],
-  [
-   "van Beethoven – Mass in C major",
-   "van beethoven|t|keycmaj mass"
-  ],
-  [
-   "van Beethoven – Meeresstille und glückliche Fahrt",
-   "van beethoven|t|fahrt gluckliche meeresstille und"
-  ],
-  [
-   "van Beethoven – Merkenstein",
-   "van beethoven|t|merkenstein"
-  ],
-  [
-   "van Beethoven – Minuet in G major, WoO 10, No. 2",
-   "van beethoven|woo10|2"
-  ],
-  [
-   "van Beethoven – Missa Solemnis",
-   "van beethoven|t|missa solemni"
-  ],
-  [
-   "van Beethoven – Musik zu einem Ritterballett, WoO 1",
-   "van beethoven|woo1|"
-  ],
-  [
-   "van Beethoven – Nine variations for piano on a march by Ernst Christoph Dressler, WoO 63",
-   "van beethoven|woo63|"
-  ],
-  [
-   "van Beethoven – O Heimat, dich zu lieben",
-   "van beethoven|t|dich heimat lieben zu"
-  ],
-  [
-   "van Beethoven – Octet in E-flat Major, Op. 103",
-   "van beethoven|op103|"
-  ],
-  [
-   "van Beethoven – Piano Concerto No. 0",
-   "van beethoven|t|0 concerto"
-  ],
-  [
-   "van Beethoven – Piano Concerto No. 1",
-   "van beethoven|t|1 concerto"
-  ],
-  [
-   "van Beethoven – Piano Concerto No. 2",
-   "van beethoven|t|2 concerto"
-  ],
-  [
-   "van Beethoven – Piano Concerto No. 3",
-   "van beethoven|t|3 concerto"
-  ],
-  [
-   "van Beethoven – Piano Concerto No. 4",
-   "van beethoven|t|4 concerto"
-  ],
-  [
-   "van Beethoven – Piano Concerto No. 5",
-   "van beethoven|t|5 concerto"
-  ],
-  [
-   "van Beethoven – Piano Concerto No. 6",
-   "van beethoven|t|6 concerto"
-  ],
-  [
-   "van Beethoven – Piano Sonata No. 1",
-   "van beethoven|t|1 sonata"
-  ],
-  [
-   "van Beethoven – Piano Sonata No. 10",
-   "van beethoven|t|10 sonata"
-  ],
-  [
-   "van Beethoven – Piano Sonata No. 11",
-   "van beethoven|t|11 sonata"
-  ],
-  [
-   "van Beethoven – Piano Sonata No. 12",
-   "van beethoven|t|12 sonata"
-  ],
-  [
-   "van Beethoven – Piano Sonata No. 13",
-   "van beethoven|t|13 sonata"
-  ],
-  [
-   "van Beethoven – Piano Sonata No. 14",
-   "van beethoven|t|14 sonata"
-  ],
-  [
-   "van Beethoven – Piano Sonata No. 15",
-   "van beethoven|t|15 sonata"
-  ],
-  [
-   "van Beethoven – Piano Sonata No. 16",
-   "van beethoven|t|16 sonata"
-  ],
-  [
-   "van Beethoven – Piano Sonata No. 17",
-   "van beethoven|t|17 sonata"
-  ],
-  [
-   "van Beethoven – Piano Sonata No. 18",
-   "van beethoven|t|18 sonata"
-  ],
-  [
-   "van Beethoven – Piano Sonata No. 19",
-   "van beethoven|t|19 sonata"
-  ],
-  [
-   "van Beethoven – Piano Sonata No. 2",
-   "van beethoven|t|2 sonata"
-  ],
-  [
-   "van Beethoven – Piano Sonata No. 20",
-   "van beethoven|t|20 sonata"
-  ],
-  [
-   "van Beethoven – Piano Sonata No. 21",
-   "van beethoven|t|21 sonata"
-  ],
-  [
-   "van Beethoven – Piano Sonata No. 22",
-   "van beethoven|t|22 sonata"
-  ],
-  [
-   "van Beethoven – Piano Sonata No. 23",
-   "van beethoven|t|23 sonata"
-  ],
-  [
-   "van Beethoven – Piano Sonata No. 24",
-   "van beethoven|t|24 sonata"
-  ],
-  [
-   "van Beethoven – Piano Sonata No. 25",
-   "van beethoven|t|25 sonata"
-  ],
-  [
-   "van Beethoven – Piano Sonata No. 26",
-   "van beethoven|t|26 sonata"
-  ],
-  [
-   "van Beethoven – Piano Sonata No. 27",
-   "van beethoven|t|27 sonata"
-  ],
-  [
-   "van Beethoven – Piano Sonata No. 28",
-   "van beethoven|t|28 sonata"
-  ],
-  [
-   "van Beethoven – Piano Sonata No. 29",
-   "van beethoven|t|29 sonata"
-  ],
-  [
-   "van Beethoven – Piano Sonata No. 3",
-   "van beethoven|t|3 sonata"
-  ],
-  [
-   "van Beethoven – Piano Sonata No. 30",
-   "van beethoven|t|30 sonata"
-  ],
-  [
-   "van Beethoven – Piano Sonata No. 31",
-   "van beethoven|t|31 sonata"
-  ],
-  [
-   "van Beethoven – Piano Sonata No. 32",
-   "van beethoven|t|32 sonata"
-  ],
-  [
-   "van Beethoven – Piano Sonata No. 4",
-   "van beethoven|t|4 sonata"
-  ],
-  [
-   "van Beethoven – Piano Sonata No. 5",
-   "van beethoven|t|5 sonata"
-  ],
-  [
-   "van Beethoven – Piano Sonata No. 6",
-   "van beethoven|t|6 sonata"
-  ],
-  [
-   "van Beethoven – Piano Sonata No. 7",
-   "van beethoven|t|7 sonata"
-  ],
-  [
-   "van Beethoven – Piano Sonata No. 8",
-   "van beethoven|t|8 sonata"
-  ],
-  [
-   "van Beethoven – Piano Sonata No. 9",
-   "van beethoven|t|9 sonata"
-  ],
-  [
-   "van Beethoven – Piano Sonata, WoO. 51",
-   "van beethoven|woo51|"
-  ],
-  [
-   "van Beethoven – Piano Trio No. 1 in E-flat major",
-   "van beethoven|t|1 keyeflatmaj trio"
-  ],
-  [
-   "van Beethoven – Piano Trio No. 2 in G major",
-   "van beethoven|t|2 keygmaj trio"
-  ],
-  [
-   "van Beethoven – Piano Trio No. 3 in C minor",
-   "van beethoven|t|3 keycmin trio"
-  ],
-  [
-   "van Beethoven – Piano Trio in B-flat Major, Op. 11",
-   "van beethoven|op11|"
-  ],
-  [
-   "van Beethoven – Piano Trio, Op. 38",
-   "van beethoven|op38|"
-  ],
-  [
-   "van Beethoven – Piano Trio, Op. 97",
-   "van beethoven|op97|"
-  ],
-  [
-   "van Beethoven – Piano Trio, WoO. 38",
-   "van beethoven|woo38|"
-  ],
-  [
-   "van Beethoven – Polonaise in C major",
-   "van beethoven|t|keycmaj polonaise"
-  ],
-  [
-   "van Beethoven – Prométheovi lidé aneb Moc hudb",
-   "van beethoven|t|aneb hudb lide moc prometheovi"
-  ],
-  [
-   "van Beethoven – Quartetto con maschera rossa (Il mito di Don Juan)",
-   "van beethoven|t|con di don il juan maschera mito quartetto rossa"
-  ],
-  [
-   "van Beethoven – Quintet for Piano and Winds",
-   "van beethoven|t|quintet wind"
-  ],
-  [
-   "van Beethoven – Quintettsatz in D minor",
-   "van beethoven|t|keydmin quintettsatz"
-  ],
-  [
-   "van Beethoven – Rage Over a Lost Penny",
-   "van beethoven|t|lost over penny rage"
-  ],
-  [
-   "van Beethoven – Rise, O Voices of Rhodesia",
-   "van beethoven|t|rhodesia rise voice"
-  ],
-  [
-   "van Beethoven – Rondo for piano and orchestra",
-   "van beethoven|t|orchestra rondo"
-  ],
-  [
-   "van Beethoven – Sehnsucht, WoO 134",
-   "van beethoven|woo134|"
-  ],
-  [
-   "van Beethoven – Septet",
-   "van beethoven|t|septet"
-  ],
-  [
-   "van Beethoven – Serenade for Violin, Viola and Cello",
-   "van beethoven|t|cello serenade viola violin"
-  ],
-  [
-   "van Beethoven – Serenade for flute, violin and viola",
-   "van beethoven|t|flute serenade viola violin"
-  ],
-  [
-   "van Beethoven – Sextet for Horns and String Quartet",
-   "van beethoven|t|horn quartet sextet string"
-  ],
-  [
-   "van Beethoven – Six variations on a Swiss song for piano or harp",
-   "van beethoven|t|harp or six song swiss variation"
-  ],
-  [
-   "van Beethoven – Sonate opus 6",
-   "van beethoven|op6|"
-  ],
-  [
-   "van Beethoven – Sonatina in Bes",
-   "van beethoven|t|bes sonatina"
-  ],
-  [
-   "van Beethoven – Sonatina in G major",
-   "van beethoven|t|keygmaj sonatina"
-  ],
-  [
-   "van Beethoven – Streichquartett F-Dur nach Sonate Op. 14,1",
-   "van beethoven|op14|"
-  ],
-  [
-   "van Beethoven – String Quartet No. 1",
-   "van beethoven|t|1 quartet string"
-  ],
-  [
-   "van Beethoven – String Quartet No. 10",
-   "van beethoven|t|10 quartet string"
-  ],
-  [
-   "van Beethoven – String Quartet No. 11",
-   "van beethoven|t|11 quartet string"
-  ],
-  [
-   "van Beethoven – String Quartet No. 12",
-   "van beethoven|t|12 quartet string"
-  ],
-  [
-   "van Beethoven – String Quartet No. 13",
-   "van beethoven|t|13 quartet string"
-  ],
-  [
-   "van Beethoven – String Quartet No. 14",
-   "van beethoven|t|14 quartet string"
-  ],
-  [
-   "van Beethoven – String Quartet No. 15",
-   "van beethoven|t|15 quartet string"
-  ],
-  [
-   "van Beethoven – String Quartet No. 16",
-   "van beethoven|t|16 quartet string"
-  ],
-  [
-   "van Beethoven – String Quartet No. 2",
-   "van beethoven|t|2 quartet string"
-  ],
-  [
-   "van Beethoven – String Quartet No. 3",
-   "van beethoven|t|3 quartet string"
-  ],
-  [
-   "van Beethoven – String Quartet No. 4",
-   "van beethoven|t|4 quartet string"
-  ],
-  [
-   "van Beethoven – String Quartet No. 5",
-   "van beethoven|t|5 quartet string"
-  ],
-  [
-   "van Beethoven – String Quartet No. 6",
-   "van beethoven|t|6 quartet string"
-  ],
-  [
-   "van Beethoven – String Quintet, Op. 104",
-   "van beethoven|op104|"
-  ],
-  [
-   "van Beethoven – String Quintet, Op. 29",
-   "van beethoven|op29|"
-  ],
-  [
-   "van Beethoven – String Quintet, Op. 4",
-   "van beethoven|op4|"
-  ],
-  [
-   "van Beethoven – String Trio, Op. 3",
-   "van beethoven|op3|"
-  ],
-  [
-   "van Beethoven – String Trios, Op. 9",
-   "van beethoven|op9|"
-  ],
-  [
-   "van Beethoven – Stvoření Prométheovo",
-   "van beethoven|t|prometheovo stvoreni"
-  ],
-  [
-   "van Beethoven – Symphony No. 1",
-   "van beethoven|t|1 symphony"
-  ],
-  [
-   "van Beethoven – Symphony No. 2",
-   "van beethoven|t|2 symphony"
-  ],
-  [
-   "van Beethoven – Symphony No. 3",
-   "van beethoven|t|3 symphony"
-  ],
-  [
-   "van Beethoven – Symphony No. 4",
-   "van beethoven|t|4 symphony"
-  ],
-  [
-   "van Beethoven – Symphony No. 5",
-   "van beethoven|t|5 symphony"
-  ],
-  [
-   "van Beethoven – Symphony No. 6",
-   "van beethoven|t|6 symphony"
-  ],
-  [
-   "van Beethoven – Symphony No. 7",
-   "van beethoven|t|7 symphony"
-  ],
-  [
-   "van Beethoven – Symphony No. 8",
-   "van beethoven|t|8 symphony"
-  ],
-  [
-   "van Beethoven – Symphony No. 9",
-   "van beethoven|t|9 symphony"
-  ],
-  [
-   "van Beethoven – Ten National Airs with Variations for Flute and Piano",
-   "van beethoven|t|airs flute national ten variation with"
-  ],
-  [
-   "van Beethoven – The Consecration of the House",
-   "van beethoven|t|consecration house"
-  ],
-  [
-   "van Beethoven – The Creatures of Prometheus",
-   "van beethoven|t|creature prometheu"
-  ],
-  [
-   "van Beethoven – The Ruins of Athens",
-   "van beethoven|t|athen ruin"
-  ],
-  [
-   "van Beethoven – Three Equali for Four Trombones, WoO 30",
-   "van beethoven|woo30|"
-  ],
-  [
-   "van Beethoven – Three Piano Sonatas, WoO 47",
-   "van beethoven|woo47|"
-  ],
-  [
-   "van Beethoven – Trio for Piano, Flute and Bassoon, WoO 37",
-   "van beethoven|woo37|"
-  ],
-  [
-   "van Beethoven – Triple Concerto",
-   "van beethoven|t|concerto triple"
-  ],
-  [
-   "van Beethoven – Turkish March",
-   "van beethoven|t|march turkish"
-  ],
-  [
-   "van Beethoven – Twenty-Five Scottish Songs",
-   "van beethoven|t|five scottish song twenty"
-  ],
-  [
-   "van Beethoven – Two Preludes Through all Major Keys",
-   "van beethoven|t|all keys prelude through two"
-  ],
-  [
-   "van Beethoven – Two rondos for piano",
-   "van beethoven|t|rondo two"
-  ],
-  [
-   "van Beethoven – VI. symfonie F-dur Pastorální",
-   "van beethoven|t|keyfmaj pastoralni symfonie vi"
-  ],
-  [
-   "van Beethoven – Variations on an original theme in E-flat major",
-   "van beethoven|t|keyeflatmaj original theme variation"
-  ],
-  [
-   "van Beethoven – Vestas Feuer",
-   "van beethoven|t|feuer vesta"
-  ],
-  [
-   "van Beethoven – Violin Concerto in C",
-   "van beethoven|t|concerto violin"
-  ],
-  [
-   "van Beethoven – Violin Concerto in D major, Op. 61",
-   "van beethoven|op61|"
-  ],
-  [
-   "van Beethoven – Violin Romance No. 1 (Beethoven)",
-   "van beethoven|t|1 beethoven romance violin"
-  ],
-  [
-   "van Beethoven – Violin Romance No. 2",
-   "van beethoven|t|2 romance violin"
-  ],
-  [
-   "van Beethoven – Violin Sonata No. 1",
-   "van beethoven|t|1 sonata violin"
-  ],
-  [
-   "van Beethoven – Violin Sonata No. 10",
-   "van beethoven|t|10 sonata violin"
-  ],
-  [
-   "van Beethoven – Violin Sonata No. 2",
-   "van beethoven|t|2 sonata violin"
-  ],
-  [
-   "van Beethoven – Violin Sonata No. 3",
-   "van beethoven|t|3 sonata violin"
-  ],
-  [
-   "van Beethoven – Violin Sonata No. 4",
-   "van beethoven|t|4 sonata violin"
-  ],
-  [
-   "van Beethoven – Violin Sonata No. 5",
-   "van beethoven|t|5 sonata violin"
-  ],
-  [
-   "van Beethoven – Violin Sonata No. 6",
-   "van beethoven|t|6 sonata violin"
-  ],
-  [
-   "van Beethoven – Violin Sonata No. 7",
-   "van beethoven|t|7 sonata violin"
-  ],
-  [
-   "van Beethoven – Violin Sonata No. 8",
-   "van beethoven|t|8 sonata violin"
-  ],
-  [
-   "van Beethoven – Violin Sonata No. 9",
-   "van beethoven|t|9 sonata violin"
-  ],
-  [
-   "van Beethoven – Visan om solen, månen och planeterna",
-   "van beethoven|t|manen och om planeterna solen visan"
-  ],
-  [
-   "van Beethoven – Wellington's Victory",
-   "van beethoven|t|victory wellington"
-  ],
-  [
-   "van Beethoven – Yorckscher Marsch",
-   "van beethoven|t|marsch yorckscher"
-  ],
-  [
-   "van Beethoven – Zur Namensfeier",
-   "van beethoven|t|namensfeier zur"
-  ],
-  [
-   "van Beethoven – Zärtliche Liebe",
-   "van beethoven|t|liebe zartliche"
-  ],
-  [
-   "van Beethoven – piano music of Beethoven",
-   "van beethoven|t|beethoven music"
-  ],
-  [
-   "van Beethoven – trois duos pour clarinette et basson",
-   "van beethoven|t|basson clarinette duos pour troi"
-  ],
-  [
-   "van Goens – Song without words",
-   "van goens|t|song without word"
-  ],
-  [
-   "von Flotow – A m'adorer tout vous convie",
-   "von flotow|t|adorer convie tout vous"
-  ],
-  [
-   "von Flotow – Ah, quelle conduite outrageaute",
-   "von flotow|t|ah conduite outrageaute quelle"
-  ],
-  [
-   "von Flotow – Alessandro Stradella",
-   "von flotow|t|alessandro stradella"
-  ],
-  [
-   "von Flotow – Bella reggia addio",
-   "von flotow|t|addio bella reggia"
-  ],
-  [
-   "von Flotow – Canzone del porter",
-   "von flotow|t|canzone del porter"
-  ],
-  [
-   "von Flotow – Che vuol dir cio",
-   "von flotow|t|che cio dir vuol"
-  ],
-  [
-   "von Flotow – Chi ridona alle mie gote",
-   "von flotow|t|alle chi gote mie ridona"
-  ],
-  [
-   "von Flotow – Devant tes charmes qu'il adore",
-   "von flotow|t|adore charme devant il qu tes"
-  ],
-  [
-   "von Flotow – Di quella fronte il bel sereno",
-   "von flotow|t|bel di fronte il quella sereno"
-  ],
-  [
-   "von Flotow – Good night quartet",
-   "von flotow|t|good night quartet"
-  ],
-  [
-   "von Flotow – Je n'ai qu'en ami dans la vie",
-   "von flotow|t|ai ami dans je qu vie"
-  ],
-  [
-   "von Flotow – Je n'aurais pas un seul galant",
-   "von flotow|t|aurai galant je pas seul un"
-  ],
-  [
-   "von Flotow – L'Ombre",
-   "von flotow|t|ombre"
-  ],
-  [
-   "von Flotow – L'anima in pena",
-   "von flotow|t|anima pena"
-  ],
-  [
-   "von Flotow – Lady Henriette",
-   "von flotow|t|henriette lady"
-  ],
-  [
-   "von Flotow – Like a dream",
-   "von flotow|t|dream like"
-  ],
-  [
-   "von Flotow – Lost, proscribed",
-   "von flotow|t|lost proscribed"
-  ],
-  [
-   "von Flotow – M'appari",
-   "von flotow|t|appari"
-  ],
-  [
-   "von Flotow – Ma chere enfant, le mariage",
-   "von flotow|t|chere enfant ma mariage"
-  ],
-  [
-   "von Flotow – Martha",
-   "von flotow|t|martha"
-  ],
-  [
-   "von Flotow – Naїda",
-   "von flotow|t|da na"
-  ],
-  [
-   "von Flotow – Par pitie, ne me chassez pas!",
-   "von flotow|t|chassez me ne par pas pitie"
-  ],
-  [
-   "von Flotow – Pauvre ange dont la triste vie",
-   "von flotow|t|ange dont pauvre triste vie"
-  ],
-  [
-   "von Flotow – Porter song",
-   "von flotow|t|porter song"
-  ],
-  [
-   "von Flotow – Que dit l'oiseau de Bengali",
-   "von flotow|t|bengali dit oiseau que"
-  ],
-  [
-   "von Flotow – Quelle souffrance!",
-   "von flotow|t|quelle souffrance"
-  ],
-  [
-   "von Flotow – Ridente asilo",
-   "von flotow|t|asilo ridente"
-  ],
-  [
-   "von Flotow – Solo, profugo",
-   "von flotow|t|profugo solo"
-  ],
-  [
-   "von Flotow – Sophie Catherine",
-   "von flotow|t|catherine sophie"
-  ],
-  [
-   "von Flotow – Stradella overture",
-   "von flotow|t|overture stradella"
-  ],
-  [
-   "von Flotow – Tentare io vo' l'impresa ardita",
-   "von flotow|t|ardita impresa io tentare vo"
-  ],
-  [
-   "von Flotow – Zilda",
-   "von flotow|t|zilda"
-  ],
-  [
-   "von Suppé – Banditenstreiche",
-   "von suppe|t|banditenstreiche"
-  ],
-  [
-   "von Suppé – Bellman",
-   "von suppe|t|bellman"
-  ],
-  [
-   "von Suppé – Boccaccio",
-   "von suppe|t|boccaccio"
-  ],
-  [
-   "von Suppé – Boccace",
-   "von suppe|t|boccace"
-  ],
-  [
-   "von Suppé – Das Pensionat",
-   "von suppe|t|das pensionat"
-  ],
-  [
-   "von Suppé – Der Gascogner",
-   "von suppe|t|der gascogner"
-  ],
-  [
-   "von Suppé – Der Teufel auf Erden",
-   "von suppe|t|auf der erden teufel"
-  ],
-  [
-   "von Suppé – Des Matrosen Heimkehr",
-   "von suppe|t|heimkehr matrosen"
-  ],
-  [
-   "von Suppé – Die Afrikareise",
-   "von suppe|t|afrikareise die"
-  ],
-  [
-   "von Suppé – Die Frau Meisterin",
-   "von suppe|t|die frau meisterin"
-  ],
-  [
-   "von Suppé – Die Jagd nach dem Glück",
-   "von suppe|t|dem die gluck jagd nach"
-  ],
-  [
-   "von Suppé – Die Kartenschlägerin",
-   "von suppe|t|die kartenschlagerin"
-  ],
-  [
-   "von Suppé – Die Leichte Kavallerie",
-   "von suppe|t|die kavallerie leichte"
-  ],
-  [
-   "von Suppé – Die schöne Galathee",
-   "von suppe|t|die galathee schone"
-  ],
-  [
-   "von Suppé – Donna Juanita",
-   "von suppe|t|donna juanita"
-  ],
-  [
-   "von Suppé – Fatinica",
-   "von suppe|t|fatinica"
-  ],
-  [
-   "von Suppé – Fatinitza",
-   "von suppe|t|fatinitza"
-  ],
-  [
-   "von Suppé – Flotte Bursche",
-   "von suppe|t|bursche flotte"
-  ],
-  [
-   "von Suppé – Franz Schubert",
-   "von suppe|t|franz schubert"
-  ],
-  [
-   "von Suppé – Freigeister",
-   "von suppe|t|freigeister"
-  ],
-  [
-   "von Suppé – Leichte Kavallerie",
-   "von suppe|t|kavallerie leichte"
-  ],
-  [
-   "von Suppé – Light cavalry overture",
-   "von suppe|t|cavalry light overture"
-  ],
-  [
-   "von Suppé – Lohengelb, oder Die Jungfrau von Dragant (Tragant)",
-   "von suppe|t|die dragant jungfrau lohengelb oder tragant von"
-  ],
-  [
-   "von Suppé – Missa Dalmatica",
-   "von suppe|t|dalmatica missa"
-  ],
-  [
-   "von Suppé – Morning, Noon and Night in Vienna",
-   "von suppe|t|morning night noon vienna"
-  ],
-  [
-   "von Suppé – Mozart",
-   "von suppe|t|mozart"
-  ],
-  [
-   "von Suppé – Pique Dame",
-   "von suppe|t|dame pique"
-  ],
-  [
-   "von Suppé – Poet and Peasant",
-   "von suppe|t|peasant poet"
-  ],
-  [
-   "von Suppé – Requiem in D minor",
-   "von suppe|t|keydmin requiem"
-  ],
-  [
-   "von Suppé – Rote Rosen",
-   "von suppe|t|rosen rote"
-  ],
-  [
-   "von Suppé – Serenata",
-   "von suppe|t|serenata"
-  ],
-  [
-   "von Suppé – Vojáci císařovny",
-   "von suppe|t|cisarovny vojaci"
-  ],
-  [
-   "von Suppé – Zehn Mädchen und kein Mann",
-   "von suppe|t|kein madchen mann und zehn"
-  ],
-  [
-   "von Weber – 6 sonates progressives",
-   "von weber|t|6 progressive sonate"
-  ],
-  [
-   "von Weber – Abu Hassan",
-   "von weber|t|abu hassan"
-  ],
-  [
-   "von Weber – Andante e rondo",
-   "von weber|t|andante rondo ungarese"
-  ],
-  [
-   "von Weber – Bassoon Concerto",
-   "von weber|t|bassoon concerto"
-  ],
-  [
-   "von Weber – Clarinet Concerto No. 1",
-   "von weber|t|1 clarinet concerto"
-  ],
-  [
-   "von Weber – Clarinet Concerto No. 2",
-   "von weber|t|2 clarinet concerto"
-  ],
-  [
-   "von Weber – Clarinet Quintet",
-   "von weber|t|clarinet quintet"
-  ],
-  [
-   "von Weber – Concertino for Clarinet",
-   "von weber|t|clarinet concertino"
-  ],
-  [
-   "von Weber – Concertino for Horn and Orchestra",
-   "von weber|t|concertino horn orchestra"
-  ],
-  [
-   "von Weber – Der Freischütz",
-   "von weber|t|der freischutz"
-  ],
-  [
-   "von Weber – Die Macht der Liebe und des Weins",
-   "von weber|t|der die liebe macht und wein"
-  ],
-  [
-   "von Weber – Die Temperamente beim Verluste der Geliebten",
-   "von weber|t|beim der die geliebten temperamente verluste"
-  ],
-  [
-   "von Weber – Die drei Pintos",
-   "von weber|t|die drei pinto"
-  ],
-  [
-   "von Weber – Douze Danses allemandes",
-   "von weber|t|allemande danse douze"
-  ],
-  [
-   "von Weber – Euriante",
-   "von weber|t|euriante"
-  ],
-  [
-   "von Weber – Euryanthe",
-   "von weber|t|euryanthe"
-  ],
-  [
-   "von Weber – Grand Duo Concertant",
-   "von weber|t|concertant duo grand"
-  ],
-  [
-   "von Weber – Grande Polonaise",
-   "von weber|t|grande polonaise"
-  ],
-  [
-   "von Weber – Huit Pièces",
-   "von weber|t|huit piece"
-  ],
-  [
-   "von Weber – Invitation to the Dance",
-   "von weber|t|dance invitation"
-  ],
-  [
-   "von Weber – JEWETT (Weber)",
-   "von weber|t|jewett weber"
-  ],
-  [
-   "von Weber – Jubel Ouverture",
-   "von weber|t|jubel ouverture"
-  ],
-  [
-   "von Weber – Konzertstück in F minor",
-   "von weber|t|keyfmin konzertstuck"
-  ],
-  [
-   "von Weber – Le Spectre de la Rose",
-   "von weber|t|rose spectre"
-  ],
-  [
-   "von Weber – Leise, leise, fromme Weise",
-   "von weber|t|fromme leise weise"
-  ],
-  [
-   "von Weber – Missa sancta, no. 1",
-   "von weber|t|1 missa sancta"
-  ],
-  [
-   "von Weber – Momento capriccioso in B-flat major, Op. 12",
-   "von weber|op12|"
-  ],
-  [
-   "von Weber – Oberon",
-   "von weber|t|oberon"
-  ],
-  [
-   "von Weber – Peter Schmoll und seine Nachbarn",
-   "von weber|t|nachbarn peter schmoll seine und"
-  ],
-  [
-   "von Weber – Piano Concerto No. 1",
-   "von weber|t|1 concerto"
-  ],
-  [
-   "von Weber – Piano Concerto No. 2",
-   "von weber|t|2 concerto"
-  ],
-  [
-   "von Weber – Piano Quartet in B-flat major, J.76",
-   "von weber|t|76 keybflatmaj quartet"
-  ],
-  [
-   "von Weber – Piano Sonata No.1",
-   "von weber|t|1 sonata"
-  ],
-  [
-   "von Weber – Piano Sonata No.3",
-   "von weber|t|3 sonata"
-  ],
-  [
-   "von Weber – Piano Sonata No.4",
-   "von weber|t|4 sonata"
-  ],
-  [
-   "von Weber – Polacca brillante",
-   "von weber|t|brillante polacca"
-  ],
-  [
-   "von Weber – Prayer from Freischutz",
-   "von weber|t|freischutz prayer"
-  ],
-  [
-   "von Weber – Preciosa",
-   "von weber|t|preciosa"
-  ],
-  [
-   "von Weber – Romance",
-   "von weber|t|romance"
-  ],
-  [
-   "von Weber – Rondo brillante",
-   "von weber|t|brillante rondo"
-  ],
-  [
-   "von Weber – Rübezahl",
-   "von weber|t|rubezahl"
-  ],
-  [
-   "von Weber – Seymour",
-   "von weber|t|seymour"
-  ],
-  [
-   "von Weber – Silvana",
-   "von weber|t|silvana"
-  ],
-  [
-   "von Weber – Six Fughettes",
-   "von weber|t|fughette six"
-  ],
-  [
-   "von Weber – Six Petites pièces faciles",
-   "von weber|t|facile petite piece six"
-  ],
-  [
-   "von Weber – Six Pièces",
-   "von weber|t|piece six"
-  ],
-  [
-   "von Weber – Six Écossaises",
-   "von weber|t|ecossaise six"
-  ],
-  [
-   "von Weber – Softly now the light of day",
-   "von weber|t|day light now softly"
-  ],
-  [
-   "von Weber – Sonata for Piano no. 2 in A-flat major, Op. 39",
-   "von weber|op39|"
-  ],
-  [
-   "von Weber – Symphony No. 1",
-   "von weber|t|1 symphony"
-  ],
-  [
-   "von Weber – Symphony No. 2",
-   "von weber|t|2 symphony"
-  ],
-  [
-   "von Weber – Trio for Piano, Flute and Cello",
-   "von weber|t|cello flute trio"
-  ],
-  [
-   "von Weber – Variations on \"Schöne Minka\"",
-   "von weber|t|minka schone variation"
-  ],
-  [
-   "von Weber – Variations on a theme from the opera \"Silvana\", Opus 33",
-   "von weber|op33|"
-  ],
-  [
-   "von Weber – Variations sur chant tzigane",
-   "von weber|t|chant sur tzigane variation"
-  ],
-  [
-   "von Weber – Variations sur l'air « Vien quà Dorina bella »",
-   "von weber|t|air bella dorina qua sur variation vien"
-  ],
-  [
-   "von Weber – Variations sur un thème de « Castor et Pollux »",
-   "von weber|t|castor pollux sur theme un variation"
-  ],
-  [
-   "von Weber – Variations sur un thème de « Joseph »",
-   "von weber|t|joseph sur theme un variation"
-  ],
-  [
-   "von Weber – Variations sur un thème de « Samori »",
-   "von weber|t|samori sur theme un variation"
-  ],
-  [
-   "von Weber – Variations sur un thème original Op. 2",
-   "von weber|op2|"
-  ],
-  [
-   "von Weber – Variations sur un thème original Op. 9",
-   "von weber|op9|"
-  ],
-  [
-   "von Weber – Vyzvání k tanci",
-   "von weber|t|tanci vyzvani"
-  ],
-  [
-   "von Weber – WILMOT (Weber)",
-   "von weber|t|weber wilmot"
   ]
  ],
  "pieceAliases": [
@@ -105336,6 +105292,46 @@
   [
    "Bayly – Long, Long Ago",
    "bayly|t|ago long"
+  ],
+  [
+   "Beethoven – Leonore Overture No. 3",
+   "beethoven|t|3 leonore overture"
+  ],
+  [
+   "Beethoven – Piano Sonata No. 14",
+   "beethoven|t|14 sonata"
+  ],
+  [
+   "Beethoven – Piano Sonata No. 18",
+   "beethoven|t|18 sonata"
+  ],
+  [
+   "Beethoven – Piano Sonata No. 21",
+   "beethoven|t|21 sonata"
+  ],
+  [
+   "Beethoven – Piano Sonata No. 23",
+   "beethoven|t|23 sonata"
+  ],
+  [
+   "Beethoven – Piano Sonata No. 28",
+   "beethoven|t|28 sonata"
+  ],
+  [
+   "Beethoven – Piano Sonata No. 32",
+   "beethoven|t|32 sonata"
+  ],
+  [
+   "Beethoven – Piano Sonata No. 8",
+   "beethoven|t|8 sonata"
+  ],
+  [
+   "Beethoven – Symphony No. 2",
+   "beethoven|t|2 symphony"
+  ],
+  [
+   "Beethoven – Symphony No. 3",
+   "beethoven|t|3 symphony"
   ],
   [
    "Berlioz – La damnation de Faust",
@@ -105830,20 +105826,16 @@
    "wagner|t|die meistersinger nurnberg von"
   ],
   [
+   "Weber – Andante e Rondo ungarese",
+   "weber|t|andante rondo ungarese"
+  ],
+  [
    "Whiteman – Wonderful One",
    "whiteman|t|one wonderful"
   ],
   [
    "Youmans – No, No, Nanette",
    "youmans|t|nanette"
-  ],
-  [
-   "van Beethoven – Leonore Overture No. 3",
-   "van beethoven|t|3 leonore overture"
-  ],
-  [
-   "von Weber – Andante e Rondo ungarese",
-   "von weber|t|andante rondo ungarese"
   ]
  ]
 }

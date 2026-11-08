@@ -5,7 +5,7 @@ on:
     branches: [main]
     paths: [tools/fetch_loc.py, .github/workflows/fetch-sources.yml]
   schedule:
-    - cron: "17 9 3 * *"   # monthly, 3rd day, 09:17 UTC
+    - cron: "17 9 28 * *"   # monthly, 28th, 09:17 UTC (before the 1st-of-month check)
 permissions:
   contents: write
 concurrency:

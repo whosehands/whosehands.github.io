@@ -2,7 +2,7 @@ name: Rebuild catalog
 on:
   workflow_dispatch:
   schedule:
-    - cron: "41 10 5 * *"   # monthly, 5th day, after the source downloads
+    - cron: "41 12 28 * *"   # monthly, 28th, after the source downloads
 permissions:
   contents: write
 concurrency:
