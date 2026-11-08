@@ -1,0 +1,16 @@
+name: Probe LoC dataset files
+on: workflow_dispatch
+permissions:
+  contents: read
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          for u in https://data.labs.loc.gov/jukebox/ \
+                   https://data.labs.loc.gov/jukebox/metadata.csv https://data.labs.loc.gov/jukebox/metadata.jsonl https://data.labs.loc.gov/jukebox/metadata.json \
+                   https://data.labs.loc.gov/jukebox/data/metadata.csv https://data.labs.loc.gov/jukebox/data/metadata.jsonl \
+                   https://data.labs.loc.gov/jukebox/sample.zip https://data.labs.loc.gov/jukebox/data.zip https://data.labs.loc.gov/jukebox/manifest.txt \
+                   "https://data.labs.loc.gov/?prefix=jukebox/" "https://s3.amazonaws.com/data.labs.loc.gov/?prefix=jukebox/&delimiter=/"; do
+            code=$(curl -s -o /tmp/out -w "%{http_code} %{size_download} %{content_type}" -A "WhoseHands-bot" "$u"); echo "$code  $u"; head -c 600 /tmp/out | tr '\n' ' '; echo; echo ----
+          done
