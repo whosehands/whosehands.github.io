@@ -43,6 +43,10 @@ Q = """SELECT ?w ?wLabel ?cat ?catLabel ?formLabel ?genreLabel ?partOf ?date ?al
   OPTIONAL { ?w skos:altLabel ?alt . FILTER(LANG(?alt) = "en") }
   SERVICE wikibase:label { bd:serviceParam wikibase:language "en,fr,de,it,ru,pl,cs,hu,es,nl,sv,nb,fi". }
 } LIMIT 20000"""
+def sitelinks(qid):
+    q = {"action": "wbgetentities", "ids": qid, "props": "sitelinks", "format": "json"}
+    d = get("https://www.wikidata.org/w/api.php?" + urllib.parse.urlencode(q)) or {}
+    return len(((d.get("entities") or {}).get(qid) or {}).get("sitelinks") or {})
 composers = json.load(open("data/composers.json", encoding="utf-8"))
 out = {}
 for c in composers:
@@ -61,9 +65,18 @@ for c in composers:
         if "partOf" in b: w["partOf"].add(b["partOf"]["value"].rsplit("/", 1)[-1])
         if "date" in b and not w["date"]: w["date"] = b["date"]["value"][:4]
         if "alt" in b and len(w["alt"]) < 6: w["alt"].add(b["alt"]["value"])
-    out[c["name"]] = {"qid": qid, "label": hit.get("label"), "description": hit.get("description"),
+    out[c["name"]] = {"qid": qid, "label": hit.get("label"), "description": hit.get("description"), "sitelinks": sitelinks(qid),
                       "works": [{k: (sorted(v) if isinstance(v, set) else v) for k, v in w.items()} for w in works.values()]}
     print(c["name"], "->", qid, hit.get("label"), "|", len(works), "works", flush=True)
     time.sleep(2)
 json.dump(out, open("sources/wikidata-works.json", "w", encoding="utf-8"), ensure_ascii=False)
+
+# performers: who they are and how well known
+people = {}
+for p in json.load(open("data/performers.json", encoding="utf-8")):
+    hit = find_composer(p["name"], p.get("dates", ""))
+    if not hit: people[p["name"]] = None; print("no match:", p["name"], flush=True); time.sleep(1); continue
+    people[p["name"]] = {"qid": hit["id"], "label": hit.get("label"), "description": hit.get("description"), "sitelinks": sitelinks(hit["id"])}
+    print(p["name"], "->", hit["id"], people[p["name"]]["sitelinks"], flush=True); time.sleep(1)
+json.dump(people, open("sources/wikidata-people.json", "w", encoding="utf-8"), ensure_ascii=False)
 print("done")

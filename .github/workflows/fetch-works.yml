@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: [tools/fetch_wikidata.py, data/composers.json, .github/workflows/fetch-works.yml]
+    paths: [tools/fetch_wikidata.py, data/composers.json, data/performers.json, .github/workflows/fetch-works.yml]
 permissions:
   contents: write
 concurrency:
@@ -20,7 +20,7 @@ jobs:
         run: |
           git config user.name "whose-hands-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add sources/wikidata-works.json
+          git add sources/wikidata-works.json sources/wikidata-people.json
           git commit -m "Update composer works from Wikidata" || echo "nothing to commit"
           git pull --rebase origin main
           git push
