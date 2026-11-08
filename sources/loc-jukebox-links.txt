@@ -1,0 +1,7 @@
+href="/cdn-cgi/l/email-protection"
+href="https://ask.loc.gov/recorded-sound"
+href="https://www.loc.gov/apis/json-and-yaml/"
+href="https://www.loc.gov/collections/national-jukebox/"
+href="https://www.loc.gov/collections/national-jukebox/?fa=partof_repository:recorded+sound+section,+library+of+congress|location:united+states&fo=json&at=results&dates=1900/1922"
+href="https://www.loc.gov/rr/record/"
+href="https://www.openstreetmap.org/"
