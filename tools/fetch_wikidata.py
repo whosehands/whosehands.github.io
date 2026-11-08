@@ -48,13 +48,16 @@ def sitelinks(qid):
     q = {"action": "wbgetentities", "ids": qid, "props": "sitelinks", "format": "json"}
     d = get("https://www.wikidata.org/w/api.php?" + urllib.parse.urlencode(q)) or {}
     return len(((d.get("entities") or {}).get(qid) or {}).get("sitelinks") or {})
+QL = """SELECT ?w (GROUP_CONCAT(DISTINCT ?l; separator="|") AS ?names) WHERE {
+  ?w wdt:P86 wd:%s . ?w rdfs:label ?l . FILTER(LANG(?l) IN ("en","de","fr","it","pl","ru","cs","hu","es","nl","nb","sv"))
+} GROUP BY ?w"""
 composers = json.load(open("data/composers.json", encoding="utf-8"))
 def load(path):
     try: return json.load(open(path, encoding="utf-8"))
     except Exception: return {}
 out = load("sources/wikidata-works.json")          # reuse earlier lookups; only new names are fetched
 for c in composers:
-    if c["name"] in out and (out[c["name"]] is None or "sitelinks" in out[c["name"]]): continue
+    if c["name"] in out and (out[c["name"]] is None or out[c["name"]].get("v") == 2): continue
     hit = find_composer(c["name"], c.get("dates", ""))
     if not hit:
         print("no match:", c["name"], flush=True); out[c["name"]] = None; time.sleep(1); continue
@@ -69,8 +72,11 @@ for c in composers:
         if "genreLabel" in b: w["genres"].add(b["genreLabel"]["value"])
         if "partOf" in b: w["partOf"].add(b["partOf"]["value"].rsplit("/", 1)[-1])
         if "date" in b and not w["date"]: w["date"] = b["date"]["value"][:4]
-        if "alt" in b and len(w["alt"]) < 6: w["alt"].add(b["alt"]["value"])
-    out[c["name"]] = {"qid": qid, "label": hit.get("label"), "description": hit.get("description"), "sitelinks": sitelinks(qid),
+        if "alt" in b and len(w["alt"]) < 8: w["alt"].add(b["alt"]["value"])
+    for b in sparql(QL % qid):   # the work's title in other languages, to match catalog titles like "Studien nach Capricen von Paganini"
+        wid = b["w"]["value"].rsplit("/", 1)[-1]
+        if wid in works: works[wid]["alt"] |= set(b.get("names", {}).get("value", "").split("|")) - {""}
+    out[c["name"]] = {"v": 2, "qid": qid, "label": hit.get("label"), "description": hit.get("description"), "sitelinks": sitelinks(qid),
                       "works": [{k: (sorted(v) if isinstance(v, set) else v) for k, v in w.items()} for w in works.values()]}
     print(c["name"], "->", qid, hit.get("label"), "|", len(works), "works", flush=True)
     time.sleep(0.5)
