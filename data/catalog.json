@@ -2076,7 +2076,7 @@
    },
    "composer": "Franz Liszt",
    "composerDates": "1811-1886",
-   "piece": "Liszt – Mignons Lied",
+   "piece": "Liszt – Mignon's song",
    "work": "Liszt – Mignons Lied",
    "part": "",
    "arranged": false,
@@ -2092,7 +2092,7 @@
    "source": "https://purl.stanford.edu/ch401rm7382",
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
-   "pieceKey": "liszt|t|lied mignon",
+   "pieceKey": "liszt|t|mignon song",
    "movement": "",
    "genre": "Piano music",
    "composerFame": "famous",
@@ -2156,7 +2156,7 @@
    "source": "https://purl.stanford.edu/cm852bp8620",
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
-   "pieceKey": "schubert|t|fantasy wanderer",
+   "pieceKey": "schubert|t|fantasie keycmaj",
    "movement": "selections",
    "genre": "Piano music",
    "composerFame": "famous",
@@ -2556,7 +2556,7 @@
    },
    "composer": "Johannes Brahms",
    "composerDates": "1833-1897",
-   "piece": "Brahms – Hungarian Dance No. 1",
+   "piece": "Brahms – Hungarian Dances",
    "work": "Brahms – Hungarian Dance No. 1",
    "part": "",
    "arranged": false,
@@ -2572,8 +2572,8 @@
    "source": "https://purl.stanford.edu/dc661yr7679",
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
-   "pieceKey": "brahms|t|1 dance hungarian",
-   "movement": "",
+   "pieceKey": "brahms|t|dance hungarian",
+   "movement": "No. 1",
    "genre": "Piano music",
    "composerFame": "famous",
    "performerFame": "famous"
@@ -2684,7 +2684,7 @@
    },
    "composer": "Ludwig van Beethoven",
    "composerDates": "1770-1827",
-   "piece": "Beethoven – Fidelio (1806)",
+   "piece": "Beethoven – Fidelio",
    "work": "Beethoven – Fidelio (1806)",
    "part": "Ouverture",
    "arranged": true,
@@ -2700,9 +2700,9 @@
    "source": "https://purl.stanford.edu/dp801zr4347",
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
-   "pieceKey": "beethoven|t|1806 fidelio",
+   "pieceKey": "beethoven|t|fidelio",
    "movement": "Ouverture",
-   "genre": "Orchestral",
+   "genre": "Opera & stage",
    "composerFame": "famous",
    "performerFame": "obscure"
   },
@@ -2908,7 +2908,7 @@
    },
    "composer": "Anton Rubinstein",
    "composerDates": "1829-1894",
-   "piece": "Rubinstein – Kamennoi-ostrow, No 22",
+   "piece": "Rubinstein – Kamennoi-ostrow",
    "work": "Rubinstein – Kamennoi-ostrow, No 22",
    "part": "Rêve angélique",
    "arranged": false,
@@ -2924,7 +2924,7 @@
    "source": "https://purl.stanford.edu/dt352gh2011",
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
-   "pieceKey": "rubinstein|t|22 kamennoi ostrow",
+   "pieceKey": "rubinstein|t|kamennoi ostrow",
    "movement": "Rêve angélique",
    "genre": "Piano music",
    "composerFame": "known",
@@ -4136,7 +4136,7 @@
    },
    "composer": "Franz Liszt",
    "composerDates": "1811-1886",
-   "piece": "Liszt – Liebesträume, Nr. 3",
+   "piece": "Liszt – Liebesträume",
    "work": "Liszt – Liebesträume, Nr. 3",
    "part": "",
    "arranged": false,
@@ -4152,8 +4152,8 @@
    "source": "https://purl.stanford.edu/gg920pz0818",
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
-   "pieceKey": "liszt|t|3 liebestraume",
-   "movement": "",
+   "pieceKey": "liszt|t|liebestraume",
+   "movement": "No. 3",
    "genre": "Piano music",
    "composerFame": "famous",
    "performerFame": "famous"
@@ -4328,7 +4328,7 @@
    },
    "composer": "Franz Schubert",
    "composerDates": "1797-1828",
-   "piece": "Schubert – Marche militaire No. 3",
+   "piece": "Schubert – Three Marches Militaires",
    "work": "Schubert – Marche militaire No. 3",
    "part": "",
    "arranged": true,
@@ -4344,8 +4344,8 @@
    "source": "https://purl.stanford.edu/gq401ng9171",
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
-   "pieceKey": "schubert|t|3 marche militaire",
-   "movement": "",
+   "pieceKey": "schubert|t|marche militaire three",
+   "movement": "No. 3",
    "genre": "Piano music",
    "composerFame": "famous",
    "performerFame": "famous"
@@ -5003,7 +5003,7 @@
    },
    "composer": "Leo Fall",
    "composerDates": "1873-1925",
-   "piece": "Fall – Fidele Bauer",
+   "piece": "Fall – The Merry Farmer",
    "work": "Fall – Fidele Bauer",
    "part": "",
    "arranged": true,
@@ -5019,9 +5019,9 @@
    "source": "https://purl.stanford.edu/hj604wr7502",
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
-   "pieceKey": "fall|t|bauer fidele",
+   "pieceKey": "fall|t|farmer merry",
    "movement": "",
-   "genre": "Piano music",
+   "genre": "Opera & stage",
    "composerFame": "known",
    "performerFame": "obscure"
   },
@@ -5905,7 +5905,7 @@
    },
    "composer": "Robert Schumann",
    "composerDates": "1810-1856",
-   "piece": "Schumann – Thème sur le nom Abegg varié",
+   "piece": "Schumann – Variations on the Name \"Abegg\"",
    "work": "Schumann – Thème sur le nom Abegg varié",
    "part": "",
    "arranged": false,
@@ -5921,7 +5921,7 @@
    "source": "https://purl.stanford.edu/jk211zx0169",
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
-   "pieceKey": "schumann|t|abegg nom sur theme varie",
+   "pieceKey": "schumann|t|abegg name variation",
    "movement": "",
    "genre": "Piano music",
    "composerFame": "famous",
@@ -6097,7 +6097,7 @@
    },
    "composer": "Franz Schubert",
    "composerDates": "1797-1828",
-   "piece": "Schubert – Marche militaire No. 3",
+   "piece": "Schubert – Three Marches Militaires",
    "work": "Schubert – Marche militaire No. 3",
    "part": "",
    "arranged": true,
@@ -6113,8 +6113,8 @@
    "source": "https://purl.stanford.edu/jq774vx6544",
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
-   "pieceKey": "schubert|t|3 marche militaire",
-   "movement": "",
+   "pieceKey": "schubert|t|marche militaire three",
+   "movement": "No. 3",
    "genre": "Piano music",
    "composerFame": "famous",
    "performerFame": "famous"
@@ -6129,7 +6129,7 @@
    },
    "composer": "Oscar Straus",
    "composerDates": "1870-1954",
-   "piece": "Straus – Tapfere Soldat",
+   "piece": "Straus – The Chocolate Soldier",
    "work": "Straus – Tapfere Soldat",
    "part": "",
    "arranged": false,
@@ -6145,9 +6145,9 @@
    "source": "https://purl.stanford.edu/jt308hp0877",
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
-   "pieceKey": "straus|t|soldat tapfere",
+   "pieceKey": "straus|t|chocolate soldier",
    "movement": "",
-   "genre": "Piano music",
+   "genre": "Opera & stage",
    "composerFame": "known",
    "performerFame": "obscure"
   },
@@ -6341,7 +6341,7 @@
    "source": "https://purl.stanford.edu/kf903tz5142",
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
-   "pieceKey": "schubert|t|fantasy wanderer",
+   "pieceKey": "schubert|t|fantasie keycmaj",
    "movement": "selections",
    "genre": "Piano music",
    "composerFame": "famous",
@@ -6814,7 +6814,7 @@
    },
    "composer": "Franz Liszt",
    "composerDates": "1811-1886",
-   "piece": "Liszt – Grandes études de Paganini, No 3",
+   "piece": "Liszt – Grandes études de Paganini, S. 141",
    "work": "Liszt – Grandes études de Paganini, No 3",
    "part": "Campanella",
    "arranged": false,
@@ -6830,8 +6830,11 @@
    "source": "https://purl.stanford.edu/kv550vj8954",
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
-   "pieceKey": "liszt|t|3 etude grande paganini",
+   "pieceKey": "liszt|s141|",
    "movement": "Campanella",
+   "acceptKeys": [
+    "liszt|t|campanella"
+   ],
    "genre": "Piano music",
    "composerFame": "famous",
    "performerFame": "famous"
@@ -7102,7 +7105,7 @@
    },
    "composer": "Franz Liszt",
    "composerDates": "1811-1886",
-   "piece": "Liszt – Liebesträume, Nr. 3",
+   "piece": "Liszt – Liebesträume",
    "work": "Liszt – Liebesträume, Nr. 3",
    "part": "",
    "arranged": false,
@@ -7118,8 +7121,8 @@
    "source": "https://purl.stanford.edu/kz379jn2491",
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
-   "pieceKey": "liszt|t|3 liebestraume",
-   "movement": "",
+   "pieceKey": "liszt|t|liebestraume",
+   "movement": "No. 3",
    "genre": "Piano music",
    "composerFame": "famous",
    "performerFame": "famous"
@@ -7214,7 +7217,7 @@
    "source": "https://purl.stanford.edu/md331fy4209",
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
-   "pieceKey": "schubert|d839|",
+   "pieceKey": "schubert|t|ellen gesang",
    "movement": "",
    "genre": "Piano music",
    "composerFame": "famous",
@@ -7358,7 +7361,7 @@
    },
    "composer": "Franz Liszt",
    "composerDates": "1811-1886",
-   "piece": "Liszt – Grandes études de Paganini, No 2",
+   "piece": "Liszt – Grandes études de Paganini, S. 141",
    "work": "Liszt – Grandes études de Paganini, No 2",
    "part": "",
    "arranged": false,
@@ -7374,8 +7377,11 @@
    "source": "https://purl.stanford.edu/mh120sr5901",
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
-   "pieceKey": "liszt|t|2 etude grande paganini",
+   "pieceKey": "liszt|s141|",
    "movement": "",
+   "acceptKeys": [
+    "liszt|t|campanella"
+   ],
    "genre": "Piano music",
    "composerFame": "famous",
    "performerFame": "famous"
@@ -7422,7 +7428,7 @@
    },
    "composer": "Edvard Grieg",
    "composerDates": "1843-1907",
-   "piece": "Grieg – Folkelivsbilleder",
+   "piece": "Grieg – Scenes of Country Life",
    "work": "Grieg – Folkelivsbilleder",
    "part": "Brudefølget drager forbi",
    "arranged": false,
@@ -7438,7 +7444,7 @@
    "source": "https://purl.stanford.edu/mh255vw4599",
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
-   "pieceKey": "grieg|t|folkelivsbilleder",
+   "pieceKey": "grieg|t|country life scene",
    "movement": "Brudefølget drager forbi",
    "genre": "Piano music",
    "composerFame": "famous",
@@ -7827,7 +7833,7 @@
    },
    "composer": "Franz Liszt",
    "composerDates": "1811-1886",
-   "piece": "Liszt – Liebesträume, Nr. 3",
+   "piece": "Liszt – Liebesträume",
    "work": "Liszt – Liebesträume, Nr. 3",
    "part": "",
    "arranged": false,
@@ -7843,8 +7849,8 @@
    "source": "https://purl.stanford.edu/ng103jj1150",
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
-   "pieceKey": "liszt|t|3 liebestraume",
-   "movement": "",
+   "pieceKey": "liszt|t|liebestraume",
+   "movement": "No. 3",
    "genre": "Piano music",
    "composerFame": "famous",
    "performerFame": "famous"
@@ -8115,7 +8121,7 @@
    },
    "composer": "Johann Strauss",
    "composerDates": "1825-1899",
-   "piece": "Strauss – Intermezzo aus \"Tausend und eine Nacht\"",
+   "piece": "Strauss – Tausend und eine Nacht",
    "work": "Strauss – Tausend und eine Nacht (Waltz)",
    "part": "",
    "arranged": true,
@@ -8131,7 +8137,7 @@
    "source": "https://purl.stanford.edu/nv508pk0096",
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
-   "pieceKey": "strauss|t|eine intermezzo nacht tausend und",
+   "pieceKey": "strauss|t|eine nacht tausend und",
    "movement": "",
    "genre": "Piano music",
    "composerFame": "famous",
@@ -8710,7 +8716,7 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "rachmaninoff|t|prelude",
-   "movement": "",
+   "movement": "No. 4",
    "acceptKeys": [
     "rachmaninoff|t|keyaflatmaj prelude",
     "rachmaninoff|t|keybflatmaj prelude",
@@ -8833,7 +8839,7 @@
    },
    "composer": "Robert Schumann",
    "composerDates": "1810-1856",
-   "piece": "Schumann – Studien nach Capricen von Paganini, 2",
+   "piece": "Schumann – Études After Paganini Caprices",
    "work": "Schumann – Studien nach Capricen von Paganini, 2",
    "part": "",
    "arranged": false,
@@ -8849,8 +8855,8 @@
    "source": "https://purl.stanford.edu/ps931qh5746",
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
-   "pieceKey": "schumann|t|2 capricen nach paganini studien von",
-   "movement": "",
+   "pieceKey": "schumann|t|after caprice etude paganini",
+   "movement": "No. 2",
    "genre": "Piano music",
    "composerFame": "famous",
    "performerFame": "famous"
@@ -9485,7 +9491,7 @@
    },
    "composer": "Oscar Straus",
    "composerDates": "1870-1954",
-   "piece": "Straus – Tapfere Soldat",
+   "piece": "Straus – The Chocolate Soldier",
    "work": "Straus – Tapfere Soldat",
    "part": "selections",
    "arranged": true,
@@ -9501,9 +9507,9 @@
    "source": "https://purl.stanford.edu/qp421cd7297",
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
-   "pieceKey": "straus|t|soldat tapfere",
+   "pieceKey": "straus|t|chocolate soldier",
    "movement": "selections",
-   "genre": "Piano music",
+   "genre": "Opera & stage",
    "composerFame": "known",
    "performerFame": "obscure"
   },
@@ -10253,7 +10259,7 @@
    },
    "composer": "Franz Liszt",
    "composerDates": "1811-1886",
-   "piece": "Liszt – Liebesträume, Nr. 1",
+   "piece": "Liszt – Liebesträume",
    "work": "Liszt – Liebesträume, Nr. 1",
    "part": "",
    "arranged": false,
@@ -10269,8 +10275,8 @@
    "source": "https://purl.stanford.edu/rq927dq9061",
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
-   "pieceKey": "liszt|t|1 liebestraume",
-   "movement": "",
+   "pieceKey": "liszt|t|liebestraume",
+   "movement": "No. 1",
    "genre": "Piano music",
    "composerFame": "famous",
    "performerFame": "famous"
@@ -10573,7 +10579,7 @@
    },
    "composer": "Franz Liszt",
    "composerDates": "1811-1886",
-   "piece": "Liszt – Légendes",
+   "piece": "Liszt – Deux légendes, S. 175",
    "work": "Liszt – Légendes",
    "part": "St. François de Paule marchant sur les flots",
    "arranged": false,
@@ -10589,7 +10595,7 @@
    "source": "https://purl.stanford.edu/ry948sf9078",
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
-   "pieceKey": "liszt|t|legende",
+   "pieceKey": "liszt|s175|",
    "movement": "St. François de Paule marchant sur les flots",
    "genre": "Piano music",
    "composerFame": "famous",
@@ -11357,7 +11363,7 @@
    "source": "https://purl.stanford.edu/sx417qf9868",
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
-   "pieceKey": "schubert|d839|",
+   "pieceKey": "schubert|t|ellen gesang",
    "movement": "",
    "genre": "Piano music",
    "composerFame": "famous",
@@ -11789,7 +11795,7 @@
    },
    "composer": "Ludwig van Beethoven",
    "composerDates": "1770-1827",
-   "piece": "Beethoven – Rondo à capriccio",
+   "piece": "Beethoven – Rage Over a Lost Penny",
    "work": "Beethoven – Rondo à capriccio",
    "part": "",
    "arranged": false,
@@ -11805,7 +11811,7 @@
    "source": "https://purl.stanford.edu/tt435dd2897",
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
-   "pieceKey": "beethoven|t|capriccio rondo",
+   "pieceKey": "beethoven|t|lost over penny rage",
    "movement": "",
    "genre": "Piano music",
    "composerFame": "famous",
@@ -12367,7 +12373,7 @@
    },
    "composer": "Franz Liszt",
    "composerDates": "1811-1886",
-   "piece": "Liszt – Liebesträume, Nr. 2",
+   "piece": "Liszt – Liebesträume",
    "work": "Liszt – Liebesträume, Nr. 2",
    "part": "",
    "arranged": false,
@@ -12383,8 +12389,8 @@
    "source": "https://purl.stanford.edu/vs059bb4318",
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
-   "pieceKey": "liszt|t|2 liebestraume",
-   "movement": "",
+   "pieceKey": "liszt|t|liebestraume",
+   "movement": "No. 2",
    "genre": "Piano music",
    "composerFame": "famous",
    "performerFame": "obscure"
@@ -12463,7 +12469,7 @@
    },
    "composer": "Robert Schumann",
    "composerDates": "1810-1856",
-   "piece": "Schumann – Studien nach Capricen von Paganini, 2",
+   "piece": "Schumann – Études After Paganini Caprices",
    "work": "Schumann – Studien nach Capricen von Paganini, 2",
    "part": "",
    "arranged": false,
@@ -12479,8 +12485,8 @@
    "source": "https://purl.stanford.edu/vw531zy4220",
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
-   "pieceKey": "schumann|t|2 capricen nach paganini studien von",
-   "movement": "",
+   "pieceKey": "schumann|t|after caprice etude paganini",
+   "movement": "No. 2",
    "genre": "Piano music",
    "composerFame": "famous",
    "performerFame": "famous"
@@ -12815,7 +12821,7 @@
    },
    "composer": "Franz Lehár",
    "composerDates": "1870-1948",
-   "piece": "Lehár – Lustige Witwe",
+   "piece": "Lehár – The Merry Widow",
    "work": "Lehár – Lustige Witwe",
    "part": "",
    "arranged": true,
@@ -12831,7 +12837,7 @@
    "source": "https://purl.stanford.edu/wj488tq5861",
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
-   "pieceKey": "lehar|t|lustige witwe",
+   "pieceKey": "lehar|t|merry widow",
    "movement": "",
    "genre": "Opera & stage",
    "composerFame": "known",
@@ -14143,7 +14149,7 @@
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
    "pieceKey": "rachmaninoff|t|prelude",
-   "movement": "",
+   "movement": "No. 5",
    "acceptKeys": [
     "rachmaninoff|t|keyaflatmaj prelude",
     "rachmaninoff|t|keybflatmaj prelude",
@@ -20665,7 +20671,7 @@
    "composer": "Antonín Dvořák",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Dvořák – Humoresque",
+   "piece": "Dvořák – Humoresques, Op. 101",
    "work": "Dvořák – Humoresque",
    "part": "",
    "title": "Humoresque",
@@ -20683,7 +20689,7 @@
    "genreHint": "Piano music",
    "artSong": false,
    "famous": false,
-   "pieceKey": "dvorak|t|humoresque",
+   "pieceKey": "dvorak|op101|",
    "movement": "",
    "genre": "Piano music",
    "composerFame": "famous",
@@ -32934,7 +32940,7 @@
    "composer": "Gioacchino Rossini",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Rossini – La calunnia",
+   "piece": "Rossini – Calumny is a little breeze",
    "work": "Rossini – La calunnia",
    "part": "",
    "title": "La calunnia",
@@ -32952,7 +32958,7 @@
    "genreHint": "Opera & stage",
    "artSong": false,
    "famous": false,
-   "pieceKey": "rossini|t|calunnia",
+   "pieceKey": "rossini|t|breeze calumny is little",
    "movement": "",
    "genre": "Opera & stage",
    "composerFame": "famous",
@@ -56608,10 +56614,6 @@
    "beethoven|t|fidelio"
   ],
   [
-   "Beethoven – Fidelio (1806)",
-   "beethoven|t|1806 fidelio"
-  ],
-  [
    "Beethoven – Finále-7. symfonie A dur",
    "beethoven|t|7 finale keyamaj symfonie"
   ],
@@ -56982,10 +56984,6 @@
   [
    "Beethoven – Rondo for piano and orchestra",
    "beethoven|t|orchestra rondo"
-  ],
-  [
-   "Beethoven – Rondo à capriccio",
-   "beethoven|t|capriccio rondo"
   ],
   [
    "Beethoven – Rondo, Op. 51 No. 1",
@@ -57682,14 +57680,6 @@
   [
    "Berlin – Music Box Revue",
    "berlin|t|box music revue"
-  ],
-  [
-   "Berlin – Music box revue (1923)",
-   "berlin|t|1923 box music revue"
-  ],
-  [
-   "Berlin – Music box revue (1924)",
-   "berlin|t|1924 box music revue"
   ],
   [
    "Berlin – My Defenses Are Down",
@@ -58774,10 +58764,6 @@
   [
    "Brahms – Horn Trio",
    "brahms|t|horn trio"
-  ],
-  [
-   "Brahms – Hungarian Dance No. 1",
-   "brahms|t|1 dance hungarian"
   ],
   [
    "Brahms – Hungarian Dances",
@@ -61652,6 +61638,10 @@
    "debussy|t|damoiselle elue"
   ],
   [
+   "Debussy – La Fille aux cheveux de lin",
+   "debussy|t|aux cheveux fille lin"
+  ],
+  [
    "Debussy – La Puerta del Vino",
    "debussy|t|del puerta vino"
   ],
@@ -61676,10 +61666,6 @@
    "debussy|t|danse puck"
   ],
   [
-   "Debussy – La fille aux cheveux de lin",
-   "debussy|t|aux cheveux fille lin"
-  ],
-  [
    "Debussy – La mer",
    "debussy|t|mer"
   ],
@@ -61702,10 +61688,6 @@
   [
    "Debussy – Le Lilas",
    "debussy|t|lila"
-  ],
-  [
-   "Debussy – Le Printemps",
-   "debussy|t|printemp"
   ],
   [
    "Debussy – Le Promenoir des deux amants",
@@ -61884,6 +61866,10 @@
    "debussy|t|princess princessesjeux"
   ],
   [
+   "Debussy – Printemps",
+   "debussy|t|printemp"
+  ],
+  [
    "Debussy – Proses lyriques",
    "debussy|t|lyrique prose"
   ],
@@ -61940,7 +61926,7 @@
    "debussy|t|reverie"
   ],
   [
-   "Debussy – Sarabande et Danse",
+   "Debussy – Sarabande and Danse",
    "debussy|t|danse sarabande"
   ],
   [
@@ -63084,8 +63070,8 @@
    "dvorak|t|baby dusky go my sleep"
   ],
   [
-   "Dvořák – Humoresque",
-   "dvorak|t|humoresque"
+   "Dvořák – Humoresques, Op. 101",
+   "dvorak|op101|"
   ],
   [
    "Dvořák – Humoresques, Op. 101, No. 7",
@@ -64046,10 +64032,6 @@
   [
    "Fall – Die geschiedene Frau",
    "fall|t|die frau geschiedene"
-  ],
-  [
-   "Fall – Fidele Bauer",
-   "fall|t|bauer fidele"
   ],
   [
    "Fall – Madame Pompadour",
@@ -66470,10 +66452,6 @@
   [
    "Grieg – Fire dikt fra Fiskerjenten",
    "grieg|t|dikt fire fiskerjenten fra"
-  ],
-  [
-   "Grieg – Folkelivsbilleder",
-   "grieg|t|folkelivsbilleder"
   ],
   [
    "Grieg – Funeral March in Memory of Rikard Nordraak",
@@ -70428,10 +70406,6 @@
    "lehar|t|danza delle libellule"
   ],
   [
-   "Lehár – Lustige Witwe",
-   "lehar|t|lustige witwe"
-  ],
-  [
    "Lehár – Mitislaw der Moderne",
    "lehar|t|der mitislaw moderne"
   ],
@@ -70928,14 +70902,6 @@
    "liszt|t|etude grande perfectionnement"
   ],
   [
-   "Liszt – Grandes études de Paganini, No 2",
-   "liszt|t|2 etude grande paganini"
-  ],
-  [
-   "Liszt – Grandes études de Paganini, No 3",
-   "liszt|t|3 etude grande paganini"
-  ],
-  [
    "Liszt – Grandes études de Paganini, S. 141",
    "liszt|s141|"
   ],
@@ -71100,18 +71066,6 @@
    "liszt|t|liebestraume"
   ],
   [
-   "Liszt – Liebesträume, Nr. 1",
-   "liszt|t|1 liebestraume"
-  ],
-  [
-   "Liszt – Liebesträume, Nr. 2",
-   "liszt|t|2 liebestraume"
-  ],
-  [
-   "Liszt – Liebesträume, Nr. 3",
-   "liszt|t|3 liebestraume"
-  ],
-  [
    "Liszt – Lieder, Kl, R 243. Gretchen am Spinnrade",
    "liszt|r243|"
   ],
@@ -71122,10 +71076,6 @@
   [
    "Liszt – Loreley, piano (1861)",
    "liszt|t|1861 loreley"
-  ],
-  [
-   "Liszt – Légendes",
-   "liszt|t|legende"
   ],
   [
    "Liszt – Malédiction, S. 121",
@@ -71150,10 +71100,6 @@
   [
    "Liszt – Mignon's song",
    "liszt|t|mignon song"
-  ],
-  [
-   "Liszt – Mignons Lied",
-   "liszt|t|lied mignon"
   ],
   [
    "Liszt – Missa choralis",
@@ -77876,10 +77822,6 @@
    "rossini|t|danza"
   ],
   [
-   "Rossini – La calunnia",
-   "rossini|t|calunnia"
-  ],
-  [
    "Rossini – La cambiale di matrimonio",
    "rossini|t|cambiale di matrimonio"
   ],
@@ -78134,10 +78076,6 @@
   [
    "Rubinstein – Kamennoi-ostrow",
    "rubinstein|t|kamennoi ostrow"
-  ],
-  [
-   "Rubinstein – Kamennoi-ostrow, No 22",
-   "rubinstein|t|22 kamennoi ostrow"
   ],
   [
    "Rubinstein – L'infelice",
@@ -78956,12 +78894,8 @@
    "schubert|t|einsamkeit"
   ],
   [
-   "Schubert – Ellen's Gesang n°I",
-   "schubert|t|ellen gesang"
-  ],
-  [
    "Schubert – Ellens Gesang, D. 839",
-   "schubert|d839|"
+   "schubert|t|ellen gesang"
   ],
   [
    "Schubert – Ellens dritter Gesang",
@@ -78980,12 +78914,8 @@
    "schubert|t|fantasia keyfmin"
   ],
   [
-   "Schubert – Fantasie in C major",
-   "schubert|t|fantasie keycmaj"
-  ],
-  [
    "Schubert – Fantasy in C major, D. 760",
-   "schubert|t|fantasy wanderer"
+   "schubert|t|fantasie keycmaj"
   ],
   [
    "Schubert – Fantasy in G major",
@@ -79166,10 +79096,6 @@
   [
    "Schubert – Majestätsche Sonnenrosse",
    "schubert|t|majestatsche sonnenrosse"
-  ],
-  [
-   "Schubert – Marche militaire No. 3",
-   "schubert|t|3 marche militaire"
   ],
   [
    "Schubert – Mass No. 1",
@@ -79624,6 +79550,10 @@
    "schubert|d489|"
   ],
   [
+   "Schubert – Wanderer Fantasy",
+   "schubert|t|fantasy wanderer"
+  ],
+  [
    "Schubert – Wandrers Nachtlied II",
    "schubert|t|ii nachtlied wandrer"
   ],
@@ -80016,10 +79946,6 @@
    "schumann|op41|3"
   ],
   [
-   "Schumann – Studien nach Capricen von Paganini, 2",
-   "schumann|t|2 capricen nach paganini studien von"
-  ],
-  [
    "Schumann – Symphonic Studies",
    "schumann|t|studie symphonic"
   ],
@@ -80058,10 +79984,6 @@
   [
    "Schumann – Three Romances for Oboe and Piano",
    "schumann|t|oboe romance three"
-  ],
-  [
-   "Schumann – Thème sur le nom Abegg varié",
-   "schumann|t|abegg nom sur theme varie"
   ],
   [
    "Schumann – Toccata, Op. 7, C major",
@@ -81848,10 +81770,6 @@
    "straus|t|die liebe rund um"
   ],
   [
-   "Straus – Tapfere Soldat",
-   "straus|t|soldat tapfere"
-  ],
-  [
    "Straus – The Chocolate Soldier",
    "straus|t|chocolate soldier"
   ],
@@ -83100,10 +83018,6 @@
    "strauss|t|intermezzo"
   ],
   [
-   "Strauss – Intermezzo aus \"Tausend und eine Nacht\"",
-   "strauss|t|eine intermezzo nacht tausend und"
-  ],
-  [
    "Strauss – Invitation a la Polka-Mazur",
    "strauss|t|invitation mazur polka"
   ],
@@ -84246,6 +84160,10 @@
   [
    "Strauss – Taubenpost-Polka",
    "strauss|t|polka taubenpost"
+  ],
+  [
+   "Strauss – Tausend und eine Nacht",
+   "strauss|t|eine nacht tausend und"
   ],
   [
    "Strauss – Telegrafische Depeschen",
@@ -85564,7 +85482,7 @@
    "tchaikovsky|t|labuti ze zivota"
   ],
   [
-   "Tchaikovsky – Песнь Земфиры",
+   "Tchaikovsky – Эрос",
    "tchaikovsky|t|"
   ],
   [
@@ -87558,6 +87476,10 @@
    "bayly|t|ago long"
   ],
   [
+   "Beethoven – Fidelio (1806)",
+   "beethoven|t|fidelio"
+  ],
+  [
    "Beethoven – Leonore overture, no. 3",
    "beethoven|t|3 leonore overture"
   ],
@@ -87588,6 +87510,10 @@
   [
    "Beethoven – Piano Sonata No. 8",
    "beethoven|t|8 sonata"
+  ],
+  [
+   "Beethoven – Rondo à capriccio",
+   "beethoven|t|lost over penny rage"
   ],
   [
    "Beethoven – Symphony No. 2",
@@ -87826,8 +87752,8 @@
    "di capua|t|mio sole"
   ],
   [
-   "Dvořák – Humoresques, Op. 101",
-   "dvorak|t|humoresque"
+   "Dvořák – Humoresque",
+   "dvorak|op101|"
   ],
   [
    "Edwards – By the light of the silv'ry moon",
@@ -87836,6 +87762,10 @@
   [
    "Elgar – Salut d'amour",
    "elgar|t|amour salut"
+  ],
+  [
+   "Fall – Fidele Bauer",
+   "fall|t|farmer merry"
   ],
   [
    "Fearis – Beautiful Isle of Somewhere",
@@ -87880,6 +87810,10 @@
   [
    "Gounod – Roméo et Juliette",
    "gounod|t|juliete romeo"
+  ],
+  [
+   "Grieg – Folkelivsbilleder",
+   "grieg|t|country life scene"
   ],
   [
    "Grieg – Lyric Pieces",
@@ -87930,10 +87864,6 @@
    "lehar|t|der graf luxemburg von"
   ],
   [
-   "Lehár – Merry widow waltz",
-   "lehar|t|merry widow"
-  ],
-  [
    "Liszt – Ballade No. 2 in B minor",
    "liszt|t|2 ballade"
   ],
@@ -87944,6 +87874,14 @@
   [
    "Liszt – Loreley (1861)",
    "liszt|t|1861 loreley"
+  ],
+  [
+   "Liszt – Légendes",
+   "liszt|s175|"
+  ],
+  [
+   "Liszt – Mignons Lied",
+   "liszt|t|mignon song"
   ],
   [
    "Liszt – Piano Concerto No. 1 in E♭ major",
@@ -88082,8 +88020,16 @@
    "rosas|t|las olas sobre"
   ],
   [
+   "Rossini – La calunnia",
+   "rossini|t|breeze calumny is little"
+  ],
+  [
    "Rossini – William Tell overture",
    "rossini|t|overture tell william"
+  ],
+  [
+   "Rubinstein – Kamennoi-ostrow, No 22",
+   "rubinstein|t|kamennoi ostrow"
   ],
   [
    "Saint-Saëns – Mon coeur s'ouvre a ta voix",
@@ -88106,16 +88052,16 @@
    "schubert|t|bist die ruh"
   ],
   [
-   "Schubert – Marche militaire",
-   "schubert|t|marche militaire three"
+   "Schubert – Ellen's Gesang n°I",
+   "schubert|t|ellen gesang"
+  ],
+  [
+   "Schubert – Fantasie in C major",
+   "schubert|t|fantasie keycmaj"
   ],
   [
    "Schubert – Musical moments",
    "schubert|t|moment musicaux six"
-  ],
-  [
-   "Schubert – Wanderer Fantasy",
-   "schubert|t|fantasy wanderer"
   ],
   [
    "Schumann – Albumblätter",
@@ -88136,6 +88082,14 @@
   [
    "Schumann – Piano Sonata No. 2",
    "schumann|t|2 sonata"
+  ],
+  [
+   "Schumann – Studien nach Capricen von Paganini, 2",
+   "schumann|t|after caprice etude paganini"
+  ],
+  [
+   "Schumann – Thème sur le nom Abegg varié",
+   "schumann|t|abegg name variation"
   ],
   [
    "Schumann – Toccata",
@@ -88170,6 +88124,10 @@
    "sinding|op32|"
   ],
   [
+   "Straus – Tapfere Soldat",
+   "straus|t|chocolate soldier"
+  ],
+  [
    "Strauss – Artist's life waltz",
    "strauss|t|kunstlerleben"
   ],
@@ -88182,6 +88140,10 @@
    "strauss|trv156|"
   ],
   [
+   "Strauss – Intermezzo aus \"Tausend und eine Nacht\"",
+   "strauss|t|eine nacht tausend und"
+  ],
+  [
    "Strauss – Man lebt nur einmal",
    "strauss|t|einmal lebt man nur"
   ],
@@ -88190,12 +88152,8 @@
    "strauss|t|standchen"
   ],
   [
-   "Strauss – Tausend und eine Nacht",
-   "strauss|t|eine intermezzo nacht tausend und"
-  ],
-  [
    "Strauss – Tausend und eine Nacht (Waltz)",
-   "strauss|t|eine intermezzo nacht tausend und"
+   "strauss|t|eine nacht tausend und"
   ],
   [
    "Strauss – Wiener Blut (Waltz)",

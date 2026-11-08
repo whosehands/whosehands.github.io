@@ -187,11 +187,18 @@ for r in cat["recordings"]:
             for nm in names_of.get(ok, [plain_of.get(ok, on.split(" – ", 1)[1])]):
                 ow = title_words(nm, sn)
                 odig = {w for w in ow if w.isdigit()}
-                if not tw or not ow or (tdig and odig and tdig != odig) or (tdig and not odig): continue
+                if not tw or not ow or (tdig and odig and tdig != odig): continue
                 if any(x in ow and x not in tw for x in INSTR): continue
+                if tdig and not odig:   # a numbered piece inside an unnumbered set: only on a near-exact title match, and below any exact numbered match
+                    t2 = {w for w in tw if not w.isdigit()}
+                    if sim(t2, ow) >= 0.9 and sim(ow, t2) >= 0.9: j = max(j, 0.9 * sim(t2, ow))
+                    continue
                 j = max(j, sim(tw, ow))
             if j >= 0.6 and (best is None or j > best[0]): best = (j, ok, on)
-        if best: k, name = best[1], best[2]
+        if best:
+            k, name = best[1], best[2]
+            dn = re.search(r"(?:,\s*|\bNo\.?\s*|\bNr\.?\s*)(\d+)\s*$", base)
+            if dn and not re.search(r"\d", name.split(" – ", 1)[1]) and not mov: mov = "No. " + dn.group(1)
     if not name:
         name = f"{sn} – {base if 'work' in r else pretty_uniform(base)}"
         options.setdefault(k, name); unmatched.append(name); r["_unmatched"] = True
