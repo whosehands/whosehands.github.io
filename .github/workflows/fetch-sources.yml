@@ -13,7 +13,7 @@ jobs:
       - name: Download source listings
         run: |
           mkdir -p sources
-          curl -sSL -A "WhoseHands-bot (github.com/concord-mass)" https://data.labs.loc.gov/jukebox/README.html -o sources/loc-jukebox-README.html || true
+          curl -sSL -A "WhoseHands-bot (github.com/whosehands)" https://data.labs.loc.gov/jukebox/README.html -o sources/loc-jukebox-README.html || true
           grep -o 'href="[^"]*"' sources/loc-jukebox-README.html | sort -u > sources/loc-jukebox-links.txt || true
           for f in $(grep -oE 'href="[^"]*metadata\.(csv|jsonl)"' sources/loc-jukebox-README.html | sed 's/href="//;s/"$//' | sort -u); do
             case "$f" in http*) u="$f";; *) u="https://data.labs.loc.gov/jukebox/$f";; esac
@@ -27,4 +27,5 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
           git add sources
           git commit -m "Update source listings" || echo "nothing to commit"
+          git pull --rebase origin main
           git push

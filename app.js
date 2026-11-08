@@ -6,7 +6,7 @@
   "use strict";
   const SNIPS = [2, 4, 7, 11, 16, 24];          // clip length after 0..5 misses
   const MAX_MISSES = SNIPS.length;
-  const REPO = "concord-mass/concord-mass.github.io";
+  const REPO = "whosehands/whosehands.github.io";
   const YEAR_MIN = 1900, YEAR_MAX = 1930;
   const DECOYS = ["Sergei Rachmaninoff", "Leopold Godowsky", "Moriz Rosenthal", "Alfred Cortot", "Ignaz Friedman", "Percy Grainger",
     "Harold Bauer", "Ossip Gabrilowitsch", "Franz Liszt", "Claude Debussy", "Edvard Grieg", "Gustav Mahler", "Alexander Scriabin",
@@ -365,7 +365,7 @@
 
   function shareText() {
     const rows = S.guesses.map(g => (g.miss ? "⬛" : "🟩")).join("");
-    return `Whose Hands No. ${DAY + 1} · ${total()}/10\n${P.kind === "record" ? "Performers" : "Pianist"} ${allNames() ? "✅" : "❌"}  Piece ${S.pieceAt ? "✅" : S.composerAt ? "🟨" : "❌"}  Year ${yearPts() === 2 ? "✅" : yearPts() === 1 ? "🟨" : "❌"}\n${rows}\nhttps://concord-mass.github.io`;
+    return `Whose Hands No. ${DAY + 1} · ${total()}/10\n${P.kind === "record" ? "Performers" : "Pianist"} ${allNames() ? "✅" : "❌"}  Piece ${S.pieceAt ? "✅" : S.composerAt ? "🟨" : "❌"}  Year ${yearPts() === 2 ? "✅" : yearPts() === 1 ? "🟨" : "❌"}\n${rows}\nhttps://whosehands.github.io`;
   }
   function resultHTML() {
     if (S.year == null) return `<section class="panel result"><h2>Last step: lock in your year above to see the answer.</h2></section>`;

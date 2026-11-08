@@ -2,7 +2,7 @@
 
 A daily guessing game. Every day you hear a piano roll recorded by a pianist between 1905 and 1925, and you guess the pianist, the piece and the year.
 
-Play it at https://concord-mass.github.io
+Play it at https://whosehands.github.io
 
 ## Where the music comes from
 
@@ -16,4 +16,4 @@ This is a free, non-commercial fan project.
 
 `data/catalog.json` lists every roll with its pianist, piece, recording year and source. The `schedule` array sets which roll plays on which day, starting from `epoch`. New recordings are added to the end of `recordings` and `schedule`, so past days never change.
 
-Found a wrong answer? [Open an issue](https://github.com/concord-mass/concord-mass.github.io/issues/new).
+Found a wrong answer? [Open an issue](https://github.com/whosehands/whosehands.github.io/issues/new).

@@ -2,7 +2,7 @@
 Runs on GitHub Actions. Writes sources/loc-jukebox.jsonl, one recording per line."""
 import json, time, urllib.request, urllib.parse, sys
 BASE = "https://www.loc.gov/collections/national-jukebox/"
-UA = {"User-Agent": "WhoseHands-bot (github.com/concord-mass/concord-mass.github.io)"}
+UA = {"User-Agent": "WhoseHands-bot (github.com/whosehands/whosehands.github.io)"}
 WAITS = [60, 120, 300, 600, 900, 1200]   # loc.gov blocks fast clients for up to an hour
 def get(url):
     for i, w in enumerate(WAITS):
