@@ -90,6 +90,7 @@ options = {}            # key -> display name
 plain_of = {}           # key -> label without added catalog number
 key_of_item = {}        # wikidata id -> option key
 kind_of_key = {}        # option key -> forms and genres text, for the genre filter
+children_items = []     # (composer surname, label of an aria/movement, wikidata id of its parent work)
 parents_of_key = collections.defaultdict(set)
 work_by_key = {}
 for comp, info in wd.items():
@@ -103,9 +104,11 @@ for comp, info in wd.items():
         if "group of" in forms or "collection" in forms or "series" in forms:
             key_of_item.setdefault(w["id"], key_for(comp, w["label"], sn)); continue
         parents = [works[p] for p in w["partOf"] if p in works]
-        if "movement" in forms or "act" == forms.strip(): continue
-        if parents and not any(SET_PARENT.search(p["label"]) or "group" in " ".join(p["forms"]).lower() for p in parents):
-            continue                                  # a movement or aria of a bigger work: the bigger work is the answer
+        if ("movement" in forms or "act" == forms.strip() or
+                (parents and not any(SET_PARENT.search(p["label"]) or "group" in " ".join(p["forms"]).lower() for p in parents))):
+            for p in parents:                          # a movement or aria of a bigger work: the bigger work is the answer
+                children_items.append((sn, w["label"], p["id"]))
+            continue
         label = re.sub(r"\s*\((?:%s|[^)]*%s[^)]*)\)" % (re.escape(sn), re.escape(sn)), "", w["label"]).strip()
         label = re.sub(r"\bnr\.?\s*", "No. ", label, flags=re.I); label = re.sub(r"\bop\.\s*", "Op. ", label, flags=re.I)
         plain = label
@@ -145,6 +148,17 @@ for r in cat["recordings"]:
     k = key_for(r["composer"], base, sn)
     k = alias.get(k, k)
     name = options.get(k)
+    if not name and r.get("kind") == "record":
+        tw = title_words(base, sn); best = None
+        for csn, lab, pid in children_items:
+            if csn != sn or pid not in key_of_item: continue
+            ow = title_words(lab, sn)
+            if not ow or not tw: continue
+            j = len(tw & ow) / len(tw | ow)
+            if j >= 0.75 and (best is None or j > best[0]): best = (j, pid)
+        if best:
+            pk = alias.get(key_of_item[best[1]], key_of_item[best[1]])
+            if pk in options: k, name, mov = pk, options[pk], base
     if not name:
         # fall back to the closest option of the same composer by title words (numbers must agree)
         base_nonum = re.sub(r"\b(?:op|opus)\.?\s*(?:posth\.?\s*)?\[?\d+\]?(?:[,.\s]*(?:no|nr)\.?\s*\d+)?", " ", base, flags=re.I)
@@ -165,7 +179,7 @@ for r in cat["recordings"]:
         name = f"{sn} – {base if 'work' in r else pretty_uniform(base)}"
         options.setdefault(k, name); unmatched.append(name)
     r["piece"], r["pieceKey"], r["movement"] = name, k, mov
-    r["_own"] = f"{sn} – {base}" if "work" in r else None
+    r["_own"] = f"{sn} – {base}" if "work" in r and not (r.get("kind") == "record" and mov) else None
 
 # the catalog's own clean name wins when it's the only name for that work
 own = collections.defaultdict(set)
@@ -190,6 +204,7 @@ for r in cat["recordings"]:
 
 # genre, for the practice filters
 def genre_of(r):
+    if r.get("genreHint"): return r["genreHint"]
     text = fold(r["piece"] + " " + (r.get("movement") or "") + " " + (r.get("rollLabel") or ""))
     kinds = kind_of_key.get(r["pieceKey"], "")
     cdesc = fold(((wd.get(r["composer"]) or {}).get("description")) or "")

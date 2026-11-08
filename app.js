@@ -43,10 +43,13 @@
   }
   const composerOf = s => norm(String(s).split(" – ")[0]);
   const roleOf = i => (P.roles && P.roles[i]) || "piano";
+  const ROLE_NAMES = { piano: "Pianist", violin: "Violinist", cello: "Cellist", flute: "Flutist", harp: "Harpist", organ: "Organist",
+    cornet: "Cornetist", clarinet: "Clarinetist", xylophone: "Xylophonist", trombone: "Trombonist", trumpet: "Trumpeter", banjo: "Banjo player", vocalist: "Singer" };
   function roleLabel(i) {
-    const r = roleOf(i);
-    if (r === "piano") return P.performers.length > 1 ? "Pianist " + (i + 1) : "Pianist";
-    return r.charAt(0).toUpperCase() + r.slice(1);
+    const r = roleOf(i), base = ROLE_NAMES[r] || r.charAt(0).toUpperCase() + r.slice(1);
+    const same = (P.roles || P.performers.map(() => "piano")).filter(x => x === r).length;
+    if (same > 1) { const n = (P.roles || P.performers.map(() => "piano")).slice(0, i + 1).filter(x => x === r).length; return base + " " + n; }
+    return base;
   }
 
   /* ---------- scoring (based on misses before the answer was found) ---------- */
@@ -312,6 +315,7 @@
       }
       hits.sort((a, b) => b[0] - a[0]);
       items = hits.slice(0, 8).map(h => h[1]); sel = -1;
+      if (items.some(t => norm(t) === q)) { box.hidden = true; input.setAttribute("aria-expanded", "false"); return; }   // already a full answer
       box.innerHTML = items.length ? items.map((t, i) => `<li role="option" data-i="${i}">${esc(t)}</li>`).join("") : `<li class="none">No matches</li>`;
       box.hidden = false; input.setAttribute("aria-expanded", "true");
     };
@@ -443,7 +447,7 @@
         if ((allNames() && S.pieceAt) || S.misses >= MAX_MISSES) { S.done = true; if (S.year != null) recordStats(); }
         save(); Player.stop(); render();
       };
-      form.onsubmit = e => { e.preventDefault(); submit(false); };
+      form.onsubmit = e => { e.preventDefault(); form.querySelectorAll(".suggest").forEach(x => (x.hidden = true)); submit(false); };
       document.getElementById("skip").onclick = () => submit(true);
     }
     const copy = document.getElementById("copy");
@@ -470,7 +474,7 @@
       <div class="row"><h2>${allNames() ? (P.kind === "record" ? "You knew them." : "You knew those hands.") : "The answer"}</h2><span class="label">${daily ? "Result" : "Practice result"}</span></div>
       <div class="score">${total()}<small> / 10</small></div>
       <dl class="answer">
-        <dt>${P.performers.length > 1 ? "Performers" : esc(roleLabel(0))}</dt><dd><b>${P.performers.map((p, i) => esc(p) + (P.performers.length > 1 ? ` <span class="pts">${esc(roleOf(i))}</span>` : "") + (P.performerDates && P.performerDates[p] ? ` <span class="pts">(${esc(P.performerDates[p])})</span>` : "")).join("<br>")}</b>${P.credits ? `<br><span class="pts">${esc(P.credits)}</span>` : ""}</dd>
+        <dt>${P.performers.length > 1 ? "Performers" : esc(roleLabel(0))}</dt><dd><b>${P.performers.map((p, i) => esc(p) + (P.performers.length > 1 ? ` <span class="pts">${esc(roleLabel(i).toLowerCase())}</span>` : "") + (P.performerDates && P.performerDates[p] ? ` <span class="pts">(${esc(P.performerDates[p])})</span>` : "")).join("<br>")}</b>${P.credits ? `<br><span class="pts">${esc(P.credits)}</span>` : ""}</dd>
         <dt>Piece</dt><dd>${esc(P.piece)}${P.movement ? `<br>${P.movement === "selections" ? "Excerpts" : "Part: " + esc(P.movement)}` : ""}${P.arranged ? `<br><span class="pts">${P.kind === "record" ? "Arranged" : "Arranged for piano"}</span>` : ""}${P.rollLabel ? `<br><span class="pts">${P.kind === "record" ? "Record label" : "Roll label"}: ${esc(P.rollLabel)}</span>` : ""}</dd>
         <dt>Clip</dt><dd>Starts ${fmt(Player.start)} into the ${P.kind === "record" ? "record" : "roll"}</dd>
         <dt>Recorded</dt><dd>${esc(String(yr))}${P.yearExact ? "" : " (published; exact date unknown)"}</dd>
