@@ -377,7 +377,8 @@
         });
         if (S.pieceAt) rec.piece = { g: "", ok: true };
         else {
-          const ok = !skip && norm(pcg) === norm(P.piece);
+          const gk = CAT.pieceKeyOf[norm(pcg)];
+          const ok = !skip && (norm(pcg) === norm(P.piece) || (!!gk && (gk === P.pieceKey || (P.acceptKeys || []).includes(gk))));
           const comp = !ok && !!pcg && composerOf(pcg) === composerOf(P.piece);
           if (ok) { S.pieceAt = attempt; progress = true; }
           if (comp && !S.composerAt) { S.composerAt = attempt; progress = true; }
@@ -416,7 +417,7 @@
       <div class="score">${total()}<small> / 10</small></div>
       <dl class="answer">
         <dt>${P.performers.length > 1 ? "Performers" : esc(roleLabel(0))}</dt><dd><b>${P.performers.map((p, i) => esc(p) + (P.performers.length > 1 ? ` <span class="pts">${esc(roleOf(i))}</span>` : "") + (P.performerDates && P.performerDates[p] ? ` <span class="pts">(${esc(P.performerDates[p])})</span>` : "")).join("<br>")}</b>${P.credits ? `<br><span class="pts">${esc(P.credits)}</span>` : ""}</dd>
-        <dt>Piece</dt><dd>${esc(P.piece)}${P.rollLabel ? `<br><span class="pts">${P.kind === "record" ? "Record label" : "Roll label"}: ${esc(P.rollLabel)}</span>` : ""}</dd>
+        <dt>Piece</dt><dd>${esc(P.piece)}${P.movement ? `<br>${P.movement === "selections" ? "Excerpts" : "Part: " + esc(P.movement)}` : ""}${P.arranged ? `<br><span class="pts">${P.kind === "record" ? "Arranged" : "Arranged for piano"}</span>` : ""}${P.rollLabel ? `<br><span class="pts">${P.kind === "record" ? "Record label" : "Roll label"}: ${esc(P.rollLabel)}</span>` : ""}</dd>
         <dt>Clip</dt><dd>Starts ${fmt(Player.start)} into the ${P.kind === "record" ? "record" : "roll"}</dd>
         <dt>Recorded</dt><dd>${esc(String(yr))}${P.yearExact ? "" : " (published; exact date unknown)"}</dd>
         <dt>Your year</dt><dd>${S.year} · ${yearPts()} pt${yearPts() === 1 ? "" : "s"}</dd>
@@ -436,7 +437,10 @@
     CAT.allPerformers = [...new Set(cat.recordings.flatMap(r => r.performers))];
     CAT.countBy = {}; cat.recordings.forEach(r => r.performers.forEach(p => (CAT.countBy[p] = (CAT.countBy[p] || 0) + 1)));
     CAT.nameOptions = [...new Set(CAT.allPerformers.concat(DECOYS))].sort((a, b) => surname(a).localeCompare(surname(b)));
-    CAT.pieceOptions = [...new Set(cat.recordings.map(r => r.piece).concat(cat.extraPieces || []))].sort();
+    CAT.pieceKeyOf = {};
+    (cat.pieceAliases || []).concat(cat.pieceOptions || []).forEach(([n, k]) => { CAT.pieceKeyOf[norm(n)] = k; });
+    cat.recordings.forEach(r => { CAT.pieceKeyOf[norm(r.piece)] = r.pieceKey || norm(r.piece); });
+    CAT.pieceOptions = [...new Set((cat.pieceOptions || []).map(o => o[0]).concat(cat.recordings.map(r => r.piece)))].sort();
     CAT.nameIndex = index(CAT.nameOptions); CAT.pieceIndex = index(CAT.pieceOptions);
     const route = () => setMode(location.hash === "#practice" ? "practice" : "daily");
     window.addEventListener("hashchange", route);
