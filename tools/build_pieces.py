@@ -261,10 +261,12 @@ def genre_of(r):
         return "Orchestral"
     if re.search(r"popular|ragtime|jazz|foxtrot|tango|dance music", kinds) or re.search(r"songwriter|popular|ragtime|bandleader|tin pan|cabaret|operetta|musical", cdesc):
         return "Popular & dance"
-    if re.search(r"\bsong|lied|hymn|aria|anthem", kinds) or re.search(r"\b(lied|lieder|song|songs|hymn|gesang|melodie|ständchen|standchen)\b", text):
+    if re.search(r"ohne worte|without words|melod|albumbl", text): return "Piano music"
+    if re.search(r"\bsong|lied|hymn|aria|anthem", kinds) or re.search(r"\b(lied|lieder|song|songs|hymn|gesang|ständchen|standchen)\b", text):
         return "Songs"
     return "Piano music"
 for r in cat["recordings"]: r["genre"] = genre_of(r)
+cat["recordings"] = [r for r in cat["recordings"] if r["genre"] != "Popular & dance"]   # not what this game is about
 print(collections.Counter(r["genre"] for r in cat["recordings"]))
 
 # how well known the composer and the performers are (number of Wikipedia articles), for the practice filters
