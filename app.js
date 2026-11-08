@@ -1,5 +1,6 @@
-/* Whose Hands — a daily piano roll guessing game.
+/* Whose Hands — a daily guessing game for historic recordings.
    Rolls: Stanford University Piano Roll Archive (CC BY-NC-SA 4.0).
+   Records: Library of Congress National Jukebox (public domain in the US).
    Piano sound: Salamander Grand Piano by Alexander Holm (CC BY 3.0). Playback: Tone.js (MIT). */
 (function () {
   "use strict";
@@ -76,6 +77,7 @@
     },
     async init() {
       if (this.loading) return this.loading;
+      if (P.kind === "record") return (this.loading = Promise.resolve());
       this.loading = (async () => {
         const buf = await (await fetch(P.midi)).arrayBuffer();
         const midi = new Midi(buf);
@@ -100,7 +102,28 @@
       })();
       return this.loading;
     },
+    el: null,
+    async playRecord(secs, onTick, onEnd) {
+      this.stop();
+      if (!this.el) { this.el = new window.Audio(); this.el.preload = "auto"; this.el.src = P.audio; }
+      const a = this.el, start = P.start || 0;
+      await new Promise((res, rej) => {
+        if (a.readyState >= 1) return res();
+        a.addEventListener("loadedmetadata", res, { once: true }); a.addEventListener("error", () => rej(new Error("audio")), { once: true });
+      });
+      a.currentTime = start; await a.play();
+      this.playing = true;
+      const loop = () => {
+        if (!this.playing) return;
+        const el = a.currentTime - start;
+        onTick && onTick(Math.min(el, secs), 0);
+        if (el >= secs || a.ended) { this.stop(onEnd); return; }
+        this.raf = requestAnimationFrame(loop);
+      };
+      loop();
+    },
     async play(secs, onTick, onEnd) {
+      if (P.kind === "record") return this.playRecord(secs, onTick, onEnd);
       const started = Tone.start();
       await Promise.all([started, this.init(), this.loadSampler()]);
       this.stop();
@@ -118,6 +141,7 @@
       loop();
     },
     stop(onEnd) {
+      if (this.el) this.el.pause();
       const T = Tone.Transport;
       T.stop(); T.cancel(0);
       if (this.sampler) this.sampler.releaseAll();
@@ -133,6 +157,7 @@
     if (canvas.width !== w * dpr) { canvas.width = w * dpr; canvas.height = h * dpr; }
     const g = canvas.getContext("2d"); g.setTransform(dpr, 0, 0, dpr, 0, 0);
     const css = getComputedStyle(document.documentElement);
+    if (P.kind === "record") { drawDisc(g, w, h, at || 0, css); return; }
     g.fillStyle = css.getPropertyValue("--roll").trim(); g.fillRect(0, 0, w, h);
     g.fillStyle = css.getPropertyValue("--hole").trim();
     const span = 3.2, px = h / span;
@@ -148,6 +173,19 @@
     g.fillStyle = "rgba(255,255,255,.35)"; g.fillRect(0, h - 18, w, 1);
   }
 
+  function drawDisc(g, w, h, at, css) {
+    g.fillStyle = css.getPropertyValue("--roll").trim(); g.fillRect(0, 0, w, h);
+    const cx = w / 2, cy = h / 2, R = h * 0.46;
+    g.fillStyle = "#121214"; g.beginPath(); g.arc(cx, cy, R, 0, Math.PI * 2); g.fill();
+    g.strokeStyle = "rgba(255,255,255,.07)"; g.lineWidth = 1;
+    for (let r = R * 0.42; r < R - 2; r += 2.5) { g.beginPath(); g.arc(cx, cy, r, 0, Math.PI * 2); g.stroke(); }
+    const ang = at * 78 / 60 * Math.PI * 2;
+    g.strokeStyle = "rgba(255,255,255,.18)"; g.lineWidth = R * 0.5;
+    g.beginPath(); g.arc(cx, cy, R * 0.7, ang, ang + 0.35); g.stroke();
+    g.fillStyle = css.getPropertyValue("--roll").trim(); g.beginPath(); g.arc(cx, cy, R * 0.36, 0, Math.PI * 2); g.fill();
+    g.fillStyle = css.getPropertyValue("--hole").trim(); g.beginPath(); g.arc(cx, cy, 3, 0, Math.PI * 2); g.fill();
+  }
+
   /* ---------- state ---------- */
   function load() {
     const s = store.get("wh2-day-" + DAY, null);
@@ -161,15 +199,24 @@
     store.set("wh2-stats", st);
   }
 
+  const roleOf = i => (P.roles && P.roles[i]) || "piano";
+  function roleLabel(i) {
+    const r = roleOf(i);
+    if (r === "piano") return P.performers.length > 1 ? "Pianist " + (i + 1) : "Pianist";
+    return r.charAt(0).toUpperCase() + r.slice(1);
+  }
   function hintsFor() {
     const h = [];
-    h.push(P.place ? `Roll recorded in ${P.place}` : `Recorded on a ${P.format}`);
+    if (P.kind === "record") h.push(`${P.label || "A"} record${P.place ? ", recorded in " + P.place : ""}`);
+    else h.push(P.place ? `Roll recorded in ${P.place}` : `Recorded on a ${P.format}`);
     h.push(`Composer: ${P.composer}${P.composerDates ? " (" + P.composerDates + ")" : ""}`);
     const d = P.performerDates[P.performers[0]];
-    h.push(d ? `The pianist lived ${d}` : `The pianist made ${CAT.countBy[P.performers[0]] || 1} roll${(CAT.countBy[P.performers[0]] || 1) > 1 ? "s" : ""} in this archive`);
+    const who = P.kind === "record" ? `The ${roleOf(0) === "orchestra" ? "orchestra" : roleLabel(0).toLowerCase()}` : "The pianist";
+    const cnt = CAT.countBy[P.performers[0]] || 1;
+    h.push(d ? `${who} lived ${d}` : `${who} appears in ${cnt} puzzle${cnt > 1 ? "s" : ""} in this game`);
     const sn = P.performers[0].split(" ").pop();
-    h.push(`The pianist's surname has ${sn.replace(/[^\p{L}]/gu, "").length} letters`);
-    h.push(`The pianist's surname starts with “${sn.replace(/^(d'|de |von |van )/i, "")[0]}”`);
+    h.push(`${who}'s name ends in a ${sn.replace(/[^\p{L}]/gu, "").length}-letter word`);
+    h.push(`${who}'s last name starts with “${sn.replace(/^(d'|de |von |van )/i, "")[0]}”`);
     return h;
   }
 
@@ -184,10 +231,12 @@
 
     app.innerHTML = `
     <header><h1>Whose <em>Hands</em></h1><span class="meta">No. ${DAY + 1} · ${esc(dateStr)}</span></header>
-    ${used === 0 && !S.done ? `<p class="how">A legendary pianist recorded today's piece on a piano roll between 1905 and 1925. You hear their exact notes, pedaling and timing on a modern piano. Guess who, what, and when. Each miss plays more and adds a hint.</p>` : ""}
+    ${used === 0 && !S.done ? (P.kind === "record"
+      ? `<p class="how">Today's recording was made on a 78 record between 1900 and 1925. Guess everyone featured on it, the piece, and the year. Each miss plays more and adds a hint.</p>`
+      : `<p class="how">A legendary pianist recorded today's piece on a piano roll between 1905 and 1925. You hear their exact notes, pedaling and timing on a modern piano. Guess who, what, and when. Each miss plays more and adds a hint.</p>`) : ""}
 
     <section class="player" aria-label="Today's roll">
-      <div class="rollbox"><canvas id="roll" aria-hidden="true"></canvas><span class="tag">WELTE-MIGNON · NO. ${DAY + 1}</span><span class="status" id="status"></span></div>
+      <div class="rollbox"><canvas id="roll" aria-hidden="true"></canvas><span class="tag">${P.kind === "record" ? "78 RPM" : "WELTE-MIGNON"} · NO. ${DAY + 1}</span><span class="status" id="status"></span></div>
       <div class="controls">
         <button class="btn primary" id="play">▶ Play ${secs}s</button>
         <button class="btn" id="stop">Stop</button>
@@ -197,10 +246,10 @@
     </section>
 
     <section class="panel">
-      <div class="row"><h2>Who's playing, and what?</h2><span class="pts">${used}/${SNIPS.length} tries</span></div>
+      <div class="row"><h2>${P.kind === "record" ? "Who's on it, and what?" : "Who's playing, and what?"}</h2><span class="pts">${used}/${SNIPS.length} tries</span></div>
       ${S.done ? "" : `<form id="guess" autocomplete="off">
-        ${P.performers.map((p, i) => `<div class="field ${S.pianistAt[i] ? "solved" : ""}"><div class="row"><label class="label" for="g-p${i}">${multi ? "Performer " + (i + 1) : "Pianist"}</label>${S.pianistAt[i] ? `<span class="chip">✓</span>` : `<span class="pts">up to ${Math.round(50 / P.performers.length) / 10} pts</span>`}</div>
-          <input type="text" id="g-p${i}" list="dl-pianists" placeholder="Start typing a name" ${S.pianistAt[i] ? `value="${esc(p)}" disabled` : ""}></div>`).join("")}
+        ${P.performers.map((p, i) => `<div class="field ${S.pianistAt[i] ? "solved" : ""}"><div class="row"><label class="label" for="g-p${i}">${esc(roleLabel(i))}</label>${S.pianistAt[i] ? `<span class="chip">✓</span>` : `<span class="pts">up to ${Math.round(50 / P.performers.length) / 10} pts</span>`}</div>
+          <input type="text" id="g-p${i}" list="dl-pianists" placeholder="${roleOf(i) === "orchestra" ? "Start typing an orchestra" : "Start typing a name"}" ${S.pianistAt[i] ? `value="${esc(p)}" disabled` : ""}></div>`).join("")}
         <div class="field ${S.pieceAt ? "solved" : ""}"><div class="row"><label class="label" for="g-piece">Piece</label>${S.pieceAt ? `<span class="chip">✓</span>` : S.composerAt ? `<span class="chip part">Composer ✓</span>` : `<span class="pts">up to 3 pts · right composer 1</span>`}</div>
           <input type="text" id="g-piece" list="dl-pieces" placeholder="Start typing a composer or title" ${S.pieceAt ? `value="${esc(P.piece)}" disabled` : ""}></div>
         <div class="controls"><button class="btn primary" type="submit">Guess</button><button class="btn" type="button" id="skip">Skip, play more</button></div>
@@ -221,7 +270,7 @@
     ${S.done ? resultHTML() : ""}
 
     <footer>
-      <span>A new roll every day at midnight. Rolls from the <a href="https://supra.stanford.edu" target="_blank" rel="noopener">Stanford University Piano Roll Archive</a> (CC BY-NC-SA 4.0). Piano sound: Salamander Grand Piano by Alexander Holm (CC BY 3.0). Played with Tone.js.</span>
+      <span>A new roll every day at midnight. Rolls from the <a href="https://supra.stanford.edu" target="_blank" rel="noopener">Stanford University Piano Roll Archive</a> (CC BY-NC-SA 4.0). Records from the <a href="https://www.loc.gov/collections/national-jukebox/" target="_blank" rel="noopener">Library of Congress National Jukebox</a> (public domain). Piano sound: Salamander Grand Piano by Alexander Holm (CC BY 3.0). Played with Tone.js.</span>
       <span>Something wrong with today's answer? <a href="https://github.com/${REPO}/issues/new?title=${encodeURIComponent("Problem with roll No. " + (DAY + 1))}&body=${encodeURIComponent("Roll id: " + P.id + "\nWhat's wrong:\n")}" target="_blank" rel="noopener">Report it</a>.</span>
     </footer>
     <datalist id="dl-pianists">${CAT.pianistOptions.map(p => `<option value="${esc(p)}">`).join("")}</datalist>
@@ -290,7 +339,7 @@
       if (S.pieceAt === n || S.composerAt === n) return "🟨";
       return "⬛";
     }).join("");
-    return `Whose Hands No. ${DAY + 1} · ${total()}/10\nPianist ${allPianists() ? "✅" : "❌"}  Piece ${S.pieceAt ? "✅" : S.composerAt ? "🟨" : "❌"}  Year ${yearPts() === 2 ? "✅" : yearPts() === 1 ? "🟨" : "❌"}\n${rows}\nhttps://concord-mass.github.io`;
+    return `Whose Hands No. ${DAY + 1} · ${total()}/10\n${P.kind === "record" ? "Performers" : "Pianist"} ${allPianists() ? "✅" : "❌"}  Piece ${S.pieceAt ? "✅" : S.composerAt ? "🟨" : "❌"}  Year ${yearPts() === 2 ? "✅" : yearPts() === 1 ? "🟨" : "❌"}\n${rows}\nhttps://concord-mass.github.io`;
   }
   function resultHTML() {
     if (S.year == null) return `<section class="panel result"><h2>Last step: lock in your year above to see the answer.</h2></section>`;
@@ -300,11 +349,11 @@
       <div class="row"><h2>${allPianists() ? "You knew those hands." : "Today's hands"}</h2><span class="label">Result</span></div>
       <div class="score">${total()}<small> / 10</small></div>
       <dl class="answer">
-        <dt>${P.performers.length > 1 ? "Performers" : "Pianist"}</dt><dd><b>${P.performers.map(p => esc(p) + (P.performerDates[p] ? ` <span class="pts">(${esc(P.performerDates[p])})</span>` : "")).join("<br>")}</b></dd>
-        <dt>Piece</dt><dd>${esc(P.piece)}<br><span class="pts">Roll label: ${esc(P.rollLabel)}</span></dd>
+        <dt>${P.performers.length > 1 ? "Performers" : roleLabel(0)}</dt><dd><b>${P.performers.map((p, i) => esc(p) + (P.performers.length > 1 ? ` <span class="pts">${esc(roleOf(i))}</span>` : "") + (P.performerDates[p] ? ` <span class="pts">(${esc(P.performerDates[p])})</span>` : "")).join("<br>")}</b></dd>
+        <dt>Piece</dt><dd>${esc(P.piece)}${P.rollLabel ? `<br><span class="pts">${P.kind === "record" ? "Record label" : "Roll label"}: ${esc(P.rollLabel)}</span>` : ""}</dd>
         <dt>Recorded</dt><dd>${esc(String(yr))}${P.yearExact ? "" : " (published; exact date unknown)"}</dd>
         <dt>Your year</dt><dd>${S.year} · ${yearPts()} pt${yearPts() === 1 ? "" : "s"}</dd>
-        <dt>Roll</dt><dd>${esc(P.format)}${P.rollNumber ? " no. " + esc(P.rollNumber) : ""} · <a href="${esc(P.source)}" target="_blank" rel="noopener">Stanford record</a></dd>
+        <dt>Source</dt><dd>${esc(P.format)}${P.rollNumber ? " no. " + esc(P.rollNumber) : ""} · <a href="${esc(P.source)}" target="_blank" rel="noopener">${P.kind === "record" ? "Library of Congress" : "Stanford"} record</a></dd>
       </dl>
       <div class="controls"><button class="btn" id="full">▶ Hear 60 seconds</button></div>
       <div class="share">${esc(shareText())}</div>
