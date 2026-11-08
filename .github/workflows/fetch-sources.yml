@@ -19,12 +19,6 @@ jobs:
       - name: Download source listings
         run: |
           mkdir -p sources
-          curl -sSL -A "WhoseHands-bot (github.com/whosehands)" https://data.labs.loc.gov/jukebox/README.html -o sources/loc-jukebox-README.html || true
-          grep -o 'href="[^"]*"' sources/loc-jukebox-README.html | sort -u > sources/loc-jukebox-links.txt || true
-          for f in $(grep -oE 'href="[^"]*metadata\.(csv|jsonl)"' sources/loc-jukebox-README.html | sed 's/href="//;s/"$//' | sort -u); do
-            case "$f" in http*) u="$f";; *) u="https://data.labs.loc.gov/jukebox/$f";; esac
-            curl -sSL -A "WhoseHands-bot" "$u" -o "sources/loc-jukebox-$(basename "$f")" || true
-          done
           python3 tools/fetch_loc.py
           ls -la sources
       - name: Commit
