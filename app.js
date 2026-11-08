@@ -316,7 +316,8 @@
       hits.sort((a, b) => b[0] - a[0]);
       items = hits.slice(0, 8).map(h => h[1]); sel = -1;
       if (items.some(t => norm(t) === q)) { box.hidden = true; input.setAttribute("aria-expanded", "false"); return; }   // already a full answer
-      box.innerHTML = items.length ? items.map((t, i) => `<li role="option" data-i="${i}">${esc(t)}</li>`).join("") : `<li class="none">No matches</li>`;
+      if (!items.length) { box.hidden = true; input.setAttribute("aria-expanded", "false"); return; }
+      box.innerHTML = items.map((t, i) => `<li role="option" data-i="${i}">${esc(t)}</li>`).join("");
       box.hidden = false; input.setAttribute("aria-expanded", "true");
     };
     const pick = i => { if (items[i] != null) input.value = items[i]; box.hidden = true; input.setAttribute("aria-expanded", "false"); };
