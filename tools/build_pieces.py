@@ -33,6 +33,17 @@ def numbers(s):
 
 def keytok(s):
     return re.sub(r"\b([a-g])(?:[\s-]*(flat|sharp))?[\s-]+(major|minor|dur|moll)\b", lambda m: f" key{m.group(1)}{m.group(2) or ''}{'min' if m.group(3) in ('minor', 'moll') else 'maj'} ", s)
+import difflib
+def close(a, b):
+    if a == b: return True
+    if a.isdigit() or b.isdigit() or a.startswith("key") or b.startswith("key"): return False
+    return len(a) > 3 and len(b) > 3 and difflib.SequenceMatcher(None, a, b).ratio() >= 0.8
+def sim(tw, ow):
+    if not tw or not ow: return 0.0
+    k1, k2 = {w for w in tw if w.startswith("key")}, {w for w in ow if w.startswith("key")}
+    if k1 and k2 and k1 != k2: return 0.0
+    m = sum(1 for a in tw if any(close(a, b) for b in ow))
+    return m / max(len(tw), len(ow))
 def stem(w): return w[:-1] if len(w) > 4 and w.endswith("s") and not w.endswith("ss") else w
 def title_words(s, surname):
     words = [stem(w) for w in re.findall(r"[a-z0-9]+", keytok(fold(s)))]
@@ -154,7 +165,7 @@ for r in cat["recordings"]:
             if csn != sn or pid not in key_of_item: continue
             ow = title_words(lab, sn)
             if not ow or not tw: continue
-            j = len(tw & ow) / len(tw | ow)
+            j = sim(tw, ow)
             if j >= 0.75 and (best is None or j > best[0]): best = (j, pid)
         if best:
             pk = alias.get(key_of_item[best[1]], key_of_item[best[1]])
@@ -172,7 +183,7 @@ for r in cat["recordings"]:
             if not tw or not ow or (tdig and odig and tdig != odig) or (tdig and not odig): continue
             if any(x in ow and x not in tw for x in INSTR): continue
             if bnum and "|t|" not in ok: continue           # numbered piece: only a same-number match (done above) or an unnumbered set
-            j = len(tw & ow) / len(tw | ow)
+            j = sim(tw, ow)
             if j >= 0.6 and (best is None or j > best[0]): best = (j, ok, on)
         if best: k, name = best[1], best[2]
     if not name:
@@ -192,6 +203,25 @@ for r in cat["recordings"]:
         r["piece"] = r["_own"]; options[r["pieceKey"]] = r["_own"]
     else: r["piece"] = options.get(r["pieceKey"], r["piece"])
     del r["_own"]
+
+game_keys = {r["pieceKey"]: r for r in cat["recordings"]}
+by_comp = collections.defaultdict(list)
+for k, n in options.items(): by_comp[n.split(" – ")[0]].append(k)
+dropped = 0
+for gk, r in game_keys.items():
+    gsn, gtitle = options.get(gk, r["piece"]).split(" – ", 1)
+    gw = title_words(re.sub(r"\b(?:op|opus)\.?\s*\d+(?:[,.\s]*(?:no|nr)\.?\s*\d+)?", " ", gtitle, flags=re.I), gsn)
+    gd = {w for w in gw if w.isdigit()}
+    for ok in list(by_comp.get(gsn, [])):
+        if ok == gk or ok in game_keys or ok not in options: continue
+        on = options[ok].split(" – ", 1)[1]
+        if numbers(on) and numbers(gtitle) and numbers(on) != numbers(gtitle): continue
+        ow = title_words(re.sub(r"\b(?:op|opus)\.?\s*\d+(?:[,.\s]*(?:no|nr)\.?\s*\d+)?", " ", on, flags=re.I), gsn)
+        od = {w for w in ow if w.isdigit()}
+        if gd != od: continue
+        if sim(gw, ow) >= 0.8 and sim(ow, gw) >= 0.8:
+            alt_names[options.pop(ok)] = gk; alias[ok] = gk; dropped += 1
+print(dropped, "duplicate names folded into works in the game")
 
 children = collections.defaultdict(set)
 for k, ps in parents_of_key.items():

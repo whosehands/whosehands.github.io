@@ -2521,9 +2521,9 @@
    "source": "https://purl.stanford.edu/cg834ff4729",
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
-   "pieceKey": "cuvillier|t|domino lila",
+   "pieceKey": "cuvillier|t|domino lilac",
    "movement": "Waltz",
-   "genre": "Piano music",
+   "genre": "Opera & stage",
    "composerFame": "obscure",
    "performerFame": "obscure"
   },
@@ -2809,7 +2809,7 @@
    "source": "https://purl.stanford.edu/cv806rf2664",
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
-   "pieceKey": "liszt|t|8 etude execution transcendante",
+   "pieceKey": "liszt|t|8 etude transcendental",
    "movement": "Wilde Jagd",
    "genre": "Piano music",
    "composerFame": "famous",
@@ -3369,7 +3369,7 @@
    },
    "composer": "Robert Schumann",
    "composerDates": "1810-1856",
-   "piece": "Schumann – Kinderscenen",
+   "piece": "Schumann – Kinderszenen",
    "work": "Schumann – Kinderscenen",
    "part": "selections",
    "arranged": false,
@@ -3385,7 +3385,7 @@
    "source": "https://purl.stanford.edu/ds710xd1794",
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
-   "pieceKey": "schumann|t|kinderscenen",
+   "pieceKey": "schumann|t|kinderszenen",
    "movement": "selections",
    "genre": "Piano music",
    "composerFame": "famous",
@@ -5032,9 +5032,9 @@
    "source": "https://purl.stanford.edu/gs012fx5529",
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
-   "pieceKey": "gounod|t|juliette romeo",
+   "pieceKey": "gounod|t|juliete romeo",
    "movement": "",
-   "genre": "Piano music",
+   "genre": "Opera & stage",
    "composerFame": "famous",
    "performerFame": "obscure"
   },
@@ -5256,7 +5256,7 @@
    "source": "https://purl.stanford.edu/gz430tm0196",
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
-   "pieceKey": "liszt|t|11 etude execution transcendante",
+   "pieceKey": "liszt|t|11 etude transcendental",
    "movement": "Harmonies du soir",
    "genre": "Piano music",
    "composerFame": "famous",
@@ -5352,7 +5352,7 @@
    "source": "https://purl.stanford.edu/hg174cq6672",
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
-   "pieceKey": "liszt|t|2 hungarian rhapsody",
+   "pieceKey": "liszt|t|2 hungarian roidy",
    "movement": "",
    "genre": "Piano music",
    "composerFame": "famous",
@@ -6042,7 +6042,7 @@
    },
    "composer": "Robert Schumann",
    "composerDates": "1810-1856",
-   "piece": "Schumann – Kinderscenen",
+   "piece": "Schumann – Kinderszenen",
    "work": "Schumann – Kinderscenen",
    "part": "selections",
    "arranged": false,
@@ -6058,7 +6058,7 @@
    "source": "https://purl.stanford.edu/jb107tz1859",
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
-   "pieceKey": "schumann|t|kinderscenen",
+   "pieceKey": "schumann|t|kinderszenen",
    "movement": "selections",
    "genre": "Piano music",
    "composerFame": "famous",
@@ -6346,7 +6346,7 @@
    "source": "https://purl.stanford.edu/jg717nb8731",
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
-   "pieceKey": "liszt|t|2 hungarian rhapsody",
+   "pieceKey": "liszt|t|2 hungarian roidy",
    "movement": "",
    "genre": "Piano music",
    "composerFame": "famous",
@@ -7871,7 +7871,7 @@
    },
    "composer": "Robert Schumann",
    "composerDates": "1810-1856",
-   "piece": "Schumann – Kinderscenen",
+   "piece": "Schumann – Kinderszenen",
    "work": "Schumann – Kinderscenen",
    "part": "Träumerei",
    "arranged": false,
@@ -7887,7 +7887,7 @@
    "source": "https://purl.stanford.edu/mf320jq4997",
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
-   "pieceKey": "schumann|t|kinderscenen",
+   "pieceKey": "schumann|t|kinderszenen",
    "movement": "Träumerei",
    "genre": "Piano music",
    "composerFame": "famous",
@@ -8879,7 +8879,7 @@
    "source": "https://purl.stanford.edu/nv508pk0096",
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
-   "pieceKey": "strauss|t|eine nacht tausend und",
+   "pieceKey": "strauss|t|eine intermezzo nacht tausend und",
    "movement": "",
    "genre": "Piano music",
    "composerFame": "famous",
@@ -9295,7 +9295,7 @@
    "source": "https://purl.stanford.edu/ph502kz9777",
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
-   "pieceKey": "schumann|op18|",
+   "pieceKey": "schumann|t|arabeske keycmaj",
    "movement": "",
    "genre": "Piano music",
    "composerFame": "famous",
@@ -9491,6 +9491,18 @@
    "famous": false,
    "pieceKey": "rachmaninoff|t|prelude",
    "movement": "",
+   "acceptKeys": [
+    "rachmaninoff|t|keyaflatmaj prelude",
+    "rachmaninoff|t|keybflatmaj prelude",
+    "rachmaninoff|t|keycmin prelude",
+    "rachmaninoff|t|keydmaj prelude",
+    "rachmaninoff|t|keydmin prelude",
+    "rachmaninoff|t|keyeflatmaj prelude",
+    "rachmaninoff|t|keyeflatmin prelude",
+    "rachmaninoff|t|keyfsharpmin prelude",
+    "rachmaninoff|t|keygflatmaj prelude",
+    "rachmaninoff|t|keygmin prelude"
+   ],
    "genre": "Piano music",
    "composerFame": "famous",
    "performerFame": "obscure"
@@ -13279,9 +13291,9 @@
    "source": "https://purl.stanford.edu/vs880hb3425",
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": false,
-   "pieceKey": "glazunov|t|raimonda",
+   "pieceKey": "glazunov|t|raymonda",
    "movement": "selections",
-   "genre": "Piano music",
+   "genre": "Opera & stage",
    "composerFame": "known",
    "performerFame": "famous"
   },
@@ -14031,7 +14043,7 @@
    },
    "composer": "Robert Schumann",
    "composerDates": "1810-1856",
-   "piece": "Schumann – Kinderscenen",
+   "piece": "Schumann – Kinderszenen",
    "work": "Schumann – Kinderscenen",
    "part": "Träumerei",
    "arranged": false,
@@ -14047,7 +14059,7 @@
    "source": "https://purl.stanford.edu/wv912mm2332",
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
-   "pieceKey": "schumann|t|kinderscenen",
+   "pieceKey": "schumann|t|kinderszenen",
    "movement": "Träumerei",
    "genre": "Piano music",
    "composerFame": "famous",
@@ -14367,7 +14379,7 @@
    "source": "https://purl.stanford.edu/xj540rr2929",
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
-   "pieceKey": "schumann|t|waldscenen",
+   "pieceKey": "schumann|t|waldszenen",
    "movement": "Vogel als Prophet",
    "genre": "Piano music",
    "composerFame": "famous",
@@ -14987,6 +14999,18 @@
    "famous": false,
    "pieceKey": "rachmaninoff|t|prelude",
    "movement": "",
+   "acceptKeys": [
+    "rachmaninoff|t|keyaflatmaj prelude",
+    "rachmaninoff|t|keybflatmaj prelude",
+    "rachmaninoff|t|keycmin prelude",
+    "rachmaninoff|t|keydmaj prelude",
+    "rachmaninoff|t|keydmin prelude",
+    "rachmaninoff|t|keyeflatmaj prelude",
+    "rachmaninoff|t|keyeflatmin prelude",
+    "rachmaninoff|t|keyfsharpmin prelude",
+    "rachmaninoff|t|keygflatmaj prelude",
+    "rachmaninoff|t|keygmin prelude"
+   ],
    "genre": "Piano music",
    "composerFame": "famous",
    "performerFame": "obscure"
@@ -15401,7 +15425,7 @@
    "source": "https://purl.stanford.edu/yt837kd6607",
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
-   "pieceKey": "liszt|t|9 etude execution transcendante",
+   "pieceKey": "liszt|t|9 etude transcendental",
    "movement": "Ricordanza",
    "genre": "Piano music",
    "composerFame": "famous",
@@ -15817,7 +15841,7 @@
    "source": "https://purl.stanford.edu/zk440mh1715",
    "license": "CC BY-NC-SA 4.0 (Stanford University Piano Roll Archive)",
    "famous": true,
-   "pieceKey": "liszt|t|2 hungarian rhapsody",
+   "pieceKey": "liszt|t|2 hungarian roidy",
    "movement": "",
    "genre": "Piano music",
    "composerFame": "famous",
@@ -19077,7 +19101,7 @@
    "license": "Public domain (US)",
    "genreHint": "Songs",
    "famous": false,
-   "pieceKey": "edwards|t|by light moon ry silv",
+   "pieceKey": "edwards|t|by light moon silvery",
    "movement": "",
    "genre": "Songs",
    "composerFame": "obscure",
@@ -30575,7 +30599,7 @@
    "license": "Public domain (US)",
    "genreHint": "Opera & stage",
    "famous": false,
-   "pieceKey": "verdi|t|brinidisi",
+   "pieceKey": "verdi|t|brindisi",
    "movement": "",
    "genre": "Opera & stage",
    "composerFame": "famous",
@@ -30830,7 +30854,7 @@
    "composer": "Michael William Balfe",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Balfe – I dreamed I dwelt in marble halls",
+   "piece": "Balfe – The Bohemian Girl",
    "work": "Balfe – I dreamed I dwelt in marble halls",
    "part": "",
    "title": "I dreamed I dwelt in marble halls",
@@ -30847,8 +30871,8 @@
    "license": "Public domain (US)",
    "genreHint": "Opera & stage",
    "famous": false,
-   "pieceKey": "balfe|t|dreamed dwelt hall marble",
-   "movement": "",
+   "pieceKey": "balfe|t|bohemian girl",
+   "movement": "I dreamed I dwelt in marble halls",
    "genre": "Opera & stage",
    "composerFame": "known",
    "performerFame": "obscure"
@@ -34006,26 +34030,19 @@
    "pieceKey": "chopin|t|nocturne",
    "movement": "",
    "acceptKeys": [
-    "chopin|op15|",
     "chopin|op15|1",
     "chopin|op15|2",
     "chopin|op15|3",
-    "chopin|op27|",
     "chopin|op27|1",
     "chopin|op27|2",
-    "chopin|op32|",
     "chopin|op32|1",
     "chopin|op32|2",
-    "chopin|op37|",
     "chopin|op37|1",
     "chopin|op37|2",
-    "chopin|op48|",
     "chopin|op48|1",
     "chopin|op48|2",
-    "chopin|op55|",
     "chopin|op55|1",
     "chopin|op55|2",
-    "chopin|op62|",
     "chopin|op62|1",
     "chopin|op62|2",
     "chopin|op72|1",
@@ -34670,7 +34687,7 @@
    "composer": "Otto Nicolai",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Nicolai – The merry wives of Windsor : Overture",
+   "piece": "Nicolai – The Merry Wives of Windsor",
    "work": "Nicolai – The merry wives of Windsor : Overture",
    "part": "",
    "title": "The merry wives of Windsor : Overture",
@@ -34688,7 +34705,7 @@
    "genreHint": "Orchestral",
    "famous": false,
    "pieceKey": "nicolai|t|merry windsor wive",
-   "movement": "",
+   "movement": "The merry wives of Windsor : Overture",
    "genre": "Orchestral",
    "composerFame": "known",
    "performerFame": "famous"
@@ -35094,7 +35111,7 @@
    "composer": "Giacomo Puccini",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Puccini – Madame Butterfly : Fantasia",
+   "piece": "Puccini – Madam Butterfly",
    "work": "Puccini – Madame Butterfly : Fantasia",
    "part": "",
    "title": "Madame Butterfly : Fantasia",
@@ -35111,7 +35128,7 @@
    "license": "Public domain (US)",
    "genreHint": "Opera & stage",
    "famous": false,
-   "pieceKey": "puccini|t|butterfly fantasia madame",
+   "pieceKey": "puccini|t|butterfly madam",
    "movement": "",
    "genre": "Opera & stage",
    "composerFame": "famous",
@@ -37172,7 +37189,7 @@
    "composer": "Franz Schubert",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Schubert – Moment musical No. 3",
+   "piece": "Schubert – Musical moments",
    "work": "Schubert – Musical moments",
    "part": "",
    "title": "Musical moments",
@@ -37189,8 +37206,11 @@
    "license": "Public domain (US)",
    "genreHint": "Instrumental solos",
    "famous": false,
-   "pieceKey": "schubert|t|3 moment musical",
+   "pieceKey": "schubert|t|moment musicaux six",
    "movement": "",
+   "acceptKeys": [
+    "schubert|t|3 moment musical"
+   ],
    "genre": "Instrumental solos",
    "composerFame": "famous",
    "performerFame": "known"
@@ -39675,7 +39695,7 @@
    "composer": "Pablo de Sarasate",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Sarasate – Gipsy airs",
+   "piece": "Sarasate – Gypsy airs",
    "work": "Sarasate – Gipsy airs",
    "part": "",
    "title": "Gipsy airs",
@@ -39692,7 +39712,7 @@
    "license": "Public domain (US)",
    "genreHint": "Instrumental solos",
    "famous": false,
-   "pieceKey": "sarasate|t|airs gipsy",
+   "pieceKey": "sarasate|t|airs gypsy",
    "movement": "",
    "genre": "Instrumental solos",
    "composerFame": "known",
@@ -40539,7 +40559,7 @@
    "composer": "Giacomo Puccini",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Puccini – Madame Butterfly fantasie",
+   "piece": "Puccini – Madam Butterfly",
    "work": "Puccini – Madame Butterfly fantasie",
    "part": "",
    "title": "Madame Butterfly fantasie",
@@ -40556,7 +40576,7 @@
    "license": "Public domain (US)",
    "genreHint": "Opera & stage",
    "famous": false,
-   "pieceKey": "puccini|t|butterfly fantasie madame",
+   "pieceKey": "puccini|t|butterfly madam",
    "movement": "",
    "genre": "Opera & stage",
    "composerFame": "famous",
@@ -41673,7 +41693,7 @@
    "composer": "Jacques Offenbach",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Offenbach – Tales of Hoffman : Barcarolle",
+   "piece": "Offenbach – The Tales of Hoffmann",
    "work": "Offenbach – Tales of Hoffman : Barcarolle",
    "part": "",
    "title": "Tales of Hoffman : Barcarolle",
@@ -41690,7 +41710,7 @@
    "license": "Public domain (US)",
    "genreHint": "Opera & stage",
    "famous": false,
-   "pieceKey": "offenbach|t|barcarolle hoffman tale",
+   "pieceKey": "offenbach|t|hoffmann tale",
    "movement": "",
    "genre": "Opera & stage",
    "composerFame": "famous",
@@ -41713,7 +41733,7 @@
    "composer": "Charles Gounod",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Gounod – Fantasie from garden scene",
+   "piece": "Gounod – Finale to garden scene",
    "work": "Gounod – Fantasie from garden scene",
    "part": "",
    "title": "Fantasie from garden scene",
@@ -41730,7 +41750,7 @@
    "license": "Public domain (US)",
    "genreHint": "Opera & stage",
    "famous": false,
-   "pieceKey": "gounod|t|fantasie garden scene",
+   "pieceKey": "gounod|t|finale garden scene",
    "movement": "",
    "genre": "Opera & stage",
    "composerFame": "famous",
@@ -43715,7 +43735,7 @@
    "composer": "Giuseppe Verdi",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Verdi – Credo (Iago's creed)",
+   "piece": "Verdi – Credo",
    "work": "Verdi – Credo (Iago's creed)",
    "part": "",
    "title": "Credo (Iago's creed)",
@@ -43732,7 +43752,7 @@
    "license": "Public domain (US)",
    "genreHint": "Opera & stage",
    "famous": false,
-   "pieceKey": "verdi|t|credo creed iago",
+   "pieceKey": "verdi|t|credo",
    "movement": "",
    "genre": "Opera & stage",
    "composerFame": "famous",
@@ -44961,7 +44981,7 @@
    "composer": "Edvard Grieg",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Grieg – Solvejg's song",
+   "piece": "Grieg – Peer Gynt",
    "work": "Grieg – Solvejg's song",
    "part": "",
    "title": "Solvejg's song",
@@ -44978,8 +44998,8 @@
    "license": "Public domain (US)",
    "genreHint": "Opera & stage",
    "famous": false,
-   "pieceKey": "grieg|t|solvejg song",
-   "movement": "",
+   "pieceKey": "grieg|t|gynt peer",
+   "movement": "Solvejg's song",
    "genre": "Opera & stage",
    "composerFame": "famous",
    "performerFame": "known"
@@ -46461,7 +46481,7 @@
    "composer": "Giacomo Puccini",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Puccini – Vissi d'arte",
+   "piece": "Puccini – Tosca",
    "work": "Puccini – Vissi d'arte e d'amor",
    "part": "",
    "title": "Vissi d'arte e d'amor",
@@ -46478,8 +46498,8 @@
    "license": "Public domain (US)",
    "genreHint": "Opera & stage",
    "famous": false,
-   "pieceKey": "puccini|t|arte vissi",
-   "movement": "",
+   "pieceKey": "puccini|t|tosca",
+   "movement": "Vissi d'arte e d'amor",
    "genre": "Opera & stage",
    "composerFame": "famous",
    "performerFame": "famous"
@@ -49299,7 +49319,7 @@
    "composer": "Charles Gounod",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Gounod – Fantasie from garden scene",
+   "piece": "Gounod – Finale to garden scene",
    "work": "Gounod – Fantasie from garden scene",
    "part": "",
    "title": "Fantasie from garden scene",
@@ -49316,7 +49336,7 @@
    "license": "Public domain (US)",
    "genreHint": "Opera & stage",
    "famous": false,
-   "pieceKey": "gounod|t|fantasie garden scene",
+   "pieceKey": "gounod|t|finale garden scene",
    "movement": "",
    "genre": "Opera & stage",
    "composerFame": "famous",
@@ -50378,7 +50398,7 @@
    "composer": "Jacques Offenbach",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Offenbach – Tales of Hoffmann : Barcarolle",
+   "piece": "Offenbach – The Tales of Hoffmann",
    "work": "Offenbach – Tales of Hoffmann : Barcarolle",
    "part": "",
    "title": "Tales of Hoffmann : Barcarolle",
@@ -52650,7 +52670,7 @@
    "composer": "Richard Wagner",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Wagner – Dich, teure Halle",
+   "piece": "Wagner – Tannhäuser",
    "work": "Wagner – Dich, teure Halle",
    "part": "",
    "title": "Dich, teure Halle",
@@ -52667,8 +52687,8 @@
    "license": "Public domain (US)",
    "genreHint": "Opera & stage",
    "famous": false,
-   "pieceKey": "wagner|t|dich halle teure",
-   "movement": "",
+   "pieceKey": "wagner|t|tannhauser",
+   "movement": "Dich, teure Halle",
    "genre": "Opera & stage",
    "composerFame": "famous",
    "performerFame": "obscure"
@@ -53114,7 +53134,7 @@
    "composer": "Giacomo Puccini",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Puccini – Madame Butterfly fantasie",
+   "piece": "Puccini – Madam Butterfly",
    "work": "Puccini – Madame Butterfly fantasie",
    "part": "",
    "title": "Madame Butterfly fantasie",
@@ -53131,7 +53151,7 @@
    "license": "Public domain (US)",
    "genreHint": "Opera & stage",
    "famous": false,
-   "pieceKey": "puccini|t|butterfly fantasie madame",
+   "pieceKey": "puccini|t|butterfly madam",
    "movement": "",
    "genre": "Opera & stage",
    "composerFame": "famous",
@@ -59524,7 +59544,7 @@
    "license": "Public domain (US)",
    "genreHint": "Opera & stage",
    "famous": false,
-   "pieceKey": "gounod|t|merveille",
+   "pieceKey": "gounod|t|mireille",
    "movement": "",
    "genre": "Opera & stage",
    "composerFame": "famous",
@@ -59629,7 +59649,7 @@
    "composer": "Jacques Offenbach",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Offenbach – Tales of Hoffmann : Barcarolle",
+   "piece": "Offenbach – The Tales of Hoffmann",
    "work": "Offenbach – Tales of Hoffmann : Barcarolle",
    "part": "",
    "title": "Tales of Hoffmann : Barcarolle",
@@ -61457,7 +61477,7 @@
    "composer": "Giacomo Puccini",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Puccini – Vissi d'arte",
+   "piece": "Puccini – Tosca",
    "work": "Puccini – Vissi d'arte e d'amor",
    "part": "",
    "title": "Vissi d'arte e d'amor",
@@ -61474,8 +61494,8 @@
    "license": "Public domain (US)",
    "genreHint": "Opera & stage",
    "famous": false,
-   "pieceKey": "puccini|t|arte vissi",
-   "movement": "",
+   "pieceKey": "puccini|t|tosca",
+   "movement": "Vissi d'arte e d'amor",
    "genre": "Opera & stage",
    "composerFame": "famous",
    "performerFame": "known"
@@ -63197,7 +63217,7 @@
    "license": "Public domain (US)",
    "genreHint": "Songs",
    "famous": false,
-   "pieceKey": "mozart|t|alleluja",
+   "pieceKey": "mozart|t|alleluia",
    "movement": "",
    "genre": "Songs",
    "composerFame": "famous",
@@ -64598,7 +64618,7 @@
    "composer": "Richard Wagner",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Wagner – Isolde's Liebestod",
+   "piece": "Wagner – Isolde's Liebestodt",
    "work": "Wagner – Isolde's Liebestod",
    "part": "",
    "title": "Isolde's Liebestod",
@@ -64615,7 +64635,7 @@
    "license": "Public domain (US)",
    "genreHint": "Opera & stage",
    "famous": false,
-   "pieceKey": "wagner|t|isolde liebestod",
+   "pieceKey": "wagner|t|isolde liebestodt",
    "movement": "",
    "genre": "Opera & stage",
    "composerFame": "famous",
@@ -64790,7 +64810,7 @@
    "composer": "Giacomo Puccini",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Puccini – Vissi d'arte",
+   "piece": "Puccini – Tosca",
    "work": "Puccini – Vissi d'arte e d'amor",
    "part": "",
    "title": "Vissi d'arte e d'amor",
@@ -64807,8 +64827,8 @@
    "license": "Public domain (US)",
    "genreHint": "Opera & stage",
    "famous": false,
-   "pieceKey": "puccini|t|arte vissi",
-   "movement": "",
+   "pieceKey": "puccini|t|tosca",
+   "movement": "Vissi d'arte e d'amor",
    "genre": "Opera & stage",
    "composerFame": "famous",
    "performerFame": "famous"
@@ -64866,7 +64886,7 @@
    "composer": "Frédéric Chopin",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Chopin – Aimez-moi",
+   "piece": "Chopin – Aime-moi",
    "work": "Chopin – Aimez-moi",
    "part": "",
    "title": "Aimez-moi",
@@ -64883,7 +64903,7 @@
    "license": "Public domain (US)",
    "genreHint": "Songs",
    "famous": false,
-   "pieceKey": "chopin|t|aimez moi",
+   "pieceKey": "chopin|t|aime moi",
    "movement": "",
    "genre": "Songs",
    "composerFame": "famous",
@@ -65710,7 +65730,7 @@
    "composer": "Ruggiero Leoncavallo",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Leoncavallo – Pagliacci : Prologo",
+   "piece": "Leoncavallo – Prologue i' Pagliacci",
    "work": "Leoncavallo – Pagliacci : Prologo",
    "part": "",
    "title": "Pagliacci : Prologo",
@@ -65727,7 +65747,7 @@
    "license": "Public domain (US)",
    "genreHint": "Opera & stage",
    "famous": false,
-   "pieceKey": "leoncavallo|t|pagliacci prologo",
+   "pieceKey": "leoncavallo|t|pagliacci prologue",
    "movement": "",
    "genre": "Opera & stage",
    "composerFame": "famous",
@@ -65824,7 +65844,7 @@
    "composer": "Giacomo Puccini",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Puccini – Vissi d'arte",
+   "piece": "Puccini – Tosca",
    "work": "Puccini – Vissi d'arte e d'amor",
    "part": "",
    "title": "Vissi d'arte e d'amor",
@@ -65841,8 +65861,8 @@
    "license": "Public domain (US)",
    "genreHint": "Opera & stage",
    "famous": false,
-   "pieceKey": "puccini|t|arte vissi",
-   "movement": "",
+   "pieceKey": "puccini|t|tosca",
+   "movement": "Vissi d'arte e d'amor",
    "genre": "Opera & stage",
    "composerFame": "famous",
    "performerFame": "famous"
@@ -65862,7 +65882,7 @@
    "composer": "Giacomo Puccini",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Puccini – Vissi d'arte",
+   "piece": "Puccini – Tosca",
    "work": "Puccini – Vissi d'arte e d'amor",
    "part": "",
    "title": "Vissi d'arte e d'amor",
@@ -65879,8 +65899,8 @@
    "license": "Public domain (US)",
    "genreHint": "Opera & stage",
    "famous": false,
-   "pieceKey": "puccini|t|arte vissi",
-   "movement": "",
+   "pieceKey": "puccini|t|tosca",
+   "movement": "Vissi d'arte e d'amor",
    "genre": "Opera & stage",
    "composerFame": "famous",
    "performerFame": "famous"
@@ -66554,7 +66574,7 @@
    "composer": "Ruggiero Leoncavallo",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Leoncavallo – Prologo",
+   "piece": "Leoncavallo – Prologue",
    "work": "Leoncavallo – Prologo",
    "part": "",
    "title": "Prologo",
@@ -66571,7 +66591,7 @@
    "license": "Public domain (US)",
    "genreHint": "Opera & stage",
    "famous": false,
-   "pieceKey": "leoncavallo|t|prologo",
+   "pieceKey": "leoncavallo|t|prologue",
    "movement": "",
    "genre": "Opera & stage",
    "composerFame": "famous",
@@ -66938,7 +66958,7 @@
    "composer": "Ruggiero Leoncavallo",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Leoncavallo – Ballatella, che volo d'augelli",
+   "piece": "Leoncavallo – Che volo d'angelli",
    "work": "Leoncavallo – Ballatella, che volo d'augelli",
    "part": "",
    "title": "Ballatella, che volo d'augelli",
@@ -66955,7 +66975,7 @@
    "license": "Public domain (US)",
    "genreHint": "Opera & stage",
    "famous": false,
-   "pieceKey": "leoncavallo|t|augelli ballatella che volo",
+   "pieceKey": "leoncavallo|t|angelli che volo",
    "movement": "",
    "genre": "Opera & stage",
    "composerFame": "famous",
@@ -67166,7 +67186,7 @@
    "composer": "Giuseppe Verdi",
    "composerDates": "",
    "otherComposers": [],
-   "piece": "Verdi – O vecchio cor, che batti",
+   "piece": "Verdi – I due Foscari",
    "work": "Verdi – O vecchio cor, che batti",
    "part": "",
    "title": "O vecchio cor, che batti",
@@ -67183,8 +67203,8 @@
    "license": "Public domain (US)",
    "genreHint": "Opera & stage",
    "famous": false,
-   "pieceKey": "verdi|t|batti che cor vecchio",
-   "movement": "",
+   "pieceKey": "verdi|t|due foscari",
+   "movement": "O vecchio cor, che batti",
    "genre": "Opera & stage",
    "composerFame": "famous",
    "performerFame": "known"
@@ -73716,10 +73736,6 @@
    "balfe|t|arco giovanna"
   ],
   [
-   "Balfe – I dreamed I dwelt in marble halls",
-   "balfe|t|dreamed dwelt hall marble"
-  ],
-  [
    "Balfe – L'étoile de Seville",
    "balfe|t|etoile seville"
   ],
@@ -76516,10 +76532,6 @@
    "brahms|t|wiegenlied"
   ],
   [
-   "Brahms – Wiegenlied, Op. 49, No. 4",
-   "brahms|op49|4"
-  ],
-  [
    "Brassin – Aus Richard Wagner's Der Ring des Nibelungen",
    "brassin|t|der nibelungen richard ring wagner"
   ],
@@ -77168,10 +77180,6 @@
    "chopin|t|aime moi"
   ],
   [
-   "Chopin – Aimez-moi",
-   "chopin|t|aimez moi"
-  ],
-  [
    "Chopin – Allegretto in F-sharp major, KK Anh.II/1",
    "chopin|t|1 allegretto anh ii keyfsharpmaj kk"
   ],
@@ -77762,34 +77770,6 @@
   [
    "Chopin – Nocturne, Op. 9 No. 2",
    "chopin|op9|2"
-  ],
-  [
-   "Chopin – Nocturnes, Op. 15",
-   "chopin|op15|"
-  ],
-  [
-   "Chopin – Nocturnes, Op. 27",
-   "chopin|op27|"
-  ],
-  [
-   "Chopin – Nocturnes, Op. 32",
-   "chopin|op32|"
-  ],
-  [
-   "Chopin – Nocturnes, Op. 37",
-   "chopin|op37|"
-  ],
-  [
-   "Chopin – Nocturnes, Op. 48",
-   "chopin|op48|"
-  ],
-  [
-   "Chopin – Nocturnes, Op. 55",
-   "chopin|op55|"
-  ],
-  [
-   "Chopin – Nocturnes, Op. 62",
-   "chopin|op62|"
   ],
   [
    "Chopin – O wiem, że Polska, KK Anh.Ic/4",
@@ -78661,10 +78641,6 @@
   ],
   [
    "Cuvillier – Lila Domino",
-   "cuvillier|t|domino lila"
-  ],
-  [
-   "Cuvillier – Lilac Domino",
    "cuvillier|t|domino lilac"
   ],
   [
@@ -80612,10 +80588,6 @@
    "dvorak|t|humoresque"
   ],
   [
-   "Dvořák – Humoresques, Op. 101",
-   "dvorak|op101|"
-  ],
-  [
    "Dvořák – Humoresques, Op. 101, No. 7",
    "dvorak|op101|7"
   ],
@@ -81040,12 +81012,8 @@
    "eckert|t|echo song swiss"
   ],
   [
-   "Edwards – By the Light of the Silvery Moon",
-   "edwards|t|by light moon silvery"
-  ],
-  [
    "Edwards – By the light of the silv'ry moon",
-   "edwards|t|by light moon ry silv"
+   "edwards|t|by light moon silvery"
   ],
   [
    "Edwards – Dolly Varden",
@@ -82580,12 +82548,8 @@
    "glazunov|t|corde quintette"
   ],
   [
-   "Glazunov – Raymonda",
-   "glazunov|t|raymonda"
-  ],
-  [
    "Glazunov – Raĭmonda",
-   "glazunov|t|raimonda"
+   "glazunov|t|raymonda"
   ],
   [
    "Glazunov – Rêverie",
@@ -83496,10 +83460,6 @@
    "gounod|t|eternelle forever thine"
   ],
   [
-   "Gounod – Fantasie from garden scene",
-   "gounod|t|fantasie garden scene"
-  ],
-  [
    "Gounod – Faust",
    "gounod|t|faust"
   ],
@@ -83640,10 +83600,6 @@
    "gounod|t|7 breve messe"
   ],
   [
-   "Gounod – Mireille",
-   "gounod|t|mireille"
-  ],
-  [
    "Gounod – Mirella",
    "gounod|t|mirella"
   ],
@@ -83681,7 +83637,7 @@
   ],
   [
    "Gounod – O merveille!",
-   "gounod|t|merveille"
+   "gounod|t|mireille"
   ],
   [
    "Gounod – Petite Symphonie",
@@ -83728,12 +83684,8 @@
    "gounod|t|cg80 requiem"
   ],
   [
-   "Gounod – Roméo et Juliete",
-   "gounod|t|juliete romeo"
-  ],
-  [
    "Gounod – Roméo et Juliette",
-   "gounod|t|juliette romeo"
+   "gounod|t|juliete romeo"
   ],
   [
    "Gounod – Salut, demeure",
@@ -84218,10 +84170,6 @@
   [
    "Grieg – Solvejg",
    "grieg|t|solvejg"
-  ],
-  [
-   "Grieg – Solvejg's song",
-   "grieg|t|solvejg song"
   ],
   [
    "Grieg – Song of Norway",
@@ -88096,10 +88044,6 @@
    "leoncavallo|t|are there you"
   ],
   [
-   "Leoncavallo – Ballatella, che volo d'augelli",
-   "leoncavallo|t|augelli ballatella che volo"
-  ],
-  [
    "Leoncavallo – Buona Zaza, del mio buon tempo",
    "leoncavallo|t|buon buona del mio tempo zaza"
   ],
@@ -88162,14 +88106,6 @@
   [
    "Leoncavallo – Pagliacci",
    "leoncavallo|t|pagliacci"
-  ],
-  [
-   "Leoncavallo – Pagliacci : Prologo",
-   "leoncavallo|t|pagliacci prologo"
-  ],
-  [
-   "Leoncavallo – Prologo",
-   "leoncavallo|t|prologo"
   ],
   [
    "Leoncavallo – Prologue",
@@ -88609,7 +88545,7 @@
   ],
   [
    "Liszt – Hungarian Rhapsody No. 2",
-   "liszt|t|2 hungarian rhapsody"
+   "liszt|t|2 hungarian roidy"
   ],
   [
    "Liszt – Hungarian Rhapsody No. 3",
@@ -88638,10 +88574,6 @@
   [
    "Liszt – Hungarian Rhapsody No. 9",
    "liszt|t|9 hungarian rhapsody"
-  ],
-  [
-   "Liszt – Hungarian Roidy No. 2",
-   "liszt|t|2 hungarian roidy"
   ],
   [
    "Liszt – Hunnenschlacht, S. 105",
@@ -88884,10 +88816,6 @@
    "liszt|t|10 etude transcendental"
   ],
   [
-   "Liszt – Transcendental Étude No. 11",
-   "liszt|t|11 etude transcendental"
-  ],
-  [
    "Liszt – Transcendental Étude No. 12",
    "liszt|t|12 etude transcendental"
   ],
@@ -88914,14 +88842,6 @@
   [
    "Liszt – Transcendental Étude No. 7",
    "liszt|t|7 etude transcendental"
-  ],
-  [
-   "Liszt – Transcendental Étude No. 8",
-   "liszt|t|8 etude transcendental"
-  ],
-  [
-   "Liszt – Transcendental Étude No. 9",
-   "liszt|t|9 etude transcendental"
   ],
   [
    "Liszt – Tre sonetti di Petrarca",
@@ -88989,15 +88909,15 @@
   ],
   [
    "Liszt – Études d'exécution transcendante, No 11",
-   "liszt|t|11 etude execution transcendante"
+   "liszt|t|11 etude transcendental"
   ],
   [
    "Liszt – Études d'exécution transcendante, No 8",
-   "liszt|t|8 etude execution transcendante"
+   "liszt|t|8 etude transcendental"
   ],
   [
    "Liszt – Études d'exécution transcendante, No 9",
-   "liszt|t|9 etude execution transcendante"
+   "liszt|t|9 etude transcendental"
   ],
   [
    "Liszt – Études de concert (1849), No 2",
@@ -91552,12 +91472,8 @@
    "mozart|t|allegro keydmaj"
   ],
   [
-   "Mozart – Alleluia",
-   "mozart|t|alleluia"
-  ],
-  [
    "Mozart – Alleluja",
-   "mozart|t|alleluja"
+   "mozart|t|alleluia"
   ],
   [
    "Mozart – Als Luise die Briefe ihres ungetreuen Liebhabers verbrannte",
@@ -93520,7 +93436,7 @@
    "nicolai|t|1 keydmaj mass"
   ],
   [
-   "Nicolai – The merry wives of Windsor : Overture",
+   "Nicolai – The Merry Wives of Windsor",
    "nicolai|t|merry windsor wive"
   ],
   [
@@ -93944,14 +93860,6 @@
    "offenbach|t|dudacek savojsky"
   ],
   [
-   "Offenbach – Tales of Hoffman : Barcarolle",
-   "offenbach|t|barcarolle hoffman tale"
-  ],
-  [
-   "Offenbach – Tales of Hoffmann : Barcarolle",
-   "offenbach|t|hoffmann tale"
-  ],
-  [
    "Offenbach – Tarte à la crème",
    "offenbach|t|creme tarte"
   ],
@@ -93966,6 +93874,10 @@
   [
    "Offenbach – The Princess of Trébizonde",
    "offenbach|t|princess trebizonde"
+  ],
+  [
+   "Offenbach – The Tales of Hoffmann",
+   "offenbach|t|hoffmann tale"
   ],
   [
    "Offenbach – Tromb-al-ca-zar, ou Les criminels dramatiques",
@@ -94512,14 +94424,6 @@
    "puccini|t|butterfly madama"
   ],
   [
-   "Puccini – Madame Butterfly : Fantasia",
-   "puccini|t|butterfly fantasia madame"
-  ],
-  [
-   "Puccini – Madame Butterfly fantasie",
-   "puccini|t|butterfly fantasie madame"
-  ],
-  [
    "Puccini – Manon Lescaut",
    "puccini|t|lescaut manon"
   ],
@@ -94766,10 +94670,6 @@
   [
    "Rachmaninoff – Preludes",
    "rachmaninoff|t|prelude"
-  ],
-  [
-   "Rachmaninoff – Preludes, Op. 23",
-   "rachmaninoff|op23|"
   ],
   [
    "Rachmaninoff – Prince Rostislav",
@@ -96348,10 +96248,6 @@
    "sarasate|t|carmen fantasy"
   ],
   [
-   "Sarasate – Gipsy airs",
-   "sarasate|t|airs gipsy"
-  ],
-  [
    "Sarasate – Gypsy airs",
    "sarasate|t|airs gypsy"
   ],
@@ -96884,6 +96780,10 @@
    "schubert|t|3 moment musical"
   ],
   [
+   "Schubert – Musical moments",
+   "schubert|t|moment musicaux six"
+  ],
+  [
    "Schubert – Nacht und Träume",
    "schubert|t|nacht traume und"
   ],
@@ -97070,10 +96970,6 @@
   [
    "Schubert – Serenata",
    "schubert|t|serenata"
-  ],
-  [
-   "Schubert – Six moments musicaux",
-   "schubert|t|moment musicaux six"
   ],
   [
    "Schubert – Sonata for Violin and Piano in A Major D. 574, \"Duo\"",
@@ -97344,12 +97240,8 @@
    "schumann|op46|"
   ],
   [
-   "Schumann – Arabeske in C major",
-   "schumann|t|arabeske keycmaj"
-  ],
-  [
    "Schumann – Arabesque, Op. 18, C major",
-   "schumann|op18|"
+   "schumann|t|arabeske keycmaj"
   ],
   [
    "Schumann – Barn Jesus i en krybbe lå",
@@ -97506,10 +97398,6 @@
   [
    "Schumann – Karneval",
    "schumann|t|karneval"
-  ],
-  [
-   "Schumann – Kinderscenen",
-   "schumann|t|kinderscenen"
   ],
   [
    "Schumann – Kinderszenen",
@@ -97789,10 +97677,6 @@
   ],
   [
    "Schumann – Waldscenen",
-   "schumann|t|waldscenen"
-  ],
-  [
-   "Schumann – Waldszenen",
    "schumann|t|waldszenen"
   ],
   [
@@ -98978,10 +98862,6 @@
   [
    "Sinding – Piano Concerto",
    "sinding|t|concerto"
-  ],
-  [
-   "Sinding – Pianoforte-Stücke",
-   "sinding|t|stucke"
   ],
   [
    "Sinding – Pianotrio No. 1",
@@ -100812,10 +100692,6 @@
    "strauss|t|intermezzo"
   ],
   [
-   "Strauss – Intermezzo aus \"Tausend und eine Nacht\"",
-   "strauss|t|eine intermezzo nacht tausend und"
-  ],
-  [
    "Strauss – Invitation a la Polka-Mazur",
    "strauss|t|invitation mazur polka"
   ],
@@ -101961,7 +101837,7 @@
   ],
   [
    "Strauss – Tausend und eine Nacht (Waltz)",
-   "strauss|t|eine nacht tausend und"
+   "strauss|t|eine intermezzo nacht tausend und"
   ],
   [
    "Strauss – Telegrafische Depeschen",
@@ -103780,16 +103656,12 @@
    "verdi|t|ballo della regina"
   ],
   [
-   "Verdi – Brindisi",
-   "verdi|t|brindisi"
-  ],
-  [
    "Verdi – Brindisi, Inaffia i'ugola",
    "verdi|t|brindisi inaffia ugola"
   ],
   [
    "Verdi – Brinidisi",
-   "verdi|t|brinidisi"
+   "verdi|t|brindisi"
   ],
   [
    "Verdi – Caro nome",
@@ -103798,10 +103670,6 @@
   [
    "Verdi – Credo",
    "verdi|t|credo"
-  ],
-  [
-   "Verdi – Credo (Iago's creed)",
-   "verdi|t|credo creed iago"
   ],
   [
    "Verdi – D'amor sull' ali rosee",
@@ -104036,10 +103904,6 @@
    "verdi|t|addio terra"
   ],
   [
-   "Verdi – O vecchio cor, che batti",
-   "verdi|t|batti che cor vecchio"
-  ],
-  [
    "Verdi – Oberto, conte di San Bonifacio",
    "verdi|t|bonifacio conte di oberto san"
   ],
@@ -104244,10 +104108,6 @@
    "wagner|t|das liebesverbot"
   ],
   [
-   "Wagner – Dich, teure Halle",
-   "wagner|t|dich halle teure"
-  ],
-  [
    "Wagner – Die Feen",
    "wagner|t|die feen"
   ],
@@ -104310,10 +104170,6 @@
   [
    "Wagner – Höre mit Sinn",
    "wagner|t|hore mit sinn"
-  ],
-  [
-   "Wagner – Isolde's Liebestod",
-   "wagner|t|isolde liebestod"
   ],
   [
    "Wagner – Isolde's Liebestodt",
@@ -105358,6 +105214,10 @@
    "brahms|op39|"
   ],
   [
+   "Brahms – Wiegenlied, Op. 49, No. 4",
+   "brahms|t|wiegenlied"
+  ],
+  [
    "Caryll – The Pink Lady",
    "caryll|t|lady pink"
   ],
@@ -105420,6 +105280,34 @@
   [
    "Chopin – Nocturne No. 9 in B major, Op. 32, No. 1",
    "chopin|op32|1"
+  ],
+  [
+   "Chopin – Nocturnes, Op. 15",
+   "chopin|t|nocturne"
+  ],
+  [
+   "Chopin – Nocturnes, Op. 27",
+   "chopin|t|nocturne"
+  ],
+  [
+   "Chopin – Nocturnes, Op. 32",
+   "chopin|t|nocturne"
+  ],
+  [
+   "Chopin – Nocturnes, Op. 37",
+   "chopin|t|nocturne"
+  ],
+  [
+   "Chopin – Nocturnes, Op. 48",
+   "chopin|t|nocturne"
+  ],
+  [
+   "Chopin – Nocturnes, Op. 55",
+   "chopin|t|nocturne"
+  ],
+  [
+   "Chopin – Nocturnes, Op. 62",
+   "chopin|t|nocturne"
   ],
   [
    "Chopin – Polonaise Op. 40 No. 1 in A major",
@@ -105494,6 +105382,10 @@
    "crusell|t|dig hell hoga nord"
   ],
   [
+   "Cuvillier – Lilac Domino",
+   "cuvillier|t|domino lilac"
+  ],
+  [
    "Danks – Silver Threads Among the Gold",
    "danks|t|among gold silver thread"
   ],
@@ -105518,6 +105410,14 @@
    "di capua|t|mio sole"
   ],
   [
+   "Dvořák – Humoresques, Op. 101",
+   "dvorak|t|humoresque"
+  ],
+  [
+   "Edwards – By the Light of the Silvery Moon",
+   "edwards|t|by light moon silvery"
+  ],
+  [
    "Elgar – Salut d'Amour",
    "elgar|t|amour salut"
   ],
@@ -105534,8 +105434,20 @@
    "gilbert|t|die keusche susanne"
   ],
   [
+   "Glazunov – Raymonda",
+   "glazunov|t|raymonda"
+  ],
+  [
    "Godard – Viens avec nous, petit",
    "godard|t|avec nous petit vien"
+  ],
+  [
+   "Gounod – Mireille",
+   "gounod|t|mireille"
+  ],
+  [
+   "Gounod – Roméo et Juliete",
+   "gounod|t|juliete romeo"
   ],
   [
    "Grieg – Lyric Pieces, Op. 43",
@@ -105590,6 +105502,10 @@
    "liszt|s102|"
   ],
   [
+   "Liszt – Hungarian Roidy No. 2",
+   "liszt|t|2 hungarian roidy"
+  ],
+  [
    "Liszt – Loreley, piano (1861)",
    "liszt|t|1861 loreley"
   ],
@@ -105610,6 +105526,18 @@
    "liszt|s418|"
   ],
   [
+   "Liszt – Transcendental Étude No. 11",
+   "liszt|t|11 etude transcendental"
+  ],
+  [
+   "Liszt – Transcendental Étude No. 8",
+   "liszt|t|8 etude transcendental"
+  ],
+  [
+   "Liszt – Transcendental Étude No. 9",
+   "liszt|t|9 etude transcendental"
+  ],
+  [
    "Löhr – Little Grey Home in the West",
    "lohr|t|grey home little west"
   ],
@@ -105628,6 +105556,10 @@
   [
    "Mendelssohn-Bartholdy – Symphony No. 3",
    "mendelssohn-bartholdy|t|3 symphony"
+  ],
+  [
+   "Mozart – Alleluia",
+   "mozart|t|alleluia"
   ],
   [
    "Mozart – Les petits riens",
@@ -105662,20 +105594,12 @@
    "mozart|k31|"
   ],
   [
-   "Nicolai – The Merry Wives of Windsor",
-   "nicolai|t|merry windsor wive"
-  ],
-  [
    "Nutile – Mamma mia che vo' sapé?!",
    "nutile|t|che mamma mia sape vo"
   ],
   [
    "Offenbach – La Belle Hélène",
    "offenbach|t|belle helene"
-  ],
-  [
-   "Offenbach – The Tales of Hoffmann",
-   "offenbach|t|hoffmann tale"
   ],
   [
    "Olcott – My Wild Irish Rose",
@@ -105700,6 +105624,10 @@
   [
    "Rachmaninoff – Morceaux de fantaisie",
    "rachmaninoff|t|fantaisie morceaux"
+  ],
+  [
+   "Rachmaninoff – Preludes, Op. 23",
+   "rachmaninoff|t|prelude"
   ],
   [
    "Rosas – Sobre las Olas",
@@ -105730,6 +105658,10 @@
    "schubert|t|bist die ruh"
   ],
   [
+   "Schubert – Six moments musicaux",
+   "schubert|t|moment musicaux six"
+  ],
+  [
    "Schubert – Three Marches Militaires",
    "schubert|t|marche militaire three"
   ],
@@ -105738,8 +105670,16 @@
    "schumann|t|albumblatter"
   ],
   [
+   "Schumann – Arabeske in C major",
+   "schumann|t|arabeske keycmaj"
+  ],
+  [
    "Schumann – Piano Sonata No. 2",
    "schumann|t|2 sonata"
+  ],
+  [
+   "Schumann – Waldszenen",
+   "schumann|t|waldszenen"
   ],
   [
    "Scriabin – Prélude et Nocturne for Piano",
@@ -105754,6 +105694,10 @@
    "silcher|t|lorelei"
   ],
   [
+   "Sinding – Pianoforte-Stücke",
+   "sinding|op32|"
+  ],
+  [
    "Sinding – Sechs Stücke für das Pianoforte opus 32",
    "sinding|op32|"
   ],
@@ -105766,6 +105710,10 @@
    "strauss|trv156|"
   ],
   [
+   "Strauss – Intermezzo aus \"Tausend und eine Nacht\"",
+   "strauss|t|eine intermezzo nacht tausend und"
+  ],
+  [
    "Strauss – Man lebt nur einmal!",
    "strauss|t|einmal lebt man nur"
   ],
@@ -105775,7 +105723,7 @@
   ],
   [
    "Strauss – Tausend und eine Nacht",
-   "strauss|t|eine nacht tausend und"
+   "strauss|t|eine intermezzo nacht tausend und"
   ],
   [
    "Strauss – The Blue Danube",
@@ -105812,6 +105760,10 @@
   [
    "Tchaikovsky – Symphony No. 6",
    "tchaikovsky|t|6 symphony"
+  ],
+  [
+   "Verdi – Brindisi",
+   "verdi|t|brindisi"
   ],
   [
    "Verdi – Dio, che nell’alma infondere amor…",
