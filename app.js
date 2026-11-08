@@ -241,6 +241,43 @@
     return h;
   }
 
+  /* ---------- search-as-you-type ---------- */
+  const index = list => list.map(t => ({ t, n: " " + norm(t) + " " }));
+  function suggest(input, idx) {
+    input.setAttribute("autocomplete", "off"); input.setAttribute("role", "combobox"); input.setAttribute("aria-expanded", "false");
+    const box = document.createElement("ul"); box.className = "suggest"; box.setAttribute("role", "listbox"); box.hidden = true;
+    input.insertAdjacentElement("afterend", box);
+    let items = [], sel = -1;
+    const show = () => {
+      const q = norm(input.value);
+      if (!q) { box.hidden = true; input.setAttribute("aria-expanded", "false"); return; }
+      const toks = q.split(" ");
+      const hits = [];
+      for (const o of idx) {
+        let ok = true, score = 0;
+        for (const t of toks) { const at = o.n.indexOf(t); if (at < 0) { ok = false; break; } if (o.n[at - 1] === " ") score += 2; }
+        if (ok) hits.push([score * 1000 - o.t.length, o.t]);
+      }
+      hits.sort((a, b) => b[0] - a[0]);
+      items = hits.slice(0, 8).map(h => h[1]); sel = -1;
+      box.innerHTML = items.length ? items.map((t, i) => `<li role="option" data-i="${i}">${esc(t)}</li>`).join("") : `<li class="none">No matches</li>`;
+      box.hidden = false; input.setAttribute("aria-expanded", "true");
+    };
+    const pick = i => { if (items[i] != null) input.value = items[i]; box.hidden = true; input.setAttribute("aria-expanded", "false"); };
+    const mark = () => [...box.children].forEach((li, i) => li.classList.toggle("on", i === sel));
+    input.addEventListener("input", show);
+    input.addEventListener("focus", () => { if (input.value) show(); });
+    input.addEventListener("blur", () => setTimeout(() => { box.hidden = true; }, 120));
+    input.addEventListener("keydown", e => {
+      if (box.hidden || !items.length) return;
+      if (e.key === "ArrowDown") { sel = Math.min(items.length - 1, sel + 1); mark(); e.preventDefault(); }
+      else if (e.key === "ArrowUp") { sel = Math.max(0, sel - 1); mark(); e.preventDefault(); }
+      else if (e.key === "Enter" && sel >= 0) { pick(sel); e.preventDefault(); }
+      else if (e.key === "Escape") { box.hidden = true; }
+    });
+    box.addEventListener("mousedown", e => { const li = e.target.closest("li[data-i]"); if (li) { pick(+li.dataset.i); e.preventDefault(); } });
+  }
+
   /* ---------- render ---------- */
   function render() {
     const daily = MODE === "daily";
@@ -274,9 +311,9 @@
       <div class="row"><h2>${P.kind === "record" ? "Who's on it, and what?" : "Who's playing, and what?"}</h2><span class="pts">${S.misses}/${MAX_MISSES} misses</span></div>
       ${S.done ? "" : `<form id="guess" autocomplete="off">
         ${P.performers.map((p, i) => `<div class="field ${S.nameAt[i] ? "solved" : ""}"><div class="row"><label class="label" for="g-p${i}">${esc(roleLabel(i))}</label>${S.nameAt[i] ? `<span class="chip">✓</span>` : `<span class="pts">up to ${Math.round(50 / P.performers.length) / 10} pts</span>`}</div>
-          <input type="text" id="g-p${i}" list="dl-names" placeholder="${roleOf(i) === "orchestra" ? "Start typing an orchestra" : "Start typing a name"}" ${S.nameAt[i] ? `value="${esc(p)}" disabled` : ""}></div>`).join("")}
+          <input type="text" id="g-p${i}" placeholder="${roleOf(i) === "orchestra" ? "Start typing an orchestra" : "Start typing a name"}" ${S.nameAt[i] ? `value="${esc(p)}" disabled` : ""}></div>`).join("")}
         <div class="field ${S.pieceAt ? "solved" : ""}"><div class="row"><label class="label" for="g-piece">Piece</label>${S.pieceAt ? `<span class="chip">✓</span>` : S.composerAt ? `<span class="chip part">Composer ✓</span>` : `<span class="pts">up to 3 pts · right composer 1</span>`}</div>
-          <input type="text" id="g-piece" list="dl-pieces" placeholder="Start typing a composer or title" ${S.pieceAt ? `value="${esc(P.piece)}" disabled` : ""}></div>
+          <input type="text" id="g-piece" placeholder="Start typing a composer or title" ${S.pieceAt ? `value="${esc(P.piece)}" disabled` : ""}></div>
         <div class="controls"><button class="btn primary" type="submit">Guess</button><button class="btn" type="button" id="skip">Skip, play more</button></div>
       </form>`}
       ${hs.length ? `<div><div class="label">Hints</div><ul class="hints">${hs.map(h => `<li>${esc(h)}</li>`).join("")}</ul></div>` : ""}
@@ -298,9 +335,10 @@
       <span>${daily ? "A new recording every day at midnight." : "Practice puzzles are random and don't count toward your daily stats."} Rolls from the <a href="https://supra.stanford.edu" target="_blank" rel="noopener">Stanford University Piano Roll Archive</a> (CC BY-NC-SA 4.0). Records from the <a href="https://www.loc.gov/collections/national-jukebox/" target="_blank" rel="noopener">Library of Congress National Jukebox</a> (public domain). Piano sound: Salamander Grand Piano by Alexander Holm (CC BY 3.0). Played with Tone.js.</span>
       <span>Something wrong with an answer? <a href="https://github.com/${REPO}/issues/new?title=${encodeURIComponent("Problem with " + (daily ? "No. " + (DAY + 1) : "a practice puzzle"))}&body=${encodeURIComponent("Recording id: " + P.id + "\nWhat's wrong:\n")}" target="_blank" rel="noopener">Report it</a>.</span>
     </footer>
-    <datalist id="dl-names">${CAT.nameOptions.map(p => `<option value="${esc(p)}">`).join("")}</datalist>
-    <datalist id="dl-pieces">${CAT.pieceOptions.map(p => `<option value="${esc(p)}">`).join("")}</datalist>`;
+`;
 
+    P.performers.forEach((_, i) => { const el = document.getElementById("g-p" + i); if (el && !el.disabled) suggest(el, CAT.nameIndex); });
+    const pin = document.getElementById("g-piece"); if (pin && !pin.disabled) suggest(pin, CAT.pieceIndex);
     const canvas = document.getElementById("roll"), status = document.getElementById("status");
     draw(canvas, 0);
     const bars = [...app.querySelectorAll(".bar span i")];
@@ -398,7 +436,8 @@
     CAT.allPerformers = [...new Set(cat.recordings.flatMap(r => r.performers))];
     CAT.countBy = {}; cat.recordings.forEach(r => r.performers.forEach(p => (CAT.countBy[p] = (CAT.countBy[p] || 0) + 1)));
     CAT.nameOptions = [...new Set(CAT.allPerformers.concat(DECOYS))].sort((a, b) => surname(a).localeCompare(surname(b)));
-    CAT.pieceOptions = [...new Set(cat.recordings.map(r => r.piece))].sort();
+    CAT.pieceOptions = [...new Set(cat.recordings.map(r => r.piece).concat(cat.extraPieces || []))].sort();
+    CAT.nameIndex = index(CAT.nameOptions); CAT.pieceIndex = index(CAT.pieceOptions);
     const route = () => setMode(location.hash === "#practice" ? "practice" : "daily");
     window.addEventListener("hashchange", route);
     window.addEventListener("resize", () => { const c = document.getElementById("roll"); if (c) draw(c, 0); });

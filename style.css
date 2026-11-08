@@ -78,3 +78,10 @@ footer{font-size:.78rem;color:var(--muted);display:flex;flex-direction:column;ga
 .tabs a:hover{color:var(--ink)}
 .tabs a.on{background:var(--roll);color:var(--on-roll)}
 a.btn{text-decoration:none;display:inline-block}
+
+/* Search-as-you-type */
+.field{position:relative}
+.suggest{position:absolute;left:0;right:0;top:100%;z-index:20;margin:4px 0 0;padding:4px;list-style:none;background:var(--card);border:1px solid var(--line);border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,.18);max-height:300px;overflow:auto}
+.suggest li{padding:8px 10px;border-radius:6px;cursor:pointer;font-size:.92rem;overflow-wrap:anywhere}
+.suggest li:hover,.suggest li.on{background:color-mix(in srgb,var(--roll) 14%,transparent)}
+.suggest li.none{color:var(--muted);cursor:default}
