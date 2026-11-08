@@ -71,3 +71,10 @@ a{color:inherit}
 footer{font-size:.78rem;color:var(--muted);display:flex;flex-direction:column;gap:6px}
 .how{font-size:.9rem;color:var(--muted);margin:0}
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+
+/* Daily / Practice tabs */
+.tabs{display:flex;gap:4px;padding:4px;border-radius:999px;background:var(--card);border:1px solid var(--line);align-self:flex-start}
+.tabs a{font-weight:600;font-size:.92rem;text-decoration:none;color:var(--muted);padding:7px 16px;border-radius:999px}
+.tabs a:hover{color:var(--ink)}
+.tabs a.on{background:var(--roll);color:var(--on-roll)}
+a.btn{text-decoration:none;display:inline-block}
