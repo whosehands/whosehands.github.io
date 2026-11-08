@@ -1,0 +1,29 @@
+name: Fetch recording sources
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 9 3 * *"   # monthly, 3rd day, 09:17 UTC
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download source listings
+        run: |
+          mkdir -p sources
+          curl -sSL -A "WhoseHands-bot (github.com/concord-mass)" https://data.labs.loc.gov/jukebox/README.html -o sources/loc-jukebox-README.html || true
+          grep -o 'href="[^"]*"' sources/loc-jukebox-README.html | sort -u > sources/loc-jukebox-links.txt || true
+          for f in $(grep -oE 'href="[^"]*metadata\.(csv|jsonl)"' sources/loc-jukebox-README.html | sed 's/href="//;s/"$//' | sort -u); do
+            case "$f" in http*) u="$f";; *) u="https://data.labs.loc.gov/jukebox/$f";; esac
+            curl -sSL -A "WhoseHands-bot" "$u" -o "sources/loc-jukebox-$(basename "$f")" || true
+          done
+          ls -la sources
+      - name: Commit
+        run: |
+          git config user.name "whose-hands-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add sources
+          git commit -m "Update source listings" || echo "nothing to commit"
+          git push
