@@ -1,0 +1,26 @@
+name: Fetch composer works (Wikidata)
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [tools/fetch_wikidata.py, data/composers.json, .github/workflows/fetch-works.yml]
+permissions:
+  contents: write
+concurrency:
+  group: fetch-works
+  cancel-in-progress: false
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download works from Wikidata
+        run: python3 tools/fetch_wikidata.py
+      - name: Commit
+        run: |
+          git config user.name "whose-hands-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add sources/wikidata-works.json
+          git commit -m "Update composer works from Wikidata" || echo "nothing to commit"
+          git pull --rebase origin main
+          git push
