@@ -29,7 +29,8 @@ def find_composer(name, dates):
         desc = (c.get("description") or "").lower()
         score = 0
         if "composer" in desc: score += 3
-        if "pianist" in desc or "conductor" in desc or "songwriter" in desc or "musician" in desc: score += 2
+        if re.search(r"pianist|conductor|songwriter|musician|singer|soprano|mezzo|tenor|baritone|bass|contralto|violinist|cellist|harpsichordist|organist|orchestra|ensemble|harpist|flautist|flutist|xylophon|cornet", desc): score += 2
+        if re.search(r"orchestra|philharmonic", name.lower()) and re.search(r"orchestra|ensemble", desc): score += 3
         if any(y in desc for y in ys): score += 4
         if best is None or score > best[0]: best = (score, c)
     return best[1] if best and best[0] >= 2 else None
