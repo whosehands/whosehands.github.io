@@ -49,8 +49,12 @@ def sitelinks(qid):
     d = get("https://www.wikidata.org/w/api.php?" + urllib.parse.urlencode(q)) or {}
     return len(((d.get("entities") or {}).get(qid) or {}).get("sitelinks") or {})
 composers = json.load(open("data/composers.json", encoding="utf-8"))
-out = {}
+def load(path):
+    try: return json.load(open(path, encoding="utf-8"))
+    except Exception: return {}
+out = load("sources/wikidata-works.json")          # reuse earlier lookups; only new names are fetched
 for c in composers:
+    if c["name"] in out and (out[c["name"]] is None or "sitelinks" in out[c["name"]]): continue
     hit = find_composer(c["name"], c.get("dates", ""))
     if not hit:
         print("no match:", c["name"], flush=True); out[c["name"]] = None; time.sleep(1); continue
@@ -69,15 +73,16 @@ for c in composers:
     out[c["name"]] = {"qid": qid, "label": hit.get("label"), "description": hit.get("description"), "sitelinks": sitelinks(qid),
                       "works": [{k: (sorted(v) if isinstance(v, set) else v) for k, v in w.items()} for w in works.values()]}
     print(c["name"], "->", qid, hit.get("label"), "|", len(works), "works", flush=True)
-    time.sleep(2)
+    time.sleep(0.5)
 json.dump(out, open("sources/wikidata-works.json", "w", encoding="utf-8"), ensure_ascii=False)
 
 # performers: who they are and how well known
-people = {}
+people = load("sources/wikidata-people.json")
 for p in json.load(open("data/performers.json", encoding="utf-8")):
+    if p["name"] in people: continue
     hit = find_composer(p["name"], p.get("dates", ""))
     if not hit: people[p["name"]] = None; print("no match:", p["name"], flush=True); time.sleep(1); continue
     people[p["name"]] = {"qid": hit["id"], "label": hit.get("label"), "description": hit.get("description"), "sitelinks": sitelinks(hit["id"])}
-    print(p["name"], "->", hit["id"], people[p["name"]]["sitelinks"], flush=True); time.sleep(1)
+    print(p["name"], "->", hit["id"], people[p["name"]]["sitelinks"], flush=True); time.sleep(0.3)
 json.dump(people, open("sources/wikidata-people.json", "w", encoding="utf-8"), ensure_ascii=False)
 print("done")
