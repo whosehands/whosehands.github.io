@@ -499,7 +499,7 @@
     CAT.pieceKeyOf = {};
     (cat.pieceAliases || []).concat(cat.pieceOptions || []).forEach(([n, k]) => { CAT.pieceKeyOf[norm(n)] = k; });
     cat.recordings.forEach(r => { CAT.pieceKeyOf[norm(r.piece)] = r.pieceKey || norm(r.piece); });
-    CAT.pieceOptions = [...new Set((cat.pieceOptions || []).map(o => o[0]).concat(cat.recordings.map(r => r.piece)))].sort();
+    CAT.pieceOptions = [...new Set((cat.pieceOptions || []).map(o => o[0]))].sort();   // the build lists every answer once
     CAT.nameIndex = index(CAT.nameOptions); CAT.pieceIndex = index(CAT.pieceOptions);
     const route = () => setMode(location.hash === "#practice" ? "practice" : "daily");
     window.addEventListener("hashchange", route);

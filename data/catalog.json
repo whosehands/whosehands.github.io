@@ -4609,6 +4609,32 @@
    "famous": false,
    "pieceKey": "chopin|op28|",
    "movement": "selections",
+   "acceptKeys": [
+    "chopin|op28|1",
+    "chopin|op28|10",
+    "chopin|op28|11",
+    "chopin|op28|12",
+    "chopin|op28|13",
+    "chopin|op28|14",
+    "chopin|op28|15",
+    "chopin|op28|16",
+    "chopin|op28|17",
+    "chopin|op28|18",
+    "chopin|op28|19",
+    "chopin|op28|2",
+    "chopin|op28|20",
+    "chopin|op28|21",
+    "chopin|op28|22",
+    "chopin|op28|23",
+    "chopin|op28|24",
+    "chopin|op28|3",
+    "chopin|op28|4",
+    "chopin|op28|5",
+    "chopin|op28|6",
+    "chopin|op28|7",
+    "chopin|op28|8",
+    "chopin|op28|9"
+   ],
    "genre": "Piano music",
    "composerFame": "famous",
    "performerFame": "known"
@@ -6236,6 +6262,9 @@
    "famous": true,
    "pieceKey": "schubert|d935|",
    "movement": "",
+   "acceptKeys": [
+    "schubert|d935|2"
+   ],
    "genre": "Piano music",
    "composerFame": "famous",
    "performerFame": "famous"
@@ -6496,6 +6525,32 @@
    "famous": true,
    "pieceKey": "chopin|op28|",
    "movement": "selections",
+   "acceptKeys": [
+    "chopin|op28|1",
+    "chopin|op28|10",
+    "chopin|op28|11",
+    "chopin|op28|12",
+    "chopin|op28|13",
+    "chopin|op28|14",
+    "chopin|op28|15",
+    "chopin|op28|16",
+    "chopin|op28|17",
+    "chopin|op28|18",
+    "chopin|op28|19",
+    "chopin|op28|2",
+    "chopin|op28|20",
+    "chopin|op28|21",
+    "chopin|op28|22",
+    "chopin|op28|23",
+    "chopin|op28|24",
+    "chopin|op28|3",
+    "chopin|op28|4",
+    "chopin|op28|5",
+    "chopin|op28|6",
+    "chopin|op28|7",
+    "chopin|op28|8",
+    "chopin|op28|9"
+   ],
    "genre": "Piano music",
    "composerFame": "famous",
    "performerFame": "famous"
@@ -9078,6 +9133,32 @@
    "famous": true,
    "pieceKey": "chopin|op28|",
    "movement": "selections",
+   "acceptKeys": [
+    "chopin|op28|1",
+    "chopin|op28|10",
+    "chopin|op28|11",
+    "chopin|op28|12",
+    "chopin|op28|13",
+    "chopin|op28|14",
+    "chopin|op28|15",
+    "chopin|op28|16",
+    "chopin|op28|17",
+    "chopin|op28|18",
+    "chopin|op28|19",
+    "chopin|op28|2",
+    "chopin|op28|20",
+    "chopin|op28|21",
+    "chopin|op28|22",
+    "chopin|op28|23",
+    "chopin|op28|24",
+    "chopin|op28|3",
+    "chopin|op28|4",
+    "chopin|op28|5",
+    "chopin|op28|6",
+    "chopin|op28|7",
+    "chopin|op28|8",
+    "chopin|op28|9"
+   ],
    "genre": "Piano music",
    "composerFame": "famous",
    "performerFame": "famous"
@@ -11150,6 +11231,32 @@
    "famous": false,
    "pieceKey": "chopin|op28|",
    "movement": "selections",
+   "acceptKeys": [
+    "chopin|op28|1",
+    "chopin|op28|10",
+    "chopin|op28|11",
+    "chopin|op28|12",
+    "chopin|op28|13",
+    "chopin|op28|14",
+    "chopin|op28|15",
+    "chopin|op28|16",
+    "chopin|op28|17",
+    "chopin|op28|18",
+    "chopin|op28|19",
+    "chopin|op28|2",
+    "chopin|op28|20",
+    "chopin|op28|21",
+    "chopin|op28|22",
+    "chopin|op28|23",
+    "chopin|op28|24",
+    "chopin|op28|3",
+    "chopin|op28|4",
+    "chopin|op28|5",
+    "chopin|op28|6",
+    "chopin|op28|7",
+    "chopin|op28|8",
+    "chopin|op28|9"
+   ],
    "genre": "Piano music",
    "composerFame": "famous",
    "performerFame": "obscure"
@@ -12709,6 +12816,32 @@
    "famous": false,
    "pieceKey": "chopin|op28|",
    "movement": "selections",
+   "acceptKeys": [
+    "chopin|op28|1",
+    "chopin|op28|10",
+    "chopin|op28|11",
+    "chopin|op28|12",
+    "chopin|op28|13",
+    "chopin|op28|14",
+    "chopin|op28|15",
+    "chopin|op28|16",
+    "chopin|op28|17",
+    "chopin|op28|18",
+    "chopin|op28|19",
+    "chopin|op28|2",
+    "chopin|op28|20",
+    "chopin|op28|21",
+    "chopin|op28|22",
+    "chopin|op28|23",
+    "chopin|op28|24",
+    "chopin|op28|3",
+    "chopin|op28|4",
+    "chopin|op28|5",
+    "chopin|op28|6",
+    "chopin|op28|7",
+    "chopin|op28|8",
+    "chopin|op28|9"
+   ],
    "genre": "Piano music",
    "composerFame": "famous",
    "performerFame": "obscure"
@@ -20859,6 +20992,9 @@
    "famous": false,
    "pieceKey": "dvorak|op101|",
    "movement": "",
+   "acceptKeys": [
+    "dvorak|op101|7"
+   ],
    "genre": "Piano music",
    "composerFame": "famous",
    "performerFame": "known"
@@ -59853,10 +59989,6 @@
    "chopin|t|16 2 mazurka"
   ],
   [
-   "Chopin – 24 Preludes Op. 28",
-   "chopin|op28|"
-  ],
-  [
    "Chopin – A Month in the Country",
    "chopin|t|country month"
   ],
@@ -60541,6 +60673,30 @@
    "chopin|t|27 devil keyeflatmin prelude trill"
   ],
   [
+   "Chopin – Prelude, Op. 28 No. 1",
+   "chopin|op28|1"
+  ],
+  [
+   "Chopin – Prelude, Op. 28 No. 10",
+   "chopin|op28|10"
+  ],
+  [
+   "Chopin – Prelude, Op. 28 No. 11",
+   "chopin|op28|11"
+  ],
+  [
+   "Chopin – Prelude, Op. 28 No. 12",
+   "chopin|op28|12"
+  ],
+  [
+   "Chopin – Prelude, Op. 28 No. 13",
+   "chopin|op28|13"
+  ],
+  [
+   "Chopin – Prelude, Op. 28 No. 14",
+   "chopin|op28|14"
+  ],
+  [
    "Chopin – Prelude, Op. 28 No. 15",
    "chopin|op28|15"
   ],
@@ -60557,8 +60713,60 @@
    "chopin|op28|18"
   ],
   [
+   "Chopin – Prelude, Op. 28 No. 19",
+   "chopin|op28|19"
+  ],
+  [
+   "Chopin – Prelude, Op. 28 No. 2",
+   "chopin|op28|2"
+  ],
+  [
    "Chopin – Prelude, Op. 28 No. 20",
    "chopin|op28|20"
+  ],
+  [
+   "Chopin – Prelude, Op. 28 No. 21",
+   "chopin|op28|21"
+  ],
+  [
+   "Chopin – Prelude, Op. 28 No. 22",
+   "chopin|op28|22"
+  ],
+  [
+   "Chopin – Prelude, Op. 28 No. 23",
+   "chopin|op28|23"
+  ],
+  [
+   "Chopin – Prelude, Op. 28 No. 24",
+   "chopin|op28|24"
+  ],
+  [
+   "Chopin – Prelude, Op. 28 No. 3",
+   "chopin|op28|3"
+  ],
+  [
+   "Chopin – Prelude, Op. 28 No. 4",
+   "chopin|op28|4"
+  ],
+  [
+   "Chopin – Prelude, Op. 28 No. 5",
+   "chopin|op28|5"
+  ],
+  [
+   "Chopin – Prelude, Op. 28 No. 6",
+   "chopin|op28|6"
+  ],
+  [
+   "Chopin – Prelude, Op. 28 No. 7",
+   "chopin|op28|7"
+  ],
+  [
+   "Chopin – Prelude, Op. 28 No. 8",
+   "chopin|op28|8"
+  ],
+  [
+   "Chopin – Prelude, Op. 28 No. 9",
+   "chopin|op28|9"
   ],
   [
    "Chopin – Prélude in F major, KK Anh. Ia/2",
@@ -63175,10 +63383,6 @@
   [
    "Dvořák – Go to sleep, my dusky baby",
    "dvorak|t|baby dusky go my sleep"
-  ],
-  [
-   "Dvořák – Humoresques, Op. 101",
-   "dvorak|op101|"
   ],
   [
    "Dvořák – Humoresques, Op. 101, No. 7",
@@ -79121,10 +79325,6 @@
    "schubert|d899|"
   ],
   [
-   "Schubert – Impromptu, D. 935",
-   "schubert|d935|"
-  ],
-  [
    "Schubert – Introduction and variations for flute and piano on Trockne Blumen",
    "schubert|t|blumen flute introduction trockne variation"
   ],
@@ -87703,6 +87903,10 @@
    "chaminade|t|callirhoe"
   ],
   [
+   "Chopin – 24 Preludes Op. 28",
+   "chopin|op28|"
+  ],
+  [
    "Chopin – Andante spianato et Grande polonaise brillante",
    "chopin|t|andante brillante grande polonaise spianato"
   ],
@@ -87976,6 +88180,10 @@
   ],
   [
    "Dvořák – Humoresque",
+   "dvorak|op101|"
+  ],
+  [
+   "Dvořák – Humoresques, Op. 101",
    "dvorak|op101|"
   ],
   [
@@ -88289,6 +88497,10 @@
   [
    "Schubert – Fantasie in C major",
    "schubert|t|fantasie keycmaj"
+  ],
+  [
+   "Schubert – Impromptu, D. 935",
+   "schubert|d935|"
   ],
   [
    "Schubert – Musical moments",

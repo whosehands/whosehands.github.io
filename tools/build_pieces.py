@@ -253,7 +253,7 @@ for k in options:
     if len(parts) == 3 and parts[1] != "t" and parts[2]: numbered[parts[0] + "|" + parts[1]].add(k)
 for k in list(options):
     parts = k.split("|")
-    if len(parts) == 3 and parts[1] != "t" and not parts[2] and numbered.get(parts[0] + "|" + parts[1]) and k not in game_keys:
+    if len(parts) == 3 and parts[1] != "t" and not parts[2] and numbered.get(parts[0] + "|" + parts[1]):
         set_name = options.pop(k); alt_names[set_name] = k; set_dropped += 1
         # list the set's other pieces too, so the one in the game isn't the only choice ("Three Intermezzi" -> Nos. 1-3)
         COUNT = {"two": 2, "three": 3, "four": 4, "five": 5, "six": 6, "seven": 7, "eight": 8, "nine": 9, "ten": 10, "eleven": 11, "twelve": 12}
@@ -268,6 +268,9 @@ for r in cat["recordings"]:
     parts = r["pieceKey"].split("|")
     if len(parts) == 3 and parts[1] != "t" and parts[2]:
         r.setdefault("_setKey", parts[0] + "|" + parts[1] + "|")
+    elif len(parts) == 3 and parts[1] != "t" and not parts[2] and r["pieceKey"] not in options:
+        pre = parts[0] + "|" + parts[1] + "|"
+        r["_setChildren"] = sorted(k for k in options if k.startswith(pre) and k != pre)   # a selection from a set: any piece of the set counts
 print(set_dropped, "set names folded under their numbered pieces")
 
 children = collections.defaultdict(set)
@@ -275,7 +278,7 @@ for k, ps in parents_of_key.items():
     for pid in ps:
         if pid in key_of_item: children[alias.get(key_of_item[pid], key_of_item[pid])].add(alias.get(k, k))
 for r in cat["recordings"]:
-    acc = set(children.get(r["pieceKey"], set())) | ({r.pop("_setKey")} if "_setKey" in r else set())
+    acc = set(children.get(r["pieceKey"], set())) | ({r.pop("_setKey")} if "_setKey" in r else set()) | set(r.pop("_setChildren", []))
     acc = sorted(acc - {r["pieceKey"]})
     if acc: r["acceptKeys"] = acc
     else: r.pop("acceptKeys", None)
@@ -329,6 +332,11 @@ seen = collections.Counter(options.values())
 cat["pieceOptions"] = sorted(([n, k] for k, n in options.items() if seen[n] == 1 or any(r["pieceKey"] == k for r in cat["recordings"])), key=lambda x: x[0])
 cat.pop("extraPieces", None)
 cat["pieceAliases"] = sorted([n, alias.get(k, k)] for n, k in alt_names.items() if n not in options.values())
+shown = set(options.values()) | {n for n, _ in cat["pieceAliases"]}
+missing = [r["piece"] for r in cat["recordings"] if r["piece"] not in shown]
+cat["pieceAliases"] += sorted({(r["piece"], r["pieceKey"]) for r in cat["recordings"] if r["piece"] not in shown})
+cat["pieceAliases"] = [list(x) for x in cat["pieceAliases"]]
+print(len(missing), "answers accepted without being listed")
 for r in cat["recordings"]:
     r["piece"] = r["piece"].replace("\u0361", ""); r["composer"] = r["composer"].replace("\u0361", "")
 cat["pieceOptions"] = [[n.replace("\u0361", ""), k] for n, k in cat["pieceOptions"]]
