@@ -307,12 +307,42 @@ for r in cat["recordings"]:
     if r["genre"] == "Songs" and r.get("kind") != "record": r["genre"] = "Piano music"   # a pianist's song transcription is piano music
     if r["genre"] == "Songs": r["genre"] = "Art songs" if r.get("artSong") else "drop"
 # the game keeps opera, art songs, orchestral and piano music; popular songs and instrumental solos are left out
+VOCAL = {"soprano", "tenor", "baritone", "bass", "contralto", "mezzo-soprano", "vocalist", "chorus"}
+for r in cat["recordings"]:   # an aria played by a studio cornet, flute or violin is an instrumental solo, not opera
+    roles = set(r.get("roles") or [])
+    if r.get("kind") == "record" and r["genre"] == "Opera & stage" and not roles & VOCAL and not roles & {"orchestra", "conductor"}: r["genre"] = "drop"
 cat["recordings"] = [r for r in cat["recordings"] if r["genre"] in ("Opera & stage", "Art songs", "Orchestral", "Piano music")]
 print(collections.Counter(r["genre"] for r in cat["recordings"]))
 
+# one person under two names (e.g. "Eugenie Adam" and "Eugenie Adam-Benard"): Wikidata gives both the same id, so use one name
+try: _people = json.load(open("sources/wikidata-people.json", encoding="utf-8"))
+except FileNotFoundError: _people = {}
+def _toks(n): return {w for w in re.findall(r"[a-z]+", fold(n)) if len(w) > 1}
+def trusted(name, v):
+    """Keep a Wikidata match only if it is the same name (one contains the other), never a generic class like 'orchestra'."""
+    if not v or not v.get("label"): return False
+    a, b = _toks(name), _toks(v["label"])
+    return bool(a) and bool(b) and (a == b or (min(len(a), len(b)) >= 2 and (a <= b or b <= a)))
+_people = {k: (v if trusted(k, v) else None) for k, v in _people.items()}
+_by_qid = collections.defaultdict(collections.Counter)
+for r in cat["recordings"]:
+    for p in r["performers"]:
+        q = (_people.get(p) or {}).get("qid")
+        if q: _by_qid[q][p] += 1
+_canon = {}
+for q, names in _by_qid.items():
+    if len(names) < 2: continue
+    label = next((v.get("label") for v in _people.values() if v and v.get("qid") == q), None)
+    keep = label if label in names else names.most_common(1)[0][0]
+    for n in names: _canon[n] = keep
+for r in cat["recordings"]:
+    if any(p in _canon for p in r["performers"]):
+        r["performers"] = [_canon.get(p, p) for p in r["performers"]]
+        r["performerDates"] = {_canon.get(k, k): v for k, v in (r.get("performerDates") or {}).items()}
+print(len(_canon), "performer names merged into", len(set(_canon.values())))
+
 # how well known the composer and the performers are (number of Wikipedia articles), for the practice filters
-try: people = json.load(open("sources/wikidata-people.json", encoding="utf-8"))
-except FileNotFoundError: people = {}
+people = _people   # only trusted matches
 def tier(n, hi, mid): return "famous" if n >= hi else "known" if n >= mid else "obscure"
 for r in cat["recordings"]:
     r["composerFame"] = tier(((wd.get(r["composer"]) or {}).get("sitelinks") or 0), 60, 20)
