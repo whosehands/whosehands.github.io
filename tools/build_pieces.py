@@ -244,12 +244,39 @@ for gk, r in game_keys.items():
             alt_names[options.pop(ok)] = gk; alias[ok] = gk; dropped += 1
 print(dropped, "duplicate names folded into works in the game")
 
+# a set (e.g. "Three Intermezzi, Op. 117") next to its own numbered pieces ("Intermezzo, Op. 117 No. 2") reads as a duplicate:
+# keep the set only when a recording plays it as a whole; its name still counts as an answer for any of its pieces
+set_dropped = 0
+numbered = collections.defaultdict(set)
+for k in options:
+    parts = k.split("|")
+    if len(parts) == 3 and parts[1] != "t" and parts[2]: numbered[parts[0] + "|" + parts[1]].add(k)
+for k in list(options):
+    parts = k.split("|")
+    if len(parts) == 3 and parts[1] != "t" and not parts[2] and numbered.get(parts[0] + "|" + parts[1]) and k not in game_keys:
+        set_name = options.pop(k); alt_names[set_name] = k; set_dropped += 1
+        # list the set's other pieces too, so the one in the game isn't the only choice ("Three Intermezzi" -> Nos. 1-3)
+        COUNT = {"two": 2, "three": 3, "four": 4, "five": 5, "six": 6, "seven": 7, "eight": 8, "nine": 9, "ten": 10, "eleven": 11, "twelve": 12}
+        m = re.match(r"^\s*(\d{1,2}|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve)\b", fold(set_name.split(" – ", 1)[1]))
+        sample = next((options[c] for c in sorted(numbered[parts[0] + "|" + parts[1]]) if c in options), None)
+        if m and sample and re.search(r"No\. \d+\s*$", sample):
+            n = int(m.group(1)) if m.group(1).isdigit() else COUNT[m.group(1)]
+            for i in range(1, min(n, 24) + 1):
+                ck = f"{parts[0]}|{parts[1]}|{i}"
+                if ck not in options: options[ck] = re.sub(r"No\. \d+\s*$", f"No. {i}", sample)
+for r in cat["recordings"]:
+    parts = r["pieceKey"].split("|")
+    if len(parts) == 3 and parts[1] != "t" and parts[2]:
+        r.setdefault("_setKey", parts[0] + "|" + parts[1] + "|")
+print(set_dropped, "set names folded under their numbered pieces")
+
 children = collections.defaultdict(set)
 for k, ps in parents_of_key.items():
     for pid in ps:
         if pid in key_of_item: children[alias.get(key_of_item[pid], key_of_item[pid])].add(alias.get(k, k))
 for r in cat["recordings"]:
-    acc = sorted(children.get(r["pieceKey"], set()) - {r["pieceKey"]})
+    acc = set(children.get(r["pieceKey"], set())) | ({r.pop("_setKey")} if "_setKey" in r else set())
+    acc = sorted(acc - {r["pieceKey"]})
     if acc: r["acceptKeys"] = acc
     else: r.pop("acceptKeys", None)
 

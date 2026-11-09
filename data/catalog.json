@@ -1710,6 +1710,9 @@
    "famous": false,
    "pieceKey": "chopin|op40|1",
    "movement": "",
+   "acceptKeys": [
+    "chopin|op40|"
+   ],
    "genre": "Piano music",
    "composerFame": "famous",
    "performerFame": "obscure"
@@ -1742,6 +1745,9 @@
    "famous": false,
    "pieceKey": "dohnanyi|op11|2",
    "movement": "",
+   "acceptKeys": [
+    "dohnanyi|op11|"
+   ],
    "genre": "Piano music",
    "composerFame": "known",
    "performerFame": "obscure"
@@ -2062,6 +2068,9 @@
    "famous": true,
    "pieceKey": "chopin|op25|9",
    "movement": "",
+   "acceptKeys": [
+    "chopin|op25|"
+   ],
    "genre": "Piano music",
    "composerFame": "famous",
    "performerFame": "famous"
@@ -2350,6 +2359,9 @@
    "famous": true,
    "pieceKey": "chopin|op64|1",
    "movement": "",
+   "acceptKeys": [
+    "chopin|op64|"
+   ],
    "genre": "Piano music",
    "composerFame": "famous",
    "performerFame": "famous"
@@ -3184,6 +3196,9 @@
    "famous": false,
    "pieceKey": "schytte|op26|7",
    "movement": "",
+   "acceptKeys": [
+    "schytte|op26|"
+   ],
    "genre": "Piano music",
    "composerFame": "obscure",
    "performerFame": "obscure"
@@ -3610,6 +3625,9 @@
    "famous": true,
    "pieceKey": "chopin|op28|20",
    "movement": "",
+   "acceptKeys": [
+    "chopin|op28|"
+   ],
    "genre": "Piano music",
    "composerFame": "famous",
    "performerFame": "famous"
@@ -3802,6 +3820,9 @@
    "famous": true,
    "pieceKey": "chopin|op25|9",
    "movement": "",
+   "acceptKeys": [
+    "chopin|op25|"
+   ],
    "genre": "Piano music",
    "composerFame": "famous",
    "performerFame": "famous"
@@ -3962,6 +3983,9 @@
    "famous": true,
    "pieceKey": "dohnanyi|op11|3",
    "movement": "",
+   "acceptKeys": [
+    "dohnanyi|op11|"
+   ],
    "genre": "Piano music",
    "composerFame": "known",
    "performerFame": "famous"
@@ -4026,6 +4050,9 @@
    "famous": true,
    "pieceKey": "chopin|op28|15",
    "movement": "",
+   "acceptKeys": [
+    "chopin|op28|"
+   ],
    "genre": "Piano music",
    "composerFame": "famous",
    "performerFame": "famous"
@@ -4058,6 +4085,9 @@
    "famous": true,
    "pieceKey": "chopin|op9|1",
    "movement": "",
+   "acceptKeys": [
+    "chopin|op9|"
+   ],
    "genre": "Piano music",
    "composerFame": "famous",
    "performerFame": "famous"
@@ -4122,6 +4152,9 @@
    "famous": true,
    "pieceKey": "chopin|op32|1",
    "movement": "",
+   "acceptKeys": [
+    "chopin|op32|"
+   ],
    "genre": "Piano music",
    "composerFame": "famous",
    "performerFame": "famous"
@@ -4541,6 +4574,9 @@
    "famous": true,
    "pieceKey": "chopin|op48|1",
    "movement": "",
+   "acceptKeys": [
+    "chopin|op48|"
+   ],
    "genre": "Piano music",
    "composerFame": "famous",
    "performerFame": "famous"
@@ -4605,6 +4641,9 @@
    "famous": false,
    "pieceKey": "sibelius|op24|9",
    "movement": "",
+   "acceptKeys": [
+    "sibelius|op24|"
+   ],
    "genre": "Piano music",
    "composerFame": "famous",
    "performerFame": "obscure"
@@ -5249,6 +5288,9 @@
    "famous": true,
    "pieceKey": "chopin|op25|9",
    "movement": "",
+   "acceptKeys": [
+    "chopin|op25|"
+   ],
    "genre": "Piano music",
    "composerFame": "famous",
    "performerFame": "famous"
@@ -5635,6 +5677,9 @@
    "famous": true,
    "pieceKey": "grunfeld|op42|1",
    "movement": "",
+   "acceptKeys": [
+    "grunfeld|op42|"
+   ],
    "genre": "Piano music",
    "composerFame": "obscure",
    "performerFame": "famous"
@@ -5699,6 +5744,9 @@
    "famous": false,
    "pieceKey": "brahms|op117|2",
    "movement": "",
+   "acceptKeys": [
+    "brahms|op117|"
+   ],
    "genre": "Piano music",
    "composerFame": "famous",
    "performerFame": "known"
@@ -5827,6 +5875,9 @@
    "famous": false,
    "pieceKey": "chopin|op64|2",
    "movement": "",
+   "acceptKeys": [
+    "chopin|op64|"
+   ],
    "genre": "Piano music",
    "composerFame": "famous",
    "performerFame": "obscure"
@@ -5955,6 +6006,9 @@
    "famous": true,
    "pieceKey": "mendelssohn-bartholdy|op62|6",
    "movement": "Frühlingslied",
+   "acceptKeys": [
+    "mendelssohn-bartholdy|op62|"
+   ],
    "genre": "Piano music",
    "composerFame": "famous",
    "performerFame": "famous"
@@ -6019,6 +6073,9 @@
    "famous": false,
    "pieceKey": "chopin|op28|18",
    "movement": "",
+   "acceptKeys": [
+    "chopin|op28|"
+   ],
    "genre": "Piano music",
    "composerFame": "famous",
    "performerFame": "obscure"
@@ -6768,6 +6825,9 @@
    "famous": true,
    "pieceKey": "chopin|op70|1",
    "movement": "",
+   "acceptKeys": [
+    "chopin|op70|"
+   ],
    "genre": "Piano music",
    "composerFame": "famous",
    "performerFame": "famous"
@@ -6867,6 +6927,9 @@
    "famous": true,
    "pieceKey": "chopin|op28|17",
    "movement": "",
+   "acceptKeys": [
+    "chopin|op28|"
+   ],
    "genre": "Piano music",
    "composerFame": "famous",
    "performerFame": "famous"
@@ -6899,6 +6962,9 @@
    "famous": true,
    "pieceKey": "chopin|op69|1",
    "movement": "",
+   "acceptKeys": [
+    "chopin|op69|"
+   ],
    "genre": "Piano music",
    "composerFame": "famous",
    "performerFame": "famous"
@@ -7478,6 +7544,9 @@
    "famous": false,
    "pieceKey": "chopin|op10|12",
    "movement": "",
+   "acceptKeys": [
+    "chopin|op10|"
+   ],
    "genre": "Piano music",
    "composerFame": "famous",
    "performerFame": "obscure"
@@ -7691,6 +7760,9 @@
    "famous": false,
    "pieceKey": "mendelssohn-bartholdy|op53|5",
    "movement": "Volkslied",
+   "acceptKeys": [
+    "mendelssohn-bartholdy|op53|"
+   ],
    "genre": "Piano music",
    "composerFame": "famous",
    "performerFame": "obscure"
@@ -7755,6 +7827,9 @@
    "famous": true,
    "pieceKey": "mendelssohn-bartholdy|op16|2",
    "movement": "",
+   "acceptKeys": [
+    "mendelssohn-bartholdy|op16|"
+   ],
    "genre": "Piano music",
    "composerFame": "famous",
    "performerFame": "famous"
@@ -7787,6 +7862,9 @@
    "famous": false,
    "pieceKey": "chopin|op55|2",
    "movement": "",
+   "acceptKeys": [
+    "chopin|op55|"
+   ],
    "genre": "Piano music",
    "composerFame": "famous",
    "performerFame": "obscure"
@@ -7819,6 +7897,9 @@
    "famous": true,
    "pieceKey": "chopin|op64|2",
    "movement": "",
+   "acceptKeys": [
+    "chopin|op64|"
+   ],
    "genre": "Piano music",
    "composerFame": "famous",
    "performerFame": "famous"
@@ -7883,6 +7964,9 @@
    "famous": true,
    "pieceKey": "schumann|op28|2",
    "movement": "",
+   "acceptKeys": [
+    "schumann|op28|"
+   ],
    "genre": "Piano music",
    "composerFame": "famous",
    "performerFame": "famous"
@@ -8011,6 +8095,9 @@
    "famous": false,
    "pieceKey": "chopin|op67|4",
    "movement": "",
+   "acceptKeys": [
+    "chopin|op67|"
+   ],
    "genre": "Piano music",
    "composerFame": "famous",
    "performerFame": "obscure"
@@ -8075,6 +8162,9 @@
    "famous": false,
    "pieceKey": "chopin|op9|2",
    "movement": "",
+   "acceptKeys": [
+    "chopin|op9|"
+   ],
    "genre": "Piano music",
    "composerFame": "famous",
    "performerFame": "obscure"
@@ -8395,6 +8485,9 @@
    "famous": false,
    "pieceKey": "raff|op61|3",
    "movement": "",
+   "acceptKeys": [
+    "raff|op61|"
+   ],
    "genre": "Opera & stage",
    "composerFame": "known",
    "performerFame": "obscure"
@@ -9669,6 +9762,9 @@
    "famous": true,
    "pieceKey": "chopin|op10|3",
    "movement": "",
+   "acceptKeys": [
+    "chopin|op10|"
+   ],
    "genre": "Piano music",
    "composerFame": "famous",
    "performerFame": "famous"
@@ -10053,6 +10149,9 @@
    "famous": true,
    "pieceKey": "chopin|op37|2",
    "movement": "",
+   "acceptKeys": [
+    "chopin|op37|"
+   ],
    "genre": "Piano music",
    "composerFame": "famous",
    "performerFame": "famous"
@@ -10117,6 +10216,9 @@
    "famous": true,
    "pieceKey": "brahms|op79|2",
    "movement": "",
+   "acceptKeys": [
+    "brahms|op79|"
+   ],
    "genre": "Piano music",
    "composerFame": "famous",
    "performerFame": "famous"
@@ -10213,6 +10315,9 @@
    "famous": true,
    "pieceKey": "chopin|op27|2",
    "movement": "",
+   "acceptKeys": [
+    "chopin|op27|"
+   ],
    "genre": "Piano music",
    "composerFame": "famous",
    "performerFame": "famous"
@@ -11269,6 +11374,9 @@
    "famous": true,
    "pieceKey": "chopin|op10|5",
    "movement": "",
+   "acceptKeys": [
+    "chopin|op10|"
+   ],
    "genre": "Piano music",
    "composerFame": "famous",
    "performerFame": "famous"
@@ -11301,6 +11409,9 @@
    "famous": true,
    "pieceKey": "chopin|op37|2",
    "movement": "",
+   "acceptKeys": [
+    "chopin|op37|"
+   ],
    "genre": "Piano music",
    "composerFame": "famous",
    "performerFame": "famous"
@@ -11493,6 +11604,9 @@
    "famous": true,
    "pieceKey": "rubinstein|op3|1",
    "movement": "",
+   "acceptKeys": [
+    "rubinstein|op3|"
+   ],
    "genre": "Piano music",
    "composerFame": "known",
    "performerFame": "famous"
@@ -11909,6 +12023,9 @@
    "famous": true,
    "pieceKey": "chopin|op15|2",
    "movement": "",
+   "acceptKeys": [
+    "chopin|op15|"
+   ],
    "genre": "Piano music",
    "composerFame": "famous",
    "performerFame": "famous"
@@ -12167,6 +12284,9 @@
    "famous": true,
    "pieceKey": "chopin|op28|20",
    "movement": "",
+   "acceptKeys": [
+    "chopin|op28|"
+   ],
    "genre": "Piano music",
    "composerFame": "famous",
    "performerFame": "famous"
@@ -12263,6 +12383,9 @@
    "famous": true,
    "pieceKey": "chopin|op15|2",
    "movement": "",
+   "acceptKeys": [
+    "chopin|op15|"
+   ],
    "genre": "Piano music",
    "composerFame": "famous",
    "performerFame": "famous"
@@ -12423,6 +12546,9 @@
    "famous": true,
    "pieceKey": "chopin|op27|2",
    "movement": "",
+   "acceptKeys": [
+    "chopin|op27|"
+   ],
    "genre": "Piano music",
    "composerFame": "famous",
    "performerFame": "famous"
@@ -12647,6 +12773,9 @@
    "famous": true,
    "pieceKey": "beethoven|op51|1",
    "movement": "",
+   "acceptKeys": [
+    "beethoven|op51|"
+   ],
    "genre": "Piano music",
    "composerFame": "famous",
    "performerFame": "famous"
@@ -12743,6 +12872,9 @@
    "famous": false,
    "pieceKey": "chopin|op10|5",
    "movement": "",
+   "acceptKeys": [
+    "chopin|op10|"
+   ],
    "genre": "Piano music",
    "composerFame": "famous",
    "performerFame": "obscure"
@@ -12807,6 +12939,9 @@
    "famous": true,
    "pieceKey": "chopin|op17|4",
    "movement": "",
+   "acceptKeys": [
+    "chopin|op17|"
+   ],
    "genre": "Piano music",
    "composerFame": "famous",
    "performerFame": "famous"
@@ -13031,6 +13166,9 @@
    "famous": true,
    "pieceKey": "chopin|op28|16",
    "movement": "",
+   "acceptKeys": [
+    "chopin|op28|"
+   ],
    "genre": "Piano music",
    "composerFame": "famous",
    "performerFame": "famous"
@@ -13308,6 +13446,9 @@
    "famous": true,
    "pieceKey": "chopin|op15|2",
    "movement": "",
+   "acceptKeys": [
+    "chopin|op15|"
+   ],
    "genre": "Piano music",
    "composerFame": "famous",
    "performerFame": "famous"
@@ -13820,6 +13961,9 @@
    "famous": true,
    "pieceKey": "rubinstein|op3|1",
    "movement": "",
+   "acceptKeys": [
+    "rubinstein|op3|"
+   ],
    "genre": "Piano music",
    "composerFame": "known",
    "performerFame": "famous"
@@ -13948,6 +14092,9 @@
    "famous": false,
    "pieceKey": "dvorak|op101|7",
    "movement": "",
+   "acceptKeys": [
+    "dvorak|op101|"
+   ],
    "genre": "Piano music",
    "composerFame": "famous",
    "performerFame": "known"
@@ -14118,6 +14265,9 @@
    "famous": true,
    "pieceKey": "schumann|op12|1",
    "movement": "Abends",
+   "acceptKeys": [
+    "schumann|op12|"
+   ],
    "genre": "Piano music",
    "composerFame": "famous",
    "performerFame": "famous"
@@ -14354,6 +14504,9 @@
    "famous": false,
    "pieceKey": "mendelssohn-bartholdy|op62|4",
    "movement": "",
+   "acceptKeys": [
+    "mendelssohn-bartholdy|op62|"
+   ],
    "genre": "Piano music",
    "composerFame": "famous",
    "performerFame": "obscure"
@@ -14866,6 +15019,9 @@
    "famous": false,
    "pieceKey": "scriabin|op32|1",
    "movement": "",
+   "acceptKeys": [
+    "scriabin|op32|"
+   ],
    "genre": "Piano music",
    "composerFame": "famous",
    "performerFame": "famous"
@@ -15158,6 +15314,9 @@
    "famous": true,
    "pieceKey": "mendelssohn-bartholdy|op38|6",
    "movement": "Duett",
+   "acceptKeys": [
+    "mendelssohn-bartholdy|op38|"
+   ],
    "genre": "Piano music",
    "composerFame": "famous",
    "performerFame": "famous"
@@ -15350,6 +15509,9 @@
    "famous": true,
    "pieceKey": "chopin|op70|1",
    "movement": "",
+   "acceptKeys": [
+    "chopin|op70|"
+   ],
    "genre": "Piano music",
    "composerFame": "famous",
    "performerFame": "famous"
@@ -16694,6 +16856,9 @@
    "famous": false,
    "pieceKey": "paderewski|op14|1",
    "movement": "",
+   "acceptKeys": [
+    "paderewski|op14|"
+   ],
    "genre": "Orchestral",
    "composerFame": "famous",
    "performerFame": "obscure"
@@ -17806,6 +17971,9 @@
    "famous": false,
    "pieceKey": "rehfeld|op58|1",
    "movement": "",
+   "acceptKeys": [
+    "rehfeld|op58|"
+   ],
    "genre": "Opera & stage",
    "composerFame": "obscure",
    "performerFame": "obscure"
@@ -35919,6 +36087,9 @@
    "famous": false,
    "pieceKey": "kurpinski|op87|3",
    "movement": "",
+   "acceptKeys": [
+    "kurpinski|op87|"
+   ],
    "genre": "Opera & stage",
    "composerFame": "known",
    "performerFame": "famous"
@@ -58402,10 +58573,6 @@
    "blaufuss|t|dream golden isle my"
   ],
   [
-   "Boccherini – 6 concerti a grande orchestra, Op. 12",
-   "boccherini|op12|"
-  ],
-  [
    "Boccherini – Cello Concerto No. 2",
    "boccherini|t|2 cello concerto"
   ],
@@ -58458,8 +58625,28 @@
    "boccherini|t|keyemaj quintet string"
   ],
   [
+   "Boccherini – Symphony Op. 12 No. 1",
+   "boccherini|op12|1"
+  ],
+  [
+   "Boccherini – Symphony Op. 12 No. 2",
+   "boccherini|op12|2"
+  ],
+  [
+   "Boccherini – Symphony Op. 12 No. 3",
+   "boccherini|op12|3"
+  ],
+  [
    "Boccherini – Symphony Op. 12 No. 4",
    "boccherini|op12|4"
+  ],
+  [
+   "Boccherini – Symphony Op. 12 No. 5",
+   "boccherini|op12|5"
+  ],
+  [
+   "Boccherini – Symphony Op. 12 No. 6",
+   "boccherini|op12|6"
   ],
   [
    "Boccherini – Symphony Op. 41 in C minor",
@@ -58778,8 +58965,16 @@
    "brahms|t|blue"
   ],
   [
+   "Brahms – Intermezzo, Op. 117 No. 1",
+   "brahms|op117|1"
+  ],
+  [
    "Brahms – Intermezzo, Op. 117 No. 2",
    "brahms|op117|2"
+  ],
+  [
+   "Brahms – Intermezzo, Op. 117 No. 3",
+   "brahms|op117|3"
   ],
   [
    "Brahms – Liebeslieder Walzer",
@@ -58856,10 +59051,6 @@
   [
    "Brahms – Piano Trio No. 4",
    "brahms|t|4 trio"
-  ],
-  [
-   "Brahms – Rhapsodies, Op. 79",
-   "brahms|op79|"
   ],
   [
    "Brahms – Rhapsody, Op. 79 No. 2",
@@ -58948,10 +59139,6 @@
   [
    "Brahms – Symphony No. 4",
    "brahms|t|4 symphony"
-  ],
-  [
-   "Brahms – Three Intermezzi for piano, Op. 117",
-   "brahms|op117|"
   ],
   [
    "Brahms – Tragic Overture",
@@ -59778,10 +59965,6 @@
    "chopin|t|dama kameliemi"
   ],
   [
-   "Chopin – Etudes Op. 25. N. 1 ; N. 2 ; N. 3",
-   "chopin|op25|"
-  ],
-  [
    "Chopin – Fantaisie in F minor",
    "chopin|t|fantaisie keyfmin"
   ],
@@ -60106,58 +60289,6 @@
    "chopin|op7|5"
   ],
   [
-   "Chopin – Mazurkas, Op. 17",
-   "chopin|op17|"
-  ],
-  [
-   "Chopin – Mazurkas, Op. 24",
-   "chopin|op24|"
-  ],
-  [
-   "Chopin – Mazurkas, Op. 30",
-   "chopin|op30|"
-  ],
-  [
-   "Chopin – Mazurkas, Op. 33",
-   "chopin|op33|"
-  ],
-  [
-   "Chopin – Mazurkas, Op. 41",
-   "chopin|op41|"
-  ],
-  [
-   "Chopin – Mazurkas, Op. 50",
-   "chopin|op50|"
-  ],
-  [
-   "Chopin – Mazurkas, Op. 56",
-   "chopin|op56|"
-  ],
-  [
-   "Chopin – Mazurkas, Op. 59",
-   "chopin|op59|"
-  ],
-  [
-   "Chopin – Mazurkas, Op. 6",
-   "chopin|op6|"
-  ],
-  [
-   "Chopin – Mazurkas, Op. 63",
-   "chopin|op63|"
-  ],
-  [
-   "Chopin – Mazurkas, Op. 67",
-   "chopin|op67|"
-  ],
-  [
-   "Chopin – Mazurkas, Op. 68",
-   "chopin|op68|"
-  ],
-  [
-   "Chopin – Mazurkas, Op. 7",
-   "chopin|op7|"
-  ],
-  [
    "Chopin – Melodia",
    "chopin|t|melodia"
   ],
@@ -60382,16 +60513,8 @@
    "chopin|t|fantaisie polonaise"
   ],
   [
-   "Chopin – Polonaises, Op. 40",
-   "chopin|op40|"
-  ],
-  [
    "Chopin – Polonaises, Op. posth.",
    "chopin|t|polonaise posth"
-  ],
-  [
-   "Chopin – Polonaises, Op. posth. [71]",
-   "chopin|op71|"
   ],
   [
    "Chopin – Polonesa en sol menor, B.1",
@@ -60620,22 +60743,6 @@
   [
    "Chopin – Waltz in A minor",
    "chopin|t|keyamin waltz"
-  ],
-  [
-   "Chopin – Waltzes, Op. 34",
-   "chopin|op34|"
-  ],
-  [
-   "Chopin – Waltzes, Op. 64",
-   "chopin|op64|"
-  ],
-  [
-   "Chopin – Waltzes, Op. Posth. 70",
-   "chopin|op70|"
-  ],
-  [
-   "Chopin – Waltzes, Op. posth. 69",
-   "chopin|op69|"
   ],
   [
    "Chopin – Wiosna",
@@ -70922,10 +71029,6 @@
    "liszt|s104|"
   ],
   [
-   "Liszt – Harmonies poétiques et religieuses, S. 173",
-   "liszt|s173|"
-  ],
-  [
    "Liszt – Hexameron, S. 392",
    "liszt|s392|"
   ],
@@ -77190,10 +77293,6 @@
    "rachmaninoff|op33|"
   ],
   [
-   "Rachmaninoff – Études-Tableaux, Op. 39",
-   "rachmaninoff|op39|"
-  ],
-  [
    "Rachmaninoff – Études-Tableaux, Op. 39, No. 5",
    "rachmaninoff|op39|5"
   ],
@@ -79694,10 +79793,6 @@
    "schumann|t|sonata"
   ],
   [
-   "Schumann – Fantasiestücke, Op. 12",
-   "schumann|op12|"
-  ],
-  [
    "Schumann – Fantasiestücke, Op. 12, Nr. 1",
    "schumann|op12|1"
   ],
@@ -80142,10 +80237,6 @@
    "scriabin|t|10 mazurka"
   ],
   [
-   "Scriabin – 12 Études, Op. 8",
-   "scriabin|op8|"
-  ],
-  [
    "Scriabin – 2 Impromptus, Op. 10",
    "scriabin|op10|"
   ],
@@ -80298,6 +80389,10 @@
    "scriabin|op32|1"
   ],
   [
+   "Scriabin – Poèmes, Op. 32, No. 2",
+   "scriabin|op32|2"
+  ],
+  [
    "Scriabin – Prelude Op. 59 No. 2",
    "scriabin|op59|2"
   ],
@@ -80324,10 +80419,6 @@
   [
    "Scriabin – Prelude in F major, Op. 49, No. 2",
    "scriabin|op49|2"
-  ],
-  [
-   "Scriabin – Preludio Op. 11 n. 1",
-   "scriabin|op11|"
   ],
   [
    "Scriabin – Prometheus: The Poem of Fire",
@@ -80370,14 +80461,6 @@
    "scriabin|t|ecstasy poem"
   ],
   [
-   "Scriabin – Three Pieces, Op. 2",
-   "scriabin|op2|"
-  ],
-  [
-   "Scriabin – Two Poems, Op. 32",
-   "scriabin|op32|"
-  ],
-  [
    "Scriabin – Two Poems, Op. 44",
    "scriabin|op44|"
   ],
@@ -80402,8 +80485,60 @@
    "scriabin|op2|1"
   ],
   [
+   "Scriabin – Étude in C-sharp minor, Op. 2, No. 2",
+   "scriabin|op2|2"
+  ],
+  [
+   "Scriabin – Étude in C-sharp minor, Op. 2, No. 3",
+   "scriabin|op2|3"
+  ],
+  [
+   "Scriabin – Étude in D-sharp minor, Op. 8, No. 1",
+   "scriabin|op8|1"
+  ],
+  [
+   "Scriabin – Étude in D-sharp minor, Op. 8, No. 10",
+   "scriabin|op8|10"
+  ],
+  [
+   "Scriabin – Étude in D-sharp minor, Op. 8, No. 11",
+   "scriabin|op8|11"
+  ],
+  [
    "Scriabin – Étude in D-sharp minor, Op. 8, No. 12",
    "scriabin|op8|12"
+  ],
+  [
+   "Scriabin – Étude in D-sharp minor, Op. 8, No. 2",
+   "scriabin|op8|2"
+  ],
+  [
+   "Scriabin – Étude in D-sharp minor, Op. 8, No. 3",
+   "scriabin|op8|3"
+  ],
+  [
+   "Scriabin – Étude in D-sharp minor, Op. 8, No. 4",
+   "scriabin|op8|4"
+  ],
+  [
+   "Scriabin – Étude in D-sharp minor, Op. 8, No. 5",
+   "scriabin|op8|5"
+  ],
+  [
+   "Scriabin – Étude in D-sharp minor, Op. 8, No. 6",
+   "scriabin|op8|6"
+  ],
+  [
+   "Scriabin – Étude in D-sharp minor, Op. 8, No. 7",
+   "scriabin|op8|7"
+  ],
+  [
+   "Scriabin – Étude in D-sharp minor, Op. 8, No. 8",
+   "scriabin|op8|8"
+  ],
+  [
+   "Scriabin – Étude in D-sharp minor, Op. 8, No. 9",
+   "scriabin|op8|9"
   ],
   [
    "Scriabin – Études",
@@ -83300,10 +83435,6 @@
   [
    "Strauss – Liebeslieder",
    "strauss|t|liebeslieder"
-  ],
-  [
-   "Strauss – Lieder, TrV 220. Gefunden",
-   "strauss|trv220|"
   ],
   [
    "Strauss – Lieder-Quadrille",
@@ -87536,12 +87667,24 @@
    "blaufuss|t|dream golden isle my"
   ],
   [
+   "Boccherini – 6 concerti a grande orchestra, Op. 12",
+   "boccherini|op12|"
+  ],
+  [
    "Brahms – Piano Sonata No. 3",
    "brahms|t|3 sonata"
   ],
   [
+   "Brahms – Rhapsodies, Op. 79",
+   "brahms|op79|"
+  ],
+  [
    "Brahms – Stücke, Op. 119, C major",
    "brahms|op119|"
+  ],
+  [
+   "Brahms – Three Intermezzi for piano, Op. 117",
+   "brahms|op117|"
   ],
   [
    "Brahms – Waltz, Op. 39",
@@ -87572,12 +87715,68 @@
    "chopin|t|berceuse"
   ],
   [
+   "Chopin – Etudes Op. 25. N. 1 ; N. 2 ; N. 3",
+   "chopin|op25|"
+  ],
+  [
    "Chopin – Mazurka, Op. 17 No. 4",
    "chopin|op17|4"
   ],
   [
    "Chopin – Mazurka, Op. 67 No. 4",
    "chopin|op67|4"
+  ],
+  [
+   "Chopin – Mazurkas, Op. 17",
+   "chopin|op17|"
+  ],
+  [
+   "Chopin – Mazurkas, Op. 24",
+   "chopin|op24|"
+  ],
+  [
+   "Chopin – Mazurkas, Op. 30",
+   "chopin|op30|"
+  ],
+  [
+   "Chopin – Mazurkas, Op. 33",
+   "chopin|op33|"
+  ],
+  [
+   "Chopin – Mazurkas, Op. 41",
+   "chopin|op41|"
+  ],
+  [
+   "Chopin – Mazurkas, Op. 50",
+   "chopin|op50|"
+  ],
+  [
+   "Chopin – Mazurkas, Op. 56",
+   "chopin|op56|"
+  ],
+  [
+   "Chopin – Mazurkas, Op. 59",
+   "chopin|op59|"
+  ],
+  [
+   "Chopin – Mazurkas, Op. 6",
+   "chopin|op6|"
+  ],
+  [
+   "Chopin – Mazurkas, Op. 63",
+   "chopin|op63|"
+  ],
+  [
+   "Chopin – Mazurkas, Op. 67",
+   "chopin|op67|"
+  ],
+  [
+   "Chopin – Mazurkas, Op. 68",
+   "chopin|op68|"
+  ],
+  [
+   "Chopin – Mazurkas, Op. 7",
+   "chopin|op7|"
   ],
   [
    "Chopin – Nocturne, Op. 15 No. 2",
@@ -87656,6 +87855,14 @@
    "chopin|op40|1"
   ],
   [
+   "Chopin – Polonaises, Op. 40",
+   "chopin|op40|"
+  ],
+  [
+   "Chopin – Polonaises, Op. posth. [71]",
+   "chopin|op71|"
+  ],
+  [
    "Chopin – Prelude, Op. 28",
    "chopin|op28|"
   ],
@@ -87694,6 +87901,22 @@
   [
    "Chopin – Waltz, Op. 70 No. 1",
    "chopin|op70|1"
+  ],
+  [
+   "Chopin – Waltzes, Op. 34",
+   "chopin|op34|"
+  ],
+  [
+   "Chopin – Waltzes, Op. 64",
+   "chopin|op64|"
+  ],
+  [
+   "Chopin – Waltzes, Op. Posth. 70",
+   "chopin|op70|"
+  ],
+  [
+   "Chopin – Waltzes, Op. posth. 69",
+   "chopin|op69|"
   ],
   [
    "Chopin – Étude, Op. 10 No. 12",
@@ -87868,6 +88091,10 @@
    "liszt|t|2 ballade"
   ],
   [
+   "Liszt – Harmonies poétiques et religieuses, S. 173",
+   "liszt|s173|"
+  ],
+  [
    "Liszt – Heroïde funèbre",
    "liszt|s102|"
   ],
@@ -88016,6 +88243,10 @@
    "rachmaninoff|t|prelude"
   ],
   [
+   "Rachmaninoff – Études-Tableaux, Op. 39",
+   "rachmaninoff|op39|"
+  ],
+  [
    "Rosas – Sobre las olas",
    "rosas|t|las olas sobre"
   ],
@@ -88076,6 +88307,10 @@
    "schumann|t|fantasie"
   ],
   [
+   "Schumann – Fantasiestücke, Op. 12",
+   "schumann|op12|"
+  ],
+  [
    "Schumann – Piano Concerto",
    "schumann|t|concerto"
   ],
@@ -88104,8 +88339,24 @@
    "schumann|t|studie symphonic"
   ],
   [
+   "Scriabin – 12 Études, Op. 8",
+   "scriabin|op8|"
+  ],
+  [
+   "Scriabin – Preludio Op. 11 n. 1",
+   "scriabin|op11|"
+  ],
+  [
    "Scriabin – Prélude et Nocturne for Piano",
    "scriabin|t|nocturne prelude"
+  ],
+  [
+   "Scriabin – Three Pieces, Op. 2",
+   "scriabin|op2|"
+  ],
+  [
+   "Scriabin – Two Poems, Op. 32",
+   "scriabin|op32|"
   ],
   [
    "Sibelius – Romance in D♭ major, Op. 24 No. 9",
@@ -88142,6 +88393,10 @@
   [
    "Strauss – Intermezzo aus \"Tausend und eine Nacht\"",
    "strauss|t|eine nacht tausend und"
+  ],
+  [
+   "Strauss – Lieder, TrV 220. Gefunden",
+   "strauss|trv220|"
   ],
   [
    "Strauss – Man lebt nur einmal",
