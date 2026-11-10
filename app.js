@@ -55,14 +55,15 @@
   /* ---------- scoring (based on misses before the answer was found) ---------- */
   const namePts = a => (a ? [0, 5, 4, 3, 2, 1, 1, 1][a] : 0);
   const piecePts = a => (a ? (a <= 2 ? 3 : a <= 4 ? 2 : 1) : 0);
-  function yearPts() {
-    if (S.year == null) return 0;
-    const d = S.year < P.yearMin ? P.yearMin - S.year : S.year > P.yearMax ? S.year - P.yearMax : 0;
-    return d <= 2 ? 2 : d <= 6 ? 1 : 0;
-  }
+  const yearPtsAt = a => (a ? (a <= 2 ? 2 : a <= 4 ? 1.5 : 1) : 0);
+  const YEAR_TOL = 2;                                   // a year guess within 2 years of the recording counts
+  const yearOff = y => (y < P.yearMin ? P.yearMin - y : y > P.yearMax ? y - P.yearMax : 0);
+  const yearPts = () => yearPtsAt(S.yearAt);
+  const COMPOSER_HINT = 2;                              // the composer is revealed after this many misses
   const namesScore = () => S.nameAt.reduce((s, a) => s + namePts(a) / P.performers.length, 0);
   const pieceScore = () => (S.pieceAt ? piecePts(S.pieceAt) : S.composerAt ? 1 : 0);
   const total = () => Math.round((namesScore() + pieceScore() + yearPts()) * 10) / 10;
+  const allSolved = () => allNames() && !!S.pieceAt && !!S.yearAt;
   const allNames = () => S.nameAt.every(Boolean);
 
   /* ---------- audio ---------- */
@@ -131,6 +132,7 @@
       if (P.kind === "record") {
         const a = this.el; a.currentTime = this.start; await a.play();
         this.playing = true;
+        this.timer = setTimeout(() => this.stop(onEnd), (secs + 0.3) * 1000);   // runs even when the tab is in the background
         const loop = () => {
           if (!this.playing) return;
           const el = a.currentTime - this.start;
@@ -147,13 +149,14 @@
         if (off < -0.001 || off > secs) return;
         T.schedule(time => this.sampler.triggerAttackRelease(n.name, Math.min(n.dur, secs - off + 0.6), time, n.vel), off);
       });
-      T.schedule(() => Tone.Draw.schedule(() => this.stop(onEnd), Tone.now()), secs + 0.8);
       T.start("+0.05");
       this.playing = true;
+      this.timer = setTimeout(() => this.stop(onEnd), (secs + 0.9) * 1000);   // runs even when the tab is in the background
       const loop = () => { if (!this.playing) return; onTick && onTick(Math.min(T.seconds, secs)); this.raf = requestAnimationFrame(loop); };
       loop();
     },
     stop(onEnd) {
+      clearTimeout(this.timer);
       if (this.el) this.el.pause();
       if (window.Tone) { Tone.Transport.stop(); Tone.Transport.cancel(0); }
       if (this.sampler) this.sampler.releaseAll();
@@ -196,7 +199,7 @@
 
   /* ---------- game state ---------- */
   function freshState(id, frac) {
-    return { id, frac, guesses: [], misses: 0, nameAt: BY_ID[id].performers.map(() => 0), pieceAt: 0, composerAt: 0, year: null, done: false };
+    return { id, frac, guesses: [], misses: 0, nameAt: BY_ID[id].performers.map(() => 0), pieceAt: 0, composerAt: 0, year: null, yearAt: 0, done: false };
   }
   const stateKey = () => (MODE === "daily" ? "wh3-day-" + DAY : "wh3-practice");
   const save = () => store.set(stateKey(), S);
@@ -268,9 +271,10 @@
       P = BY_ID[CAT.schedule[DAY % CAT.schedule.length]];
       const s = store.get(stateKey(), null);
       S = s && s.id === P.id && s.nameAt ? s : freshState(P.id, seeded(DAY * 7919 + 17));
+      if (S.yearAt === undefined) S.yearAt = S.year != null && yearOff(S.year) <= YEAR_TOL ? Math.max(1, S.misses) : 0;   // games saved before the year joined the guesses
     } else {
       const s = store.get(stateKey(), null);
-      if (s && BY_ID[s.id] && s.nameAt) { S = s; P = BY_ID[s.id]; } else newPractice();
+      if (s && BY_ID[s.id] && s.nameAt) { S = s; P = BY_ID[s.id]; if (S.yearAt === undefined) S.yearAt = S.year != null && yearOff(S.year) <= YEAR_TOL ? Math.max(1, S.misses) : 0; } else newPractice();
     }
     render();
     Player.load().then(() => { const c = document.getElementById("roll"); if (c) draw(c, 0); }).catch(() => {});
@@ -286,7 +290,7 @@
 
   function hints() {
     const h = [], who = P.kind === "record" ? `The ${roleOf(0) === "orchestra" ? "orchestra" : roleLabel(0).toLowerCase()}` : "The pianist";
-    h.push(P.kind === "record" ? `${P.label || "A 78"} record${P.place ? ", recorded in " + P.place : ""}` : (P.place ? `Roll recorded in ${P.place}` : `Recorded on a ${P.format}`));
+    h.push(P.composerDates ? `The composer lived ${P.composerDates}` : `Genre: ${P.genre === "Opera & stage" ? "opera or stage music" : (P.genre || "").toLowerCase()}`);
     h.push(`Composer: ${P.composer}${P.composerDates ? " (" + P.composerDates + ")" : ""}`);
     const d = P.performerDates && P.performerDates[P.performers[0]], cnt = CAT.countBy[P.performers[0]] || 1;
     h.push(d ? `${who} lived ${d}` : `${who} appears in ${cnt} recording${cnt > 1 ? "s" : ""} in this game`);
@@ -335,6 +339,18 @@
     box.addEventListener("mousedown", e => { const li = e.target.closest("li[data-i]"); if (li) { pick(+li.dataset.i); e.preventDefault(); } });
   }
 
+  /* ---------- changelog ---------- */
+  function renderChangelog() {
+    Player.stop();
+    app.innerHTML = `<header><h1>Whose <em>Hands</em></h1><span class="meta">What's new</span></header>
+    <nav class="tabs" aria-label="Mode"><a href="#">Daily</a><a href="#practice">Practice</a></nav>
+    <section class="panel changelog"><h2>What's new</h2><p class="how" id="cl-loading">Loading…</p></section>`;
+    fetch("data/changelog.json").then(r => r.json()).then(list => {
+      const fmt = d => new Date(d + "T12:00:00").toLocaleDateString(undefined, { month: "long", day: "numeric", year: "numeric" });
+      document.querySelector(".changelog").innerHTML = `<h2>What's new</h2>` + list.map(e => `<div class="entry"><div class="row"><h3>${esc(e.title || "Update")}</h3><span class="pts">${esc(fmt(e.date))}</span></div><ul>${e.items.map(i => `<li>${esc(i)}</li>`).join("")}</ul></div>`).join("");
+    }).catch(() => { document.getElementById("cl-loading").textContent = "The changelog didn't load. Reload the page to try again."; });
+  }
+
   /* ---------- render ---------- */
   function render() {
     const daily = MODE === "daily";
@@ -342,7 +358,7 @@
     const secs = SNIPS[step];
     const hs = hints().slice(0, Math.min(S.misses, 5));
     const dateStr = new Date().toLocaleDateString(undefined, { month: "short", day: "numeric", year: "numeric" });
-    const tag = (P.kind === "record" ? "78 RPM" : "WELTE-MIGNON") + (daily ? " · NO. " + (DAY + 1) : " · PRACTICE");
+    const tag = daily ? "NO. " + (DAY + 1) : "PRACTICE";
     const fresh = !S.guesses.length && !S.done;
 
     app.innerHTML = `
@@ -354,7 +370,7 @@
     ${fresh ? `<p class="how">${P.kind === "record"
       ? "This is a 78 record. Guess everyone featured on it, the piece, and the year it was recorded."
       : "A pianist recorded this on a piano roll. You hear their exact notes, pedaling and timing on a modern piano. Guess who, what, and the year it was recorded."}
-      You hear a random part of the piece. Right answers keep the clip as it is; each miss plays more and adds a hint.</p>` : ""}
+      You hear a random part of the piece. Guess all three together: the sooner you get each one, the more it's worth. Right answers keep the clip as it is; each miss plays more and adds a hint.</p>` : ""}
     ${!daily ? filtersHTML() + `<div class="controls"><button class="btn" id="newp">${S.done ? "Next puzzle" : "Skip to a new puzzle"}</button></div>` : ""}
 
     <section class="player" aria-label="Recording">
@@ -365,32 +381,26 @@
     </section>
 
     <section class="panel">
-      <div class="row"><h2>${P.kind === "record" ? "Who's on it, and what?" : "Who's playing, and what?"}</h2><span class="pts">${S.misses}/${MAX_MISSES} misses</span></div>
+      <div class="row"><h2>${P.kind === "record" ? "Who's on it, what, and when?" : "Who's playing, what, and when?"}</h2><span class="pts">${S.misses}/${MAX_MISSES} misses</span></div>
       ${S.done ? "" : `<form id="guess" autocomplete="off">
         ${P.performers.map((p, i) => `<div class="field ${S.nameAt[i] ? "solved" : ""}"><div class="row"><label class="label" for="g-p${i}">${esc(roleLabel(i))}</label>${S.nameAt[i] ? `<span class="chip">✓</span>` : `<span class="pts">up to ${Math.round(50 / P.performers.length) / 10} pts</span>`}</div>
           <input type="text" id="g-p${i}" placeholder="${roleOf(i) === "orchestra" ? "Start typing an orchestra" : "Start typing a name"}" ${S.nameAt[i] ? `value="${esc(p)}" disabled` : ""}></div>`).join("")}
-        <div class="field ${S.pieceAt ? "solved" : ""}"><div class="row"><label class="label" for="g-piece">Piece</label>${S.pieceAt ? `<span class="chip">✓</span>` : S.composerAt ? `<span class="chip part">Composer ✓</span>` : `<span class="pts">up to 3 pts · right composer 1</span>`}</div>
+        <div class="field ${S.pieceAt ? "solved" : ""}"><div class="row"><label class="label" for="g-piece">Piece</label>${S.pieceAt ? `<span class="chip">✓</span>` : S.composerAt ? `<span class="chip part">Composer ✓</span>` : `<span class="pts">up to 3 pts${S.misses < COMPOSER_HINT ? " · right composer 1" : ""}</span>`}</div>
           <input type="text" id="g-piece" placeholder="Start typing a composer or title" ${S.pieceAt ? `value="${esc(P.piece)}" disabled` : ""}></div>
+        <div class="field year ${S.yearAt ? "solved" : ""}"><div class="row"><label class="label" for="year">Year recorded</label>${S.yearAt ? `<span class="chip">✓</span>` : `<span class="pts">up to 2 pts · within ${YEAR_TOL} years</span>`}</div>
+          <div class="row"><span class="val" id="yv">${S.year ?? "—"}</span>${!S.yearAt && S.year != null ? `<span class="pts" id="ydir">${S.year < P.yearMin ? "Later than " + S.year : "Earlier than " + S.year}</span>` : ""}</div>
+          <input type="range" id="year" min="${YEAR_MIN}" max="${YEAR_MAX}" step="1" value="${S.year ?? Math.round((YEAR_MIN + YEAR_MAX) / 2)}" ${S.yearAt ? "disabled" : ""} aria-label="Year recorded"></div>
         <div class="controls"><button class="btn primary" type="submit">Guess</button><button class="btn" type="button" id="skip">Skip, play more</button></div>
       </form>`}
       ${hs.length ? `<div><div class="label">Hints</div><ul class="hints">${hs.map(h => `<li>${esc(h)}</li>`).join("")}</ul></div>` : ""}
-      ${S.guesses.length ? `<ul class="tries">${S.guesses.map((t, i) => `<li><span class="n">${t.miss ? "✕" : "✓"}</span><span class="g">${t.p.map(x => `<span class="${x.ok ? "ok" : "no"}">${esc(x.g || "—")}</span>`).join(" · ")}<br><span class="${t.piece.ok ? "ok" : t.piece.comp ? "part" : "no"}">${esc(t.piece.g || "—")}</span></span></li>`).join("")}</ul>` : ""}
-    </section>
-
-    <section class="panel">
-      <div class="row"><h2>When was it recorded?</h2><span class="pts">2 pts within 2 years · 1 pt within 6</span></div>
-      <div class="year">
-        <div class="row"><span class="val" id="yv">${S.year ?? YEAR_MIN}</span>${S.year != null ? `<span class="chip">Locked in</span>` : ""}</div>
-        <input type="range" id="year" min="${YEAR_MIN}" max="${YEAR_MAX}" step="1" value="${S.year ?? YEAR_MIN}" ${S.year != null ? "disabled" : ""} aria-label="Recording year">
-        ${S.year == null ? `<div class="controls"><button class="btn" id="lockyear">Lock in year</button></div>` : ""}
-      </div>
+      ${S.guesses.length ? `<ul class="tries">${S.guesses.map((t, i) => `<li><span class="n">${t.miss ? "✕" : "✓"}</span><span class="g">${t.p.map(x => `<span class="${x.ok ? "ok" : "no"}">${esc(x.g || "—")}</span>`).join(" · ")}<br><span class="${t.piece.ok ? "ok" : t.piece.comp ? "part" : "no"}">${esc(t.piece.g || "—")}</span>${t.y ? ` · <span class="${t.y.ok ? "ok" : "no"}">${t.y.g}</span>` : ""}</span></li>`).join("")}</ul>` : ""}
     </section>
 
     ${S.done ? resultHTML() : ""}
 
     <footer>
       <span>${daily ? "A new recording every day at midnight." : "Practice puzzles are random and don't count toward your daily stats."} Rolls from the <a href="https://supra.stanford.edu" target="_blank" rel="noopener">Stanford University Piano Roll Archive</a> (CC BY-NC-SA 4.0). Records from the <a href="https://www.loc.gov/collections/national-jukebox/" target="_blank" rel="noopener">Library of Congress National Jukebox</a> (public domain). Piano sound: Salamander Grand Piano by Alexander Holm (CC BY 3.0). Played with Tone.js.</span>
-      <span>Something wrong with an answer? <a href="https://github.com/${REPO}/issues/new?title=${encodeURIComponent("Problem with " + (daily ? "No. " + (DAY + 1) : "a practice puzzle"))}&body=${encodeURIComponent("Recording id: " + P.id + "\nWhat's wrong:\n")}" target="_blank" rel="noopener">Report it</a>.</span>
+      <span><a href="#changelog">What's new</a> · Something wrong with an answer? <a href="https://github.com/${REPO}/issues/new?title=${encodeURIComponent("Problem with " + (daily ? "No. " + (DAY + 1) : "a practice puzzle"))}&body=${encodeURIComponent("Recording id: " + P.id + "\nWhat's wrong:\n")}" target="_blank" rel="noopener">Report it</a>.</span>
     </footer>
 `;
 
@@ -415,9 +425,8 @@
     if (np) np.onclick = () => { Player.reset(); newPractice(); render(); Player.load().then(() => draw(document.getElementById("roll"), 0)).catch(() => {}); };
 
     const yr = document.getElementById("year"), yv = document.getElementById("yv");
-    yr.oninput = () => { yv.textContent = yr.value; };
-    const ly = document.getElementById("lockyear");
-    if (ly) ly.onclick = () => { S.year = +yr.value; save(); if (S.done) recordStats(); render(); };
+    let yearTouched = S.year != null;
+    if (yr) yr.oninput = () => { yv.textContent = yr.value; yearTouched = true; const d = document.getElementById("ydir"); if (d) d.hidden = true; };
 
     const form = document.getElementById("guess");
     if (form) {
@@ -425,7 +434,7 @@
         const attempt = S.misses + 1;                      // scoring position: misses so far + 1
         const pg = P.performers.map((_, i) => (skip ? "" : document.getElementById("g-p" + i)?.value || ""));
         const pcg = skip ? "" : document.getElementById("g-piece")?.value || "";
-        if (!skip && !pg.some(x => x.trim()) && !pcg.trim()) return;
+        if (!skip && !pg.some(x => x.trim()) && !pcg.trim() && !(yearTouched && !S.yearAt)) return;
         const rec = { p: [], piece: {}, miss: false };
         let progress = false;
         P.performers.forEach((_, i) => {
@@ -438,14 +447,21 @@
         else {
           const gk = CAT.pieceKeyOf[norm(pcg)];
           const ok = !skip && (norm(pcg) === norm(P.piece) || (!!gk && (gk === P.pieceKey || (P.acceptKeys || []).includes(gk))));
-          const comp = !ok && !!pcg && composerOf(pcg) === composerOf(P.piece);
+          const comp = !ok && !!pcg && composerOf(pcg) === composerOf(P.piece) && S.misses < COMPOSER_HINT;   // no credit once the hint has given it away
           if (ok) { S.pieceAt = attempt; progress = true; }
           if (comp && !S.composerAt) { S.composerAt = attempt; progress = true; }
           rec.piece = { g: skip ? "(skipped)" : pcg, ok, comp };
         }
+        if (!S.yearAt && !skip && yearTouched && yr) {
+          const yg = +yr.value, ok = yearOff(yg) <= YEAR_TOL;
+          S.year = yg;
+          if (ok) { S.yearAt = attempt; progress = true; }
+          rec.y = { g: yg, ok };
+        }
+        if (!skip && !progress && !pg.some(x => x.trim()) && !pcg.trim() && !rec.y) return;
         if (!progress) { S.misses++; rec.miss = true; }   // only misses play more
         S.guesses.push(rec);
-        if ((allNames() && S.pieceAt) || S.misses >= MAX_MISSES) { S.done = true; if (S.year != null) recordStats(); }
+        if (allSolved() || S.misses >= MAX_MISSES) { S.done = true; recordStats(); }
         save(); Player.stop(); render();
       };
       form.onsubmit = e => { e.preventDefault(); form.querySelectorAll(".suggest").forEach(x => (x.hidden = true)); submit(false); };
@@ -463,10 +479,9 @@
 
   function shareText() {
     const rows = S.guesses.map(g => (g.miss ? "⬛" : "🟩")).join("");
-    return `Whose Hands No. ${DAY + 1} · ${total()}/10\n${P.kind === "record" ? "Performers" : "Pianist"} ${allNames() ? "✅" : "❌"}  Piece ${S.pieceAt ? "✅" : S.composerAt ? "🟨" : "❌"}  Year ${yearPts() === 2 ? "✅" : yearPts() === 1 ? "🟨" : "❌"}\n${rows}\nhttps://whosehands.github.io`;
+    return `Whose Hands No. ${DAY + 1} · ${total()}/10\n${P.kind === "record" ? "Performers" : "Pianist"} ${allNames() ? "✅" : "❌"}  Piece ${S.pieceAt ? "✅" : S.composerAt ? "🟨" : "❌"}  Year ${S.yearAt ? "✅" : "❌"}\n${rows}\nhttps://whosehands.github.io`;
   }
   function resultHTML() {
-    if (S.year == null) return `<section class="panel result"><h2>Last step: lock in your year above to see the answer.</h2></section>`;
     const daily = MODE === "daily";
     const st = store.get(daily ? "wh2-stats" : "wh3-practice-stats", { played: 0, total: 0, best: 0 });
     const yr = P.yearMin === P.yearMax ? P.yearMin : `${P.yearMin}–${P.yearMax}`;
@@ -479,8 +494,8 @@
         <dt>Piece</dt><dd>${esc(P.piece)}${P.movement ? `<br>${P.movement === "selections" ? "Excerpts" : "Part: " + esc(P.movement)}` : ""}${P.arranged ? `<br><span class="pts">${P.kind === "record" ? "Arranged" : "Arranged for piano"}</span>` : ""}${P.rollLabel ? `<br><span class="pts">${P.kind === "record" ? "Record label" : "Roll label"}: ${esc(P.rollLabel)}</span>` : ""}</dd>
         <dt>Clip</dt><dd>Starts ${fmt(Player.start)} into the ${P.kind === "record" ? "record" : "roll"}</dd>
         <dt>Recorded</dt><dd>${esc(String(yr))}${P.yearExact ? "" : " (published; exact date unknown)"}</dd>
-        <dt>Your year</dt><dd>${S.year} · ${yearPts()} pt${yearPts() === 1 ? "" : "s"}</dd>
-        <dt>Source</dt><dd>${esc(P.format)}${P.rollNumber ? " no. " + esc(P.rollNumber) : ""} · <a href="${esc(P.source)}" target="_blank" rel="noopener">${P.kind === "record" ? "Library of Congress" : "Stanford"} record</a></dd>
+        <dt>Your year</dt><dd>${S.year ?? "—"} · ${yearPts()} pt${yearPts() === 1 ? "" : "s"}</dd>
+        <dt>Source</dt><dd>${P.kind === "record" ? esc(P.format) : "Piano roll" + (P.rollNumber ? " no. " + esc(P.rollNumber) : "")} · <a href="${esc(P.source)}" target="_blank" rel="noopener">${P.kind === "record" ? "Library of Congress" : "Stanford"} record</a></dd>
       </dl>
       <div class="controls"><button class="btn" id="full">▶ Keep listening (60s)</button>${daily ? "" : `<button class="btn primary" onclick="document.getElementById('newp').click()">Next puzzle</button>`}</div>
       ${daily ? `<div class="share">${esc(shareText())}</div><div class="controls"><button class="btn primary" id="copy">Copy result</button><a class="btn" href="#practice">Practice more</a></div>` : ""}
@@ -501,8 +516,9 @@
     cat.recordings.forEach(r => { CAT.pieceKeyOf[norm(r.piece)] = r.pieceKey || norm(r.piece); });
     CAT.pieceOptions = [...new Set((cat.pieceOptions || []).map(o => o[0]))].sort();   // the build lists every answer once
     CAT.nameIndex = index(CAT.nameOptions); CAT.pieceIndex = index(CAT.pieceOptions);
-    const route = () => setMode(location.hash === "#practice" ? "practice" : "daily");
+    const route = () => (location.hash === "#changelog" ? renderChangelog() : setMode(location.hash === "#practice" ? "practice" : "daily"));
     window.addEventListener("hashchange", route);
+    document.addEventListener("visibilitychange", () => { if (document.hidden) { Player.stop(); const st = document.getElementById("status"); if (st) st.textContent = ""; } });
     window.addEventListener("resize", () => { const c = document.getElementById("roll"); if (c) draw(c, 0); });
     route();
   }).catch(e => {

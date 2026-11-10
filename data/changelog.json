@@ -1,0 +1,27 @@
+[
+ {"date": "2026-11-10", "items": [
+  "The year is now guessed together with the performers and the piece. Each guess can include a year; within 2 years counts, and a wrong year tells you whether to go earlier or later. Sooner is worth more: 2 points on the first two tries, then 1.5, then 1.",
+  "Naming the right composer no longer earns a point or saves a try once the composer hint has been shown.",
+  "Audio now stops when you switch to another tab, instead of playing on.",
+  "Dropped the piano-roll brand name from the player and the hints. The first hint now gives the composer's dates instead.",
+  "Added this changelog."
+ ]},
+ {"date": "2026-11-08", "title": "Cleanup", "items": [
+  "Performers listed under two names are merged, such as Eugenie Adam and Eugenie Adam-Benard.",
+  "Fame ratings fixed: studio orchestras no longer count as famous.",
+  "A set of pieces no longer appears beside its own numbered pieces. For example, Chopin's Op. 28 now lists Preludes Nos. 1–24, and a roll of several preludes accepts any of them.",
+  "Titles in other languages and other spellings of the same work count as one answer, such as Arabeske and Arabesque.",
+  "Composers use their usual short names, such as Beethoven rather than van Beethoven.",
+  "Popular songs, dance music and instrumental solos were removed. Lieder and other classical art songs have their own genre."
+ ]},
+ {"date": "2026-11-08", "title": "Opera, orchestral music and practice", "items": [
+  "Added about 900 opera, orchestral and art song records from the Library of Congress, alongside the piano rolls.",
+  "New Practice tab with filters for format, genre, recording years and how famous the composer and performer are.",
+  "Each puzzle plays a random part of the piece, and only misses lengthen the clip.",
+  "The piece box searches about 8,800 works as you type.",
+  "The roll display never shows notes past the part you've unlocked."
+ ]},
+ {"date": "2026-11-08", "title": "Launch", "items": [
+  "Whose Hands launched with 450 piano rolls recorded between 1905 and 1925."
+ ]}
+]

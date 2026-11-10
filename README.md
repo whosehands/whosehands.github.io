@@ -6,8 +6,9 @@ Play it at https://whosehands.github.io
 
 ## How a round works
 
-- The clip starts at 2 seconds. Right answers keep it as it is; each miss plays more (up to 24 seconds) and adds a hint.
-- Points: performers 5, piece 3 (1 for the right composer), year 2.
+- You guess the performers, the piece and the year together, in one form. The clip starts at 2 seconds. Right answers keep it as it is; each miss plays more (up to 24 seconds) and adds a hint.
+- The sooner you get each answer, the more it's worth: performers up to 5, piece up to 3, year up to 2 (within 2 years counts; a wrong year tells you "earlier" or "later").
+- Naming only the right composer earns 1 point for the piece, but not after the composer hint has appeared.
 - Every puzzle plays a random part of the piece, so a recording can come back later with a different section.
 
 ## Where the music comes from
@@ -23,5 +24,7 @@ This is a free, non-commercial fan project. Visits are counted with GoatCounter,
 ## How the data is kept up to date
 
 GitHub Actions in `.github/workflows/` download the source listings into `sources/` once a month. `data/catalog.json` lists every recording with its performers, piece, year and source. The `schedule` array sets which recording plays on which day, starting from `epoch`; new recordings are only ever added after today's position, so past days never change.
+
+See what changed on the site's [What's new](https://whosehands.github.io/#changelog) page (`data/changelog.json`).
 
 Found a wrong answer? [Open an issue](https://github.com/whosehands/whosehands.github.io/issues/new).

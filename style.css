@@ -1,4 +1,4 @@
-/* Layout: one narrow column. A scrolling Welte-Mignon roll is the player; then pianist, piece, year. */
+/* Layout: one narrow column. A scrolling piano roll (or a spinning record) is the player; then pianist, piece, year. */
 :root{
   --paper:#eceef0; --card:#ffffff; --ink:#16171a; --muted:#5b616a; --line:#d4d8dd;
   --roll:#8f2a22; --roll-dark:#6d1d17; --hole:#f4efe6; --on-roll:#ffffff;
@@ -97,3 +97,11 @@ a.btn{text-decoration:none;display:inline-block}
 .check input{accent-color:var(--roll);width:16px;height:16px}
 .filters select{font:inherit;padding:6px 8px;border-radius:8px;border:1px solid var(--line);background:var(--paper);color:var(--ink)}
 .fyears span{color:var(--muted);font-size:.9rem}
+
+/* Changelog */
+.changelog .entry{display:flex;flex-direction:column;gap:6px;padding-top:14px;border-top:1px solid var(--line)}
+.changelog .entry:first-of-type{border-top:0;padding-top:0}
+.changelog h3{font-family:var(--display);font-weight:400;font-size:1.05rem;margin:0}
+.changelog ul{margin:0;padding-left:1.1rem;display:flex;flex-direction:column;gap:6px;font-size:.93rem}
+.field.year .val{font-family:var(--display);font-size:1.6rem;line-height:1;font-variant-numeric:tabular-nums}
+.field.year input[type=range]{width:100%;accent-color:var(--roll)}
