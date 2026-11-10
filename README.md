@@ -6,9 +6,9 @@ Play it at https://whosehands.github.io
 
 ## How a round works
 
-- You guess the performers, the piece and the year together, in one form. The clip starts at 2 seconds. Right answers keep it as it is; each miss plays more (up to 24 seconds) and adds a hint.
+- You guess the performers, the piece and the year together, in one form. The clip starts at 2 seconds. Right answers keep it as it is; each miss plays more (up to 24 seconds) and earns a hint. You choose whether each hint is about the performer, the piece or the year.
 - The sooner you get each answer, the more it's worth: performers up to 5, piece up to 3, year up to 2 (within 2 years counts; a wrong year tells you "earlier" or "later").
-- Naming only the right composer earns 1 point for the piece, but not after the composer hint has appeared.
+- Naming only the right composer earns 1 point for the piece, but not after you've opened the hint that names the composer.
 - Every puzzle plays a random part of the piece, so a recording can come back later with a different section.
 
 ## Where the music comes from

@@ -350,6 +350,33 @@ for r in cat["recordings"]:
     r["performerFame"] = "famous" if r.get("famous") and best < 30 else tier(best, 30, 8)
 print("composers:", collections.Counter(r["composerFame"] for r in cat["recordings"]), "performers:", collections.Counter(r["performerFame"] for r in cat["recordings"]))
 
+# facts for hints: Wikidata's short description of each person ("Italian operatic tenor"), without dates, and their lifetimes
+MUSIC = re.compile(r"pianist|singer|soprano|tenor|baritone|bass|contralto|mezzo|composer|conductor|musician|violinist|cellist|organist|harpist|vocalist|orchestra|band|ensemble|opera|performer|flautist|flutist|cornet", re.I)
+def about(name, v):
+    d = (v or {}).get("description") or ""
+    if not MUSIC.search(d): return "", ""                  # a namesake who isn't a musician: use nothing from it
+    m = re.search(r"\((\d{4})\s*[-–]\s*(\d{4})?\)", d)
+    dates = f"{m.group(1)}-{m.group(2) or ''}".rstrip("-") if m else ""
+    d = re.sub(r"\s*\([^)]*\d{4}[^)]*\)", "", d).strip(" ,;")
+    if not re.match(r"[A-Z]", d): d = ""                    # "pianist" alone says nothing new; keep ones that start with a nationality
+    if set(re.findall(r"[a-z]+", fold(d))) & {t for t in _toks(name) if len(t) > 2}: d = ""   # never give the name away
+    return d, dates
+comp_dates = {x["name"]: x.get("dates", "") for x in json.load(open("data/composers.json", encoding="utf-8"))}
+for r in cat["recordings"]:
+    r.pop("performerAbout", None); r.pop("composerAbout", None)
+    pa = {}
+    for p in r["performers"]:
+        d, dt = about(p, people.get(p))
+        if d: pa[p] = d
+        if dt and not (r.get("performerDates") or {}).get(p): r.setdefault("performerDates", {})[p] = dt
+    if pa: r["performerAbout"] = pa
+    cv = wd.get(r["composer"])
+    d, dt = about(r["composer"], cv if trusted(r["composer"], cv) else None)
+    if d: r["composerAbout"] = d
+    if not r.get("composerDates"): r["composerDates"] = comp_dates.get(r["composer"]) or dt
+print("hint facts:", sum("performerAbout" in r for r in cat["recordings"]), "performer descriptions,",
+      sum(bool(r.get("composerDates")) for r in cat["recordings"]), "composer lifetimes")
+
 # manual fixes from player reports: data/overrides.json maps a recording id to fields to replace
 try: overrides = json.load(open("data/overrides.json", encoding="utf-8"))
 except FileNotFoundError: overrides = {}

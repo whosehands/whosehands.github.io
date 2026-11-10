@@ -59,7 +59,6 @@
   const YEAR_TOL = 2;                                   // a year guess within 2 years of the recording counts
   const yearOff = y => (y < P.yearMin ? P.yearMin - y : y > P.yearMax ? y - P.yearMax : 0);
   const yearPts = () => yearPtsAt(S.yearAt);
-  const COMPOSER_HINT = 2;                              // the composer is revealed after this many misses
   const namesScore = () => S.nameAt.reduce((s, a) => s + namePts(a) / P.performers.length, 0);
   const pieceScore = () => (S.pieceAt ? piecePts(S.pieceAt) : S.composerAt ? 1 : 0);
   const total = () => Math.round((namesScore() + pieceScore() + yearPts()) * 10) / 10;
@@ -199,7 +198,7 @@
 
   /* ---------- game state ---------- */
   function freshState(id, frac) {
-    return { id, frac, guesses: [], misses: 0, nameAt: BY_ID[id].performers.map(() => 0), pieceAt: 0, composerAt: 0, year: null, yearAt: 0, done: false };
+    return { id, frac, guesses: [], misses: 0, nameAt: BY_ID[id].performers.map(() => 0), pieceAt: 0, composerAt: 0, year: null, yearAt: 0, hints: [], done: false };
   }
   const stateKey = () => (MODE === "daily" ? "wh3-day-" + DAY : "wh3-practice");
   const save = () => store.set(stateKey(), S);
@@ -288,16 +287,70 @@
     store.set(key, st);
   }
 
-  function hints() {
-    const h = [], who = P.kind === "record" ? `The ${roleOf(0) === "orchestra" ? "orchestra" : roleLabel(0).toLowerCase()}` : "The pianist";
-    h.push(P.composerDates ? `The composer lived ${P.composerDates}` : `Genre: ${P.genre === "Opera & stage" ? "opera or stage music" : (P.genre || "").toLowerCase()}`);
-    h.push(`Composer: ${P.composer}${P.composerDates ? " (" + P.composerDates + ")" : ""}`);
-    const d = P.performerDates && P.performerDates[P.performers[0]], cnt = CAT.countBy[P.performers[0]] || 1;
-    h.push(d ? `${who} lived ${d}` : `${who} appears in ${cnt} recording${cnt > 1 ? "s" : ""} in this game`);
-    const sn = P.performers[0].split(" ").pop();
-    h.push(`${who}'s name ends in a ${sn.replace(/[^\p{L}]/gu, "").length}-letter word`);
-    h.push(`${who}'s last name starts with “${sn.replace(/^(d'|de |von |van )/i, "")[0]}”`);
-    return h;
+  /* ---------- hints: each miss earns one, and the player picks the kind ---------- */
+  const HINT_KINDS = [["who", "Performer"], ["what", "Piece"], ["when", "Year"]];
+  const FORMS = /^(ballade|nocturne|waltz|valse|[ée]tude|pr[ée]lude|sonata|sonatina|mazurka|polonaise|impromptu|rhapsod\w*|intermezzo|scherzo|fantas\w*|march|marche|overture|ouverture|symphony|concerto|serenade|s[ée]r[ée]nade|barcarolle|berceuse|rondo|variations|minuet|menuet|gavotte|humoresque|romance|caprice|capriccio|toccata|fugue|suite|polka|tarantell\w*|novelette|arabesque|[ée]l[ée]g\w*|consolation|bagatelle|danse|dance|nachtst\w*|song|chanson|lied|ave maria)\b/i;
+  const born = s => +((String(s || "").match(/^(\d{4})/) || [])[1] || 0);
+  const died = s => +((String(s || "").match(/-(\d{4})$/) || [])[1] || 0);
+  const lifeText = d => (died(d) ? `lived ${born(d)}–${died(d)}` : `was born in ${born(d)}`);
+  const aAn = t => (/^[AEIOU]/i.test(t) ? "an " : "a ") + t;
+  const whoOf = i => (P.kind === "record" ? `The ${roleLabel(i).toLowerCase()}` : "The pianist");
+  function hintLadder(kind, i) {           // from vague to specific
+    const out = [], y = P.yearMin;
+    if (kind === "who") {
+      const name = P.performers[i], who = whoOf(i), d = (P.performerDates || {})[name], cnt = CAT.countBy[name] || 1;
+      const about = (P.performerAbout || {})[name];
+      if (about) out.push(`${who} was ${aAn(about)}`);
+      if (born(d)) out.push(`${who} ${lifeText(d)}`);
+      out.push(cnt > 1 ? `${who} is on ${cnt} recordings in this game` : `This is ${who.toLowerCase()}'s only recording in this game`);
+      const words = name.split(/\s+/).filter(Boolean);
+      if (roleOf(i) === "orchestra" || /orchestra|band|quartet|trio|chorus|ensemble|company|choir/i.test(name)) {
+        out.push(`The name has ${words.length} word${words.length > 1 ? "s" : ""}`);
+        out.push(`The name starts with “${name[0]}”`);
+      } else {
+        const sn = words[words.length - 1].replace(/[^\p{L}]/gu, "");
+        out.push(`${who}'s last name has ${sn.length} letters`);
+        out.push(`${who}'s initials are ${words.filter(w => /^\p{Lu}/u.test(w)).map(w => w[0] + ".").join(" ")}`);
+      }
+    } else if (kind === "what") {
+      const g = { "Opera & stage": "It's from an opera or other stage work", "Art songs": "It's an art song", "Orchestral": "It's orchestral music", "Piano music": "It was written for piano" }[P.genre];
+      if (g) out.push(g + (P.kind !== "record" && P.genre !== "Piano music" ? ", arranged for piano" : ""));
+      if (P.composerAbout) out.push(`The composer was ${aAn(P.composerAbout)}`);
+      if (born(P.composerDates)) out.push(`The composer ${lifeText(P.composerDates)}`);
+      out.push({ text: `Composer: ${P.composer}`, reveals: "composer" });
+      const title = P.piece.split(" – ").slice(1).join(" – ") || P.piece, form = title.match(FORMS), key = title.match(/\bin ([A-G](?:[-‐ ]?(?:flat|sharp)|♭|♯)? (?:major|minor))/i);
+      if (form) out.push(`Kind of piece: ${form[1].charAt(0).toUpperCase() + form[1].slice(1).toLowerCase()}`);
+      if (key) out.push(`Key: ${key[1].replace("♭", "-flat").replace("♯", "-sharp")}`);
+      if (!form) out.push(`The title starts with “${title.replace(/^[^\p{L}]+/u, "")[0]}”`);
+    } else {
+      const dec = n => Math.floor(n / 10) * 10, range = `Recorded between ${P.yearMin} and ${P.yearMax}`;
+      out.push(dec(P.yearMin) === dec(P.yearMax) ? `Recorded in the ${dec(y)}s` : range);
+      const cb = born(P.composerDates), cd = died(P.composerDates);
+      if (cd && cd < y) out.push(`The composer had died ${y - cd} year${y - cd > 1 ? "s" : ""} before it was recorded`);
+      else if (cd === y) out.push("The composer died the year it was recorded");
+      else if (cb) out.push(`The composer was alive, about ${y - cb} years old`);
+      const pi = P.performers.findIndex(n => born((P.performerDates || {})[n]));
+      if (pi >= 0) out.push(`${whoOf(pi)} was about ${y - born(P.performerDates[P.performers[pi]])} years old`);
+      const lo = y - (y % 5);
+      if (P.yearMax <= lo + 4) out.push(`Recorded between ${lo} and ${lo + 4}`);
+      else if (dec(P.yearMin) === dec(P.yearMax)) out.push(range);
+    }
+    return out.map(h => (typeof h === "string" ? { text: h } : h));
+  }
+  function takenHints() {                  // the hints opened so far, in order
+    const seen = {};
+    return (S.hints || []).map(h => {
+      const key = h.k + (h.i ?? ""), n = (seen[key] = (seen[key] ?? -1) + 1);
+      const item = hintLadder(h.k, h.i || 0)[n];
+      return item && { ...item, kind: HINT_KINDS.find(x => x[0] === h.k)[1] };
+    }).filter(Boolean);
+  }
+  const composerRevealed = () => takenHints().some(h => h.reveals === "composer");
+  function nextHint(kind) {                // what a hint of this kind would target, or null if there's nothing left to give
+    const i = kind === "who" ? S.nameAt.findIndex(a => !a) : 0;
+    if (kind === "who" ? i < 0 : kind === "what" ? S.pieceAt : S.yearAt) return null;
+    const used = (S.hints || []).filter(h => h.k === kind && (h.i || 0) === i).length;
+    return used < hintLadder(kind, i).length ? { k: kind, i } : null;
   }
 
   /* ---------- search-as-you-type ---------- */
@@ -356,7 +409,7 @@
     const daily = MODE === "daily";
     const step = S.done ? SNIPS.length - 1 : Math.min(S.misses, SNIPS.length - 1);
     const secs = SNIPS[step];
-    const hs = hints().slice(0, Math.min(S.misses, 5));
+    const hs = takenHints(), toOpen = S.done ? 0 : S.misses - (S.hints || []).length;
     const dateStr = new Date().toLocaleDateString(undefined, { month: "short", day: "numeric", year: "numeric" });
     const tag = daily ? "NO. " + (DAY + 1) : "PRACTICE";
     const fresh = !S.guesses.length && !S.done;
@@ -370,7 +423,7 @@
     ${fresh ? `<p class="how">${P.kind === "record"
       ? "This is a 78 record. Guess everyone featured on it, the piece, and the year it was recorded."
       : "A pianist recorded this on a piano roll. You hear their exact notes, pedaling and timing on a modern piano. Guess who, what, and the year it was recorded."}
-      You hear a random part of the piece. Guess all three together: the sooner you get each one, the more it's worth. Right answers keep the clip as it is; each miss plays more and adds a hint.</p>` : ""}
+      You hear a random part of the piece. Guess all three together: the sooner you get each one, the more it's worth. Right answers keep the clip as it is; each miss plays more and earns a hint, and you choose what it's about.</p>` : ""}
     ${!daily ? filtersHTML() + `<div class="controls"><button class="btn" id="newp">${S.done ? "Next puzzle" : "Skip to a new puzzle"}</button></div>` : ""}
 
     <section class="player" aria-label="Recording">
@@ -385,14 +438,17 @@
       ${S.done ? "" : `<form id="guess" autocomplete="off">
         ${P.performers.map((p, i) => `<div class="field ${S.nameAt[i] ? "solved" : ""}"><div class="row"><label class="label" for="g-p${i}">${esc(roleLabel(i))}</label>${S.nameAt[i] ? `<span class="chip">✓</span>` : `<span class="pts">up to ${Math.round(50 / P.performers.length) / 10} pts</span>`}</div>
           <input type="text" id="g-p${i}" placeholder="${roleOf(i) === "orchestra" ? "Start typing an orchestra" : "Start typing a name"}" ${S.nameAt[i] ? `value="${esc(p)}" disabled` : ""}></div>`).join("")}
-        <div class="field ${S.pieceAt ? "solved" : ""}"><div class="row"><label class="label" for="g-piece">Piece</label>${S.pieceAt ? `<span class="chip">✓</span>` : S.composerAt ? `<span class="chip part">Composer ✓</span>` : `<span class="pts">up to 3 pts${S.misses < COMPOSER_HINT ? " · right composer 1" : ""}</span>`}</div>
+        <div class="field ${S.pieceAt ? "solved" : ""}"><div class="row"><label class="label" for="g-piece">Piece</label>${S.pieceAt ? `<span class="chip">✓</span>` : S.composerAt ? `<span class="chip part">Composer ✓</span>` : `<span class="pts">up to 3 pts${composerRevealed() ? "" : " · right composer 1"}</span>`}</div>
           <input type="text" id="g-piece" placeholder="Start typing a composer or title" ${S.pieceAt ? `value="${esc(P.piece)}" disabled` : ""}></div>
         <div class="field year ${S.yearAt ? "solved" : ""}"><div class="row"><label class="label" for="year">Year recorded</label>${S.yearAt ? `<span class="chip">✓</span>` : `<span class="pts">up to 2 pts · within ${YEAR_TOL} years</span>`}</div>
           <div class="row"><span class="val" id="yv">${S.year ?? "—"}</span>${!S.yearAt && S.year != null ? `<span class="pts" id="ydir">${S.year < P.yearMin ? "Later than " + S.year : "Earlier than " + S.year}</span>` : ""}</div>
           <input type="range" id="year" min="${YEAR_MIN}" max="${YEAR_MAX}" step="1" value="${S.year ?? Math.round((YEAR_MIN + YEAR_MAX) / 2)}" ${S.yearAt ? "disabled" : ""} aria-label="Year recorded"></div>
         <div class="controls"><button class="btn primary" type="submit">Guess</button><button class="btn" type="button" id="skip">Skip, play more</button></div>
       </form>`}
-      ${hs.length ? `<div><div class="label">Hints</div><ul class="hints">${hs.map(h => `<li>${esc(h)}</li>`).join("")}</ul></div>` : ""}
+      ${hs.length || toOpen > 0 ? `<div class="hintbox"><div class="label">Hints</div>
+        ${hs.length ? `<ul class="hints">${hs.map(h => `<li><span class="kind">${h.kind}</span> ${esc(h.text)}</li>`).join("")}</ul>` : ""}
+        ${toOpen > 0 ? `<div class="hintpick"><span class="pts">${toOpen === 1 ? "You have a hint. What should it be about?" : `You have ${toOpen} hints. What should the next one be about?`}</span>
+          <div class="controls">${HINT_KINDS.map(([k, label]) => `<button class="btn small" type="button" data-hint="${k}" ${nextHint(k) ? "" : "disabled"}>${label}</button>`).join("")}</div></div>` : ""}</div>` : ""}
       ${S.guesses.length ? `<ul class="tries">${S.guesses.map((t, i) => `<li><span class="n">${t.miss ? "✕" : "✓"}</span><span class="g">${t.p.map(x => `<span class="${x.ok ? "ok" : "no"}">${esc(x.g || "—")}</span>`).join(" · ")}<br><span class="${t.piece.ok ? "ok" : t.piece.comp ? "part" : "no"}">${esc(t.piece.g || "—")}</span>${t.y ? ` · <span class="${t.y.ok ? "ok" : "no"}">${t.y.g}</span>` : ""}</span></li>`).join("")}</ul>` : ""}
     </section>
 
@@ -424,6 +480,10 @@
     const np = document.getElementById("newp");
     if (np) np.onclick = () => { Player.reset(); newPractice(); render(); Player.load().then(() => draw(document.getElementById("roll"), 0)).catch(() => {}); };
 
+    app.querySelectorAll("[data-hint]").forEach(b => (b.onclick = () => {
+      const h = nextHint(b.dataset.hint); if (!h) return;
+      (S.hints = S.hints || []).push(h); save(); Player.stop(); render();
+    }));
     const yr = document.getElementById("year"), yv = document.getElementById("yv");
     let yearTouched = S.year != null;
     if (yr) yr.oninput = () => { yv.textContent = yr.value; yearTouched = true; const d = document.getElementById("ydir"); if (d) d.hidden = true; };
@@ -447,7 +507,7 @@
         else {
           const gk = CAT.pieceKeyOf[norm(pcg)];
           const ok = !skip && (norm(pcg) === norm(P.piece) || (!!gk && (gk === P.pieceKey || (P.acceptKeys || []).includes(gk))));
-          const comp = !ok && !!pcg && composerOf(pcg) === composerOf(P.piece) && S.misses < COMPOSER_HINT;   // no credit once the hint has given it away
+          const comp = !ok && !!pcg && composerOf(pcg) === composerOf(P.piece) && !composerRevealed();   // no credit once a hint has given the composer away
           if (ok) { S.pieceAt = attempt; progress = true; }
           if (comp && !S.composerAt) { S.composerAt = attempt; progress = true; }
           rec.piece = { g: skip ? "(skipped)" : pcg, ok, comp };
@@ -479,7 +539,7 @@
 
   function shareText() {
     const rows = S.guesses.map(g => (g.miss ? "⬛" : "🟩")).join("");
-    return `Whose Hands No. ${DAY + 1} · ${total()}/10\n${P.kind === "record" ? "Performers" : "Pianist"} ${allNames() ? "✅" : "❌"}  Piece ${S.pieceAt ? "✅" : S.composerAt ? "🟨" : "❌"}  Year ${S.yearAt ? "✅" : "❌"}\n${rows}\nhttps://whosehands.github.io`;
+    return `Whose Hands No. ${DAY + 1} · ${total()}/10\n${P.kind === "record" ? "Performers" : "Pianist"} ${allNames() ? "✅" : "❌"}  Piece ${S.pieceAt ? "✅" : S.composerAt ? "🟨" : "❌"}  Year ${S.yearAt ? "✅" : "❌"}\n${rows}${S.hints && S.hints.length ? ` · 💡${S.hints.length}` : ""}\nhttps://whosehands.github.io`;
   }
   function resultHTML() {
     const daily = MODE === "daily";
