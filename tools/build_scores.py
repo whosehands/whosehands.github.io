@@ -28,7 +28,7 @@ DROP = re.compile(r"^!!!(rism[^:]*|AFR|OCL|OTL|OTP|PTL|OPT|OPS|ONM|AGN|SCT\d?|CO
 def clean(t):
     t = re.sub(r"^!!!!SEGMENT[^\n]*\n", "", t, flags=re.M)
     t = DROP.sub("", t)
-    t = re.sub(r"(?<![^\t\n])\*I[\"'][^\t\n]*", "*", t)        # instrument and section labels printed above the staff ("No. 4.")
+    t = re.sub(r"(?<![^\t\n])\*I[^\t\n]*", "*", t)        # instrument and section labels printed above the staff ("No. 4.")
     return re.sub(r"^!!LO:TX[^\n]*\n", "", t, flags=re.M)
 
 items = []

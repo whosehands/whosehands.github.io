@@ -1,7 +1,7 @@
 !!!OMD: Presto.
 **kern	**kern	**dynam
 *staff2	*staff1	*staff1/2
-*Ipiano	*Ipiano	*Ipiano
+*	*	*
 *>[A,A,B,B,C,C,D,D,E,E,F,F,G]	*>[A,A,B,B,C,C,D,D,E,E,F,F,G]	*>[A,A,B,B,C,C,D,D,E,E,F,F,G]
 *>norep[A,B,C,D,E,F,G]	*>norep[A,B,C,D,E,F,G]	*>norep[A,B,C,D,E,F,G]
 *>A	*>A	*>A

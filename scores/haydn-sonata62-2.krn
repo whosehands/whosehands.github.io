@@ -1,7 +1,7 @@
 !!!OMD: Adagio.
 **kern	**kern	**dynam
 *staff1	*staff2	*staff1/2
-*Ipiano	*Ipiano	*Ipiano
+*	*	*
 *>[A,A1,A,A2,B,B,C]	*>[A,A1,A,A2,B,B,C]	*>[A,A1,A,A2,B,B,C]
 *>norep[A,A2,B,C]	*>norep[A,A2,B,C]	*>norep[A,A2,B,C]
 *>A	*>A	*>A

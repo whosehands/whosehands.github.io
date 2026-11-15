@@ -465,12 +465,12 @@
   function scShown() {                       // which systems are visible: the chosen one, then one more after, before, after ...
     const n = SC.systems.length, st = SC.st;
     const start = Math.min(n - 1, Math.max(n > 2 ? 1 : 0, Math.floor(st.frac * n)));
-    const extra = st.done ? n : Math.min(st.misses, 3);
+    const extra = SC.whole ? n : Math.min(st.misses, 3);
     let a = start, b = start;
     for (let i = 0; i < extra; i++) { if (i % 2 === 0 && b < n - 1) b++; else if (a > 0) a--; else if (b < n - 1) b++; }
     const list = []; for (let i = a; i <= b; i++) list.push(i);
-    if ((st.misses >= 4 || st.done) && a > 0 && !st.done) list.unshift(0);   // the opening, as a hint
-    return st.done ? list.slice(0, 40) : list;
+    if (st.misses >= 4 && a > 0 && !SC.whole) list.unshift(0);   // the opening, as a hint
+    return SC.whole ? list.slice(0, 60) : list;
   }
   function scSystemSVG(i) {
     const sys = SC.systems[i], page = SC.pages[sys.page].querySelector("svg").cloneNode(true);
@@ -505,7 +505,7 @@
       <span><a href="#changelog">What's new</a></span></footer>`;
     try { await scLoad(); } catch (e) { console.error(e); document.getElementById("sc-loading").textContent = "The score engine didn't load. Reload the page to try again."; return; }
     if (MODE !== "score") return;
-    scPick(practice);
+    scPick(practice); SC.whole = false;
     await scRenderPiece();
     scDraw();
   }
@@ -522,7 +522,7 @@
     panel.innerHTML = `
       <div class="row"><h2>What piece is this?</h2><span class="pts">${st.misses}/${SC_MAX} misses</span></div>
       <div class="sc-systems" id="sc-systems"></div>
-      <div class="controls"><button class="btn" id="sc-play">▶ Listen to these bars</button><button class="btn" id="sc-stop">Stop</button></div>
+      <div class="controls"><button class="btn" id="sc-play">▶ Listen to these bars</button><button class="btn" id="sc-stop">Stop</button>${st.done && !SC.whole ? `<button class="btn" id="sc-whole">Show the whole score</button>` : ""}</div>
       ${st.done ? "" : `<form id="sc-form" autocomplete="off">${fieldHTML}
         <div class="controls"><button class="btn primary" type="submit">Guess</button><button class="btn" type="button" id="sc-skip">Skip, show more</button></div></form>`}
       ${scClues().length ? `<div><div class="label">Clues</div><ul class="hints">${scClues().map(c => `<li>${esc(c)}</li>`).join("")}</ul></div>` : ""}
@@ -564,7 +564,7 @@
     play.disabled = !SC.song;
     play.onclick = async () => {
       const ctx = Player.audio(); const resumed = ctx.resume();
-      const ids = shown.filter(i => !(i === 0 && shown[1] !== 1 && shown.length > 1 && !st.done)).flatMap(i => SC.systems[i].measures);
+      const ids = shown.filter(i => !(i === 0 && shown[1] !== 1 && shown.length > 1 && !SC.whole)).flatMap(i => SC.systems[i].measures);
       const on = {}; (SC.timemap || []).forEach(e => { if (e.measureOn && on[e.measureOn] === undefined) on[e.measureOn] = e.tstamp / 1000; });
       const starts = ids.map(id => on[id]).filter(x => x !== undefined);
       if (!starts.length) return;
@@ -578,6 +578,8 @@
       Player.playing = true; Player.poll = setTimeout(() => Player.stop(), (to - from + 2) * 1000);
     };
     document.getElementById("sc-stop").onclick = () => Player.stop();
+    const whole = document.getElementById("sc-whole");
+    if (whole) whole.onclick = () => { SC.whole = true; scDraw(); };
     const next = document.getElementById("sc-next");
     if (next) next.onclick = () => { store.set("wh4-score-practice", null); location.hash === "#score-practice" ? renderScore(true) : (location.hash = "#score-practice"); };
     const copy = document.getElementById("sc-copy");

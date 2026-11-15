@@ -1,7 +1,7 @@
 !!!OMD: Andante.
 **kern	**kern	**dynam
 *staff2	*staff1	*staff1/2
-*Ipiano	*Ipiano	*Ipiano
+*	*	*
 *>[A,A,B,B]	*>[A,A,B,B]	*>[A,A,B,B]
 *>norep[A,B]	*>norep[A,B]	*>norep[A,B]
 *>A	*>A	*>A

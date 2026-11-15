@@ -1,7 +1,7 @@
 !!!OMD: MENUETTO.
 **kern	**kern	**dynam
 *staff2	*staff1	*staff1/2
-*Ipiano	*Ipiano	*Ipiano
+*	*	*
 *>[A,A,B,B,C,C,D,D,A,B]	*>[A,A,B,B,C,C,D,D,A,B]	*>[A,A,B,B,C,C,D,D,A,B]
 *>norep[A,B,C,D,A,B]	*>norep[A,B,C,D,A,B]	*>norep[A,B,C,D,A,B]
 *>A	*>A	*>A
