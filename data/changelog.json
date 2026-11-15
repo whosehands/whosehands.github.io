@@ -1,5 +1,19 @@
 [
  {
+  "date": "2026-11-15",
+  "title": "Score mode, a better piano, downloads and real clues",
+  "items": [
+   "New Score tab: name the piece from a few bars of sheet music. Each miss shows more bars and a clue, and you can listen to the bars. Chopin (his first editions), plus Mozart and Haydn sonatas.",
+   "A much better piano: seven loudness layers instead of one, the soft thump of keys and dampers, pedal noise and a little room sound.",
+   "Download the whole recording after a round: rolls as MP3, lossless WAV or the original MIDI; records as the Library of Congress MP3.",
+   "Leaving the tab no longer stops the music, and the clip still ends exactly where it should.",
+   "Clues now work like quiz bowl: they start with specific, little-known facts (a teacher, a burial place, a librettist, what else happened that year) and get more obvious.",
+   "No more useless clues: rolls don't tell you it's piano music, and once you know the composer you get no more composer clues.",
+   "Pieces in a published set (Chopin's Études, Op. 10; Brahms's Intermezzi, Op. 117): name the set first, then pick which piece from a second list. The right set alone is worth 2 points.",
+   "Fixed duplicates: Madam/Madama Butterfly, Loreley/LORELEI, Stephanie gavotte/gavota, and a Schubert impromptu listed twice."
+  ]
+ },
+ {
   "date": "2026-11-10",
   "title": "Pick your hints",
   "items": [

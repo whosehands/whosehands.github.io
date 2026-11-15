@@ -9,3 +9,5 @@ python3 tools/select_loc.py
 python3 tools/build_records.py
 python3 tools/build_pieces.py
 python3 tools/build_schedule.py /tmp/wh-prev-catalog.json
+python3 tools/build_clues.py
+python3 tools/check_catalog.py

@@ -1,0 +1,11251 @@
+{
+"people": {
+"Teresa Carreño": [
+{
+"t": "{Who} is buried at National Pantheon",
+"lvl": 1
+},
+{
+"t": "{Who} was married to Eugen d'Albert and Émile Sauret",
+"lvl": 1
+},
+{
+"t": "{Who} died in New York City",
+"lvl": 1
+},
+{
+"t": "{Who} studied with Louis Moreau Gottschalk",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Caracas",
+"lvl": 3
+}
+],
+"Ferruccio Busoni": [
+{
+"t": "{Who} is buried at III. Städtischer Friedhof Stubenrauchstraße",
+"lvl": 1
+},
+{
+"t": "{Who} received the Honorary Member of the International Society for Contemporary Music",
+"lvl": 1
+},
+{
+"t": "{Who} taught Eduard Steuermann and Natalie Curtis",
+"lvl": 1
+},
+{
+"t": "{Who} died in Berlin",
+"lvl": 1
+},
+{
+"t": "{Who} studied with Wilhelm Mayer",
+"lvl": 2
+},
+{
+"t": "{Who} studied at the University of Music and Theatre Leipzig",
+"lvl": 2
+},
+{
+"t": "{Who} worked at the University of Music and Performing Arts Vienna",
+"lvl": 2
+},
+{
+"t": "{Who} was a member of the Prussian Academy of Arts",
+"lvl": 2
+},
+{
+"t": "{Who} is known for Turandot",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Empoli",
+"lvl": 3
+}
+],
+"Ernest Schelling": [
+{
+"t": "{Who} is buried at St. Elizabeth's Memorial Chapel, Tuxedo",
+"lvl": 1
+},
+{
+"t": "{Who} died in Manhattan",
+"lvl": 1
+},
+{
+"t": "{Who} studied with Ignacy Jan Paderewski",
+"lvl": 2
+},
+{
+"t": "{Who} studied at the Conservatoire de Paris",
+"lvl": 2
+},
+{
+"t": "{Who} was a member of the American Academy of Arts and Letters",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Belvidere",
+"lvl": 3
+}
+],
+"Olga Samaroff Stokowski": [
+{
+"t": "{Who} was married to Boris Loutzky",
+"lvl": 1
+},
+{
+"t": "{Who} taught William Kapell and Thomas Schippers",
+"lvl": 1
+},
+{
+"t": "{Who} died in New York City",
+"lvl": 1
+},
+{
+"t": "{Who}'s father was Carlos Hickenlooper",
+"lvl": 1
+},
+{
+"t": "{Who} studied with Antoine-François Marmontel and Élie-Miriam Delaborde",
+"lvl": 2
+},
+{
+"t": "{Who} worked at the Juilliard School",
+"lvl": 2
+}
+],
+"Ernő Dohnányi": [
+{
+"t": "{Who} is buried in Tallahassee",
+"lvl": 1
+},
+{
+"t": "{Who} received the Kossuth Prize",
+"lvl": 1
+},
+{
+"t": "{Who} was married to Elsa Marguérite Galafrés",
+"lvl": 1
+},
+{
+"t": "{Who} taught Ervin Nyiregyházi and György Ferenczy",
+"lvl": 1
+},
+{
+"t": "{Who} died in New York City",
+"lvl": 1
+},
+{
+"t": "{Who} studied with Hans von Koessler and István Thomán",
+"lvl": 2
+},
+{
+"t": "{Who} studied at the Franz Liszt Academy of Music",
+"lvl": 2
+},
+{
+"t": "{Who} worked at the Berlin University of the Arts",
+"lvl": 2
+},
+{
+"t": "{Who} is known for Ruralia Hungarica",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Bratislava",
+"lvl": 3
+}
+],
+"Alfred Reisenauer": [
+{
+"t": "{Who} died in Liepāja",
+"lvl": 1
+},
+{
+"t": "{Who} was born in Königsberg",
+"lvl": 3
+}
+],
+"Josef Weiss": [
+{
+"t": "{Who} died in Budapest Ghetto",
+"lvl": 1
+},
+{
+"t": "{Who} was born in Košice",
+"lvl": 3
+}
+],
+"Fannie Bloomfield-Zeisler": [
+{
+"t": "{Who} is buried at Oak Woods Cemetery",
+"lvl": 1
+},
+{
+"t": "{Who} died in Chicago",
+"lvl": 1
+},
+{
+"t": "{Who} studied with Theodor Leschetizky",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Bielsko",
+"lvl": 3
+}
+],
+"Alfred Grünfeld": [
+{
+"t": "{Who} is buried at Vienna Central Cemetery",
+"lvl": 1
+},
+{
+"t": "{Who} received the Order of the Red Eagle 4th Class",
+"lvl": 1
+},
+{
+"t": "{Who} died in Vienna",
+"lvl": 1
+},
+{
+"t": "{Who} studied with Theodor Kullak",
+"lvl": 2
+},
+{
+"t": "{Who} studied at the Prague Conservatory",
+"lvl": 2
+},
+{
+"t": "{Who} worked at the University of Music and Performing Arts Vienna",
+"lvl": 2
+},
+{
+"t": "{Who} was a member of the Freemasonry",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Prague",
+"lvl": 3
+}
+],
+"Bernhard Stavenhagen": [
+{
+"t": "{Who} is buried in Weimar",
+"lvl": 1
+},
+{
+"t": "{Who} taught Klaus Pringsheim and Edvard Fazer",
+"lvl": 1
+},
+{
+"t": "{Who} died in Geneva",
+"lvl": 1
+},
+{
+"t": "{Who} studied with Friedrich Kiel",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Greiz",
+"lvl": 3
+}
+],
+"Edward Brightwell": [
+{
+"t": "{Who} was born in Marylebone",
+"lvl": 3
+}
+],
+"Yolanda Mero": [
+{
+"t": "{Who} is buried at Germonds Cemetery",
+"lvl": 1
+},
+{
+"t": "{Who} died in New York City",
+"lvl": 1
+},
+{
+"t": "{Who} was born in Budapest",
+"lvl": 3
+}
+],
+"Emil von Sauer": [
+{
+"t": "{Who} is buried at Johannisfriedhof",
+"lvl": 1
+},
+{
+"t": "{Who} received the Royal Philharmonic Society Gold Medal",
+"lvl": 1
+},
+{
+"t": "{Who} taught Tonis Georgiou and Olof Wibergh",
+"lvl": 1
+},
+{
+"t": "{Who} died in Vienna",
+"lvl": 1
+},
+{
+"t": "{Who} studied with Franz Liszt and Nikolai Rubinstein",
+"lvl": 2
+},
+{
+"t": "{Who} studied at the Moscow Conservatory",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Hamburg",
+"lvl": 3
+}
+],
+"Rudolph Ganz": [
+{
+"t": "{Who} is buried at Graceland Cemetery",
+"lvl": 1
+},
+{
+"t": "{Who} received the Officer of the Legion of Honour",
+"lvl": 1
+},
+{
+"t": "{Who} taught Abby Whiteside and Joan Caldwell",
+"lvl": 1
+},
+{
+"t": "{Who} died in Chicago",
+"lvl": 1
+},
+{
+"t": "{Who} studied at the Conservatory of Lausanne",
+"lvl": 2
+},
+{
+"t": "{Who} worked at the St. Louis Symphony Orchestra",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Zurich",
+"lvl": 3
+}
+],
+"Télémaque Lambrino": [
+{
+"t": "{Who} died in Leipzig",
+"lvl": 1
+},
+{
+"t": "{Who} worked at the Moscow Conservatory",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Odesa",
+"lvl": 3
+}
+],
+"Wilhelm Backhaus": [
+{
+"t": "{Who} is buried at Melaten-Friedhof",
+"lvl": 1
+},
+{
+"t": "{Who} received the Great Silver Medal of Honour for Services to the Republic of Austria",
+"lvl": 1
+},
+{
+"t": "{Who} taught Berta Alves de Sousa",
+"lvl": 1
+},
+{
+"t": "{Who} died in Villach",
+"lvl": 1
+},
+{
+"t": "{Who} studied with Eugen d'Albert",
+"lvl": 2
+},
+{
+"t": "{Who} studied at the University of Music and Theatre Leipzig",
+"lvl": 2
+},
+{
+"t": "{Who} worked at the University of Music and Performing Arts Vienna",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Leipzig",
+"lvl": 3
+}
+],
+"Richard Epstein": [
+{
+"t": "{Who} taught Mary Mellish",
+"lvl": 1
+},
+{
+"t": "{Who} died in New York City",
+"lvl": 1
+},
+{
+"t": "{Who} worked at the University of Music and Performing Arts Vienna",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Vienna",
+"lvl": 3
+}
+],
+"Xaver Scharwenka": [
+{
+"t": "{Who} is buried in Alter St.-Matthäus-Kirchhof Berlin",
+"lvl": 1
+},
+{
+"t": "{Who} taught José Vianna da Motta and Edvard Fazer",
+"lvl": 1
+},
+{
+"t": "{Who} died in Berlin",
+"lvl": 1
+},
+{
+"t": "{Who} studied with Theodor Kullak",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Szamotuły",
+"lvl": 3
+}
+],
+"Käthe Heinemann": [
+{
+"t": "{Who} is buried in In den Kisseln",
+"lvl": 1
+},
+{
+"t": "{Who} received the Cross of the Order of Merit of the Federal Republic of Germany",
+"lvl": 1
+},
+{
+"t": "{Who} died in Spandau",
+"lvl": 1
+},
+{
+"t": "{Who} worked at the Berlin University of the Arts",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Spandau",
+"lvl": 3
+}
+],
+"Frieda Kwast-Hodapp": [
+{
+"t": "{Who} received the Mendelssohn Award",
+"lvl": 1
+},
+{
+"t": "{Who} was married to Otto Krebs",
+"lvl": 1
+},
+{
+"t": "{Who} died in Bad Wiessee",
+"lvl": 1
+},
+{
+"t": "{Who} studied at the Hoch Conservatory",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Bargen",
+"lvl": 3
+}
+],
+"Vladimir de Pachmann": [
+{
+"t": "{Who} is buried in Campo Verano",
+"lvl": 1
+},
+{
+"t": "{Who} received the Knight of the Order of the Dannebrog",
+"lvl": 1
+},
+{
+"t": "{Who} was married to Marguerite Okey",
+"lvl": 1
+},
+{
+"t": "{Who} died in Rome",
+"lvl": 1
+},
+{
+"t": "{Who} studied with Anton Bruckner and Josef Dachs",
+"lvl": 2
+},
+{
+"t": "{Who} studied at the Odesa University",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Odesa",
+"lvl": 3
+}
+],
+"Otto Neitzel": [
+{
+"t": "{Who} died in Cologne",
+"lvl": 1
+},
+{
+"t": "{Who} worked at the Hochschule für Musik und Tanz Köln",
+"lvl": 2
+},
+{
+"t": "{Who} was a member of the Academy of Arts, Berlin",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Złocieniec",
+"lvl": 3
+}
+],
+"Elly Ney": [
+{
+"t": "{Who} is buried at Neuer Friedhof Tutzing",
+"lvl": 1
+},
+{
+"t": "{Who} received the honorary citizenship",
+"lvl": 1
+},
+{
+"t": "{Who} was married to Willem van Hoogstraten",
+"lvl": 1
+},
+{
+"t": "{Who} died in Tutzing",
+"lvl": 1
+},
+{
+"t": "{Who} studied with Theodor Leschetizky and Emil von Sauer",
+"lvl": 2
+},
+{
+"t": "{Who} studied at the Hochschule für Musik und Tanz Köln",
+"lvl": 2
+},
+{
+"t": "{Who} worked at the Hochschule für Musik und Tanz Köln",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Düsseldorf",
+"lvl": 3
+}
+],
+"Arthur Nikisch": [
+{
+"t": "{Who} is buried at Leipzig South Cemetery",
+"lvl": 1
+},
+{
+"t": "{Who} taught Wilhelm Furtwängler and Sándor Jemnitz",
+"lvl": 1
+},
+{
+"t": "{Who} died in Leipzig",
+"lvl": 1
+},
+{
+"t": "{Who} studied with Felix Otto Dessoff and Joseph Hellmesberger",
+"lvl": 2
+},
+{
+"t": "{Who} studied at the University of Music and Performing Arts Vienna",
+"lvl": 2
+},
+{
+"t": "{Who} worked at the University of Music and Theatre Leipzig",
+"lvl": 2
+},
+{
+"t": "{Who} was a member of the Berlin Philharmonic",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Mosonszentmiklós",
+"lvl": 3
+}
+],
+"Claude Debussy": [
+{
+"t": "{Who} is buried at Passy Cemetery",
+"lvl": 1
+},
+{
+"t": "{Who} received the Prix de Rome",
+"lvl": 1
+},
+{
+"t": "{Who} was married to Emma Bardac and Marie-Rosalie Texier",
+"lvl": 1
+},
+{
+"t": "{Who} taught María Grever and Raoul Bardac",
+"lvl": 1
+},
+{
+"t": "{Who} died in 16th arrondissement of Paris",
+"lvl": 1
+},
+{
+"t": "{Who} studied with Antoine-François Marmontel and Albert Lavignac",
+"lvl": 2
+},
+{
+"t": "{Who} studied at the Conservatoire de Paris",
+"lvl": 2
+},
+{
+"t": "{Who} was a member of the Royal Swedish Academy of Music",
+"lvl": 2
+},
+{
+"t": "{Who} is known for Pelléas et Mélisande and Préludes",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Saint-Germain-en-Laye",
+"lvl": 3
+}
+],
+"Josef Hofmann": [
+{
+"t": "{Who} is buried at Hietzing Cemetery",
+"lvl": 1
+},
+{
+"t": "{Who} died in Vienna",
+"lvl": 1
+},
+{
+"t": "{Who} was born in Vienna",
+"lvl": 3
+}
+],
+"Michael Zadora": [
+{
+"t": "{Who} died in New York City",
+"lvl": 1
+},
+{
+"t": "{Who} studied with Ferruccio Busoni and Theodor Leschetizky",
+"lvl": 2
+},
+{
+"t": "{Who} studied at the Conservatoire de Paris",
+"lvl": 2
+},
+{
+"t": "{Who} was born in New York City",
+"lvl": 3
+}
+],
+"Fanny Davies": [
+{
+"t": "{Who} died in London",
+"lvl": 1
+},
+{
+"t": "{Who} studied with Clara Schumann",
+"lvl": 2
+},
+{
+"t": "{Who} studied at the University of Music and Theatre Leipzig",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Saint Peter Port",
+"lvl": 3
+}
+],
+"Felix Mottl": [
+{
+"t": "{Who} is buried at Munich Waldfriedhof",
+"lvl": 1
+},
+{
+"t": "{Who} was married to Zdenka Hanfstaengl",
+"lvl": 1
+},
+{
+"t": "{Who} taught Ralph Benatzky",
+"lvl": 1
+},
+{
+"t": "{Who} died in Munich",
+"lvl": 1
+},
+{
+"t": "{Who} studied with Anton Bruckner and Joseph Hellmesberger",
+"lvl": 2
+},
+{
+"t": "{Who} worked at the Bavarian State Opera",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Unter Sankt Veit",
+"lvl": 3
+}
+],
+"Josef Lhévinne": [
+{
+"t": "{Who} is buried at Maple Grove Cemetery",
+"lvl": 1
+},
+{
+"t": "{Who} died in New York City",
+"lvl": 1
+},
+{
+"t": "{Who} studied with Vasily Safonov",
+"lvl": 2
+},
+{
+"t": "{Who} studied at the Moscow Conservatory",
+"lvl": 2
+},
+{
+"t": "{Who} worked at the Moscow Conservatory",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Oryol",
+"lvl": 3
+}
+],
+"Anna Jutta Schytte": [
+{
+"t": "{Who} died in Copenhagen",
+"lvl": 1
+},
+{
+"t": "{Who} studied at the University of Music and Theatre Leipzig",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Copenhagen",
+"lvl": 3
+}
+],
+"Annie Cory": [
+{
+"t": "{Who} died in London",
+"lvl": 1
+},
+{
+"t": "{Who} was born in Hamilton",
+"lvl": 3
+}
+],
+"Myrtle Elvyn": [
+{
+"t": "{Who} was born in Sherman",
+"lvl": 3
+}
+],
+"Egon Petri": [
+{
+"t": "{Who} taught Dimitri Tiomkin and John Ogdon",
+"lvl": 1
+},
+{
+"t": "{Who} died in Berkeley",
+"lvl": 1
+},
+{
+"t": "{Who} studied with Ferruccio Busoni",
+"lvl": 2
+},
+{
+"t": "{Who} studied at the Hochschule für Musik Carl Maria von Weber",
+"lvl": 2
+},
+{
+"t": "{Who} worked at the Hochschule für Musik Berlin",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Hanover",
+"lvl": 3
+}
+],
+"Eugen d'Albert": [
+{
+"t": "{Who} is buried at Monument Cemetery",
+"lvl": 1
+},
+{
+"t": "{Who} was married to Teresa Carreño and Ida Fulda",
+"lvl": 1
+},
+{
+"t": "{Who} taught Wilhelm Backhaus",
+"lvl": 1
+},
+{
+"t": "{Who} died in Riga",
+"lvl": 1
+},
+{
+"t": "{Who} studied with Franz Liszt",
+"lvl": 2
+},
+{
+"t": "{Who} studied at the Royal College of Music",
+"lvl": 2
+},
+{
+"t": "{Who} worked at the Berlin University of the Arts",
+"lvl": 2
+},
+{
+"t": "{Who} is known for Die Abreise and Die toten Augen",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Glasgow",
+"lvl": 3
+}
+],
+"Artur Lemba": [
+{
+"t": "{Who} is buried in Metsakalmistu",
+"lvl": 1
+},
+{
+"t": "{Who} received the Order of the Badge of Honour",
+"lvl": 1
+},
+{
+"t": "{Who} taught Els Aarne",
+"lvl": 1
+},
+{
+"t": "{Who} died in Tallinn",
+"lvl": 1
+},
+{
+"t": "{Who} studied at the Saint Petersburg Conservatory",
+"lvl": 2
+},
+{
+"t": "{Who} worked at the Saint Petersburg Conservatory",
+"lvl": 2
+},
+{
+"t": "{Who} is known for Armastus ja surm",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Tallinn",
+"lvl": 3
+}
+],
+"Camille Saint-Saëns": [
+{
+"t": "{Who} is buried at Montparnasse Cemetery",
+"lvl": 1
+},
+{
+"t": "{Who} received the Royal Victorian Order",
+"lvl": 1
+},
+{
+"t": "{Who} was married to Marie-Laure Truffot",
+"lvl": 1
+},
+{
+"t": "{Who} taught Gabriel Fauré and André Messager",
+"lvl": 1
+},
+{
+"t": "{Who} died in Algiers",
+"lvl": 1
+},
+{
+"t": "{Who} studied with Fromental Halévy and François Benoist",
+"lvl": 2
+},
+{
+"t": "{Who} studied at the Conservatoire de Paris",
+"lvl": 2
+},
+{
+"t": "{Who} was a member of the Académie des beaux-arts",
+"lvl": 2
+},
+{
+"t": "{Who} is known for The Carnival of the Animals and Danse macabre",
+"lvl": 2
+},
+{
+"t": "{Who} was born in 11th arrondissement of Paris",
+"lvl": 3
+}
+],
+"Carl Wendling": [
+{
+"t": "{Who} died in Leipzig",
+"lvl": 1
+},
+{
+"t": "{Who} studied at the University of Music and Theatre Leipzig",
+"lvl": 2
+},
+{
+"t": "{Who} worked at the University of Music and Theatre Leipzig",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Frankenthal",
+"lvl": 3
+}
+],
+"Herbert Fryer": [
+{
+"t": "{Who} died in London",
+"lvl": 1
+},
+{
+"t": "{Who} studied at the Royal College of Music",
+"lvl": 2
+},
+{
+"t": "{Who} worked at the Royal Academy of Music",
+"lvl": 2
+},
+{
+"t": "{Who} was born in London",
+"lvl": 3
+}
+],
+"Vladimir Drozdov": [
+{
+"t": "{Who} taught Maria Yudina",
+"lvl": 1
+},
+{
+"t": "{Who} died in New York City",
+"lvl": 1
+},
+{
+"t": "{Who} was born in Saratov",
+"lvl": 3
+}
+],
+"Max Pauer": [
+{
+"t": "{Who} taught Hildegard Tamm",
+"lvl": 1
+},
+{
+"t": "{Who} died in Jugenheim",
+"lvl": 1
+},
+{
+"t": "{Who} worked at the Hochschule für Musik und Tanz Köln",
+"lvl": 2
+},
+{
+"t": "{Who} was born in London",
+"lvl": 3
+}
+],
+"Cornelius Rybner": [
+{
+"t": "{Who} died in New York City",
+"lvl": 1
+},
+{
+"t": "{Who} studied with Niels Gade and Carl Reinecke",
+"lvl": 2
+},
+{
+"t": "{Who} studied at the University of Music and Theatre Leipzig",
+"lvl": 2
+},
+{
+"t": "{Who} worked at the Hochschule für Musik Karlsruhe",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Copenhagen",
+"lvl": 3
+}
+],
+"Ossip Gabrilowitsch": [
+{
+"t": "{Who} is buried at Woodlawn Cemetery",
+"lvl": 1
+},
+{
+"t": "{Who} was married to Clara Clemens",
+"lvl": 1
+},
+{
+"t": "{Who} died in Detroit",
+"lvl": 1
+},
+{
+"t": "{Who} studied with Anton Rubinstein and Theodor Leschetizky",
+"lvl": 2
+},
+{
+"t": "{Who} studied at the Saint Petersburg Conservatory",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Saint Petersburg",
+"lvl": 3
+}
+],
+"Paula Stebel": [
+{
+"t": "{Who} died in Tübingen",
+"lvl": 1
+},
+{
+"t": "{Who} was born in Offenburg",
+"lvl": 3
+}
+],
+"Gisella Grosz": [
+{
+"t": "{Who} was married to Adolf Weissmann",
+"lvl": 1
+},
+{
+"t": "{Who} died in Riga Ghetto",
+"lvl": 1
+},
+{
+"t": "{Who} studied with Teresa Carreño and István Thomán",
+"lvl": 2
+},
+{
+"t": "{Who} studied at the Franz Liszt Academy of Music",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Șimleu Silvaniei",
+"lvl": 3
+}
+],
+"Clotilde Kleeberg": [
+{
+"t": "{Who} was married to Charles Samuel",
+"lvl": 1
+},
+{
+"t": "{Who} died in Brussels",
+"lvl": 1
+},
+{
+"t": "{Who} studied with Louise Aglaé Massart",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Paris",
+"lvl": 3
+}
+],
+"Arthur Friedheim": [
+{
+"t": "{Who} taught Natalie Curtis",
+"lvl": 1
+},
+{
+"t": "{Who} died in New York City",
+"lvl": 1
+},
+{
+"t": "{Who} studied with Franz Liszt and Anton Rubinstein",
+"lvl": 2
+},
+{
+"t": "{Who} studied at the Saint Petersburg State University",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Saint Petersburg",
+"lvl": 3
+}
+],
+"Fritz Berend": [
+{
+"t": "{Who} died in London",
+"lvl": 1
+},
+{
+"t": "{Who} was born in Hanover",
+"lvl": 3
+}
+],
+"Mark Hambourg": [
+{
+"t": "{Who} was married to Dorothea Frances Muir Mackenzie",
+"lvl": 1
+},
+{
+"t": "{Who} died in Cambridge",
+"lvl": 1
+},
+{
+"t": "{Who} studied with Theodor Leschetizky",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Boguchar",
+"lvl": 3
+}
+],
+"Emil Paur": [
+{
+"t": "{Who} died in Místek",
+"lvl": 1
+},
+{
+"t": "{Who} was born in Chernivtsi",
+"lvl": 3
+}
+],
+"Georg Zscherneck": [
+{
+"t": "{Who} was born in Reudnitz",
+"lvl": 3
+}
+],
+"Richard Buhlig": [
+{
+"t": "{Who} is buried at Mount Greenwood Cemetery",
+"lvl": 1
+},
+{
+"t": "{Who} taught John Cage",
+"lvl": 1
+},
+{
+"t": "{Who} died in Los Angeles",
+"lvl": 1
+},
+{
+"t": "{Who} studied with Theodor Leschetizky and Wilhelm Middelschulte",
+"lvl": 2
+},
+{
+"t": "{Who} worked at the Juilliard School",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Chicago",
+"lvl": 3
+}
+],
+"Edvard Grieg": [
+{
+"t": "{Who} is buried in Troldhaugen",
+"lvl": 1
+},
+{
+"t": "{Who} received the Knight Grand Cross of the Order of St. Olav",
+"lvl": 1
+},
+{
+"t": "{Who} taught Barbara Larssen and Astrid Onarheim",
+"lvl": 1
+},
+{
+"t": "{Who} died in Bergen",
+"lvl": 1
+},
+{
+"t": "{Who}'s mother was Gesine Hagerup",
+"lvl": 1
+},
+{
+"t": "{Who} studied with Carl Reinecke",
+"lvl": 2
+},
+{
+"t": "{Who} studied at the University of Music and Theatre Leipzig",
+"lvl": 2
+},
+{
+"t": "{Who} is known for Peer Gynt",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Bergen",
+"lvl": 3
+}
+],
+"Gottfried Galston": [
+{
+"t": "{Who} was married to Sandra Drouker and Alexandra Korsakoff",
+"lvl": 1
+},
+{
+"t": "{Who} died in St. Louis",
+"lvl": 1
+},
+{
+"t": "{Who} studied at the University of Music and Theatre Leipzig",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Vienna",
+"lvl": 3
+}
+],
+"Raoul Pugno": [
+{
+"t": "{Who} received the Knight of the Legion of Honour",
+"lvl": 1
+},
+{
+"t": "{Who} taught Fanny Flodin-Gustavson and Henry Février",
+"lvl": 1
+},
+{
+"t": "{Who} died in Moscow",
+"lvl": 1
+},
+{
+"t": "{Who} studied with Ambroise Thomas and Georges Mathias",
+"lvl": 2
+},
+{
+"t": "{Who} studied at the Conservatoire de Paris",
+"lvl": 2
+},
+{
+"t": "{Who} worked at the Conservatoire de Paris",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Paris",
+"lvl": 3
+}
+],
+"Frederic Lamond": [
+{
+"t": "{Who} received the honorary doctorate of the University of Glasgow",
+"lvl": 1
+},
+{
+"t": "{Who} was married to Irene Triesch",
+"lvl": 1
+},
+{
+"t": "{Who} taught Gunnar Johansen and Ervin Nyiregyházi",
+"lvl": 1
+},
+{
+"t": "{Who} died in Stirling",
+"lvl": 1
+},
+{
+"t": "{Who} studied with Franz Liszt and Anton Urspruch",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Glasgow",
+"lvl": 3
+}
+],
+"Artur Schnabel": [
+{
+"t": "{Who} is buried at Cemetery of Schwyz",
+"lvl": 1
+},
+{
+"t": "{Who} was married to Therese Behr",
+"lvl": 1
+},
+{
+"t": "{Who} taught Ferdinand Leitner and Claude Frank",
+"lvl": 1
+},
+{
+"t": "{Who} died in Morschach",
+"lvl": 1
+},
+{
+"t": "{Who} studied with Theodor Leschetizky",
+"lvl": 2
+},
+{
+"t": "{Who} studied at the University of Music and Performing Arts Vienna",
+"lvl": 2
+},
+{
+"t": "{Who} worked at the University of Michigan",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Lipnik",
+"lvl": 3
+}
+],
+"Hubert Flohr": [
+{
+"t": "{Who} died in Düsseldorf",
+"lvl": 1
+},
+{
+"t": "{Who} worked at the Robert Schumann Hochschule",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Koblenz",
+"lvl": 3
+}
+],
+"Domenico Savino": [
+{
+"t": "{Who} died in New York City",
+"lvl": 1
+},
+{
+"t": "{Who} was born in Taranto",
+"lvl": 3
+}
+],
+"Richard Burmeister": [
+{
+"t": "{Who} is buried at Dahlem Cemetery",
+"lvl": 1
+},
+{
+"t": "{Who} taught Mary Howe",
+"lvl": 1
+},
+{
+"t": "{Who} died in Berlin",
+"lvl": 1
+},
+{
+"t": "{Who} worked at the Hochschule für Musik Carl Maria von Weber",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Hamburg",
+"lvl": 3
+}
+],
+"Germaine Schnitzer": [
+{
+"t": "{Who} is buried at Saint Mary's Cemetery",
+"lvl": 1
+},
+{
+"t": "{Who} died in Manhattan",
+"lvl": 1
+},
+{
+"t": "{Who} was born in Paris",
+"lvl": 3
+}
+],
+"Paul de Conne": [
+{
+"t": "{Who} taught Ilmari Hannikainen and Chris Veelo",
+"lvl": 1
+},
+{
+"t": "{Who} died in Vienna",
+"lvl": 1
+},
+{
+"t": "{Who} studied with Karel van Ark",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Saint Petersburg",
+"lvl": 3
+}
+],
+"Berthe Marx-Goldschmidt": [
+{
+"t": "{Who} died in Biarritz",
+"lvl": 1
+},
+{
+"t": "{Who}'s father was Elias Isaac",
+"lvl": 1
+},
+{
+"t": "{Who}'s mother was Mathilde Singer",
+"lvl": 1
+},
+{
+"t": "{Who} studied at the Conservatoire National Supérieur de Musique et de Danse",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Paris",
+"lvl": 3
+}
+],
+"Frank La Forge": [
+{
+"t": "{Who} is buried at Spring Grove Cemetery",
+"lvl": 1
+},
+{
+"t": "{Who} taught Mary LeSawyer",
+"lvl": 1
+},
+{
+"t": "{Who} died in New York City",
+"lvl": 1
+},
+{
+"t": "{Who} studied with Theodor Leschetizky",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Rockford",
+"lvl": 3
+}
+],
+"Leff Pouishnoff": [
+{
+"t": "{Who} died in London",
+"lvl": 1
+},
+{
+"t": "{Who} was born in Odesa",
+"lvl": 3
+}
+],
+"Franciszek Brzeziński": [
+{
+"t": "{Who} is buried at Powązki Cemetery",
+"lvl": 1
+},
+{
+"t": "{Who} died in Warsaw",
+"lvl": 1
+},
+{
+"t": "{Who} studied at the University of Music and Theatre Leipzig",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Warsaw",
+"lvl": 3
+}
+],
+"W. Sapellnikoff": [
+{
+"t": "{Who} received the Honorary Member of the Royal Philharmonic Society",
+"lvl": 1
+},
+{
+"t": "{Who} taught Nikolai Medtner",
+"lvl": 1
+},
+{
+"t": "{Who} died in Sanremo",
+"lvl": 1
+},
+{
+"t": "{Who} studied with Pyotr Ilyich Tchaikovsky and Sophie Menter",
+"lvl": 2
+},
+{
+"t": "{Who} worked at the Moscow Conservatory",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Odesa",
+"lvl": 3
+}
+],
+"Engelbert Humperdinck": [
+{
+"t": "{Who} is buried in Südwestkirchhof Stahnsdorf",
+"lvl": 1
+},
+{
+"t": "{Who} received the Mendelssohn Award",
+"lvl": 1
+},
+{
+"t": "{Who} taught Siegfried Wagner and Yuliya Veysberg",
+"lvl": 1
+},
+{
+"t": "{Who} died in Neustrelitz",
+"lvl": 1
+},
+{
+"t": "{Who} studied with Josef Rheinberger and Franz Lachner",
+"lvl": 2
+},
+{
+"t": "{Who} studied at the Hochschule für Musik und Tanz Köln",
+"lvl": 2
+},
+{
+"t": "{Who} worked at the Frankfurt University of Music and Performing Arts",
+"lvl": 2
+},
+{
+"t": "{Who} is known for Hänsel und Gretel and Dornröschen",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Siegburg",
+"lvl": 3
+}
+],
+"Hugo Popper": [
+{
+"t": "{Who} died in Leipzig",
+"lvl": 1
+},
+{
+"t": "{Who} was born in Prague",
+"lvl": 3
+}
+],
+"Isabelle Vengerova": [
+{
+"t": "{Who} taught Dimitri Tiomkin and Marcelle de Manziarly",
+"lvl": 1
+},
+{
+"t": "{Who} died in New York City",
+"lvl": 1
+},
+{
+"t": "{Who}'s mother was Pauline Wengeroff",
+"lvl": 1
+},
+{
+"t": "{Who} worked at the Saint Petersburg Conservatory",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Minsk",
+"lvl": 3
+}
+],
+"Maria Carreras": [
+{
+"t": "{Who} died in Lenox Hill Hospital",
+"lvl": 1
+},
+{
+"t": "{Who} studied at the Accademia Nazionale di Santa Cecilia",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Italy",
+"lvl": 3
+}
+],
+"Erik Meyer-Helmund": [
+{
+"t": "{Who} died in Berlin",
+"lvl": 1
+},
+{
+"t": "{Who} was born in Saint Petersburg",
+"lvl": 3
+}
+],
+"Georg Schumann": [
+{
+"t": "{Who} is buried at Parkfriedhof Lichterfelde",
+"lvl": 1
+},
+{
+"t": "{Who} received the Commander's Cross of the Order of Merit of the Federal Republic of Germany",
+"lvl": 1
+},
+{
+"t": "{Who} died in Villas in Berlin-Lichterfelde-West",
+"lvl": 1
+},
+{
+"t": "{Who} studied at the University of Music and Theatre Leipzig",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Königstein",
+"lvl": 3
+}
+],
+"Theodor Leschetizky": [
+{
+"t": "{Who} is buried at Vienna Central Cemetery",
+"lvl": 1
+},
+{
+"t": "{Who} was married to Anna Yesipova",
+"lvl": 1
+},
+{
+"t": "{Who} taught Elly Ney and Irene Abendroth",
+"lvl": 1
+},
+{
+"t": "{Who} died in Dresden",
+"lvl": 1
+},
+{
+"t": "{Who} studied with Carl Czerny and Simon Sechter",
+"lvl": 2
+},
+{
+"t": "{Who} studied at the University of Music and Performing Arts Vienna",
+"lvl": 2
+},
+{
+"t": "{Who} worked at the Saint Petersburg Conservatory",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Łańcut",
+"lvl": 3
+}
+],
+"James Reese Europe": [
+{
+"t": "{Who} is buried at Arlington National Cemetery",
+"lvl": 1
+},
+{
+"t": "{Who} was married to Bessie Simms",
+"lvl": 1
+},
+{
+"t": "{Who} died in Boston",
+"lvl": 1
+},
+{
+"t": "{Who} studied with Harry T. Burleigh",
+"lvl": 2
+},
+{
+"t": "{Who} studied at the M Street High School",
+"lvl": 2
+},
+{
+"t": "{Who} worked for Vernon and Irene Castle",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Mobile",
+"lvl": 3
+}
+],
+"Cyril Scott": [
+{
+"t": "{Who} was married to R. Allatini",
+"lvl": 1
+},
+{
+"t": "{Who} died in Eastbourne",
+"lvl": 1
+},
+{
+"t": "{Who} studied with Iwan Knorr",
+"lvl": 2
+},
+{
+"t": "{Who} studied at the Hoch Conservatory",
+"lvl": 2
+},
+{
+"t": "{Who} is known for Symphonie n°1",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Oxton",
+"lvl": 3
+}
+],
+"Gustav Mahler": [
+{
+"t": "{Who} is buried at Grinzing Cemetery",
+"lvl": 1
+},
+{
+"t": "{Who} taught Anna von Mildenburg and Klaus Pringsheim",
+"lvl": 1
+},
+{
+"t": "{Who} died in Vienna",
+"lvl": 1
+},
+{
+"t": "{Who}'s mother was Marie Herrmann",
+"lvl": 1
+},
+{
+"t": "{Who} studied with Robert Fuchs and Julius Epstein",
+"lvl": 2
+},
+{
+"t": "{Who} studied at the University of Vienna",
+"lvl": 2
+},
+{
+"t": "{Who} was a member of the Schlaraffia",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Kaliště",
+"lvl": 3
+}
+],
+"José Vianna da Motta": [
+{
+"t": "{Who} is buried in Lisbon",
+"lvl": 1
+},
+{
+"t": "{Who} received the Grand Cross of the Military Order of Saint James of the Sword",
+"lvl": 1
+},
+{
+"t": "{Who} taught Fernando Lopes-Graça and Sequeira Costa",
+"lvl": 1
+},
+{
+"t": "{Who} died in Lisbon",
+"lvl": 1
+},
+{
+"t": "{Who} studied with Franz Liszt and Hans von Bülow",
+"lvl": 2
+},
+{
+"t": "{Who} studied at the Klindworth-Scharwenka Conservatory",
+"lvl": 2
+},
+{
+"t": "{Who} was born in São Tomé",
+"lvl": 3
+}
+],
+"Lenore Kühn": [
+{
+"t": "{Who} died in Tutzing",
+"lvl": 1
+},
+{
+"t": "{Who} was born in Riga",
+"lvl": 3
+}
+],
+"Conrad Ansorge": [
+{
+"t": "{Who} is buried at Friedhof Heerstraße",
+"lvl": 1
+},
+{
+"t": "{Who} taught Eduard Erdmann and Selim Palmgren",
+"lvl": 1
+},
+{
+"t": "{Who} died in Berlin",
+"lvl": 1
+},
+{
+"t": "{Who} studied with Franz Liszt",
+"lvl": 2
+},
+{
+"t": "{Who} studied at the University of Music and Theatre Leipzig",
+"lvl": 2
+},
+{
+"t": "{Who} worked at the Klindworth-Scharwenka Conservatory",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Lubawka",
+"lvl": 3
+}
+],
+"Carl Reinecke": [
+{
+"t": "{Who} received the Medaille für Kunst und Wissenschaft (Sachsen-Altenburg)",
+"lvl": 1
+},
+{
+"t": "{Who} taught Ernst Rudorff and Isaac Albéniz",
+"lvl": 1
+},
+{
+"t": "{Who} died in Leipzig",
+"lvl": 1
+},
+{
+"t": "{Who} studied with Robert Schumann and Franz Liszt",
+"lvl": 2
+},
+{
+"t": "{Who} studied at the University of Music and Theatre Leipzig",
+"lvl": 2
+},
+{
+"t": "{Who} worked at the University of Music and Theatre Leipzig",
+"lvl": 2
+},
+{
+"t": "{Who} was a member of the Academy of Arts, Berlin",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Altona",
+"lvl": 3
+}
+],
+"Lazzaro Uzielli": [
+{
+"t": "{Who} taught Hans Knappertsbusch",
+"lvl": 1
+},
+{
+"t": "{Who} died in Bonn",
+"lvl": 1
+},
+{
+"t": "{Who} worked at the Hochschule für Musik und Tanz Köln",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Florence",
+"lvl": 3
+}
+],
+"Richard Strauss": [
+{
+"t": "{Who} is buried at Friedhof Garmisch",
+"lvl": 1
+},
+{
+"t": "{Who} received the Order of the Dannebrog",
+"lvl": 1
+},
+{
+"t": "{Who} was married to Pauline de Ahna",
+"lvl": 1
+},
+{
+"t": "{Who} died in Garmisch-Partenkirchen",
+"lvl": 1
+},
+{
+"t": "{Who} was a member of the Bavarian Academy of Fine Arts",
+"lvl": 2
+},
+{
+"t": "{Who} is known for Also sprach Zarathustra and Der Rosenkavalier",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Munich",
+"lvl": 3
+}
+],
+"Alice Ripper": [
+{
+"t": "{Who} died in Salzburg",
+"lvl": 1
+},
+{
+"t": "{Who} was born in Budapest",
+"lvl": 3
+}
+],
+"Enrico Caruso": [
+{
+"t": "{Who} is buried in Italy",
+"lvl": 1
+},
+{
+"t": "{Who} received the Grammy Lifetime Achievement Award",
+"lvl": 1
+},
+{
+"t": "{Who} was married to Dorothy Park Benjamin",
+"lvl": 1
+},
+{
+"t": "{Who} died in Naples",
+"lvl": 1
+},
+{
+"t": "{Who}'s mother was Anna Baldini",
+"lvl": 1
+},
+{
+"t": "{Who} was born in Naples",
+"lvl": 3
+}
+],
+"Marcel Journet": [
+{
+"t": "{Who} died in Vittel",
+"lvl": 1
+},
+{
+"t": "{Who} studied at the Conservatoire de Paris",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Grasse",
+"lvl": 3
+}
+],
+"Frances Alda": [
+{
+"t": "{Who} was married to Giulio Gatti-Casazza and Miner Raymond VirDen",
+"lvl": 1
+},
+{
+"t": "{Who} died in Venice",
+"lvl": 1
+},
+{
+"t": "{Who} was born in Christchurch",
+"lvl": 3
+}
+],
+"Josephine Jacoby": [
+{
+"t": "{Who} died in New York City",
+"lvl": 1
+},
+{
+"t": "{Who} was born in New York City",
+"lvl": 3
+}
+],
+"Geraldine Farrar": [
+{
+"t": "{Who} is buried at Kensico Cemetery",
+"lvl": 1
+},
+{
+"t": "{Who} received the star on Hollywood Walk of Fame",
+"lvl": 1
+},
+{
+"t": "{Who} was married to Lou Tellegen",
+"lvl": 1
+},
+{
+"t": "{Who} died in Ridgefield",
+"lvl": 1
+},
+{
+"t": "{Who} studied with Lilli Lehmann and Francesco Graziani",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Melrose",
+"lvl": 3
+}
+],
+"Louise Homer": [
+{
+"t": "{Who} is buried at Bolton Rural Cemetery",
+"lvl": 1
+},
+{
+"t": "{Who} died in Winter Park",
+"lvl": 1
+},
+{
+"t": "{Who} was born in Pittsburgh",
+"lvl": 3
+}
+],
+"Antonio Scotti": [
+{
+"t": "{Who} died in Naples",
+"lvl": 1
+},
+{
+"t": "{Who} was born in Naples",
+"lvl": 3
+}
+],
+"Bessie Abott": [
+{
+"t": "{Who} is buried at Roslyn Cemetery",
+"lvl": 1
+},
+{
+"t": "{Who} was married to T. Waldo Story",
+"lvl": 1
+},
+{
+"t": "{Who} died in Manhattan",
+"lvl": 1
+},
+{
+"t": "{Who} studied with Mathilde Marchesi and Jean de Reszke",
+"lvl": 2
+},
+{
+"t": "{Who} worked at the Paris Opera",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Heuvelton",
+"lvl": 3
+}
+],
+"Harry Macdonough": [
+{
+"t": "{Who} died in New York City",
+"lvl": 1
+},
+{
+"t": "{Who} was born in Hamilton",
+"lvl": 3
+}
+],
+"Charles D'Almaine": [
+{
+"t": "{Who} died in Newark",
+"lvl": 1
+},
+{
+"t": "{Who} was born in Kingston upon Hull",
+"lvl": 3
+}
+],
+"Arthur Pryor": [
+{
+"t": "{Who} is buried at Glenwood Cemetery",
+"lvl": 1
+},
+{
+"t": "{Who} died in West Long Branch",
+"lvl": 1
+},
+{
+"t": "{Who} was a member of the Sousa Band",
+"lvl": 2
+},
+{
+"t": "{Who} was born in St. Joseph",
+"lvl": 3
+}
+],
+"Walter B. Rogers": [
+{
+"t": "{Who} was born in Delphi",
+"lvl": 3
+}
+],
+"Josef Pasternack": [
+{
+"t": "{Who} died in Chicago",
+"lvl": 1
+},
+{
+"t": "{Who} studied with Zygmunt Noskowski and Aleksander Michałowski",
+"lvl": 2
+},
+{
+"t": "{Who} studied at the Chopin University of Music",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Częstochowa",
+"lvl": 3
+}
+],
+"Elizabeth Wheeler": [
+{
+"t": "{Who} died in Cuyahoga County",
+"lvl": 1
+},
+{
+"t": "{Who} was born in Kokomo",
+"lvl": 3
+}
+],
+"Inez Barbour": [
+{
+"t": "{Who} died in New York City",
+"lvl": 1
+},
+{
+"t": "{Who} was born in Bradford",
+"lvl": 3
+}
+],
+"Elsie Baker": [
+{
+"t": "{Who} is buried in Forest Lawn Memorial Park",
+"lvl": 1
+},
+{
+"t": "{Who} died in Manhattan",
+"lvl": 1
+},
+{
+"t": "{Who} was born in Chicago",
+"lvl": 3
+}
+],
+"Frederick J. Wheeler": [
+{
+"t": "{Who} is buried at Ferncliff Cemetery",
+"lvl": 1
+},
+{
+"t": "{Who} died in Yonkers",
+"lvl": 1
+},
+{
+"t": "{Who} was a member of the Anthony and Harrison",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Boonville",
+"lvl": 3
+}
+],
+"Phil Ohman": [
+{
+"t": "{Who} died in Santa Monica",
+"lvl": 1
+},
+{
+"t": "{Who} was born in New Britain",
+"lvl": 3
+}
+],
+"Reinald Werrenrath": [
+{
+"t": "{Who} is buried at Green-Wood Cemetery",
+"lvl": 1
+},
+{
+"t": "{Who} died in Plattsburgh",
+"lvl": 1
+},
+{
+"t": "{Who} was born in Brooklyn",
+"lvl": 3
+}
+],
+"Wilfred Glenn": [
+{
+"t": "{Who} is buried at Grand Lawn Cemetery",
+"lvl": 1
+},
+{
+"t": "{Who} died in Albemarle County",
+"lvl": 1
+},
+{
+"t": "{Who} was a member of The Revelers",
+"lvl": 2
+},
+{
+"t": "{Who} was born in San Francisco",
+"lvl": 3
+}
+],
+"Olive Kline": [
+{
+"t": "{Who} died in Pelham",
+"lvl": 1
+},
+{
+"t": "{Who} was born in Amsterdam",
+"lvl": 3
+}
+],
+"Lambert Murphy": [
+{
+"t": "{Who} is buried at Paucatuck Cemetery",
+"lvl": 1
+},
+{
+"t": "{Who} died in Hancock",
+"lvl": 1
+},
+{
+"t": "{Who} studied with Herbert Witherspoon and Isidore Luckstone",
+"lvl": 2
+},
+{
+"t": "{Who} studied at the Harvard University",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Springfield",
+"lvl": 3
+}
+],
+"Marguerite Dunlap": [
+{
+"t": "{Who} is buried at Bloomfield Cemetery",
+"lvl": 1
+},
+{
+"t": "{Who} died in Upper Montclair",
+"lvl": 1
+},
+{
+"t": "{Who} was born in Camden",
+"lvl": 3
+}
+],
+"Reed Miller": [
+{
+"t": "{Who} is buried at Springfield Cemetery",
+"lvl": 1
+},
+{
+"t": "{Who} was married to Nevada Van der Veer",
+"lvl": 1
+},
+{
+"t": "{Who} died in New York City",
+"lvl": 1
+},
+{
+"t": "{Who} was born in South Carolina",
+"lvl": 3
+}
+],
+"Edith Helena": [
+{
+"t": "{Who} died in Moulins",
+"lvl": 1
+}
+],
+"Henry Burr": [
+{
+"t": "{Who} is buried at Kensico Cemetery",
+"lvl": 1
+},
+{
+"t": "{Who} died in Chicago",
+"lvl": 1
+},
+{
+"t": "{Who} studied at the Mount Allison University",
+"lvl": 2
+},
+{
+"t": "{Who} was a member of the Peerless Quartet",
+"lvl": 2
+},
+{
+"t": "{Who} was born in St. Stephen",
+"lvl": 3
+}
+],
+"Felix Arndt": [
+{
+"t": "{Who} died in New York City",
+"lvl": 1
+},
+{
+"t": "{Who} was born in New York City",
+"lvl": 3
+}
+],
+"William F. Hooley": [
+{
+"t": "{Who} is buried at Saint Raymond's Cemetery",
+"lvl": 1
+},
+{
+"t": "{Who} died in New York City",
+"lvl": 1
+},
+{
+"t": "{Who} was born in London",
+"lvl": 3
+}
+],
+"Rosario Bourdon": [
+{
+"t": "{Who} died in New York City",
+"lvl": 1
+},
+{
+"t": "{Who} was born in Longueuil",
+"lvl": 3
+}
+],
+"Oliver Johnson": [
+{
+"t": "{Who} died in rue Pierre-Lescot",
+"lvl": 1
+},
+{
+"t": "{Who} was born in Oakland",
+"lvl": 3
+}
+],
+"Clement Barone": [
+{
+"t": "{Who} was born in Marsico Nuovo",
+"lvl": 3
+}
+],
+"Joseph C. Smith": [
+{
+"t": "{Who} died in Miami Beach",
+"lvl": 1
+},
+{
+"t": "{Who} was born in Sag Harbor",
+"lvl": 3
+}
+],
+"Zélie De Lussan": [
+{
+"t": "{Who} died in London",
+"lvl": 1
+},
+{
+"t": "{Who} studied with Giovanni Sbriglia",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Brooklyn",
+"lvl": 3
+}
+],
+"Ada Crossley": [
+{
+"t": "{Who} died in London",
+"lvl": 1
+},
+{
+"t": "{Who} was born in Victoria",
+"lvl": 3
+}
+],
+"Emilio de Gogorza": [
+{
+"t": "{Who} was married to Emma Eames",
+"lvl": 1
+},
+{
+"t": "{Who} taught Florence Kirk and Brenda Lewis",
+"lvl": 1
+},
+{
+"t": "{Who} died in New York City",
+"lvl": 1
+},
+{
+"t": "{Who} was born in Brooklyn",
+"lvl": 3
+}
+],
+"Alma Gluck": [
+{
+"t": "{Who} is buried at Town Hill Cemetery",
+"lvl": 1
+},
+{
+"t": "{Who} was married to Efrem Zimbalist",
+"lvl": 1
+},
+{
+"t": "{Who} died in Manhattan",
+"lvl": 1
+},
+{
+"t": "{Who} was born in Iași",
+"lvl": 3
+}
+],
+"John McCormack": [
+{
+"t": "{Who} is buried at Deans Grange Cemetery",
+"lvl": 1
+},
+{
+"t": "{Who} received the Laetare Medal",
+"lvl": 1
+},
+{
+"t": "{Who} died in Dublin",
+"lvl": 1
+},
+{
+"t": "{Who} studied at the Summerhill College",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Athlone",
+"lvl": 3
+}
+],
+"Fritz Kreisler": [
+{
+"t": "{Who} is buried at Woodlawn Cemetery",
+"lvl": 1
+},
+{
+"t": "{Who} received the Ring of Honour of the City of Vienna",
+"lvl": 1
+},
+{
+"t": "{Who} died in NewYork–Presbyterian Hospital",
+"lvl": 1
+},
+{
+"t": "{Who} studied with Anton Bruckner and Léo Delibes",
+"lvl": 2
+},
+{
+"t": "{Who} studied at the University of Music and Performing Arts Vienna",
+"lvl": 2
+},
+{
+"t": "{Who} is known for Alt-Wiener Tanzweisen and Liebesleid",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Vienna",
+"lvl": 3
+}
+],
+"Edwin Schneider": [
+{
+"t": "{Who} studied at the University of Music and Theatre Leipzig",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Chicago",
+"lvl": 3
+}
+],
+"Lucrezia Bori": [
+{
+"t": "{Who} is buried in Cementerio General de Valencia",
+"lvl": 1
+},
+{
+"t": "{Who} received the Grand Cross of the Civil Order of Beneficence",
+"lvl": 1
+},
+{
+"t": "{Who} died in New York City",
+"lvl": 1
+},
+{
+"t": "{Who} was born in Valencia",
+"lvl": 3
+}
+],
+"Eugene Cowles": [
+{
+"t": "{Who} is buried at Laurel Hill Cemetery",
+"lvl": 1
+},
+{
+"t": "{Who} died in Boston",
+"lvl": 1
+}
+],
+"Charles Gilbert Spross": [
+{
+"t": "{Who} is buried at Poughkeepsie Rural Cemetery",
+"lvl": 1
+},
+{
+"t": "{Who} died in Poughkeepsie",
+"lvl": 1
+},
+{
+"t": "{Who} studied with Xaver Scharwenka and Carl Lachmund",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Poughkeepsie",
+"lvl": 3
+}
+],
+"Edward T. King": [
+{
+"t": "{Who} worked for Zonophone",
+"lvl": 2
+},
+{
+"t": "{Who} was a member of the Sousa Band",
+"lvl": 2
+}
+],
+"Paul Althouse": [
+{
+"t": "{Who} is buried at Ferncliff Cemetery",
+"lvl": 1
+},
+{
+"t": "{Who} taught Richard Tucker and Léopold Simoneau",
+"lvl": 1
+},
+{
+"t": "{Who} died in New York City",
+"lvl": 1
+},
+{
+"t": "{Who} studied with Oscar Saenger",
+"lvl": 2
+},
+{
+"t": "{Who} studied at the Bucknell University",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Reading",
+"lvl": 3
+}
+],
+"Lucy Isabelle Marsh": [
+{
+"t": "{Who} taught Roberta Peters",
+"lvl": 1
+}
+],
+"Vess L. Ossman": [
+{
+"t": "{Who} died in Fairmont",
+"lvl": 1
+},
+{
+"t": "{Who} was born in Hudson",
+"lvl": 3
+}
+],
+"S. H. Dudley": [
+{
+"t": "{Who} died in Los Angeles",
+"lvl": 1
+},
+{
+"t": "{Who} was born in Greencastle",
+"lvl": 3
+}
+],
+"Pasquale Amato": [
+{
+"t": "{Who} is buried at Roselawn Memorial Park and Mausoleum",
+"lvl": 1
+},
+{
+"t": "{Who} taught Marguerite Piazza",
+"lvl": 1
+},
+{
+"t": "{Who} died in Jackson Heights",
+"lvl": 1
+},
+{
+"t": "{Who} worked at the Louisiana State University",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Naples",
+"lvl": 3
+}
+],
+"Boston Symphony Orchestra": [
+{
+"t": "{Who} received the Echo Klassik – Ensemble of the Year",
+"lvl": 1
+},
+{
+"t": "{Who} was a member of the League of American Orchestras",
+"lvl": 2
+}
+],
+"Karl Muck": [
+{
+"t": "{Who} is buried at Steinfeldfriedhof, Graz",
+"lvl": 1
+},
+{
+"t": "{Who} received the Adlerschild des Deutschen Reiches",
+"lvl": 1
+},
+{
+"t": "{Who} taught Ferdinand Leitner and Antonia Brico",
+"lvl": 1
+},
+{
+"t": "{Who} died in Stuttgart",
+"lvl": 1
+},
+{
+"t": "{Who} studied at the University of Music and Theatre Leipzig",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Darmstadt",
+"lvl": 3
+}
+],
+"Sophie Braslau": [
+{
+"t": "{Who} died in Manhattan",
+"lvl": 1
+},
+{
+"t": "{Who} was born in Manhattan",
+"lvl": 3
+}
+],
+"Victor Herbert": [
+{
+"t": "{Who} is buried at Woodlawn Cemetery",
+"lvl": 1
+},
+{
+"t": "{Who} was married to Therese Förster",
+"lvl": 1
+},
+{
+"t": "{Who} died in New York City",
+"lvl": 1
+},
+{
+"t": "{Who} studied at the State University of Music and Performing Arts Stuttgart",
+"lvl": 2
+},
+{
+"t": "{Who} was a member of the American Academy of Arts and Letters",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Dublin",
+"lvl": 3
+}
+],
+"Julia Culp": [
+{
+"t": "{Who} was married to Wilhelm Ginzkey",
+"lvl": 1
+},
+{
+"t": "{Who} died in Amsterdam",
+"lvl": 1
+},
+{
+"t": "{Who} studied with Etelka Gerster and Cornélie van Zanten",
+"lvl": 2
+},
+{
+"t": "{Who} studied at the Conservatorium van Amsterdam",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Groningen",
+"lvl": 3
+}
+],
+"Charles Dalmorès": [
+{
+"t": "{Who} died in Hollywood",
+"lvl": 1
+},
+{
+"t": "{Who} was born in Nancy",
+"lvl": 3
+}
+],
+"John Barnes Wells": [
+{
+"t": "{Who} died in Roxbury",
+"lvl": 1
+},
+{
+"t": "{Who} was born in Ashley",
+"lvl": 3
+}
+],
+"Giuseppe De Luca": [
+{
+"t": "{Who} is buried in Campo Verano",
+"lvl": 1
+},
+{
+"t": "{Who} taught Gianna D'Angelo",
+"lvl": 1
+},
+{
+"t": "{Who} died in New York City",
+"lvl": 1
+},
+{
+"t": "{Who} worked at the Juilliard School",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Rome",
+"lvl": 3
+}
+],
+"Emma Calvé": [
+{
+"t": "{Who} is buried at Cimetière de Millau",
+"lvl": 1
+},
+{
+"t": "{Who} received the Knight of the Legion of Honour",
+"lvl": 1
+},
+{
+"t": "{Who} died in Montpellier",
+"lvl": 1
+},
+{
+"t": "{Who} studied with Mathilde Marchesi and Adolphe Grognier",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Decazeville",
+"lvl": 3
+}
+],
+"E. F. Wagner": [
+{
+"t": "{Who} is buried in Wahnfried",
+"lvl": 1
+},
+{
+"t": "{Who} received the Bavarian Maximilian Order for Science and Art",
+"lvl": 1
+},
+{
+"t": "{Who} was married to Minna Planer",
+"lvl": 1
+},
+{
+"t": "{Who} taught Anton Seidl",
+"lvl": 1
+},
+{
+"t": "{Who} died in Venice",
+"lvl": 1
+},
+{
+"t": "{Who} studied with Christian Theodor Weinlig",
+"lvl": 2
+},
+{
+"t": "{Who} studied at the Leipzig University",
+"lvl": 2
+},
+{
+"t": "{Who} worked at the University of Music and Performing Arts Vienna",
+"lvl": 2
+},
+{
+"t": "{Who} was a member of the Corps Saxonia Leipzig",
+"lvl": 2
+},
+{
+"t": "{Who} is known for Lohengrin and The Flying Dutchman",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Leipzig",
+"lvl": 3
+}
+],
+"Edmond Clément": [
+{
+"t": "{Who} received the Order of Glory",
+"lvl": 1
+},
+{
+"t": "{Who} taught Marie Sundelius",
+"lvl": 1
+},
+{
+"t": "{Who} died in Nice",
+"lvl": 1
+},
+{
+"t": "{Who} studied with Victor Warot",
+"lvl": 2
+},
+{
+"t": "{Who} studied at the Conservatoire National Supérieur de Musique et de Danse",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Paris",
+"lvl": 3
+}
+],
+"Amelita Galli-Curci": [
+{
+"t": "{Who} is buried at Cypress View Mausoleum and Crematory",
+"lvl": 1
+},
+{
+"t": "{Who} received the star on Hollywood Walk of Fame",
+"lvl": 1
+},
+{
+"t": "{Who} was married to Homer David Samuels",
+"lvl": 1
+},
+{
+"t": "{Who} taught Jean Fenn",
+"lvl": 1
+},
+{
+"t": "{Who} died in La Jolla",
+"lvl": 1
+},
+{
+"t": "{Who} studied with Estelle Liebling",
+"lvl": 2
+},
+{
+"t": "{Who} studied at the Milan Conservatory",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Milan",
+"lvl": 3
+}
+],
+"Mabel Garrison": [
+{
+"t": "{Who} was married to George Siemonn",
+"lvl": 1
+},
+{
+"t": "{Who} died in New York City",
+"lvl": 1
+},
+{
+"t": "{Who} studied with Herbert Witherspoon and Oscar Saenger",
+"lvl": 2
+},
+{
+"t": "{Who} studied at the McDaniel College",
+"lvl": 2
+},
+{
+"t": "{Who} was born in New York City",
+"lvl": 3
+}
+],
+"Frieda Hempel": [
+{
+"t": "{Who} is buried at Friedhof Heerstraße",
+"lvl": 1
+},
+{
+"t": "{Who} was married to William Kahn",
+"lvl": 1
+},
+{
+"t": "{Who} taught Cornelius L. Reid",
+"lvl": 1
+},
+{
+"t": "{Who} died in Berlin",
+"lvl": 1
+},
+{
+"t": "{Who} studied with Selma Kempner and Estelle Liebling",
+"lvl": 2
+},
+{
+"t": "{Who} studied at the University of Music and Theatre Leipzig",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Leipzig",
+"lvl": 3
+}
+],
+"Giovanni Martinelli": [
+{
+"t": "{Who} is buried in Campo Verano",
+"lvl": 1
+},
+{
+"t": "{Who} died in Mount Sinai West",
+"lvl": 1
+},
+{
+"t": "{Who} was born in Montagnana",
+"lvl": 3
+}
+],
+"Nellie Melba": [
+{
+"t": "{Who} is buried at Lilydale Lawn Cemetery",
+"lvl": 1
+},
+{
+"t": "{Who} received the Victorian Honour Roll of Women",
+"lvl": 1
+},
+{
+"t": "{Who} was married to Charles Nesbitt Frederick Armstrong",
+"lvl": 1
+},
+{
+"t": "{Who} died in Sydney",
+"lvl": 1
+},
+{
+"t": "{Who}'s father was David Mitchell",
+"lvl": 1
+},
+{
+"t": "{Who}'s mother was Isabella Ann Dow",
+"lvl": 1
+},
+{
+"t": "{Who} studied with Mathilde Marchesi",
+"lvl": 2
+},
+{
+"t": "{Who} studied at the Presbyterian Ladies' College",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Melbourne",
+"lvl": 3
+}
+],
+"John Lemmoné": [
+{
+"t": "{Who} died in Darlinghurst",
+"lvl": 1
+},
+{
+"t": "{Who} was born in Ballarat",
+"lvl": 3
+}
+],
+"Pol Plançon": [
+{
+"t": "{Who} died in Paris",
+"lvl": 1
+},
+{
+"t": "{Who} studied with Giovanni Sbriglia",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Fumay",
+"lvl": 3
+}
+],
+"Titta Ruffo": [
+{
+"t": "{Who} is buried at monumental cemetery of Milan",
+"lvl": 1
+},
+{
+"t": "{Who} died in Florence",
+"lvl": 1
+},
+{
+"t": "{Who} studied with Estelle Liebling",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Pisa",
+"lvl": 3
+}
+],
+"Ernestine Schumann-Heink": [
+{
+"t": "{Who} is buried in Greenwood Memorial Park",
+"lvl": 1
+},
+{
+"t": "{Who} received the star on Hollywood Walk of Fame",
+"lvl": 1
+},
+{
+"t": "{Who} died in Hollywood",
+"lvl": 1
+},
+{
+"t": "{Who} was a member of the American Gold Star Mothers",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Libeň",
+"lvl": 3
+}
+],
+"Marcella Sembrich": [
+{
+"t": "{Who} is buried at Johannisfriedhof",
+"lvl": 1
+},
+{
+"t": "{Who} was married to Wilhelm Stengel",
+"lvl": 1
+},
+{
+"t": "{Who} taught Dusolina Giannini and Josephine Antoine",
+"lvl": 1
+},
+{
+"t": "{Who} died in New York City",
+"lvl": 1
+},
+{
+"t": "{Who} studied at the Lviv Conservatory",
+"lvl": 2
+},
+{
+"t": "{Who} worked at the Curtis Institute of Music",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Vyshnivchyk",
+"lvl": 3
+}
+],
+"Luisa Tetrazzini": [
+{
+"t": "{Who} received the Royal Philharmonic Society Gold Medal",
+"lvl": 1
+},
+{
+"t": "{Who} died in Milan",
+"lvl": 1
+},
+{
+"t": "{Who} studied at the Conservatorio Luigi Cherubini",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Florence",
+"lvl": 3
+}
+],
+"Bohumil Pták": [
+{
+"t": "{Who} was married to Marie Ptáková",
+"lvl": 1
+},
+{
+"t": "{Who} died in New Town",
+"lvl": 1
+},
+{
+"t": "{Who} was born in Prague",
+"lvl": 3
+}
+],
+"Alice Nielsen": [
+{
+"t": "{Who} is buried in Lawrence",
+"lvl": 1
+},
+{
+"t": "{Who} died in New York City",
+"lvl": 1
+},
+{
+"t": "{Who} studied with Sarah Robinson-Duff",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Nashville",
+"lvl": 3
+}
+],
+"Nicola Zerola": [
+{
+"t": "{Who} died in New York City",
+"lvl": 1
+},
+{
+"t": "{Who} was born in Naples",
+"lvl": 3
+}
+],
+"George Hamlin": [
+{
+"t": "{Who} is buried at Graceland Cemetery",
+"lvl": 1
+},
+{
+"t": "{Who} died in Manhattan",
+"lvl": 1
+},
+{
+"t": "{Who} studied at the Phillips Academy",
+"lvl": 2
+},
+{
+"t": "{Who} worked at the Chicago Grand Opera Company",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Elgin",
+"lvl": 3
+}
+],
+"Rita Fornia": [
+{
+"t": "{Who} died in Paris",
+"lvl": 1
+},
+{
+"t": "{Who} studied with Jean de Reszke and Selma Kempner",
+"lvl": 2
+},
+{
+"t": "{Who} was born in San Francisco",
+"lvl": 3
+}
+],
+"Margarethe Arndt-Ober": [
+{
+"t": "{Who} died in Bad Sachsa",
+"lvl": 1
+},
+{
+"t": "{Who} was born in Berlin",
+"lvl": 3
+}
+],
+"Renato Zanelli": [
+{
+"t": "{Who} died in Santiago",
+"lvl": 1
+},
+{
+"t": "{Who} was born in Valparaíso",
+"lvl": 3
+}
+],
+"Joseph Winogradoff": [
+{
+"t": "{Who} is buried at Trumpeldor cemetery",
+"lvl": 1
+},
+{
+"t": "{Who} died in Israel",
+"lvl": 1
+},
+{
+"t": "{Who} studied with Israel Michalowski",
+"lvl": 2
+},
+{
+"t": "{Who} studied at the Moscow Conservatory",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Vilnius",
+"lvl": 3
+}
+],
+"David Devriès": [
+{
+"t": "{Who} died in Neuilly-sur-Seine",
+"lvl": 1
+},
+{
+"t": "{Who} studied at the Conservatoire National Supérieur de Musique et de Danse",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Bagnères-de-Luchon",
+"lvl": 3
+}
+],
+"Florencio Constantino": [
+{
+"t": "{Who} is buried at Recoleta Cemetery",
+"lvl": 1
+},
+{
+"t": "{Who} died in Mexico City",
+"lvl": 1
+},
+{
+"t": "{Who} worked at the Manhattan Opera Company",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Ortuella",
+"lvl": 3
+}
+],
+"Clarence Whitehill": [
+{
+"t": "{Who} died in Manhattan",
+"lvl": 1
+},
+{
+"t": "{Who} was born in Marengo",
+"lvl": 3
+}
+],
+"Mischa Elman": [
+{
+"t": "{Who} is buried at Westchester Hills Cemetery",
+"lvl": 1
+},
+{
+"t": "{Who} received the star on Hollywood Walk of Fame",
+"lvl": 1
+},
+{
+"t": "{Who} died in New York City",
+"lvl": 1
+},
+{
+"t": "{Who} studied with Leopold Auer and Alexander Fiedemann",
+"lvl": 2
+},
+{
+"t": "{Who} studied at the Saint Petersburg Conservatory",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Talne",
+"lvl": 3
+}
+],
+"Percy B. Kahn": [
+{
+"t": "{Who} studied at the Royal College of Music",
+"lvl": 2
+}
+],
+"Johanna Gadski": [
+{
+"t": "{Who} is buried at Friedhof Zehlendorf",
+"lvl": 1
+},
+{
+"t": "{Who} was married to Hans Tauscher",
+"lvl": 1
+},
+{
+"t": "{Who} died in Schmargendorf",
+"lvl": 1
+},
+{
+"t": "{Who} was born in Anklam",
+"lvl": 3
+}
+],
+"Vincent O'Brien": [
+{
+"t": "{Who} studied at the Royal Irish Academy of Music",
+"lvl": 2
+}
+],
+"Mario Ancona": [
+{
+"t": "{Who} died in Florence",
+"lvl": 1
+},
+{
+"t": "{Who} was born in Livorno",
+"lvl": 3
+}
+],
+"Emma Eames": [
+{
+"t": "{Who} is buried at Oak Grove Cemetery",
+"lvl": 1
+},
+{
+"t": "{Who} received the Knight of the French Order of Academic Palms",
+"lvl": 1
+},
+{
+"t": "{Who} was married to Emilio de Gogorza and Julian Russell Story",
+"lvl": 1
+},
+{
+"t": "{Who} died in New York City",
+"lvl": 1
+},
+{
+"t": "{Who} studied with Mathilde Marchesi and Charles R. Adams",
+"lvl": 2
+},
+{
+"t": "{Who} worked at the Paris Opera",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Shanghai",
+"lvl": 3
+}
+],
+"Giuseppe Campanari": [
+{
+"t": "{Who} died in Milan",
+"lvl": 1
+},
+{
+"t": "{Who} worked at the New England Conservatory",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Venice",
+"lvl": 3
+}
+],
+"Jeanne Gerville-Réache": [
+{
+"t": "{Who} died in New York City",
+"lvl": 1
+},
+{
+"t": "{Who} was born in Orthez",
+"lvl": 3
+}
+],
+"Mario Sammarco": [
+{
+"t": "{Who} died in Milan",
+"lvl": 1
+},
+{
+"t": "{Who} was born in Palermo",
+"lvl": 3
+}
+],
+"Efrem Zimbalist": [
+{
+"t": "{Who} is buried at Town Hill Cemetery",
+"lvl": 1
+},
+{
+"t": "{Who} was married to Alma Gluck",
+"lvl": 1
+},
+{
+"t": "{Who} died in Reno",
+"lvl": 1
+},
+{
+"t": "{Who} studied with Leopold Auer",
+"lvl": 2
+},
+{
+"t": "{Who} studied at the Saint Petersburg Conservatory",
+"lvl": 2
+},
+{
+"t": "{Who} worked at the Curtis Institute of Music",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Rostov-on-Don",
+"lvl": 3
+}
+],
+"Maria Duchêne": [
+{
+"t": "{Who} died in New York City",
+"lvl": 1
+},
+{
+"t": "{Who} studied with Jacques Isnardon",
+"lvl": 2
+},
+{
+"t": "{Who} studied at the Conservatoire de Paris",
+"lvl": 2
+},
+{
+"t": "{Who} was born in France",
+"lvl": 3
+}
+],
+"Gina Viafora": [
+{
+"t": "{Who} died in New York City",
+"lvl": 1
+},
+{
+"t": "{Who} was born in Province of Novara",
+"lvl": 3
+}
+]
+},
+"composers": {
+"Frédéric Chopin": [
+{
+"t": "{Composer} is buried at Père Lachaise Cemetery",
+"lvl": 1
+},
+{
+"t": "{Composer} taught Carl Filtsch and Georges Mathias",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Paris",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Wojciech Żywny and Józef Elsner",
+"lvl": 2
+},
+{
+"t": "{Composer} studied at the University of Warsaw",
+"lvl": 2
+},
+{
+"t": "{Composer} is known for Études and Nocturnes",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Żelazowa Wola",
+"lvl": 3
+}
+],
+"Ludwig van Beethoven": [
+{
+"t": "{Composer} is buried at Vienna Central Cemetery",
+"lvl": 1
+},
+{
+"t": "{Composer} received the Bröckemännche Award",
+"lvl": 1
+},
+{
+"t": "{Composer} taught Giulietta Guicciardi and Archduke Rudolf of Austria",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Vienna",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Joseph Haydn and Antonio Salieri",
+"lvl": 2
+},
+{
+"t": "{Composer} was a member of the Royal Netherlands Academy of Arts and Sciences",
+"lvl": 2
+},
+{
+"t": "{Composer} is known for Für Elise and Fidelio",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Bonn",
+"lvl": 3
+}
+],
+"Felix Mendelssohn-Bartholdy": [
+{
+"t": "{Composer} is buried in cemeteries at Hallesches Tor",
+"lvl": 1
+},
+{
+"t": "{Composer} received the Pour le Mérite",
+"lvl": 1
+},
+{
+"t": "{Composer} taught Wilhelm Joseph von Wasielewski and Carl Reinecke",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Leipzig",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Carl Friedrich Zelter and Ignaz Moscheles",
+"lvl": 2
+},
+{
+"t": "{Composer} studied at the Humboldt-Universität zu Berlin",
+"lvl": 2
+},
+{
+"t": "{Composer} worked at the University of Music and Theatre Leipzig",
+"lvl": 2
+},
+{
+"t": "{Composer} was a member of the Royal Netherlands Academy of Arts and Sciences",
+"lvl": 2
+},
+{
+"t": "{Composer} is known for The Hebrides and Violin Concerto in E minor",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Hamburg",
+"lvl": 3
+}
+],
+"Edvard Grieg": [
+{
+"t": "{Composer} is buried in Troldhaugen",
+"lvl": 1
+},
+{
+"t": "{Composer} received the Knight Grand Cross of the Order of St. Olav",
+"lvl": 1
+},
+{
+"t": "{Composer} taught Barbara Larssen and Astrid Onarheim",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Bergen",
+"lvl": 1
+},
+{
+"t": "{Composer}'s mother was Gesine Hagerup",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Carl Reinecke",
+"lvl": 2
+},
+{
+"t": "{Composer} studied at the University of Music and Theatre Leipzig",
+"lvl": 2
+},
+{
+"t": "{Composer} is known for Peer Gynt",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Bergen",
+"lvl": 3
+}
+],
+"Franz Liszt": [
+{
+"t": "{Composer} is buried at Stadtfriedhof Bayreuth",
+"lvl": 1
+},
+{
+"t": "{Composer} received the Order of the Golden Spur",
+"lvl": 1
+},
+{
+"t": "{Composer} was married to Marie d'Agoult",
+"lvl": 1
+},
+{
+"t": "{Composer} taught Eugen d'Albert and Hans Bronsart von Schellendorff",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Bayreuth",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Antonio Salieri and Carl Czerny",
+"lvl": 2
+},
+{
+"t": "{Composer} studied at the University of Music and Performing Arts Vienna",
+"lvl": 2
+},
+{
+"t": "{Composer} was a member of the Sängerschaft zu St. Pauli Jena",
+"lvl": 2
+},
+{
+"t": "{Composer} is known for Hamlet and Dante Symphony",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Raiding",
+"lvl": 3
+}
+],
+"Robert Schumann": [
+{
+"t": "{Composer} is buried at Alter Friedhof Bonn",
+"lvl": 1
+},
+{
+"t": "{Composer} taught Wilhelm Joseph von Wasielewski and Carl Reinecke",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Endenich",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Friedrich Wieck and Heinrich Dorn",
+"lvl": 2
+},
+{
+"t": "{Composer} studied at the Heidelberg University",
+"lvl": 2
+},
+{
+"t": "{Composer} worked at the University of Music and Theatre Leipzig",
+"lvl": 2
+},
+{
+"t": "{Composer} was a member of the Leipzig Fraternity Germania",
+"lvl": 2
+},
+{
+"t": "{Composer} is known for Kinderszenen",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Zwickau",
+"lvl": 3
+}
+],
+"Ernő Dohnányi": [
+{
+"t": "{Composer} is buried in Tallahassee",
+"lvl": 1
+},
+{
+"t": "{Composer} received the Kossuth Prize",
+"lvl": 1
+},
+{
+"t": "{Composer} was married to Elsa Marguérite Galafrés",
+"lvl": 1
+},
+{
+"t": "{Composer} taught Ervin Nyiregyházi and György Ferenczy",
+"lvl": 1
+},
+{
+"t": "{Composer} died in New York City",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Hans von Koessler and István Thomán",
+"lvl": 2
+},
+{
+"t": "{Composer} studied at the Franz Liszt Academy of Music",
+"lvl": 2
+},
+{
+"t": "{Composer} worked at the Berlin University of the Arts",
+"lvl": 2
+},
+{
+"t": "{Composer} is known for Ruralia Hungarica",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Bratislava",
+"lvl": 3
+}
+],
+"Richard Wagner": [
+{
+"t": "{Composer} is buried in Wahnfried",
+"lvl": 1
+},
+{
+"t": "{Composer} received the Bavarian Maximilian Order for Science and Art",
+"lvl": 1
+},
+{
+"t": "{Composer} was married to Minna Planer",
+"lvl": 1
+},
+{
+"t": "{Composer} taught Anton Seidl",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Venice",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Christian Theodor Weinlig",
+"lvl": 2
+},
+{
+"t": "{Composer} studied at the Leipzig University",
+"lvl": 2
+},
+{
+"t": "{Composer} worked at the University of Music and Performing Arts Vienna",
+"lvl": 2
+},
+{
+"t": "{Composer} was a member of the Corps Saxonia Leipzig",
+"lvl": 2
+},
+{
+"t": "{Composer} is known for Lohengrin and The Flying Dutchman",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Leipzig",
+"lvl": 3
+}
+],
+"Léo Delibes": [
+{
+"t": "{Composer} is buried at Montmartre Cemetery",
+"lvl": 1
+},
+{
+"t": "{Composer} received the Officer of the Legion of Honour",
+"lvl": 1
+},
+{
+"t": "{Composer} taught Maurice Emmanuel and Émile Jaques-Dalcroze",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Paris",
+"lvl": 1
+},
+{
+"t": "{Composer}'s mother was Clémence Batiste",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Adolphe Adam",
+"lvl": 2
+},
+{
+"t": "{Composer} studied at the Conservatoire de Paris",
+"lvl": 2
+},
+{
+"t": "{Composer} worked at the Paris Opera",
+"lvl": 2
+},
+{
+"t": "{Composer} was a member of the Académie des beaux-arts",
+"lvl": 2
+},
+{
+"t": "{Composer} is known for Lakmé and Coppélia",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in La Flèche",
+"lvl": 3
+}
+],
+"Charles Gounod": [
+{
+"t": "{Composer} is buried at Auteuil Cemetery",
+"lvl": 1
+},
+{
+"t": "{Composer} received the Prix de Rome",
+"lvl": 1
+},
+{
+"t": "{Composer} was married to Anna Zimmerman",
+"lvl": 1
+},
+{
+"t": "{Composer} taught Pierre-Auguste Renoir and Spiro Samara",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Saint-Cloud",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Anton Reicha and Fromental Halévy",
+"lvl": 2
+},
+{
+"t": "{Composer} studied at the Conservatoire de Paris",
+"lvl": 2
+},
+{
+"t": "{Composer} was a member of the Académie des beaux-arts",
+"lvl": 2
+},
+{
+"t": "{Composer} is known for Faust and Roméo et Juliete",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Paris",
+"lvl": 3
+}
+],
+"Cécile Chaminade": [
+{
+"t": "{Composer} is buried at Passy Cemetery",
+"lvl": 1
+},
+{
+"t": "{Composer} received the Knight of the Legion of Honour",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Monte Carlo",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Georges Bizet and Camille Saint-Saëns",
+"lvl": 2
+},
+{
+"t": "{Composer} studied at the Conservatoire de Paris",
+"lvl": 2
+},
+{
+"t": "{Composer} is known for Flute Concertino and Callirhoë",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Batignolles-Monceau",
+"lvl": 3
+}
+],
+"Charles Cuvillier": [
+{
+"t": "{Composer} received the Legion of Honour",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Paris",
+"lvl": 1
+},
+{
+"t": "{Composer} studied at the Conservatoire de Paris",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in 9th arrondissement of Paris",
+"lvl": 3
+}
+],
+"Franz Schubert": [
+{
+"t": "{Composer} is buried at Vienna Central Cemetery",
+"lvl": 1
+},
+{
+"t": "{Composer} taught Maria Theresia, Gräfin Esterházy de Galántha",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Vienna",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Antonio Salieri",
+"lvl": 2
+},
+{
+"t": "{Composer} studied at the Akademisches Gymnasium",
+"lvl": 2
+},
+{
+"t": "{Composer} is known for Death and the Maiden and Winterreise",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Himmelpfortgrund",
+"lvl": 3
+}
+],
+"Anton Rubinstein": [
+{
+"t": "{Composer} is buried at Tikhvin Cemetery",
+"lvl": 1
+},
+{
+"t": "{Composer} received the Pour le Mérite",
+"lvl": 1
+},
+{
+"t": "{Composer} taught Pyotr Ilyich Tchaikovsky and Ella Adayevskaya",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Peterhof",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Siegfried Wilhelm Dehn and Josef Dachs",
+"lvl": 2
+},
+{
+"t": "{Composer} worked at the Saint Petersburg Conservatory",
+"lvl": 2
+},
+{
+"t": "{Composer} is known for The children of the steppes and Die Maccabäer",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Ofatinți",
+"lvl": 3
+}
+],
+"Camille Saint-Saëns": [
+{
+"t": "{Composer} is buried at Montparnasse Cemetery",
+"lvl": 1
+},
+{
+"t": "{Composer} received the Royal Victorian Order",
+"lvl": 1
+},
+{
+"t": "{Composer} was married to Marie-Laure Truffot",
+"lvl": 1
+},
+{
+"t": "{Composer} taught Gabriel Fauré and André Messager",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Algiers",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Fromental Halévy and François Benoist",
+"lvl": 2
+},
+{
+"t": "{Composer} studied at the Conservatoire de Paris",
+"lvl": 2
+},
+{
+"t": "{Composer} was a member of the Académie des beaux-arts",
+"lvl": 2
+},
+{
+"t": "{Composer} is known for The Carnival of the Animals and Danse macabre",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in 11th arrondissement of Paris",
+"lvl": 3
+}
+],
+"Erich Wolfgang Korngold": [
+{
+"t": "{Composer} is buried at Hollywood Forever Cemetery",
+"lvl": 1
+},
+{
+"t": "{Composer} received the Academy Award for Best Original Score",
+"lvl": 1
+},
+{
+"t": "{Composer} taught Jean Fenn",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Hollywood",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Alexander von Zemlinsky",
+"lvl": 2
+},
+{
+"t": "{Composer} studied at the University of Music and Performing Arts Vienna",
+"lvl": 2
+},
+{
+"t": "{Composer} worked at the University of Music and Performing Arts Vienna",
+"lvl": 2
+},
+{
+"t": "{Composer} was a member of the Paul Schott",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Brno",
+"lvl": 3
+}
+],
+"Ernest Schelling": [
+{
+"t": "{Composer} is buried at St. Elizabeth's Memorial Chapel, Tuxedo",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Manhattan",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Ignacy Jan Paderewski",
+"lvl": 2
+},
+{
+"t": "{Composer} studied at the Conservatoire de Paris",
+"lvl": 2
+},
+{
+"t": "{Composer} was a member of the American Academy of Arts and Letters",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Belvidere",
+"lvl": 3
+}
+],
+"Johannes Brahms": [
+{
+"t": "{Composer} is buried at Vienna Central Cemetery",
+"lvl": 1
+},
+{
+"t": "{Composer} received the Order of Leopold",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Vienna",
+"lvl": 1
+},
+{
+"t": "{Composer}'s mother was Johanna Henrica Christiane Nissen",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Eduard Marxsen",
+"lvl": 2
+},
+{
+"t": "{Composer} worked at the University of Music and Performing Arts Vienna",
+"lvl": 2
+},
+{
+"t": "{Composer} was a member of the Académie des beaux-arts",
+"lvl": 2
+},
+{
+"t": "{Composer} is known for Academic Festival Overture and A German Requiem",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Hamburg",
+"lvl": 3
+}
+],
+"Claude Debussy": [
+{
+"t": "{Composer} is buried at Passy Cemetery",
+"lvl": 1
+},
+{
+"t": "{Composer} received the Prix de Rome",
+"lvl": 1
+},
+{
+"t": "{Composer} was married to Emma Bardac and Marie-Rosalie Texier",
+"lvl": 1
+},
+{
+"t": "{Composer} taught María Grever and Raoul Bardac",
+"lvl": 1
+},
+{
+"t": "{Composer} died in 16th arrondissement of Paris",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Antoine-François Marmontel and Albert Lavignac",
+"lvl": 2
+},
+{
+"t": "{Composer} studied at the Conservatoire de Paris",
+"lvl": 2
+},
+{
+"t": "{Composer} was a member of the Royal Swedish Academy of Music",
+"lvl": 2
+},
+{
+"t": "{Composer} is known for Pelléas et Mélisande and Préludes",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Saint-Germain-en-Laye",
+"lvl": 3
+}
+],
+"Louis Brassin": [
+{
+"t": "{Composer} taught Edgar Tinel and Arthur De Greef",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Saint Petersburg",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Ignaz Moscheles",
+"lvl": 2
+},
+{
+"t": "{Composer} studied at the University of Music and Theatre Leipzig",
+"lvl": 2
+},
+{
+"t": "{Composer} worked at the Saint Petersburg Conservatory",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Aachen",
+"lvl": 3
+}
+],
+"Edward MacDowell": [
+{
+"t": "{Composer} died in New York City",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Carl Heymann and Teresa Carreño",
+"lvl": 2
+},
+{
+"t": "{Composer} studied at the Columbia University",
+"lvl": 2
+},
+{
+"t": "{Composer} was a member of the American Academy of Arts and Letters",
+"lvl": 2
+},
+{
+"t": "{Composer} is known for Woodland Sketches",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in New York City",
+"lvl": 3
+}
+],
+"Wolfgang Amadeus Mozart": [
+{
+"t": "{Composer} is buried at St. Marx Cemetery",
+"lvl": 1
+},
+{
+"t": "{Composer} received the Order of the Golden Spur",
+"lvl": 1
+},
+{
+"t": "{Composer} taught Johann Nepomuk Hummel and Franz Xaver Süssmayr",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Vienna",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Johann Christian Bach and Giovanni Battista Martini",
+"lvl": 2
+},
+{
+"t": "{Composer} worked for Joseph II, Holy Roman Emperor",
+"lvl": 2
+},
+{
+"t": "{Composer} was a member of the Freemasonry",
+"lvl": 2
+},
+{
+"t": "{Composer} is known for The Magic Flute and Eine kleine Nachtmusik",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Salzburg",
+"lvl": 3
+}
+],
+"Hector Berlioz": [
+{
+"t": "{Composer} is buried at Montmartre Cemetery",
+"lvl": 1
+},
+{
+"t": "{Composer} received the Prix de Rome",
+"lvl": 1
+},
+{
+"t": "{Composer} was married to Harriet Smithson and Marie Recio",
+"lvl": 1
+},
+{
+"t": "{Composer} taught Antoine Elwart and Théodore Ritter",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Paris",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Anton Reicha and Jean-François Le Sueur",
+"lvl": 2
+},
+{
+"t": "{Composer} studied at the Conservatoire de Paris",
+"lvl": 2
+},
+{
+"t": "{Composer} was a member of the Académie des beaux-arts",
+"lvl": 2
+},
+{
+"t": "{Composer} is known for Benvenuto Cellini and Le carnaval romain",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in La Côte-Saint-André",
+"lvl": 3
+}
+],
+"Richard Epstein": [
+{
+"t": "{Composer} taught Mary Mellish",
+"lvl": 1
+},
+{
+"t": "{Composer} died in New York City",
+"lvl": 1
+},
+{
+"t": "{Composer} worked at the University of Music and Performing Arts Vienna",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Vienna",
+"lvl": 3
+}
+],
+"Ludvig Schytte": [
+{
+"t": "{Composer} died in Berlin",
+"lvl": 1
+},
+{
+"t": "{Composer} was born in Aarhus",
+"lvl": 3
+}
+],
+"Engelbert Humperdinck": [
+{
+"t": "{Composer} is buried in Südwestkirchhof Stahnsdorf",
+"lvl": 1
+},
+{
+"t": "{Composer} received the Mendelssohn Award",
+"lvl": 1
+},
+{
+"t": "{Composer} taught Siegfried Wagner and Yuliya Veysberg",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Neustrelitz",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Josef Rheinberger and Franz Lachner",
+"lvl": 2
+},
+{
+"t": "{Composer} studied at the Hochschule für Musik und Tanz Köln",
+"lvl": 2
+},
+{
+"t": "{Composer} worked at the Frankfurt University of Music and Performing Arts",
+"lvl": 2
+},
+{
+"t": "{Composer} is known for Hänsel und Gretel and Dornröschen",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Siegburg",
+"lvl": 3
+}
+],
+"Adolf von Henselt": [
+{
+"t": "{Composer} taught Ella Adayevskaya and Eugène Holliday",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Cieplice Śląskie-Zdrój",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Johann Nepomuk Hummel and Simon Sechter",
+"lvl": 2
+},
+{
+"t": "{Composer} worked at the Saint Petersburg Conservatory",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Schwabach",
+"lvl": 3
+}
+],
+"Arthur Sullivan": [
+{
+"t": "{Composer} is buried at St Paul's Cathedral",
+"lvl": 1
+},
+{
+"t": "{Composer} received the Knight Bachelor",
+"lvl": 1
+},
+{
+"t": "{Composer} taught Florence Maude Ewart",
+"lvl": 1
+},
+{
+"t": "{Composer} died in London",
+"lvl": 1
+},
+{
+"t": "{Composer}'s mother was Mary Clementina Coghlan",
+"lvl": 1
+},
+{
+"t": "{Composer} studied at the University of Music and Theatre Leipzig",
+"lvl": 2
+},
+{
+"t": "{Composer} is known for Trial by Jury and The Yeomen of the Guard",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in London",
+"lvl": 3
+}
+],
+"Giacomo Puccini": [
+{
+"t": "{Composer} is buried in Torre del Lago",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Brussels",
+"lvl": 1
+},
+{
+"t": "{Composer}'s mother was Albina Magi",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Amilcare Ponchielli and Antonio Bazzini",
+"lvl": 2
+},
+{
+"t": "{Composer} studied at the Milan Conservatory",
+"lvl": 2
+},
+{
+"t": "{Composer} was a member of the Royal Swedish Academy of Music",
+"lvl": 2
+},
+{
+"t": "{Composer} is known for Madama Butterfly and La bohème",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Lucca",
+"lvl": 3
+}
+],
+"Jules Massenet": [
+{
+"t": "{Composer} is buried at cemetery in Égreville",
+"lvl": 1
+},
+{
+"t": "{Composer} received the Order of Leopold",
+"lvl": 1
+},
+{
+"t": "{Composer} was married to Ninon de Gressy",
+"lvl": 1
+},
+{
+"t": "{Composer} taught Charles Koechlin and Georges Enescou",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Paris",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Ambroise Thomas and Marie Gabriel Augustin Savard",
+"lvl": 2
+},
+{
+"t": "{Composer} studied at the Conservatoire de Paris",
+"lvl": 2
+},
+{
+"t": "{Composer} worked at the Conservatoire de Paris",
+"lvl": 2
+},
+{
+"t": "{Composer} was a member of the Académie des beaux-arts",
+"lvl": 2
+},
+{
+"t": "{Composer} is known for Don Quichotte and Manon",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Montaud",
+"lvl": 3
+}
+],
+"Archibald Joyce": [
+{
+"t": "{Composer} died in Sutton",
+"lvl": 1
+},
+{
+"t": "{Composer} was born in Belgravia",
+"lvl": 3
+}
+],
+"Charles Lecocq": [
+{
+"t": "{Composer} is buried at Père Lachaise Cemetery",
+"lvl": 1
+},
+{
+"t": "{Composer} received the Officer of the Legion of Honour",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Paris",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with François Benoist",
+"lvl": 2
+},
+{
+"t": "{Composer} studied at the Conservatoire de Paris",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Paris",
+"lvl": 3
+}
+],
+"Paul Lincke": [
+{
+"t": "{Composer} is buried in Goslar",
+"lvl": 1
+},
+{
+"t": "{Composer} received the Goethe Medal for Art and Science",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Hahnenklee",
+"lvl": 1
+},
+{
+"t": "{Composer} was born in Berlin",
+"lvl": 3
+}
+],
+"Max Vogrich": [
+{
+"t": "{Composer} died in Grossman School of Medicine",
+"lvl": 1
+},
+{
+"t": "{Composer} studied at the University of Music and Theatre Leipzig",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Sibiu",
+"lvl": 3
+}
+],
+"Alfred Grünfeld": [
+{
+"t": "{Composer} is buried at Vienna Central Cemetery",
+"lvl": 1
+},
+{
+"t": "{Composer} received the Order of the Red Eagle 4th Class",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Vienna",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Theodor Kullak",
+"lvl": 2
+},
+{
+"t": "{Composer} studied at the Prague Conservatory",
+"lvl": 2
+},
+{
+"t": "{Composer} worked at the University of Music and Performing Arts Vienna",
+"lvl": 2
+},
+{
+"t": "{Composer} was a member of the Freemasonry",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Prague",
+"lvl": 3
+}
+],
+"Christian Sinding": [
+{
+"t": "{Composer} received the Knight Grand Cross of the Order of St. Olav",
+"lvl": 1
+},
+{
+"t": "{Composer} was married to Augusta Gade",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Oslo",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Salomon Jadassohn and Gudbrand Bøhn",
+"lvl": 2
+},
+{
+"t": "{Composer} studied at the University of Music and Theatre Leipzig",
+"lvl": 2
+},
+{
+"t": "{Composer} worked at the Eastman School of Music",
+"lvl": 2
+},
+{
+"t": "{Composer} is known for Symphonie no. 1 and Sange af den Arabiske fortælling Antar og Abla",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Kongsberg",
+"lvl": 3
+}
+],
+"Georges Bizet": [
+{
+"t": "{Composer} is buried at Père Lachaise Cemetery",
+"lvl": 1
+},
+{
+"t": "{Composer} received the Prix de Rome",
+"lvl": 1
+},
+{
+"t": "{Composer} was married to Geneviève Halévy",
+"lvl": 1
+},
+{
+"t": "{Composer} taught Paul Lacombe",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Bougival",
+"lvl": 1
+},
+{
+"t": "{Composer}'s mother was Aimée Léopoldine Joséphine Delsarte Anaya",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Fromental Halévy and Antoine-François Marmontel",
+"lvl": 2
+},
+{
+"t": "{Composer} studied at the Conservatoire de Paris",
+"lvl": 2
+},
+{
+"t": "{Composer} is known for The Pearl Fishers and Carmen",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Rue Louise-Émilie-de-La-Tour-d'Auvergne",
+"lvl": 3
+}
+],
+"Jean Sibelius": [
+{
+"t": "{Composer} received the Goethe Medal for Art and Science",
+"lvl": 1
+},
+{
+"t": "{Composer} taught Toivo Kuula and Leevi Madetoja",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Järvenpää",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Robert Fuchs and Karl Goldmark",
+"lvl": 2
+},
+{
+"t": "{Composer} studied at the University of Helsinki",
+"lvl": 2
+},
+{
+"t": "{Composer} worked at the University of Helsinki",
+"lvl": 2
+},
+{
+"t": "{Composer} was a member of the American Academy of Arts and Sciences",
+"lvl": 2
+},
+{
+"t": "{Composer} is known for Finlandia and Kullervo",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Hämeenlinna",
+"lvl": 3
+}
+],
+"Teresa Carreño": [
+{
+"t": "{Composer} is buried at National Pantheon",
+"lvl": 1
+},
+{
+"t": "{Composer} was married to Eugen d'Albert and Émile Sauret",
+"lvl": 1
+},
+{
+"t": "{Composer} died in New York City",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Louis Moreau Gottschalk",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Caracas",
+"lvl": 3
+}
+],
+"Joachim Raff": [
+{
+"t": "{Composer} is buried at Frankfurt Main Cemetery",
+"lvl": 1
+},
+{
+"t": "{Composer} taught August Wilhelmj and Anton Urspruch",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Frankfurt",
+"lvl": 1
+},
+{
+"t": "{Composer} worked at the Frankfurt University of Music and Performing Arts",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Lachen",
+"lvl": 3
+}
+],
+"Leo Fall": [
+{
+"t": "{Composer} is buried at New Jewish Cemetery",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Vienna",
+"lvl": 1
+},
+{
+"t": "{Composer} studied at the University of Music and Performing Arts Vienna",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Olomouc",
+"lvl": 3
+}
+],
+"Moritz Moszkowski": [
+{
+"t": "{Composer} taught Vlado Perlemuter and Kathleen Lockhart Manning",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Paris",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Eduard Franck and Friedrich Kiel",
+"lvl": 2
+},
+{
+"t": "{Composer} studied at the Berlin University of the Arts",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Wrocław",
+"lvl": 3
+}
+],
+"George Frideric Handel": [
+{
+"t": "{Composer} is buried in Poets' Corner",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Westminster",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Friedrich Wilhelm Zachow",
+"lvl": 2
+},
+{
+"t": "{Composer} studied at the Martin Luther University Halle-Wittenberg",
+"lvl": 2
+},
+{
+"t": "{Composer} is known for Messiah and Alcina",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Halle (Saale)",
+"lvl": 3
+}
+],
+"F. Halévy": [
+{
+"t": "{Composer} is buried at Montmartre Cemetery",
+"lvl": 1
+},
+{
+"t": "{Composer} received the Prix de Rome",
+"lvl": 1
+},
+{
+"t": "{Composer} taught Jacques Offenbach and Georges Bizet",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Nice",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Luigi Cherubini and Étienne Méhul",
+"lvl": 2
+},
+{
+"t": "{Composer} studied at the Conservatoire de Paris",
+"lvl": 2
+},
+{
+"t": "{Composer} worked at the Conservatoire de Paris",
+"lvl": 2
+},
+{
+"t": "{Composer} was a member of the Académie des beaux-arts",
+"lvl": 2
+},
+{
+"t": "{Composer} is known for La Juive and Clari",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in former 7th arrondissement of Paris",
+"lvl": 3
+}
+],
+"Lowell Mason": [
+{
+"t": "{Composer} is buried at Rosedale Cemetery",
+"lvl": 1
+},
+{
+"t": "{Composer} taught William Fiske Sherwin",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Orange",
+"lvl": 1
+},
+{
+"t": "{Composer} worked for Fifth Avenue Presbyterian Church",
+"lvl": 2
+},
+{
+"t": "{Composer} is known for Occasional Psalm and Hymn Tunes, Selected and Original and The Boston Handel and Haydn Society Collection of Church Music",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Medfield",
+"lvl": 3
+}
+],
+"Jacques Offenbach": [
+{
+"t": "{Composer} is buried at Montmartre Cemetery",
+"lvl": 1
+},
+{
+"t": "{Composer} received the Knight of the Legion of Honour",
+"lvl": 1
+},
+{
+"t": "{Composer} was married to Herminia de Alcain",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Paris",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Fromental Halévy and Louis-Pierre Norblin",
+"lvl": 2
+},
+{
+"t": "{Composer} studied at the Conservatoire de Paris",
+"lvl": 2
+},
+{
+"t": "{Composer} worked for Théâtre de l'Ambigu-Comique",
+"lvl": 2
+},
+{
+"t": "{Composer} is known for The Tales of Hoffmann and Orpheus in the Underworld",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Cologne",
+"lvl": 3
+}
+],
+"Carl Maria von Weber": [
+{
+"t": "{Composer} is buried at Alter Katholischer Friedhof",
+"lvl": 1
+},
+{
+"t": "{Composer} received the Honorary Member of the Royal Philharmonic Society",
+"lvl": 1
+},
+{
+"t": "{Composer} taught Julius Benedict and Caroline Ridderstolpe",
+"lvl": 1
+},
+{
+"t": "{Composer} died in London",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Michael Haydn and Georg Joseph Vogler",
+"lvl": 2
+},
+{
+"t": "{Composer} studied at the University of Music and Performing Arts Vienna",
+"lvl": 2
+},
+{
+"t": "{Composer} was a member of the Ludlamshöhle",
+"lvl": 2
+},
+{
+"t": "{Composer} is known for Der Freischütz and Oberon",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Eutin",
+"lvl": 3
+}
+],
+"Oscar Straus": [
+{
+"t": "{Composer} is buried at Bad Ischl Friedhof",
+"lvl": 1
+},
+{
+"t": "{Composer} received the Ring of Honour of the City of Vienna",
+"lvl": 1
+},
+{
+"t": "{Composer} was married to Nelly Irmen",
+"lvl": 1
+},
+{
+"t": "{Composer} was a member of the Schlaraffia",
+"lvl": 2
+},
+{
+"t": "{Composer} is known for Ein Walzertraum",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Vienna",
+"lvl": 3
+}
+],
+"Louis Moreau Gottschalk": [
+{
+"t": "{Composer} is buried at Green-Wood Cemetery",
+"lvl": 1
+},
+{
+"t": "{Composer} taught Teresa Carreño and Eloísa D’Herbil",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Rio de Janeiro",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Charles Hallé and Camille-Marie Stamaty",
+"lvl": 2
+},
+{
+"t": "{Composer} is known for The Banjo and Holy Ghost! with Light Divine",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in New Orleans",
+"lvl": 3
+}
+],
+"Sergei Rachmaninoff": [
+{
+"t": "{Composer} is buried at Kensico Cemetery",
+"lvl": 1
+},
+{
+"t": "{Composer} received the Royal Philharmonic Society Gold Medal",
+"lvl": 1
+},
+{
+"t": "{Composer} was married to Natalya Satina",
+"lvl": 1
+},
+{
+"t": "{Composer} taught Gina Bachauer and Ruth Slenczynska",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Beverly Hills",
+"lvl": 1
+},
+{
+"t": "{Composer}'s mother was Lyubov Petrovna Butakova",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Anton Arensky and Alexander Siloti",
+"lvl": 2
+},
+{
+"t": "{Composer} studied at the Saint Petersburg Conservatory",
+"lvl": 2
+},
+{
+"t": "{Composer} worked at the Moscow school number 19",
+"lvl": 2
+},
+{
+"t": "{Composer} is known for All-Night Vigil and Prelude in C-sharp minor",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Semenovo",
+"lvl": 3
+}
+],
+"Johann Strauss": [
+{
+"t": "{Composer} is buried at Vienna Central Cemetery",
+"lvl": 1
+},
+{
+"t": "{Composer} received the Order of the Red Eagle",
+"lvl": 1
+},
+{
+"t": "{Composer} was married to Henrietta Treffz",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Vienna",
+"lvl": 1
+},
+{
+"t": "{Composer}'s mother was Maria Anna Streim",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Joseph Drechsler and Franz Amon",
+"lvl": 2
+},
+{
+"t": "{Composer} is known for The Gypsy Baron and Die Fledermaus",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Sankt Ulrich",
+"lvl": 3
+}
+],
+"Abe Holzmann": [
+{
+"t": "{Composer} died in East Orange",
+"lvl": 1
+},
+{
+"t": "{Composer} was born in New York City",
+"lvl": 3
+}
+],
+"Rudolf Friml": [
+{
+"t": "{Composer} is buried in Forest Lawn Memorial Park",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Hollywood",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Antonín Dvořák",
+"lvl": 2
+},
+{
+"t": "{Composer} studied at the Prague Conservatory",
+"lvl": 2
+},
+{
+"t": "{Composer} worked at the Prague Conservatory",
+"lvl": 2
+},
+{
+"t": "{Composer} is known for Rose-Marie and The Firefly",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Prague",
+"lvl": 3
+}
+],
+"Charles-Valentin Alkan": [
+{
+"t": "{Composer} is buried at Montmartre Cemetery",
+"lvl": 1
+},
+{
+"t": "{Composer} taught Franz Stockhausen",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Paris",
+"lvl": 1
+},
+{
+"t": "{Composer} studied at the Conservatoire de Paris",
+"lvl": 2
+},
+{
+"t": "{Composer} is known for Grande sonate 'Les quatre âges' and Le chemin de fer, Op. 27",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Paris",
+"lvl": 3
+}
+],
+"Ede Poldini": [
+{
+"t": "{Composer} died in Vevey",
+"lvl": 1
+},
+{
+"t": "{Composer} studied at the University of Music and Performing Arts Vienna",
+"lvl": 2
+},
+{
+"t": "{Composer} is known for Love Adrift and Polka",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Pest",
+"lvl": 3
+}
+],
+"William Henry Monk": [
+{
+"t": "{Composer} is buried at Highgate Cemetery",
+"lvl": 1
+},
+{
+"t": "{Composer} died in London",
+"lvl": 1
+},
+{
+"t": "{Composer} worked at the King's College London",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in London",
+"lvl": 3
+}
+],
+"Giuseppe Verdi": [
+{
+"t": "{Composer} is buried in Casa di Riposo per Musicisti",
+"lvl": 1
+},
+{
+"t": "{Composer} received the Order of Saint Stanislaus",
+"lvl": 1
+},
+{
+"t": "{Composer} was married to Giuseppina Strepponi and Margherita Barezzi",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Milan",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Vincenzo Lavigna and Ferdinando Provesi",
+"lvl": 2
+},
+{
+"t": "{Composer} was a member of the Académie des beaux-arts",
+"lvl": 2
+},
+{
+"t": "{Composer} is known for Aida and Rigoletto",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Le Roncole",
+"lvl": 3
+}
+],
+"Percy Grainger": [
+{
+"t": "{Composer} is buried at West Terrace Cemetery",
+"lvl": 1
+},
+{
+"t": "{Composer} received the St. Olav's Medal",
+"lvl": 1
+},
+{
+"t": "{Composer} taught Netty Simons and Mary Barratt Due",
+"lvl": 1
+},
+{
+"t": "{Composer} died in White Plains",
+"lvl": 1
+},
+{
+"t": "{Composer}'s mother was Rose Annie Aldridge",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with James Kwast and Louis Pabst",
+"lvl": 2
+},
+{
+"t": "{Composer} studied at the Hoch Conservatory",
+"lvl": 2
+},
+{
+"t": "{Composer} worked at the New York University",
+"lvl": 2
+},
+{
+"t": "{Composer} was a member of the American Academy of Arts and Letters",
+"lvl": 2
+},
+{
+"t": "{Composer} is known for County Derry Air and Afterword",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Brighton",
+"lvl": 3
+}
+],
+"Eduard Schütt": [
+{
+"t": "{Composer} died in Obermais",
+"lvl": 1
+},
+{
+"t": "{Composer} studied at the Saint Petersburg Conservatory",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Saint Petersburg",
+"lvl": 3
+}
+],
+"Franz Lehár": [
+{
+"t": "{Composer} is buried at Bad Ischl Friedhof",
+"lvl": 1
+},
+{
+"t": "{Composer} received the Corvin Wreath",
+"lvl": 1
+},
+{
+"t": "{Composer} taught María Grever",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Antonín Dvořák and Antonín Bennewitz",
+"lvl": 2
+},
+{
+"t": "{Composer} studied at the Prague Conservatory",
+"lvl": 2
+},
+{
+"t": "{Composer} is known for The Land of Smiles and The Merry Widow",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Komárom",
+"lvl": 3
+}
+],
+"Charles Borel-Clerc": [
+{
+"t": "{Composer} is buried at cemetery of Terre Cabade",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Cannes",
+"lvl": 1
+},
+{
+"t": "{Composer} studied at the Conservatoire de Paris",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Nay",
+"lvl": 3
+}
+],
+"Berthe Marx-Goldschmidt": [
+{
+"t": "{Composer} died in Biarritz",
+"lvl": 1
+},
+{
+"t": "{Composer}'s father was Elias Isaac",
+"lvl": 1
+},
+{
+"t": "{Composer}'s mother was Mathilde Singer",
+"lvl": 1
+},
+{
+"t": "{Composer} studied at the Conservatoire National Supérieur de Musique et de Danse",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Paris",
+"lvl": 3
+}
+],
+"Vladimir de Pachmann": [
+{
+"t": "{Composer} is buried in Campo Verano",
+"lvl": 1
+},
+{
+"t": "{Composer} received the Knight of the Order of the Dannebrog",
+"lvl": 1
+},
+{
+"t": "{Composer} was married to Marguerite Okey",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Rome",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Anton Bruckner and Josef Dachs",
+"lvl": 2
+},
+{
+"t": "{Composer} studied at the Odesa University",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Odesa",
+"lvl": 3
+}
+],
+"Edward German": [
+{
+"t": "{Composer} received the Knight Bachelor",
+"lvl": 1
+},
+{
+"t": "{Composer} died in London",
+"lvl": 1
+},
+{
+"t": "{Composer} studied at the Royal Academy of Music",
+"lvl": 2
+},
+{
+"t": "{Composer} worked at the Royal Academy of Music",
+"lvl": 2
+},
+{
+"t": "{Composer} is known for Symfonische suite and Richard III Ouverture",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Whitchurch",
+"lvl": 3
+}
+],
+"Richard Fall": [
+{
+"t": "{Composer} is buried in Auschwitz",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Auschwitz",
+"lvl": 1
+},
+{
+"t": "{Composer} was born in Jevíčko",
+"lvl": 3
+}
+],
+"Erik Meyer-Helmund": [
+{
+"t": "{Composer} died in Berlin",
+"lvl": 1
+},
+{
+"t": "{Composer} was born in Saint Petersburg",
+"lvl": 3
+}
+],
+"Jean Gilbert": [
+{
+"t": "{Composer} died in Buenos Aires",
+"lvl": 1
+},
+{
+"t": "{Composer} is known for Die keusche Susanne",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Hamburg",
+"lvl": 3
+}
+],
+"James A. Bland": [
+{
+"t": "{Composer} is buried in Merion Memorial Park",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Philadelphia",
+"lvl": 1
+},
+{
+"t": "{Composer} studied at the Howard University",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Flushing",
+"lvl": 3
+}
+],
+"Adolphe Adam": [
+{
+"t": "{Composer} is buried at Montmartre Cemetery",
+"lvl": 1
+},
+{
+"t": "{Composer} received the Prix de Rome",
+"lvl": 1
+},
+{
+"t": "{Composer} was married to Chérie-Louise Couraud",
+"lvl": 1
+},
+{
+"t": "{Composer} taught Léo Delibes and Ferdinand Poise",
+"lvl": 1
+},
+{
+"t": "{Composer} died in former 2nd arrondissement of Paris",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with François Adrien Boieldieu and François Benoist",
+"lvl": 2
+},
+{
+"t": "{Composer} studied at the Conservatoire de Paris",
+"lvl": 2
+},
+{
+"t": "{Composer} worked at the Conservatoire de Paris",
+"lvl": 2
+},
+{
+"t": "{Composer} was a member of the Académie des beaux-arts",
+"lvl": 2
+},
+{
+"t": "{Composer} is known for O Holy Night and Le postillon de Lonjumeau",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in former 3rd arrondissement of Paris",
+"lvl": 3
+}
+],
+"Paul de Schlözer": [
+{
+"t": "{Composer} taught Leonid Sabaneyev",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Bad Nauheim",
+"lvl": 1
+},
+{
+"t": "{Composer} worked at the Moscow Conservatory",
+"lvl": 2
+}
+],
+"Theodor Leschetizky": [
+{
+"t": "{Composer} is buried at Vienna Central Cemetery",
+"lvl": 1
+},
+{
+"t": "{Composer} was married to Anna Yesipova",
+"lvl": 1
+},
+{
+"t": "{Composer} taught Elly Ney and Irene Abendroth",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Dresden",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Carl Czerny and Simon Sechter",
+"lvl": 2
+},
+{
+"t": "{Composer} studied at the University of Music and Performing Arts Vienna",
+"lvl": 2
+},
+{
+"t": "{Composer} worked at the Saint Petersburg Conservatory",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Łańcut",
+"lvl": 3
+}
+],
+"Eugen d'Albert": [
+{
+"t": "{Composer} is buried at Monument Cemetery",
+"lvl": 1
+},
+{
+"t": "{Composer} was married to Teresa Carreño and Ida Fulda",
+"lvl": 1
+},
+{
+"t": "{Composer} taught Wilhelm Backhaus",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Riga",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Franz Liszt",
+"lvl": 2
+},
+{
+"t": "{Composer} studied at the Royal College of Music",
+"lvl": 2
+},
+{
+"t": "{Composer} worked at the Berlin University of the Arts",
+"lvl": 2
+},
+{
+"t": "{Composer} is known for Die Abreise and Die toten Augen",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Glasgow",
+"lvl": 3
+}
+],
+"Cyril Scott": [
+{
+"t": "{Composer} was married to R. Allatini",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Eastbourne",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Iwan Knorr",
+"lvl": 2
+},
+{
+"t": "{Composer} studied at the Hoch Conservatory",
+"lvl": 2
+},
+{
+"t": "{Composer} is known for Symphonie n°1",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Oxton",
+"lvl": 3
+}
+],
+"Sigismond Thalberg": [
+{
+"t": "{Composer} is buried at Cemetery of Poggioreale",
+"lvl": 1
+},
+{
+"t": "{Composer} received the Order of the Dannebrog",
+"lvl": 1
+},
+{
+"t": "{Composer} was married to Francesca Lablache",
+"lvl": 1
+},
+{
+"t": "{Composer} taught Fanny Arthur Robinson and Richard Hoffman",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Pausilippe",
+"lvl": 1
+},
+{
+"t": "{Composer}'s father was Franz Joseph von Dietrichstein",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Ignaz Moscheles",
+"lvl": 2
+},
+{
+"t": "{Composer} studied at the Frankfurt University of Music and Performing Arts",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Geneva",
+"lvl": 3
+}
+],
+"Pietro Mascagni": [
+{
+"t": "{Composer} is buried at Cimitero della Misericordia",
+"lvl": 1
+},
+{
+"t": "{Composer} received the Knight grand cross of the order of the crown of Italy",
+"lvl": 1
+},
+{
+"t": "{Composer} taught Riccardo Zandonai and Josip Hatze",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Rome",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Amilcare Ponchielli and Michele Saladino",
+"lvl": 2
+},
+{
+"t": "{Composer} studied at the Milan Conservatory",
+"lvl": 2
+},
+{
+"t": "{Composer} was a member of the Royal Academy of Italy",
+"lvl": 2
+},
+{
+"t": "{Composer} is known for Cavalleria rusticana and Iris",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Livorno",
+"lvl": 3
+}
+],
+"Gustav Mahler": [
+{
+"t": "{Composer} is buried at Grinzing Cemetery",
+"lvl": 1
+},
+{
+"t": "{Composer} taught Anna von Mildenburg and Klaus Pringsheim",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Vienna",
+"lvl": 1
+},
+{
+"t": "{Composer}'s mother was Marie Herrmann",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Robert Fuchs and Julius Epstein",
+"lvl": 2
+},
+{
+"t": "{Composer} studied at the University of Vienna",
+"lvl": 2
+},
+{
+"t": "{Composer} was a member of the Schlaraffia",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Kaliště",
+"lvl": 3
+}
+],
+"Carl Czerny": [
+{
+"t": "{Composer} is buried at Vienna Central Cemetery",
+"lvl": 1
+},
+{
+"t": "{Composer} taught Franz Liszt and Anton Door",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Vienna",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Ludwig van Beethoven and Antonio Salieri",
+"lvl": 2
+},
+{
+"t": "{Composer} studied at the University of Music and Performing Arts Vienna",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Vienna",
+"lvl": 3
+}
+],
+"Enrico Toselli": [
+{
+"t": "{Composer} was married to Archduchess Louise of Austria",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Florence",
+"lvl": 1
+},
+{
+"t": "{Composer} was born in Florence",
+"lvl": 3
+}
+],
+"Walter Blaufuss": [
+{
+"t": "{Composer} died in Chicago",
+"lvl": 1
+},
+{
+"t": "{Composer} was born in Milwaukee",
+"lvl": 3
+}
+],
+"Fritz Kreisler": [
+{
+"t": "{Composer} is buried at Woodlawn Cemetery",
+"lvl": 1
+},
+{
+"t": "{Composer} received the Ring of Honour of the City of Vienna",
+"lvl": 1
+},
+{
+"t": "{Composer} died in NewYork–Presbyterian Hospital",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Anton Bruckner and Léo Delibes",
+"lvl": 2
+},
+{
+"t": "{Composer} studied at the University of Music and Performing Arts Vienna",
+"lvl": 2
+},
+{
+"t": "{Composer} is known for Alt-Wiener Tanzweisen and Liebesleid",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Vienna",
+"lvl": 3
+}
+],
+"Antonín Dvořák": [
+{
+"t": "{Composer} is buried at Vyšehrad cemetery",
+"lvl": 1
+},
+{
+"t": "{Composer} received the Order of the Iron Crown (Kingdom of Italy)",
+"lvl": 1
+},
+{
+"t": "{Composer} was married to Anna Čermáková",
+"lvl": 1
+},
+{
+"t": "{Composer} taught Rudolf Friml and Franz Lehár",
+"lvl": 1
+},
+{
+"t": "{Composer} died in New Town",
+"lvl": 1
+},
+{
+"t": "{Composer}'s mother was Anna Dvořáková",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Josef Leopold Zvonař",
+"lvl": 2
+},
+{
+"t": "{Composer} studied at the Prague Organ School",
+"lvl": 2
+},
+{
+"t": "{Composer} worked at the Prague Conservatory",
+"lvl": 2
+},
+{
+"t": "{Composer} was a member of the Serbian Academy of Sciences and Arts",
+"lvl": 2
+},
+{
+"t": "{Composer} is known for Rusalka and Cello Concerto",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Nelahozeves",
+"lvl": 3
+}
+],
+"Ferruccio Busoni": [
+{
+"t": "{Composer} is buried at III. Städtischer Friedhof Stubenrauchstraße",
+"lvl": 1
+},
+{
+"t": "{Composer} received the Honorary Member of the International Society for Contemporary Music",
+"lvl": 1
+},
+{
+"t": "{Composer} taught Eduard Steuermann and Natalie Curtis",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Berlin",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Wilhelm Mayer",
+"lvl": 2
+},
+{
+"t": "{Composer} studied at the University of Music and Theatre Leipzig",
+"lvl": 2
+},
+{
+"t": "{Composer} worked at the University of Music and Performing Arts Vienna",
+"lvl": 2
+},
+{
+"t": "{Composer} was a member of the Prussian Academy of Arts",
+"lvl": 2
+},
+{
+"t": "{Composer} is known for Turandot",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Empoli",
+"lvl": 3
+}
+],
+"Ossip Gabrilowitsch": [
+{
+"t": "{Composer} is buried at Woodlawn Cemetery",
+"lvl": 1
+},
+{
+"t": "{Composer} was married to Clara Clemens",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Detroit",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Anton Rubinstein and Theodor Leschetizky",
+"lvl": 2
+},
+{
+"t": "{Composer} studied at the Saint Petersburg Conservatory",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Saint Petersburg",
+"lvl": 3
+}
+],
+"Gabriel Pierné": [
+{
+"t": "{Composer} is buried at Père Lachaise Cemetery",
+"lvl": 1
+},
+{
+"t": "{Composer} received the Prix de Rome",
+"lvl": 1
+},
+{
+"t": "{Composer} taught Rena Kyriakou",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Ploujean",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with César Franck and Jules Massenet",
+"lvl": 2
+},
+{
+"t": "{Composer} studied at the Conservatoire de Paris",
+"lvl": 2
+},
+{
+"t": "{Composer} was a member of the Académie des beaux-arts",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Metz",
+"lvl": 3
+}
+],
+"Richard Strauss": [
+{
+"t": "{Composer} is buried at Friedhof Garmisch",
+"lvl": 1
+},
+{
+"t": "{Composer} received the Order of the Dannebrog",
+"lvl": 1
+},
+{
+"t": "{Composer} was married to Pauline de Ahna",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Garmisch-Partenkirchen",
+"lvl": 1
+},
+{
+"t": "{Composer} was a member of the Bavarian Academy of Fine Arts",
+"lvl": 2
+},
+{
+"t": "{Composer} is known for Also sprach Zarathustra and Der Rosenkavalier",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Munich",
+"lvl": 3
+}
+],
+"Lao Silésu": [
+{
+"t": "{Composer} died in Paris",
+"lvl": 1
+},
+{
+"t": "{Composer} was born in Samassi",
+"lvl": 3
+}
+],
+"Friedrich von Flotow": [
+{
+"t": "{Composer} is buried in Darmstadt",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Darmstadt",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Anton Reicha and Johann Peter Pixis",
+"lvl": 2
+},
+{
+"t": "{Composer} studied at the Conservatoire de Paris",
+"lvl": 2
+},
+{
+"t": "{Composer} worked at the Mecklenburg State Theatre",
+"lvl": 2
+},
+{
+"t": "{Composer} is known for Martha",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Teutendorf",
+"lvl": 3
+}
+],
+"Reginald De Koven": [
+{
+"t": "{Composer} is buried at Woodlawn Cemetery",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Chicago",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Wilhelm Speidel",
+"lvl": 2
+},
+{
+"t": "{Composer} studied at the University of Oxford",
+"lvl": 2
+},
+{
+"t": "{Composer} was a member of the American Academy of Arts and Letters",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Middletown",
+"lvl": 3
+}
+],
+"Jean Baptiste Lully": [
+{
+"t": "{Composer} is buried in Notre-Dame-des-Victoires",
+"lvl": 1
+},
+{
+"t": "{Composer} was married to Madeleine Lambert",
+"lvl": 1
+},
+{
+"t": "{Composer} taught Georg Muffat and Marin Marais",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Paris",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with François Roberday and Nicolas Métru",
+"lvl": 2
+},
+{
+"t": "{Composer} is known for Le Bourgeois gentilhomme and Bellérophon",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Florence",
+"lvl": 3
+}
+],
+"Gaetano Donizetti": [
+{
+"t": "{Composer} is buried in Santa Maria Maggiore",
+"lvl": 1
+},
+{
+"t": "{Composer} received the Order of the Golden Spur",
+"lvl": 1
+},
+{
+"t": "{Composer} was married to Virginia Vasselli",
+"lvl": 1
+},
+{
+"t": "{Composer} taught Michele Puccini",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Bergamo",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Johann Simon Mayr and Stanislao Mattei",
+"lvl": 2
+},
+{
+"t": "{Composer} studied at the Conservatorio Giovanni Battista Martini",
+"lvl": 2
+},
+{
+"t": "{Composer} is known for Lucia di Lammermoor and L'elisir d'amore",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Bergamo",
+"lvl": 3
+}
+],
+"James L. Molloy": [
+{
+"t": "{Composer} died in Henley-on-Thames",
+"lvl": 1
+},
+{
+"t": "{Composer} studied at the St. Edmund's College, Ware",
+"lvl": 2
+}
+],
+"Ethelbert Woodbridge Nevin": [
+{
+"t": "{Composer} is buried at Sewickley Cemetery",
+"lvl": 1
+},
+{
+"t": "{Composer} died in New Haven",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Karl Klindworth",
+"lvl": 2
+},
+{
+"t": "{Composer} studied at the University of Pittsburgh",
+"lvl": 2
+},
+{
+"t": "{Composer} was a member of the American Academy of Arts and Letters",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Edgeworth",
+"lvl": 3
+}
+],
+"Carl Zeller": [
+{
+"t": "{Composer} is buried at Vienna Central Cemetery",
+"lvl": 1
+},
+{
+"t": "{Composer} received the Ehrengrab",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Weikersdorf",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Felix Otto Dessoff and Simon Sechter",
+"lvl": 2
+},
+{
+"t": "{Composer} studied at the University of Vienna",
+"lvl": 2
+},
+{
+"t": "{Composer} worked for K.k. Ministerium für Kultus und Unterricht",
+"lvl": 2
+},
+{
+"t": "{Composer} was a member of the Wiener Hofmusikkapelle",
+"lvl": 2
+},
+{
+"t": "{Composer} is known for Der Obersteiger and Der Vogelhändler",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Sankt Peter in der Au",
+"lvl": 3
+}
+],
+"Michael William Balfe": [
+{
+"t": "{Composer} is buried at Kensal Green Cemetery",
+"lvl": 1
+},
+{
+"t": "{Composer} received the Knight of the Legion of Honour",
+"lvl": 1
+},
+{
+"t": "{Composer} was married to Magdalena Roser",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Rowney Abbey",
+"lvl": 1
+},
+{
+"t": "{Composer} was born in Dublin",
+"lvl": 3
+}
+],
+"Friedrich Silcher": [
+{
+"t": "{Composer} died in Tübingen",
+"lvl": 1
+},
+{
+"t": "{Composer}'s mother was Hedwig Heinrike Sprecher",
+"lvl": 1
+},
+{
+"t": "{Composer} worked at the University of Tübingen",
+"lvl": 2
+},
+{
+"t": "{Composer} is known for Alle Jahre wieder",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Schnait",
+"lvl": 3
+}
+],
+"William Vincent Wallace": [
+{
+"t": "{Composer} is buried at Kensal Green Cemetery",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Vieuzos",
+"lvl": 1
+},
+{
+"t": "{Composer} was born in Waterford",
+"lvl": 3
+}
+],
+"Carl Michael Ziehrer": [
+{
+"t": "{Composer} is buried at Vienna Central Cemetery",
+"lvl": 1
+},
+{
+"t": "{Composer} was married to Marianne Edelmann",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Vienna",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Simon Sechter and Johann Emmerich Hasel",
+"lvl": 2
+},
+{
+"t": "{Composer} studied at the University of Music and Performing Arts Vienna",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Vienna",
+"lvl": 3
+}
+],
+"Victor Herbert": [
+{
+"t": "{Composer} is buried at Woodlawn Cemetery",
+"lvl": 1
+},
+{
+"t": "{Composer} was married to Therese Förster",
+"lvl": 1
+},
+{
+"t": "{Composer} died in New York City",
+"lvl": 1
+},
+{
+"t": "{Composer} studied at the State University of Music and Performing Arts Stuttgart",
+"lvl": 2
+},
+{
+"t": "{Composer} was a member of the American Academy of Arts and Letters",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Dublin",
+"lvl": 3
+}
+],
+"Hugo Wolf": [
+{
+"t": "{Composer} is buried at Vienna Central Cemetery",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Vienna",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Robert Fuchs",
+"lvl": 2
+},
+{
+"t": "{Composer} studied at the University of Music and Performing Arts Vienna",
+"lvl": 2
+},
+{
+"t": "{Composer} is known for Italienisches Liederbuch",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Slovenj Gradec",
+"lvl": 3
+}
+],
+"Gabriel-Marie": [
+{
+"t": "{Composer} died in Puigcerdà",
+"lvl": 1
+},
+{
+"t": "{Composer} studied at the Conservatoire de Paris",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Paris",
+"lvl": 3
+}
+],
+"Gustave Michiels": [
+{
+"t": "{Composer} died in Brussels",
+"lvl": 1
+},
+{
+"t": "{Composer} was born in Ixelles",
+"lvl": 3
+}
+],
+"Silvio Hein": [
+{
+"t": "{Composer} died in New York City",
+"lvl": 1
+},
+{
+"t": "{Composer} was born in New York City",
+"lvl": 3
+}
+],
+"Adolf Philipp": [
+{
+"t": "{Composer} died in New York City",
+"lvl": 1
+},
+{
+"t": "{Composer} was born in Hamburg",
+"lvl": 3
+}
+],
+"Francis Thomé": [
+{
+"t": "{Composer} is buried at Montmartre Cemetery",
+"lvl": 1
+},
+{
+"t": "{Composer} received the Knight of the Legion of Honour",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Paris",
+"lvl": 1
+},
+{
+"t": "{Composer} studied at the Conservatoire de Paris",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Port Louis",
+"lvl": 3
+}
+],
+"Daniel van Goens": [
+{
+"t": "{Composer} died in Paris",
+"lvl": 1
+},
+{
+"t": "{Composer} was born in Leiden",
+"lvl": 3
+}
+],
+"René de Boisdeffre": [
+{
+"t": "{Composer} received the Knight of the Legion of Honour",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Vézelise",
+"lvl": 1
+},
+{
+"t": "{Composer} was born in Vesoul",
+"lvl": 3
+}
+],
+"Thomas Augustine Arne": [
+{
+"t": "{Composer} is buried at St Paul's Church, Covent Garden",
+"lvl": 1
+},
+{
+"t": "{Composer} was married to Cecilia Young",
+"lvl": 1
+},
+{
+"t": "{Composer} taught John Fawcett and Margaret Kennedy",
+"lvl": 1
+},
+{
+"t": "{Composer} died in London",
+"lvl": 1
+},
+{
+"t": "{Composer} studied at the Eton College",
+"lvl": 2
+},
+{
+"t": "{Composer} is known for Comus",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in London",
+"lvl": 3
+}
+],
+"Thomas Morley": [
+{
+"t": "{Composer} died in London",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with William Byrd",
+"lvl": 2
+},
+{
+"t": "{Composer} studied at the University of Oxford",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Norwich",
+"lvl": 3
+}
+],
+"Joseph Haydn": [
+{
+"t": "{Composer} is buried at Bergkirche",
+"lvl": 1
+},
+{
+"t": "{Composer} received the honorary citizen of Vienna",
+"lvl": 1
+},
+{
+"t": "{Composer} taught Ludwig van Beethoven and Pavel Vranický",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Vienna",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Nicola Porpora",
+"lvl": 2
+},
+{
+"t": "{Composer} was a member of the Académie des beaux-arts",
+"lvl": 2
+},
+{
+"t": "{Composer} is known for Deutschlandlied",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Rohrau",
+"lvl": 3
+}
+],
+"Giacomo Carissimi": [
+{
+"t": "{Composer} taught Marc-Antoine Charpentier and Alessandro Scarlatti",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Rome",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Francesco Manelli and Alessandro Capece",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Marino",
+"lvl": 3
+}
+],
+"Antonio Caldara": [
+{
+"t": "{Composer} taught Georg Reutter II",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Vienna",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Giovanni Legrenzi",
+"lvl": 2
+},
+{
+"t": "{Composer} worked for Holy Roman Empire",
+"lvl": 2
+},
+{
+"t": "{Composer} is known for L'Olimpiade",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Venice",
+"lvl": 3
+}
+],
+"Claudio Monteverdi": [
+{
+"t": "{Composer} is buried in Santa Maria Gloriosa dei Frari",
+"lvl": 1
+},
+{
+"t": "{Composer} was married to Claudia Cattaneo",
+"lvl": 1
+},
+{
+"t": "{Composer} taught Giovanni Rovetta",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Venice",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Marc'Antonio Ingegneri",
+"lvl": 2
+},
+{
+"t": "{Composer} is known for L'incoronazione di Poppea and L'Orfeo",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Cremona",
+"lvl": 3
+}
+],
+"Adam de La Halle": [
+{
+"t": "{Composer} died in Naples",
+"lvl": 1
+},
+{
+"t": "{Composer} is known for Jeu de Robin et Marion and Jeu de la feuillee",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Arras",
+"lvl": 3
+}
+],
+"Ambroise Thomas": [
+{
+"t": "{Composer} is buried at Montmartre Cemetery",
+"lvl": 1
+},
+{
+"t": "{Composer} received the Prix de Rome",
+"lvl": 1
+},
+{
+"t": "{Composer} taught Jules Massenet and Théodore Dubois",
+"lvl": 1
+},
+{
+"t": "{Composer} died in rue du Conservatoire",
+"lvl": 1
+},
+{
+"t": "{Composer}'s mother was Jeanne Marie Williaume",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Friedrich Kalkbrenner and Jean-François Le Sueur",
+"lvl": 2
+},
+{
+"t": "{Composer} studied at the Conservatoire de Paris",
+"lvl": 2
+},
+{
+"t": "{Composer} worked at the Conservatoire de Paris",
+"lvl": 2
+},
+{
+"t": "{Composer} was a member of the Académie de Stanislas (Nancy, France)",
+"lvl": 2
+},
+{
+"t": "{Composer} is known for Hamlet and Mignon",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Metz",
+"lvl": 3
+}
+],
+"Béla Zerkovitz": [
+{
+"t": "{Composer} is buried in Fiume Road Graveyard",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Budapest District VIII",
+"lvl": 1
+},
+{
+"t": "{Composer} was born in Szeged",
+"lvl": 3
+}
+],
+"Julius Benedict": [
+{
+"t": "{Composer} is buried at Kensal Green Cemetery",
+"lvl": 1
+},
+{
+"t": "{Composer} received the Knight Bachelor",
+"lvl": 1
+},
+{
+"t": "{Composer} was married to Mary Paramore Comber",
+"lvl": 1
+},
+{
+"t": "{Composer} taught Theodor Döhler and Mary Paramore Comber",
+"lvl": 1
+},
+{
+"t": "{Composer} died in London",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Johann Nepomuk Hummel and Carl Maria von Weber",
+"lvl": 2
+},
+{
+"t": "{Composer} was a member of the Ludlamshöhle",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Stuttgart",
+"lvl": 3
+}
+],
+"Herman Finck": [
+{
+"t": "{Composer} was born in London",
+"lvl": 3
+}
+],
+"Antonín Dvořák": [
+{
+"t": "{Composer} is buried at Vyšehrad cemetery",
+"lvl": 1
+},
+{
+"t": "{Composer} received the Order of the Iron Crown (Kingdom of Italy)",
+"lvl": 1
+},
+{
+"t": "{Composer} was married to Anna Čermáková",
+"lvl": 1
+},
+{
+"t": "{Composer} taught Rudolf Friml and Franz Lehár",
+"lvl": 1
+},
+{
+"t": "{Composer} died in New Town",
+"lvl": 1
+},
+{
+"t": "{Composer}'s mother was Anna Dvořáková",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Josef Leopold Zvonař",
+"lvl": 2
+},
+{
+"t": "{Composer} studied at the Prague Organ School",
+"lvl": 2
+},
+{
+"t": "{Composer} worked at the Prague Conservatory",
+"lvl": 2
+},
+{
+"t": "{Composer} was a member of the Serbian Academy of Sciences and Arts",
+"lvl": 2
+},
+{
+"t": "{Composer} is known for Rusalka and Cello Concerto",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Nelahozeves",
+"lvl": 3
+}
+],
+"Victor Staub": [
+{
+"t": "{Composer} died in Paris",
+"lvl": 1
+},
+{
+"t": "{Composer} was born in Lima",
+"lvl": 3
+}
+],
+"Heinrich Berté": [
+{
+"t": "{Composer} is buried at Vienna Central Cemetery",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Perchtoldsdorf",
+"lvl": 1
+},
+{
+"t": "{Composer} was born in Hlohovec",
+"lvl": 3
+}
+],
+"Cornelius Gurlitt": [
+{
+"t": "{Composer} is buried at Friedhof Norderreihe Altona",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Altona",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Christoph Ernst Friedrich Weyse and Rudolf Reinecke",
+"lvl": 2
+},
+{
+"t": "{Composer} studied at the University of Music and Theatre Leipzig",
+"lvl": 2
+},
+{
+"t": "{Composer} worked for Hamburger Konservatorium",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Altona",
+"lvl": 3
+}
+],
+"Theodor Kullak": [
+{
+"t": "{Composer} taught Agathe Backer Grøndahl and Nikolai Rubinstein",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Berlin",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Siegfried Wilhelm Dehn and Wilhelm Taubert",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Krotoszyn",
+"lvl": 3
+}
+],
+"Friedrich Burgmüller": [
+{
+"t": "{Composer} died in Fontainebleau",
+"lvl": 1
+},
+{
+"t": "{Composer} is known for 25 Études faciles et progressives",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Regensburg",
+"lvl": 3
+}
+],
+"Reynaldo Hahn": [
+{
+"t": "{Composer} is buried at Père Lachaise Cemetery",
+"lvl": 1
+},
+{
+"t": "{Composer} received the Commander of the Legion of Honour",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Paris",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Albert Lavignac",
+"lvl": 2
+},
+{
+"t": "{Composer} studied at the Conservatoire de Paris",
+"lvl": 2
+},
+{
+"t": "{Composer} was a member of the Académie des beaux-arts",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Caracas",
+"lvl": 3
+}
+],
+"Alphons Czibulka": [
+{
+"t": "{Composer} is buried at Vienna Central Cemetery",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Vienna",
+"lvl": 1
+},
+{
+"t": "{Composer} was born in Spišské Podhradie",
+"lvl": 3
+}
+],
+"Juventino Rosas": [
+{
+"t": "{Composer} is buried in Rotonda de las Personas Ilustres",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Cuba",
+"lvl": 1
+},
+{
+"t": "{Composer} is known for Sobre las Olas",
+"lvl": 2
+}
+],
+"Theodore Moses Tobani": [
+{
+"t": "{Composer} is buried at Saint Michael's Cemetery",
+"lvl": 1
+},
+{
+"t": "{Composer} died in New York City",
+"lvl": 1
+},
+{
+"t": "{Composer} is known for Hearts and Flowers",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Hamburg",
+"lvl": 3
+}
+],
+"Pietro Romani": [
+{
+"t": "{Composer} died in Florence",
+"lvl": 1
+},
+{
+"t": "{Composer} was born in Rome",
+"lvl": 3
+}
+],
+"Béla Kéler": [
+{
+"t": "{Composer} died in Wiesbaden",
+"lvl": 1
+},
+{
+"t": "{Composer} studied at the Ján Francisci-Rimavský Gymnasium",
+"lvl": 2
+},
+{
+"t": "{Composer} was a member of the Theater an der Wien",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Bardejov",
+"lvl": 3
+}
+],
+"Amilcare Ponchielli": [
+{
+"t": "{Composer} is buried at monumental cemetery of Milan",
+"lvl": 1
+},
+{
+"t": "{Composer} was married to Teresina Brambilla",
+"lvl": 1
+},
+{
+"t": "{Composer} taught Giacomo Puccini and Pietro Mascagni",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Milan",
+"lvl": 1
+},
+{
+"t": "{Composer}'s mother was Caterina Mora",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Alberto Mazzucato",
+"lvl": 2
+},
+{
+"t": "{Composer} studied at the Milan Conservatory",
+"lvl": 2
+},
+{
+"t": "{Composer} worked for Bergamo Cathedral",
+"lvl": 2
+},
+{
+"t": "{Composer} is known for La Gioconda",
+"lvl": 2
+}
+],
+"Ivan Caryll": [
+{
+"t": "{Composer} is buried at Woodlawn Cemetery",
+"lvl": 1
+},
+{
+"t": "{Composer} died in New York City",
+"lvl": 1
+},
+{
+"t": "{Composer} was born in Liège",
+"lvl": 3
+}
+],
+"Otto Nicolai": [
+{
+"t": "{Composer} is buried at Dorotheenstadt cemetery II",
+"lvl": 1
+},
+{
+"t": "{Composer} taught Theodor Kullak",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Berlin",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Carl Friedrich Zelter",
+"lvl": 2
+},
+{
+"t": "{Composer} worked for Frederick William IV of Prussia",
+"lvl": 2
+},
+{
+"t": "{Composer} was a member of the Vienna Philharmonic",
+"lvl": 2
+},
+{
+"t": "{Composer} is known for The Merry Wives of Windsor and Il templario",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Königsberg",
+"lvl": 3
+}
+],
+"James Reese Europe": [
+{
+"t": "{Composer} is buried at Arlington National Cemetery",
+"lvl": 1
+},
+{
+"t": "{Composer} was married to Bessie Simms",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Boston",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Harry T. Burleigh",
+"lvl": 2
+},
+{
+"t": "{Composer} studied at the M Street High School",
+"lvl": 2
+},
+{
+"t": "{Composer} worked for Vernon and Irene Castle",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Mobile",
+"lvl": 3
+}
+],
+"Oscar Fetrás": [
+{
+"t": "{Composer} died in Hamburg",
+"lvl": 1
+},
+{
+"t": "{Composer}'s father was Matthias Faster",
+"lvl": 1
+},
+{
+"t": "{Composer} was born in Hamburg",
+"lvl": 3
+}
+],
+"Enrique Granados": [
+{
+"t": "{Composer} received the Order of Charles III",
+"lvl": 1
+},
+{
+"t": "{Composer} was married to Amparo Gal Lloberas",
+"lvl": 1
+},
+{
+"t": "{Composer} taught Alicia de Larrocha and Conchita Badía",
+"lvl": 1
+},
+{
+"t": "{Composer} died in English Channel",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Felip Pedrell and Charles-Wilfrid de Bériot",
+"lvl": 2
+},
+{
+"t": "{Composer} studied at the Conservatori Superior de Música del Liceu",
+"lvl": 2
+},
+{
+"t": "{Composer} was a member of the Catalan Piano School",
+"lvl": 2
+},
+{
+"t": "{Composer} is known for Danzas Españolas and Goyescas",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Lleida",
+"lvl": 3
+}
+],
+"Giacomo Meyerbeer": [
+{
+"t": "{Composer} is buried at Schönhauser Allee Jewish Cemetery",
+"lvl": 1
+},
+{
+"t": "{Composer} received the Order of the Oak Crown",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Paris",
+"lvl": 1
+},
+{
+"t": "{Composer}'s father was Jacob Herz Beer",
+"lvl": 1
+},
+{
+"t": "{Composer}'s mother was Amalie Beer",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Carl Friedrich Zelter and Muzio Clementi",
+"lvl": 2
+},
+{
+"t": "{Composer} was a member of the Académie des beaux-arts",
+"lvl": 2
+},
+{
+"t": "{Composer} is known for Le prophète and Les Huguenots",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Tasdorf",
+"lvl": 3
+}
+],
+"Franz Abt": [
+{
+"t": "{Composer} is buried at Wiesbaden North Cemetery",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Wiesbaden",
+"lvl": 1
+},
+{
+"t": "{Composer} studied at the Leipzig University",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Eilenburg",
+"lvl": 3
+}
+],
+"Franz Xaver Gruber": [
+{
+"t": "{Composer} died in Hallein",
+"lvl": 1
+},
+{
+"t": "{Composer} is known for Stille Nacht Heilige Nacht",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Unterweitzberg",
+"lvl": 3
+}
+],
+"Franz von Suppé": [
+{
+"t": "{Composer} is buried at Vienna Central Cemetery",
+"lvl": 1
+},
+{
+"t": "{Composer} taught Carl Millöcker",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Vienna",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Giuseppe Ferrari",
+"lvl": 2
+},
+{
+"t": "{Composer} studied at the University of Music and Performing Arts Vienna",
+"lvl": 2
+},
+{
+"t": "{Composer} is known for Fatinitza and Leichte Kavallerie",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Split",
+"lvl": 3
+}
+],
+"Edmond Audran": [
+{
+"t": "{Composer} is buried at Cimetière de Montmartre - Division 28",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Tierceville",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Jules Duprato",
+"lvl": 2
+},
+{
+"t": "{Composer} studied at the Niedermeyer school in Paris",
+"lvl": 2
+},
+{
+"t": "{Composer} is known for La mascotte and Le grand mogol",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Lyon",
+"lvl": 3
+}
+],
+"Alberto Franchetti": [
+{
+"t": "{Composer} is buried at Cimitero Ebraico",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Viareggio",
+"lvl": 1
+},
+{
+"t": "{Composer}'s mother was Sara Louise Rothschild",
+"lvl": 1
+},
+{
+"t": "{Composer} studied at the Hochschule für Musik Carl Maria von Weber",
+"lvl": 2
+},
+{
+"t": "{Composer} worked at the University of Hartford",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Turin",
+"lvl": 3
+}
+],
+"George M. Cohan": [
+{
+"t": "{Composer} is buried at Woodlawn Cemetery",
+"lvl": 1
+},
+{
+"t": "{Composer} received the Congressional Gold Medal",
+"lvl": 1
+},
+{
+"t": "{Composer} was married to Ethel Levey",
+"lvl": 1
+},
+{
+"t": "{Composer} died in New York City",
+"lvl": 1
+},
+{
+"t": "{Composer} was born in Providence",
+"lvl": 3
+}
+],
+"Umberto Giordano": [
+{
+"t": "{Composer} is buried at monumental cemetery of Milan",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Milan",
+"lvl": 1
+},
+{
+"t": "{Composer} was a member of the Royal Academy of Italy",
+"lvl": 2
+},
+{
+"t": "{Composer} is known for Andrea Chénier and La cena delle beffe",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Foggia",
+"lvl": 3
+}
+],
+"Giovanni Battista Pergolesi": [
+{
+"t": "{Composer} is buried at Pozzuoli Cathedral",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Pozzuoli",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Francesco Durante and Gaetano Greco",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Jesi",
+"lvl": 3
+}
+],
+"Ermanno Wolf-Ferrari": [
+{
+"t": "{Composer} is buried at Cemetery of San Michele",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Venice",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Josef Rheinberger",
+"lvl": 2
+},
+{
+"t": "{Composer} studied at the Conservatorio di Musica Benedetto Marcello di Venezia",
+"lvl": 2
+},
+{
+"t": "{Composer} is known for Il segreto di Susanna and Il campiello",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Venice",
+"lvl": 3
+}
+],
+"Joseph Barnby": [
+{
+"t": "{Composer} is buried at West Norwood Cemetery",
+"lvl": 1
+},
+{
+"t": "{Composer} received the Knight Bachelor",
+"lvl": 1
+},
+{
+"t": "{Composer} died in London",
+"lvl": 1
+},
+{
+"t": "{Composer} studied at the Royal Academy of Music",
+"lvl": 2
+},
+{
+"t": "{Composer} worked at the Eton College",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in York",
+"lvl": 3
+}
+],
+"Oley Speaks": [
+{
+"t": "{Composer} died in New York City",
+"lvl": 1
+},
+{
+"t": "{Composer} was born in Canal Winchester",
+"lvl": 3
+}
+],
+"Heinrich Reinhardt": [
+{
+"t": "{Composer} died in Vienna",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Anton Bruckner",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Bratislava",
+"lvl": 3
+}
+],
+"Robert Planquette": [
+{
+"t": "{Composer} is buried at Père Lachaise Cemetery",
+"lvl": 1
+},
+{
+"t": "{Composer} received the Knight of the Legion of Honour",
+"lvl": 1
+},
+{
+"t": "{Composer} died in boulevard Pereire",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Jules Duprato",
+"lvl": 2
+},
+{
+"t": "{Composer} studied at the Conservatoire de Paris",
+"lvl": 2
+},
+{
+"t": "{Composer} is known for Les cloches de Corneville and Le Régiment de Sambre et Meuse",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in former 2nd arrondissement of Paris",
+"lvl": 3
+}
+],
+"Stanislao Gastaldon": [
+{
+"t": "{Composer} died in Florence",
+"lvl": 1
+},
+{
+"t": "{Composer} was born in Turin",
+"lvl": 3
+}
+],
+"Carlos Gomes": [
+{
+"t": "{Composer} received the Imperial Order of the Rose",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Belém",
+"lvl": 1
+},
+{
+"t": "{Composer} studied at the Milan Conservatory",
+"lvl": 2
+},
+{
+"t": "{Composer} was a member of the Academia Brasileira de Música",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Campinas",
+"lvl": 3
+}
+],
+"César Franck": [
+{
+"t": "{Composer} is buried at Montparnasse Cemetery",
+"lvl": 1
+},
+{
+"t": "{Composer} received the Knight of the Legion of Honour",
+"lvl": 1
+},
+{
+"t": "{Composer} was married to Félicité Saillot Desmousseaux",
+"lvl": 1
+},
+{
+"t": "{Composer} taught Vincent d'Indy and Augusta Holmès",
+"lvl": 1
+},
+{
+"t": "{Composer} died in boulevard Saint-Michel",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Anton Reicha and Pierre-Joseph-Guillaume Zimmermann",
+"lvl": 2
+},
+{
+"t": "{Composer} studied at the Conservatoire de Paris",
+"lvl": 2
+},
+{
+"t": "{Composer} worked at the Royal Conservatory of Brussels",
+"lvl": 2
+},
+{
+"t": "{Composer} is known for Les Djinns and Prelude, Chorale and Fugue",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Liège",
+"lvl": 3
+}
+],
+"Vincenzo Bellini": [
+{
+"t": "{Composer} is buried at Père Lachaise Cemetery",
+"lvl": 1
+},
+{
+"t": "{Composer} received the Knight of the Legion of Honour",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Puteaux",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Niccolò Antonio Zingarelli",
+"lvl": 2
+},
+{
+"t": "{Composer} was a member of the Accademia Tiberina",
+"lvl": 2
+},
+{
+"t": "{Composer} is known for Norma and I puritani",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Catania",
+"lvl": 3
+}
+],
+"Bedřich Smetana": [
+{
+"t": "{Composer} is buried at Vyšehrad cemetery",
+"lvl": 1
+},
+{
+"t": "{Composer} was married to Bettina Smetanová and Kateřina Otylie Kolářová",
+"lvl": 1
+},
+{
+"t": "{Composer} taught Klementina Kalašová",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Prague",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Josef Proksch",
+"lvl": 2
+},
+{
+"t": "{Composer} studied at the Akademické gymnázium Štěpánská",
+"lvl": 2
+},
+{
+"t": "{Composer} worked at the Provisional Theatre",
+"lvl": 2
+},
+{
+"t": "{Composer} was a member of the Umělecká beseda",
+"lvl": 2
+},
+{
+"t": "{Composer} is known for The Bartered Bride and Má vlast",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Litomyšl",
+"lvl": 3
+}
+],
+"Benjamin Godard": [
+{
+"t": "{Composer} is buried at Taverny cemetery",
+"lvl": 1
+},
+{
+"t": "{Composer} taught Cécile Chaminade and Eleanor Everest Freer",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Cannes",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Henri Vieuxtemps and Napoléon Henri Reber",
+"lvl": 2
+},
+{
+"t": "{Composer} studied at the Conservatoire de Paris",
+"lvl": 2
+},
+{
+"t": "{Composer} worked at the Conservatoire de Paris",
+"lvl": 2
+},
+{
+"t": "{Composer} is known for Jocelyn",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Paris",
+"lvl": 3
+}
+],
+"Gustave Charpentier": [
+{
+"t": "{Composer} is buried at Père Lachaise Cemetery",
+"lvl": 1
+},
+{
+"t": "{Composer} received the Prix de Rome",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Paris",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Emile Pessard",
+"lvl": 2
+},
+{
+"t": "{Composer} studied at the Conservatoire de Paris",
+"lvl": 2
+},
+{
+"t": "{Composer} was a member of the Académie des beaux-arts",
+"lvl": 2
+},
+{
+"t": "{Composer} is known for Louise and Julien ou La Vie du poète",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Dieuze",
+"lvl": 3
+}
+],
+"Carl Loewe": [
+{
+"t": "{Composer} is buried in St. Nikolai, Kiel",
+"lvl": 1
+},
+{
+"t": "{Composer} taught Emilie Mayer",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Kiel",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Daniel Gottlob Türk",
+"lvl": 2
+},
+{
+"t": "{Composer} studied at the Martin Luther University Halle-Wittenberg",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Löbejün",
+"lvl": 3
+}
+],
+"Carl Millöcker": [
+{
+"t": "{Composer} is buried at Vienna Central Cemetery",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Baden",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Franz von Suppè and Franz Joseph Zierer",
+"lvl": 2
+},
+{
+"t": "{Composer} studied at the University of Music and Performing Arts Vienna",
+"lvl": 2
+},
+{
+"t": "{Composer} worked at the Theater in der Josefstadt",
+"lvl": 2
+},
+{
+"t": "{Composer} was a member of the Freemasonry",
+"lvl": 2
+},
+{
+"t": "{Composer} is known for Apajune, der Wassermann and Cousin Bobby",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Vienna",
+"lvl": 3
+}
+],
+"Félicien David": [
+{
+"t": "{Composer} is buried in Le Pecq",
+"lvl": 1
+},
+{
+"t": "{Composer} received the Officer of the Legion of Honour",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Saint-Germain-en-Laye",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with François-Joseph Fétis and François Benoist",
+"lvl": 2
+},
+{
+"t": "{Composer} studied at the Conservatoire de Paris",
+"lvl": 2
+},
+{
+"t": "{Composer} was a member of the Académie des beaux-arts",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Cadenet",
+"lvl": 3
+}
+],
+"Matteo Salvi": [
+{
+"t": "{Composer} died in Rieti",
+"lvl": 1
+},
+{
+"t": "{Composer} was born in Sedrina",
+"lvl": 3
+}
+],
+"Karol Kurpiński": [
+{
+"t": "{Composer} is buried at Powązki Cemetery",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Warsaw",
+"lvl": 1
+},
+{
+"t": "{Composer} is known for Warszawianka",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Włoszakowice",
+"lvl": 3
+}
+],
+"Attilio Parelli": [
+{
+"t": "{Composer} died in Monteleone d'Orvieto",
+"lvl": 1
+},
+{
+"t": "{Composer} was born in Monteleone d'Orvieto",
+"lvl": 3
+}
+],
+"Ruperto Chapí": [
+{
+"t": "{Composer} is buried in Villena",
+"lvl": 1
+},
+{
+"t": "{Composer} taught Manuel Manrique de Lara y Berry and Tomás López Torregrosa",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Madrid",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Emilio Arrieta and Miguel Galiana Folqués",
+"lvl": 2
+},
+{
+"t": "{Composer} studied at the Real Academia de España en Roma",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Villena",
+"lvl": 3
+}
+],
+"Johan Severin Svendsen": [
+{
+"t": "{Composer} is buried in Vår Frelsers gravlund",
+"lvl": 1
+},
+{
+"t": "{Composer} received the Litteris et Artibus",
+"lvl": 1
+},
+{
+"t": "{Composer} taught Nancy Dalberg and Robert Kajanus",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Copenhagen",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Fredrik Ursin",
+"lvl": 2
+},
+{
+"t": "{Composer} studied at the University of Music and Theatre Leipzig",
+"lvl": 2
+},
+{
+"t": "{Composer} is known for To mannskorsanger",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Oslo",
+"lvl": 3
+}
+],
+"Rikard Nordraak": [
+{
+"t": "{Composer} is buried in Vår Frelsers gravlund",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Berlin",
+"lvl": 1
+},
+{
+"t": "{Composer}'s father was Georg Marcus Nordraach",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Theodor Kullak",
+"lvl": 2
+},
+{
+"t": "{Composer} is known for Ja, vi elsker dette landet and Vieille Norvège",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Christiania",
+"lvl": 3
+}
+],
+"Modest Petrovich Mussorgsky": [
+{
+"t": "{Composer} is buried at Tikhvin Cemetery",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Saint Petersburg",
+"lvl": 1
+},
+{
+"t": "{Composer} studied at the Saint Peter's School",
+"lvl": 2
+},
+{
+"t": "{Composer} was a member of The Five",
+"lvl": 2
+},
+{
+"t": "{Composer} is known for Night on Bald Mountain and Boris Godunov",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Karevo",
+"lvl": 3
+}
+],
+"Leopold Lewandowski": [
+{
+"t": "{Composer} is buried at Powązki Cemetery",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Warsaw",
+"lvl": 1
+},
+{
+"t": "{Composer} was born in Kalisz",
+"lvl": 3
+}
+],
+"D. F. E. Auber": [
+{
+"t": "{Composer} is buried at Père Lachaise Cemetery",
+"lvl": 1
+},
+{
+"t": "{Composer} received the Grand Officer of the Legion of Honour",
+"lvl": 1
+},
+{
+"t": "{Composer} taught Hervé",
+"lvl": 1
+},
+{
+"t": "{Composer} died in 9th arrondissement of Paris",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Jean-Blaise Martin and Ignaz Ladurner",
+"lvl": 2
+},
+{
+"t": "{Composer} worked at the Conservatoire de Paris",
+"lvl": 2
+},
+{
+"t": "{Composer} was a member of the Académie des beaux-arts",
+"lvl": 2
+},
+{
+"t": "{Composer} is known for La muette de Portici and Concert à la cour, ou La débutante",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Caen",
+"lvl": 3
+}
+],
+"Christoph Willibald Gluck": [
+{
+"t": "{Composer} is buried at Vienna Central Cemetery",
+"lvl": 1
+},
+{
+"t": "{Composer} received the Order of the Golden Spur",
+"lvl": 1
+},
+{
+"t": "{Composer} taught Jan Antonín Koželuh",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Vienna",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Giovanni Battista Sammartini and Giovanni Battista Martini",
+"lvl": 2
+},
+{
+"t": "{Composer} studied at the Charles University",
+"lvl": 2
+},
+{
+"t": "{Composer} is known for Iphigénie en Aulide and Iphigénie en Tauride",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Erasbach",
+"lvl": 3
+}
+],
+"Leopoldo Miguez": [
+{
+"t": "{Composer} died in Rio de Janeiro",
+"lvl": 1
+},
+{
+"t": "{Composer} was a member of the Academia Brasileira de Música",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Niterói",
+"lvl": 3
+}
+],
+"Jean Philippe Rameau": [
+{
+"t": "{Composer} is buried at Church of Saint Eustache",
+"lvl": 1
+},
+{
+"t": "{Composer} received the Order of Saint Michael",
+"lvl": 1
+},
+{
+"t": "{Composer} was married to Marie-Louise Mangot",
+"lvl": 1
+},
+{
+"t": "{Composer} taught François Joseph Gossec",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Paris",
+"lvl": 1
+},
+{
+"t": "{Composer} studied at the Collège des Godrans",
+"lvl": 2
+},
+{
+"t": "{Composer} was a member of the Académie des Sciences, Arts et Belles-Lettres de Dijon",
+"lvl": 2
+},
+{
+"t": "{Composer} is known for Dardanus and Les Indes galantes",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Dijon",
+"lvl": 3
+}
+],
+"Edouard Lalo": [
+{
+"t": "{Composer} received the Officer of the Legion of Honour",
+"lvl": 1
+},
+{
+"t": "{Composer} was married to Julie-Marie-Victoire Bernier de Maligny",
+"lvl": 1
+},
+{
+"t": "{Composer} died in 17th arrondissement of Paris",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Pierre Baillot and Julius Schulhoff",
+"lvl": 2
+},
+{
+"t": "{Composer} studied at the Regional Conservatory of Lille",
+"lvl": 2
+},
+{
+"t": "{Composer} is known for Symphonie espagnole and Le roi d'Ys",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Lille",
+"lvl": 3
+}
+],
+"André Messager": [
+{
+"t": "{Composer} is buried at Passy Cemetery",
+"lvl": 1
+},
+{
+"t": "{Composer} received the Commander of the Legion of Honour",
+"lvl": 1
+},
+{
+"t": "{Composer} was married to Hope Temple",
+"lvl": 1
+},
+{
+"t": "{Composer} taught Henry Février and Hope Temple",
+"lvl": 1
+},
+{
+"t": "{Composer} died in 17th arrondissement of Paris",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Gabriel Fauré and Camille Saint-Saëns",
+"lvl": 2
+},
+{
+"t": "{Composer} studied at the Niedermeyer school in Paris",
+"lvl": 2
+},
+{
+"t": "{Composer} was a member of the Académie des beaux-arts",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Montluçon",
+"lvl": 3
+}
+],
+"Luigi Denza": [
+{
+"t": "{Composer} died in London",
+"lvl": 1
+},
+{
+"t": "{Composer} worked at the Royal Academy of Music",
+"lvl": 2
+},
+{
+"t": "{Composer} is known for Funiculì, Funiculà",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Castellammare di Stabia",
+"lvl": 3
+}
+],
+"Julian Edwards": [
+{
+"t": "{Composer} is buried at Woodlawn Cemetery",
+"lvl": 1
+},
+{
+"t": "{Composer} died in New York City",
+"lvl": 1
+},
+{
+"t": "{Composer} was born in Manchester",
+"lvl": 3
+}
+],
+"Peter Cornelius": [
+{
+"t": "{Composer} died in Mainz",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Siegfried Wilhelm Dehn",
+"lvl": 2
+},
+{
+"t": "{Composer} worked at the University of Music and Theatre Munich",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Mainz",
+"lvl": 3
+}
+],
+"Victor Massé": [
+{
+"t": "{Composer} is buried at Montmartre Cemetery",
+"lvl": 1
+},
+{
+"t": "{Composer} received the Prix de Rome",
+"lvl": 1
+},
+{
+"t": "{Composer} taught Alexis de Castillon",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Fromental Halévy and Pierre-Joseph-Guillaume Zimmermann",
+"lvl": 2
+},
+{
+"t": "{Composer} studied at the Conservatoire de Paris",
+"lvl": 2
+},
+{
+"t": "{Composer} worked at the Paris Opera",
+"lvl": 2
+},
+{
+"t": "{Composer} was a member of the Académie des beaux-arts",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Lorient",
+"lvl": 3
+}
+],
+"Alfredo Catalani": [
+{
+"t": "{Composer} is buried at Cimitero Urbano",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Milan",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Antonio Bazzini",
+"lvl": 2
+},
+{
+"t": "{Composer} studied at the Milan Conservatory",
+"lvl": 2
+},
+{
+"t": "{Composer} worked at the Milan Conservatory",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Lucca",
+"lvl": 3
+}
+],
+"Ludwig Thuille": [
+{
+"t": "{Composer} is buried at Munich Waldfriedhof",
+"lvl": 1
+},
+{
+"t": "{Composer} taught Hermann Abendroth and Klaus Pringsheim",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Munich",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Josef Rheinberger",
+"lvl": 2
+},
+{
+"t": "{Composer} studied at the University of Music and Theatre Munich",
+"lvl": 2
+},
+{
+"t": "{Composer} worked at the University of Music and Theatre Munich",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Bolzano",
+"lvl": 3
+}
+],
+"Francesco Maria Veracini": [
+{
+"t": "{Composer} died in Florence",
+"lvl": 1
+},
+{
+"t": "{Composer} was born in Florence",
+"lvl": 3
+}
+],
+"Johann Sebastian Bach": [
+{
+"t": "{Composer} is buried at St. Thomas Church",
+"lvl": 1
+},
+{
+"t": "{Composer} taught Carl Gotthelf Gerlach",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Leipzig",
+"lvl": 1
+},
+{
+"t": "{Composer}'s mother was Maria Elisabeth Lämmerhirt",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Dietrich Buxtehude",
+"lvl": 2
+},
+{
+"t": "{Composer} studied at the St. Michael's School",
+"lvl": 2
+},
+{
+"t": "{Composer} worked for Leopold, Prince of Anhalt-Köthen",
+"lvl": 2
+},
+{
+"t": "{Composer} is known for Sonatas and partitas for solo violin and Brandenburg Concertos",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Eisenach",
+"lvl": 3
+}
+],
+"Emile Paladilhe": [
+{
+"t": "{Composer} received the Prix de Rome",
+"lvl": 1
+},
+{
+"t": "{Composer} died in 2nd arrondissement of Paris",
+"lvl": 1
+},
+{
+"t": "{Composer} studied with Fromental Halévy and Antoine-François Marmontel",
+"lvl": 2
+},
+{
+"t": "{Composer} studied at the Conservatoire de Paris",
+"lvl": 2
+},
+{
+"t": "{Composer} was a member of the Académie des beaux-arts",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Montpellier",
+"lvl": 3
+}
+],
+"Arrigo Boïto": [
+{
+"t": "{Composer} is buried at monumental cemetery of Milan",
+"lvl": 1
+},
+{
+"t": "{Composer} received the Order of Saints Maurice and Lazarus",
+"lvl": 1
+},
+{
+"t": "{Composer} died in Milan",
+"lvl": 1
+},
+{
+"t": "{Composer} studied at the Milan Conservatory",
+"lvl": 2
+},
+{
+"t": "{Composer} was a member of the Académie des beaux-arts",
+"lvl": 2
+},
+{
+"t": "{Composer} is known for Mefistofele and Nerone",
+"lvl": 2
+},
+{
+"t": "{Composer} was born in Padua",
+"lvl": 3
+}
+]
+},
+"works": {
+"chopin|op47|": [
+{
+"t": "{It} was written in 1840",
+"lvl": 2
+}
+],
+"beethoven|t|adelaide": [
+{
+"t": "{It} has words by Friedrich von Matthisson",
+"lvl": 1
+},
+{
+"t": "{It} was written in 1794",
+"lvl": 2
+},
+{
+"t": "{It} is in German",
+"lvl": 3
+}
+],
+"beethoven|t|23 sonata": [
+{
+"t": "{It} is dedicated to Franz Brunswik von Korompa",
+"lvl": 1
+},
+{
+"t": "{It} was written in 1804",
+"lvl": 2
+}
+],
+"grieg|t|1 gynt peer suite": [
+{
+"t": "{It} was written in 1875",
+"lvl": 2
+}
+],
+"chopin|t|berceuse": [
+{
+"t": "{It} was written in 1844",
+"lvl": 2
+}
+],
+"schumann|t|concerto": [
+{
+"t": "{It} was written in 1841",
+"lvl": 2
+}
+],
+"chopin|op23|": [
+{
+"t": "{It} is dedicated to Bodo von Stockhausen",
+"lvl": 1
+},
+{
+"t": "{It} was written in 1831",
+"lvl": 2
+}
+],
+"tchaikovsky|t|6 symphony": [
+{
+"t": "{It} was written in 1893",
+"lvl": 2
+}
+],
+"chopin|op40|1": [
+{
+"t": "{It} was written in 1838",
+"lvl": 2
+}
+],
+"beethoven|t|32 sonata": [
+{
+"t": "{It} is dedicated to Archduke Rudolf of Austria",
+"lvl": 1
+},
+{
+"t": "{It} was written in 1821",
+"lvl": 2
+}
+],
+"wagner|t|isolde tristan und": [
+{
+"t": "Its characters include Brangäne and Marke",
+"lvl": 1
+},
+{
+"t": "{It} was first performed in 1865, at National Theatre Munich",
+"lvl": 2
+},
+{
+"t": "{It} was written in 1857",
+"lvl": 2
+},
+{
+"t": "{It} is in German",
+"lvl": 3
+}
+],
+"chopin|op11|": [
+{
+"t": "{It} was written in 1830",
+"lvl": 2
+}
+],
+"gounod|t|faust": [
+{
+"t": "Its characters include Méphistophélès and Marguerite",
+"lvl": 1
+},
+{
+"t": "{It} has words by Jules Barbier and Michel Carré",
+"lvl": 1
+},
+{
+"t": "{It} was first performed in 1859, at Theatre Lyrique",
+"lvl": 2
+},
+{
+"t": "{It} is in French",
+"lvl": 3
+}
+],
+"mendelssohn-bartholdy|t|3 symphony": [
+{
+"t": "{It} is dedicated to Victoria",
+"lvl": 1
+},
+{
+"t": "{It} was first performed in 1842, at Gewandhaus",
+"lvl": 2
+}
+],
+"chopin|op25|9": [
+{
+"t": "{It} was written in 1830",
+"lvl": 2
+},
+{
+"t": "{It} is in no linguistic content",
+"lvl": 3
+}
+],
+"liszt|t|mignon song": [
+{
+"t": "{It} is in German",
+"lvl": 3
+}
+],
+"beethoven|t|18 sonata": [
+{
+"t": "{It} was written in 1802",
+"lvl": 2
+}
+],
+"saint-saens|t|delilah samson": [
+{
+"t": "Its characters include Dalila and High Priest of Dagon",
+"lvl": 1
+},
+{
+"t": "{It} has words by Ferdinand Lemaire",
+"lvl": 1
+},
+{
+"t": "{It} is based on Judges",
+"lvl": 2
+},
+{
+"t": "{It} was first performed in 1877, at Herzogliches Hoftheater",
+"lvl": 2
+},
+{
+"t": "{It} was written in 1876",
+"lvl": 2
+},
+{
+"t": "{It} is in French",
+"lvl": 3
+}
+],
+"schumann|t|kreisleriana": [
+{
+"t": "{It} is dedicated to Frédéric Chopin",
+"lvl": 1
+}
+],
+"liszt|t|8 etude transcendental": [
+{
+"t": "{It} was written in 1851",
+"lvl": 2
+},
+{
+"t": "{It} is in no linguistic content",
+"lvl": 3
+}
+],
+"chopin|op64|1": [
+{
+"t": "{It} was written in 1847",
+"lvl": 2
+}
+],
+"schumann|t|davidsbundlertanze": [
+{
+"t": "{It} is dedicated to Walther Wolfgang von Goethe",
+"lvl": 1
+}
+],
+"liszt|t|8 hungarian rhapsody": [
+{
+"t": "{It} was written in 1846",
+"lvl": 2
+}
+],
+"debussy|t|children corner": [
+{
+"t": "{It} was first performed in 1908",
+"lvl": 2
+}
+],
+"beethoven|t|fidelio": [
+{
+"t": "Its characters include Don Fernando and Don Pizarro",
+"lvl": 1
+},
+{
+"t": "{It} has words by Georg Friedrich Treitschke and Joseph Sonnleithner",
+"lvl": 1
+},
+{
+"t": "{It} is based on Léonore, ou L’amour conjugal",
+"lvl": 2
+},
+{
+"t": "{It} is set in Spain and Seville",
+"lvl": 2
+},
+{
+"t": "{It} was first performed in 1805, at Theater an der Wien",
+"lvl": 2
+},
+{
+"t": "{It} was written in 1804",
+"lvl": 2
+},
+{
+"t": "{It} is in German",
+"lvl": 3
+}
+],
+"mozart|t|don giovanni": [
+{
+"t": "Its characters include Leporello and Donna Anna",
+"lvl": 1
+},
+{
+"t": "{It} has words by Lorenzo Da Ponte",
+"lvl": 1
+},
+{
+"t": "{It} is based on The Trickster of Seville and the Stone Guest",
+"lvl": 2
+},
+{
+"t": "{It} was first performed in 1787, at Estates Theatre",
+"lvl": 2
+},
+{
+"t": "{It} is in Italian",
+"lvl": 3
+}
+],
+"wagner|t|rienzi": [
+{
+"t": "Its characters include Irene and Steffano Colonna",
+"lvl": 1
+},
+{
+"t": "{It} was first performed in 1842, at Semperoper",
+"lvl": 2
+},
+{
+"t": "{It} was written in 1837",
+"lvl": 2
+},
+{
+"t": "{It} is in German",
+"lvl": 3
+}
+],
+"berlioz|t|damnation faust": [
+{
+"t": "Its characters include Marguerite and Méphistophélès",
+"lvl": 1
+},
+{
+"t": "{It} has words by Gérard de Nerval and Almire Gandonnière",
+"lvl": 1
+},
+{
+"t": "{It} was first performed in 1846, at Opéra-Comique",
+"lvl": 2
+},
+{
+"t": "{It} was written in 1845",
+"lvl": 2
+},
+{
+"t": "{It} is in French",
+"lvl": 3
+}
+],
+"schumann|t|kinderszenen": [
+{
+"t": "{It} was written in 1838",
+"lvl": 2
+}
+],
+"wagner|t|lohengrin": [
+{
+"t": "Its characters include Ortrud and Elsa of Brabant",
+"lvl": 1
+},
+{
+"t": "{It} is based on Nibelungenlied",
+"lvl": 2
+},
+{
+"t": "{It} was first performed in 1850, at Herzogliches Hoftheater",
+"lvl": 2
+},
+{
+"t": "{It} was written in 1845",
+"lvl": 2
+},
+{
+"t": "{It} is in German",
+"lvl": 3
+}
+],
+"rubinstein|t|kamennoi ostrow": [
+{
+"t": "{It} is in no linguistic content",
+"lvl": 3
+}
+],
+"debussy|t|estampe": [
+{
+"t": "{It} was first performed in 1904",
+"lvl": 2
+}
+],
+"liszt|t|1861 loreley": [
+{
+"t": "{It} was written in 1861",
+"lvl": 2
+}
+],
+"chopin|op58|": [
+{
+"t": "{It} was written in 1844",
+"lvl": 2
+}
+],
+"beethoven|t|14 sonata": [
+{
+"t": "{It} is dedicated to Giulietta Guicciardi",
+"lvl": 1
+},
+{
+"t": "{It} was written in 1801",
+"lvl": 2
+}
+],
+"beethoven|t|3 symphony": [
+{
+"t": "{It} was written in 1803",
+"lvl": 2
+}
+],
+"wagner|t|die meistersinger nurnberg von": [
+{
+"t": "Its characters include Eva and Veit Pogner",
+"lvl": 1
+},
+{
+"t": "{It} was first performed in 1868, at National Theatre Munich",
+"lvl": 2
+},
+{
+"t": "{It} was written in 1845",
+"lvl": 2
+},
+{
+"t": "{It} is in German",
+"lvl": 3
+}
+],
+"sullivan|t|guard yeomen": [
+{
+"t": "{It} is set in London",
+"lvl": 2
+},
+{
+"t": "{It} was first performed at Savoy Theatre",
+"lvl": 2
+}
+],
+"chopin|op35|": [
+{
+"t": "{It} was written in 1839",
+"lvl": 2
+}
+],
+"puccini|t|butterfly madama": [
+{
+"t": "{It} has words by Malcolm McLaren and National Endowment for the Arts",
+"lvl": 1
+}
+],
+"massenet|t|manon": [
+{
+"t": "Its characters include Le Chevalier des Grieux and Le Comte des Grieux",
+"lvl": 1
+},
+{
+"t": "{It} has words by Philippe Gille and Henri Meilhac",
+"lvl": 1
+},
+{
+"t": "{It} was first performed in 1884, at Opéra-Comique",
+"lvl": 2
+},
+{
+"t": "{It} is in French",
+"lvl": 3
+}
+],
+"chopin|op28|20": [
+{
+"t": "{It} was written in 1830",
+"lvl": 2
+}
+],
+"chopin|op53|": [
+{
+"t": "{It} was written in 1842",
+"lvl": 2
+}
+],
+"lecocq|t|angot fille madame": [
+{
+"t": "Its characters include Louis Ange Pitou and Anne Françoise Elisabeth Lange",
+"lvl": 1
+},
+{
+"t": "{It} has words by Louis François Clairville and Paul Siraudin",
+"lvl": 1
+},
+{
+"t": "{It} is set in Paris",
+"lvl": 2
+},
+{
+"t": "{It} was first performed in 1872",
+"lvl": 2
+},
+{
+"t": "{It} is in French",
+"lvl": 3
+}
+],
+"lincke|t|frau luna": [
+{
+"t": "{It} has words by Heinrich Bolten-Baeckers",
+"lvl": 1
+},
+{
+"t": "{It} was first performed in 1899",
+"lvl": 2
+}
+],
+"chopin|op28|15": [
+{
+"t": "{It} was written in 1838",
+"lvl": 2
+}
+],
+"schumann|t|fantasie": [
+{
+"t": "{It} was written in 1836",
+"lvl": 2
+}
+],
+"chopin|op32|1": [
+{
+"t": "{It} was written in 1830",
+"lvl": 2
+}
+],
+"schubert|t|erlkonig": [
+{
+"t": "{It} has words by Johann Wolfgang von Goethe",
+"lvl": 1
+},
+{
+"t": "{It} was written in 1815",
+"lvl": 2
+},
+{
+"t": "{It} is in German",
+"lvl": 3
+}
+],
+"bizet|t|carmen": [
+{
+"t": "Its characters include Don José and Escamillo",
+"lvl": 1
+},
+{
+"t": "{It} has words by Ludovic Halévy and Henri Meilhac",
+"lvl": 1
+},
+{
+"t": "{It} is set in Spain",
+"lvl": 2
+},
+{
+"t": "{It} was first performed in 1875, at Opéra-Comique",
+"lvl": 2
+},
+{
+"t": "{It} is in French",
+"lvl": 3
+}
+],
+"gounod|t|juliete romeo": [
+{
+"t": "Its characters include Juliette and Gertrude",
+"lvl": 1
+},
+{
+"t": "{It} has words by Jules Barbier and Michel Carré",
+"lvl": 1
+},
+{
+"t": "{It} was first performed in 1867, at Theatre Lyrique",
+"lvl": 2
+},
+{
+"t": "{It} was written in 1865",
+"lvl": 2
+},
+{
+"t": "{It} is in French",
+"lvl": 3
+}
+],
+"chopin|op48|1": [
+{
+"t": "{It} was written in 1841",
+"lvl": 2
+}
+],
+"chopin|op28|": [
+{
+"t": "{It} was written in 1830",
+"lvl": 2
+}
+],
+"sibelius|op24|9": [
+{
+"t": "{It} was written in 1901",
+"lvl": 2
+}
+],
+"schubert|d759|": [
+{
+"t": "{It} was first performed in 1865",
+"lvl": 2
+},
+{
+"t": "{It} was written in 1822",
+"lvl": 2
+}
+],
+"liszt|s178|": [
+{
+"t": "{It} was first performed in 1857",
+"lvl": 2
+}
+],
+"liszt|t|11 etude transcendental": [
+{
+"t": "{It} was written in 1851",
+"lvl": 2
+},
+{
+"t": "{It} is in no linguistic content",
+"lvl": 3
+}
+],
+"liszt|t|2 hungarian rhapsody": [
+{
+"t": "{It} was written in 1847",
+"lvl": 2
+}
+],
+"wagner|t|tannhauser": [
+{
+"t": "Its characters include Hermann and Wolfram von Eschenbach",
+"lvl": 1
+},
+{
+"t": "{It} is based on The Singers' Contest",
+"lvl": 2
+},
+{
+"t": "{It} is set in Wartburg",
+"lvl": 2
+},
+{
+"t": "{It} was first performed in 1845, at Semperoper",
+"lvl": 2
+},
+{
+"t": "{It} is in German",
+"lvl": 3
+}
+],
+"fall|t|farmer merry": [
+{
+"t": "{It} has words by Viktor Léon",
+"lvl": 1
+},
+{
+"t": "{It} was first performed in 1907",
+"lvl": 2
+}
+],
+"liszt|s418|": [
+{
+"t": "{It} was written in 1841",
+"lvl": 2
+}
+],
+"gounod|t|jesu nazareth": [
+{
+"t": "{It} is in French",
+"lvl": 3
+}
+],
+"halevy|t|juive": [
+{
+"t": "Its characters include Emperor Sigismund and Member of the Holy Office",
+"lvl": 1
+},
+{
+"t": "{It} has words by Eugène Scribe",
+"lvl": 1
+},
+{
+"t": "{It} was first performed in 1835, at Académie royale de musique",
+"lvl": 2
+},
+{
+"t": "{It} is in French",
+"lvl": 3
+}
+],
+"schumann|t|albumblatter": [
+{
+"t": "{It} was written in 1845",
+"lvl": 2
+}
+],
+"mason|t|god my nearer thee": [
+{
+"t": "{It} has words by Sarah Fuller Flower Adams and James L. Stevens",
+"lvl": 1
+}
+],
+"liszt|t|2 keyemaj polonaise": [
+{
+"t": "{It} was written in 1851",
+"lvl": 2
+}
+],
+"offenbach|t|hoffmann tale": [
+{
+"t": "Its characters include Nicklausse and Luther",
+"lvl": 1
+},
+{
+"t": "{It} has words by Jules Barbier",
+"lvl": 1
+},
+{
+"t": "{It} was first performed in 1881, at Opéra-Comique",
+"lvl": 2
+},
+{
+"t": "{It} was written in 1873",
+"lvl": 2
+},
+{
+"t": "{It} is in French",
+"lvl": 3
+}
+],
+"leoncavallo|t|pagliacci": [
+{
+"t": "Its characters include Peppe and Canio",
+"lvl": 1
+},
+{
+"t": "{It} was first performed in 1892, at Teatro dal Verme",
+"lvl": 2
+},
+{
+"t": "{It} was written in 1891",
+"lvl": 2
+},
+{
+"t": "{It} is in Italian",
+"lvl": 3
+}
+],
+"chopin|op64|2": [
+{
+"t": "{It} was written in 1847",
+"lvl": 2
+}
+],
+"beethoven|t|28 sonata": [
+{
+"t": "{It} is dedicated to Dorothea von Ertmann",
+"lvl": 1
+},
+{
+"t": "{It} was written in 1816",
+"lvl": 2
+}
+],
+"weber|t|brillante rondo": [
+{
+"t": "{It} was written in 1819",
+"lvl": 2
+}
+],
+"straus|t|chocolate soldier": [
+{
+"t": "{It} was first performed in 1908",
+"lvl": 2
+}
+],
+"mozart|k331|": [
+{
+"t": "{It} was written in 1780",
+"lvl": 2
+}
+],
+"liszt|t|1 concerto": [
+{
+"t": "{It} was first performed in 1855",
+"lvl": 2
+},
+{
+"t": "{It} was written in 1856",
+"lvl": 2
+}
+],
+"beethoven|t|21 sonata": [
+{
+"t": "{It} is dedicated to Count Ferdinand Ernst Gabriel von Waldstein",
+"lvl": 1
+},
+{
+"t": "{It} was written in 1803",
+"lvl": 2
+}
+],
+"brahms|op39|": [
+{
+"t": "{It} was written in 1865",
+"lvl": 2
+}
+],
+"rachmaninoff|t|fantaisie morceaux": [
+{
+"t": "{It} is dedicated to Anton Arensky",
+"lvl": 1
+}
+],
+"strauss|t|einmal lebt man nur": [
+{
+"t": "{It} was written in 1855",
+"lvl": 2
+}
+],
+"schumann|t|myrthen": [
+{
+"t": "{It} has words by Lord Byron and Johann Wolfgang von Goethe",
+"lvl": 1
+},
+{
+"t": "{It} is in German",
+"lvl": 3
+}
+],
+"beethoven|t|8 sonata": [
+{
+"t": "{It} is dedicated to Karl Alois, Prince Lichnowsky",
+"lvl": 1
+},
+{
+"t": "{It} was written in 1797",
+"lvl": 2
+}
+],
+"chopin|op70|1": [
+{
+"t": "{It} was written in 1833",
+"lvl": 2
+}
+],
+"liszt|s141|": [
+{
+"t": "{It} is dedicated to Clara Schumann",
+"lvl": 1
+},
+{
+"t": "{It} is based on Caprice No. 24 in A minor",
+"lvl": 2
+},
+{
+"t": "{It} is in no linguistic content",
+"lvl": 3
+}
+],
+"chopin|op28|17": [
+{
+"t": "{It} was written in 1838",
+"lvl": 2
+}
+],
+"chopin|op69|1": [
+{
+"t": "{It} was written in 1835",
+"lvl": 2
+}
+],
+"schumann|t|toccata": [
+{
+"t": "{It} is dedicated to Ludwig Schuncke",
+"lvl": 1
+},
+{
+"t": "{It} was written in 1829",
+"lvl": 2
+}
+],
+"friml|t|firefly": [
+{
+"t": "{It} has words by Otto Harbach and Otto Harbach",
+"lvl": 1
+},
+{
+"t": "{It} was first performed in 1912",
+"lvl": 2
+}
+],
+"schubert|t|ellen gesang": [
+{
+"t": "{It} is dedicated to Sophie Gabriele Ungnad von Weißenwolff",
+"lvl": 1
+},
+{
+"t": "{It} has words by Walter Scott and Adam Storck",
+"lvl": 1
+},
+{
+"t": "{It} was written in 1825",
+"lvl": 2
+},
+{
+"t": "{It} is in German",
+"lvl": 3
+}
+],
+"chopin|op10|12": [
+{
+"t": "{It} is dedicated to Franz Liszt",
+"lvl": 1
+},
+{
+"t": "{It} was written in 1831",
+"lvl": 2
+},
+{
+"t": "{It} is in no linguistic content",
+"lvl": 3
+}
+],
+"puccini|t|boheme": [
+{
+"t": "Its characters include Mimì and Rodolfo",
+"lvl": 1
+},
+{
+"t": "{It} has words by Giuseppe Giacosa and Luigi Illica",
+"lvl": 1
+},
+{
+"t": "{It} is based on Scenes of Bohemian Life",
+"lvl": 2
+},
+{
+"t": "{It} is set in Paris",
+"lvl": 2
+},
+{
+"t": "{It} was first performed in 1896, at Teatro Regio",
+"lvl": 2
+},
+{
+"t": "{It} is in Italian",
+"lvl": 3
+}
+],
+"chopin|op74|": [
+{
+"t": "{It} has words by Adam Mickiewicz and Wincenty Pol",
+"lvl": 1
+},
+{
+"t": "{It} was written in 1800",
+"lvl": 2
+},
+{
+"t": "{It} is in Polish",
+"lvl": 3
+}
+],
+"beethoven|t|2 symphony": [
+{
+"t": "{It} is dedicated to Karl Alois, Prince Lichnowsky",
+"lvl": 1
+},
+{
+"t": "{It} was first performed in 1803",
+"lvl": 2
+},
+{
+"t": "{It} was written in 1801",
+"lvl": 2
+}
+],
+"chopin|op55|2": [
+{
+"t": "{It} was written in 1843",
+"lvl": 2
+}
+],
+"verdi|t|rigoletto": [
+{
+"t": "Its characters include Duke of Mantua and Gilda",
+"lvl": 1
+},
+{
+"t": "{It} has words by Francesco Maria Piave",
+"lvl": 1
+},
+{
+"t": "{It} is based on Le roi s'amuse",
+"lvl": 2
+},
+{
+"t": "{It} was first performed in 1851, at Teatro La Fenice",
+"lvl": 2
+},
+{
+"t": "{It} was written in 1850",
+"lvl": 2
+},
+{
+"t": "{It} is in Italian",
+"lvl": 3
+}
+],
+"chopin|op67|4": [
+{
+"t": "{It} was written in 1846",
+"lvl": 2
+}
+],
+"verdi|t|aida": [
+{
+"t": "Its characters include Amonasro and Amneris",
+"lvl": 1
+},
+{
+"t": "{It} has words by Antonio Ghislanzoni",
+"lvl": 1
+},
+{
+"t": "{It} is set in Memphis and Thebes",
+"lvl": 2
+},
+{
+"t": "{It} was first performed in 1871, at Egyptian Royal Opera House",
+"lvl": 2
+},
+{
+"t": "{It} is in Italian",
+"lvl": 3
+}
+],
+"chopin|op9|2": [
+{
+"t": "{It} was written in 1830",
+"lvl": 2
+}
+],
+"verdi|t|traviata": [
+{
+"t": "Its characters include Violetta Valéry and Alfredo Germont",
+"lvl": 1
+},
+{
+"t": "{It} has words by Francesco Maria Piave",
+"lvl": 1
+},
+{
+"t": "{It} is based on The Lady of the Camellias",
+"lvl": 2
+},
+{
+"t": "{It} is set in Paris",
+"lvl": 2
+},
+{
+"t": "{It} was first performed in 1853, at Teatro La Fenice",
+"lvl": 2
+},
+{
+"t": "{It} was written in 1852",
+"lvl": 2
+},
+{
+"t": "{It} is in Italian",
+"lvl": 3
+}
+],
+"massenet|t|thai": [
+{
+"t": "Its characters include Athanaël and Palémon",
+"lvl": 1
+},
+{
+"t": "{It} has words by Louis Gallet",
+"lvl": 1
+},
+{
+"t": "{It} was first performed in 1894, at Paris Opera",
+"lvl": 2
+},
+{
+"t": "{It} is in French",
+"lvl": 3
+}
+],
+"lehar|t|der graf luxemburg von": [
+{
+"t": "{It} has words by Robert Bodanzky",
+"lvl": 1
+},
+{
+"t": "{It} was first performed in 1909",
+"lvl": 2
+},
+{
+"t": "{It} is in German",
+"lvl": 3
+}
+],
+"schumann|t|arabeske keycmaj": [
+{
+"t": "{It} was written in 1838",
+"lvl": 2
+}
+],
+"chopin|op31|": [
+{
+"t": "{It} was written in 1837",
+"lvl": 2
+}
+],
+"verdi|t|trovatore": [
+{
+"t": "Its characters include Azucena and Manrico",
+"lvl": 1
+},
+{
+"t": "{It} has words by Salvadore Cammarano and Leone Emanuele Bardare",
+"lvl": 1
+},
+{
+"t": "{It} is based on El trovador",
+"lvl": 2
+},
+{
+"t": "{It} is set in Biscay and Kingdom of Aragon",
+"lvl": 2
+},
+{
+"t": "{It} was first performed in 1853, at Teatro Tordinona",
+"lvl": 2
+},
+{
+"t": "{It} was written in 1850",
+"lvl": 2
+},
+{
+"t": "{It} is in Italian",
+"lvl": 3
+}
+],
+"strauss|t|fledermau": [
+{
+"t": "Its characters include Gabriel von Eisenstein and Rosalinde",
+"lvl": 1
+},
+{
+"t": "{It} has words by Karl Haffner and Richard Genée",
+"lvl": 1
+},
+{
+"t": "{It} is based on Ludovic Halévy",
+"lvl": 2
+},
+{
+"t": "{It} was first performed in 1874, at Theater an der Wien",
+"lvl": 2
+},
+{
+"t": "{It} is in German",
+"lvl": 3
+}
+],
+"chopin|t|keyfsharpmin polonaise": [
+{
+"t": "{It} was written in 1841",
+"lvl": 2
+}
+],
+"chopin|op10|3": [
+{
+"t": "{It} was written in 1832",
+"lvl": 2
+},
+{
+"t": "{It} is in no linguistic content",
+"lvl": 3
+}
+],
+"schumann|t|studie symphonic": [
+{
+"t": "{It} is in no linguistic content",
+"lvl": 3
+}
+],
+"liszt|t|1849 3 concert etude": [
+{
+"t": "{It} was written in 1849",
+"lvl": 2
+},
+{
+"t": "{It} is in no linguistic content",
+"lvl": 3
+}
+],
+"debussy|t|pour": [
+{
+"t": "{It} was first performed in 1902, at Salle Érard",
+"lvl": 2
+},
+{
+"t": "{It} was written in 1894",
+"lvl": 2
+}
+],
+"sullivan|t|gondolier": [
+{
+"t": "{It} has words by W. S. Gilbert",
+"lvl": 1
+},
+{
+"t": "{It} was first performed in 1889",
+"lvl": 2
+}
+],
+"chopin|op37|2": [
+{
+"t": "{It} was written in 1839",
+"lvl": 2
+}
+],
+"strauss|t|blue danube": [
+{
+"t": "{It} was first performed in 1867",
+"lvl": 2
+},
+{
+"t": "{It} was written in 1866",
+"lvl": 2
+}
+],
+"chopin|op27|2": [
+{
+"t": "{It} was written in 1835",
+"lvl": 2
+}
+],
+"puccini|t|tosca": [
+{
+"t": "Its characters include A Jailer and A Shepherd boy",
+"lvl": 1
+},
+{
+"t": "{It} has words by Giuseppe Giacosa and Luigi Illica",
+"lvl": 1
+},
+{
+"t": "{It} is set in Rome",
+"lvl": 2
+},
+{
+"t": "{It} was first performed in 1900, at Teatro dell'Opera di Roma",
+"lvl": 2
+},
+{
+"t": "{It} was written in 1898",
+"lvl": 2
+},
+{
+"t": "{It} is in Italian",
+"lvl": 3
+}
+],
+"gilbert|t|die keusche susanne": [
+{
+"t": "{It} was first performed in 1910",
+"lvl": 2
+},
+{
+"t": "{It} is in German",
+"lvl": 3
+}
+],
+"rossini|t|tell william": [
+{
+"t": "Its characters include Arnold Melchtal and Walter Furst",
+"lvl": 1
+},
+{
+"t": "{It} has words by Victor-Joseph Étienne de Jouy and Armand Marrast",
+"lvl": 1
+},
+{
+"t": "{It} was first performed in 1829, at Académie royale de musique",
+"lvl": 2
+},
+{
+"t": "{It} was written in 1828",
+"lvl": 2
+},
+{
+"t": "{It} is in French",
+"lvl": 3
+}
+],
+"strauss|t|dem rosen suden": [
+{
+"t": "{It} was first performed in 1880, at Great Hall of the Musikverein",
+"lvl": 2
+}
+],
+"adam|t|etai roi si": [
+{
+"t": "{It} has words by Jules Brésil",
+"lvl": 1
+},
+{
+"t": "{It} was first performed in 1852, at Theatre Lyrique",
+"lvl": 2
+},
+{
+"t": "{It} is in French",
+"lvl": 3
+}
+],
+"strauss|t|blut wiener": [
+{
+"t": "{It} has words by Viktor Léon",
+"lvl": 1
+},
+{
+"t": "{It} was first performed in 1899",
+"lvl": 2
+},
+{
+"t": "{It} is in German",
+"lvl": 3
+}
+],
+"chopin|op10|5": [
+{
+"t": "{It} was written in 1830",
+"lvl": 2
+},
+{
+"t": "{It} is in no linguistic content",
+"lvl": 3
+}
+],
+"handel|t|serse": [
+{
+"t": "{It} has words by Nicolò Minato",
+"lvl": 1
+},
+{
+"t": "{It} is based on Xerse",
+"lvl": 2
+},
+{
+"t": "{It} was first performed in 1738, at His Majesty's Theatre",
+"lvl": 2
+},
+{
+"t": "{It} is in Italian",
+"lvl": 3
+}
+],
+"beethoven|t|lost over penny rage": [
+{
+"t": "{It} was written in 1795",
+"lvl": 2
+}
+],
+"chopin|op15|2": [
+{
+"t": "{It} was written in 1830",
+"lvl": 2
+}
+],
+"d'albert|t|tiefland": [
+{
+"t": "Its characters include Pedro and Marta",
+"lvl": 1
+},
+{
+"t": "{It} has words by Rudolf Lothar",
+"lvl": 1
+},
+{
+"t": "{It} was first performed in 1903, at State Opera Prague",
+"lvl": 2
+},
+{
+"t": "{It} is in German",
+"lvl": 3
+}
+],
+"wagner|t|der nibelungen ring": [
+{
+"t": "{It} is based on Edda",
+"lvl": 2
+},
+{
+"t": "{It} was first performed in 1876, at Bayreuth Festival Theatre",
+"lvl": 2
+},
+{
+"t": "{It} was written in 1848",
+"lvl": 2
+},
+{
+"t": "{It} is in German",
+"lvl": 3
+}
+],
+"mascagni|t|cavalleria rusticana": [
+{
+"t": "Its characters include Nunzia and Santuzza",
+"lvl": 1
+},
+{
+"t": "{It} has words by Guido Menasci and Giovanni Targoni-Tozzetti",
+"lvl": 1
+},
+{
+"t": "{It} was first performed in 1890, at Teatro dell'Opera di Roma",
+"lvl": 2
+},
+{
+"t": "{It} is in Italian",
+"lvl": 3
+}
+],
+"sibelius|t|finlandia": [
+{
+"t": "{It} was first performed in 1900",
+"lvl": 2
+}
+],
+"mahler|t|eine fahrenden gesellen lieder": [
+{
+"t": "{It} is in German",
+"lvl": 3
+}
+],
+"glazunov|t|raymonda": [
+{
+"t": "{It} has words by Marius Petipa and Ivan Vsevolozhsky",
+"lvl": 1
+},
+{
+"t": "{It} was first performed in 1898",
+"lvl": 2
+}
+],
+"chopin|op42|": [
+{
+"t": "{It} was written in 1840",
+"lvl": 2
+}
+],
+"liszt|t|6 hungarian rhapsody": [
+{
+"t": "{It} is dedicated to Antoine Apponyi",
+"lvl": 1
+},
+{
+"t": "{It} was written in 1847",
+"lvl": 2
+}
+],
+"chopin|op17|4": [
+{
+"t": "{It} was written in 1833",
+"lvl": 2
+}
+],
+"lehar|t|merry widow": [
+{
+"t": "{It} has words by Viktor Léon and Leo Stein",
+"lvl": 1
+},
+{
+"t": "{It} was first performed in 1905, at Theater an der Wien",
+"lvl": 2
+},
+{
+"t": "{It} was written in 1904",
+"lvl": 2
+},
+{
+"t": "{It} is in German",
+"lvl": 3
+}
+],
+"schumann|t|carnaval": [
+{
+"t": "{It} is dedicated to Karol Lipiński",
+"lvl": 1
+},
+{
+"t": "{It} was written in 1834",
+"lvl": 2
+}
+],
+"liszt|t|1849 2 concert etude": [
+{
+"t": "{It} was written in 1849",
+"lvl": 2
+},
+{
+"t": "{It} is in no linguistic content",
+"lvl": 3
+}
+],
+"chopin|op28|16": [
+{
+"t": "{It} was written in 1838",
+"lvl": 2
+}
+],
+"chopin|op54|": [
+{
+"t": "{It} was written in 1842",
+"lvl": 2
+}
+],
+"sullivan|t|mikado": [
+{
+"t": "{It} has words by W. S. Gilbert and W. S. Gilbert",
+"lvl": 1
+},
+{
+"t": "{It} was first performed in 1885, at Savoy Theatre",
+"lvl": 2
+}
+],
+"blaufuss|t|dream golden isle my": [
+{
+"t": "{It} has words by Gus Kahn",
+"lvl": 1
+}
+],
+"lincke|t|berliner luft": [
+{
+"t": "{It} has words by Heinrich Bolten-Baeckers",
+"lvl": 1
+},
+{
+"t": "{It} is in German",
+"lvl": 3
+}
+],
+"delibes|t|lakme": [
+{
+"t": "{It} has words by Philippe Gille and Edmond Gondinet",
+"lvl": 1
+},
+{
+"t": "{It} is based on Le Mariageممنبعتقنووبن de Loti",
+"lvl": 2
+},
+{
+"t": "{It} is set in British Raj",
+"lvl": 2
+},
+{
+"t": "{It} was first performed in 1883, at Opéra-Comique",
+"lvl": 2
+},
+{
+"t": "{It} is in French",
+"lvl": 3
+}
+],
+"wagner|t|parsifal": [
+{
+"t": "Its characters include Klingsor and Kundry",
+"lvl": 1
+},
+{
+"t": "{It} is based on Percival",
+"lvl": 2
+},
+{
+"t": "{It} was first performed in 1882, at Bayreuth Festival Theatre",
+"lvl": 2
+},
+{
+"t": "{It} was written in 1877",
+"lvl": 2
+},
+{
+"t": "{It} is in German",
+"lvl": 3
+}
+],
+"chaminade|t|callirhoe": [
+{
+"t": "{It} has words by Elzéard Rougier",
+"lvl": 1
+},
+{
+"t": "{It} was first performed in 1888, at Opéra de Marseille",
+"lvl": 2
+}
+],
+"grieg|t|concerto": [
+{
+"t": "{It} was first performed in 1869, at Casino Theatre",
+"lvl": 2
+}
+],
+"liszt|t|9 etude transcendental": [
+{
+"t": "{It} was written in 1851",
+"lvl": 2
+},
+{
+"t": "{It} is in no linguistic content",
+"lvl": 3
+}
+],
+"schubert|t|bist die ruh": [
+{
+"t": "{It} has words by Friedrich Rückert",
+"lvl": 1
+},
+{
+"t": "{It} was written in 1823",
+"lvl": 2
+},
+{
+"t": "{It} is in German",
+"lvl": 3
+}
+],
+"chopin|t|andante brillante grande polonaise spianato": [
+{
+"t": "{It} was written in 1830",
+"lvl": 2
+}
+],
+"massenet|t|werther": [
+{
+"t": "{It} has words by Édouard Blau and Paul Milliet",
+"lvl": 1
+},
+{
+"t": "{It} was first performed in 1892, at Vienna State Opera house",
+"lvl": 2
+},
+{
+"t": "{It} was written in 1885",
+"lvl": 2
+},
+{
+"t": "{It} is in French",
+"lvl": 3
+}
+],
+"strauss|t|heldenleben": [
+{
+"t": "{It} was written in 1897",
+"lvl": 2
+}
+],
+"leoncavallo|t|boheme": [
+{
+"t": "Its characters include Marcello and Rodolfo",
+"lvl": 1
+},
+{
+"t": "{It} is based on Scenes of Bohemian Life",
+"lvl": 2
+},
+{
+"t": "{It} was first performed in 1897, at Teatro La Fenice",
+"lvl": 2
+},
+{
+"t": "{It} is in Italian",
+"lvl": 3
+}
+],
+"chopin|op39|": [
+{
+"t": "{It} was written in 1839",
+"lvl": 2
+}
+],
+"de koven|t|me oh promise": [
+{
+"t": "{It} has words by Clement Scott",
+"lvl": 1
+}
+],
+"balfe|t|bohemian girl": [
+{
+"t": "Its characters include Count Arnheim and First Gypsy",
+"lvl": 1
+},
+{
+"t": "{It} has words by Jules-Henri Vernoy de Saint-Georges and Alfred Bunn",
+"lvl": 1
+},
+{
+"t": "{It} is based on La gitanilla",
+"lvl": 2
+},
+{
+"t": "{It} is set in Bratislava",
+"lvl": 2
+},
+{
+"t": "{It} was first performed in 1843",
+"lvl": 2
+}
+],
+"balfe|t|ll me remember then you": [
+{
+"t": "{It} has words by Alfred Bunn",
+"lvl": 1
+}
+],
+"strauss|t|allerseelen": [
+{
+"t": "{It} has words by Hermann von Gilm zu Rosenegg",
+"lvl": 1
+},
+{
+"t": "{It} is in German",
+"lvl": 3
+}
+],
+"silcher|t|loreley": [
+{
+"t": "{It} is in no linguistic content",
+"lvl": 3
+}
+],
+"verdi|t|il trovatore": [
+{
+"t": "Its characters include Azucena and Manrico",
+"lvl": 1
+},
+{
+"t": "{It} has words by Salvadore Cammarano and Leone Emanuele Bardare",
+"lvl": 1
+},
+{
+"t": "{It} is based on El trovador",
+"lvl": 2
+},
+{
+"t": "{It} is set in Biscay and Kingdom of Aragon",
+"lvl": 2
+},
+{
+"t": "{It} was first performed in 1853, at Teatro Tordinona",
+"lvl": 2
+},
+{
+"t": "{It} was written in 1850",
+"lvl": 2
+},
+{
+"t": "{It} is in Italian",
+"lvl": 3
+}
+],
+"hein|t|come dream true when": [
+{
+"t": "{It} has words by Philip Bartholomae",
+"lvl": 1
+}
+],
+"schubert|t|is sylvia who": [
+{
+"t": "{It} has words by William Shakespeare and Eduard von Bauernfeld",
+"lvl": 1
+},
+{
+"t": "{It} was written in 1826",
+"lvl": 2
+},
+{
+"t": "{It} is in German",
+"lvl": 3
+}
+],
+"mozart|t|41 symphony": [
+{
+"t": "{It} was written in 1788",
+"lvl": 2
+},
+{
+"t": "{It} is in no linguistic content",
+"lvl": 3
+}
+],
+"rossini|t|overture tell william": [
+{
+"t": "{It} is in no linguistic content",
+"lvl": 3
+}
+],
+"bishop|t|home sweet": [
+{
+"t": "{It} has words by John Howard Payne",
+"lvl": 1
+}
+],
+"brahms|t|1 2 9 waltze": [
+{
+"t": "{It} has words by Georg Friedrich Daumer",
+"lvl": 1
+},
+{
+"t": "{It} is in German",
+"lvl": 3
+}
+],
+"rossini|t|overture semiramide": [
+{
+"t": "Its characters include Arsace and Idreno",
+"lvl": 1
+},
+{
+"t": "{It} has words by Gaetano Rossi",
+"lvl": 1
+},
+{
+"t": "{It} is based on Sémiramis (tragedy)",
+"lvl": 2
+},
+{
+"t": "{It} was first performed in 1823",
+"lvl": 2
+},
+{
+"t": "{It} is in Italian",
+"lvl": 3
+}
+],
+"mozart|t|flute magic": [
+{
+"t": "Its characters include Papageno and Pamina",
+"lvl": 1
+},
+{
+"t": "{It} has words by Emanuel Schikaneder and Emanuel Schikaneder",
+"lvl": 1
+},
+{
+"t": "{It} was first performed in 1791, at Theater auf der Wieden",
+"lvl": 2
+},
+{
+"t": "{It} is in German",
+"lvl": 3
+}
+],
+"yradier|t|paloma": [
+{
+"t": "{It} is in Spanish",
+"lvl": 3
+}
+],
+"leoncavallo|t|pagliacci prologue": [
+{
+"t": "Its characters include Peppe and Canio",
+"lvl": 1
+},
+{
+"t": "{It} was first performed in 1892, at Teatro dal Verme",
+"lvl": 2
+},
+{
+"t": "{It} was written in 1891",
+"lvl": 2
+},
+{
+"t": "{It} is in Italian",
+"lvl": 3
+}
+],
+"verdi|t|brindisi": [
+{
+"t": "{It} has words by Andrea Maffei",
+"lvl": 1
+},
+{
+"t": "{It} is in Italian",
+"lvl": 3
+}
+],
+"rossini|t|barber seville": [
+{
+"t": "Its characters include Rosina and Figaro",
+"lvl": 1
+},
+{
+"t": "{It} has words by Cesare Sterbini",
+"lvl": 1
+},
+{
+"t": "{It} was first performed in 1816, at Teatro Argentina",
+"lvl": 2
+},
+{
+"t": "{It} is in Italian",
+"lvl": 3
+}
+],
+"verdi|t|caro nome": [
+{
+"t": "{It} has words by Francesco Maria Piave",
+"lvl": 1
+},
+{
+"t": "{It} is in Italian",
+"lvl": 3
+}
+],
+"wagner|t|evening song star tannhauser": [
+{
+"t": "{It} is in German",
+"lvl": 3
+}
+],
+"tchaikovsky|t|eugene onegin": [
+{
+"t": "Its characters include Larina and Tatyana",
+"lvl": 1
+},
+{
+"t": "{It} has words by Konstantin Shilovsky",
+"lvl": 1
+},
+{
+"t": "{It} was first performed in 1879, at Maly Theatre",
+"lvl": 2
+},
+{
+"t": "{It} was written in 1877",
+"lvl": 2
+},
+{
+"t": "{It} is in Russian",
+"lvl": 3
+}
+],
+"herbert|t|mlle modiste": [
+{
+"t": "{It} has words by Henry Blossom and Henry Blossom",
+"lvl": 1
+},
+{
+"t": "{It} is set in Paris",
+"lvl": 2
+},
+{
+"t": "{It} was first performed in 1905, at Knickerbocker Theatre",
+"lvl": 2
+}
+],
+"schubert|t|rosamunde": [
+{
+"t": "{It} was first performed in 1823, at Theater an der Wien",
+"lvl": 2
+},
+{
+"t": "{It} is in German",
+"lvl": 3
+}
+],
+"mendelssohn-bartholdy|t|dream midsummer night": [
+{
+"t": "{It} was first performed in 1962, at David H. Koch Theater",
+"lvl": 2
+}
+],
+"wagner|t|bridal choru": [
+{
+"t": "{It} is in German",
+"lvl": 3
+}
+],
+"ponchielli|t|gioconda": [
+{
+"t": "Its characters include La Cieca and Enzo Grimaldo",
+"lvl": 1
+},
+{
+"t": "{It} has words by Arrigo Boito",
+"lvl": 1
+},
+{
+"t": "{It} is based on Angelo, Tyrant of Padua",
+"lvl": 2
+},
+{
+"t": "{It} is set in Venice",
+"lvl": 2
+},
+{
+"t": "{It} was first performed in 1876, at La Scala",
+"lvl": 2
+},
+{
+"t": "{It} is in Italian",
+"lvl": 3
+}
+],
+"caryll|t|lady pink": [
+{
+"t": "Its characters include Desiree and Claudine",
+"lvl": 1
+},
+{
+"t": "{It} has words by C. M. S. McLellan",
+"lvl": 1
+}
+],
+"beethoven|t|3 leonore overture": [
+{
+"t": "{It} was written in 1805",
+"lvl": 2
+},
+{
+"t": "{It} is in no linguistic content",
+"lvl": 3
+}
+],
+"nicolai|t|merry windsor wive": [
+{
+"t": "Its characters include Robin and Herr Fluth (Ford)",
+"lvl": 1
+},
+{
+"t": "{It} has words by Salomon Hermann Mosenthal",
+"lvl": 1
+},
+{
+"t": "{It} was first performed in 1849, at Berlin State Opera",
+"lvl": 2
+},
+{
+"t": "{It} is in German",
+"lvl": 3
+}
+],
+"sinding|t|fruhlingsrauschen": [
+{
+"t": "{It} was written in 1896",
+"lvl": 2
+}
+],
+"granados|t|goyesca intermezzo": [
+{
+"t": "{It} was first performed in 1911",
+"lvl": 2
+}
+],
+"puccini|t|lucevan stelle": [
+{
+"t": "{It} is in Italian",
+"lvl": 3
+}
+],
+"gruber|t|heilige nacht stille": [
+{
+"t": "{It} has words by Joseph Mohr",
+"lvl": 1
+},
+{
+"t": "{It} was first performed in 1818",
+"lvl": 2
+},
+{
+"t": "{It} is in German",
+"lvl": 3
+}
+],
+"crouch|t|kathleen mavourneen": [
+{
+"t": "{It} has words by Julia Crawford",
+"lvl": 1
+}
+],
+"strauss|t|kunstlerleben": [
+{
+"t": "{It} was first performed in 1867",
+"lvl": 2
+}
+],
+"puccini|t|lescaut manon": [
+{
+"t": "Its characters include Chevalier des Grieux and Geronte di Ravoir",
+"lvl": 1
+},
+{
+"t": "{It} has words by Ruggero Leoncavallo and Giuseppe Giacosa",
+"lvl": 1
+},
+{
+"t": "{It} is set in North America and France",
+"lvl": 2
+},
+{
+"t": "{It} was first performed in 1893, at Teatro Regio",
+"lvl": 2
+},
+{
+"t": "{It} was written in 1890",
+"lvl": 2
+},
+{
+"t": "{It} is in Italian",
+"lvl": 3
+}
+],
+"giordano|t|andrea chenier": [
+{
+"t": "Its characters include Maddalena di Coigny and Carlo Gérard",
+"lvl": 1
+},
+{
+"t": "{It} has words by Luigi Illica",
+"lvl": 1
+},
+{
+"t": "{It} is set in Paris and Coigny",
+"lvl": 2
+},
+{
+"t": "{It} was first performed in 1896, at La Scala",
+"lvl": 2
+},
+{
+"t": "{It} is in Italian",
+"lvl": 3
+}
+],
+"lincke|t|lysistrata": [
+{
+"t": "{It} was first performed in 1902",
+"lvl": 2
+}
+],
+"verdi|t|": [
+{
+"t": "Its characters include Violetta Valéry and Alfredo Germont",
+"lvl": 1
+},
+{
+"t": "{It} has words by Francesco Maria Piave",
+"lvl": 1
+},
+{
+"t": "{It} is based on The Lady of the Camellias",
+"lvl": 2
+},
+{
+"t": "{It} is set in Paris",
+"lvl": 2
+},
+{
+"t": "{It} was first performed in 1853, at Teatro La Fenice",
+"lvl": 2
+},
+{
+"t": "{It} was written in 1852",
+"lvl": 2
+},
+{
+"t": "{It} is in Italian",
+"lvl": 3
+}
+],
+"wagner|t|bridal march": [
+{
+"t": "{It} is in German",
+"lvl": 3
+}
+],
+"saint-saens|t|mon ouvre ta ur voix": [
+{
+"t": "{It} was first performed in 1877",
+"lvl": 2
+}
+],
+"mozart|t|figaro marriage": [
+{
+"t": "Its characters include Marcellina and Countess Rosina Almaviva",
+"lvl": 1
+},
+{
+"t": "{It} has words by Lorenzo Da Ponte",
+"lvl": 1
+},
+{
+"t": "{It} was first performed in 1786, at Burgtheater",
+"lvl": 2
+},
+{
+"t": "{It} is in Italian",
+"lvl": 3
+}
+],
+"donizetti|t|amore elisir": [
+{
+"t": "Its characters include Adina and Nemorino",
+"lvl": 1
+},
+{
+"t": "{It} has words by Felice Romani",
+"lvl": 1
+},
+{
+"t": "{It} is based on Le philtre",
+"lvl": 2
+},
+{
+"t": "{It} is set in French Basque Country",
+"lvl": 2
+},
+{
+"t": "{It} was first performed in 1832, at Teatro Lirico",
+"lvl": 2
+},
+{
+"t": "{It} is in Italian",
+"lvl": 3
+}
+],
+"planquette|t|meuse regiment sambre": [
+{
+"t": "{It} has words by Paul Cézano",
+"lvl": 1
+},
+{
+"t": "{It} is in French",
+"lvl": 3
+}
+],
+"gastaldon|t|musica proibita": [
+{
+"t": "{It} is in Italian",
+"lvl": 3
+}
+],
+"sullivan|t|chord lost": [
+{
+"t": "{It} has words by Adelaide Anne Procter",
+"lvl": 1
+},
+{
+"t": "{It} was written in 1877",
+"lvl": 2
+}
+],
+"bizet|t|fisher pearl": [
+{
+"t": "Its characters include Leïla and Nadir",
+"lvl": 1
+},
+{
+"t": "{It} has words by Michel Carré and Eugène Cormon",
+"lvl": 1
+},
+{
+"t": "{It} is set in Sri Lanka",
+"lvl": 2
+},
+{
+"t": "{It} was first performed in 1863, at Paris",
+"lvl": 2
+},
+{
+"t": "{It} is in French",
+"lvl": 3
+}
+],
+"verdi|t|ballo maschera un": [
+{
+"t": "Its characters include Riccardo and Renato",
+"lvl": 1
+},
+{
+"t": "{It} has words by Antonio Somma",
+"lvl": 1
+},
+{
+"t": "{It} is based on Gustave III",
+"lvl": 2
+},
+{
+"t": "{It} is set in Boston",
+"lvl": 2
+},
+{
+"t": "{It} was first performed in 1859, at Rome",
+"lvl": 2
+},
+{
+"t": "{It} is in Italian",
+"lvl": 3
+}
+],
+"massenet|t|herodiade": [
+{
+"t": "Its characters include A high priest and A voice",
+"lvl": 1
+},
+{
+"t": "{It} has words by Paul Milliet and Georges Hartmann",
+"lvl": 1
+},
+{
+"t": "{It} is based on Three Tales",
+"lvl": 2
+},
+{
+"t": "{It} was first performed in 1881, at Royal Theatre of La Monnaie",
+"lvl": 2
+},
+{
+"t": "{It} is in French",
+"lvl": 3
+}
+],
+"donizetti|t|di lammermoor lucia": [
+{
+"t": "Its characters include Lord Enrico Ashton and Sir Edgardo di Ravenswood",
+"lvl": 1
+},
+{
+"t": "{It} has words by Salvadore Cammarano",
+"lvl": 1
+},
+{
+"t": "{It} is set in Scotland",
+"lvl": 2
+},
+{
+"t": "{It} was first performed in 1835, at Teatro di San Carlo",
+"lvl": 2
+},
+{
+"t": "{It} is in Italian",
+"lvl": 3
+}
+],
+"grieg|t|gynt peer": [
+{
+"t": "{It} was written in 1875",
+"lvl": 2
+}
+],
+"verdi|t|ernani involami": [
+{
+"t": "Its characters include Don Carlo and Don Ruy Gomez de Silva",
+"lvl": 1
+},
+{
+"t": "{It} has words by Francesco Maria Piave",
+"lvl": 1
+},
+{
+"t": "{It} is based on Hernani",
+"lvl": 2
+},
+{
+"t": "{It} was first performed in 1844, at Venice",
+"lvl": 2
+},
+{
+"t": "{It} was written in 1843",
+"lvl": 2
+},
+{
+"t": "{It} is in Italian",
+"lvl": 3
+}
+],
+"meyerbeer|t|huguenot": [
+{
+"t": "{It} has words by Eugène Scribe and Germain Delavigne",
+"lvl": 1
+},
+{
+"t": "{It} is based on A Chronicle of the Reign of Charles IX",
+"lvl": 2
+},
+{
+"t": "{It} was first performed in 1836, at Académie royale de musique",
+"lvl": 2
+},
+{
+"t": "{It} was written in 1832",
+"lvl": 2
+},
+{
+"t": "{It} is in French",
+"lvl": 3
+}
+],
+"rossini|t|breeze calumny is little": [
+{
+"t": "{It} has words by Cesare Sterbini",
+"lvl": 1
+}
+],
+"verdi|t|pezzi quattro sacri": [
+{
+"t": "{It} was first performed in 1898, at Paris Opera",
+"lvl": 2
+},
+{
+"t": "{It} was written in 1889",
+"lvl": 2
+},
+{
+"t": "{It} is in Latin",
+"lvl": 3
+}
+],
+"charpentier|t|louise": [
+{
+"t": "Its characters include Father and Mother",
+"lvl": 1
+},
+{
+"t": "{It} has words by Saint-Pol-Roux",
+"lvl": 1
+},
+{
+"t": "{It} was first performed in 1900, at Opéra-Comique",
+"lvl": 2
+},
+{
+"t": "{It} is in French",
+"lvl": 3
+}
+],
+"bellini|t|norma": [
+{
+"t": "Its characters include Pollione and Oroveso",
+"lvl": 1
+},
+{
+"t": "{It} has words by Felice Romani",
+"lvl": 1
+},
+{
+"t": "{It} is set in Gaul",
+"lvl": 2
+},
+{
+"t": "{It} was first performed in 1831, at La Scala",
+"lvl": 2
+},
+{
+"t": "{It} is in Italian",
+"lvl": 3
+}
+],
+"wagner|t|lohengrin narrative": [
+{
+"t": "Its characters include Ortrud and Elsa of Brabant",
+"lvl": 1
+},
+{
+"t": "{It} is based on Nibelungenlied",
+"lvl": 2
+},
+{
+"t": "{It} was first performed in 1850, at Herzogliches Hoftheater",
+"lvl": 2
+},
+{
+"t": "{It} was written in 1845",
+"lvl": 2
+},
+{
+"t": "{It} is in German",
+"lvl": 3
+}
+],
+"david|t|charmant oiseau": [
+{
+"t": "{It} is in French",
+"lvl": 3
+}
+],
+"gounod|t|debout est or toujour veau": [
+{
+"t": "{It} has words by Jules Barbier",
+"lvl": 1
+},
+{
+"t": "{It} is in French",
+"lvl": 3
+}
+],
+"mascagni|t|iris": [
+{
+"t": "Its characters include Osaka and Kyoto",
+"lvl": 1
+},
+{
+"t": "{It} has words by Luigi Illica",
+"lvl": 1
+},
+{
+"t": "{It} is set in Japan",
+"lvl": 2
+},
+{
+"t": "{It} was first performed in 1898, at Teatro dell'Opera di Roma",
+"lvl": 2
+},
+{
+"t": "{It} is in Italian",
+"lvl": 3
+}
+],
+"debussy|t|etoile nuit": [
+{
+"t": "{It} has words by Théodore de Banville",
+"lvl": 1
+},
+{
+"t": "{It} is in French",
+"lvl": 3
+}
+],
+"gomes|t|dice mamma": [
+{
+"t": "{It} was first performed in 1882",
+"lvl": 2
+}
+],
+"thomas|t|mignon": [
+{
+"t": "Its characters include Wilhelm Meister and Frédéric",
+"lvl": 1
+},
+{
+"t": "{It} has words by Jules Barbier and Michel Carré",
+"lvl": 1
+},
+{
+"t": "{It} is based on Wilhelm Meister's Apprenticeship",
+"lvl": 2
+},
+{
+"t": "{It} was first performed in 1866, at Opéra-Comique",
+"lvl": 2
+},
+{
+"t": "{It} is in French",
+"lvl": 3
+}
+],
+"verdi|t|ernani": [
+{
+"t": "Its characters include Don Carlo and Don Ruy Gomez de Silva",
+"lvl": 1
+},
+{
+"t": "{It} has words by Francesco Maria Piave",
+"lvl": 1
+},
+{
+"t": "{It} is based on Hernani",
+"lvl": 2
+},
+{
+"t": "{It} was first performed in 1844, at Venice",
+"lvl": 2
+},
+{
+"t": "{It} was written in 1843",
+"lvl": 2
+},
+{
+"t": "{It} is in Italian",
+"lvl": 3
+}
+],
+"handel|t|rinaldo": [
+{
+"t": "{It} has words by Giacomo Rossi",
+"lvl": 1
+},
+{
+"t": "{It} is based on Jerusalem Delivered",
+"lvl": 2
+},
+{
+"t": "{It} was first performed in 1711, at His Majesty's Theatre",
+"lvl": 2
+},
+{
+"t": "{It} is in Italian",
+"lvl": 3
+}
+],
+"bizet|t|au fond saint temple": [
+{
+"t": "{It} is in French",
+"lvl": 3
+}
+],
+"massenet|t|appelle manon": [
+{
+"t": "Its characters include Le Chevalier des Grieux and Le Comte des Grieux",
+"lvl": 1
+},
+{
+"t": "{It} has words by Philippe Gille and Henri Meilhac",
+"lvl": 1
+},
+{
+"t": "{It} was first performed in 1884, at Opéra-Comique",
+"lvl": 2
+},
+{
+"t": "{It} is in French",
+"lvl": 3
+}
+],
+"gounod|t|mireille": [
+{
+"t": "Its characters include A ferryman and Ourrias",
+"lvl": 1
+},
+{
+"t": "{It} has words by Michel Carré and Michel Carré",
+"lvl": 1
+},
+{
+"t": "{It} was first performed in 1864, at Theatre Lyrique",
+"lvl": 2
+},
+{
+"t": "{It} is in French",
+"lvl": 3
+}
+],
+"schubert|t|ave maria": [
+{
+"t": "{It} is based on Ellens dritter Gesang",
+"lvl": 2
+}
+],
+"strauss|t|standchen": [
+{
+"t": "{It} has words by Adolf Friedrich von Schack",
+"lvl": 1
+},
+{
+"t": "{It} is in German",
+"lvl": 3
+}
+],
+"brahms|t|wiegenlied": [
+{
+"t": "{It} is in German",
+"lvl": 3
+}
+],
+"meyerbeer|t|africaine": [
+{
+"t": "{It} has words by Eugène Scribe",
+"lvl": 1
+},
+{
+"t": "{It} was first performed in 1865, at Paris Opera",
+"lvl": 2
+},
+{
+"t": "{It} was written in 1837",
+"lvl": 2
+},
+{
+"t": "{It} is in French",
+"lvl": 3
+}
+],
+"meyerbeer|t|etoile nord": [
+{
+"t": "{It} has words by Eugène Scribe",
+"lvl": 1
+},
+{
+"t": "{It} was first performed in 1854",
+"lvl": 2
+},
+{
+"t": "{It} is in French",
+"lvl": 3
+}
+],
+"schubert|t|das der madchen tod und": [
+{
+"t": "{It} has words by Matthias Claudius",
+"lvl": 1
+},
+{
+"t": "{It} was written in 1817",
+"lvl": 2
+},
+{
+"t": "{It} is in German",
+"lvl": 3
+}
+],
+"verdi|t|otello": [
+{
+"t": "Its characters include Iago and Cassio",
+"lvl": 1
+},
+{
+"t": "{It} has words by Arrigo Boito",
+"lvl": 1
+},
+{
+"t": "{It} is based on Othello",
+"lvl": 2
+},
+{
+"t": "{It} is set in Cyprus",
+"lvl": 2
+},
+{
+"t": "{It} was first performed in 1887, at La Scala",
+"lvl": 2
+},
+{
+"t": "{It} was written in 1884",
+"lvl": 2
+},
+{
+"t": "{It} is in Italian",
+"lvl": 3
+}
+],
+"godard|t|avec nous petit vien": [
+{
+"t": "{It} is in French",
+"lvl": 3
+}
+],
+"schubert|t|die forelle": [
+{
+"t": "{It} has words by Christian Friedrich Daniel Schubart",
+"lvl": 1
+},
+{
+"t": "{It} is in German",
+"lvl": 3
+}
+],
+"rossini|t|semiramide": [
+{
+"t": "Its characters include Arsace and Idreno",
+"lvl": 1
+},
+{
+"t": "{It} has words by Gaetano Rossi",
+"lvl": 1
+},
+{
+"t": "{It} is based on Sémiramis (tragedy)",
+"lvl": 2
+},
+{
+"t": "{It} was first performed in 1823",
+"lvl": 2
+},
+{
+"t": "{It} is in Italian",
+"lvl": 3
+}
+],
+"gounod|t|immortelle lyre ma": [
+{
+"t": "{It} is in French",
+"lvl": 3
+}
+],
+"verdi|t|falstaff": [
+{
+"t": "Its characters include Ford and Fenton",
+"lvl": 1
+},
+{
+"t": "{It} has words by Arrigo Boito",
+"lvl": 1
+},
+{
+"t": "{It} is based on The Merry Wives of Windsor",
+"lvl": 2
+},
+{
+"t": "{It} was first performed in 1893, at La Scala",
+"lvl": 2
+},
+{
+"t": "{It} was written in 1889",
+"lvl": 2
+},
+{
+"t": "{It} is in Italian",
+"lvl": 3
+}
+],
+"fall|t|dollar princess": [
+{
+"t": "Its characters include Freddy Fairfax and Harry Q. Conder",
+"lvl": 1
+},
+{
+"t": "{It} has words by Alfred Maria Willner and Adrian Ross",
+"lvl": 1
+},
+{
+"t": "{It} was first performed at Daly's Theatre",
+"lvl": 2
+}
+],
+"verdi|t|due foscari": [
+{
+"t": "Its characters include Lucrezia Contarini and Jacopo Loredano",
+"lvl": 1
+},
+{
+"t": "{It} has words by Francesco Maria Piave",
+"lvl": 1
+},
+{
+"t": "{It} was first performed in 1844, at Teatro Argentina",
+"lvl": 2
+},
+{
+"t": "{It} is in Italian",
+"lvl": 3
+}
+],
+"verdi|t|quartet rigoletto": [
+{
+"t": "Its characters include Duke of Mantua and Gilda",
+"lvl": 1
+},
+{
+"t": "{It} has words by Francesco Maria Piave",
+"lvl": 1
+},
+{
+"t": "{It} is based on Le roi s'amuse",
+"lvl": 2
+},
+{
+"t": "{It} was first performed in 1851, at Teatro La Fenice",
+"lvl": 2
+},
+{
+"t": "{It} was written in 1850",
+"lvl": 2
+},
+{
+"t": "{It} is in Italian",
+"lvl": 3
+}
+]
+},
+"years": {
+"1900": [
+"Puccini's Tosca had its premiere in Rome",
+"the Exposition Universelle opened in Paris"
+],
+"1901": [
+"Queen Victoria died",
+"Rachmaninoff's Second Piano Concerto had its first complete performance",
+"the first Nobel Prizes were awarded"
+],
+"1902": [
+"Debussy's Pelléas et Mélisande had its premiere in Paris",
+"Enrico Caruso made his first recordings, in Milan"
+],
+"1903": [
+"the Wright brothers made their first powered flight"
+],
+"1904": [
+"Puccini's Madama Butterfly had its premiere at La Scala",
+"the New York City Subway opened"
+],
+"1905": [
+"Richard Strauss's Salome had its premiere in Dresden",
+"Debussy's La mer had its premiere",
+"Einstein published his paper on special relativity"
+],
+"1906": [
+"the San Francisco earthquake struck while Caruso was in the city",
+"Victor introduced the Victrola"
+],
+"1907": [
+"Gustav Mahler left the Vienna Court Opera",
+"Picasso painted Les Demoiselles d'Avignon"
+],
+"1908": [
+"Gustav Mahler made his debut at the Metropolitan Opera",
+"Ford introduced the Model T"
+],
+"1909": [
+"Rachmaninoff's Third Piano Concerto had its premiere in New York",
+"Richard Strauss's Elektra had its premiere"
+],
+"1910": [
+"Puccini's La fanciulla del West had its premiere at the Metropolitan Opera",
+"Stravinsky's The Firebird had its premiere in Paris"
+],
+"1911": [
+"Gustav Mahler died",
+"Richard Strauss's Der Rosenkavalier had its premiere",
+"Stravinsky's Petrushka had its premiere"
+],
+"1912": [
+"the Titanic sank",
+"Schoenberg's Pierrot lunaire had its premiere"
+],
+"1913": [
+"Stravinsky's The Rite of Spring had its riotous premiere in Paris"
+],
+"1914": [
+"the First World War began"
+],
+"1915": [
+"the Lusitania was sunk"
+],
+"1916": [
+"Enrique Granados died when the Sussex was torpedoed",
+"the Battle of the Somme was fought"
+],
+"1917": [
+"the United States entered the First World War",
+"the first jazz record was made, by the Original Dixieland Jass Band"
+],
+"1918": [
+"the First World War ended",
+"Claude Debussy died",
+"Puccini's Il trittico had its premiere at the Metropolitan Opera"
+],
+"1919": [
+"the Treaty of Versailles was signed"
+],
+"1920": [
+"women in the United States won the right to vote",
+"regular commercial radio broadcasting began"
+],
+"1921": [
+"Enrico Caruso died"
+],
+"1922": [
+"the BBC was founded",
+"Tutankhamun's tomb was found"
+],
+"1923": [
+"the Charleston dance craze began with the song of the same name"
+],
+"1924": [
+"Gershwin's Rhapsody in Blue had its premiere",
+"Giacomo Puccini died"
+],
+"1925": [
+"Victor and Columbia began making records with microphones (electrical recording)",
+"Berg's Wozzeck had its premiere in Berlin"
+]
+}
+}

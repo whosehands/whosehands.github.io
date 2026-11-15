@@ -1,0 +1,4593 @@
+{
+ "pieces": [
+  {
+   "id": "chopin-op1",
+   "composer": "Chopin",
+   "piece": "Chopin – Rondo in C minor, Op. 1",
+   "key": "C minor",
+   "set": null,
+   "setName": null,
+   "movement": "",
+   "measures": 351,
+   "source": "001-1-BRZ.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-rondo-in-c-minor-op-1"
+  },
+  {
+   "id": "chopin-op4-1",
+   "composer": "Chopin",
+   "piece": "Chopin – Piano Sonata No. 1 in C minor, Op. 4",
+   "key": "C minor",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 1",
+   "measures": 249,
+   "source": "004-1-HAc-001.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-piano-sonata-no-1-in-c-minor-op-4"
+  },
+  {
+   "id": "chopin-op4-2",
+   "composer": "Chopin",
+   "piece": "Chopin – Piano Sonata No. 1 in C minor, Op. 4",
+   "key": "C minor",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 2",
+   "measures": 69,
+   "source": "004-1-HAc-002.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-piano-sonata-no-1-in-c-minor-op-4"
+  },
+  {
+   "id": "chopin-op4-3",
+   "composer": "Chopin",
+   "piece": "Chopin – Piano Sonata No. 1 in C minor, Op. 4",
+   "key": "A-flat major",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 3",
+   "measures": 42,
+   "source": "004-1-HAc-003.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-piano-sonata-no-1-in-c-minor-op-4"
+  },
+  {
+   "id": "chopin-op4-4",
+   "composer": "Chopin",
+   "piece": "Chopin – Piano Sonata No. 1 in C minor, Op. 4",
+   "key": "C minor",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 4",
+   "measures": 399,
+   "source": "004-1-HAc-004.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-piano-sonata-no-1-in-c-minor-op-4"
+  },
+  {
+   "id": "chopin-op5",
+   "composer": "Chopin",
+   "piece": "Chopin – Rondo in F major, Op. 5",
+   "key": "F major",
+   "set": null,
+   "setName": null,
+   "movement": "",
+   "measures": 469,
+   "source": "005-1-SC.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-rondo-in-f-major-op-5"
+  },
+  {
+   "id": "chopin-op6-1",
+   "composer": "Chopin",
+   "piece": "Chopin – Mazurka in F-sharp minor, Op. 6 No. 1",
+   "key": "F-sharp minor",
+   "set": "chopin|op6|",
+   "setName": "Chopin – Mazurkas, Op. 6",
+   "movement": "",
+   "measures": 72,
+   "source": "006-1-KI-001.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-mazurka-in-f-sharp-minor-op-6-no-1"
+  },
+  {
+   "id": "chopin-op6-2",
+   "composer": "Chopin",
+   "piece": "Chopin – Mazurka in C-sharp minor, Op. 6 No. 2",
+   "key": "C-sharp minor",
+   "set": "chopin|op6|",
+   "setName": "Chopin – Mazurkas, Op. 6",
+   "movement": "",
+   "measures": 72,
+   "source": "006-1-KI-002.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-mazurka-in-c-sharp-minor-op-6-no-2"
+  },
+  {
+   "id": "chopin-op6-3",
+   "composer": "Chopin",
+   "piece": "Chopin – Mazurka in E major, Op. 6 No. 3",
+   "key": "E major",
+   "set": "chopin|op6|",
+   "setName": "Chopin – Mazurkas, Op. 6",
+   "movement": "",
+   "measures": 90,
+   "source": "006-1-KI-003.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-mazurka-in-e-major-op-6-no-3"
+  },
+  {
+   "id": "chopin-op6-4",
+   "composer": "Chopin",
+   "piece": "Chopin – Mazurka in E-flat minor, Op. 6 No. 4",
+   "key": "E-flat minor",
+   "set": "chopin|op6|",
+   "setName": "Chopin – Mazurkas, Op. 6",
+   "movement": "",
+   "measures": 24,
+   "source": "006-1-KI-004.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-mazurka-in-e-flat-minor-op-6-no-4"
+  },
+  {
+   "id": "chopin-op6-5",
+   "composer": "Chopin",
+   "piece": "Chopin – Mazurka in C major, Op. 6 No. 5",
+   "key": "C major",
+   "set": "chopin|op6|",
+   "setName": "Chopin – Mazurkas, Op. 6",
+   "movement": "",
+   "measures": 20,
+   "source": "006-1b-Sm-005.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-mazurka-in-c-major-op-6-no-5"
+  },
+  {
+   "id": "chopin-op7-1",
+   "composer": "Chopin",
+   "piece": "Chopin – Mazurka in B-flat major, Op. 7 No. 1",
+   "key": "B-flat major",
+   "set": "chopin|op7|",
+   "setName": "Chopin – Mazurkas, Op. 7",
+   "movement": "",
+   "measures": 65,
+   "source": "007-1-KI-001.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-mazurka-in-b-flat-major-op-7-no-1"
+  },
+  {
+   "id": "chopin-op7-2",
+   "composer": "Chopin",
+   "piece": "Chopin – Mazurka in A minor, Op. 7 No. 2",
+   "key": "A minor",
+   "set": "chopin|op7|",
+   "setName": "Chopin – Mazurkas, Op. 7",
+   "movement": "",
+   "measures": 58,
+   "source": "007-1-KI-002.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-mazurka-in-a-minor-op-7-no-2"
+  },
+  {
+   "id": "chopin-op7-3",
+   "composer": "Chopin",
+   "piece": "Chopin – Mazurka in F minor, Op. 7 No. 3",
+   "key": "F minor",
+   "set": "chopin|op7|",
+   "setName": "Chopin – Mazurkas, Op. 7",
+   "movement": "",
+   "measures": 105,
+   "source": "007-1-KI-003.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-mazurka-in-f-minor-op-7-no-3"
+  },
+  {
+   "id": "chopin-op7-4",
+   "composer": "Chopin",
+   "piece": "Chopin – Mazurka in A-flat major, Op. 7 No. 4",
+   "key": "A-flat major",
+   "set": "chopin|op7|",
+   "setName": "Chopin – Mazurkas, Op. 7",
+   "movement": "",
+   "measures": 44,
+   "source": "007-1-KI-004.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-mazurka-in-a-flat-major-op-7-no-4"
+  },
+  {
+   "id": "chopin-op7-5",
+   "composer": "Chopin",
+   "piece": "Chopin – Mazurka in C major, Op. 7 No. 5",
+   "key": "C major",
+   "set": "chopin|op7|",
+   "setName": "Chopin – Mazurkas, Op. 7",
+   "movement": "",
+   "measures": 20,
+   "source": "007-1-KI-005.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-mazurka-in-c-major-op-7-no-5"
+  },
+  {
+   "id": "chopin-op9-1",
+   "composer": "Chopin",
+   "piece": "Chopin – Nocturne in B-flat minor, Op. 9 No. 1",
+   "key": "B-flat minor",
+   "set": "chopin|op9|",
+   "setName": "Chopin – Nocturnes, Op. 9",
+   "movement": "",
+   "measures": 85,
+   "source": "009-1-KI-001.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-nocturne-in-b-flat-minor-op-9-no-1"
+  },
+  {
+   "id": "chopin-op9-2",
+   "composer": "Chopin",
+   "piece": "Chopin – Nocturne in E-flat major, Op. 9 No. 2",
+   "key": "E-flat major",
+   "set": "chopin|op9|",
+   "setName": "Chopin – Nocturnes, Op. 9",
+   "movement": "",
+   "measures": 34,
+   "source": "009-1-KI-002.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-nocturne-in-e-flat-major-op-9-no-2"
+  },
+  {
+   "id": "chopin-op9-3",
+   "composer": "Chopin",
+   "piece": "Chopin – Nocturne in B major, Op. 9 No. 3",
+   "key": "B major",
+   "set": "chopin|op9|",
+   "setName": "Chopin – Nocturnes, Op. 9",
+   "movement": "",
+   "measures": 157,
+   "source": "009-1-KI-003.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-nocturne-in-b-major-op-9-no-3"
+  },
+  {
+   "id": "chopin-op10-1",
+   "composer": "Chopin",
+   "piece": "Chopin – Étude in C major, Op. 10 No. 1",
+   "key": "C major",
+   "set": "chopin|op10|",
+   "setName": "Chopin – Études, Op. 10",
+   "movement": "",
+   "measures": 79,
+   "source": "010-1b-Sm-001.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-tude-in-c-major-op-10-no-1"
+  },
+  {
+   "id": "chopin-op10-2",
+   "composer": "Chopin",
+   "piece": "Chopin – Étude in A minor, Op. 10 No. 2",
+   "key": "A minor",
+   "set": "chopin|op10|",
+   "setName": "Chopin – Études, Op. 10",
+   "movement": "",
+   "measures": 49,
+   "source": "010-1b-Sm-002.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-tude-in-a-minor-op-10-no-2"
+  },
+  {
+   "id": "chopin-op10-3",
+   "composer": "Chopin",
+   "piece": "Chopin – Étude in E major, Op. 10 No. 3",
+   "key": "E major",
+   "set": "chopin|op10|",
+   "setName": "Chopin – Études, Op. 10",
+   "movement": "",
+   "measures": 77,
+   "source": "010-1b-Sm-003.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-tude-in-e-major-op-10-no-3"
+  },
+  {
+   "id": "chopin-op10-4",
+   "composer": "Chopin",
+   "piece": "Chopin – Étude in C-sharp minor, Op. 10 No. 4",
+   "key": "C-sharp minor",
+   "set": "chopin|op10|",
+   "setName": "Chopin – Études, Op. 10",
+   "movement": "",
+   "measures": 82,
+   "source": "010-1b-Sm-004.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-tude-in-c-sharp-minor-op-10-no-4"
+  },
+  {
+   "id": "chopin-op10-5",
+   "composer": "Chopin",
+   "piece": "Chopin – Étude in G-flat major, Op. 10 No. 5",
+   "key": "G-flat major",
+   "set": "chopin|op10|",
+   "setName": "Chopin – Études, Op. 10",
+   "movement": "",
+   "measures": 85,
+   "source": "010-1b-Sm-005.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-tude-in-g-flat-major-op-10-no-5"
+  },
+  {
+   "id": "chopin-op10-6",
+   "composer": "Chopin",
+   "piece": "Chopin – Étude in E-flat minor, Op. 10 No. 6",
+   "key": "E-flat minor",
+   "set": "chopin|op10|",
+   "setName": "Chopin – Études, Op. 10",
+   "movement": "",
+   "measures": 53,
+   "source": "010-1b-Sm-006.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-tude-in-e-flat-minor-op-10-no-6"
+  },
+  {
+   "id": "chopin-op10-7",
+   "composer": "Chopin",
+   "piece": "Chopin – Étude in C major, Op. 10 No. 7",
+   "key": "C major",
+   "set": "chopin|op10|",
+   "setName": "Chopin – Études, Op. 10",
+   "movement": "",
+   "measures": 59,
+   "source": "010-1b-Sm-007.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-tude-in-c-major-op-10-no-7"
+  },
+  {
+   "id": "chopin-op10-8",
+   "composer": "Chopin",
+   "piece": "Chopin – Étude in F major, Op. 10 No. 8",
+   "key": "F major",
+   "set": "chopin|op10|",
+   "setName": "Chopin – Études, Op. 10",
+   "movement": "",
+   "measures": 95,
+   "source": "010-1b-Sm-008.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-tude-in-f-major-op-10-no-8"
+  },
+  {
+   "id": "chopin-op10-9",
+   "composer": "Chopin",
+   "piece": "Chopin – Étude in F minor, Op. 10 No. 9",
+   "key": "F minor",
+   "set": "chopin|op10|",
+   "setName": "Chopin – Études, Op. 10",
+   "movement": "",
+   "measures": 67,
+   "source": "010-1b-Sm-009.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-tude-in-f-minor-op-10-no-9"
+  },
+  {
+   "id": "chopin-op10-10",
+   "composer": "Chopin",
+   "piece": "Chopin – Étude in A-flat major, Op. 10 No. 10",
+   "key": "A-flat major",
+   "set": "chopin|op10|",
+   "setName": "Chopin – Études, Op. 10",
+   "movement": "",
+   "measures": 77,
+   "source": "010-1b-Sm-010.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-tude-in-a-flat-major-op-10-no-10"
+  },
+  {
+   "id": "chopin-op10-11",
+   "composer": "Chopin",
+   "piece": "Chopin – Étude in C minor, Op. 10 No. 11",
+   "key": "C minor",
+   "set": "chopin|op10|",
+   "setName": "Chopin – Études, Op. 10",
+   "movement": "",
+   "measures": 54,
+   "source": "010-1b-Sm-011.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-tude-in-c-minor-op-10-no-11"
+  },
+  {
+   "id": "chopin-op10-12",
+   "composer": "Chopin",
+   "piece": "Chopin – Étude in C minor, Op. 10 No. 12",
+   "key": "C minor",
+   "set": "chopin|op10|",
+   "setName": "Chopin – Études, Op. 10",
+   "movement": "",
+   "measures": 84,
+   "source": "010-1b-Sm-012.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-tude-in-c-minor-op-10-no-12"
+  },
+  {
+   "id": "chopin-op12",
+   "composer": "Chopin",
+   "piece": "Chopin – Variations, Op. 12",
+   "key": "B-flat major",
+   "set": null,
+   "setName": null,
+   "movement": "",
+   "measures": 225,
+   "source": "012-1-Sm-001.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-variations-op-12"
+  },
+  {
+   "id": "chopin-op13",
+   "composer": "Chopin",
+   "piece": "Chopin – Fantaisie in A major, Op. 13",
+   "key": "A major",
+   "set": null,
+   "setName": null,
+   "movement": "",
+   "measures": 397,
+   "source": "013-1a-KI.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-fantaisie-in-a-major-op-13"
+  },
+  {
+   "id": "chopin-op15-1",
+   "composer": "Chopin",
+   "piece": "Chopin – Nocturne in F major, Op. 15 No. 1",
+   "key": "F major",
+   "set": "chopin|op15|",
+   "setName": "Chopin – Nocturnes, Op. 15",
+   "movement": "",
+   "measures": 73,
+   "source": "015-1a-BH-001.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-nocturne-in-f-major-op-15-no-1"
+  },
+  {
+   "id": "chopin-op15-2",
+   "composer": "Chopin",
+   "piece": "Chopin – Nocturne in F-sharp major, Op. 15 No. 2",
+   "key": "F-sharp major",
+   "set": "chopin|op15|",
+   "setName": "Chopin – Nocturnes, Op. 15",
+   "movement": "",
+   "measures": 62,
+   "source": "015-1a-BH-002.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-nocturne-in-f-sharp-major-op-15-no-2"
+  },
+  {
+   "id": "chopin-op15-3",
+   "composer": "Chopin",
+   "piece": "Chopin – Nocturne in G minor, Op. 15 No. 3",
+   "key": "G minor",
+   "set": "chopin|op15|",
+   "setName": "Chopin – Nocturnes, Op. 15",
+   "movement": "",
+   "measures": 152,
+   "source": "015-1a-BH-003.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-nocturne-in-g-minor-op-15-no-3"
+  },
+  {
+   "id": "chopin-op16",
+   "composer": "Chopin",
+   "piece": "Chopin – Rondo in E-flat major, Op. 16",
+   "key": "E-flat major",
+   "set": null,
+   "setName": null,
+   "movement": "",
+   "measures": 468,
+   "source": "016-1-PL.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-rondo-in-e-flat-major-op-16"
+  },
+  {
+   "id": "chopin-op17-1",
+   "composer": "Chopin",
+   "piece": "Chopin – Mazurka in B-flat major, Op. 17 No. 1",
+   "key": "B-flat major",
+   "set": "chopin|op17|",
+   "setName": "Chopin – Mazurkas, Op. 17",
+   "movement": "",
+   "measures": 60,
+   "source": "017-1-BH-001.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-mazurka-in-b-flat-major-op-17-no-1"
+  },
+  {
+   "id": "chopin-op17-2",
+   "composer": "Chopin",
+   "piece": "Chopin – Mazurka in E minor, Op. 17 No. 2",
+   "key": "E minor",
+   "set": "chopin|op17|",
+   "setName": "Chopin – Mazurkas, Op. 17",
+   "movement": "",
+   "measures": 68,
+   "source": "017-1-BH-002.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-mazurka-in-e-minor-op-17-no-2"
+  },
+  {
+   "id": "chopin-op17-3",
+   "composer": "Chopin",
+   "piece": "Chopin – Mazurka in A-flat major, Op. 17 No. 3",
+   "key": "A-flat major",
+   "set": "chopin|op17|",
+   "setName": "Chopin – Mazurkas, Op. 17",
+   "movement": "",
+   "measures": 81,
+   "source": "017-1-BH-003.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-mazurka-in-a-flat-major-op-17-no-3"
+  },
+  {
+   "id": "chopin-op17-4",
+   "composer": "Chopin",
+   "piece": "Chopin – Mazurka in A minor, Op. 17 No. 4",
+   "key": "A minor",
+   "set": "chopin|op17|",
+   "setName": "Chopin – Mazurkas, Op. 17",
+   "movement": "",
+   "measures": 131,
+   "source": "017-1-BH-004.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-mazurka-in-a-minor-op-17-no-4"
+  },
+  {
+   "id": "chopin-op18",
+   "composer": "Chopin",
+   "piece": "Chopin – Waltz in E-flat major, Op. 18",
+   "key": "E-flat major",
+   "set": null,
+   "setName": null,
+   "movement": "",
+   "measures": 310,
+   "source": "018-1-BH.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-waltz-in-e-flat-major-op-18"
+  },
+  {
+   "id": "chopin-op18-1",
+   "composer": "Chopin",
+   "piece": "Chopin – Waltz in E-flat major, Op. 18 No. 1",
+   "key": "E-flat major",
+   "set": "chopin|op18|",
+   "setName": "Chopin – Waltzes, Op. 18",
+   "movement": "",
+   "measures": 309,
+   "source": "018-1a-Sm-001.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-waltz-in-e-flat-major-op-18-no-1"
+  },
+  {
+   "id": "chopin-op19",
+   "composer": "Chopin",
+   "piece": "Chopin – Bolero in A minor, Op. 19",
+   "key": "A minor",
+   "set": null,
+   "setName": null,
+   "movement": "",
+   "measures": 260,
+   "source": "019-1-PE.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-bolero-in-a-minor-op-19"
+  },
+  {
+   "id": "chopin-op20",
+   "composer": "Chopin",
+   "piece": "Chopin – Scherzo in B minor, Op. 20",
+   "key": "B minor",
+   "set": null,
+   "setName": null,
+   "movement": "",
+   "measures": 628,
+   "source": "020-1-BH.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-scherzo-in-b-minor-op-20"
+  },
+  {
+   "id": "chopin-op22",
+   "composer": "Chopin",
+   "piece": "Chopin – Polonaise in G major, Op. 22",
+   "key": "G major",
+   "set": null,
+   "setName": null,
+   "movement": "",
+   "measures": 389,
+   "source": "022-1-Sm.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-polonaise-in-g-major-op-22"
+  },
+  {
+   "id": "chopin-op23",
+   "composer": "Chopin",
+   "piece": "Chopin – Ballade in G minor, Op. 23",
+   "key": "G minor",
+   "set": null,
+   "setName": null,
+   "movement": "",
+   "measures": 264,
+   "source": "023-1-BH.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-ballade-in-g-minor-op-23"
+  },
+  {
+   "id": "chopin-op24-1",
+   "composer": "Chopin",
+   "piece": "Chopin – Mazurka in G minor, Op. 24 No. 1",
+   "key": "G minor",
+   "set": "chopin|op24|",
+   "setName": "Chopin – Mazurkas, Op. 24",
+   "movement": "",
+   "measures": 65,
+   "source": "024-1-Sm-001.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-mazurka-in-g-minor-op-24-no-1"
+  },
+  {
+   "id": "chopin-op24-2",
+   "composer": "Chopin",
+   "piece": "Chopin – Mazurka in C major, Op. 24 No. 2",
+   "key": "C major",
+   "set": "chopin|op24|",
+   "setName": "Chopin – Mazurkas, Op. 24",
+   "movement": "",
+   "measures": 120,
+   "source": "024-1-Sm-002.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-mazurka-in-c-major-op-24-no-2"
+  },
+  {
+   "id": "chopin-op24-3",
+   "composer": "Chopin",
+   "piece": "Chopin – Mazurka in A-flat major, Op. 24 No. 3",
+   "key": "A-flat major",
+   "set": "chopin|op24|",
+   "setName": "Chopin – Mazurkas, Op. 24",
+   "movement": "",
+   "measures": 45,
+   "source": "024-1-Sm-003.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-mazurka-in-a-flat-major-op-24-no-3"
+  },
+  {
+   "id": "chopin-op24-4",
+   "composer": "Chopin",
+   "piece": "Chopin – Mazurka in B-flat minor, Op. 24 No. 4",
+   "key": "B-flat minor",
+   "set": "chopin|op24|",
+   "setName": "Chopin – Mazurkas, Op. 24",
+   "movement": "",
+   "measures": 148,
+   "source": "024-1-Sm-004.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-mazurka-in-b-flat-minor-op-24-no-4"
+  },
+  {
+   "id": "chopin-op25-1",
+   "composer": "Chopin",
+   "piece": "Chopin – Étude in A-flat major, Op. 25 No. 1",
+   "key": "A-flat major",
+   "set": "chopin|op25|",
+   "setName": "Chopin – Études, Op. 25",
+   "movement": "",
+   "measures": 49,
+   "source": "025-1b-LE-001.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-tude-in-a-flat-major-op-25-no-1"
+  },
+  {
+   "id": "chopin-op25-2",
+   "composer": "Chopin",
+   "piece": "Chopin – Étude in F minor, Op. 25 No. 2",
+   "key": "F minor",
+   "set": "chopin|op25|",
+   "setName": "Chopin – Études, Op. 25",
+   "movement": "",
+   "measures": 69,
+   "source": "025-1b-LE-002.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-tude-in-f-minor-op-25-no-2"
+  },
+  {
+   "id": "chopin-op25-3",
+   "composer": "Chopin",
+   "piece": "Chopin – Étude in F major, Op. 25 No. 3",
+   "key": "F major",
+   "set": "chopin|op25|",
+   "setName": "Chopin – Études, Op. 25",
+   "movement": "",
+   "measures": 70,
+   "source": "025-1b-LE-003.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-tude-in-f-major-op-25-no-3"
+  },
+  {
+   "id": "chopin-op25-4",
+   "composer": "Chopin",
+   "piece": "Chopin – Étude in A minor, Op. 25 No. 4",
+   "key": "A minor",
+   "set": "chopin|op25|",
+   "setName": "Chopin – Études, Op. 25",
+   "movement": "",
+   "measures": 65,
+   "source": "025-1b-LE-004.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-tude-in-a-minor-op-25-no-4"
+  },
+  {
+   "id": "chopin-op25-5",
+   "composer": "Chopin",
+   "piece": "Chopin – Étude in E minor, Op. 25 No. 5",
+   "key": "E minor",
+   "set": "chopin|op25|",
+   "setName": "Chopin – Études, Op. 25",
+   "movement": "",
+   "measures": 136,
+   "source": "025-1b-LE-005.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-tude-in-e-minor-op-25-no-5"
+  },
+  {
+   "id": "chopin-op25-6",
+   "composer": "Chopin",
+   "piece": "Chopin – Étude in G-sharp minor, Op. 25 No. 6",
+   "key": "G-sharp minor",
+   "set": "chopin|op25|",
+   "setName": "Chopin – Études, Op. 25",
+   "movement": "",
+   "measures": 63,
+   "source": "025-1b-LE-006.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-tude-in-g-sharp-minor-op-25-no-6"
+  },
+  {
+   "id": "chopin-op25-7",
+   "composer": "Chopin",
+   "piece": "Chopin – Étude in C-sharp minor, Op. 25 No. 7",
+   "key": "C-sharp minor",
+   "set": "chopin|op25|",
+   "setName": "Chopin – Études, Op. 25",
+   "movement": "",
+   "measures": 68,
+   "source": "025-1b-LE-007.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-tude-in-c-sharp-minor-op-25-no-7"
+  },
+  {
+   "id": "chopin-op25-8",
+   "composer": "Chopin",
+   "piece": "Chopin – Étude in D-flat major, Op. 25 No. 8",
+   "key": "D-flat major",
+   "set": "chopin|op25|",
+   "setName": "Chopin – Études, Op. 25",
+   "movement": "",
+   "measures": 36,
+   "source": "025-1b-LE-008.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-tude-in-d-flat-major-op-25-no-8"
+  },
+  {
+   "id": "chopin-op25-9",
+   "composer": "Chopin",
+   "piece": "Chopin – Étude in G-flat major, Op. 25 No. 9",
+   "key": "G-flat major",
+   "set": "chopin|op25|",
+   "setName": "Chopin – Études, Op. 25",
+   "movement": "",
+   "measures": 51,
+   "source": "025-1b-LE-009.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-tude-in-g-flat-major-op-25-no-9"
+  },
+  {
+   "id": "chopin-op25-10",
+   "composer": "Chopin",
+   "piece": "Chopin – Étude in B minor, Op. 25 No. 10",
+   "key": "B minor",
+   "set": "chopin|op25|",
+   "setName": "Chopin – Études, Op. 25",
+   "movement": "",
+   "measures": 117,
+   "source": "025-1b-LE-010.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-tude-in-b-minor-op-25-no-10"
+  },
+  {
+   "id": "chopin-op25-11",
+   "composer": "Chopin",
+   "piece": "Chopin – Étude in A minor, Op. 25 No. 11",
+   "key": "A minor",
+   "set": "chopin|op25|",
+   "setName": "Chopin – Études, Op. 25",
+   "movement": "",
+   "measures": 96,
+   "source": "025-1b-LE-011.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-tude-in-a-minor-op-25-no-11"
+  },
+  {
+   "id": "chopin-op25-12",
+   "composer": "Chopin",
+   "piece": "Chopin – Étude in C minor, Op. 25 No. 12",
+   "key": "C minor",
+   "set": "chopin|op25|",
+   "setName": "Chopin – Études, Op. 25",
+   "movement": "",
+   "measures": 83,
+   "source": "025-1b-LE-012.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-tude-in-c-minor-op-25-no-12"
+  },
+  {
+   "id": "chopin-op26-1",
+   "composer": "Chopin",
+   "piece": "Chopin – Polonaise in C-sharp minor, Op. 26 No. 1",
+   "key": "C-sharp minor",
+   "set": "chopin|op26|",
+   "setName": "Chopin – Polonaises, Op. 26",
+   "movement": "",
+   "measures": 97,
+   "source": "026-1-BH-001.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-polonaise-in-c-sharp-minor-op-26-no-1"
+  },
+  {
+   "id": "chopin-op26-2",
+   "composer": "Chopin",
+   "piece": "Chopin – Polonaise in E-flat minor, Op. 26 No. 2",
+   "key": "E-flat minor",
+   "set": "chopin|op26|",
+   "setName": "Chopin – Polonaises, Op. 26",
+   "movement": "",
+   "measures": 175,
+   "source": "026-1-BH-002.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-polonaise-in-e-flat-minor-op-26-no-2"
+  },
+  {
+   "id": "chopin-op27-1",
+   "composer": "Chopin",
+   "piece": "Chopin – Nocturne in C-sharp minor, Op. 27 No. 1",
+   "key": "C-sharp minor",
+   "set": "chopin|op27|",
+   "setName": "Chopin – Nocturnes, Op. 27",
+   "movement": "",
+   "measures": 97,
+   "source": "027-1-BH-001.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-nocturne-in-c-sharp-minor-op-27-no-1"
+  },
+  {
+   "id": "chopin-op27-2",
+   "composer": "Chopin",
+   "piece": "Chopin – Nocturne in D-flat major, Op. 27 No. 2",
+   "key": "D-flat major",
+   "set": "chopin|op27|",
+   "setName": "Chopin – Nocturnes, Op. 27",
+   "movement": "",
+   "measures": 77,
+   "source": "027-1-BH-002.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-nocturne-in-d-flat-major-op-27-no-2"
+  },
+  {
+   "id": "chopin-op28-1",
+   "composer": "Chopin",
+   "piece": "Chopin – Prelude in C major, Op. 28 No. 1",
+   "key": "C major",
+   "set": "chopin|op28|",
+   "setName": "Chopin – Preludes, Op. 28",
+   "movement": "",
+   "measures": 34,
+   "source": "028-1-BH-001.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-prelude-in-c-major-op-28-no-1"
+  },
+  {
+   "id": "chopin-op28-2",
+   "composer": "Chopin",
+   "piece": "Chopin – Prelude in A minor, Op. 28 No. 2",
+   "key": "A minor",
+   "set": "chopin|op28|",
+   "setName": "Chopin – Preludes, Op. 28",
+   "movement": "",
+   "measures": 23,
+   "source": "028-1-BH-002.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-prelude-in-a-minor-op-28-no-2"
+  },
+  {
+   "id": "chopin-op28-3",
+   "composer": "Chopin",
+   "piece": "Chopin – Prelude in G major, Op. 28 No. 3",
+   "key": "G major",
+   "set": "chopin|op28|",
+   "setName": "Chopin – Preludes, Op. 28",
+   "movement": "",
+   "measures": 33,
+   "source": "028-1-BH-003.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-prelude-in-g-major-op-28-no-3"
+  },
+  {
+   "id": "chopin-op28-4",
+   "composer": "Chopin",
+   "piece": "Chopin – Prelude in E minor, Op. 28 No. 4",
+   "key": "E minor",
+   "set": "chopin|op28|",
+   "setName": "Chopin – Preludes, Op. 28",
+   "movement": "",
+   "measures": 25,
+   "source": "028-1-BH-004.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-prelude-in-e-minor-op-28-no-4"
+  },
+  {
+   "id": "chopin-op28-5",
+   "composer": "Chopin",
+   "piece": "Chopin – Prelude in D major, Op. 28 No. 5",
+   "key": "D major",
+   "set": "chopin|op28|",
+   "setName": "Chopin – Preludes, Op. 28",
+   "movement": "",
+   "measures": 39,
+   "source": "028-1-BH-005.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-prelude-in-d-major-op-28-no-5"
+  },
+  {
+   "id": "chopin-op28-6",
+   "composer": "Chopin",
+   "piece": "Chopin – Prelude in B minor, Op. 28 No. 6",
+   "key": "B minor",
+   "set": "chopin|op28|",
+   "setName": "Chopin – Preludes, Op. 28",
+   "movement": "",
+   "measures": 26,
+   "source": "028-1-BH-006.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-prelude-in-b-minor-op-28-no-6"
+  },
+  {
+   "id": "chopin-op28-7",
+   "composer": "Chopin",
+   "piece": "Chopin – Prelude in A major, Op. 28 No. 7",
+   "key": "A major",
+   "set": "chopin|op28|",
+   "setName": "Chopin – Preludes, Op. 28",
+   "movement": "",
+   "measures": 16,
+   "source": "028-1-BH-007.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-prelude-in-a-major-op-28-no-7"
+  },
+  {
+   "id": "chopin-op28-8",
+   "composer": "Chopin",
+   "piece": "Chopin – Prelude in F-sharp minor, Op. 28 No. 8",
+   "key": "F-sharp minor",
+   "set": "chopin|op28|",
+   "setName": "Chopin – Preludes, Op. 28",
+   "movement": "",
+   "measures": 34,
+   "source": "028-1-BH-008.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-prelude-in-f-sharp-minor-op-28-no-8"
+  },
+  {
+   "id": "chopin-op28-9",
+   "composer": "Chopin",
+   "piece": "Chopin – Prelude in E major, Op. 28 No. 9",
+   "key": "E major",
+   "set": "chopin|op28|",
+   "setName": "Chopin – Preludes, Op. 28",
+   "movement": "",
+   "measures": 12,
+   "source": "028-1-BH-009.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-prelude-in-e-major-op-28-no-9"
+  },
+  {
+   "id": "chopin-op28-10",
+   "composer": "Chopin",
+   "piece": "Chopin – Prelude in C-sharp minor, Op. 28 No. 10",
+   "key": "C-sharp minor",
+   "set": "chopin|op28|",
+   "setName": "Chopin – Preludes, Op. 28",
+   "movement": "",
+   "measures": 18,
+   "source": "028-1-BH-010.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-prelude-in-c-sharp-minor-op-28-no-10"
+  },
+  {
+   "id": "chopin-op28-11",
+   "composer": "Chopin",
+   "piece": "Chopin – Prelude in B major, Op. 28 No. 11",
+   "key": "B major",
+   "set": "chopin|op28|",
+   "setName": "Chopin – Preludes, Op. 28",
+   "movement": "",
+   "measures": 27,
+   "source": "028-1-BH-011.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-prelude-in-b-major-op-28-no-11"
+  },
+  {
+   "id": "chopin-op28-12",
+   "composer": "Chopin",
+   "piece": "Chopin – Prelude in B major, Op. 28 No. 12",
+   "key": "B major",
+   "set": "chopin|op28|",
+   "setName": "Chopin – Preludes, Op. 28",
+   "movement": "",
+   "measures": 79,
+   "source": "028-1-BH-012.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-prelude-in-b-major-op-28-no-12"
+  },
+  {
+   "id": "chopin-op28-13",
+   "composer": "Chopin",
+   "piece": "Chopin – Prelude in F-sharp major, Op. 28 No. 13",
+   "key": "F-sharp major",
+   "set": "chopin|op28|",
+   "setName": "Chopin – Preludes, Op. 28",
+   "movement": "",
+   "measures": 38,
+   "source": "028-1-BH-013.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-prelude-in-f-sharp-major-op-28-no-13"
+  },
+  {
+   "id": "chopin-op28-14",
+   "composer": "Chopin",
+   "piece": "Chopin – Prelude in E-flat minor, Op. 28 No. 14",
+   "key": "E-flat minor",
+   "set": "chopin|op28|",
+   "setName": "Chopin – Preludes, Op. 28",
+   "movement": "",
+   "measures": 19,
+   "source": "028-1-BH-014.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-prelude-in-e-flat-minor-op-28-no-14"
+  },
+  {
+   "id": "chopin-op28-15",
+   "composer": "Chopin",
+   "piece": "Chopin – Prelude in D-flat major, Op. 28 No. 15",
+   "key": "D-flat major",
+   "set": "chopin|op28|",
+   "setName": "Chopin – Preludes, Op. 28",
+   "movement": "",
+   "measures": 88,
+   "source": "028-1-BH-015.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-prelude-in-d-flat-major-op-28-no-15"
+  },
+  {
+   "id": "chopin-op28-16",
+   "composer": "Chopin",
+   "piece": "Chopin – Prelude in B-flat minor, Op. 28 No. 16",
+   "key": "B-flat minor",
+   "set": "chopin|op28|",
+   "setName": "Chopin – Preludes, Op. 28",
+   "movement": "",
+   "measures": 45,
+   "source": "028-1-BH-016.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-prelude-in-b-flat-minor-op-28-no-16"
+  },
+  {
+   "id": "chopin-op28-17",
+   "composer": "Chopin",
+   "piece": "Chopin – Prelude in A-flat major, Op. 28 No. 17",
+   "key": "A-flat major",
+   "set": "chopin|op28|",
+   "setName": "Chopin – Preludes, Op. 28",
+   "movement": "",
+   "measures": 90,
+   "source": "028-1-BH-017.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-prelude-in-a-flat-major-op-28-no-17"
+  },
+  {
+   "id": "chopin-op28-18",
+   "composer": "Chopin",
+   "piece": "Chopin – Prelude in F minor, Op. 28 No. 18",
+   "key": "F minor",
+   "set": "chopin|op28|",
+   "setName": "Chopin – Preludes, Op. 28",
+   "movement": "",
+   "measures": 21,
+   "source": "028-1-BH-018.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-prelude-in-f-minor-op-28-no-18"
+  },
+  {
+   "id": "chopin-op28-19",
+   "composer": "Chopin",
+   "piece": "Chopin – Prelude in E-flat major, Op. 28 No. 19",
+   "key": "E-flat major",
+   "set": "chopin|op28|",
+   "setName": "Chopin – Preludes, Op. 28",
+   "movement": "",
+   "measures": 71,
+   "source": "028-1-BH-019.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-prelude-in-e-flat-major-op-28-no-19"
+  },
+  {
+   "id": "chopin-op28-20",
+   "composer": "Chopin",
+   "piece": "Chopin – Prelude in C minor, Op. 28 No. 20",
+   "key": "C minor",
+   "set": "chopin|op28|",
+   "setName": "Chopin – Preludes, Op. 28",
+   "movement": "",
+   "measures": 13,
+   "source": "028-1-BH-020.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-prelude-in-c-minor-op-28-no-20"
+  },
+  {
+   "id": "chopin-op28-21",
+   "composer": "Chopin",
+   "piece": "Chopin – Prelude in B-flat major, Op. 28 No. 21",
+   "key": "B-flat major",
+   "set": "chopin|op28|",
+   "setName": "Chopin – Preludes, Op. 28",
+   "movement": "",
+   "measures": 58,
+   "source": "028-1-BH-021.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-prelude-in-b-flat-major-op-28-no-21"
+  },
+  {
+   "id": "chopin-op28-22",
+   "composer": "Chopin",
+   "piece": "Chopin – Prelude in G minor, Op. 28 No. 22",
+   "key": "G minor",
+   "set": "chopin|op28|",
+   "setName": "Chopin – Preludes, Op. 28",
+   "movement": "",
+   "measures": 42,
+   "source": "028-1-BH-022.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-prelude-in-g-minor-op-28-no-22"
+  },
+  {
+   "id": "chopin-op28-23",
+   "composer": "Chopin",
+   "piece": "Chopin – Prelude in F major, Op. 28 No. 23",
+   "key": "F major",
+   "set": "chopin|op28|",
+   "setName": "Chopin – Preludes, Op. 28",
+   "movement": "",
+   "measures": 22,
+   "source": "028-1-BH-023.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-prelude-in-f-major-op-28-no-23"
+  },
+  {
+   "id": "chopin-op28-24",
+   "composer": "Chopin",
+   "piece": "Chopin – Prelude in D minor, Op. 28 No. 24",
+   "key": "D minor",
+   "set": "chopin|op28|",
+   "setName": "Chopin – Preludes, Op. 28",
+   "movement": "",
+   "measures": 77,
+   "source": "028-1-BH-024.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-prelude-in-d-minor-op-28-no-24"
+  },
+  {
+   "id": "chopin-op29",
+   "composer": "Chopin",
+   "piece": "Chopin – Impromptu in A-flat major, Op. 29",
+   "key": "A-flat major",
+   "set": null,
+   "setName": null,
+   "movement": "",
+   "measures": 127,
+   "source": "029-1-BH.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-impromptu-in-a-flat-major-op-29"
+  },
+  {
+   "id": "chopin-op30-1",
+   "composer": "Chopin",
+   "piece": "Chopin – Mazurka in C minor, Op. 30 No. 1",
+   "key": "C minor",
+   "set": "chopin|op30|",
+   "setName": "Chopin – Mazurkas, Op. 30",
+   "movement": "",
+   "measures": 53,
+   "source": "030-1-BH-001.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-mazurka-in-c-minor-op-30-no-1"
+  },
+  {
+   "id": "chopin-op30-2",
+   "composer": "Chopin",
+   "piece": "Chopin – Mazurka in B minor, Op. 30 No. 2",
+   "key": "B minor",
+   "set": "chopin|op30|",
+   "setName": "Chopin – Mazurkas, Op. 30",
+   "movement": "",
+   "measures": 64,
+   "source": "030-1-BH-002.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-mazurka-in-b-minor-op-30-no-2"
+  },
+  {
+   "id": "chopin-op30-3",
+   "composer": "Chopin",
+   "piece": "Chopin – Mazurka in D-flat major, Op. 30 No. 3",
+   "key": "D-flat major",
+   "set": "chopin|op30|",
+   "setName": "Chopin – Mazurkas, Op. 30",
+   "movement": "",
+   "measures": 95,
+   "source": "030-1-BH-003.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-mazurka-in-d-flat-major-op-30-no-3"
+  },
+  {
+   "id": "chopin-op30-4",
+   "composer": "Chopin",
+   "piece": "Chopin – Mazurka in C-sharp minor, Op. 30 No. 4",
+   "key": "C-sharp minor",
+   "set": "chopin|op30|",
+   "setName": "Chopin – Mazurkas, Op. 30",
+   "movement": "",
+   "measures": 139,
+   "source": "030-1-BH-004.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-mazurka-in-c-sharp-minor-op-30-no-4"
+  },
+  {
+   "id": "chopin-op31",
+   "composer": "Chopin",
+   "piece": "Chopin – Scherzo in B-flat minor, Op. 31",
+   "key": "B-flat minor",
+   "set": null,
+   "setName": null,
+   "movement": "",
+   "measures": 780,
+   "source": "031-1-BH.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-scherzo-in-b-flat-minor-op-31"
+  },
+  {
+   "id": "chopin-op32-1",
+   "composer": "Chopin",
+   "piece": "Chopin – Nocturne in B major, Op. 32 No. 1",
+   "key": "B major",
+   "set": "chopin|op32|",
+   "setName": "Chopin – Nocturnes, Op. 32",
+   "movement": "",
+   "measures": 65,
+   "source": "032-1-Sm-001.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-nocturne-in-b-major-op-32-no-1"
+  },
+  {
+   "id": "chopin-op32-2",
+   "composer": "Chopin",
+   "piece": "Chopin – Nocturne in A-flat major, Op. 32 No. 2",
+   "key": "A-flat major",
+   "set": "chopin|op32|",
+   "setName": "Chopin – Nocturnes, Op. 32",
+   "movement": "",
+   "measures": 75,
+   "source": "032-1-Sm-002.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-nocturne-in-a-flat-major-op-32-no-2"
+  },
+  {
+   "id": "chopin-op33-1",
+   "composer": "Chopin",
+   "piece": "Chopin – Mazurka in G-sharp minor, Op. 33 No. 1",
+   "key": "G-sharp minor",
+   "set": "chopin|op33|",
+   "setName": "Chopin – Mazurkas, Op. 33",
+   "movement": "",
+   "measures": 48,
+   "source": "033-1-BH-001.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-mazurka-in-g-sharp-minor-op-33-no-1"
+  },
+  {
+   "id": "chopin-op33-2",
+   "composer": "Chopin",
+   "piece": "Chopin – Mazurka in D major, Op. 33 No. 2",
+   "key": "D major",
+   "set": "chopin|op33|",
+   "setName": "Chopin – Mazurkas, Op. 33",
+   "movement": "",
+   "measures": 135,
+   "source": "033-1-BH-002.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-mazurka-in-d-major-op-33-no-2"
+  },
+  {
+   "id": "chopin-op33-3",
+   "composer": "Chopin",
+   "piece": "Chopin – Mazurka in C major, Op. 33 No. 3",
+   "key": "C major",
+   "set": "chopin|op33|",
+   "setName": "Chopin – Mazurkas, Op. 33",
+   "movement": "",
+   "measures": 32,
+   "source": "033-1-BH-003.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-mazurka-in-c-major-op-33-no-3"
+  },
+  {
+   "id": "chopin-op33-4",
+   "composer": "Chopin",
+   "piece": "Chopin – Mazurka in B minor, Op. 33 No. 4",
+   "key": "B minor",
+   "set": "chopin|op33|",
+   "setName": "Chopin – Mazurkas, Op. 33",
+   "movement": "",
+   "measures": 224,
+   "source": "033-1-BH-004.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-mazurka-in-b-minor-op-33-no-4"
+  },
+  {
+   "id": "chopin-op34-1",
+   "composer": "Chopin",
+   "piece": "Chopin – Waltz in A-flat major, Op. 34 No. 1",
+   "key": "A-flat major",
+   "set": "chopin|op34|",
+   "setName": "Chopin – Waltzes, Op. 34",
+   "movement": "",
+   "measures": 306,
+   "source": "034_1-1-BH.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-waltz-in-a-flat-major-op-34-no-1"
+  },
+  {
+   "id": "chopin-op34-2",
+   "composer": "Chopin",
+   "piece": "Chopin – Waltz in A minor, Op. 34 No. 2",
+   "key": "A minor",
+   "set": "chopin|op34|",
+   "setName": "Chopin – Waltzes, Op. 34",
+   "movement": "",
+   "measures": 204,
+   "source": "034_2-1-BH-002.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-waltz-in-a-minor-op-34-no-2"
+  },
+  {
+   "id": "chopin-op34-3",
+   "composer": "Chopin",
+   "piece": "Chopin – Waltz in F major, Op. 34 No. 3",
+   "key": "F major",
+   "set": "chopin|op34|",
+   "setName": "Chopin – Waltzes, Op. 34",
+   "movement": "",
+   "measures": 173,
+   "source": "034_3-1-BH-003.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-waltz-in-f-major-op-34-no-3"
+  },
+  {
+   "id": "chopin-op35-1",
+   "composer": "Chopin",
+   "piece": "Chopin – Piano Sonata No. 2 in B-flat minor, Op. 35",
+   "key": "B-flat minor",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 1",
+   "measures": 242,
+   "source": "035-1a-TR-001.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-piano-sonata-no-2-in-b-flat-minor-op-35"
+  },
+  {
+   "id": "chopin-op35-2",
+   "composer": "Chopin",
+   "piece": "Chopin – Piano Sonata No. 2 in B-flat minor, Op. 35",
+   "key": "B-flat minor",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 2",
+   "measures": 289,
+   "source": "035-1a-TR-002.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-piano-sonata-no-2-in-b-flat-minor-op-35"
+  },
+  {
+   "id": "chopin-op35-3",
+   "composer": "Chopin",
+   "piece": "Chopin – Piano Sonata No. 2 in B-flat minor, Op. 35",
+   "key": "B minor",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 3",
+   "measures": 85,
+   "source": "035-1a-TR-003.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-piano-sonata-no-2-in-b-flat-minor-op-35"
+  },
+  {
+   "id": "chopin-op35-4",
+   "composer": "Chopin",
+   "piece": "Chopin – Piano Sonata No. 2 in B-flat minor, Op. 35",
+   "key": "B minor",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 4",
+   "measures": 75,
+   "source": "035-1a-TR-004.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-piano-sonata-no-2-in-b-flat-minor-op-35"
+  },
+  {
+   "id": "chopin-op36",
+   "composer": "Chopin",
+   "piece": "Chopin – Impromptu in F-sharp major, Op. 36",
+   "key": "F-sharp major",
+   "set": null,
+   "setName": null,
+   "movement": "",
+   "measures": 110,
+   "source": "036-1-BH-001.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-impromptu-in-f-sharp-major-op-36"
+  },
+  {
+   "id": "chopin-op37-1",
+   "composer": "Chopin",
+   "piece": "Chopin – Nocturne in G minor, Op. 37 No. 1",
+   "key": "G minor",
+   "set": "chopin|op37|",
+   "setName": "Chopin – Nocturnes, Op. 37",
+   "movement": "",
+   "measures": 90,
+   "source": "037-1-BH-001.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-nocturne-in-g-minor-op-37-no-1"
+  },
+  {
+   "id": "chopin-op37-2",
+   "composer": "Chopin",
+   "piece": "Chopin – Nocturne in G major, Op. 37 No. 2",
+   "key": "G major",
+   "set": "chopin|op37|",
+   "setName": "Chopin – Nocturnes, Op. 37",
+   "movement": "",
+   "measures": 140,
+   "source": "037-1-BH-002.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-nocturne-in-g-major-op-37-no-2"
+  },
+  {
+   "id": "chopin-op38",
+   "composer": "Chopin",
+   "piece": "Chopin – Ballade in F major, Op. 38",
+   "key": "F major",
+   "set": null,
+   "setName": null,
+   "movement": "",
+   "measures": 202,
+   "source": "038-1-BH.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-ballade-in-f-major-op-38"
+  },
+  {
+   "id": "chopin-op39",
+   "composer": "Chopin",
+   "piece": "Chopin – Scherzo in C-sharp minor, Op. 39",
+   "key": "C-sharp minor",
+   "set": null,
+   "setName": null,
+   "movement": "",
+   "measures": 649,
+   "source": "039-1-BH.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-scherzo-in-c-sharp-minor-op-39"
+  },
+  {
+   "id": "chopin-op40-1",
+   "composer": "Chopin",
+   "piece": "Chopin – Polonaise in A major, Op. 40 No. 1",
+   "key": "A major",
+   "set": "chopin|op40|",
+   "setName": "Chopin – Polonaises, Op. 40",
+   "movement": "",
+   "measures": 104,
+   "source": "040-1-TR-001.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-polonaise-in-a-major-op-40-no-1"
+  },
+  {
+   "id": "chopin-op40-2",
+   "composer": "Chopin",
+   "piece": "Chopin – Polonaise in C minor, Op. 40 No. 2",
+   "key": "C minor",
+   "set": "chopin|op40|",
+   "setName": "Chopin – Polonaises, Op. 40",
+   "movement": "",
+   "measures": 133,
+   "source": "040-1-TR-002.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-polonaise-in-c-minor-op-40-no-2"
+  },
+  {
+   "id": "chopin-op41-1",
+   "composer": "Chopin",
+   "piece": "Chopin – Mazurka in C-sharp minor, Op. 41 No. 1",
+   "key": "C-sharp minor",
+   "set": "chopin|op41|",
+   "setName": "Chopin – Mazurkas, Op. 41",
+   "movement": "",
+   "measures": 139,
+   "source": "041-1-BH-001.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-mazurka-in-c-sharp-minor-op-41-no-1"
+  },
+  {
+   "id": "chopin-op41-2",
+   "composer": "Chopin",
+   "piece": "Chopin – Mazurka in E minor, Op. 41 No. 2",
+   "key": "E minor",
+   "set": "chopin|op41|",
+   "setName": "Chopin – Mazurkas, Op. 41",
+   "movement": "",
+   "measures": 68,
+   "source": "041-1-BH-002.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-mazurka-in-e-minor-op-41-no-2"
+  },
+  {
+   "id": "chopin-op41-3",
+   "composer": "Chopin",
+   "piece": "Chopin – Mazurka in B major, Op. 41 No. 3",
+   "key": "B major",
+   "set": "chopin|op41|",
+   "setName": "Chopin – Mazurkas, Op. 41",
+   "movement": "",
+   "measures": 78,
+   "source": "041-1-BH-003.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-mazurka-in-b-major-op-41-no-3"
+  },
+  {
+   "id": "chopin-op41-4",
+   "composer": "Chopin",
+   "piece": "Chopin – Mazurka in A-flat major, Op. 41 No. 4",
+   "key": "A-flat major",
+   "set": "chopin|op41|",
+   "setName": "Chopin – Mazurkas, Op. 41",
+   "movement": "",
+   "measures": 74,
+   "source": "041-1-BH-004.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-mazurka-in-a-flat-major-op-41-no-4"
+  },
+  {
+   "id": "chopin-op42",
+   "composer": "Chopin",
+   "piece": "Chopin – Waltz in A-flat major, Op. 42",
+   "key": "A-flat major",
+   "set": null,
+   "setName": null,
+   "movement": "",
+   "measures": 289,
+   "source": "042-1-BH.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-waltz-in-a-flat-major-op-42"
+  },
+  {
+   "id": "chopin-op43",
+   "composer": "Chopin",
+   "piece": "Chopin – Tarantelle in A-flat major, Op. 43",
+   "key": "A-flat major",
+   "set": null,
+   "setName": null,
+   "movement": "",
+   "measures": 270,
+   "source": "043-1-SCHU.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-tarantelle-in-a-flat-major-op-43"
+  },
+  {
+   "id": "chopin-op44",
+   "composer": "Chopin",
+   "piece": "Chopin – Polonaise in F-sharp minor, Op. 44",
+   "key": "F-sharp minor",
+   "set": null,
+   "setName": null,
+   "movement": "",
+   "measures": 326,
+   "source": "044-1-ME.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-polonaise-in-f-sharp-minor-op-44"
+  },
+  {
+   "id": "chopin-op45-1",
+   "composer": "Chopin",
+   "piece": "Chopin – Prelude in C-sharp minor, Op. 45 No. 1",
+   "key": "C-sharp minor",
+   "set": "chopin|op45|",
+   "setName": "Chopin – Preludes, Op. 45",
+   "movement": "",
+   "measures": 91,
+   "source": "045-1a-ME-001.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-prelude-in-c-sharp-minor-op-45-no-1"
+  },
+  {
+   "id": "chopin-op45",
+   "composer": "Chopin",
+   "piece": "Chopin – Prelude in C-sharp minor, Op. 45",
+   "key": "C-sharp minor",
+   "set": null,
+   "setName": null,
+   "movement": "",
+   "measures": 91,
+   "source": "045-2-Sm.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-prelude-in-c-sharp-minor-op-45"
+  },
+  {
+   "id": "chopin-op46",
+   "composer": "Chopin",
+   "piece": "Chopin – Allegro de concert in A major, Op. 46",
+   "key": "A major",
+   "set": null,
+   "setName": null,
+   "movement": "",
+   "measures": 278,
+   "source": "046-1-BH.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-allegro-de-concert-in-a-major-op-46"
+  },
+  {
+   "id": "chopin-op47",
+   "composer": "Chopin",
+   "piece": "Chopin – Ballade in A-flat major, Op. 47",
+   "key": "A-flat major",
+   "set": null,
+   "setName": null,
+   "movement": "",
+   "measures": 238,
+   "source": "047-1-BH.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-ballade-in-a-flat-major-op-47"
+  },
+  {
+   "id": "chopin-op48-1",
+   "composer": "Chopin",
+   "piece": "Chopin – Nocturne in C minor, Op. 48 No. 1",
+   "key": "C minor",
+   "set": "chopin|op48|",
+   "setName": "Chopin – Nocturnes, Op. 48",
+   "movement": "",
+   "measures": 79,
+   "source": "048-1-BH-001.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-nocturne-in-c-minor-op-48-no-1"
+  },
+  {
+   "id": "chopin-op48-2",
+   "composer": "Chopin",
+   "piece": "Chopin – Nocturne in F-sharp minor, Op. 48 No. 2",
+   "key": "F-sharp minor",
+   "set": "chopin|op48|",
+   "setName": "Chopin – Nocturnes, Op. 48",
+   "movement": "",
+   "measures": 137,
+   "source": "048-1-BH-002.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-nocturne-in-f-sharp-minor-op-48-no-2"
+  },
+  {
+   "id": "chopin-op49",
+   "composer": "Chopin",
+   "piece": "Chopin – Fantaisie in F minor, Op. 49",
+   "key": "F minor",
+   "set": null,
+   "setName": null,
+   "movement": "",
+   "measures": 332,
+   "source": "049-1-BH.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-fantaisie-in-f-minor-op-49"
+  },
+  {
+   "id": "chopin-op50-1",
+   "composer": "Chopin",
+   "piece": "Chopin – Mazurka in G major, Op. 50 No. 1",
+   "key": "G major",
+   "set": "chopin|op50|",
+   "setName": "Chopin – Mazurkas, Op. 50",
+   "movement": "",
+   "measures": 104,
+   "source": "050-1-ME-001.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-mazurka-in-g-major-op-50-no-1"
+  },
+  {
+   "id": "chopin-op50-2",
+   "composer": "Chopin",
+   "piece": "Chopin – Mazurka in A-flat major, Op. 50 No. 2",
+   "key": "A-flat major",
+   "set": "chopin|op50|",
+   "setName": "Chopin – Mazurkas, Op. 50",
+   "movement": "",
+   "measures": 103,
+   "source": "050-1-ME-002.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-mazurka-in-a-flat-major-op-50-no-2"
+  },
+  {
+   "id": "chopin-op50-3",
+   "composer": "Chopin",
+   "piece": "Chopin – Mazurka in C-sharp minor, Op. 50 No. 3",
+   "key": "C-sharp minor",
+   "set": "chopin|op50|",
+   "setName": "Chopin – Mazurkas, Op. 50",
+   "movement": "",
+   "measures": 192,
+   "source": "050-1-ME-003.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-mazurka-in-c-sharp-minor-op-50-no-3"
+  },
+  {
+   "id": "chopin-op51",
+   "composer": "Chopin",
+   "piece": "Chopin – Impromptu in G-flat major, Op. 51",
+   "key": "G-flat major",
+   "set": null,
+   "setName": null,
+   "movement": "",
+   "measures": 103,
+   "source": "051-1-HO.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-impromptu-in-g-flat-major-op-51"
+  },
+  {
+   "id": "chopin-op52",
+   "composer": "Chopin",
+   "piece": "Chopin – Ballade in F minor, Op. 52",
+   "key": "F minor",
+   "set": null,
+   "setName": null,
+   "movement": "",
+   "measures": 239,
+   "source": "052-1-BH.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-ballade-in-f-minor-op-52"
+  },
+  {
+   "id": "chopin-op53",
+   "composer": "Chopin",
+   "piece": "Chopin – Polonaise in A-flat major, Op. 53",
+   "key": "A-flat major",
+   "set": null,
+   "setName": null,
+   "movement": "",
+   "measures": 181,
+   "source": "053-1-BH.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-polonaise-in-a-flat-major-op-53"
+  },
+  {
+   "id": "chopin-op54",
+   "composer": "Chopin",
+   "piece": "Chopin – Scherzo in E major, Op. 54",
+   "key": "E major",
+   "set": null,
+   "setName": null,
+   "movement": "",
+   "measures": 962,
+   "source": "054-1-BH.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-scherzo-in-e-major-op-54"
+  },
+  {
+   "id": "chopin-op55-1",
+   "composer": "Chopin",
+   "piece": "Chopin – Nocturne in F minor, Op. 55 No. 1",
+   "key": "F minor",
+   "set": "chopin|op55|",
+   "setName": "Chopin – Nocturnes, Op. 55",
+   "movement": "",
+   "measures": 101,
+   "source": "055-1-BH-001.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-nocturne-in-f-minor-op-55-no-1"
+  },
+  {
+   "id": "chopin-op55-2",
+   "composer": "Chopin",
+   "piece": "Chopin – Nocturne in E-flat major, Op. 55 No. 2",
+   "key": "E-flat major",
+   "set": "chopin|op55|",
+   "setName": "Chopin – Nocturnes, Op. 55",
+   "movement": "",
+   "measures": 67,
+   "source": "055-1-BH-002.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-nocturne-in-e-flat-major-op-55-no-2"
+  },
+  {
+   "id": "chopin-op56-1",
+   "composer": "Chopin",
+   "piece": "Chopin – Mazurka in B major, Op. 56 No. 1",
+   "key": "B major",
+   "set": "chopin|op56|",
+   "setName": "Chopin – Mazurkas, Op. 56",
+   "movement": "",
+   "measures": 203,
+   "source": "056-1-BH-001.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-mazurka-in-b-major-op-56-no-1"
+  },
+  {
+   "id": "chopin-op56-2",
+   "composer": "Chopin",
+   "piece": "Chopin – Mazurka in C major, Op. 56 No. 2",
+   "key": "C major",
+   "set": "chopin|op56|",
+   "setName": "Chopin – Mazurkas, Op. 56",
+   "movement": "",
+   "measures": 84,
+   "source": "056-1-BH-002.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-mazurka-in-c-major-op-56-no-2"
+  },
+  {
+   "id": "chopin-op56-3",
+   "composer": "Chopin",
+   "piece": "Chopin – Mazurka in C minor, Op. 56 No. 3",
+   "key": "C minor",
+   "set": "chopin|op56|",
+   "setName": "Chopin – Mazurkas, Op. 56",
+   "movement": "",
+   "measures": 220,
+   "source": "056-1-BH-003.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-mazurka-in-c-minor-op-56-no-3"
+  },
+  {
+   "id": "chopin-op57",
+   "composer": "Chopin",
+   "piece": "Chopin – Berceuse in D-flat major, Op. 57",
+   "key": "D-flat major",
+   "set": null,
+   "setName": null,
+   "movement": "",
+   "measures": 70,
+   "source": "057-1a-MEIj.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-berceuse-in-d-flat-major-op-57"
+  },
+  {
+   "id": "chopin-op58-1",
+   "composer": "Chopin",
+   "piece": "Chopin – Piano Sonata No. 3 in B minor, Op. 58",
+   "key": "B minor",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 1",
+   "measures": 204,
+   "source": "058-1-BH-001.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-piano-sonata-no-3-in-b-minor-op-58"
+  },
+  {
+   "id": "chopin-op58-2",
+   "composer": "Chopin",
+   "piece": "Chopin – Piano Sonata No. 3 in B minor, Op. 58",
+   "key": "E-flat major",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 2",
+   "measures": 216,
+   "source": "058-1-BH-002.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-piano-sonata-no-3-in-b-minor-op-58"
+  },
+  {
+   "id": "chopin-op58-3",
+   "composer": "Chopin",
+   "piece": "Chopin – Piano Sonata No. 3 in B minor, Op. 58",
+   "key": "B major",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 3",
+   "measures": 120,
+   "source": "058-1-BH-003.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-piano-sonata-no-3-in-b-minor-op-58"
+  },
+  {
+   "id": "chopin-op58-4",
+   "composer": "Chopin",
+   "piece": "Chopin – Piano Sonata No. 3 in B minor, Op. 58",
+   "key": "",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 4",
+   "measures": 286,
+   "source": "058-1-BH-004.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-piano-sonata-no-3-in-b-minor-op-58"
+  },
+  {
+   "id": "chopin-op59-1",
+   "composer": "Chopin",
+   "piece": "Chopin – Mazurka in A minor, Op. 59 No. 1",
+   "key": "A minor",
+   "set": "chopin|op59|",
+   "setName": "Chopin – Mazurkas, Op. 59",
+   "movement": "",
+   "measures": 127,
+   "source": "059-1-BR-001.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-mazurka-in-a-minor-op-59-no-1"
+  },
+  {
+   "id": "chopin-op59-2",
+   "composer": "Chopin",
+   "piece": "Chopin – Mazurka in A-flat major, Op. 59 No. 2",
+   "key": "A-flat major",
+   "set": "chopin|op59|",
+   "setName": "Chopin – Mazurkas, Op. 59",
+   "movement": "",
+   "measures": 111,
+   "source": "059-1-BR-002.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-mazurka-in-a-flat-major-op-59-no-2"
+  },
+  {
+   "id": "chopin-op59-3",
+   "composer": "Chopin",
+   "piece": "Chopin – Mazurka in F-sharp minor, Op. 59 No. 3",
+   "key": "F-sharp minor",
+   "set": "chopin|op59|",
+   "setName": "Chopin – Mazurkas, Op. 59",
+   "movement": "",
+   "measures": 154,
+   "source": "059-1-BR-003.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-mazurka-in-f-sharp-minor-op-59-no-3"
+  },
+  {
+   "id": "chopin-op60",
+   "composer": "Chopin",
+   "piece": "Chopin – Barcarolle in F-sharp major, Op. 60",
+   "key": "F-sharp major",
+   "set": null,
+   "setName": null,
+   "movement": "",
+   "measures": 116,
+   "source": "060-1-BH.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-barcarolle-in-f-sharp-major-op-60"
+  },
+  {
+   "id": "chopin-op60",
+   "composer": "Chopin",
+   "piece": "Chopin – Barcarolle in F-sharp major, Op. 60",
+   "key": "F-sharp major",
+   "set": null,
+   "setName": null,
+   "movement": "",
+   "measures": 116,
+   "source": "060-1-BR-001.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-barcarolle-in-f-sharp-major-op-60"
+  },
+  {
+   "id": "chopin-op61",
+   "composer": "Chopin",
+   "piece": "Chopin – Polonaise-Fantaisie in A-flat major, Op. 61",
+   "key": "A-flat major",
+   "set": null,
+   "setName": null,
+   "movement": "",
+   "measures": 288,
+   "source": "061-1-BH.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-polonaise-fantaisie-in-a-flat-major-op-61"
+  },
+  {
+   "id": "chopin-op62-1",
+   "composer": "Chopin",
+   "piece": "Chopin – Nocturne in B major, Op. 62 No. 1",
+   "key": "B major",
+   "set": "chopin|op62|",
+   "setName": "Chopin – Nocturnes, Op. 62",
+   "movement": "",
+   "measures": 92,
+   "source": "062-1-BH-001.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-nocturne-in-b-major-op-62-no-1"
+  },
+  {
+   "id": "chopin-op62-2",
+   "composer": "Chopin",
+   "piece": "Chopin – Nocturne in E major, Op. 62 No. 2",
+   "key": "E major",
+   "set": "chopin|op62|",
+   "setName": "Chopin – Nocturnes, Op. 62",
+   "movement": "",
+   "measures": 81,
+   "source": "062-1-BH-002.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-nocturne-in-e-major-op-62-no-2"
+  },
+  {
+   "id": "chopin-op63-1",
+   "composer": "Chopin",
+   "piece": "Chopin – Mazurka in B major, Op. 63 No. 1",
+   "key": "B major",
+   "set": "chopin|op63|",
+   "setName": "Chopin – Mazurkas, Op. 63",
+   "movement": "",
+   "measures": 102,
+   "source": "063-1-BH-001.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-mazurka-in-b-major-op-63-no-1"
+  },
+  {
+   "id": "chopin-op63-2",
+   "composer": "Chopin",
+   "piece": "Chopin – Mazurka in F minor, Op. 63 No. 2",
+   "key": "F minor",
+   "set": "chopin|op63|",
+   "setName": "Chopin – Mazurkas, Op. 63",
+   "movement": "",
+   "measures": 56,
+   "source": "063-1-BH-002.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-mazurka-in-f-minor-op-63-no-2"
+  },
+  {
+   "id": "chopin-op63-3",
+   "composer": "Chopin",
+   "piece": "Chopin – Mazurka in C-sharp minor, Op. 63 No. 3",
+   "key": "C-sharp minor",
+   "set": "chopin|op63|",
+   "setName": "Chopin – Mazurkas, Op. 63",
+   "movement": "",
+   "measures": 76,
+   "source": "063-1-BH-003.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-mazurka-in-c-sharp-minor-op-63-no-3"
+  },
+  {
+   "id": "chopin-op64-1",
+   "composer": "Chopin",
+   "piece": "Chopin – Waltz in D-flat major, Op. 64 No. 1",
+   "key": "D-flat major",
+   "set": "chopin|op64|",
+   "setName": "Chopin – Waltzes, Op. 64",
+   "movement": "",
+   "measures": 125,
+   "source": "064-1a-BH-001.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-waltz-in-d-flat-major-op-64-no-1"
+  },
+  {
+   "id": "chopin-op64-2",
+   "composer": "Chopin",
+   "piece": "Chopin – Waltz in C-sharp minor, Op. 64 No. 2",
+   "key": "C-sharp minor",
+   "set": "chopin|op64|",
+   "setName": "Chopin – Waltzes, Op. 64",
+   "movement": "",
+   "measures": 191,
+   "source": "064-1a-BH-002.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-waltz-in-c-sharp-minor-op-64-no-2"
+  },
+  {
+   "id": "chopin-op64-3",
+   "composer": "Chopin",
+   "piece": "Chopin – Waltz in A-flat major, Op. 64 No. 3",
+   "key": "A-flat major",
+   "set": "chopin|op64|",
+   "setName": "Chopin – Waltzes, Op. 64",
+   "movement": "",
+   "measures": 171,
+   "source": "064-1a-BH-003.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-waltz-in-a-flat-major-op-64-no-3"
+  },
+  {
+   "id": "chopin-op66",
+   "composer": "Chopin",
+   "piece": "Chopin – Fantaisie-Impromptu in C-sharp minor, Op. 66",
+   "key": "C-sharp minor",
+   "set": null,
+   "setName": null,
+   "movement": "",
+   "measures": 138,
+   "source": "066-1-Sam.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-fantaisie-impromptu-in-c-sharp-minor-op-66"
+  },
+  {
+   "id": "chopin-op67-1",
+   "composer": "Chopin",
+   "piece": "Chopin – Mazurka in G major, Op. 67 No. 1",
+   "key": "G major",
+   "set": "chopin|op67|",
+   "setName": "Chopin – Mazurkas, Op. 67",
+   "movement": "",
+   "measures": 60,
+   "source": "067-1-Sam-001.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-mazurka-in-g-major-op-67-no-1"
+  },
+  {
+   "id": "chopin-op67-2",
+   "composer": "Chopin",
+   "piece": "Chopin – Mazurka in G minor, Op. 67 No. 2",
+   "key": "G minor",
+   "set": "chopin|op67|",
+   "setName": "Chopin – Mazurkas, Op. 67",
+   "movement": "",
+   "measures": 56,
+   "source": "067-1-Sam-002.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-mazurka-in-g-minor-op-67-no-2"
+  },
+  {
+   "id": "chopin-op67-3",
+   "composer": "Chopin",
+   "piece": "Chopin – Mazurka in C major, Op. 67 No. 3",
+   "key": "C major",
+   "set": "chopin|op67|",
+   "setName": "Chopin – Mazurkas, Op. 67",
+   "movement": "",
+   "measures": 56,
+   "source": "067-1-Sam-003.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-mazurka-in-c-major-op-67-no-3"
+  },
+  {
+   "id": "chopin-op67-4",
+   "composer": "Chopin",
+   "piece": "Chopin – Mazurka in A minor, Op. 67 No. 4",
+   "key": "A minor",
+   "set": "chopin|op67|",
+   "setName": "Chopin – Mazurkas, Op. 67",
+   "movement": "",
+   "measures": 82,
+   "source": "067-1-Sam-004.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-mazurka-in-a-minor-op-67-no-4"
+  },
+  {
+   "id": "chopin-op68-1",
+   "composer": "Chopin",
+   "piece": "Chopin – Mazurka in C major, Op. 68 No. 1",
+   "key": "C major",
+   "set": "chopin|op68|",
+   "setName": "Chopin – Mazurkas, Op. 68",
+   "movement": "",
+   "measures": 73,
+   "source": "068-1-MEIf-001.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-mazurka-in-c-major-op-68-no-1"
+  },
+  {
+   "id": "chopin-op68-2",
+   "composer": "Chopin",
+   "piece": "Chopin – Mazurka in A minor, Op. 68 No. 2",
+   "key": "A minor",
+   "set": "chopin|op68|",
+   "setName": "Chopin – Mazurkas, Op. 68",
+   "movement": "",
+   "measures": 65,
+   "source": "068-1-MEIf-002.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-mazurka-in-a-minor-op-68-no-2"
+  },
+  {
+   "id": "chopin-op68-3",
+   "composer": "Chopin",
+   "piece": "Chopin – Mazurka in F major, Op. 68 No. 3",
+   "key": "F major",
+   "set": "chopin|op68|",
+   "setName": "Chopin – Mazurkas, Op. 68",
+   "movement": "",
+   "measures": 60,
+   "source": "068-1-MEIf-003.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-mazurka-in-f-major-op-68-no-3"
+  },
+  {
+   "id": "chopin-op68-4",
+   "composer": "Chopin",
+   "piece": "Chopin – Mazurka in F minor, Op. 68 No. 4",
+   "key": "F minor",
+   "set": "chopin|op68|",
+   "setName": "Chopin – Mazurkas, Op. 68",
+   "movement": "",
+   "measures": 40,
+   "source": "068-1-MEIf-004.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-mazurka-in-f-minor-op-68-no-4"
+  },
+  {
+   "id": "chopin-op69-1",
+   "composer": "Chopin",
+   "piece": "Chopin – Waltz in A-flat major, Op. 69 No. 1",
+   "key": "A-flat major",
+   "set": "chopin|op69|",
+   "setName": "Chopin – Waltzes, Op. 69",
+   "movement": "",
+   "measures": 129,
+   "source": "069-1-MEIf-001.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-waltz-in-a-flat-major-op-69-no-1"
+  },
+  {
+   "id": "chopin-op69-2",
+   "composer": "Chopin",
+   "piece": "Chopin – Waltz in B minor, Op. 69 No. 2",
+   "key": "B minor",
+   "set": "chopin|op69|",
+   "setName": "Chopin – Waltzes, Op. 69",
+   "movement": "",
+   "measures": 176,
+   "source": "069-1-MEIf-002.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-waltz-in-b-minor-op-69-no-2"
+  },
+  {
+   "id": "chopin-op70-1",
+   "composer": "Chopin",
+   "piece": "Chopin – Waltz in G-flat major, Op. 70 No. 1",
+   "key": "G-flat major",
+   "set": "chopin|op70|",
+   "setName": "Chopin – Waltzes, Op. 70",
+   "movement": "",
+   "measures": 96,
+   "source": "070-1-MEIf-001.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-waltz-in-g-flat-major-op-70-no-1"
+  },
+  {
+   "id": "chopin-op70-2",
+   "composer": "Chopin",
+   "piece": "Chopin – Waltz in F minor, Op. 70 No. 2",
+   "key": "F minor",
+   "set": "chopin|op70|",
+   "setName": "Chopin – Waltzes, Op. 70",
+   "movement": "",
+   "measures": 124,
+   "source": "070-1-MEIf-002.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-waltz-in-f-minor-op-70-no-2"
+  },
+  {
+   "id": "chopin-op70-3",
+   "composer": "Chopin",
+   "piece": "Chopin – Waltz in D-flat major, Op. 70 No. 3",
+   "key": "D-flat major",
+   "set": "chopin|op70|",
+   "setName": "Chopin – Waltzes, Op. 70",
+   "movement": "",
+   "measures": 74,
+   "source": "070-1-MEIf-003.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-waltz-in-d-flat-major-op-70-no-3"
+  },
+  {
+   "id": "chopin-op71-1",
+   "composer": "Chopin",
+   "piece": "Chopin – Polonaise in D minor, Op. 71 No. 1",
+   "key": "D minor",
+   "set": null,
+   "setName": null,
+   "movement": "",
+   "measures": 142,
+   "source": "071_1-1-MEIf.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-polonaise-in-d-minor-op-71-no-1"
+  },
+  {
+   "id": "chopin-op72-1",
+   "composer": "Chopin",
+   "piece": "Chopin – Nocturne in E minor, Op. 72 No. 1",
+   "key": "E minor",
+   "set": null,
+   "setName": null,
+   "movement": "",
+   "measures": 57,
+   "source": "072-1-MEIf-001-nocturne.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-nocturne-in-e-minor-op-72-no-1"
+  },
+  {
+   "id": "chopin-op72-2",
+   "composer": "Chopin",
+   "piece": "Chopin – Funeral March in C minor, Op. 72 No. 2",
+   "key": "C minor",
+   "set": null,
+   "setName": null,
+   "movement": "",
+   "measures": 76,
+   "source": "072-1-MEIf-002-marche-funebre.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-funeral-march-in-c-minor-op-72-no-2"
+  },
+  {
+   "id": "chopin-op72-3",
+   "composer": "Chopin",
+   "piece": "Chopin – Écossaise in D major, Op. 72 No. 3/1",
+   "key": "D major",
+   "set": "chopin|op72|3",
+   "setName": "Chopin – Three Écossaises, Op. 72 No. 3",
+   "movement": "",
+   "measures": 26,
+   "source": "072-1-MEIf-003-ecossaise.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-cossaise-in-d-major-op-72-no-3-1"
+  },
+  {
+   "id": "chopin-op72-4",
+   "composer": "Chopin",
+   "piece": "Chopin – Écossaise in G major, Op. 72 No. 3/2",
+   "key": "G major",
+   "set": "chopin|op72|3",
+   "setName": "Chopin – Three Écossaises, Op. 72 No. 3",
+   "movement": "",
+   "measures": 18,
+   "source": "072-1-MEIf-004-ecossaise.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-cossaise-in-g-major-op-72-no-3-2"
+  },
+  {
+   "id": "chopin-op72-5",
+   "composer": "Chopin",
+   "piece": "Chopin – Écossaise in D-flat major, Op. 72 No. 3/3",
+   "key": "D-flat major",
+   "set": "chopin|op72|3",
+   "setName": "Chopin – Three Écossaises, Op. 72 No. 3",
+   "movement": "",
+   "measures": 17,
+   "source": "072-1-MEIf-005.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-cossaise-in-d-flat-major-op-72-no-3-3"
+  },
+  {
+   "id": "chopin-op73",
+   "composer": "Chopin",
+   "piece": "Chopin – Rondo in C major, Op. 73",
+   "key": "C major",
+   "set": null,
+   "setName": null,
+   "movement": "",
+   "measures": 408,
+   "source": "073-1-MEIf-piano-secondo.krn",
+   "license": "CC BY 4.0",
+   "by": "The Fryderyk Chopin Institute, Chopin's first editions (github.com/pl-wnifc/humdrum-chopin-first-editions)",
+   "answerKey": "chopin-rondo-in-c-major-op-73"
+  },
+  {
+   "id": "mozart-sonata01-1",
+   "composer": "Mozart",
+   "piece": "Mozart – Piano Sonata No. 1 in C major, K. 279",
+   "key": "C major",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 1",
+   "measures": 100,
+   "source": "sonata01-1.krn",
+   "license": "CC BY-NC-SA 4.0",
+   "by": "Craig Stuart Sapp, Mozart piano sonatas (github.com/craigsapp/mozart-piano-sonatas)",
+   "answerKey": "mozart-piano-sonata-no-1-in-c-major-k-279"
+  },
+  {
+   "id": "mozart-sonata01-2",
+   "composer": "Mozart",
+   "piece": "Mozart – Piano Sonata No. 1 in C major, K. 279",
+   "key": "F major",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 2",
+   "measures": 74,
+   "source": "sonata01-2.krn",
+   "license": "CC BY-NC-SA 4.0",
+   "by": "Craig Stuart Sapp, Mozart piano sonatas (github.com/craigsapp/mozart-piano-sonatas)",
+   "answerKey": "mozart-piano-sonata-no-1-in-c-major-k-279"
+  },
+  {
+   "id": "mozart-sonata01-3",
+   "composer": "Mozart",
+   "piece": "Mozart – Piano Sonata No. 1 in C major, K. 279",
+   "key": "C major",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 3",
+   "measures": 158,
+   "source": "sonata01-3.krn",
+   "license": "CC BY-NC-SA 4.0",
+   "by": "Craig Stuart Sapp, Mozart piano sonatas (github.com/craigsapp/mozart-piano-sonatas)",
+   "answerKey": "mozart-piano-sonata-no-1-in-c-major-k-279"
+  },
+  {
+   "id": "mozart-sonata02-1",
+   "composer": "Mozart",
+   "piece": "Mozart – Piano Sonata No. 2 in F major, K. 280",
+   "key": "F major",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 1",
+   "measures": 144,
+   "source": "sonata02-1.krn",
+   "license": "CC BY-NC-SA 4.0",
+   "by": "Craig Stuart Sapp, Mozart piano sonatas (github.com/craigsapp/mozart-piano-sonatas)",
+   "answerKey": "mozart-piano-sonata-no-2-in-f-major-k-280"
+  },
+  {
+   "id": "mozart-sonata02-2",
+   "composer": "Mozart",
+   "piece": "Mozart – Piano Sonata No. 2 in F major, K. 280",
+   "key": "F minor",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 2",
+   "measures": 60,
+   "source": "sonata02-2.krn",
+   "license": "CC BY-NC-SA 4.0",
+   "by": "Craig Stuart Sapp, Mozart piano sonatas (github.com/craigsapp/mozart-piano-sonatas)",
+   "answerKey": "mozart-piano-sonata-no-2-in-f-major-k-280"
+  },
+  {
+   "id": "mozart-sonata02-3",
+   "composer": "Mozart",
+   "piece": "Mozart – Piano Sonata No. 2 in F major, K. 280",
+   "key": "F major",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 3",
+   "measures": 190,
+   "source": "sonata02-3.krn",
+   "license": "CC BY-NC-SA 4.0",
+   "by": "Craig Stuart Sapp, Mozart piano sonatas (github.com/craigsapp/mozart-piano-sonatas)",
+   "answerKey": "mozart-piano-sonata-no-2-in-f-major-k-280"
+  },
+  {
+   "id": "mozart-sonata03-1",
+   "composer": "Mozart",
+   "piece": "Mozart – Piano Sonata No. 3 in B-flat major, K. 281",
+   "key": "B-flat major",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 1",
+   "measures": 109,
+   "source": "sonata03-1.krn",
+   "license": "CC BY-NC-SA 4.0",
+   "by": "Craig Stuart Sapp, Mozart piano sonatas (github.com/craigsapp/mozart-piano-sonatas)",
+   "answerKey": "mozart-piano-sonata-no-3-in-b-flat-major-k-281"
+  },
+  {
+   "id": "mozart-sonata03-2",
+   "composer": "Mozart",
+   "piece": "Mozart – Piano Sonata No. 3 in B-flat major, K. 281",
+   "key": "E-flat major",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 2",
+   "measures": 106,
+   "source": "sonata03-2.krn",
+   "license": "CC BY-NC-SA 4.0",
+   "by": "Craig Stuart Sapp, Mozart piano sonatas (github.com/craigsapp/mozart-piano-sonatas)",
+   "answerKey": "mozart-piano-sonata-no-3-in-b-flat-major-k-281"
+  },
+  {
+   "id": "mozart-sonata03-3",
+   "composer": "Mozart",
+   "piece": "Mozart – Piano Sonata No. 3 in B-flat major, K. 281",
+   "key": "B-flat major",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 3",
+   "measures": 162,
+   "source": "sonata03-3.krn",
+   "license": "CC BY-NC-SA 4.0",
+   "by": "Craig Stuart Sapp, Mozart piano sonatas (github.com/craigsapp/mozart-piano-sonatas)",
+   "answerKey": "mozart-piano-sonata-no-3-in-b-flat-major-k-281"
+  },
+  {
+   "id": "mozart-sonata04-1",
+   "composer": "Mozart",
+   "piece": "Mozart – Piano Sonata No. 4 in E-flat major, K. 282",
+   "key": "E-flat major",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 1",
+   "measures": 36,
+   "source": "sonata04-1.krn",
+   "license": "CC BY-NC-SA 4.0",
+   "by": "Craig Stuart Sapp, Mozart piano sonatas (github.com/craigsapp/mozart-piano-sonatas)",
+   "answerKey": "mozart-piano-sonata-no-4-in-e-flat-major-k-282"
+  },
+  {
+   "id": "mozart-sonata04-2",
+   "composer": "Mozart",
+   "piece": "Mozart – Piano Sonata No. 4 in E-flat major, K. 282",
+   "key": "B-flat major",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 2",
+   "measures": 72,
+   "source": "sonata04-2.krn",
+   "license": "CC BY-NC-SA 4.0",
+   "by": "Craig Stuart Sapp, Mozart piano sonatas (github.com/craigsapp/mozart-piano-sonatas)",
+   "answerKey": "mozart-piano-sonata-no-4-in-e-flat-major-k-282"
+  },
+  {
+   "id": "mozart-sonata04-3",
+   "composer": "Mozart",
+   "piece": "Mozart – Piano Sonata No. 4 in E-flat major, K. 282",
+   "key": "E-flat major",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 3",
+   "measures": 102,
+   "source": "sonata04-3.krn",
+   "license": "CC BY-NC-SA 4.0",
+   "by": "Craig Stuart Sapp, Mozart piano sonatas (github.com/craigsapp/mozart-piano-sonatas)",
+   "answerKey": "mozart-piano-sonata-no-4-in-e-flat-major-k-282"
+  },
+  {
+   "id": "mozart-sonata05-1",
+   "composer": "Mozart",
+   "piece": "Mozart – Piano Sonata No. 5 in G major, K. 283",
+   "key": "G major",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 1",
+   "measures": 120,
+   "source": "sonata05-1.krn",
+   "license": "CC BY-NC-SA 4.0",
+   "by": "Craig Stuart Sapp, Mozart piano sonatas (github.com/craigsapp/mozart-piano-sonatas)",
+   "answerKey": "mozart-piano-sonata-no-5-in-g-major-k-283"
+  },
+  {
+   "id": "mozart-sonata05-2",
+   "composer": "Mozart",
+   "piece": "Mozart – Piano Sonata No. 5 in G major, K. 283",
+   "key": "C major",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 2",
+   "measures": 41,
+   "source": "sonata05-2.krn",
+   "license": "CC BY-NC-SA 4.0",
+   "by": "Craig Stuart Sapp, Mozart piano sonatas (github.com/craigsapp/mozart-piano-sonatas)",
+   "answerKey": "mozart-piano-sonata-no-5-in-g-major-k-283"
+  },
+  {
+   "id": "mozart-sonata05-3",
+   "composer": "Mozart",
+   "piece": "Mozart – Piano Sonata No. 5 in G major, K. 283",
+   "key": "G major",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 3",
+   "measures": 277,
+   "source": "sonata05-3.krn",
+   "license": "CC BY-NC-SA 4.0",
+   "by": "Craig Stuart Sapp, Mozart piano sonatas (github.com/craigsapp/mozart-piano-sonatas)",
+   "answerKey": "mozart-piano-sonata-no-5-in-g-major-k-283"
+  },
+  {
+   "id": "mozart-sonata06-1",
+   "composer": "Mozart",
+   "piece": "Mozart – Piano Sonata No. 6 in D major, K. 284",
+   "key": "D major",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 1",
+   "measures": 127,
+   "source": "sonata06-1.krn",
+   "license": "CC BY-NC-SA 4.0",
+   "by": "Craig Stuart Sapp, Mozart piano sonatas (github.com/craigsapp/mozart-piano-sonatas)",
+   "answerKey": "mozart-piano-sonata-no-6-in-d-major-k-284"
+  },
+  {
+   "id": "mozart-sonata06-2",
+   "composer": "Mozart",
+   "piece": "Mozart – Piano Sonata No. 6 in D major, K. 284",
+   "key": "A major",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 2",
+   "measures": 92,
+   "source": "sonata06-2.krn",
+   "license": "CC BY-NC-SA 4.0",
+   "by": "Craig Stuart Sapp, Mozart piano sonatas (github.com/craigsapp/mozart-piano-sonatas)",
+   "answerKey": "mozart-piano-sonata-no-6-in-d-major-k-284"
+  },
+  {
+   "id": "mozart-sonata06-3a",
+   "composer": "Mozart",
+   "piece": "Mozart – Piano Sonata No. 6 in D major, K. 284",
+   "key": "D major",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 3a",
+   "measures": 17,
+   "source": "sonata06-3a.krn",
+   "license": "CC BY-NC-SA 4.0",
+   "by": "Craig Stuart Sapp, Mozart piano sonatas (github.com/craigsapp/mozart-piano-sonatas)",
+   "answerKey": "mozart-piano-sonata-no-6-in-d-major-k-284"
+  },
+  {
+   "id": "mozart-sonata06-3b",
+   "composer": "Mozart",
+   "piece": "Mozart – Piano Sonata No. 6 in D major, K. 284",
+   "key": "D major",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 3b",
+   "measures": 17,
+   "source": "sonata06-3b.krn",
+   "license": "CC BY-NC-SA 4.0",
+   "by": "Craig Stuart Sapp, Mozart piano sonatas (github.com/craigsapp/mozart-piano-sonatas)",
+   "answerKey": "mozart-piano-sonata-no-6-in-d-major-k-284"
+  },
+  {
+   "id": "mozart-sonata06-3c",
+   "composer": "Mozart",
+   "piece": "Mozart – Piano Sonata No. 6 in D major, K. 284",
+   "key": "D major",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 3c",
+   "measures": 17,
+   "source": "sonata06-3c.krn",
+   "license": "CC BY-NC-SA 4.0",
+   "by": "Craig Stuart Sapp, Mozart piano sonatas (github.com/craigsapp/mozart-piano-sonatas)",
+   "answerKey": "mozart-piano-sonata-no-6-in-d-major-k-284"
+  },
+  {
+   "id": "mozart-sonata06-3d",
+   "composer": "Mozart",
+   "piece": "Mozart – Piano Sonata No. 6 in D major, K. 284",
+   "key": "D major",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 3d",
+   "measures": 17,
+   "source": "sonata06-3d.krn",
+   "license": "CC BY-NC-SA 4.0",
+   "by": "Craig Stuart Sapp, Mozart piano sonatas (github.com/craigsapp/mozart-piano-sonatas)",
+   "answerKey": "mozart-piano-sonata-no-6-in-d-major-k-284"
+  },
+  {
+   "id": "mozart-sonata06-3e",
+   "composer": "Mozart",
+   "piece": "Mozart – Piano Sonata No. 6 in D major, K. 284",
+   "key": "D major",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 3e",
+   "measures": 17,
+   "source": "sonata06-3e.krn",
+   "license": "CC BY-NC-SA 4.0",
+   "by": "Craig Stuart Sapp, Mozart piano sonatas (github.com/craigsapp/mozart-piano-sonatas)",
+   "answerKey": "mozart-piano-sonata-no-6-in-d-major-k-284"
+  },
+  {
+   "id": "mozart-sonata06-3f",
+   "composer": "Mozart",
+   "piece": "Mozart – Piano Sonata No. 6 in D major, K. 284",
+   "key": "D major",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 3f",
+   "measures": 17,
+   "source": "sonata06-3f.krn",
+   "license": "CC BY-NC-SA 4.0",
+   "by": "Craig Stuart Sapp, Mozart piano sonatas (github.com/craigsapp/mozart-piano-sonatas)",
+   "answerKey": "mozart-piano-sonata-no-6-in-d-major-k-284"
+  },
+  {
+   "id": "mozart-sonata06-3g",
+   "composer": "Mozart",
+   "piece": "Mozart – Piano Sonata No. 6 in D major, K. 284",
+   "key": "D major",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 3g",
+   "measures": 17,
+   "source": "sonata06-3g.krn",
+   "license": "CC BY-NC-SA 4.0",
+   "by": "Craig Stuart Sapp, Mozart piano sonatas (github.com/craigsapp/mozart-piano-sonatas)",
+   "answerKey": "mozart-piano-sonata-no-6-in-d-major-k-284"
+  },
+  {
+   "id": "mozart-sonata06-3h",
+   "composer": "Mozart",
+   "piece": "Mozart – Piano Sonata No. 6 in D major, K. 284",
+   "key": "D minor",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 3h",
+   "measures": 17,
+   "source": "sonata06-3h.krn",
+   "license": "CC BY-NC-SA 4.0",
+   "by": "Craig Stuart Sapp, Mozart piano sonatas (github.com/craigsapp/mozart-piano-sonatas)",
+   "answerKey": "mozart-piano-sonata-no-6-in-d-major-k-284"
+  },
+  {
+   "id": "mozart-sonata06-3i",
+   "composer": "Mozart",
+   "piece": "Mozart – Piano Sonata No. 6 in D major, K. 284",
+   "key": "D major",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 3i",
+   "measures": 17,
+   "source": "sonata06-3i.krn",
+   "license": "CC BY-NC-SA 4.0",
+   "by": "Craig Stuart Sapp, Mozart piano sonatas (github.com/craigsapp/mozart-piano-sonatas)",
+   "answerKey": "mozart-piano-sonata-no-6-in-d-major-k-284"
+  },
+  {
+   "id": "mozart-sonata06-3j",
+   "composer": "Mozart",
+   "piece": "Mozart – Piano Sonata No. 6 in D major, K. 284",
+   "key": "D major",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 3j",
+   "measures": 17,
+   "source": "sonata06-3j.krn",
+   "license": "CC BY-NC-SA 4.0",
+   "by": "Craig Stuart Sapp, Mozart piano sonatas (github.com/craigsapp/mozart-piano-sonatas)",
+   "answerKey": "mozart-piano-sonata-no-6-in-d-major-k-284"
+  },
+  {
+   "id": "mozart-sonata06-3k",
+   "composer": "Mozart",
+   "piece": "Mozart – Piano Sonata No. 6 in D major, K. 284",
+   "key": "D major",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 3k",
+   "measures": 17,
+   "source": "sonata06-3k.krn",
+   "license": "CC BY-NC-SA 4.0",
+   "by": "Craig Stuart Sapp, Mozart piano sonatas (github.com/craigsapp/mozart-piano-sonatas)",
+   "answerKey": "mozart-piano-sonata-no-6-in-d-major-k-284"
+  },
+  {
+   "id": "mozart-sonata06-3l",
+   "composer": "Mozart",
+   "piece": "Mozart – Piano Sonata No. 6 in D major, K. 284",
+   "key": "D major",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 3l",
+   "measures": 34,
+   "source": "sonata06-3l.krn",
+   "license": "CC BY-NC-SA 4.0",
+   "by": "Craig Stuart Sapp, Mozart piano sonatas (github.com/craigsapp/mozart-piano-sonatas)",
+   "answerKey": "mozart-piano-sonata-no-6-in-d-major-k-284"
+  },
+  {
+   "id": "mozart-sonata06-3m",
+   "composer": "Mozart",
+   "piece": "Mozart – Piano Sonata No. 6 in D major, K. 284",
+   "key": "D major",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 3m",
+   "measures": 39,
+   "source": "sonata06-3m.krn",
+   "license": "CC BY-NC-SA 4.0",
+   "by": "Craig Stuart Sapp, Mozart piano sonatas (github.com/craigsapp/mozart-piano-sonatas)",
+   "answerKey": "mozart-piano-sonata-no-6-in-d-major-k-284"
+  },
+  {
+   "id": "mozart-sonata07-1",
+   "composer": "Mozart",
+   "piece": "Mozart – Piano Sonata No. 7 in C major, K. 309",
+   "key": "C major",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 1",
+   "measures": 155,
+   "source": "sonata07-1.krn",
+   "license": "CC BY-NC-SA 4.0",
+   "by": "Craig Stuart Sapp, Mozart piano sonatas (github.com/craigsapp/mozart-piano-sonatas)",
+   "answerKey": "mozart-piano-sonata-no-7-in-c-major-k-309"
+  },
+  {
+   "id": "mozart-sonata07-2",
+   "composer": "Mozart",
+   "piece": "Mozart – Piano Sonata No. 7 in C major, K. 309",
+   "key": "F major",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 2",
+   "measures": 79,
+   "source": "sonata07-2.krn",
+   "license": "CC BY-NC-SA 4.0",
+   "by": "Craig Stuart Sapp, Mozart piano sonatas (github.com/craigsapp/mozart-piano-sonatas)",
+   "answerKey": "mozart-piano-sonata-no-7-in-c-major-k-309"
+  },
+  {
+   "id": "mozart-sonata07-3",
+   "composer": "Mozart",
+   "piece": "Mozart – Piano Sonata No. 7 in C major, K. 309",
+   "key": "C major",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 3",
+   "measures": 252,
+   "source": "sonata07-3.krn",
+   "license": "CC BY-NC-SA 4.0",
+   "by": "Craig Stuart Sapp, Mozart piano sonatas (github.com/craigsapp/mozart-piano-sonatas)",
+   "answerKey": "mozart-piano-sonata-no-7-in-c-major-k-309"
+  },
+  {
+   "id": "mozart-sonata08-1",
+   "composer": "Mozart",
+   "piece": "Mozart – Piano Sonata No. 8 in A minor, K. 310",
+   "key": "A minor",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 1",
+   "measures": 133,
+   "source": "sonata08-1.krn",
+   "license": "CC BY-NC-SA 4.0",
+   "by": "Craig Stuart Sapp, Mozart piano sonatas (github.com/craigsapp/mozart-piano-sonatas)",
+   "answerKey": "mozart-piano-sonata-no-8-in-a-minor-k-310"
+  },
+  {
+   "id": "mozart-sonata08-2",
+   "composer": "Mozart",
+   "piece": "Mozart – Piano Sonata No. 8 in A minor, K. 310",
+   "key": "F major",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 2",
+   "measures": 86,
+   "source": "sonata08-2.krn",
+   "license": "CC BY-NC-SA 4.0",
+   "by": "Craig Stuart Sapp, Mozart piano sonatas (github.com/craigsapp/mozart-piano-sonatas)",
+   "answerKey": "mozart-piano-sonata-no-8-in-a-minor-k-310"
+  },
+  {
+   "id": "mozart-sonata08-3",
+   "composer": "Mozart",
+   "piece": "Mozart – Piano Sonata No. 8 in A minor, K. 310",
+   "key": "A minor",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 3",
+   "measures": 253,
+   "source": "sonata08-3.krn",
+   "license": "CC BY-NC-SA 4.0",
+   "by": "Craig Stuart Sapp, Mozart piano sonatas (github.com/craigsapp/mozart-piano-sonatas)",
+   "answerKey": "mozart-piano-sonata-no-8-in-a-minor-k-310"
+  },
+  {
+   "id": "mozart-sonata09-1",
+   "composer": "Mozart",
+   "piece": "Mozart – Piano Sonata No. 9 in D major, K. 311",
+   "key": "D major",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 1",
+   "measures": 112,
+   "source": "sonata09-1.krn",
+   "license": "CC BY-NC-SA 4.0",
+   "by": "Craig Stuart Sapp, Mozart piano sonatas (github.com/craigsapp/mozart-piano-sonatas)",
+   "answerKey": "mozart-piano-sonata-no-9-in-d-major-k-311"
+  },
+  {
+   "id": "mozart-sonata09-2",
+   "composer": "Mozart",
+   "piece": "Mozart – Piano Sonata No. 9 in D major, K. 311",
+   "key": "G major",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 2",
+   "measures": 93,
+   "source": "sonata09-2.krn",
+   "license": "CC BY-NC-SA 4.0",
+   "by": "Craig Stuart Sapp, Mozart piano sonatas (github.com/craigsapp/mozart-piano-sonatas)",
+   "answerKey": "mozart-piano-sonata-no-9-in-d-major-k-311"
+  },
+  {
+   "id": "mozart-sonata09-3",
+   "composer": "Mozart",
+   "piece": "Mozart – Piano Sonata No. 9 in D major, K. 311",
+   "key": "D major",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 3",
+   "measures": 270,
+   "source": "sonata09-3.krn",
+   "license": "CC BY-NC-SA 4.0",
+   "by": "Craig Stuart Sapp, Mozart piano sonatas (github.com/craigsapp/mozart-piano-sonatas)",
+   "answerKey": "mozart-piano-sonata-no-9-in-d-major-k-311"
+  },
+  {
+   "id": "mozart-sonata10-1",
+   "composer": "Mozart",
+   "piece": "Mozart – Piano Sonata No. 10 in C major, K. 330",
+   "key": "C major",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 1",
+   "measures": 150,
+   "source": "sonata10-1.krn",
+   "license": "CC BY-NC-SA 4.0",
+   "by": "Craig Stuart Sapp, Mozart piano sonatas (github.com/craigsapp/mozart-piano-sonatas)",
+   "answerKey": "mozart-piano-sonata-no-10-in-c-major-k-330"
+  },
+  {
+   "id": "mozart-sonata10-2",
+   "composer": "Mozart",
+   "piece": "Mozart – Piano Sonata No. 10 in C major, K. 330",
+   "key": "F major",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 2",
+   "measures": 64,
+   "source": "sonata10-2.krn",
+   "license": "CC BY-NC-SA 4.0",
+   "by": "Craig Stuart Sapp, Mozart piano sonatas (github.com/craigsapp/mozart-piano-sonatas)",
+   "answerKey": "mozart-piano-sonata-no-10-in-c-major-k-330"
+  },
+  {
+   "id": "mozart-sonata10-3",
+   "composer": "Mozart",
+   "piece": "Mozart – Piano Sonata No. 10 in C major, K. 330",
+   "key": "C major",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 3",
+   "measures": 171,
+   "source": "sonata10-3.krn",
+   "license": "CC BY-NC-SA 4.0",
+   "by": "Craig Stuart Sapp, Mozart piano sonatas (github.com/craigsapp/mozart-piano-sonatas)",
+   "answerKey": "mozart-piano-sonata-no-10-in-c-major-k-330"
+  },
+  {
+   "id": "mozart-sonata11-1a",
+   "composer": "Mozart",
+   "piece": "Mozart – Piano Sonata No. 11 in A major, K. 331",
+   "key": "A major",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 1a",
+   "measures": 18,
+   "source": "sonata11-1a.krn",
+   "license": "CC BY-NC-SA 4.0",
+   "by": "Craig Stuart Sapp, Mozart piano sonatas (github.com/craigsapp/mozart-piano-sonatas)",
+   "answerKey": "mozart-piano-sonata-no-11-in-a-major-k-331"
+  },
+  {
+   "id": "mozart-sonata11-1b",
+   "composer": "Mozart",
+   "piece": "Mozart – Piano Sonata No. 11 in A major, K. 331",
+   "key": "A major",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 1b",
+   "measures": 18,
+   "source": "sonata11-1b.krn",
+   "license": "CC BY-NC-SA 4.0",
+   "by": "Craig Stuart Sapp, Mozart piano sonatas (github.com/craigsapp/mozart-piano-sonatas)",
+   "answerKey": "mozart-piano-sonata-no-11-in-a-major-k-331"
+  },
+  {
+   "id": "mozart-sonata11-1c",
+   "composer": "Mozart",
+   "piece": "Mozart – Piano Sonata No. 11 in A major, K. 331",
+   "key": "A major",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 1c",
+   "measures": 18,
+   "source": "sonata11-1c.krn",
+   "license": "CC BY-NC-SA 4.0",
+   "by": "Craig Stuart Sapp, Mozart piano sonatas (github.com/craigsapp/mozart-piano-sonatas)",
+   "answerKey": "mozart-piano-sonata-no-11-in-a-major-k-331"
+  },
+  {
+   "id": "mozart-sonata11-1d",
+   "composer": "Mozart",
+   "piece": "Mozart – Piano Sonata No. 11 in A major, K. 331",
+   "key": "A minor",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 1d",
+   "measures": 18,
+   "source": "sonata11-1d.krn",
+   "license": "CC BY-NC-SA 4.0",
+   "by": "Craig Stuart Sapp, Mozart piano sonatas (github.com/craigsapp/mozart-piano-sonatas)",
+   "answerKey": "mozart-piano-sonata-no-11-in-a-major-k-331"
+  },
+  {
+   "id": "mozart-sonata11-1e",
+   "composer": "Mozart",
+   "piece": "Mozart – Piano Sonata No. 11 in A major, K. 331",
+   "key": "A major",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 1e",
+   "measures": 18,
+   "source": "sonata11-1e.krn",
+   "license": "CC BY-NC-SA 4.0",
+   "by": "Craig Stuart Sapp, Mozart piano sonatas (github.com/craigsapp/mozart-piano-sonatas)",
+   "answerKey": "mozart-piano-sonata-no-11-in-a-major-k-331"
+  },
+  {
+   "id": "mozart-sonata11-1f",
+   "composer": "Mozart",
+   "piece": "Mozart – Piano Sonata No. 11 in A major, K. 331",
+   "key": "A major",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 1f",
+   "measures": 20,
+   "source": "sonata11-1f.krn",
+   "license": "CC BY-NC-SA 4.0",
+   "by": "Craig Stuart Sapp, Mozart piano sonatas (github.com/craigsapp/mozart-piano-sonatas)",
+   "answerKey": "mozart-piano-sonata-no-11-in-a-major-k-331"
+  },
+  {
+   "id": "mozart-sonata11-1g",
+   "composer": "Mozart",
+   "piece": "Mozart – Piano Sonata No. 11 in A major, K. 331",
+   "key": "A major",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 1g",
+   "measures": 27,
+   "source": "sonata11-1g.krn",
+   "license": "CC BY-NC-SA 4.0",
+   "by": "Craig Stuart Sapp, Mozart piano sonatas (github.com/craigsapp/mozart-piano-sonatas)",
+   "answerKey": "mozart-piano-sonata-no-11-in-a-major-k-331"
+  },
+  {
+   "id": "mozart-sonata11-2",
+   "composer": "Mozart",
+   "piece": "Mozart – Piano Sonata No. 11 in A major, K. 331",
+   "key": "A major",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 2",
+   "measures": 101,
+   "source": "sonata11-2.krn",
+   "license": "CC BY-NC-SA 4.0",
+   "by": "Craig Stuart Sapp, Mozart piano sonatas (github.com/craigsapp/mozart-piano-sonatas)",
+   "answerKey": "mozart-piano-sonata-no-11-in-a-major-k-331"
+  },
+  {
+   "id": "mozart-sonata11-3",
+   "composer": "Mozart",
+   "piece": "Mozart – Piano Sonata No. 11 in A major, K. 331",
+   "key": "A minor",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 3",
+   "measures": 128,
+   "source": "sonata11-3.krn",
+   "license": "CC BY-NC-SA 4.0",
+   "by": "Craig Stuart Sapp, Mozart piano sonatas (github.com/craigsapp/mozart-piano-sonatas)",
+   "answerKey": "mozart-piano-sonata-no-11-in-a-major-k-331"
+  },
+  {
+   "id": "mozart-sonata12-1",
+   "composer": "Mozart",
+   "piece": "Mozart – Piano Sonata No. 12 in F major, K. 332",
+   "key": "F major",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 1",
+   "measures": 229,
+   "source": "sonata12-1.krn",
+   "license": "CC BY-NC-SA 4.0",
+   "by": "Craig Stuart Sapp, Mozart piano sonatas (github.com/craigsapp/mozart-piano-sonatas)",
+   "answerKey": "mozart-piano-sonata-no-12-in-f-major-k-332"
+  },
+  {
+   "id": "mozart-sonata12-2",
+   "composer": "Mozart",
+   "piece": "Mozart – Piano Sonata No. 12 in F major, K. 332",
+   "key": "B-flat major",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 2",
+   "measures": 40,
+   "source": "sonata12-2.krn",
+   "license": "CC BY-NC-SA 4.0",
+   "by": "Craig Stuart Sapp, Mozart piano sonatas (github.com/craigsapp/mozart-piano-sonatas)",
+   "answerKey": "mozart-piano-sonata-no-12-in-f-major-k-332"
+  },
+  {
+   "id": "mozart-sonata12-3",
+   "composer": "Mozart",
+   "piece": "Mozart – Piano Sonata No. 12 in F major, K. 332",
+   "key": "F major",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 3",
+   "measures": 245,
+   "source": "sonata12-3.krn",
+   "license": "CC BY-NC-SA 4.0",
+   "by": "Craig Stuart Sapp, Mozart piano sonatas (github.com/craigsapp/mozart-piano-sonatas)",
+   "answerKey": "mozart-piano-sonata-no-12-in-f-major-k-332"
+  },
+  {
+   "id": "mozart-sonata13-1",
+   "composer": "Mozart",
+   "piece": "Mozart – Piano Sonata No. 13 in B-flat major, K. 333",
+   "key": "B-flat major",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 1",
+   "measures": 165,
+   "source": "sonata13-1.krn",
+   "license": "CC BY-NC-SA 4.0",
+   "by": "Craig Stuart Sapp, Mozart piano sonatas (github.com/craigsapp/mozart-piano-sonatas)",
+   "answerKey": "mozart-piano-sonata-no-13-in-b-flat-major-k-333"
+  },
+  {
+   "id": "mozart-sonata13-2",
+   "composer": "Mozart",
+   "piece": "Mozart – Piano Sonata No. 13 in B-flat major, K. 333",
+   "key": "E-flat major",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 2",
+   "measures": 83,
+   "source": "sonata13-2.krn",
+   "license": "CC BY-NC-SA 4.0",
+   "by": "Craig Stuart Sapp, Mozart piano sonatas (github.com/craigsapp/mozart-piano-sonatas)",
+   "answerKey": "mozart-piano-sonata-no-13-in-b-flat-major-k-333"
+  },
+  {
+   "id": "mozart-sonata13-3",
+   "composer": "Mozart",
+   "piece": "Mozart – Piano Sonata No. 13 in B-flat major, K. 333",
+   "key": "B-flat major",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 3",
+   "measures": 225,
+   "source": "sonata13-3.krn",
+   "license": "CC BY-NC-SA 4.0",
+   "by": "Craig Stuart Sapp, Mozart piano sonatas (github.com/craigsapp/mozart-piano-sonatas)",
+   "answerKey": "mozart-piano-sonata-no-13-in-b-flat-major-k-333"
+  },
+  {
+   "id": "mozart-sonata14-1",
+   "composer": "Mozart",
+   "piece": "Mozart – Piano Sonata No. 14 in C minor, K. 457",
+   "key": "C minor",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 1",
+   "measures": 185,
+   "source": "sonata14-1.krn",
+   "license": "CC BY-NC-SA 4.0",
+   "by": "Craig Stuart Sapp, Mozart piano sonatas (github.com/craigsapp/mozart-piano-sonatas)",
+   "answerKey": "mozart-piano-sonata-no-14-in-c-minor-k-457"
+  },
+  {
+   "id": "mozart-sonata14-2",
+   "composer": "Mozart",
+   "piece": "Mozart – Piano Sonata No. 14 in C minor, K. 457",
+   "key": "E-flat major",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 2",
+   "measures": 56,
+   "source": "sonata14-2.krn",
+   "license": "CC BY-NC-SA 4.0",
+   "by": "Craig Stuart Sapp, Mozart piano sonatas (github.com/craigsapp/mozart-piano-sonatas)",
+   "answerKey": "mozart-piano-sonata-no-14-in-c-minor-k-457"
+  },
+  {
+   "id": "mozart-sonata14-3",
+   "composer": "Mozart",
+   "piece": "Mozart – Piano Sonata No. 14 in C minor, K. 457",
+   "key": "C minor",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 3",
+   "measures": 319,
+   "source": "sonata14-3.krn",
+   "license": "CC BY-NC-SA 4.0",
+   "by": "Craig Stuart Sapp, Mozart piano sonatas (github.com/craigsapp/mozart-piano-sonatas)",
+   "answerKey": "mozart-piano-sonata-no-14-in-c-minor-k-457"
+  },
+  {
+   "id": "mozart-sonata15-1",
+   "composer": "Mozart",
+   "piece": "Mozart – Piano Sonata No. 15 in C major, K. 545",
+   "key": "C major",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 1",
+   "measures": 73,
+   "source": "sonata15-1.krn",
+   "license": "CC BY-NC-SA 4.0",
+   "by": "Craig Stuart Sapp, Mozart piano sonatas (github.com/craigsapp/mozart-piano-sonatas)",
+   "answerKey": "mozart-piano-sonata-no-15-in-c-major-k-545"
+  },
+  {
+   "id": "mozart-sonata15-2",
+   "composer": "Mozart",
+   "piece": "Mozart – Piano Sonata No. 15 in C major, K. 545",
+   "key": "G major",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 2",
+   "measures": 74,
+   "source": "sonata15-2.krn",
+   "license": "CC BY-NC-SA 4.0",
+   "by": "Craig Stuart Sapp, Mozart piano sonatas (github.com/craigsapp/mozart-piano-sonatas)",
+   "answerKey": "mozart-piano-sonata-no-15-in-c-major-k-545"
+  },
+  {
+   "id": "mozart-sonata15-3",
+   "composer": "Mozart",
+   "piece": "Mozart – Piano Sonata No. 15 in C major, K. 545",
+   "key": "C major",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 3",
+   "measures": 73,
+   "source": "sonata15-3.krn",
+   "license": "CC BY-NC-SA 4.0",
+   "by": "Craig Stuart Sapp, Mozart piano sonatas (github.com/craigsapp/mozart-piano-sonatas)",
+   "answerKey": "mozart-piano-sonata-no-15-in-c-major-k-545"
+  },
+  {
+   "id": "mozart-sonata16-1",
+   "composer": "Mozart",
+   "piece": "Mozart – Piano Sonata No. 16 in B-flat major, K. Anh. 136",
+   "key": "B-flat major",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 1",
+   "measures": 209,
+   "source": "sonata16-1.krn",
+   "license": "CC BY-NC-SA 4.0",
+   "by": "Craig Stuart Sapp, Mozart piano sonatas (github.com/craigsapp/mozart-piano-sonatas)",
+   "answerKey": "mozart-piano-sonata-no-16-in-b-flat-major-k-anh-136"
+  },
+  {
+   "id": "mozart-sonata16-2",
+   "composer": "Mozart",
+   "piece": "Mozart – Piano Sonata No. 16 in B-flat major, K. Anh. 136",
+   "key": "E-flat major",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 2",
+   "measures": 56,
+   "source": "sonata16-2.krn",
+   "license": "CC BY-NC-SA 4.0",
+   "by": "Craig Stuart Sapp, Mozart piano sonatas (github.com/craigsapp/mozart-piano-sonatas)",
+   "answerKey": "mozart-piano-sonata-no-16-in-b-flat-major-k-anh-136"
+  },
+  {
+   "id": "mozart-sonata16-3",
+   "composer": "Mozart",
+   "piece": "Mozart – Piano Sonata No. 16 in B-flat major, K. Anh. 136",
+   "key": "B-flat major",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 3",
+   "measures": 89,
+   "source": "sonata16-3.krn",
+   "license": "CC BY-NC-SA 4.0",
+   "by": "Craig Stuart Sapp, Mozart piano sonatas (github.com/craigsapp/mozart-piano-sonatas)",
+   "answerKey": "mozart-piano-sonata-no-16-in-b-flat-major-k-anh-136"
+  },
+  {
+   "id": "mozart-sonata17-1",
+   "composer": "Mozart",
+   "piece": "Mozart – Piano Sonata No. 17 in D major, K. 576",
+   "key": "D major",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 1",
+   "measures": 160,
+   "source": "sonata17-1.krn",
+   "license": "CC BY-NC-SA 4.0",
+   "by": "Craig Stuart Sapp, Mozart piano sonatas (github.com/craigsapp/mozart-piano-sonatas)",
+   "answerKey": "mozart-piano-sonata-no-17-in-d-major-k-576"
+  },
+  {
+   "id": "mozart-sonata17-2",
+   "composer": "Mozart",
+   "piece": "Mozart – Piano Sonata No. 17 in D major, K. 576",
+   "key": "A major",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 2",
+   "measures": 67,
+   "source": "sonata17-2.krn",
+   "license": "CC BY-NC-SA 4.0",
+   "by": "Craig Stuart Sapp, Mozart piano sonatas (github.com/craigsapp/mozart-piano-sonatas)",
+   "answerKey": "mozart-piano-sonata-no-17-in-d-major-k-576"
+  },
+  {
+   "id": "mozart-sonata17-3",
+   "composer": "Mozart",
+   "piece": "Mozart – Piano Sonata No. 17 in D major, K. 576",
+   "key": "D major",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 3",
+   "measures": 189,
+   "source": "sonata17-3.krn",
+   "license": "CC BY-NC-SA 4.0",
+   "by": "Craig Stuart Sapp, Mozart piano sonatas (github.com/craigsapp/mozart-piano-sonatas)",
+   "answerKey": "mozart-piano-sonata-no-17-in-d-major-k-576"
+  },
+  {
+   "id": "haydn-sonata12-1",
+   "composer": "Haydn",
+   "piece": "Haydn – Piano Sonata in A major, Hob. XVI:12",
+   "key": "A major",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 1",
+   "measures": 55,
+   "source": "sonata12-1.krn",
+   "license": "CC BY-NC-SA 4.0",
+   "by": "Craig Stuart Sapp, Haydn piano sonatas (github.com/craigsapp/haydn-piano-sonatas)",
+   "answerKey": "haydn-piano-sonata-in-a-major-hob-xvi-12"
+  },
+  {
+   "id": "haydn-sonata12-2",
+   "composer": "Haydn",
+   "piece": "Haydn – Piano Sonata in A major, Hob. XVI:12",
+   "key": "A major",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 2",
+   "measures": 54,
+   "source": "sonata12-2.krn",
+   "license": "CC BY-NC-SA 4.0",
+   "by": "Craig Stuart Sapp, Haydn piano sonatas (github.com/craigsapp/haydn-piano-sonatas)",
+   "answerKey": "haydn-piano-sonata-in-a-major-hob-xvi-12"
+  },
+  {
+   "id": "haydn-sonata12-3",
+   "composer": "Haydn",
+   "piece": "Haydn – Piano Sonata in A major, Hob. XVI:12",
+   "key": "A major",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 3",
+   "measures": 69,
+   "source": "sonata12-3.krn",
+   "license": "CC BY-NC-SA 4.0",
+   "by": "Craig Stuart Sapp, Haydn piano sonatas (github.com/craigsapp/haydn-piano-sonatas)",
+   "answerKey": "haydn-piano-sonata-in-a-major-hob-xvi-12"
+  },
+  {
+   "id": "haydn-sonata13-1",
+   "composer": "Haydn",
+   "piece": "Haydn – Piano Sonata in G major, Hob. XVI:6",
+   "key": "G major",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 1",
+   "measures": 47,
+   "source": "sonata13-1.krn",
+   "license": "CC BY-NC-SA 4.0",
+   "by": "Craig Stuart Sapp, Haydn piano sonatas (github.com/craigsapp/haydn-piano-sonatas)",
+   "answerKey": "haydn-piano-sonata-in-g-major-hob-xvi-6"
+  },
+  {
+   "id": "haydn-sonata15-1",
+   "composer": "Haydn",
+   "piece": "Haydn – Piano Sonata in E major, Hob. XVI:13",
+   "key": "E major",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 1",
+   "measures": 84,
+   "source": "sonata15-1.krn",
+   "license": "CC BY-NC-SA 4.0",
+   "by": "Craig Stuart Sapp, Haydn piano sonatas (github.com/craigsapp/haydn-piano-sonatas)",
+   "answerKey": "haydn-piano-sonata-in-e-major-hob-xvi-13"
+  },
+  {
+   "id": "haydn-sonata16-1",
+   "composer": "Haydn",
+   "piece": "Haydn – Piano Sonata in D major, Hob. XVI:14",
+   "key": "D major",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 1",
+   "measures": 110,
+   "source": "sonata16-1.krn",
+   "license": "CC BY-NC-SA 4.0",
+   "by": "Craig Stuart Sapp, Haydn piano sonatas (github.com/craigsapp/haydn-piano-sonatas)",
+   "answerKey": "haydn-piano-sonata-in-d-major-hob-xvi-14"
+  },
+  {
+   "id": "haydn-sonata16-2",
+   "composer": "Haydn",
+   "piece": "Haydn – Piano Sonata in D major, Hob. XVI:14",
+   "key": "D major",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 2",
+   "measures": 55,
+   "source": "sonata16-2.krn",
+   "license": "CC BY-NC-SA 4.0",
+   "by": "Craig Stuart Sapp, Haydn piano sonatas (github.com/craigsapp/haydn-piano-sonatas)",
+   "answerKey": "haydn-piano-sonata-in-d-major-hob-xvi-14"
+  },
+  {
+   "id": "haydn-sonata16-3",
+   "composer": "Haydn",
+   "piece": "Haydn – Piano Sonata in D major, Hob. XVI:14",
+   "key": "D major",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 3",
+   "measures": 108,
+   "source": "sonata16-3.krn",
+   "license": "CC BY-NC-SA 4.0",
+   "by": "Craig Stuart Sapp, Haydn piano sonatas (github.com/craigsapp/haydn-piano-sonatas)",
+   "answerKey": "haydn-piano-sonata-in-d-major-hob-xvi-14"
+  },
+  {
+   "id": "haydn-sonata29-3",
+   "composer": "Haydn",
+   "piece": "Haydn – Piano Sonata in E-flat major, Hob. XVI:45",
+   "key": "E-flat major",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 3",
+   "measures": 136,
+   "source": "sonata29-3.krn",
+   "license": "CC BY-NC-SA 4.0",
+   "by": "Craig Stuart Sapp, Haydn piano sonatas (github.com/craigsapp/haydn-piano-sonatas)",
+   "answerKey": "haydn-piano-sonata-in-e-flat-major-hob-xvi-45"
+  },
+  {
+   "id": "haydn-sonata33-3",
+   "composer": "Haydn",
+   "piece": "Haydn – Piano Sonata in C minor, Hob. XVI:20",
+   "key": "C minor",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 3",
+   "measures": 152,
+   "source": "sonata33-3.krn",
+   "license": "CC BY-NC-SA 4.0",
+   "by": "Craig Stuart Sapp, Haydn piano sonatas (github.com/craigsapp/haydn-piano-sonatas)",
+   "answerKey": "haydn-piano-sonata-in-c-minor-hob-xvi-20"
+  },
+  {
+   "id": "haydn-sonata34-1",
+   "composer": "Haydn",
+   "piece": "Haydn – Piano Sonata in D major, Hob. XVI:33",
+   "key": "D major",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 1",
+   "measures": 194,
+   "source": "sonata34-1.krn",
+   "license": "CC BY-NC-SA 4.0",
+   "by": "Craig Stuart Sapp, Haydn piano sonatas (github.com/craigsapp/haydn-piano-sonatas)",
+   "answerKey": "haydn-piano-sonata-in-d-major-hob-xvi-33"
+  },
+  {
+   "id": "haydn-sonata37-1",
+   "composer": "Haydn",
+   "piece": "Haydn – Piano Sonata in E major, Hob. XVI:22",
+   "key": "E major",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 1",
+   "measures": 75,
+   "source": "sonata37-1.krn",
+   "license": "CC BY-NC-SA 4.0",
+   "by": "Craig Stuart Sapp, Haydn piano sonatas (github.com/craigsapp/haydn-piano-sonatas)",
+   "answerKey": "haydn-piano-sonata-in-e-major-hob-xvi-22"
+  },
+  {
+   "id": "haydn-sonata42-3",
+   "composer": "Haydn",
+   "piece": "Haydn – Piano Sonata in G major, Hob. XVI:27",
+   "key": "G major",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 3",
+   "measures": 153,
+   "source": "sonata42-3.krn",
+   "license": "CC BY-NC-SA 4.0",
+   "by": "Craig Stuart Sapp, Haydn piano sonatas (github.com/craigsapp/haydn-piano-sonatas)",
+   "answerKey": "haydn-piano-sonata-in-g-major-hob-xvi-27"
+  },
+  {
+   "id": "haydn-sonata45-3a",
+   "composer": "Haydn",
+   "piece": "Haydn – Piano Sonata in A major, Hob. XVI:30",
+   "key": "A major",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 3, Theme",
+   "measures": 16,
+   "source": "sonata45-3a.krn",
+   "license": "CC BY-NC-SA 4.0",
+   "by": "Craig Stuart Sapp, Haydn piano sonatas (github.com/craigsapp/haydn-piano-sonatas)",
+   "answerKey": "haydn-piano-sonata-in-a-major-hob-xvi-30"
+  },
+  {
+   "id": "haydn-sonata49-1",
+   "composer": "Haydn",
+   "piece": "Haydn – Piano Sonata in C-sharp minor, Hob. XVI:36",
+   "key": "C-sharp minor",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 1",
+   "measures": 97,
+   "source": "sonata49-1.krn",
+   "license": "CC BY-NC-SA 4.0",
+   "by": "Craig Stuart Sapp, Haydn piano sonatas (github.com/craigsapp/haydn-piano-sonatas)",
+   "answerKey": "haydn-piano-sonata-in-c-sharp-minor-hob-xvi-36"
+  },
+  {
+   "id": "haydn-sonata50-1",
+   "composer": "Haydn",
+   "piece": "Haydn – Piano Sonata in D major, Hob. XVI:37",
+   "key": "D major",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 1",
+   "measures": 103,
+   "source": "sonata50-1.krn",
+   "license": "CC BY-NC-SA 4.0",
+   "by": "Craig Stuart Sapp, Haydn piano sonatas (github.com/craigsapp/haydn-piano-sonatas)",
+   "answerKey": "haydn-piano-sonata-in-d-major-hob-xvi-37"
+  },
+  {
+   "id": "haydn-sonata51-3",
+   "composer": "Haydn",
+   "piece": "Haydn – Piano Sonata in E-flat major, Hob. XVI:38",
+   "key": "E-flat major",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 3",
+   "measures": 78,
+   "source": "sonata51-3.krn",
+   "license": "CC BY-NC-SA 4.0",
+   "by": "Craig Stuart Sapp, Haydn piano sonatas (github.com/craigsapp/haydn-piano-sonatas)",
+   "answerKey": "haydn-piano-sonata-in-e-flat-major-hob-xvi-38"
+  },
+  {
+   "id": "haydn-sonata52-3",
+   "composer": "Haydn",
+   "piece": "Haydn – Piano Sonata in G major, Hob. XVI:39",
+   "key": "G major",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 3",
+   "measures": 121,
+   "source": "sonata52-3.krn",
+   "license": "CC BY-NC-SA 4.0",
+   "by": "Craig Stuart Sapp, Haydn piano sonatas (github.com/craigsapp/haydn-piano-sonatas)",
+   "answerKey": "haydn-piano-sonata-in-g-major-hob-xvi-39"
+  },
+  {
+   "id": "haydn-sonata53-3",
+   "composer": "Haydn",
+   "piece": "Haydn – Piano Sonata in E minor, Hob. XVI:34",
+   "key": "E minor",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 3",
+   "measures": 136,
+   "source": "sonata53-3.krn",
+   "license": "CC BY-NC-SA 4.0",
+   "by": "Craig Stuart Sapp, Haydn piano sonatas (github.com/craigsapp/haydn-piano-sonatas)",
+   "answerKey": "haydn-piano-sonata-in-e-minor-hob-xvi-34"
+  },
+  {
+   "id": "haydn-sonata59-1",
+   "composer": "Haydn",
+   "piece": "Haydn – Piano Sonata in E-flat major, Hob. XVI:49",
+   "key": "E-flat major",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 1",
+   "measures": 218,
+   "source": "sonata59-1.krn",
+   "license": "CC BY-NC-SA 4.0",
+   "by": "Craig Stuart Sapp, Haydn piano sonatas (github.com/craigsapp/haydn-piano-sonatas)",
+   "answerKey": "haydn-piano-sonata-in-e-flat-major-hob-xvi-49"
+  },
+  {
+   "id": "haydn-sonata61-1",
+   "composer": "Haydn",
+   "piece": "Haydn – Piano Sonata in D major, Hob. XVI:51",
+   "key": "D major",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 1",
+   "measures": 111,
+   "source": "sonata61-1.krn",
+   "license": "CC BY-NC-SA 4.0",
+   "by": "Craig Stuart Sapp, Haydn piano sonatas (github.com/craigsapp/haydn-piano-sonatas)",
+   "answerKey": "haydn-piano-sonata-in-d-major-hob-xvi-51"
+  },
+  {
+   "id": "haydn-sonata61-2",
+   "composer": "Haydn",
+   "piece": "Haydn – Piano Sonata in D major, Hob. XVI:51",
+   "key": "D major",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 2",
+   "measures": 170,
+   "source": "sonata61-2.krn",
+   "license": "CC BY-NC-SA 4.0",
+   "by": "Craig Stuart Sapp, Haydn piano sonatas (github.com/craigsapp/haydn-piano-sonatas)",
+   "answerKey": "haydn-piano-sonata-in-d-major-hob-xvi-51"
+  },
+  {
+   "id": "haydn-sonata62-1",
+   "composer": "Haydn",
+   "piece": "Haydn – Piano Sonata in E-flat major, Hob. XVI:52",
+   "key": "E-flat major",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 1",
+   "measures": 116,
+   "source": "sonata62-1.krn",
+   "license": "CC BY-NC-SA 4.0",
+   "by": "Craig Stuart Sapp, Haydn piano sonatas (github.com/craigsapp/haydn-piano-sonatas)",
+   "answerKey": "haydn-piano-sonata-in-e-flat-major-hob-xvi-52"
+  },
+  {
+   "id": "haydn-sonata62-2",
+   "composer": "Haydn",
+   "piece": "Haydn – Piano Sonata in E-flat major, Hob. XVI:52",
+   "key": "E major",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 2",
+   "measures": 55,
+   "source": "sonata62-2.krn",
+   "license": "CC BY-NC-SA 4.0",
+   "by": "Craig Stuart Sapp, Haydn piano sonatas (github.com/craigsapp/haydn-piano-sonatas)",
+   "answerKey": "haydn-piano-sonata-in-e-flat-major-hob-xvi-52"
+  },
+  {
+   "id": "haydn-sonata62-3",
+   "composer": "Haydn",
+   "piece": "Haydn – Piano Sonata in E-flat major, Hob. XVI:52",
+   "key": "E-flat major",
+   "set": null,
+   "setName": null,
+   "movement": "Movement 3",
+   "measures": 307,
+   "source": "sonata62-3.krn",
+   "license": "CC BY-NC-SA 4.0",
+   "by": "Craig Stuart Sapp, Haydn piano sonatas (github.com/craigsapp/haydn-piano-sonatas)",
+   "answerKey": "haydn-piano-sonata-in-e-flat-major-hob-xvi-52"
+  }
+ ],
+ "sets": {
+  "chopin|op6|": {
+   "name": "Chopin – Mazurkas, Op. 6",
+   "members": [
+    [
+     "Chopin – Mazurka in F-sharp minor, Op. 6 No. 1",
+     "chopin-mazurka-in-f-sharp-minor-op-6-no-1"
+    ],
+    [
+     "Chopin – Mazurka in C-sharp minor, Op. 6 No. 2",
+     "chopin-mazurka-in-c-sharp-minor-op-6-no-2"
+    ],
+    [
+     "Chopin – Mazurka in E major, Op. 6 No. 3",
+     "chopin-mazurka-in-e-major-op-6-no-3"
+    ],
+    [
+     "Chopin – Mazurka in E-flat minor, Op. 6 No. 4",
+     "chopin-mazurka-in-e-flat-minor-op-6-no-4"
+    ],
+    [
+     "Chopin – Mazurka in C major, Op. 6 No. 5",
+     "chopin-mazurka-in-c-major-op-6-no-5"
+    ]
+   ]
+  },
+  "chopin|op7|": {
+   "name": "Chopin – Mazurkas, Op. 7",
+   "members": [
+    [
+     "Chopin – Mazurka in B-flat major, Op. 7 No. 1",
+     "chopin-mazurka-in-b-flat-major-op-7-no-1"
+    ],
+    [
+     "Chopin – Mazurka in A minor, Op. 7 No. 2",
+     "chopin-mazurka-in-a-minor-op-7-no-2"
+    ],
+    [
+     "Chopin – Mazurka in F minor, Op. 7 No. 3",
+     "chopin-mazurka-in-f-minor-op-7-no-3"
+    ],
+    [
+     "Chopin – Mazurka in A-flat major, Op. 7 No. 4",
+     "chopin-mazurka-in-a-flat-major-op-7-no-4"
+    ],
+    [
+     "Chopin – Mazurka in C major, Op. 7 No. 5",
+     "chopin-mazurka-in-c-major-op-7-no-5"
+    ]
+   ]
+  },
+  "chopin|op9|": {
+   "name": "Chopin – Nocturnes, Op. 9",
+   "members": [
+    [
+     "Chopin – Nocturne in B-flat minor, Op. 9 No. 1",
+     "chopin-nocturne-in-b-flat-minor-op-9-no-1"
+    ],
+    [
+     "Chopin – Nocturne in E-flat major, Op. 9 No. 2",
+     "chopin-nocturne-in-e-flat-major-op-9-no-2"
+    ],
+    [
+     "Chopin – Nocturne in B major, Op. 9 No. 3",
+     "chopin-nocturne-in-b-major-op-9-no-3"
+    ]
+   ]
+  },
+  "chopin|op10|": {
+   "name": "Chopin – Études, Op. 10",
+   "members": [
+    [
+     "Chopin – Étude in C major, Op. 10 No. 1",
+     "chopin-tude-in-c-major-op-10-no-1"
+    ],
+    [
+     "Chopin – Étude in A minor, Op. 10 No. 2",
+     "chopin-tude-in-a-minor-op-10-no-2"
+    ],
+    [
+     "Chopin – Étude in E major, Op. 10 No. 3",
+     "chopin-tude-in-e-major-op-10-no-3"
+    ],
+    [
+     "Chopin – Étude in C-sharp minor, Op. 10 No. 4",
+     "chopin-tude-in-c-sharp-minor-op-10-no-4"
+    ],
+    [
+     "Chopin – Étude in G-flat major, Op. 10 No. 5",
+     "chopin-tude-in-g-flat-major-op-10-no-5"
+    ],
+    [
+     "Chopin – Étude in E-flat minor, Op. 10 No. 6",
+     "chopin-tude-in-e-flat-minor-op-10-no-6"
+    ],
+    [
+     "Chopin – Étude in C major, Op. 10 No. 7",
+     "chopin-tude-in-c-major-op-10-no-7"
+    ],
+    [
+     "Chopin – Étude in F major, Op. 10 No. 8",
+     "chopin-tude-in-f-major-op-10-no-8"
+    ],
+    [
+     "Chopin – Étude in F minor, Op. 10 No. 9",
+     "chopin-tude-in-f-minor-op-10-no-9"
+    ],
+    [
+     "Chopin – Étude in A-flat major, Op. 10 No. 10",
+     "chopin-tude-in-a-flat-major-op-10-no-10"
+    ],
+    [
+     "Chopin – Étude in C minor, Op. 10 No. 11",
+     "chopin-tude-in-c-minor-op-10-no-11"
+    ],
+    [
+     "Chopin – Étude in C minor, Op. 10 No. 12",
+     "chopin-tude-in-c-minor-op-10-no-12"
+    ]
+   ]
+  },
+  "chopin|op15|": {
+   "name": "Chopin – Nocturnes, Op. 15",
+   "members": [
+    [
+     "Chopin – Nocturne in F major, Op. 15 No. 1",
+     "chopin-nocturne-in-f-major-op-15-no-1"
+    ],
+    [
+     "Chopin – Nocturne in F-sharp major, Op. 15 No. 2",
+     "chopin-nocturne-in-f-sharp-major-op-15-no-2"
+    ],
+    [
+     "Chopin – Nocturne in G minor, Op. 15 No. 3",
+     "chopin-nocturne-in-g-minor-op-15-no-3"
+    ]
+   ]
+  },
+  "chopin|op17|": {
+   "name": "Chopin – Mazurkas, Op. 17",
+   "members": [
+    [
+     "Chopin – Mazurka in B-flat major, Op. 17 No. 1",
+     "chopin-mazurka-in-b-flat-major-op-17-no-1"
+    ],
+    [
+     "Chopin – Mazurka in E minor, Op. 17 No. 2",
+     "chopin-mazurka-in-e-minor-op-17-no-2"
+    ],
+    [
+     "Chopin – Mazurka in A-flat major, Op. 17 No. 3",
+     "chopin-mazurka-in-a-flat-major-op-17-no-3"
+    ],
+    [
+     "Chopin – Mazurka in A minor, Op. 17 No. 4",
+     "chopin-mazurka-in-a-minor-op-17-no-4"
+    ]
+   ]
+  },
+  "chopin|op18|": {
+   "name": "Chopin – Waltzes, Op. 18",
+   "members": [
+    [
+     "Chopin – Waltz in E-flat major, Op. 18 No. 1",
+     "chopin-waltz-in-e-flat-major-op-18-no-1"
+    ]
+   ]
+  },
+  "chopin|op24|": {
+   "name": "Chopin – Mazurkas, Op. 24",
+   "members": [
+    [
+     "Chopin – Mazurka in G minor, Op. 24 No. 1",
+     "chopin-mazurka-in-g-minor-op-24-no-1"
+    ],
+    [
+     "Chopin – Mazurka in C major, Op. 24 No. 2",
+     "chopin-mazurka-in-c-major-op-24-no-2"
+    ],
+    [
+     "Chopin – Mazurka in A-flat major, Op. 24 No. 3",
+     "chopin-mazurka-in-a-flat-major-op-24-no-3"
+    ],
+    [
+     "Chopin – Mazurka in B-flat minor, Op. 24 No. 4",
+     "chopin-mazurka-in-b-flat-minor-op-24-no-4"
+    ]
+   ]
+  },
+  "chopin|op25|": {
+   "name": "Chopin – Études, Op. 25",
+   "members": [
+    [
+     "Chopin – Étude in A-flat major, Op. 25 No. 1",
+     "chopin-tude-in-a-flat-major-op-25-no-1"
+    ],
+    [
+     "Chopin – Étude in F minor, Op. 25 No. 2",
+     "chopin-tude-in-f-minor-op-25-no-2"
+    ],
+    [
+     "Chopin – Étude in F major, Op. 25 No. 3",
+     "chopin-tude-in-f-major-op-25-no-3"
+    ],
+    [
+     "Chopin – Étude in A minor, Op. 25 No. 4",
+     "chopin-tude-in-a-minor-op-25-no-4"
+    ],
+    [
+     "Chopin – Étude in E minor, Op. 25 No. 5",
+     "chopin-tude-in-e-minor-op-25-no-5"
+    ],
+    [
+     "Chopin – Étude in G-sharp minor, Op. 25 No. 6",
+     "chopin-tude-in-g-sharp-minor-op-25-no-6"
+    ],
+    [
+     "Chopin – Étude in C-sharp minor, Op. 25 No. 7",
+     "chopin-tude-in-c-sharp-minor-op-25-no-7"
+    ],
+    [
+     "Chopin – Étude in D-flat major, Op. 25 No. 8",
+     "chopin-tude-in-d-flat-major-op-25-no-8"
+    ],
+    [
+     "Chopin – Étude in G-flat major, Op. 25 No. 9",
+     "chopin-tude-in-g-flat-major-op-25-no-9"
+    ],
+    [
+     "Chopin – Étude in B minor, Op. 25 No. 10",
+     "chopin-tude-in-b-minor-op-25-no-10"
+    ],
+    [
+     "Chopin – Étude in A minor, Op. 25 No. 11",
+     "chopin-tude-in-a-minor-op-25-no-11"
+    ],
+    [
+     "Chopin – Étude in C minor, Op. 25 No. 12",
+     "chopin-tude-in-c-minor-op-25-no-12"
+    ]
+   ]
+  },
+  "chopin|op26|": {
+   "name": "Chopin – Polonaises, Op. 26",
+   "members": [
+    [
+     "Chopin – Polonaise in C-sharp minor, Op. 26 No. 1",
+     "chopin-polonaise-in-c-sharp-minor-op-26-no-1"
+    ],
+    [
+     "Chopin – Polonaise in E-flat minor, Op. 26 No. 2",
+     "chopin-polonaise-in-e-flat-minor-op-26-no-2"
+    ]
+   ]
+  },
+  "chopin|op27|": {
+   "name": "Chopin – Nocturnes, Op. 27",
+   "members": [
+    [
+     "Chopin – Nocturne in C-sharp minor, Op. 27 No. 1",
+     "chopin-nocturne-in-c-sharp-minor-op-27-no-1"
+    ],
+    [
+     "Chopin – Nocturne in D-flat major, Op. 27 No. 2",
+     "chopin-nocturne-in-d-flat-major-op-27-no-2"
+    ]
+   ]
+  },
+  "chopin|op28|": {
+   "name": "Chopin – Preludes, Op. 28",
+   "members": [
+    [
+     "Chopin – Prelude in C major, Op. 28 No. 1",
+     "chopin-prelude-in-c-major-op-28-no-1"
+    ],
+    [
+     "Chopin – Prelude in A minor, Op. 28 No. 2",
+     "chopin-prelude-in-a-minor-op-28-no-2"
+    ],
+    [
+     "Chopin – Prelude in G major, Op. 28 No. 3",
+     "chopin-prelude-in-g-major-op-28-no-3"
+    ],
+    [
+     "Chopin – Prelude in E minor, Op. 28 No. 4",
+     "chopin-prelude-in-e-minor-op-28-no-4"
+    ],
+    [
+     "Chopin – Prelude in D major, Op. 28 No. 5",
+     "chopin-prelude-in-d-major-op-28-no-5"
+    ],
+    [
+     "Chopin – Prelude in B minor, Op. 28 No. 6",
+     "chopin-prelude-in-b-minor-op-28-no-6"
+    ],
+    [
+     "Chopin – Prelude in A major, Op. 28 No. 7",
+     "chopin-prelude-in-a-major-op-28-no-7"
+    ],
+    [
+     "Chopin – Prelude in F-sharp minor, Op. 28 No. 8",
+     "chopin-prelude-in-f-sharp-minor-op-28-no-8"
+    ],
+    [
+     "Chopin – Prelude in E major, Op. 28 No. 9",
+     "chopin-prelude-in-e-major-op-28-no-9"
+    ],
+    [
+     "Chopin – Prelude in C-sharp minor, Op. 28 No. 10",
+     "chopin-prelude-in-c-sharp-minor-op-28-no-10"
+    ],
+    [
+     "Chopin – Prelude in B major, Op. 28 No. 11",
+     "chopin-prelude-in-b-major-op-28-no-11"
+    ],
+    [
+     "Chopin – Prelude in B major, Op. 28 No. 12",
+     "chopin-prelude-in-b-major-op-28-no-12"
+    ],
+    [
+     "Chopin – Prelude in F-sharp major, Op. 28 No. 13",
+     "chopin-prelude-in-f-sharp-major-op-28-no-13"
+    ],
+    [
+     "Chopin – Prelude in E-flat minor, Op. 28 No. 14",
+     "chopin-prelude-in-e-flat-minor-op-28-no-14"
+    ],
+    [
+     "Chopin – Prelude in D-flat major, Op. 28 No. 15",
+     "chopin-prelude-in-d-flat-major-op-28-no-15"
+    ],
+    [
+     "Chopin – Prelude in B-flat minor, Op. 28 No. 16",
+     "chopin-prelude-in-b-flat-minor-op-28-no-16"
+    ],
+    [
+     "Chopin – Prelude in A-flat major, Op. 28 No. 17",
+     "chopin-prelude-in-a-flat-major-op-28-no-17"
+    ],
+    [
+     "Chopin – Prelude in F minor, Op. 28 No. 18",
+     "chopin-prelude-in-f-minor-op-28-no-18"
+    ],
+    [
+     "Chopin – Prelude in E-flat major, Op. 28 No. 19",
+     "chopin-prelude-in-e-flat-major-op-28-no-19"
+    ],
+    [
+     "Chopin – Prelude in C minor, Op. 28 No. 20",
+     "chopin-prelude-in-c-minor-op-28-no-20"
+    ],
+    [
+     "Chopin – Prelude in B-flat major, Op. 28 No. 21",
+     "chopin-prelude-in-b-flat-major-op-28-no-21"
+    ],
+    [
+     "Chopin – Prelude in G minor, Op. 28 No. 22",
+     "chopin-prelude-in-g-minor-op-28-no-22"
+    ],
+    [
+     "Chopin – Prelude in F major, Op. 28 No. 23",
+     "chopin-prelude-in-f-major-op-28-no-23"
+    ],
+    [
+     "Chopin – Prelude in D minor, Op. 28 No. 24",
+     "chopin-prelude-in-d-minor-op-28-no-24"
+    ]
+   ]
+  },
+  "chopin|op30|": {
+   "name": "Chopin – Mazurkas, Op. 30",
+   "members": [
+    [
+     "Chopin – Mazurka in C minor, Op. 30 No. 1",
+     "chopin-mazurka-in-c-minor-op-30-no-1"
+    ],
+    [
+     "Chopin – Mazurka in B minor, Op. 30 No. 2",
+     "chopin-mazurka-in-b-minor-op-30-no-2"
+    ],
+    [
+     "Chopin – Mazurka in D-flat major, Op. 30 No. 3",
+     "chopin-mazurka-in-d-flat-major-op-30-no-3"
+    ],
+    [
+     "Chopin – Mazurka in C-sharp minor, Op. 30 No. 4",
+     "chopin-mazurka-in-c-sharp-minor-op-30-no-4"
+    ]
+   ]
+  },
+  "chopin|op32|": {
+   "name": "Chopin – Nocturnes, Op. 32",
+   "members": [
+    [
+     "Chopin – Nocturne in B major, Op. 32 No. 1",
+     "chopin-nocturne-in-b-major-op-32-no-1"
+    ],
+    [
+     "Chopin – Nocturne in A-flat major, Op. 32 No. 2",
+     "chopin-nocturne-in-a-flat-major-op-32-no-2"
+    ]
+   ]
+  },
+  "chopin|op33|": {
+   "name": "Chopin – Mazurkas, Op. 33",
+   "members": [
+    [
+     "Chopin – Mazurka in G-sharp minor, Op. 33 No. 1",
+     "chopin-mazurka-in-g-sharp-minor-op-33-no-1"
+    ],
+    [
+     "Chopin – Mazurka in D major, Op. 33 No. 2",
+     "chopin-mazurka-in-d-major-op-33-no-2"
+    ],
+    [
+     "Chopin – Mazurka in C major, Op. 33 No. 3",
+     "chopin-mazurka-in-c-major-op-33-no-3"
+    ],
+    [
+     "Chopin – Mazurka in B minor, Op. 33 No. 4",
+     "chopin-mazurka-in-b-minor-op-33-no-4"
+    ]
+   ]
+  },
+  "chopin|op34|": {
+   "name": "Chopin – Waltzes, Op. 34",
+   "members": [
+    [
+     "Chopin – Waltz in A-flat major, Op. 34 No. 1",
+     "chopin-waltz-in-a-flat-major-op-34-no-1"
+    ],
+    [
+     "Chopin – Waltz in A minor, Op. 34 No. 2",
+     "chopin-waltz-in-a-minor-op-34-no-2"
+    ],
+    [
+     "Chopin – Waltz in F major, Op. 34 No. 3",
+     "chopin-waltz-in-f-major-op-34-no-3"
+    ]
+   ]
+  },
+  "chopin|op37|": {
+   "name": "Chopin – Nocturnes, Op. 37",
+   "members": [
+    [
+     "Chopin – Nocturne in G minor, Op. 37 No. 1",
+     "chopin-nocturne-in-g-minor-op-37-no-1"
+    ],
+    [
+     "Chopin – Nocturne in G major, Op. 37 No. 2",
+     "chopin-nocturne-in-g-major-op-37-no-2"
+    ]
+   ]
+  },
+  "chopin|op40|": {
+   "name": "Chopin – Polonaises, Op. 40",
+   "members": [
+    [
+     "Chopin – Polonaise in A major, Op. 40 No. 1",
+     "chopin-polonaise-in-a-major-op-40-no-1"
+    ],
+    [
+     "Chopin – Polonaise in C minor, Op. 40 No. 2",
+     "chopin-polonaise-in-c-minor-op-40-no-2"
+    ]
+   ]
+  },
+  "chopin|op41|": {
+   "name": "Chopin – Mazurkas, Op. 41",
+   "members": [
+    [
+     "Chopin – Mazurka in C-sharp minor, Op. 41 No. 1",
+     "chopin-mazurka-in-c-sharp-minor-op-41-no-1"
+    ],
+    [
+     "Chopin – Mazurka in E minor, Op. 41 No. 2",
+     "chopin-mazurka-in-e-minor-op-41-no-2"
+    ],
+    [
+     "Chopin – Mazurka in B major, Op. 41 No. 3",
+     "chopin-mazurka-in-b-major-op-41-no-3"
+    ],
+    [
+     "Chopin – Mazurka in A-flat major, Op. 41 No. 4",
+     "chopin-mazurka-in-a-flat-major-op-41-no-4"
+    ]
+   ]
+  },
+  "chopin|op45|": {
+   "name": "Chopin – Preludes, Op. 45",
+   "members": [
+    [
+     "Chopin – Prelude in C-sharp minor, Op. 45 No. 1",
+     "chopin-prelude-in-c-sharp-minor-op-45-no-1"
+    ]
+   ]
+  },
+  "chopin|op48|": {
+   "name": "Chopin – Nocturnes, Op. 48",
+   "members": [
+    [
+     "Chopin – Nocturne in C minor, Op. 48 No. 1",
+     "chopin-nocturne-in-c-minor-op-48-no-1"
+    ],
+    [
+     "Chopin – Nocturne in F-sharp minor, Op. 48 No. 2",
+     "chopin-nocturne-in-f-sharp-minor-op-48-no-2"
+    ]
+   ]
+  },
+  "chopin|op50|": {
+   "name": "Chopin – Mazurkas, Op. 50",
+   "members": [
+    [
+     "Chopin – Mazurka in G major, Op. 50 No. 1",
+     "chopin-mazurka-in-g-major-op-50-no-1"
+    ],
+    [
+     "Chopin – Mazurka in A-flat major, Op. 50 No. 2",
+     "chopin-mazurka-in-a-flat-major-op-50-no-2"
+    ],
+    [
+     "Chopin – Mazurka in C-sharp minor, Op. 50 No. 3",
+     "chopin-mazurka-in-c-sharp-minor-op-50-no-3"
+    ]
+   ]
+  },
+  "chopin|op55|": {
+   "name": "Chopin – Nocturnes, Op. 55",
+   "members": [
+    [
+     "Chopin – Nocturne in F minor, Op. 55 No. 1",
+     "chopin-nocturne-in-f-minor-op-55-no-1"
+    ],
+    [
+     "Chopin – Nocturne in E-flat major, Op. 55 No. 2",
+     "chopin-nocturne-in-e-flat-major-op-55-no-2"
+    ]
+   ]
+  },
+  "chopin|op56|": {
+   "name": "Chopin – Mazurkas, Op. 56",
+   "members": [
+    [
+     "Chopin – Mazurka in B major, Op. 56 No. 1",
+     "chopin-mazurka-in-b-major-op-56-no-1"
+    ],
+    [
+     "Chopin – Mazurka in C major, Op. 56 No. 2",
+     "chopin-mazurka-in-c-major-op-56-no-2"
+    ],
+    [
+     "Chopin – Mazurka in C minor, Op. 56 No. 3",
+     "chopin-mazurka-in-c-minor-op-56-no-3"
+    ]
+   ]
+  },
+  "chopin|op59|": {
+   "name": "Chopin – Mazurkas, Op. 59",
+   "members": [
+    [
+     "Chopin – Mazurka in A minor, Op. 59 No. 1",
+     "chopin-mazurka-in-a-minor-op-59-no-1"
+    ],
+    [
+     "Chopin – Mazurka in A-flat major, Op. 59 No. 2",
+     "chopin-mazurka-in-a-flat-major-op-59-no-2"
+    ],
+    [
+     "Chopin – Mazurka in F-sharp minor, Op. 59 No. 3",
+     "chopin-mazurka-in-f-sharp-minor-op-59-no-3"
+    ]
+   ]
+  },
+  "chopin|op62|": {
+   "name": "Chopin – Nocturnes, Op. 62",
+   "members": [
+    [
+     "Chopin – Nocturne in B major, Op. 62 No. 1",
+     "chopin-nocturne-in-b-major-op-62-no-1"
+    ],
+    [
+     "Chopin – Nocturne in E major, Op. 62 No. 2",
+     "chopin-nocturne-in-e-major-op-62-no-2"
+    ]
+   ]
+  },
+  "chopin|op63|": {
+   "name": "Chopin – Mazurkas, Op. 63",
+   "members": [
+    [
+     "Chopin – Mazurka in B major, Op. 63 No. 1",
+     "chopin-mazurka-in-b-major-op-63-no-1"
+    ],
+    [
+     "Chopin – Mazurka in F minor, Op. 63 No. 2",
+     "chopin-mazurka-in-f-minor-op-63-no-2"
+    ],
+    [
+     "Chopin – Mazurka in C-sharp minor, Op. 63 No. 3",
+     "chopin-mazurka-in-c-sharp-minor-op-63-no-3"
+    ]
+   ]
+  },
+  "chopin|op64|": {
+   "name": "Chopin – Waltzes, Op. 64",
+   "members": [
+    [
+     "Chopin – Waltz in D-flat major, Op. 64 No. 1",
+     "chopin-waltz-in-d-flat-major-op-64-no-1"
+    ],
+    [
+     "Chopin – Waltz in C-sharp minor, Op. 64 No. 2",
+     "chopin-waltz-in-c-sharp-minor-op-64-no-2"
+    ],
+    [
+     "Chopin – Waltz in A-flat major, Op. 64 No. 3",
+     "chopin-waltz-in-a-flat-major-op-64-no-3"
+    ]
+   ]
+  },
+  "chopin|op67|": {
+   "name": "Chopin – Mazurkas, Op. 67",
+   "members": [
+    [
+     "Chopin – Mazurka in G major, Op. 67 No. 1",
+     "chopin-mazurka-in-g-major-op-67-no-1"
+    ],
+    [
+     "Chopin – Mazurka in G minor, Op. 67 No. 2",
+     "chopin-mazurka-in-g-minor-op-67-no-2"
+    ],
+    [
+     "Chopin – Mazurka in C major, Op. 67 No. 3",
+     "chopin-mazurka-in-c-major-op-67-no-3"
+    ],
+    [
+     "Chopin – Mazurka in A minor, Op. 67 No. 4",
+     "chopin-mazurka-in-a-minor-op-67-no-4"
+    ]
+   ]
+  },
+  "chopin|op68|": {
+   "name": "Chopin – Mazurkas, Op. 68",
+   "members": [
+    [
+     "Chopin – Mazurka in C major, Op. 68 No. 1",
+     "chopin-mazurka-in-c-major-op-68-no-1"
+    ],
+    [
+     "Chopin – Mazurka in A minor, Op. 68 No. 2",
+     "chopin-mazurka-in-a-minor-op-68-no-2"
+    ],
+    [
+     "Chopin – Mazurka in F major, Op. 68 No. 3",
+     "chopin-mazurka-in-f-major-op-68-no-3"
+    ],
+    [
+     "Chopin – Mazurka in F minor, Op. 68 No. 4",
+     "chopin-mazurka-in-f-minor-op-68-no-4"
+    ]
+   ]
+  },
+  "chopin|op69|": {
+   "name": "Chopin – Waltzes, Op. 69",
+   "members": [
+    [
+     "Chopin – Waltz in A-flat major, Op. 69 No. 1",
+     "chopin-waltz-in-a-flat-major-op-69-no-1"
+    ],
+    [
+     "Chopin – Waltz in B minor, Op. 69 No. 2",
+     "chopin-waltz-in-b-minor-op-69-no-2"
+    ]
+   ]
+  },
+  "chopin|op70|": {
+   "name": "Chopin – Waltzes, Op. 70",
+   "members": [
+    [
+     "Chopin – Waltz in G-flat major, Op. 70 No. 1",
+     "chopin-waltz-in-g-flat-major-op-70-no-1"
+    ],
+    [
+     "Chopin – Waltz in F minor, Op. 70 No. 2",
+     "chopin-waltz-in-f-minor-op-70-no-2"
+    ],
+    [
+     "Chopin – Waltz in D-flat major, Op. 70 No. 3",
+     "chopin-waltz-in-d-flat-major-op-70-no-3"
+    ]
+   ]
+  },
+  "chopin|op72|3": {
+   "name": "Chopin – Three Écossaises, Op. 72 No. 3",
+   "members": [
+    [
+     "Chopin – Écossaise in D major, Op. 72 No. 3/1",
+     "chopin-cossaise-in-d-major-op-72-no-3-1"
+    ],
+    [
+     "Chopin – Écossaise in G major, Op. 72 No. 3/2",
+     "chopin-cossaise-in-g-major-op-72-no-3-2"
+    ],
+    [
+     "Chopin – Écossaise in D-flat major, Op. 72 No. 3/3",
+     "chopin-cossaise-in-d-flat-major-op-72-no-3-3"
+    ]
+   ]
+  }
+ }
+}

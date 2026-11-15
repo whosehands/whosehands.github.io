@@ -290,10 +290,16 @@
   const lifeText = d => (died(d) ? `lived ${born(d)}–${died(d)}` : `was born in ${born(d)}`);
   const aAn = t => (/^[AEIOU]/i.test(t) ? "an " : "a ") + t;
   const whoOf = i => (P.kind === "record" ? `The ${roleLabel(i).toLowerCase()}` : "The pianist");
-  function hintLadder(kind, i) {           // from vague to specific
-    const out = [], y = P.yearMin;
+  // Quiz-bowl order: each kind starts with specific, little-known facts and gets more obvious.
+  // Facts the player already has are skipped (no composer clues once the composer is known).
+  const knowsComposer = () => !!(S.composerAt || S.pieceAt || S.setAt || composerRevealed());
+  const fillClue = (t, i) => t.replace(/\{Who\}/g, whoOf(i)).replace(/\{Composer\}/g, "The composer").replace(/\{It\}/g, "The work");
+  const byLevel = list => list.map((c, n) => [c, n]).sort((a, b) => (a[0].lvl - b[0].lvl) || (a[1] - b[1])).map(x => x[0]);
+  function hintLadder(kind, i) {
+    const out = [], y = P.yearMin, C = CAT.clues || {};
     if (kind === "who") {
       const name = P.performers[i], who = whoOf(i), d = (P.performerDates || {})[name], cnt = CAT.countBy[name] || 1;
+      byLevel((C.people || {})[name] || []).forEach(c => out.push(fillClue(c.t, i)));
       const about = (P.performerAbout || {})[name];
       if (about) out.push(`${who} was ${aAn(about)}`);
       if (born(d)) out.push(`${who} ${lifeText(d)}`);
@@ -308,44 +314,50 @@
         out.push(`${who}'s initials are ${words.filter(w => /^\p{Lu}/u.test(w)).map(w => w[0] + ".").join(" ")}`);
       }
     } else if (kind === "what") {
-      const g = { "Opera & stage": "It's from an opera or other stage work", "Art songs": "It's an art song", "Orchestral": "It's orchestral music", "Piano music": "It was written for piano" }[P.genre];
-      if (g) out.push(g + (P.kind !== "record" && P.genre !== "Piano music" ? ", arranged for piano" : ""));
-      if (P.composerAbout) out.push(`The composer was ${aAn(P.composerAbout)}`);
-      if (born(P.composerDates)) out.push(`The composer ${lifeText(P.composerDates)}`);
-      out.push({ text: `Composer: ${P.composer}`, reveals: "composer" });
+      const comp = !knowsComposer();
+      const facts = ((C.works || {})[P.pieceKey] || []).concat(comp ? ((C.composers || {})[P.composer] || []) : []);
+      byLevel(facts).forEach(c => out.push(fillClue(c.t, 0)));
+      // the kind of music, only where the sound doesn't already tell you (a singer could be in an opera or an art song)
+      if (P.kind === "record" && P.genre === "Opera & stage") out.push("It's from an opera or other stage work, not a concert song");
+      if (P.kind === "record" && P.genre === "Art songs") out.push("It's a concert song, not from an opera");
+      if (P.kind !== "record" && P.genre === "Opera & stage") out.push("It's a piano version of music from an opera or other stage work");
+      if (P.kind !== "record" && P.genre === "Orchestral") out.push("It's a piano version of orchestral music");
+      if (comp) {
+        if (P.composerAbout) out.push(`The composer was ${aAn(P.composerAbout)}`);
+        if (born(P.composerDates)) out.push(`The composer ${lifeText(P.composerDates)}`);
+        out.push({ text: `Composer: ${P.composer}`, reveals: "composer" });
+      }
       const title = P.piece.split(" – ").slice(1).join(" – ") || P.piece, form = title.match(FORMS), key = title.match(/\bin ([A-G](?:[-‐ ]?(?:flat|sharp)|♭|♯)? (?:major|minor))/i);
-      if (form) out.push(`Kind of piece: ${form[1].charAt(0).toUpperCase() + form[1].slice(1).toLowerCase()}`);
+      if (form && !S.setAt) out.push(`Kind of piece: ${form[1].charAt(0).toUpperCase() + form[1].slice(1).toLowerCase()}`);
       if (key) out.push(`Key: ${key[1].replace("♭", "-flat").replace("♯", "-sharp")}`);
-      if (!form) out.push(`The title starts with “${title.replace(/^[^\p{L}]+/u, "")[0]}”`);
+      if (!form && !S.setAt) out.push(`The title starts with “${title.replace(/^[^\p{L}]+/u, "")[0]}”`);
     } else {
+      const ev = P.yearMin === P.yearMax && (C.years || {})[y];
+      if (ev && ev.length) out.push(`It was recorded the year ${ev[Math.floor(seeded(y + P.id.length) * ev.length)]}`);
       const dec = n => Math.floor(n / 10) * 10, range = `Recorded between ${P.yearMin} and ${P.yearMax}`;
-      out.push(dec(P.yearMin) === dec(P.yearMax) ? `Recorded in the ${dec(y)}s` : range);
       const cb = born(P.composerDates), cd = died(P.composerDates);
       if (cd && cd < y) out.push(`The composer had died ${y - cd} year${y - cd > 1 ? "s" : ""} before it was recorded`);
       else if (cd === y) out.push("The composer died the year it was recorded");
       else if (cb) out.push(`The composer was alive, about ${y - cb} years old`);
       const pi = P.performers.findIndex(n => born((P.performerDates || {})[n]));
       if (pi >= 0) out.push(`${whoOf(pi)} was about ${y - born(P.performerDates[P.performers[pi]])} years old`);
+      out.push(dec(P.yearMin) === dec(P.yearMax) ? `Recorded in the ${dec(y)}s` : range);
       const lo = y - (y % 5);
       if (P.yearMax <= lo + 4) out.push(`Recorded between ${lo} and ${lo + 4}`);
       else if (dec(P.yearMin) === dec(P.yearMax)) out.push(range);
     }
     return out.map(h => (typeof h === "string" ? { text: h } : h));
   }
-  function takenHints() {                  // the hints opened so far, in order
-    const seen = {};
-    return (S.hints || []).map(h => {
-      const key = h.k + (h.i ?? ""), n = (seen[key] = (seen[key] ?? -1) + 1);
-      const item = hintLadder(h.k, h.i || 0)[n];
-      return item && { ...item, kind: HINT_KINDS.find(x => x[0] === h.k)[1] };
-    }).filter(Boolean);
+  function takenHints() {                  // the hints opened so far, in order (each one stores its own text)
+    return (S.hints || []).filter(h => h.t).map(h => ({ text: h.t, reveals: h.reveals, kind: HINT_KINDS.find(x => x[0] === h.k)[1] }));
   }
-  const composerRevealed = () => takenHints().some(h => h.reveals === "composer");
-  function nextHint(kind) {                // what a hint of this kind would target, or null if there's nothing left to give
+  const composerRevealed = () => (S.hints || []).some(h => h.reveals === "composer");
+  function nextHint(kind) {                // the next clue of this kind, or null if there's nothing left to give
     const i = kind === "who" ? S.nameAt.findIndex(a => !a) : 0;
     if (kind === "who" ? i < 0 : kind === "what" ? S.pieceAt : S.yearAt) return null;
-    const used = (S.hints || []).filter(h => h.k === kind && (h.i || 0) === i).length;
-    return used < hintLadder(kind, i).length ? { k: kind, i } : null;
+    const given = new Set((S.hints || []).map(h => h.t));
+    const c = hintLadder(kind, i).find(h => !given.has(h.text));
+    return c ? { k: kind, i, t: c.text, reveals: c.reveals } : null;
   }
 
   /* ---------- search-as-you-type ---------- */
@@ -387,11 +399,199 @@
     box.addEventListener("mousedown", e => { const li = e.target.closest("li[data-i]"); if (li) { pick(+li.dataset.i); e.preventDefault(); } });
   }
 
+  function tabsHTML(on) {
+    const t = [["daily", "#", "Daily"], ["practice", "#practice", "Practice"], ["score", "#score", "Score"]];
+    return `<nav class="tabs" aria-label="Mode">${t.map(([k, h, l]) => `<a href="${h}" class="${on === k ? "on" : ""}" ${on === k ? 'aria-current="page"' : ""}>${l}</a>`).join("")}</nav>`;
+  }
+
+  /* ---------- Guess the Score: a few bars of sheet music; name the piece ---------- */
+  const SC = { data: null, vrv: null, tk: null, item: null, st: null, systems: [], midi: null, timemap: null, song: null, practice: false };
+  const SC_MAX = 6;
+  const scPts = a => (a ? [0, 5, 4, 3, 2, 1, 1, 1][a] : 0);
+  const scTotal = () => (SC.st.pieceAt ? scPts(SC.st.pieceAt) : SC.st.setAt ? 2 : SC.st.composerAt ? 1 : 0);
+  const scKey = () => (SC.practice ? "wh4-score-practice" : "wh4-score-day-" + DAY);
+  async function scLoad() {
+    if (!SC.data) {
+      SC.data = await (await fetch("data/scores.json")).json();
+      const names = [...new Set(SC.data.pieces.filter(p => !p.set).map(p => p.piece).concat(Object.values(SC.data.sets).map(x => x.name)))].sort();
+      SC.keyOf = {}; SC.data.pieces.forEach(p => { SC.keyOf[norm(p.piece)] = p.answerKey; });
+      Object.entries(SC.data.sets).forEach(([k, x]) => { SC.keyOf[norm(x.name)] = "set:" + k; });
+      SC.index = index(names);
+      const order = SC.data.pieces.map((p, i) => [seeded(i * 7 + 3), i]).sort((a, b) => a[0] - b[0]).map(x => x[1]);
+      SC.order = order;
+    }
+    if (!SC.vrv) {
+      SC.vrv = (async () => {
+        const [{ default: createModule }, { VerovioToolkit }] = await Promise.all([import("./vendor/verovio-6.4.1-hum.mjs"), import("./vendor/verovio-6.4.1.mjs")]);
+        const tk = new VerovioToolkit(await createModule());
+        return tk;
+      })();
+    }
+    SC.tk = await SC.vrv;
+  }
+  function scFresh(i, frac) { return { i, frac, guesses: [], misses: 0, pieceAt: 0, setAt: 0, setTried: [], composerAt: 0, done: false }; }
+  function scPick(practice) {
+    SC.practice = practice;
+    let st = store.get(scKey(), null);
+    if (!practice) { const want = SC.order[DAY % SC.order.length]; if (!st || st.i !== want) st = scFresh(want, seeded(DAY * 31 + 5)); }
+    else if (!st || !SC.data.pieces[st.i]) st = scFresh(Math.floor(Math.random() * SC.data.pieces.length), Math.random());
+    SC.st = st; SC.item = SC.data.pieces[st.i];
+  }
+  async function scRenderPiece() {
+    const tk = SC.tk, box = document.getElementById("sc-work");
+    const kern = await (await fetch("scores/" + SC.item.id + ".krn")).text();
+    const w = Math.max(320, Math.min(760, app.clientWidth || 560));
+    tk.setOptions({ pageWidth: w < 500 ? 1500 : 1800, pageHeight: 60000, adjustPageHeight: true, breaks: "auto", header: "none", footer: "none", scale: 33,
+      pageMarginTop: 20, pageMarginBottom: 20, pageMarginLeft: 20, pageMarginRight: 20, spacingSystem: 10, systemMaxPerPage: 24 });
+    tk.loadData(kern);
+    SC.systems = [];
+    box.innerHTML = "";
+    for (let p = 1; p <= tk.getPageCount(); p++) {
+      const holder = document.createElement("div"); holder.className = "sc-page"; holder.innerHTML = tk.renderToSVG(p); box.appendChild(holder);
+      const root = holder.querySelector("svg"), r0 = root.getBoundingClientRect();
+      holder.querySelectorAll("g.system").forEach((g, k) => {
+        const r = g.getBoundingClientRect();
+        const ms = [...g.querySelectorAll("g.measure")].map(m => m.id);
+        SC.systems.push({ page: p - 1, k, box: [r.left - r0.left - 6, r.top - r0.top - 10, r.width + 12, r.height + 20], measures: ms });
+      });
+    }
+    SC.pages = [...box.children];
+    try { SC.timemap = tk.renderToTimemap({ includeMeasures: true }); } catch (e) { SC.timemap = []; }
+    try {
+      const b = atob(tk.renderToMIDI()), u = new Uint8Array(b.length); for (let i = 0; i < b.length; i++) u[i] = b.charCodeAt(i);
+      SC.song = Piano.prepare(new Midi(u));
+    } catch (e) { SC.song = null; }
+  }
+  function scShown() {                       // which systems are visible: the chosen one, then one more after, before, after ...
+    const n = SC.systems.length, st = SC.st;
+    const start = Math.min(n - 1, Math.max(n > 2 ? 1 : 0, Math.floor(st.frac * n)));
+    const extra = st.done ? n : Math.min(st.misses, 3);
+    let a = start, b = start;
+    for (let i = 0; i < extra; i++) { if (i % 2 === 0 && b < n - 1) b++; else if (a > 0) a--; else if (b < n - 1) b++; }
+    const list = []; for (let i = a; i <= b; i++) list.push(i);
+    if ((st.misses >= 4 || st.done) && a > 0 && !st.done) list.unshift(0);   // the opening, as a hint
+    return st.done ? list.slice(0, 40) : list;
+  }
+  function scSystemSVG(i) {
+    const sys = SC.systems[i], page = SC.pages[sys.page].querySelector("svg").cloneNode(true);
+    const inner = page.querySelector("svg.definition-scale");     // keep the page's own size, or the whole page shrinks into the crop
+    if (inner) { inner.setAttribute("width", parseFloat(page.getAttribute("width"))); inner.setAttribute("height", parseFloat(page.getAttribute("height"))); }
+    page.querySelectorAll("g.system").forEach((g, k) => { if (k !== sys.k) g.remove(); });
+    const [x, y, w, h] = sys.box;
+    page.setAttribute("viewBox", `${x} ${y} ${w} ${h}`); page.setAttribute("width", "100%"); page.removeAttribute("height");
+    page.setAttribute("preserveAspectRatio", "xMinYMin meet"); page.style.aspectRatio = `${w} / ${h}`;
+    return page;
+  }
+  function scClues() {
+    const it = SC.item, form = (it.piece.split(" – ")[1] || "").match(/^([^,]+?)(?: in [A-G]|,|$)/);
+    const c = [];
+    if (it.key) c.push(`Key: ${it.key}`);
+    if (form) c.push(`Kind of piece: ${form[1].replace(/ No\. \d+$/, "")}${it.movement ? ` (${it.movement.toLowerCase()})` : ""}`);
+    c.push(`Composer: ${it.composer}`);
+    c.push("The opening bars are now shown at the top");
+    const num = it.piece.match(/(Op\. \d+[^,]*|K\. [\w. ]+|Hob\. [\w:]+)$/);
+    c.push(num ? `Catalogue number: ${num[1]}` : `The title starts with “${(it.piece.split(" – ")[1] || "")[0]}”`);
+    return c.slice(0, Math.min(SC.st.misses, 5));
+  }
+  const scComposerShown = () => SC.st.misses >= 3;
+  function scSave() { store.set(scKey(), SC.st); }
+  async function renderScore(practice) {
+    Player.stop(); MODE = "score";
+    app.innerHTML = `<header><h1>Whose <em>Hands</em></h1><span class="meta">${practice ? "Score practice" : `Score No. ${DAY + 1}`}</span></header>
+      ${tabsHTML("score")}
+      <p class="how">Name the piece from a few bars of its score. Each miss shows more bars and a clue. You can listen to the bars, played from the score.</p>
+      <section class="panel"><p class="how" id="sc-loading">Loading the score engine (about 4 MB, once)…</p></section><div id="sc-work" class="sc-work" aria-hidden="true"></div>
+      <footer><span>${practice ? "Practice scores are random." : "A new score every day at midnight."} Chopin scores: his first editions, encoded by the Fryderyk Chopin Institute (CC BY 4.0). Mozart and Haydn sonatas encoded by Craig Stuart Sapp (CC BY-NC-SA 4.0). Engraved with Verovio (LGPL). Played on the Salamander Grand Piano by Alexander Holm (CC BY 3.0).</span>
+      <span><a href="#changelog">What's new</a></span></footer>`;
+    try { await scLoad(); } catch (e) { console.error(e); document.getElementById("sc-loading").textContent = "The score engine didn't load. Reload the page to try again."; return; }
+    if (MODE !== "score") return;
+    scPick(practice);
+    await scRenderPiece();
+    scDraw();
+  }
+  function scDraw() {
+    const st = SC.st, it = SC.item, set = it.set && SC.data.sets[it.set];
+    const shown = scShown();
+    const fieldHTML = st.setAt && !st.pieceAt && set
+      ? `<div class="field part"><div class="row"><span class="label">Piece</span><span class="chip part">Set ✓ · now pick the piece</span></div>
+          <input type="text" value="${esc(set.name)}" disabled><label class="label" for="sc-member">Which one?</label>
+          <select id="sc-member"><option value="">Choose a piece from the set…</option>${set.members.map(([n, k]) => `<option value="${esc(k)}" ${st.setTried.includes(k) ? "disabled" : ""}>${st.setTried.includes(k) ? "✕ " : ""}${esc(n.split(" – ")[1])}</option>`).join("")}</select></div>`
+      : `<div class="field"><div class="row"><label class="label" for="sc-guess">Piece</label><span class="pts">up to 5 pts${scComposerShown() || st.composerAt ? "" : " · right composer 1"}</span></div>
+          <input type="text" id="sc-guess" placeholder="Start typing a title, set or composer"></div>`;
+    const panel = document.querySelector("#app .panel");
+    panel.innerHTML = `
+      <div class="row"><h2>What piece is this?</h2><span class="pts">${st.misses}/${SC_MAX} misses</span></div>
+      <div class="sc-systems" id="sc-systems"></div>
+      <div class="controls"><button class="btn" id="sc-play">▶ Listen to these bars</button><button class="btn" id="sc-stop">Stop</button></div>
+      ${st.done ? "" : `<form id="sc-form" autocomplete="off">${fieldHTML}
+        <div class="controls"><button class="btn primary" type="submit">Guess</button><button class="btn" type="button" id="sc-skip">Skip, show more</button></div></form>`}
+      ${scClues().length ? `<div><div class="label">Clues</div><ul class="hints">${scClues().map(c => `<li>${esc(c)}</li>`).join("")}</ul></div>` : ""}
+      ${st.guesses.length ? `<ul class="tries">${st.guesses.map(g => `<li><span class="n">${g.ok ? "✓" : "✕"}</span><span class="g ${g.ok ? "ok" : g.part ? "part" : "no"}">${esc(g.g || "—")}</span></li>`).join("")}</ul>` : ""}
+      ${st.done ? `<div class="result-inline"><div class="score">${scTotal()}<small> / 5</small></div>
+        <dl class="answer"><dt>Piece</dt><dd><b>${esc(it.piece)}</b>${it.movement ? `<br>${esc(it.movement)}` : ""}</dd>
+        <dt>Edition</dt><dd>${esc(it.by)} · ${esc(it.license)}</dd></dl>
+        <div class="controls">${SC.practice ? "" : `<button class="btn primary" id="sc-copy">Copy result</button>`}<button class="btn ${SC.practice ? "primary" : ""}" id="sc-next">${SC.practice ? "Next score" : "Practice another score"}</button></div></div>` : ""}`;
+    const holder = document.getElementById("sc-systems");
+    shown.forEach(i => holder.appendChild(scSystemSVG(i)));
+    const form = document.getElementById("sc-form");
+    if (form) {
+      const g = document.getElementById("sc-guess"); if (g) suggest(g, SC.index);
+      const submit = skip => {
+        const attempt = st.misses + 1, rec = { g: "", ok: false, part: false };
+        const mem = document.getElementById("sc-member");
+        if (mem) {
+          const k = skip ? "" : mem.value; if (!skip && !k) return;
+          rec.g = skip ? "(skipped)" : mem.options[mem.selectedIndex].text;
+          if (k === it.answerKey) { st.pieceAt = attempt; rec.ok = true; } else if (k) st.setTried.push(k);
+        } else {
+          const txt = skip ? "" : g.value.trim(); if (!skip && !txt) return;
+          const k = SC.keyOf[norm(txt)] || "";
+          rec.g = skip ? "(skipped)" : txt;
+          if (k === it.answerKey) { st.pieceAt = attempt; rec.ok = true; }
+          else if (it.set && k === "set:" + it.set) { st.setAt = attempt; rec.part = true; }
+          else if (!scComposerShown() && !st.composerAt && txt && norm(txt.split(" – ")[0]) === norm(it.composer)) { st.composerAt = attempt; rec.part = true; }
+        }
+        if (!rec.ok && !rec.part) st.misses++;
+        st.guesses.push(rec);
+        if (st.pieceAt || st.misses >= SC_MAX) st.done = true;
+        if (st.done && !SC.practice) { const s2 = store.get("wh4-score-stats", { played: 0, total: 0, days: {} }); if (s2.days[DAY] === undefined) { s2.days[DAY] = scTotal(); s2.played++; s2.total += scTotal(); store.set("wh4-score-stats", s2); } }
+        scSave(); Player.stop(); scDraw();
+      };
+      form.onsubmit = e => { e.preventDefault(); form.querySelectorAll(".suggest").forEach(x => (x.hidden = true)); submit(false); };
+      document.getElementById("sc-skip").onclick = () => submit(true);
+    }
+    const play = document.getElementById("sc-play");
+    play.disabled = !SC.song;
+    play.onclick = async () => {
+      const ctx = Player.audio(); const resumed = ctx.resume();
+      const ids = shown.filter(i => !(i === 0 && shown[1] !== 1 && shown.length > 1 && !st.done)).flatMap(i => SC.systems[i].measures);
+      const on = {}; (SC.timemap || []).forEach(e => { if (e.measureOn && on[e.measureOn] === undefined) on[e.measureOn] = e.tstamp / 1000; });
+      const starts = ids.map(id => on[id]).filter(x => x !== undefined);
+      if (!starts.length) return;
+      const from = Math.min(...starts), lastIdx = SC.systems.findIndex(s => s.measures.includes(ids[ids.length - 1]));
+      const nextM = SC.systems[lastIdx + 1] && SC.systems[lastIdx + 1].measures[0];
+      const to = nextM && on[nextM] !== undefined ? on[nextM] : from + 30;
+      await Promise.all([resumed, Player.loadSamples()]);
+      Player.stop();
+      Player.fx = Piano.chain(ctx, ctx.destination);
+      Player.sources = Piano.schedule(ctx, Player.fx.input, SC.song, { from, to, at: ctx.currentTime + 0.08, cut: to + 0.4 });
+      Player.playing = true; Player.poll = setTimeout(() => Player.stop(), (to - from + 2) * 1000);
+    };
+    document.getElementById("sc-stop").onclick = () => Player.stop();
+    const next = document.getElementById("sc-next");
+    if (next) next.onclick = () => { store.set("wh4-score-practice", null); location.hash === "#score-practice" ? renderScore(true) : (location.hash = "#score-practice"); };
+    const copy = document.getElementById("sc-copy");
+    if (copy) copy.onclick = async () => {
+      const txt = `Whose Hands · Score No. ${DAY + 1} · ${scTotal()}/5\n${st.guesses.map(x => (x.ok ? "🟩" : x.part ? "🟨" : "⬛")).join("")}\nhttps://whosehands.github.io/#score`;
+      try { await navigator.clipboard.writeText(txt); copy.textContent = "Copied"; } catch (e) { copy.textContent = "Couldn't copy"; }
+    };
+  }
+
   /* ---------- changelog ---------- */
   function renderChangelog() {
     Player.stop();
     app.innerHTML = `<header><h1>Whose <em>Hands</em></h1><span class="meta">What's new</span></header>
-    <nav class="tabs" aria-label="Mode"><a href="#">Daily</a><a href="#practice">Practice</a></nav>
+    ${tabsHTML("")}
     <section class="panel changelog"><h2>What's new</h2><p class="how" id="cl-loading">Loading…</p></section>`;
     fetch("data/changelog.json").then(r => r.json()).then(list => {
       const fmt = d => new Date(d + "T12:00:00").toLocaleDateString(undefined, { month: "long", day: "numeric", year: "numeric" });
@@ -404,17 +604,14 @@
     const daily = MODE === "daily";
     const step = S.done ? SNIPS.length - 1 : Math.min(S.misses, SNIPS.length - 1);
     const secs = SNIPS[step];
-    const hs = takenHints(), toOpen = S.done ? 0 : S.misses - (S.hints || []).length;
+    const hs = takenHints(), toOpen = S.done ? 0 : S.misses - hs.length;
     const dateStr = new Date().toLocaleDateString(undefined, { month: "short", day: "numeric", year: "numeric" });
     const tag = daily ? "NO. " + (DAY + 1) : "PRACTICE";
     const fresh = !S.guesses.length && !S.done;
 
     app.innerHTML = `
     <header><h1>Whose <em>Hands</em></h1><span class="meta">${daily ? `No. ${DAY + 1} · ${esc(dateStr)}` : "Practice"}</span></header>
-    <nav class="tabs" aria-label="Mode">
-      <a href="#" class="${daily ? "on" : ""}" ${daily ? 'aria-current="page"' : ""}>Daily</a>
-      <a href="#practice" class="${daily ? "" : "on"}" ${daily ? "" : 'aria-current="page"'}>Practice</a>
-    </nav>
+    ${tabsHTML(daily ? "daily" : "practice")}
     ${fresh ? `<p class="how">${P.kind === "record"
       ? "This is a 78 record. Guess everyone featured on it, the piece, and the year it was recorded."
       : "A pianist recorded this on a piano roll. You hear their exact notes, pedaling and timing on a modern piano. Guess who, what, and the year it was recorded."}
@@ -585,6 +782,7 @@
   /* ---------- boot ---------- */
   fetch("data/catalog.json").then(r => r.json()).then(cat => {
     CAT = cat;
+    fetch("data/clues.json").then(r => r.json()).then(c => { CAT.clues = c; }).catch(() => { CAT.clues = {}; });
     BY_ID = Object.fromEntries(cat.recordings.map(r => [r.id, r]));
     DAY = Math.max(0, dayIndex(cat.epoch));
     CAT.allPerformers = [...new Set(cat.recordings.flatMap(r => r.performers))];
@@ -595,7 +793,9 @@
     cat.recordings.forEach(r => { CAT.pieceKeyOf[norm(r.piece)] = r.pieceKey || norm(r.piece); });
     CAT.pieceOptions = [...new Set((cat.pieceOptions || []).map(o => o[0]))].sort();   // the build lists every answer once
     CAT.nameIndex = index(CAT.nameOptions); CAT.pieceIndex = index(CAT.pieceOptions);
-    const route = () => (location.hash === "#changelog" ? renderChangelog() : setMode(location.hash === "#practice" ? "practice" : "daily"));
+    const route = () => (location.hash === "#changelog" ? renderChangelog()
+      : location.hash === "#score" || location.hash === "#score-practice" ? renderScore(location.hash === "#score-practice")
+      : setMode(location.hash === "#practice" ? "practice" : "daily"));
     window.addEventListener("hashchange", route);
     window.addEventListener("resize", () => { const c = document.getElementById("roll"); if (c) draw(c, 0); });
     route();
