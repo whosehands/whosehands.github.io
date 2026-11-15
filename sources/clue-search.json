@@ -1,0 +1,944 @@
+{
+"grieg|t|1 gynt peer suite": {
+"title": "Peer Gynt (Grieg)",
+"qid": "Q14912776"
+},
+"dohnanyi|op11|2": null,
+"delibes|t|naila": null,
+"chaminade|t|arlequine": null,
+"rubinstein|op16|": null,
+"korngold|t|marchenbilder": null,
+"chaminade|t|parole romance sans": {
+"title": "Opus 76",
+"qid": "Q43883005"
+},
+"schelling|t|romance": null,
+"paderewski|t|concert humoresque": {
+"title": "Minuet in G (Paderewski)",
+"qid": "Q6869758"
+},
+"brassin|t|der nibelungen richard ring wagner": null,
+"macdowell|t|fantasiestucke": null,
+"glazunov|t|goda vremena": {
+"title": "The Seasons (ballet)",
+"qid": "Q3235293"
+},
+"epstein|t|walzer wiener": null,
+"schytte|op26|7": null,
+"henselt|t|caracteristique concert etude": {
+"title": "Adolf von Henselt",
+"qid": "Q362139"
+},
+"schubert|t|cycle schwanengesang song": {
+"title": "Schwanengesang",
+"qid": "Q1635249"
+},
+"liszt|t|lohengrin stucke tannhauser und": null,
+"macdowell|t|etuden virtuosen": null,
+"tchaikovsky|t|shchelkunchik suite": {
+"title": "The Nutcracker",
+"qid": "Q193705"
+},
+"chopin|op28|20": {
+"title": "Prelude, Op. 28, No. 20 (Chopin)",
+"qid": "Q3910271"
+},
+"glazunov|t|bol kontsertnyi shoi val": null,
+"steinway|t|madeleine": null,
+"joyce|t|dreaming": {
+"title": "Archibald Joyce",
+"qid": "Q941678"
+},
+"saint-saens|op66|": null,
+"dohnanyi|op11|3": null,
+"chopin|op28|15": {
+"title": "Prelude, Op. 28, No. 15 (Chopin)",
+"qid": "Q1148572"
+},
+"vogrich|t|caprice staccato": {
+"title": "Max Vogrich",
+"qid": "Q6795339"
+},
+"grieg|op41|": null,
+"korngold|op2|": null,
+"grunfeld|t|mignonne valse": null,
+"schubert|d759|": {
+"title": "Symphony No. 8 (Schubert)",
+"qid": "Q651383"
+},
+"carreno|t|kleiner walzer": null,
+"liszt|t|1862 konzertetuden": {
+"title": "Two Concert Études (Liszt)",
+"qid": "Q755485"
+},
+"raff|op204|": null,
+"liszt|t|4 soiree vienne": null,
+"moszkowski|t|fruhling": null,
+"chaminade|t|retour": null,
+"grunfeld|op42|1": null,
+"brahms|op117|2": {
+"title": "Three Intermezzi for piano, Op. 117 (Brahms)",
+"qid": "Q1257047"
+},
+"debussy|t|2nd image ser": null,
+"brahms|op76|": null,
+"mendelssohn-bartholdy|op62|6": null,
+"chopin|op28|18": {
+"title": "Preludes (Chopin)",
+"qid": "Q10353577"
+},
+"schubert|d935|": {
+"title": "Impromptus (Schubert)",
+"qid": "Q4861173"
+},
+"mozart|k331|": {
+"title": "Piano Sonata No. 11 (Mozart)",
+"qid": "Q908534"
+},
+"gottschalk|t|hope last": null,
+"holzmann|t|land love": null,
+"strauss|t|dorfschwalben osterreich": {
+"title": "Dorfschwalben aus Österreich",
+"qid": "Q21804546"
+},
+"chopin|op28|17": {
+"title": "Prelude, Op. 28, No. 15 (Chopin)",
+"qid": "Q1148572"
+},
+"raff|t|cachoucha caprice": null,
+"glazunov|op72|": null,
+"liszt|t|2 soiree vienne": null,
+"alkan|t|6 dans majeur mineur prelude tons tous": null,
+"liszt|t|concert paraphrase": null,
+"poldini|t|marionette": null,
+"moszkowski|t|barcarole conte hoffmann offenbach opera": null,
+"mendelssohn-bartholdy|op53|5": null,
+"monk|t|hymn": null,
+"mendelssohn-bartholdy|op16|2": null,
+"schumann|op28|2": null,
+"grainger|t|british folk music setting": null,
+"verdi|t|traviata": {
+"title": "La traviata",
+"qid": "Q186162"
+},
+"schutt|op38|": null,
+"glazunov|op74|": null,
+"schutt|t|concert johann paraphrasen strauss uber von walzer": null,
+"raff|op61|3": null,
+"traditional|t|anthem god king national save": null,
+"verdi|t|trovatore": {
+"title": "Il trovatore",
+"qid": "Q203470"
+},
+"borel-clerc|t|mattchiche": null,
+"marx-goldschmidt|t|hongroise rhapsodie": null,
+"pachmann|t|einer gebet improvisation jungfrau uber": null,
+"german|t|henry viii": null,
+"schutt|op16|": null,
+"fall|t|dem hans knie lieber machst mit was": {
+"title": "Richard Fall",
+"qid": "Q88090"
+},
+"strauss|t|fledermau": {
+"title": "Die Fledermaus",
+"qid": "Q464930"
+},
+"paderewski|t|miscellanea": null,
+"liszt|t|1849 3 concert etude": {
+"title": "Three Concert Études",
+"qid": "Q591072"
+},
+"meyer-helmund|op21|": null,
+"brahms|op79|2": null,
+"d'egville|t|canadian rondo": null,
+"traditional|t|boatmen song volga": null,
+"rosenzweig|t|gut mir sei": null,
+"chaminade|t|concert etude": null,
+"schubert|d489|": {
+"title": "Wanderer Fantasy",
+"qid": "Q732784"
+},
+"schutt|t|carnaval mignon": null,
+"meyer-helmund|op12|": null,
+"schlozer|t|1 concert etude": null,
+"liszt|t|liebeslied": null,
+"rubinstein|op3|1": null,
+"michaelis|t|patrol turkish": null,
+"chaminade|t|lisonjera": null,
+"leschetizky|t|italie souvenir": null,
+"grunfeld|t|den fruhlingsstimmen paraphrase uber walzer": null,
+"friml|t|high jink": {
+"title": "High Jinks (musical)",
+"qid": "Q65087590"
+},
+"scott|t|": {
+"title": "Orson Scott Card bibliography",
+"qid": "Q16385220"
+},
+"thalberg|t|home sweet": null,
+"raff|t|fileuse": null,
+"beethoven|op51|1": {
+"title": "Rondos, Op. 51 (Beethoven)",
+"qid": "Q3025008"
+},
+"moszkowski|t|sourire tristesse": null,
+"beethoven|woo80|": {
+"title": "32 Variations in C minor (Beethoven)",
+"qid": "Q1350870"
+},
+"czerny|t|33 der fingerfertigkeit kunst": null,
+"liszt|t|1849 2 concert etude": {
+"title": "Three Concert Études",
+"qid": "Q591072"
+},
+"chopin|op28|16": {
+"title": "Prelude, Op. 28, No. 15 (Chopin)",
+"qid": "Q1148572"
+},
+"debussy|t|1 book prelude": {
+"title": "Préludes (Debussy)",
+"qid": "Q512715"
+},
+"rubinstein|t|bal": {
+"title": "Nikolai Rubinstein",
+"qid": "Q311791"
+},
+"waldteufel|t|jamai ou toujour": null,
+"toselli|op6|": null,
+"mendelssohn-bartholdy|op19|": null,
+"mendelssohn-bartholdy|op34|": null,
+"liszt|t|faust opera valse": null,
+"rosoff|t|seventeen were when you": null,
+"beethoven|woo82|": null,
+"dvorak|op101|7": {
+"title": "Humoresques (Dvořák)",
+"qid": "Q2622524"
+},
+"macdowell|t|fireside tale": null,
+"schumann|op12|1": null,
+"schubert|t|divertissement hongroise": null,
+"busoni|t|4 ballettszene": null,
+"mendelssohn-bartholdy|op62|4": null,
+"schulz-evler|t|arabesken blauen der donau schonen themen uber walzer": null,
+"rubinstein|t|album danse differente nation populaire": null,
+"chaminade|t|pierrette": null,
+"scriabin|op32|1": null,
+"gabrilowitsch|op3|": null,
+"mendelssohn-bartholdy|op38|6": null,
+"strauss|t|heldenleben": {
+"title": "Ein Heldenleben",
+"qid": "Q1304650"
+},
+"silesu|t|amour peu": null,
+"flotow|t|che cio dir vuol": null,
+"gounod|t|dieu seigneur": null,
+"gounod|t|eh quoi seule toujour": null,
+"gounod|t|finale garden scene": null,
+"saint-saens|t|celebrer je victoire vien": null,
+"verdi|t|qual volutta": null,
+"gounod|t|messieur que voulez vous": null,
+"lully|t|bois epai": null,
+"donizetti|t|solo terra": null,
+"mendelssohn-bartholdy|t|love my that would": null,
+"molloy|t|dance kerry": {
+"title": "The Kerry Dance",
+"qid": "Q136129435"
+},
+"harris|t|caprice kisse love": null,
+"de koven|t|cat owl pussy": null,
+"menzel|t|tranquility": null,
+"nevin|t|love song venetian": null,
+"waldteufel|t|confession love waltz": null,
+"zeller|t|be cross don": null,
+"verdi|t|home mountain our": null,
+"silcher|t|die lorelei": null,
+"xiii|t|amarylli": null,
+"paderewski|op14|1": {
+"title": "Minuet in G (Paderewski)",
+"qid": "Q6869758"
+},
+"ghys|t|amarylli": null,
+"wallace|t|happy moment": {
+"title": "The Swing (Fragonard)",
+"qid": "Q2629559"
+},
+"puccini|t|divina tosca": {
+"title": "Tosca discography",
+"qid": "Q7827574"
+},
+"tosti|t|alla confusa mente": null,
+"grieg|t|dich ich liebe": null,
+"offenbach|t|barcarolle": {
+"title": "Belle nuit, ô nuit d'amour",
+"qid": "Q4883726"
+},
+"bullard|t|song winter": null,
+"lincke|t|birthday serenade": null,
+"ziehrer|t|lesson me that waltz": null,
+"nevin|t|rosary": {
+"title": "The Rosary",
+"qid": "Q14367607"
+},
+"tchaikovsky|t|alone have who ye yearned": null,
+"herbert|t|outlaw song": null,
+"nevin|t|narcissu": {
+"title": "Narcissus (music)",
+"qid": "Q6965655"
+},
+"wolf|t|ruh zur": {
+"title": "Hugo Wolf",
+"qid": "Q215747"
+},
+"brahms|t|lullaby": {
+"title": "Wiegenlied (Brahms)",
+"qid": "Q1557135"
+},
+"sullivan|t|brightly dawn day our wedding": null,
+"gabriel-marie|t|enfant songe": null,
+"janis|t|choclo el": null,
+"de koven|t|armorer song": null,
+"weymann|t|hour love": null,
+"lehar|t|rose yesterday": null,
+"herbert|t|her jeannette shoe wooden": null,
+"herbert|t|every fate his lover meet must": null,
+"puccini|t|beloved idol": null,
+"puccini|t|sky what": null,
+"michiels|t|danse styrienne": null,
+"paradis|t|menuet pastel": null,
+"philipp|t|adele": {
+"title": "Adele (musical)",
+"qid": "Q4681864"
+},
+"thome|t|dream": null,
+"goens|t|song without word": null,
+"ilgenfritz|t|hesitation waltz": null,
+"mozart|t|blacksmith": null,
+"boisdeffre|t|at brook": null,
+"arne|t|greenwood tree under": null,
+"bishop|t|deer have he killed shall what who": null,
+"schubert|t|is sylvia who": {
+"title": "An Sylvia",
+"qid": "Q11308433"
+},
+"morley|t|his it lass lover was": {
+"title": "O Mistress Mine",
+"qid": "Q62833281"
+},
+"morley|t|mine mistress": {
+"title": "O Mistress Mine",
+"qid": "Q62833281"
+},
+"haydn|t|alle deutschland uber": null,
+"delibes|t|lento valse": null,
+"carissimi|t|core mio vittoria": null,
+"caldara|t|come di raggio sol": null,
+"monteverdi|t|cessate di piagarmi": null,
+"wagner|t|love siegmund song": null,
+"rubinstein|t|romance": null,
+"la halle|t|aime robin": null,
+"arcadelt|t|bianco cigno ii": null,
+"mendelssohn-bartholdy|t|sorrow": null,
+"gounod|t|juliet slumber": null,
+"de koven|t|bow cross": null,
+"thomas|t|mignon overture": {
+"title": "Ambroise Thomas",
+"qid": "Q297717"
+},
+"schubert|t|coronach": {
+"title": "Coronach (disambiguation)",
+"qid": "Q5172146"
+},
+"leoncavallo|t|day tis": {
+"title": "You're Breaking My Heart",
+"qid": "Q17060232"
+},
+"bishop|t|home sweet": {
+"title": "Home! Sweet Home!",
+"qid": "Q851745"
+},
+"traditional|t|falet serenade": null,
+"mascagni|t|siciliana": null,
+"fysher|t|moi prend": null,
+"zerkovitz|t|czigany ven": null,
+"puccini|t|cantabile di scarpia": null,
+"wallace|t|hear my prayer spirit sweet": null,
+"beck|t|beautiful city nonsense": null,
+"traditional|t|whispering wind": null,
+"benedict|t|carnival venice": null,
+"finck|t|pirouette": null,
+"staub|t|forest": null,
+"gounod|t|marche romaine": null,
+"handel|t|gavotte": null,
+"berte|t|blossom time": null,
+"gurlitt|t|run": null,
+"brahms|t|1 2 9 waltze": {
+"title": "Liebeslieder Waltzes (Brahms)",
+"qid": "Q42192261"
+},
+"kullak|t|boating lake": null,
+"burgmuller|t|bergeronette": null,
+"tchaikovsky|t|hummingbird": null,
+"kullak|t|hobbyhorse knight": null,
+"rossini|t|overture semiramide": {
+"title": "Semiramide",
+"qid": "Q900744"
+},
+"thomas|t|connai pays tu": null,
+"hahn|t|paysage": null,
+"yradier|t|paloma": {
+"title": "La Paloma",
+"qid": "Q1700350"
+},
+"traditional|t|gavotte": null,
+"czibulka|t|gavotte stephanie": null,
+"flotow|t|porter song": null,
+"leoncavallo|t|pagliacci prologue": {
+"title": "Pagliacci",
+"qid": "Q248644"
+},
+"waldteufel|t|jolie tres waltz": null,
+"sullivan|t|lancer mikado": null,
+"raff|t|serenade": null,
+"rachmaninoff|t|descend night when": {
+"title": "All-Night Vigil (Rachmaninoff)",
+"qid": "Q969684"
+},
+"rachmaninoff|t|cease fair maiden singing thy": null,
+"benedict|t|above has her lamp moon raised": null,
+"puccini|t|fanciulla soave": {
+"title": "O soave fanciulla",
+"qid": "Q85790107"
+},
+"moret|t|hiawatha": {
+"title": "Hiawatha (A Summer Idyl)",
+"qid": "Q5750558"
+},
+"gounod|t|flower song": null,
+"verdi|t|caro nome": {
+"title": "Caro nome che il mio cor",
+"qid": "Q25405129"
+},
+"tobani|t|flower heart": {
+"title": "Hearts and Flowers",
+"qid": "Q5692979"
+},
+"romani|t|foglio manca un": null,
+"handel|t|despised he was": null,
+"mendelssohn-bartholdy|t|enough is it": null,
+"wagner|t|evening song star tannhauser": {
+"title": "Song to the Evening Star",
+"qid": "Q7811203"
+},
+"wagner|t|abendstern holder mein": {
+"title": "Song to the Evening Star",
+"qid": "Q7811203"
+},
+"herbert|t|gypsy love song": {
+"title": "Victor Herbert (album)",
+"qid": "Q23023583"
+},
+"handel|t|flock he his lead shall": null,
+"czibulka|t|nightingale waltz": null,
+"verdi|t|credo": null,
+"keler|t|lustspiel overture": null,
+"loraine|t|zamona": null,
+"herbert|t|mill red step two": null,
+"handel|t|be every exalted shall valley": null,
+"lehar|t|vilia": null,
+"mendelssohn-bartholdy|t|cheerful wanderer": null,
+"flotow|t|lost proscribed": null,
+"wagner|t|bridal choru": {
+"title": "Bridal Chorus",
+"qid": "Q1476098"
+},
+"bizet|t|ami ben mio se tu": null,
+"gounod|t|aria jewel": null,
+"lehar|t|song vilia": null,
+"handel|t|comfort my people ye": null,
+"gung'l|t|immortellen waltz": null,
+"komzak|t|bad mad ner": null,
+"d'albret|t|life preserver": null,
+"verdi|t|night peaceful was": null,
+"donizetti|t|mad scene": null,
+"moszkowski|t|caprice espanol": null,
+"lehar|t|eva waltze": null,
+"voelker|t|black forest hunt": null,
+"orth|t|clock store": {
+"title": "In a Clock Store",
+"qid": "Q138674017"
+},
+"europe|t|castle duck lame": null,
+"fetras|t|glittering moonbeam": null,
+"thome|t|extase": null,
+"granados|t|goyesca intermezzo": {
+"title": "Goyescas",
+"qid": "Q3046718"
+},
+"meyerbeer|t|choru rataplan soldier": null,
+"mozart|t|choru grand isis priest": null,
+"borodin|t|coro di donne tartare": null,
+"borodin|t|coro danza igor prince": null,
+"puccini|t|ah mimi piu tu": null,
+"gounod|t|prison scene trio": null,
+"abt|t|die heimwart schwalben wenn zieh": null,
+"herbert|t|al fresco intermezzo": null,
+"schubert|t|serenata": null,
+"crouch|t|kathleen mavourneen": {
+"title": "Kathleen Mavourneen",
+"qid": "Q6376826"
+},
+"verdi|t|praise ye": null,
+"suppe|t|serenata": null,
+"audran|t|duet gobble": null,
+"harney|t|cakewalk sky": null,
+"barker|t|club midnight": {
+"title": "Dope Boys",
+"qid": "Q4818000"
+},
+"franchetti|t|chiuder gli non occhi vaghi": null,
+"leoncavallo|t|amar lasciati": null,
+"schuh|t|hermosillo": null,
+"verdi|t|di fedele se tu": null,
+"tchaikovsky|t|don juan serenade": {
+"title": "Six Romances, Opus 38 (Tchaikovsky)",
+"qid": "Q30602731"
+},
+"bizet|t|amie mon": null,
+"tchaikovsky|t|pourquoi": null,
+"tchaikovsky|t|pimpinella": null,
+"pergolesi|t|nina": {
+"title": "Tre giorni son che Nina",
+"qid": "Q652170"
+},
+"goldmark|t|magic magiche note tone": null,
+"mascagni|t|brindisi": null,
+"massenet|t|chiudo gli occhi": null,
+"gounod|t|jewel song": {
+"title": "Jewel Song",
+"qid": "Q20999298"
+},
+"wolf-ferrari|t|rafaele serenata": null,
+"lehar|t|women": null,
+"mozart|t|carino vedrai": null,
+"mascagni|t|pure stille": null,
+"wagner|t|3 act prelude": null,
+"tchaikovsky|t|marche miniature": null,
+"lehar|t|man three waltz with wive": null,
+"donizetti|t|brindisi": null,
+"wagner|t|traume": null,
+"wagner|t|isolde liebestodt": null,
+"rubinstein|t|angelique reve": null,
+"meyerbeer|t|shadow song": null,
+"wagner|t|bridal march": {
+"title": "Bridal Chorus",
+"qid": "Q1476098"
+},
+"puccini|t|fisi occhi quanti": null,
+"balfe|t|bow down heart": null,
+"liszt|t|dream love": {
+"title": "Dreams of Love – Liszt",
+"qid": "Q1297560"
+},
+"wallace|t|fall let like me soldier": null,
+"barnby|t|breeze soft southern": null,
+"gounod|t|choru soldier": null,
+"speaks|t|may time": {
+"title": "Time Speaks",
+"qid": "Q65084624"
+},
+"reinhardt|t|bees little love two": null,
+"flotow|t|good night quartet": null,
+"mendelssohn-bartholdy|t|blast cauld thou wert": null,
+"debussy|t|bateau": null,
+"verdi|t|balen il": null,
+"verdi|t|ascolta carlo": null,
+"mascagni|t|addio alla madre": null,
+"leoncavallo|t|adorata testa": null,
+"massenet|t|juge pere souverain": null,
+"halevy|t|grace quand rachel seigneur tutelaire": null,
+"verdi|t|ah mano paterna": null,
+"verdi|t|lagrime parmi veder": null,
+"tchaikovsky|t|air lienski": null,
+"rubinstein|t|ah mon sort": null,
+"handel|t|largo": {
+"title": "Ombra mai fu",
+"qid": "Q2458851"
+},
+"saint-saens|t|hela ma misere vois": null,
+"gomes|t|nascesti quando tu": null,
+"adam|t|cantique noel": {
+"title": "O Holy Night",
+"qid": "Q59653365"
+},
+"gomes|t|mia piccirella": null,
+"franck|t|procession": null,
+"gounod|t|aide moi prete ton": null,
+"puccini|t|bel di un": {
+"title": "Un bel dì, vedremo",
+"qid": "Q4003698"
+},
+"bizet|t|air micaela": null,
+"verdi|t|povero rigoletto": null,
+"offenbach|t|dove elle flown fui has": null,
+"gounod|t|dormez riez serenadechantez": null,
+"massenet|t|reve": null,
+"gounod|t|dio possente": null,
+"bellini|t|ah per sempre": null,
+"donizetti|t|amor tanto": null,
+"verdi|t|concert paraphrase": null,
+"thomas|t|das kennst land": null,
+"wagner|t|elisabeth gebet": null,
+"ponchielli|t|suicidio": null,
+"smetana|t|ukolebavka": null,
+"puccini|t|addio": null,
+"traditional|t|last rose summer": null,
+"bellini|t|ah credea mirarti non": null,
+"bellini|t|come me per sereno": null,
+"verdi|t|ah fors lui": null,
+"meyerbeer|t|leggiera ombra": null,
+"delibes|t|bruna dov indiana": null,
+"thomas|t|fair polonaise titania": null,
+"gounod|t|valse": null,
+"strauss|t|di primavera voci": {
+"title": "Frühlingsstimmen",
+"qid": "Q1472158"
+},
+"herbert|t|song spring": null,
+"handel|t|beloved come": null,
+"leoncavallo|t|angelli che volo": null,
+"godard|t|berceuse": null,
+"puccini|t|cio entrance san": null,
+"verdi|t|ernani involami": {
+"title": "Ernani",
+"qid": "Q211279"
+},
+"saint-saens|t|aider amour vien": null,
+"puccini|t|cos cuore ebbe sai": null,
+"puccini|t|butterfly death scene": null,
+"gounod|t|mephistophele serenade": null,
+"verdi|t|abbietta zingara": null,
+"meyerbeer|t|infernale valse": null,
+"donizetti|t|fra me poco ricovero": null,
+"bizet|t|avevi che fior il me": null,
+"puccini|t|di racconto rodolfo": null,
+"balfe|t|come garden into maud": {
+"title": "Come Into the Garden, Maud",
+"qid": "Q126733604"
+},
+"gounod|t|dimora salve": null,
+"donizetti|t|maria per vicino viver": null,
+"wagner|t|prize song": {
+"title": "Mirel Wagner",
+"qid": "Q11882972"
+},
+"gounod|t|au printemp": {
+"title": "Au printemps",
+"qid": "Q4818957"
+},
+"thomas|t|air tambour": null,
+"meyerbeer|t|adamastor dell onde profonde re": null,
+"massenet|t|casto fior": null,
+"verdi|t|eri tu": {
+"title": "Un ballo in maschera",
+"qid": "Q221757"
+},
+"thomas|t|brindisi discaccia tristezza vin": null,
+"loewe|t|das erkennen": null,
+"millocker|t|bua mei und": null,
+"meyerbeer|t|prison scene": null,
+"meyerbeer|t|ach dir mein segnet sohn": null,
+"saint-saens|t|der erwachte fruhling": null,
+"saint-saens|t|herz mein": null,
+"verdi|t|alla deh finestra serenata vieni": null,
+"verdi|t|brindisi inaffia ugola": null,
+"bellini|t|ah giunge non": null,
+"meyerbeer|t|oh paradise": null,
+"wagner|t|lohengrin narrative": {
+"title": "Lohengrin (opera)",
+"qid": "Q23085"
+},
+"flotow|t|dream like": null,
+"bizet|t|flower song": null,
+"mascagni|t|lo sapete voi": null,
+"verdi|t|borsa della scena": null,
+"donizetti|t|2 mad part scene": {
+"title": "Il dolce suono",
+"qid": "Q5809685"
+},
+"thomas|t|io son titania": null,
+"gomes|t|forza indomita sento una": null,
+"salvi|t|angelo bel casto": null,
+"kurpinski|op87|3": null,
+"smetana|t|marenky vaska": null,
+"vymetal|t|ne nepovi ty": null,
+"meyerbeer|t|invocation": null,
+"meyerbeer|t|assai sei vendicata": null,
+"flotow|t|canzone del porter": null,
+"yradier|t|sevillana": null,
+"bizet|t|boheme chanson": null,
+"gounod|t|aid lend me your": null,
+"parelli|t|il meco ruscello vien": null,
+"chopin|t|aime moi": null,
+"chaminade|t|baiser doux tes": null,
+"franchetti|t|dunque ho sognato": null,
+"wallace|t|flower is there": null,
+"massenet|t|il sogno": {
+"title": "Il bel sogno",
+"qid": "Q16847198"
+},
+"puccini|t|ancora passo un": null,
+"verdi|t|stride vampa": null,
+"puccini|t|musetta waltz": {
+"title": "Quando me'n vo'",
+"qid": "Q3412947"
+},
+"zeller|t|nightingale song": null,
+"chapi|t|flore purisima": null,
+"loewe|t|canzonetta": null,
+"rimsky-korsakov|t|lehl shepherd song": null,
+"donizetti|t|com gentil serenata": null,
+"hahn|t|exquise heure": null,
+"rimsky-korsakov|t|au hymne soleil": null,
+"puccini|t|babbino caro mio": {
+"title": "O mio babbino caro",
+"qid": "Q782097"
+},
+"leoncavallo|t|buon buona del mio tempo zaza": null,
+"bellini|t|il sen sovra": null,
+"svendsen|t|serenade venetiansk": null,
+"nordraak|t|traet": null,
+"sinding|t|kom med visor": null,
+"dargomyzhski|t|devitza douchechka": null,
+"rimsky-korsakov|t|roman vostochnyi": null,
+"mussorgsky|t|hopak": null,
+"moniuszko|t|piesn wieczorna": null,
+"moniuszko|t|gorszczyca jodly szumia za": null,
+"schumann|t|grolle ich nicht": null,
+"weber|t|fromme leise weise": null,
+"rossini|t|cavatina figaro fun": null,
+"lewandowski|t|mazur wojt": null,
+"gounod|t|invocation mephistophele": null,
+"puccini|t|vecchia zimarra": null,
+"massenet|t|air lettre": null,
+"mozart|t|isis qui": null,
+"lecocq|t|monsieur politique raisonnou voyon": null,
+"meyerbeer|t|ch deh io ritorni": null,
+"ivanovici|t|dunaju falach na": null,
+"auber|t|pobudka": null,
+"leoncavallo|t|gentil riso un": null,
+"verdi|t|infelice": null,
+"gluck|t|away crying mourning with": null,
+"gounod|t|ancor dammi": null,
+"gomes|t|ciel di parahyba": null,
+"massenet|t|fleurissait rose une": null,
+"handel|t|alarm sound": null,
+"massenet|t|air phanuel": null,
+"gounod|t|air sommeil": null,
+"miguez|t|exul madrugada": null,
+"gomes|t|era una volta": null,
+"mozart|t|aria leporello": {
+"title": "Madamina, il catalogo è questo",
+"qid": "Q924223"
+},
+"gounod|t|couplet vulcain": null,
+"gounod|t|chanson stefano": null,
+"verdi|t|fatal pietra": null,
+"rameau|t|amoureux rossignol": null,
+"lalo|t|aimee bien ma vainement": null,
+"mozart|t|air grand pretre": null,
+"wagner|t|abendlich auge der sonne strahlt": null,
+"gounod|t|soir": null,
+"meyerbeer|t|benediction huguenot poignard": null,
+"herbert|t|address paul": null,
+"rimsky-korsakov|t|air liuba": null,
+"wolf-ferrari|t|gioia leggera nube oh": null,
+"schubert|t|dem unendlichen": null,
+"flotow|t|appari": null,
+"offenbach|t|doll song": null,
+"bellini|t|qui voce": null,
+"gounod|t|demeure salut": null,
+"mozart|t|air variation": {
+"title": "Requiem (Mozart)",
+"qid": "Q207875"
+},
+"handel|t|dost leave me oh sleep thou why": null,
+"sterndale-bennett|t|away lips oh take those": null,
+"kreisler|t|1915 cradle song": null,
+"meyerbeer|t|rendezvou": null,
+"bizet|t|au fond saint temple": {
+"title": "Au fond du temple saint",
+"qid": "Q56156"
+},
+"mussorgsky|t|3 atto finale": null,
+"messager|t|honour love": null,
+"delibes|t|contento nel profondo vien": null,
+"berlioz|t|mephistophele serenade": null,
+"verdi|t|ora quest solenne": null,
+"gounod|t|epee scene": null,
+"donizetti|t|ah alto ardor": null,
+"donizetti|t|corro vado": null,
+"donizetti|t|io pronta son": null,
+"verdi|t|alvaro invano": null,
+"verdi|t|accenti fieri minaccie": null,
+"verdi|t|dunque fu il segreto violato": null,
+"donizetti|t|scudi venti": null,
+"denza|t|aviez compri si vous": null,
+"leoncavallo|t|deux serenade": null,
+"gounod|t|beauty gaze laisse let me moi thy": null,
+"gounod|t|eternelle forever thine": null,
+"gounod|t|coeur epouvante est mon penetre": null,
+"gounod|t|attend rue voici": null,
+"massenet|t|appelle manon": {
+"title": "Manon",
+"qid": "Q842063"
+},
+"verdi|t|gia sacerdoti": null,
+"verdi|t|aida me togliesti": null,
+"verdi|t|all aspro assalto mal reggendo": null,
+"verdi|t|ai monti nostri": null,
+"puccini|t|dissi lo vel": null,
+"verdi|t|addio terra": null,
+"flotow|t|profugo solo": null,
+"bizet|t|halte qui va": null,
+"verdi|t|alla dite giovine": null,
+"verdi|t|imponete": null,
+"humperdinck|t|bin der ich kleine sandmann": null,
+"bizet|t|ma mere moi parle": null,
+"verdi|t|cara parigi": {
+"title": "Parigi o cara",
+"qid": "Q3895936"
+},
+"bizet|t|al del limitar tempio": null,
+"mozart|t|che soave zefiretto": null,
+"wagner|t|battle brunnhilde cry": null,
+"giordano|t|anni sesant son": null,
+"gounod|t|di lieti quando rammenta": null,
+"verdi|t|ero paggio quand": null,
+"verdi|t|al deh misero non parlare": null,
+"mozart|t|batti": null,
+"bizet|t|fleur romance": null,
+"meyerbeer|t|al alpina bianca di neve par": null,
+"bizet|t|canzone del toreador": null,
+"haydn|t|air laboureur": null,
+"edwards|t|home sweet thought": null,
+"gounod|t|cavatine": null,
+"gounod|t|arise cavatine fairest sun": null,
+"verdi|t|ah ben mio si": {
+"title": "Il trovatore",
+"qid": "Q203470"
+},
+"thomas|t|berceuse": null,
+"mendelssohn-bartholdy|t|forth righteou shall shine then": null,
+"wagner|t|ho yo": null,
+"chaminade|t|chanson slave": null,
+"bizet|t|eviter pour vain": null,
+"franchetti|t|studenti udite": null,
+"massenet|t|avaient fleur oh si yeux": null,
+"gounod|t|amor parlate": null,
+"rossini|t|li marinari": null,
+"puccini|t|ora tirsi": null,
+"wagner|t|denn eile fort": null,
+"delibes|t|bon jour suzon": null,
+"fall|t|der geigen hangt himmel ihm voller": null,
+"wolf-ferrari|t|cosi lasciate mi non via": null,
+"wolf|t|heart modest": {
+"title": "Apologies to the Queen Mary",
+"qid": "Q2858487"
+},
+"grieg|t|im kahne": null,
+"macdowell|t|apple robin sing tree": null,
+"marshall|t|calling hear me you": {
+"title": "I Hear You Calling Me",
+"qid": "Q16259195"
+},
+"cornelius|t|monotone": null,
+"rimsky-korsakov|t|orientale romance": null,
+"kreisler|t|love star": null,
+"rossini|t|crucifixu": null,
+"humperdinck|t|hexenritt": null,
+"wagner|t|elsa traum": null,
+"wagner|t|elizabeth prayer": null,
+"leoncavallo|t|prologue": {
+"title": "Pagliacci",
+"qid": "Q248644"
+},
+"moniuszko|t|halka polish song": {
+"title": "Halka",
+"qid": "Q592291"
+},
+"massenet|t|si tu veux": null,
+"donizetti|t|anima di luce quest": null,
+"verdi|t|salce": null,
+"hahn|t|prison une": null,
+"verdi|t|ladri monologo onore": null,
+"mozart|t|aria sextu": {
+"title": "Constanze Mozart",
+"qid": "Q84464"
+},
+"gluck|t|ai euridice mon perdu": {
+"title": "Orfeo ed Euridice",
+"qid": "Q723776"
+},
+"gounod|t|roi thule": null,
+"saint-saens|t|commence printemp qui": null,
+"debussy|t|air lia": {
+"title": "L'enfant prodigue (Debussy)",
+"qid": "Q19205924"
+},
+"gounod|t|morte valentino": null,
+"haydn|t|bids bind hair me mother my": null,
+"masse|t|air tigre": null,
+"catalani|t|ah amera dunque ei": null,
+"thuille|t|allen zweigen": null,
+"straus|t|bella mia non sai": null,
+"massenet|t|front mon ouvrez paradise porte sur vous": null,
+"verdi|t|notte placida tacea": null,
+"verdi|t|ali amor rosee sull": null,
+"veracini|t|pastoral": null,
+"franchetti|t|ferito prigionier": null,
+"bach|t|ever faithful heart my": {
+"title": "Liebster Immanuel, Herzog der Frommen, BWV 123",
+"qid": "Q1631532"
+},
+"verdi|t|che eri macchiavi tu": null,
+"verdi|t|mia patria": null,
+"bellini|t|diletto vien": null,
+"verdi|t|amiche dilette merce": null,
+"mozart|t|air pamina": null,
+"tchaikovsky|t|auf es geht mitternacht": null,
+"dvorak|t|lieblicher mond": null,
+"tchaikovsky|t|dammert es": null,
+"tchaikovsky|t|berger doux mon vien": null,
+"liszt|t|dors je quand": null,
+"paladilhe|t|cantabile rysoor": null,
+"puccini|t|duet flower": {
+"title": "Flower Duet",
+"qid": "Q137049508"
+},
+"puccini|t|noi ora": {
+"title": "Madama Butterfly",
+"qid": "Q19005"
+},
+"verdi|t|miserere": null,
+"rubinstein|t|der engel": null,
+"verdi|t|ciel pel si": null,
+"verdi|t|quartet rigoletto": {
+"title": "Rigoletto",
+"qid": "Q189234"
+},
+"humperdinck|t|liebe suse": null,
+"bizet|t|est toi": {
+"title": "Carmen",
+"qid": "Q185968"
+},
+"gounod|t|adorable ange": null,
+"boito|t|lontano": null,
+"puccini|t|fior tutti": {
+"title": "Poor Butterfly",
+"qid": "Q7228764"
+},
+"dvorak|t|dievca travu zalo": null,
+"massenet|t|aime ancora fanciullo": null,
+"puccini|t|addio dolce quartet svegliare": null,
+"rubinstein|t|arioso": null
+}
