@@ -1,7 +1,7 @@
 /* Whose Hands — a daily guessing game for historic recordings.
    Rolls: Stanford University Piano Roll Archive (CC BY-NC-SA 4.0).
    Records: Library of Congress National Jukebox (public domain in the US).
-   Piano sound: Salamander Grand Piano by Alexander Holm (CC BY 3.0). Playback: Tone.js (MIT). */
+   Piano sound: Salamander Grand Piano V3 by Alexander Holm (CC BY 3.0). MIDI parsing: @tonejs/midi (MIT). MP3 encoding: LAME via lamejs (LGPL). */
 (function () {
   "use strict";
   const SNIPS = [2, 4, 7, 11, 16, 24];          // clip length after 0..5 misses
@@ -60,26 +60,20 @@
   const yearOff = y => (y < P.yearMin ? P.yearMin - y : y > P.yearMax ? y - P.yearMax : 0);
   const yearPts = () => yearPtsAt(S.yearAt);
   const namesScore = () => S.nameAt.reduce((s, a) => s + namePts(a) / P.performers.length, 0);
-  const pieceScore = () => (S.pieceAt ? piecePts(S.pieceAt) : S.composerAt ? 1 : 0);
+  const pieceScore = () => (S.pieceAt ? piecePts(S.pieceAt) : S.setAt ? 2 : S.composerAt ? 1 : 0);   // the right set without the piece: 2
   const total = () => Math.round((namesScore() + pieceScore() + yearPts()) * 10) / 10;
   const allSolved = () => allNames() && !!S.pieceAt && !!S.yearAt;
   const allNames = () => S.nameAt.every(Boolean);
 
   /* ---------- audio ---------- */
+  // Clips are scheduled on the audio clock up front, so they stop on time even when the tab is in the background.
   const Player = {
-    forId: null, notes: null, el: null, start: 0, sampler: null, samplerLoading: null, loading: null, playing: false, raf: 0,
-    reset() { this.stop(); this.forId = null; this.notes = null; this.loading = null; if (this.el) { this.el.src = ""; this.el = null; } this.start = 0; },
-    loadSampler() {
-      if (this.samplerLoading) return this.samplerLoading;
-      this.samplerLoading = new Promise((res, rej) => {
-        const urls = {}, names = { A: "A", C: "C", Ds: "D#", Fs: "F#" };
-        for (let o = 0; o <= 8; o++) for (const k of Object.keys(names)) {
-          if ((o === 0 && k !== "A") || (o === 8 && k !== "C")) continue;
-          urls[names[k] + o] = k + o + ".mp3";
-        }
-        this.sampler = new Tone.Sampler({ urls, baseUrl: "samples/", release: 1, onload: res, onerror: rej }).toDestination();
-      });
-      return this.samplerLoading;
+    forId: null, song: null, notes: null, el: null, start: 0, ctx: null, fx: null, sources: [], samplesLoading: null, loading: null, playing: false, raf: 0,
+    reset() { this.stop(); this.forId = null; this.song = null; this.notes = null; this.loading = null; if (this.el) { this.el.src = ""; this.el = null; } this.start = 0; },
+    audio() { if (!this.ctx) this.ctx = new (window.AudioContext || window.webkitAudioContext)(); return this.ctx; },
+    loadSamples() {                            // the middle velocity layer is enough to start; the others keep loading
+      if (!this.samplesLoading) { const ctx = this.audio(); this.samplesLoading = Piano.loadLayer(ctx, 9); this.samplesLoading.then(() => Piano.loadAll(ctx)).catch(() => {}); }
+      return this.samplesLoading;
     },
     load() {                                   // prepare the current recording and pick the segment
       if (this.forId === P.id && this.loading) return this.loading;
@@ -89,24 +83,10 @@
     },
     async loadRoll() {
       const midi = new Midi(await (await fetch(P.midi)).arrayBuffer());
-      const pedal = [], soft = [];
-      midi.tracks.forEach(t => {
-        (t.controlChanges[64] || []).forEach(c => pedal.push([c.time, c.value >= 0.5]));
-        (t.controlChanges[67] || []).forEach(c => soft.push([c.time, c.value >= 0.5]));
-      });
-      pedal.sort((a, b) => a[0] - b[0]); soft.sort((a, b) => a[0] - b[0]);
-      const stateAt = (list, t) => { let s = false; for (const [ti, v] of list) { if (ti > t) break; s = v; } return s; };
-      const nextUp = t => { for (const [ti, v] of pedal) if (ti > t && !v) return ti; return t + 4; };
-      const notes = [];
-      midi.tracks.forEach(t => t.notes.forEach(n => {
-        let end = n.time + n.duration;
-        if (stateAt(pedal, end)) end = Math.max(end, nextUp(end));
-        let v = Math.min(1, n.velocity * 1.55);
-        if (stateAt(soft, n.time)) v *= 0.8;
-        notes.push({ name: n.name, midi: n.midi, time: n.time, dur: Math.max(0.05, end - n.time), vel: v });
-      }));
-      notes.sort((a, b) => a.time - b.time);
-      this.notes = notes;
+      const song = Piano.prepare(midi);
+      song.notes.forEach(n => (n.dur = Math.max(0.05, n.off - n.time)));
+      this.song = song; this.notes = song.notes;
+      const notes = song.notes;
       if (!notes.length) return;
       const first = notes[0].time, last = notes[notes.length - 1].time;
       const latest = Math.max(first, last - SNIPS[SNIPS.length - 1] - 8);
@@ -125,45 +105,59 @@
       this.start = lead + S.frac * span;
     },
     async play(secs, onTick, onEnd) {
-      const started = P.kind === "record" ? null : Tone.start();      // must begin inside the click
+      const resumed = P.kind === "record" ? null : this.audio().resume();   // must begin inside the click
       await this.load();
       this.stop();
       if (P.kind === "record") {
         const a = this.el; a.currentTime = this.start; await a.play();
         this.playing = true;
-        this.timer = setTimeout(() => this.stop(onEnd), (secs + 0.3) * 1000);   // runs even when the tab is in the background
-        const loop = () => {
-          if (!this.playing) return;
-          const el = a.currentTime - this.start;
-          onTick && onTick(Math.min(el, secs));
-          if (el >= secs || a.ended) { this.stop(onEnd); return; }
-          this.raf = requestAnimationFrame(loop);
-        };
+        const check = () => { if (this.playing && (a.currentTime - this.start >= secs || a.ended)) this.stop(onEnd); };
+        a.ontimeupdate = check;                                    // keeps firing in a background tab
+        this.poll = setInterval(check, 200);
+        const loop = () => { if (!this.playing) return; onTick && onTick(Math.min(a.currentTime - this.start, secs)); this.raf = requestAnimationFrame(loop); };
         return loop();
       }
-      await Promise.all([started, this.loadSampler()]);
-      const T = Tone.Transport, t0 = this.start;
-      this.notes.forEach(n => {
-        const off = n.time - t0;
-        if (off < -0.001 || off > secs) return;
-        T.schedule(time => this.sampler.triggerAttackRelease(n.name, Math.min(n.dur, secs - off + 0.6), time, n.vel), off);
-      });
-      T.start("+0.05");
+      await Promise.all([resumed, this.loadSamples()]);
+      const ctx = this.ctx, t0 = this.start, at = ctx.currentTime + 0.08;
+      this.fx = Piano.chain(ctx, ctx.destination);
+      this.sources = Piano.schedule(ctx, this.fx.input, this.song, { from: t0, to: t0 + secs, at, cut: t0 + secs + 0.6 });
       this.playing = true;
-      this.timer = setTimeout(() => this.stop(onEnd), (secs + 0.9) * 1000);   // runs even when the tab is in the background
-      const loop = () => { if (!this.playing) return; onTick && onTick(Math.min(T.seconds, secs)); this.raf = requestAnimationFrame(loop); };
+      this.poll = setTimeout(() => this.stop(onEnd), (secs + 1.6) * 1000);   // only tidies up: the notes already end on time
+      const loop = () => { if (!this.playing) return; onTick && onTick(Math.max(0, Math.min(ctx.currentTime - at, secs))); this.raf = requestAnimationFrame(loop); };
       loop();
     },
     stop(onEnd) {
-      clearTimeout(this.timer);
-      if (this.el) this.el.pause();
-      if (window.Tone) { Tone.Transport.stop(); Tone.Transport.cancel(0); }
-      if (this.sampler) this.sampler.releaseAll();
+      clearInterval(this.poll); clearTimeout(this.poll);
+      if (this.el) { this.el.pause(); this.el.ontimeupdate = null; }
+      if (this.fx) {
+        const fx = this.fx, src = this.sources;
+        fx.master.gain.setTargetAtTime(0, this.ctx.currentTime, 0.04);
+        setTimeout(() => { src.forEach(x => { try { x.stop(); } catch (e) {} }); fx.master.disconnect(); }, 400);
+        this.fx = null; this.sources = [];
+      }
       cancelAnimationFrame(this.raf);
       const was = this.playing; this.playing = false;
       if (was && onEnd) onEnd();
     }
   };
+
+  /* ---------- downloads ---------- */
+  const fileBase = () => `${P.performers.join(", ")} – ${P.piece.split(" – ").slice(1).join(" – ") || P.piece} (${P.yearMin})`.replace(/[\\/:*?"<>|]+/g, "").slice(0, 150);
+  let lameLoading = null;
+  const loadLame = () => (lameLoading = lameLoading || new Promise((res, rej) => { const s = document.createElement("script"); s.src = "vendor/lame-1.2.1.min.js"; s.onload = res; s.onerror = rej; document.head.appendChild(s); }));
+  async function downloadRoll(fmt, btn) {
+    const label = btn.textContent; btn.disabled = true;
+    try {
+      const ctx = Player.audio();
+      btn.textContent = "Loading the piano…";
+      await Promise.all([Player.load(), Piano.loadAll(ctx), fmt === "mp3" ? loadLame() : null]);
+      const blob = await (fmt === "wav" ? Piano.renderWav : Piano.renderMp3)(Player.song, p => (btn.textContent = `Rendering ${Math.round(p * 100)}%`));
+      const a = document.createElement("a"); a.href = URL.createObjectURL(blob); a.download = fileBase() + "." + fmt;
+      document.body.appendChild(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(a.href), 60000);
+      btn.textContent = label;
+    } catch (e) { console.error(e); btn.textContent = "Couldn't render. Try again"; }
+    btn.disabled = false;
+  }
 
   /* ---------- drawing ---------- */
   function draw(canvas, at) {
@@ -198,7 +192,7 @@
 
   /* ---------- game state ---------- */
   function freshState(id, frac) {
-    return { id, frac, guesses: [], misses: 0, nameAt: BY_ID[id].performers.map(() => 0), pieceAt: 0, composerAt: 0, year: null, yearAt: 0, hints: [], done: false };
+    return { id, frac, guesses: [], misses: 0, nameAt: BY_ID[id].performers.map(() => 0), pieceAt: 0, setAt: 0, setTried: [], composerAt: 0, year: null, yearAt: 0, hints: [], done: false };
   }
   const stateKey = () => (MODE === "daily" ? "wh3-day-" + DAY : "wh3-practice");
   const save = () => store.set(stateKey(), S);
@@ -277,6 +271,7 @@
     }
     render();
     Player.load().then(() => { const c = document.getElementById("roll"); if (c) draw(c, 0); }).catch(() => {});
+    if (P.kind !== "record") Player.loadSamples().catch(() => {});
   }
   function recordStats() {
     const key = MODE === "daily" ? "wh2-stats" : "wh3-practice-stats";
@@ -438,8 +433,7 @@
       ${S.done ? "" : `<form id="guess" autocomplete="off">
         ${P.performers.map((p, i) => `<div class="field ${S.nameAt[i] ? "solved" : ""}"><div class="row"><label class="label" for="g-p${i}">${esc(roleLabel(i))}</label>${S.nameAt[i] ? `<span class="chip">✓</span>` : `<span class="pts">up to ${Math.round(50 / P.performers.length) / 10} pts</span>`}</div>
           <input type="text" id="g-p${i}" placeholder="${roleOf(i) === "orchestra" ? "Start typing an orchestra" : "Start typing a name"}" ${S.nameAt[i] ? `value="${esc(p)}" disabled` : ""}></div>`).join("")}
-        <div class="field ${S.pieceAt ? "solved" : ""}"><div class="row"><label class="label" for="g-piece">Piece</label>${S.pieceAt ? `<span class="chip">✓</span>` : S.composerAt ? `<span class="chip part">Composer ✓</span>` : `<span class="pts">up to 3 pts${composerRevealed() ? "" : " · right composer 1"}</span>`}</div>
-          <input type="text" id="g-piece" placeholder="Start typing a composer or title" ${S.pieceAt ? `value="${esc(P.piece)}" disabled` : ""}></div>
+        ${pieceFieldHTML()}
         <div class="field year ${S.yearAt ? "solved" : ""}"><div class="row"><label class="label" for="year">Year recorded</label>${S.yearAt ? `<span class="chip">✓</span>` : `<span class="pts">up to 2 pts · within ${YEAR_TOL} years</span>`}</div>
           <div class="row"><span class="val" id="yv">${S.year ?? "—"}</span>${!S.yearAt && S.year != null ? `<span class="pts" id="ydir">${S.year < P.yearMin ? "Later than " + S.year : "Earlier than " + S.year}</span>` : ""}</div>
           <input type="range" id="year" min="${YEAR_MIN}" max="${YEAR_MAX}" step="1" value="${S.year ?? Math.round((YEAR_MIN + YEAR_MAX) / 2)}" ${S.yearAt ? "disabled" : ""} aria-label="Year recorded"></div>
@@ -455,7 +449,7 @@
     ${S.done ? resultHTML() : ""}
 
     <footer>
-      <span>${daily ? "A new recording every day at midnight." : "Practice puzzles are random and don't count toward your daily stats."} Rolls from the <a href="https://supra.stanford.edu" target="_blank" rel="noopener">Stanford University Piano Roll Archive</a> (CC BY-NC-SA 4.0). Records from the <a href="https://www.loc.gov/collections/national-jukebox/" target="_blank" rel="noopener">Library of Congress National Jukebox</a> (public domain). Piano sound: Salamander Grand Piano by Alexander Holm (CC BY 3.0). Played with Tone.js.</span>
+      <span>${daily ? "A new recording every day at midnight." : "Practice puzzles are random and don't count toward your daily stats."} Rolls from the <a href="https://supra.stanford.edu" target="_blank" rel="noopener">Stanford University Piano Roll Archive</a> (CC BY-NC-SA 4.0). Records from the <a href="https://www.loc.gov/collections/national-jukebox/" target="_blank" rel="noopener">Library of Congress National Jukebox</a> (public domain). Piano sound: Salamander Grand Piano V3 by Alexander Holm (CC BY 3.0).</span>
       <span><a href="#changelog">What's new</a> · Something wrong with an answer? <a href="https://github.com/${REPO}/issues/new?title=${encodeURIComponent("Problem with " + (daily ? "No. " + (DAY + 1) : "a practice puzzle"))}&body=${encodeURIComponent("Recording id: " + P.id + "\nWhat's wrong:\n")}" target="_blank" rel="noopener">Report it</a>.</span>
     </footer>
 `;
@@ -471,7 +465,7 @@
       let acc = 0; bars.forEach((b, i) => { const len = SNIPS[i] - (i ? SNIPS[i - 1] : 0); b.style.width = Math.max(0, Math.min(1, (el - acc) / len)) * 100 + "%"; acc += len; });
     };
     document.getElementById("play").onclick = async () => {
-      status.textContent = Player.forId === P.id && (Player.notes || Player.el) && Player.samplerLoading ? "PLAYING" : "LOADING…";
+      status.textContent = Player.forId === P.id && (Player.notes || Player.el) && (P.kind === "record" || Piano.layerReady(9)) ? "PLAYING" : "LOADING…";
       try { await Player.play(secs, tick, () => { status.textContent = ""; }); status.textContent = "PLAYING"; }
       catch (e) { status.textContent = "COULDN'T LOAD AUDIO"; console.error(e); }
     };
@@ -493,7 +487,7 @@
       const submit = skip => {
         const attempt = S.misses + 1;                      // scoring position: misses so far + 1
         const pg = P.performers.map((_, i) => (skip ? "" : document.getElementById("g-p" + i)?.value || ""));
-        const pcg = skip ? "" : document.getElementById("g-piece")?.value || "";
+        const pcg = skip ? "" : document.getElementById("g-piece")?.value || document.getElementById("g-member")?.value || "";
         if (!skip && !pg.some(x => x.trim()) && !pcg.trim() && !(yearTouched && !S.yearAt)) return;
         const rec = { p: [], piece: {}, miss: false };
         let progress = false;
@@ -503,14 +497,22 @@
           if (j >= 0) { S.nameAt[j] = attempt; progress = true; }
           rec.p.push({ g: skip ? "(skipped)" : pg[i], ok: j >= 0 });
         });
+        const mem = document.getElementById("g-member");
         if (S.pieceAt) rec.piece = { g: "", ok: true };
-        else {
+        else if (mem) {                                       // the set is known: which piece of it?
+          const mk = skip ? "" : mem.value, ok = !!mk && (mk === P.pieceKey || (P.acceptKeys || []).includes(mk));
+          if (ok) { S.pieceAt = attempt; progress = true; }
+          else if (mk) (S.setTried = S.setTried || []).push(mk);
+          rec.piece = { g: skip ? "(skipped)" : mk ? mem.options[mem.selectedIndex].text : "", ok };
+        } else {
           const gk = CAT.pieceKeyOf[norm(pcg)];
           const ok = !skip && (norm(pcg) === norm(P.piece) || (!!gk && (gk === P.pieceKey || (P.acceptKeys || []).includes(gk))));
           const comp = !ok && !!pcg && composerOf(pcg) === composerOf(P.piece) && !composerRevealed();   // no credit once a hint has given the composer away
+          const isSet = !ok && !!gk && !!P.set && gk === P.set;   // right set: next, pick which piece
           if (ok) { S.pieceAt = attempt; progress = true; }
+          if (isSet) { S.setAt = attempt; progress = true; }
           if (comp && !S.composerAt) { S.composerAt = attempt; progress = true; }
-          rec.piece = { g: skip ? "(skipped)" : pcg, ok, comp };
+          rec.piece = { g: skip ? "(skipped)" : pcg, ok, comp: comp || isSet };
         }
         if (!S.yearAt && !skip && yearTouched && yr) {
           const yg = +yr.value, ok = yearOff(yg) <= YEAR_TOL;
@@ -533,13 +535,26 @@
       try { await navigator.clipboard.writeText(box.textContent); copy.textContent = "Copied"; }
       catch (e) { const r = document.createRange(); r.selectNodeContents(box); const s = getSelection(); s.removeAllRanges(); s.addRange(r); copy.textContent = "Selected, now copy"; }
     };
+    app.querySelectorAll("[data-dl]").forEach(b => (b.onclick = () => downloadRoll(b.dataset.dl, b)));
     const full = document.getElementById("full");
     if (full) full.onclick = () => { DRAW_LIMIT = 60; window.scrollTo({ top: 0, behavior: "smooth" }); document.getElementById("status").textContent = "PLAYING"; Player.play(60, tick, () => { status.textContent = ""; }); };
   }
 
+  function pieceFieldHTML() {
+    const setInfo = P.set && CAT.sets && CAT.sets[P.set];
+    if (S.setAt && !S.pieceAt && setInfo) {
+      const tried = S.setTried || [];
+      return `<div class="field part"><div class="row"><span class="label">Piece</span><span class="chip part">Set ✓ · now pick the piece</span></div>
+          <input type="text" value="${esc(setInfo.name)}" disabled aria-label="Set">
+          <label class="label" for="g-member">Which one?</label>
+          <select id="g-member"><option value="">Choose a piece from the set…</option>${setInfo.members.map(([n, k]) => `<option value="${esc(k)}" ${tried.includes(k) ? "disabled" : ""}>${tried.includes(k) ? "✕ " : ""}${esc(n.split(" – ").slice(1).join(" – ") || n)}</option>`).join("")}</select></div>`;
+    }
+    return `<div class="field ${S.pieceAt ? "solved" : ""}"><div class="row"><label class="label" for="g-piece">Piece</label>${S.pieceAt ? `<span class="chip">✓</span>` : S.composerAt ? `<span class="chip part">Composer ✓</span>` : `<span class="pts">up to 3 pts${composerRevealed() ? "" : " · right composer 1"}</span>`}</div>
+          <input type="text" id="g-piece" placeholder="Start typing a composer, title or set" ${S.pieceAt ? `value="${esc(P.piece)}" disabled` : ""}></div>`;
+  }
   function shareText() {
     const rows = S.guesses.map(g => (g.miss ? "⬛" : "🟩")).join("");
-    return `Whose Hands No. ${DAY + 1} · ${total()}/10\n${P.kind === "record" ? "Performers" : "Pianist"} ${allNames() ? "✅" : "❌"}  Piece ${S.pieceAt ? "✅" : S.composerAt ? "🟨" : "❌"}  Year ${S.yearAt ? "✅" : "❌"}\n${rows}${S.hints && S.hints.length ? ` · 💡${S.hints.length}` : ""}\nhttps://whosehands.github.io`;
+    return `Whose Hands No. ${DAY + 1} · ${total()}/10\n${P.kind === "record" ? "Performers" : "Pianist"} ${allNames() ? "✅" : "❌"}  Piece ${S.pieceAt ? "✅" : S.setAt || S.composerAt ? "🟨" : "❌"}  Year ${S.yearAt ? "✅" : "❌"}\n${rows}${S.hints && S.hints.length ? ` · 💡${S.hints.length}` : ""}\nhttps://whosehands.github.io`;
   }
   function resultHTML() {
     const daily = MODE === "daily";
@@ -551,12 +566,16 @@
       <div class="score">${total()}<small> / 10</small></div>
       <dl class="answer">
         <dt>${P.performers.length > 1 ? "Performers" : esc(roleLabel(0))}</dt><dd><b>${P.performers.map((p, i) => esc(p) + (P.performers.length > 1 ? ` <span class="pts">${esc(roleLabel(i).toLowerCase())}</span>` : "") + (P.performerDates && P.performerDates[p] ? ` <span class="pts">(${esc(P.performerDates[p])})</span>` : "")).join("<br>")}</b>${P.credits ? `<br><span class="pts">${esc(P.credits)}</span>` : ""}</dd>
-        <dt>Piece</dt><dd>${esc(P.piece)}${P.movement ? `<br>${P.movement === "selections" ? "Excerpts" : "Part: " + esc(P.movement)}` : ""}${P.arranged ? `<br><span class="pts">${P.kind === "record" ? "Arranged" : "Arranged for piano"}</span>` : ""}${P.rollLabel ? `<br><span class="pts">${P.kind === "record" ? "Record label" : "Roll label"}: ${esc(P.rollLabel)}</span>` : ""}</dd>
+        <dt>Piece</dt><dd>${esc(P.piece)}${P.set && CAT.sets && CAT.sets[P.set] ? `<br><span class="pts">From the set: ${esc(CAT.sets[P.set].name.split(" – ").slice(1).join(" – "))}</span>` : ""}${P.movement ? `<br>${P.movement === "selections" ? "Excerpts" : "Part: " + esc(P.movement)}` : ""}${P.arranged ? `<br><span class="pts">${P.kind === "record" ? "Arranged" : "Arranged for piano"}</span>` : ""}${P.rollLabel ? `<br><span class="pts">${P.kind === "record" ? "Record label" : "Roll label"}: ${esc(P.rollLabel)}</span>` : ""}</dd>
         <dt>Clip</dt><dd>Starts ${fmt(Player.start)} into the ${P.kind === "record" ? "record" : "roll"}</dd>
         <dt>Recorded</dt><dd>${esc(String(yr))}${P.yearExact ? "" : " (published; exact date unknown)"}</dd>
         <dt>Your year</dt><dd>${S.year ?? "—"} · ${yearPts()} pt${yearPts() === 1 ? "" : "s"}</dd>
         <dt>Source</dt><dd>${P.kind === "record" ? esc(P.format) : "Piano roll" + (P.rollNumber ? " no. " + esc(P.rollNumber) : "")} · <a href="${esc(P.source)}" target="_blank" rel="noopener">${P.kind === "record" ? "Library of Congress" : "Stanford"} record</a></dd>
       </dl>
+      <div class="dl"><span class="label">Download the whole recording</span><div class="controls">${P.kind === "record"
+        ? `<a class="btn small" href="${esc(P.audio)}" target="_blank" rel="noopener" download>Audio (MP3)</a><a class="btn small" href="${esc(P.source)}" target="_blank" rel="noopener">Library of Congress page</a>`
+        : `<button class="btn small" data-dl="mp3">Audio (MP3)</button><button class="btn small" data-dl="wav">Audio (WAV, lossless)</button><a class="btn small" href="${esc(P.midi)}" download="${esc(fileBase())}.mid">Roll (MIDI)</a>`}</div>
+        ${P.kind === "record" ? "" : `<span class="pts">The audio is made in your browser from the roll, on the same piano as the game. It takes a little while for long pieces.</span>`}</div>
       <div class="controls"><button class="btn" id="full">▶ Keep listening (60s)</button>${daily ? "" : `<button class="btn primary" onclick="document.getElementById('newp').click()">Next puzzle</button>`}</div>
       ${daily ? `<div class="share">${esc(shareText())}</div><div class="controls"><button class="btn primary" id="copy">Copy result</button><a class="btn" href="#practice">Practice more</a></div>` : ""}
       <div class="stats"><div><b>${st.played}</b><span>Played</span></div><div><b>${st.played ? (st.total / st.played).toFixed(1) : "–"}</b><span>Avg score</span></div><div><b>${st.best}</b><span>Best</span></div></div>
@@ -578,7 +597,6 @@
     CAT.nameIndex = index(CAT.nameOptions); CAT.pieceIndex = index(CAT.pieceOptions);
     const route = () => (location.hash === "#changelog" ? renderChangelog() : setMode(location.hash === "#practice" ? "practice" : "daily"));
     window.addEventListener("hashchange", route);
-    document.addEventListener("visibilitychange", () => { if (document.hidden) { Player.stop(); const st = document.getElementById("status"); if (st) st.textContent = ""; } });
     window.addEventListener("resize", () => { const c = document.getElementById("roll"); if (c) draw(c, 0); });
     route();
   }).catch(e => {

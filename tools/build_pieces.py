@@ -107,6 +107,7 @@ kind_of_key = {}        # option key -> forms and genres text, for the genre fil
 children_items = []     # (composer surname, label of an aria/movement, wikidata id of its parent work)
 parents_of_key = collections.defaultdict(set)
 work_by_key = {}
+group_label = {}        # key of a Wikidata collection ("Kinderszenen") -> its name
 for comp, info in wd.items():
     if not info or comp not in surname_of: continue
     sn = surname_of[comp]
@@ -116,7 +117,10 @@ for comp, info in wd.items():
         if not w["label"] or re.match(r"^Q\d+$", w["label"]): continue
         if BAD_FORM.search(forms) or not GOOD_FORM.search(forms + " " + " ".join(w["genres"]).lower() + " " + w["label"].lower()): continue
         if "group of" in forms or "collection" in forms or "series" in forms:
-            key_of_item.setdefault(w["id"], key_for(comp, w["label"], sn)); continue
+            key_of_item.setdefault(w["id"], key_for(comp, w["label"], sn))
+            if w["catalog"] or numbers(w["label"]):     # only real published sets (Kinderszenen, Op. 15), not groupings like "Chopin's ballades"
+                group_label.setdefault(key_of_item[w["id"]], f"{sn} – " + re.sub(r"\s*\([^)]*\)", "", LABEL_FIX.get(w["label"], w["label"])).strip())
+            continue
         parents = [works[p] for p in w["partOf"] if p in works]
         if ("movement" in forms or "act" == forms.strip() or
                 (parents and not any(SET_PARENT.search(p["label"]) or "group" in " ".join(p["forms"]).lower() for p in parents))):
@@ -243,6 +247,20 @@ for gk, r in game_keys.items():
         if sim(gw, ow) >= 0.8 and sim(ow, gw) >= 0.8:
             alt_names[options.pop(ok)] = gk; alias[ok] = gk; dropped += 1
 print(dropped, "duplicate names folded into works in the game")
+
+# data/same-piece.json: {"name to drop": "name to keep"} for duplicates the checks above miss (tools/check_catalog.py finds candidates)
+try: SAME_PIECE = json.load(open("data/same-piece.json", encoding="utf-8"))
+except FileNotFoundError: SAME_PIECE = {}
+key_by_name = {n: k for k, n in options.items()}
+for r in cat["recordings"]: key_by_name.setdefault(r["piece"], r["pieceKey"])
+merged = 0
+for drop, keep in SAME_PIECE.items():
+    kd, kk = key_by_name.get(drop), key_by_name.get(keep)
+    if not kd or not kk or kd == kk: continue
+    options.pop(kd, None); alt_names[drop] = kk; alias[kd] = kk; merged += 1
+    for r in cat["recordings"]:
+        if r["pieceKey"] == kd: r["pieceKey"], r["piece"] = kk, options.get(kk, keep)
+print(merged, "pieces merged by data/same-piece.json")
 
 # a set (e.g. "Three Intermezzi, Op. 117") next to its own numbered pieces ("Intermezzo, Op. 117 No. 2") reads as a duplicate:
 # keep the set only when a recording plays it as a whole; its name still counts as an answer for any of its pieces
@@ -377,12 +395,82 @@ for r in cat["recordings"]:
 print("hint facts:", sum("performerAbout" in r for r in cat["recordings"]), "performer descriptions,",
       sum(bool(r.get("composerDates")) for r in cat["recordings"]), "composer lifetimes")
 
+# Wikidata ids of each answer, for the clue facts (tools/fetch_clues.py)
+qid_of_key = {}
+for wid, k in key_of_item.items(): qid_of_key.setdefault(alias.get(k, k), wid)
+for r in cat["recordings"]:
+    q = qid_of_key.get(r["pieceKey"])
+    if q: r["workQid"] = q
+    else: r.pop("workQid", None)
+print(sum("workQid" in r for r in cat["recordings"]), "recordings linked to a Wikidata work")
+
 # manual fixes from player reports: data/overrides.json maps a recording id to fields to replace
 try: overrides = json.load(open("data/overrides.json", encoding="utf-8"))
 except FileNotFoundError: overrides = {}
 for r in cat["recordings"]:
     for k, v in (overrides.get(r["id"]) or {}).items(): r[k] = v
 cat["recordings"] = [r for r in cat["recordings"] if not r.get("exclude")]
+
+# sets: numbered pieces under one opus (Op. 117 Nos. 1-3) or pieces Wikidata lists as part of a collection (Kinderszenen).
+# Players guess the set first, then pick which piece from a second list. The search lists sets, not their single pieces;
+# a single piece's own name is still accepted when typed in full.
+PLURAL = {"lied ohne worte": "Lieder ohne Worte", "song without words": "Songs Without Words", "nocturne": "Nocturnes", "étude": "Études", "etude": "Études", "prelude": "Preludes", "prélude": "Préludes", "waltz": "Waltzes", "valse": "Valses",
+          "mazurka": "Mazurkas", "polonaise": "Polonaises", "impromptu": "Impromptus", "intermezzo": "Intermezzi", "ballade": "Ballades", "scherzo": "Scherzos",
+          "song": "Songs", "lied": "Lieder", "romance": "Romances", "caprice": "Caprices", "capriccio": "Capriccios", "rhapsody": "Rhapsodies", "humoresque": "Humoresques",
+          "novelette": "Novelettes", "fantasy": "Fantasies", "bagatelle": "Bagatelles", "march": "Marches", "dance": "Dances", "piece": "Pieces", "study": "Studies", "sonata": "Sonatas"}
+name_of_key = {}
+for n, k in alt_names.items(): name_of_key.setdefault(alias.get(k, k), n)
+name_of_key.update(group_label); name_of_key.update(options)
+set_members = collections.defaultdict(dict)
+for k, n in list(options.items()) + [(r["pieceKey"], r["piece"]) for r in cat["recordings"]]:
+    parts = k.split("|")
+    if len(parts) == 3 and parts[1] != "t" and parts[2]: set_members[f"{parts[0]}|{parts[1]}|"][k] = n
+for pk, ks in children.items():
+    if pk in group_label:
+        for k in ks:
+            if k in options and not set_members.get(f"{k.split('|')[0]}|{k.split('|')[1]}|" if len(k.split("|")) == 3 and k.split("|")[2] else "", {}).get(k): set_members[pk][k] = options[k]
+set_members = {sk: m for sk, m in set_members.items() if len(m) >= 2}
+member_set = {}
+for sk, m in set_members.items():
+    for k in m: member_set.setdefault(k, sk)
+def plural_form(title):
+    form = re.match(r"([^\W\d_]+(?:\s+(?:without|ohne)\s+\w+)?)", title)
+    if not form: return None
+    f = fold(form.group(1))
+    return PLURAL.get(f) or PLURAL.get(f.split()[0])
+def set_title(sk):
+    if sk in name_of_key and sk not in set_members.get(sk, {}):
+        sn, title = name_of_key[sk].split(" – ", 1)
+        first = re.match(r"([^\W\d_]+)(.*)$", title)
+        if first and fold(first.group(1)) in PLURAL and not re.match(r"^(two|three|four|five|six|\d)", fold(title)):   # "Prelude, Op. 28" -> "Preludes, Op. 28"
+            title = PLURAL[fold(first.group(1))] + first.group(2)
+        return f"{sn} – {title}"
+    sn = next(iter(set_members[sk].values())).split(" – ", 1)[0]
+    forms = collections.Counter(f for f in (plural_form(n.split(" – ", 1)[1]) for n in set_members[sk].values()) if f)
+    word = forms.most_common(1)[0][0] if forms else "Pieces"
+    sample = next(iter(set_members[sk].values()))
+    title = sample.split(" – ", 1)[1]
+    num = numbers(title)
+    tag = f"Op. {num[1]}" if num and num[0] == "op" else (f"{num[0].upper()}. {num[1]}" if num else "")
+    return f"{sn} – {word}, {tag}".rstrip(", ")
+sets_used = {}
+for r in cat["recordings"]:
+    sk = member_set.get(r["pieceKey"])
+    if not sk: continue
+    sets_used[sk] = 1
+    r["set"] = sk
+    r["acceptKeys"] = [k for k in r.get("acceptKeys", []) if k != sk and k not in set_members[sk]] or None
+    if not r["acceptKeys"]: r.pop("acceptKeys")
+set_list = {}
+for sk in set_members:
+    title = set_title(sk)
+    set_list[sk] = title
+    options[sk] = title                         # the set is what the search lists...
+    for k in set_members[sk]:                    # ...and its pieces are accepted only when typed in full
+        if k in options and k != sk: alt_names[options.pop(k)] = k
+cat["sets"] = {sk: {"name": set_list[sk], "members": sorted(([n, k] for k, n in set_members[sk].items()),
+               key=lambda x: (int(x[1].split("|")[2]) if x[1].split("|")[2].isdigit() else 999, x[0]))} for sk in sets_used}
+print(len(set_members), "sets;", len(sets_used), "with a recording in the game;", sum("set" in r for r in cat["recordings"]), "recordings asked as set + piece")
 
 # drop option names that collide (same text, different key)
 seen = collections.Counter(options.values())

@@ -1,0 +1,29 @@
+name: Fetch clue facts (Wikidata, Wikipedia)
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 3 27 * *"
+  push:
+    branches: [main, work]
+    paths: [tools/fetch_clues.py, .github/workflows/fetch-clues.yml]
+permissions:
+  contents: write
+concurrency:
+  group: fetch-clues
+  cancel-in-progress: false
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download facts and articles
+        run: python3 tools/fetch_clues.py
+      - name: Commit
+        run: |
+          git config user.name "whose-hands-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add sources/clue-facts.json sources/clue-wiki.json sources/clue-search.json
+          git commit -m "Update clue facts from Wikidata and Wikipedia" || echo "nothing to commit"
+          git pull --rebase origin "$GITHUB_REF_NAME"
+          git push origin HEAD:"$GITHUB_REF_NAME"

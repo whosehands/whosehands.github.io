@@ -111,3 +111,8 @@ a.btn{text-decoration:none;display:inline-block}
 .hints .kind{font-family:var(--mono);font-size:.68rem;text-transform:uppercase;letter-spacing:.08em;color:var(--roll);margin-right:4px}
 .hintpick{display:flex;flex-direction:column;gap:6px;padding:10px 12px;border-radius:10px;background:color-mix(in srgb,var(--roll) 8%,var(--paper))}
 .btn.small{font-size:.85rem;padding:7px 14px}
+
+/* Downloads */
+.dl{display:flex;flex-direction:column;gap:6px}
+.field select{font:inherit;padding:11px 12px;border-radius:10px;border:1px solid var(--gold);background:var(--paper);color:var(--ink);width:100%;box-sizing:border-box}
+.field.part input{border-color:var(--gold);color:var(--gold);font-weight:600}
