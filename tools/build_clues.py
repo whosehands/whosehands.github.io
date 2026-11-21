@@ -54,6 +54,7 @@ def person_clues(qid, banned, subj):
            "P40": "{s} was the parent of {x}", "P3373": "{s}'s sibling was {x}", "P1038": "{s} was related to {x}"}
     for r in (f.get("_relatives") or [])[:6]:
         name, occ = r["name"], [o for o in r.get("occupations", []) if MUSICAL.search(o) or re.search(r"(?i)director|librettist|impresario|publisher|critic|dancer", o)]
+        if not occ and not r.get("marriedTo"): continue        # nothing musical about them after all
         if r.get("marriedTo") and not occ: desc = "who married " + listing([m for m in r["marriedTo"] if not (toks(m) & banned)] or ["a composer"], 1)
         else: desc = listing(occ[:2], 2)
         if toks(name) & banned:                      # same surname as the answer (Clara Schumann): first name only

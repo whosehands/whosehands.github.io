@@ -101,38 +101,44 @@ for i in range(0, len(todo), 60):
         if "title" in b: facts[item]["_enwiki"] = b["title"]["value"]
     print("facts", i + len(batch), "/", len(todo), flush=True)
     time.sleep(1)
-# 2b. relatives and partners who matter musically: the other person worked in music (musician, singer, composer, conductor,
-#     librettist, impresario, music publisher or critic, theatre director) or was married to a composer (Liszt's daughter Cosima)
+# 2b. relatives and partners. Simple queries (one big one times out); tools/build_clues.py keeps only those who worked in music
+#     or were married to a composer (Liszt's daughter Cosima).
+MUSIC_JOB = re.compile(r"(?i)music|compos|singer|soprano|tenor|baritone|contralto|mezzo|pian|violin|cell|organ|harp|conduct|librett|impresario|opera|theatre director|critic|choir|song")
 people_q = sorted(q for q in want if q in facts and "_relatives" not in facts[q] and (facts[q].get("P569") or facts[q].get("P19")))
-for i in range(0, len(people_q), 40):
-    batch = people_q[i:i + 40]
-    q = """SELECT ?item ?prop ?rel ?relLabel ?occLabel ?viaLabel WHERE {
-      VALUES ?item { %s }
-      VALUES ?prop { wdt:P26 wdt:P451 wdt:P22 wdt:P25 wdt:P40 wdt:P3373 wdt:P1038 }
-      ?item ?prop ?rel .
-      { VALUES ?occ { wd:Q639669 wd:Q36834 wd:Q177220 wd:Q2865819 wd:Q158852 wd:Q8178443 wd:Q943995 wd:Q2516866 wd:Q1350157 wd:Q3387717
-                      wd:Q486748 wd:Q1259917 wd:Q765778 wd:Q13219637 wd:Q855091 wd:Q2675537 wd:Q14915627 wd:Q753110 wd:Q1415090 wd:Q6168364 }
-        ?rel wdt:P106 ?occ . }
-      UNION { ?rel wdt:P26|wdt:P451 ?via . ?via wdt:P106 wd:Q36834 . FILTER(?via != ?item) }
-      OPTIONAL { ?rel wdt:P106 ?occ3 . ?occ3 rdfs:label ?occLabel . FILTER(LANG(?occLabel) = "en") }
-      SERVICE wikibase:label { bd:serviceParam wikibase:language "en,fr,de,it". ?rel rdfs:label ?relLabel . ?via rdfs:label ?viaLabel . }
-    }""" % " ".join("wd:" + x for x in batch)
-    d = get("https://query.wikidata.org/sparql?" + urllib.parse.urlencode({"query": q, "format": "json"}), tries=3)
+for i in range(0, len(people_q), 80):
+    batch = people_q[i:i + 80]
+    d = get("https://query.wikidata.org/sparql?" + urllib.parse.urlencode({"format": "json", "query": """SELECT ?item ?prop ?rel WHERE {
+      VALUES ?item { %s } VALUES ?prop { wdt:P26 wdt:P451 wdt:P22 wdt:P25 wdt:P40 wdt:P3373 wdt:P1038 } ?item ?prop ?rel . }""" % " ".join("wd:" + x for x in batch)}), tries=3)
     if d is None: print("relatives query failed; will retry next run", flush=True); continue
-    rows = d.get("results", {}).get("bindings", [])
+    links = [(b["item"]["value"].rsplit("/", 1)[-1], b["prop"]["value"].rsplit("/", 1)[-1], b["rel"]["value"].rsplit("/", 1)[-1]) for b in d["results"]["bindings"]]
+    rels = sorted({r for _, _, r in links if re.match(r"^Q\d+$", r)})
+    info = {r: {"name": None, "occupations": [], "marriedTo": []} for r in rels}
+    ok = True
+    for j in range(0, len(rels), 80):
+        vals = " ".join("wd:" + x for x in rels[j:j + 80])
+        d1 = get("https://query.wikidata.org/sparql?" + urllib.parse.urlencode({"format": "json", "query": """SELECT ?rel ?relLabel ?occLabel WHERE {
+          VALUES ?rel { %s } OPTIONAL { ?rel wdt:P106 ?occ . } SERVICE wikibase:label { bd:serviceParam wikibase:language "en,fr,de,it". } }""" % vals}), tries=3)
+        d2 = get("https://query.wikidata.org/sparql?" + urllib.parse.urlencode({"format": "json", "query": """SELECT ?rel ?viaLabel WHERE {
+          VALUES ?rel { %s } ?rel wdt:P26|wdt:P451 ?via . ?via wdt:P106 wd:Q36834 . SERVICE wikibase:label { bd:serviceParam wikibase:language "en,fr,de,it". } }""" % vals}), tries=3)
+        if d1 is None or d2 is None: ok = False; break
+        for b in d1["results"]["bindings"]:
+            x = info[b["rel"]["value"].rsplit("/", 1)[-1]]
+            x["name"] = b.get("relLabel", {}).get("value")
+            o = b.get("occLabel", {}).get("value")
+            if o and o not in x["occupations"] and not re.match(r"^Q\d+$", o): x["occupations"].append(o)
+        for b in d2["results"]["bindings"]:
+            v = b.get("viaLabel", {}).get("value")
+            if v: info[b["rel"]["value"].rsplit("/", 1)[-1]]["marriedTo"].append(v)
+        time.sleep(1)
+    if not ok: print("relatives details failed; will retry next run", flush=True); continue
     for x in batch: facts[x]["_relatives"] = []
-    seen = {}
-    for b in rows:
-        item = b["item"]["value"].rsplit("/", 1)[-1]; prop = b["prop"]["value"].rsplit("/", 1)[-1]
-        rel = b.get("relLabel", {}).get("value", "")
-        if not rel or re.match(r"^Q\d+$", rel): continue
-        k = (item, prop, rel)
-        if k not in seen:
-            seen[k] = {"prop": prop, "name": rel, "occupations": [], "marriedTo": []}
-            facts[item]["_relatives"].append(seen[k])
-        o, v = b.get("occLabel", {}).get("value"), b.get("viaLabel", {}).get("value")
-        if o and o not in seen[k]["occupations"] and len(seen[k]["occupations"]) < 4: seen[k]["occupations"].append(o)
-        if v and v not in seen[k]["marriedTo"]: seen[k]["marriedTo"].append(v)
+    for item, prop, r in links:
+        x = info.get(r)
+        if not x or not x["name"] or re.match(r"^Q\d+$", x["name"]): continue
+        musical = [o for o in x["occupations"] if MUSIC_JOB.search(o)]
+        married = [m for m in x["marriedTo"] if m != facts[item].get("_label")]
+        if musical or married:
+            facts[item]["_relatives"].append({"prop": prop, "name": x["name"], "occupations": musical[:3], "marriedTo": married[:2]})
     print("relatives", i + len(batch), "/", len(people_q), flush=True)
     time.sleep(1)
 json.dump(facts, open("sources/clue-facts.json", "w", encoding="utf-8"), ensure_ascii=False, indent=0)
