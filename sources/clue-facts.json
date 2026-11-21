@@ -60,7 +60,19 @@
 "Giuseppe Donizetti"
 ],
 "_description": "Italian opera composer (1797–1848)",
-"_enwiki": "Gaetano Donizetti"
+"_enwiki": "Gaetano Donizetti",
+"_relatives": [
+{
+"prop": "P3373",
+"name": "Giuseppe Donizetti",
+"occupations": [
+"composer",
+"conductor",
+"music educator"
+],
+"marriedTo": []
+}
+]
 },
 "Q102283056": {
 "_label": "Gaetano Scognamiglio",
@@ -191,7 +203,17 @@
 "trombone"
 ],
 "_description": "American bandleader, composer, virtuoso trombonist with the Sousa Band (1870–1942)",
-"_enwiki": "Arthur Pryor"
+"_enwiki": "Arthur Pryor",
+"_relatives": [
+{
+"prop": "P40",
+"name": "Roger Pryor",
+"occupations": [
+"songwriter"
+],
+"marriedTo": []
+}
+]
 },
 "Q1043926": {
 "_label": "Carnaval",
@@ -236,7 +258,8 @@
 "P1303": [
 "piano"
 ],
-"_description": "Austrian pianist and composer (1865-1927)"
+"_description": "Austrian pianist and composer (1865-1927)",
+"_relatives": []
 },
 "Q104698701": {
 "_label": "Charles Marshall",
@@ -331,7 +354,8 @@
 "Michael Beer"
 ],
 "_description": "German-French composer",
-"_enwiki": "Giacomo Meyerbeer"
+"_enwiki": "Giacomo Meyerbeer",
+"_relatives": []
 },
 "Q105591613": {
 "_label": "Maria Carreras",
@@ -356,7 +380,8 @@
 "P570": [
 "1966-04-15T00:00:00Z"
 ],
-"_description": "Italian pianist"
+"_description": "Italian pianist",
+"_relatives": []
 },
 "Q1065126": {
 "_label": "Hungarian Dances",
@@ -445,7 +470,8 @@
 "P569": [
 "2001-10-31T00:00:00Z"
 ],
-"_description": "rapper, singer, songwriter, and producer"
+"_description": "rapper, singer, songwriter, and producer",
+"_relatives": []
 },
 "Q107001372": {
 "_label": "Nuit d'étoiles",
@@ -510,7 +536,17 @@
 "piano"
 ],
 "_description": "German composer (1860–1944)",
-"_enwiki": "Richard Burmeister"
+"_enwiki": "Richard Burmeister",
+"_relatives": [
+{
+"prop": "P26",
+"name": "Dory Burmeister-Petersen",
+"occupations": [
+"pianist"
+],
+"marriedTo": []
+}
+]
 },
 "Q10780247": {
 "_label": "Alois Ladislav Vymetal",
@@ -540,7 +576,8 @@
 "P1303": [
 "organ"
 ],
-"_description": "Czech composer"
+"_description": "Czech composer",
+"_relatives": []
 },
 "Q108114646": {
 "_label": "Henri Ghys",
@@ -557,7 +594,8 @@
 "1908-01-01T00:00:00Z"
 ],
 "_description": "French pianist and composer",
-"_enwiki": "Henri Ghys"
+"_enwiki": "Henri Ghys",
+"_relatives": []
 },
 "Q108257959": {
 "_label": "Mamma dice",
@@ -611,7 +649,8 @@
 "P570": [
 "1934-01-01T00:00:00Z"
 ],
-"_description": "American flutist (1876-1934)"
+"_description": "American flutist (1876-1934)",
+"_relatives": []
 },
 "Q110225834": {
 "_label": "Josephine Jacoby",
@@ -636,7 +675,8 @@
 "P570": [
 "1948-11-13T00:00:00Z"
 ],
-"_description": "American opera singer (1875-1948)"
+"_description": "American opera singer (1875-1948)",
+"_relatives": []
 },
 "Q110974465": {
 "_label": "Frederic Freemantel",
@@ -652,7 +692,8 @@
 "P570": [
 "1949-11-21T00:00:00Z"
 ],
-"_description": "British tenor"
+"_description": "British tenor",
+"_relatives": []
 },
 "Q111435430": {
 "_label": "Q111435430",
@@ -678,7 +719,8 @@
 "1971-01-08T00:00:00Z"
 ],
 "_description": "American singer",
-"_enwiki": "Inez Barbour Hadley"
+"_enwiki": "Inez Barbour Hadley",
+"_relatives": []
 },
 "Q11219011": {
 "_label": "Bohumil Pták",
@@ -715,7 +757,8 @@
 "P1303": [
 "voice"
 ],
-"_description": "Czech opera singer (1869-1933)"
+"_description": "Czech opera singer (1869-1933)",
+"_relatives": []
 },
 "Q112436409": {
 "_label": "William Loraine",
@@ -725,7 +768,8 @@
 "P569": [
 "1869-01-01T00:00:00Z"
 ],
-"_description": "Composer, Musical Director, Conductor"
+"_description": "Composer, Musical Director, Conductor",
+"_relatives": []
 },
 "Q11256296": {
 "_label": "Réminiscences de Norma",
@@ -808,7 +852,8 @@
 "P1303": [
 "piano"
 ],
-"_description": "Danish composer, pianist and music educator (1853–1929)"
+"_description": "Danish composer, pianist and music educator (1853–1929)",
+"_relatives": []
 },
 "Q1134417": {
 "_label": "Erlkönig",
@@ -1079,7 +1124,25 @@
 "Claude Rameau"
 ],
 "_description": "French composer and music theorist (1683–1764)",
-"_enwiki": "Jean-Philippe Rameau"
+"_enwiki": "Jean-Philippe Rameau",
+"_relatives": [
+{
+"prop": "P40",
+"name": "Claude-François Rameau",
+"occupations": [
+"musician"
+],
+"marriedTo": []
+},
+{
+"prop": "P3373",
+"name": "Claude Rameau",
+"occupations": [
+"organist"
+],
+"marriedTo": []
+}
+]
 },
 "Q1148572": {
 "_label": "Prelude no. 15 in D-flat major, Op. 28",
@@ -1146,7 +1209,8 @@
 "piano"
 ],
 "_description": "Italian pianist and composer (1883-1926)",
-"_enwiki": "Enrico Toselli"
+"_enwiki": "Enrico Toselli",
+"_relatives": []
 },
 "Q1151": {
 "_label": "Hector Berlioz",
@@ -1229,7 +1293,25 @@
 "flageolet"
 ],
 "_description": "French composer and conductor (1803–1869)",
-"_enwiki": "Hector Berlioz"
+"_enwiki": "Hector Berlioz",
+"_relatives": [
+{
+"prop": "P26",
+"name": "Harriet Smithson",
+"occupations": [
+"composer"
+],
+"marriedTo": []
+},
+{
+"prop": "P26",
+"name": "Marie Recio",
+"occupations": [
+"opera singer"
+],
+"marriedTo": []
+}
+]
 },
 "Q116039496": {
 "_label": "Q116039496",
@@ -1245,7 +1327,8 @@
 "P570": [
 "1933-10-24T00:00:00Z"
 ],
-"_description": "pianist"
+"_description": "pianist",
+"_relatives": []
 },
 "Q116039497": {
 "_label": "Albrecht Kupfernagel",
@@ -1287,7 +1370,8 @@
 "P570": [
 "1947-01-01T00:00:00Z"
 ],
-"_description": "pianist"
+"_description": "pianist",
+"_relatives": []
 },
 "Q116039502": {
 "_label": "B. Goodall",
@@ -1313,7 +1397,8 @@
 "P569": [
 "1861-09-11T00:00:00Z"
 ],
-"_description": "pianist (1861-)"
+"_description": "pianist (1861-)",
+"_relatives": []
 },
 "Q116039504": {
 "_label": "Carolyne Cone",
@@ -1339,7 +1424,8 @@
 "P569": [
 "1876-01-01T00:00:00Z"
 ],
-"_description": "pianist"
+"_description": "pianist",
+"_relatives": []
 },
 "Q116039506": {
 "_label": "Eugenie Adam-Benard",
@@ -1355,7 +1441,8 @@
 "P937": [
 "Aachen"
 ],
-"_description": "pianist"
+"_description": "pianist",
+"_relatives": []
 },
 "Q116039507": {
 "_label": "F. Dabney",
@@ -1414,7 +1501,8 @@
 "P937": [
 "Leipzig"
 ],
-"_description": "pianist"
+"_description": "pianist",
+"_relatives": []
 },
 "Q116039512": {
 "_label": "Georges Kiek",
@@ -1430,7 +1518,8 @@
 "P570": [
 "1972-01-01T00:00:00Z"
 ],
-"_description": "pianist"
+"_description": "pianist",
+"_relatives": []
 },
 "Q116039513": {
 "_label": "Heinrich Burkhard",
@@ -1569,7 +1658,8 @@
 "P569": [
 "1885-04-17T00:00:00Z"
 ],
-"_description": "pianist"
+"_description": "pianist",
+"_relatives": []
 },
 "Q116039529": {
 "_label": "Paula Utz",
@@ -1661,7 +1751,8 @@
 "P569": [
 "1965-09-02T00:00:00Z"
 ],
-"_description": "actress and composer"
+"_description": "actress and composer",
+"_relatives": []
 },
 "Q11882972": {
 "_label": "Mirel Wagner",
@@ -1681,7 +1772,8 @@
 "1987-12-03T00:00:00Z"
 ],
 "_description": "Finnish singer-songwriter",
-"_enwiki": "Mirel Wagner"
+"_enwiki": "Mirel Wagner",
+"_relatives": []
 },
 "Q11901": {
 "_label": "Beck",
@@ -1743,7 +1835,17 @@
 "Channing Hansen"
 ],
 "_description": "American musician (born 1970)",
-"_enwiki": "Beck"
+"_enwiki": "Beck",
+"_relatives": [
+{
+"prop": "P22",
+"name": "David Campbell",
+"occupations": [
+"composer"
+],
+"marriedTo": []
+}
+]
 },
 "Q1192": {
 "_label": "Jean-Baptiste Lully",
@@ -1817,7 +1919,34 @@
 "le Florentin"
 ],
 "_description": "Italian-born French composer (1632–1687)",
-"_enwiki": "Jean-Baptiste Lully"
+"_enwiki": "Jean-Baptiste Lully",
+"_relatives": [
+{
+"prop": "P40",
+"name": "Jean-Baptiste Lully fils",
+"occupations": [
+"composer",
+"musician"
+],
+"marriedTo": []
+},
+{
+"prop": "P40",
+"name": "Louis Lully",
+"occupations": [
+"composer"
+],
+"marriedTo": []
+},
+{
+"prop": "P40",
+"name": "Jean-Louis Lully",
+"occupations": [
+"composer"
+],
+"marriedTo": []
+}
+]
 },
 "Q1195818": {
 "_label": "The Mikado",
@@ -1996,7 +2125,8 @@
 "P570": [
 "1971-12-01T00:00:00Z"
 ],
-"_description": "American singer (1875–1971)"
+"_description": "American singer (1875–1971)",
+"_relatives": []
 },
 "Q1238237": {
 "_label": "Ede Poldini",
@@ -2032,7 +2162,17 @@
 "piano"
 ],
 "_description": "(1869-1957) composer",
-"_enwiki": "Ede Poldini"
+"_enwiki": "Ede Poldini",
+"_relatives": [
+{
+"prop": "P1038",
+"name": "István Kerner",
+"occupations": [
+"conductor"
+],
+"marriedTo": []
+}
+]
 },
 "Q125097135": {
 "_label": "My Isle of Golden Dreams",
@@ -2194,7 +2334,43 @@
 "Izabela Barcińska"
 ],
 "_description": "Polish composer and pianist (1810–1849)",
-"_enwiki": "Frédéric Chopin"
+"_enwiki": "Frédéric Chopin",
+"_relatives": [
+{
+"prop": "P451",
+"name": "George Sand",
+"occupations": [
+"composer",
+"librettist"
+],
+"marriedTo": []
+},
+{
+"prop": "P451",
+"name": "Maria Wodzińska",
+"occupations": [
+"composer"
+],
+"marriedTo": []
+},
+{
+"prop": "P3373",
+"name": "Ludwika Jędrzejewicz Chopin",
+"occupations": [
+"composer",
+"musician"
+],
+"marriedTo": []
+},
+{
+"prop": "P3373",
+"name": "Emilia Chopin",
+"occupations": [
+"composer"
+],
+"marriedTo": []
+}
+]
 },
 "Q127046351": {
 "_label": "LORELEI (Silcher)",
@@ -2259,7 +2435,19 @@
 "Arthur Finley Nevin"
 ],
 "_description": "American pianist and composer (1862-1901)",
-"_enwiki": "Ethelbert Nevin"
+"_enwiki": "Ethelbert Nevin",
+"_relatives": [
+{
+"prop": "P3373",
+"name": "Arthur Finley Nevin",
+"occupations": [
+"composer",
+"conductor",
+"musicologist"
+],
+"marriedTo": []
+}
+]
 },
 "Q12734626": {
 "_label": "Lysistrata",
@@ -2321,7 +2509,26 @@
 "cello"
 ],
 "_description": "American composer (1859–1924)",
-"_enwiki": "Victor Herbert"
+"_enwiki": "Victor Herbert",
+"_relatives": [
+{
+"prop": "P26",
+"name": "Therese Förster",
+"occupations": [
+"opera singer"
+],
+"marriedTo": []
+},
+{
+"prop": "P1038",
+"name": "Samuel Lover",
+"occupations": [
+"composer",
+"songwriter"
+],
+"marriedTo": []
+}
+]
 },
 "Q1276668": {
 "_label": "E lucevan le stelle",
@@ -2390,7 +2597,17 @@
 "mandolin"
 ],
 "_description": "American jazz musician and United States Army officer (1880-1919)",
-"_enwiki": "James Reese Europe"
+"_enwiki": "James Reese Europe",
+"_relatives": [
+{
+"prop": "P40",
+"name": "Mary Europe",
+"occupations": [
+"pianist"
+],
+"marriedTo": []
+}
+]
 },
 "Q1289955": {
 "_label": "Eduard Schütt",
@@ -2418,7 +2635,8 @@
 "1933-07-28T00:00:00Z"
 ],
 "_description": "Russian pianist and composer",
-"_enwiki": "Eduard Schütt"
+"_enwiki": "Eduard Schütt",
+"_relatives": []
 },
 "Q1291969": {
 "_label": "Frau Luna",
@@ -2547,7 +2765,8 @@
 "pipe organ"
 ],
 "_description": "opera composer (1714–1787)",
-"_enwiki": "Christoph Willibald Gluck"
+"_enwiki": "Christoph Willibald Gluck",
+"_relatives": []
 },
 "Q131186": {
 "_label": "choir",
@@ -2660,7 +2879,17 @@
 "piano"
 ],
 "_description": "Russian composer, pianist and conductor (1873–1943)",
-"_enwiki": "Sergei Rachmaninoff"
+"_enwiki": "Sergei Rachmaninoff",
+"_relatives": [
+{
+"prop": "P26",
+"name": "Natalya Satina",
+"occupations": [
+"pianist"
+],
+"marriedTo": []
+}
+]
 },
 "Q1324254": {
 "_label": "Tristan und Isolde",
@@ -2758,7 +2987,8 @@
 "piano"
 ],
 "_description": "Russian composer (1839–1881)",
-"_enwiki": "Modest Mussorgsky"
+"_enwiki": "Modest Mussorgsky",
+"_relatives": []
 },
 "Q1333281": {
 "_label": "Raoul de Pugno",
@@ -2807,7 +3037,8 @@
 "piano"
 ],
 "_description": "French composer, teacher, organist, and pianist (1852-1914)",
-"_enwiki": "Raoul Pugno"
+"_enwiki": "Raoul Pugno",
+"_relatives": []
 },
 "Q133496786": {
 "_label": "Q133496786",
@@ -2820,7 +3051,8 @@
 "P937": [
 "Freiburg im Breisgau"
 ],
-"_description": "pianist"
+"_description": "pianist",
+"_relatives": []
 },
 "Q133871042": {
 "_label": "Then you'll remember me",
@@ -2955,7 +3187,149 @@
 "Johann Christoph Bach III"
 ],
 "_description": "German composer (1685–1750)",
-"_enwiki": "Johann Sebastian Bach"
+"_enwiki": "Johann Sebastian Bach",
+"_relatives": [
+{
+"prop": "P22",
+"name": "Johann Ambrosius Bach",
+"occupations": [
+"composer",
+"conductor",
+"musician"
+],
+"marriedTo": []
+},
+{
+"prop": "P25",
+"name": "Maria Elisabeth Lämmerhirt",
+"occupations": [],
+"marriedTo": [
+"Johann Ambrosius Bach"
+]
+},
+{
+"prop": "P26",
+"name": "Anna Magdalena Bach",
+"occupations": [
+"composer",
+"singer",
+"opera singer"
+],
+"marriedTo": []
+},
+{
+"prop": "P26",
+"name": "Maria Barbara Bach",
+"occupations": [
+"singer"
+],
+"marriedTo": []
+},
+{
+"prop": "P40",
+"name": "Johann Christoph Friedrich Bach",
+"occupations": [
+"composer",
+"musician",
+"organist"
+],
+"marriedTo": []
+},
+{
+"prop": "P40",
+"name": "Carl Philipp Emanuel Bach",
+"occupations": [
+"composer"
+],
+"marriedTo": []
+},
+{
+"prop": "P40",
+"name": "Johann Christian Bach",
+"occupations": [
+"composer",
+"pianist",
+"music arranger"
+],
+"marriedTo": []
+},
+{
+"prop": "P40",
+"name": "Wilhelm Friedemann Bach",
+"occupations": [
+"composer",
+"pianist",
+"musician"
+],
+"marriedTo": []
+},
+{
+"prop": "P40",
+"name": "Johann Gottfried Bernhard Bach",
+"occupations": [
+"composer",
+"musician",
+"organist"
+],
+"marriedTo": []
+},
+{
+"prop": "P40",
+"name": "Gottfried Heinrich Bach",
+"occupations": [
+"composer",
+"pianist",
+"musician"
+],
+"marriedTo": []
+},
+{
+"prop": "P40",
+"name": "Elisabeth Juliana Friderica Bach",
+"occupations": [],
+"marriedTo": [
+"Johann Christoph Altnickol"
+]
+},
+{
+"prop": "P1038",
+"name": "Christoph Bach",
+"occupations": [
+"musician"
+],
+"marriedTo": []
+},
+{
+"prop": "P1038",
+"name": "Wilhelm Friedrich Ernst Bach",
+"occupations": [
+"composer",
+"pianist",
+"musician"
+],
+"marriedTo": []
+},
+{
+"prop": "P3373",
+"name": "Johann Jacob Bach",
+"occupations": [
+"composer",
+"musician",
+"court musician"
+],
+"marriedTo": []
+},
+{
+"prop": "P3373",
+"name": "Johann Christoph Bach III",
+"occupations": [
+"composer",
+"musician",
+"organist"
+],
+"marriedTo": []
+}
+]
 },
 "Q1342527": {
 "_label": "Lao Silesu",
@@ -2980,7 +3354,8 @@
 "1953-08-12T00:00:00Z"
 ],
 "_description": "Italian composer (1883–1953)",
-"_enwiki": "Lao Silesu"
+"_enwiki": "Lao Silesu",
+"_relatives": []
 },
 "Q1344071": {
 "_label": "Ossip Gabrilowitsch",
@@ -3027,7 +3402,18 @@
 "piano"
 ],
 "_description": "Russian-American pianist and conductor (1878–1936)",
-"_enwiki": "Ossip Gabrilowitsch"
+"_enwiki": "Ossip Gabrilowitsch",
+"_relatives": [
+{
+"prop": "P26",
+"name": "Clara Clemens",
+"occupations": [
+"singer",
+"pianist"
+],
+"marriedTo": []
+}
+]
 },
 "Q1349257": {
 "_label": "Lowell Mason",
@@ -3079,7 +3465,19 @@
 "organ"
 ],
 "_description": "American composer; leading figure in American church music",
-"_enwiki": "Lowell Mason"
+"_enwiki": "Lowell Mason",
+"_relatives": [
+{
+"prop": "P40",
+"name": "William Mason",
+"occupations": [
+"composer",
+"pianist",
+"music teacher"
+],
+"marriedTo": []
+}
+]
 },
 "Q1350870": {
 "_label": "32 Variations in C minor",
@@ -3130,7 +3528,8 @@
 "Riga"
 ],
 "_description": "German composer (1861–1932)",
-"_enwiki": "Erik Meyer-Helmund"
+"_enwiki": "Erik Meyer-Helmund",
+"_relatives": []
 },
 "Q13561936": {
 "_label": "Lucy Isabelle Marsh",
@@ -3162,7 +3561,8 @@
 "voice"
 ],
 "_description": "American lyric soprano, church soloist and concert performer (1878-1956)",
-"_enwiki": "Lucy Isabelle Marsh"
+"_enwiki": "Lucy Isabelle Marsh",
+"_relatives": []
 },
 "Q13562088": {
 "_label": "Elise Stevenson",
@@ -3185,7 +3585,8 @@
 "voice"
 ],
 "_description": "American singer",
-"_enwiki": "Elise Stevenson"
+"_enwiki": "Elise Stevenson",
+"_relatives": []
 },
 "Q13562128": {
 "_label": "Margarethe Arndt-Ober",
@@ -3214,7 +3615,8 @@
 "voice"
 ],
 "_description": "German opera singer",
-"_enwiki": "Margarethe Arndt-Ober"
+"_enwiki": "Margarethe Arndt-Ober",
+"_relatives": []
 },
 "Q13562129": {
 "_label": "Corinne Morgan",
@@ -3237,7 +3639,8 @@
 "voice"
 ],
 "_description": "American musician",
-"_enwiki": "Corinne Morgan"
+"_enwiki": "Corinne Morgan",
+"_relatives": []
 },
 "Q136047221": {
 "_label": "Jésus de Nazareth",
@@ -3335,7 +3738,28 @@
 "Leopold Brassin"
 ],
 "_description": "Belgian musician (1836-1884)",
-"_enwiki": "Louis Brassin"
+"_enwiki": "Louis Brassin",
+"_relatives": [
+{
+"prop": "P3373",
+"name": "Gerard Brassin",
+"occupations": [
+"composer",
+"pianist",
+"violinist"
+],
+"marriedTo": []
+},
+{
+"prop": "P3373",
+"name": "Leopold Brassin",
+"occupations": [
+"pianist",
+"bass singer"
+],
+"marriedTo": []
+}
+]
 },
 "Q136905147": {
 "_label": "Deux alouettes",
@@ -3521,7 +3945,26 @@
 "Pierre-Joseph-Guillaume Zimmermann"
 ],
 "_description": "French composer (1822–1884)",
-"_enwiki": "Victor Massé"
+"_enwiki": "Victor Massé",
+"_relatives": [
+{
+"prop": "P1038",
+"name": "Philippe Gille",
+"occupations": [
+"literary critic",
+"librettist"
+],
+"marriedTo": []
+},
+{
+"prop": "P1038",
+"name": "Victor Gille",
+"occupations": [
+"pianist"
+],
+"marriedTo": []
+}
+]
 },
 "Q138296464": {
 "_label": "William Edward Bergé",
@@ -3534,7 +3977,8 @@
 "P570": [
 "1958-01-01T00:00:00Z"
 ],
-"_description": "pianist (1886-1958)"
+"_description": "pianist (1886-1958)",
+"_relatives": []
 },
 "Q138296466": {
 "_label": "Hermann Möhle",
@@ -3575,7 +4019,8 @@
 "P569": [
 "1884-01-01T00:00:00Z"
 ],
-"_description": "pianist (1884-)"
+"_description": "pianist (1884-)",
+"_relatives": []
 },
 "Q138674017": {
 "_label": "In a Clock Store",
@@ -3617,7 +4062,8 @@
 "P1066": [
 "Israel Michalowski"
 ],
-"_description": "baritone, opera singer, hazzan"
+"_description": "baritone, opera singer, hazzan",
+"_relatives": []
 },
 "Q138845227": {
 "_label": "Louis Hervey D'Egville",
@@ -3627,7 +4073,8 @@
 "P569": [
 "1860-01-01T00:00:00Z"
 ],
-"_description": "pianist (1860-)"
+"_description": "pianist (1860-)",
+"_relatives": []
 },
 "Q13894": {
 "_label": "Richard Strauss",
@@ -3698,7 +4145,33 @@
 "piano"
 ],
 "_description": "German composer and orchestra director (1864–1949)",
-"_enwiki": "Richard Strauss"
+"_enwiki": "Richard Strauss",
+"_relatives": [
+{
+"prop": "P22",
+"name": "Franz Strauss",
+"occupations": [
+"composer"
+],
+"marriedTo": []
+},
+{
+"prop": "P25",
+"name": "Josephine Strauss",
+"occupations": [],
+"marriedTo": [
+"Franz Strauss"
+]
+},
+{
+"prop": "P26",
+"name": "Pauline de Ahna",
+"occupations": [
+"opera singer"
+],
+"marriedTo": []
+}
+]
 },
 "Q1391355": {
 "_label": "Mischa Elman",
@@ -3741,7 +4214,17 @@
 "violin"
 ],
 "_description": "American violinist (1891–1967)",
-"_enwiki": "Mischa Elman"
+"_enwiki": "Mischa Elman",
+"_relatives": [
+{
+"prop": "P22",
+"name": "Saul Elman",
+"occupations": [
+"violinist"
+],
+"marriedTo": []
+}
+]
 },
 "Q1395862": {
 "_label": "Fantasie in C",
@@ -3862,7 +4345,8 @@
 "piano"
 ],
 "_description": "American pianist and composer (1896–1954)",
-"_enwiki": "Phil Ohman"
+"_enwiki": "Phil Ohman",
+"_relatives": []
 },
 "Q1416456": {
 "_label": "Quattro Pezzi Sacri",
@@ -3947,7 +4431,18 @@
 "Leipzig"
 ],
 "_description": "Polish composer (1867–1944)",
-"_enwiki": "Franciszek Brzeziński"
+"_enwiki": "Franciszek Brzeziński",
+"_relatives": [
+{
+"prop": "P1038",
+"name": "Filipina Brzezinska-Szymanowska",
+"occupations": [
+"composer",
+"pianist"
+],
+"marriedTo": []
+}
+]
 },
 "Q1452729": {
 "_label": "Frederic Lamond",
@@ -3989,7 +4484,8 @@
 "piano"
 ],
 "_description": "Scottish pianist and composer (1868–1948)",
-"_enwiki": "Frederic Lamond (pianist)"
+"_enwiki": "Frederic Lamond (pianist)",
+"_relatives": []
 },
 "Q1452870": {
 "_label": "Q1452870",
@@ -4011,7 +4507,8 @@
 "P570": [
 "1904-06-24T00:00:00Z"
 ],
-"_description": "American composer (1864-1904)"
+"_description": "American composer (1864-1904)",
+"_relatives": []
 },
 "Q146113": {
 "_label": "Piano Sonata No. 8",
@@ -4137,7 +4634,8 @@
 "P570": [
 "1948-10-24T00:00:00Z"
 ],
-"_description": "Hungarian composer (1881–1948)"
+"_description": "Hungarian composer (1881–1948)",
+"_relatives": []
 },
 "Q146793": {
 "_label": "Piano Sonata No. 32",
@@ -4442,7 +4940,8 @@
 "pipe organ"
 ],
 "_description": "French composer, organist, conductor and pianist (1835–1921)",
-"_enwiki": "Camille Saint-Saëns"
+"_enwiki": "Camille Saint-Saëns",
+"_relatives": []
 },
 "Q1506063": {
 "_label": "Polonaise in F-sharp minor",
@@ -4555,7 +5054,75 @@
 "Louise Wagner"
 ],
 "_description": "German composer (1813–1883)",
-"_enwiki": "Richard Wagner"
+"_enwiki": "Richard Wagner",
+"_relatives": [
+{
+"prop": "P25",
+"name": "Johanna Rosina Wagner-Geyer",
+"occupations": [],
+"marriedTo": [
+"Ludwig Geyer"
+]
+},
+{
+"prop": "P26",
+"name": "Cosima Wagner",
+"occupations": [
+"composer",
+"musician"
+],
+"marriedTo": [
+"Hans von Bülow"
+]
+},
+{
+"prop": "P26",
+"name": "Minna Planer",
+"occupations": [
+"composer",
+"opera singer"
+],
+"marriedTo": []
+},
+{
+"prop": "P40",
+"name": "Siegfried Wagner",
+"occupations": [
+"composer",
+"conductor",
+"musician"
+],
+"marriedTo": [
+"Winifred Wagner"
+]
+},
+{
+"prop": "P1038",
+"name": "Ludwig Geyer",
+"occupations": [
+"composer",
+"singer",
+"opera singer"
+],
+"marriedTo": []
+},
+{
+"prop": "P1038",
+"name": "Franziska Wagner",
+"occupations": [],
+"marriedTo": [
+"Alexander Ritter"
+]
+},
+{
+"prop": "P3373",
+"name": "Albert Wagner",
+"occupations": [
+"singer"
+],
+"marriedTo": []
+}
+]
 },
 "Q1527943": {
 "_label": "Waltz No. 6 in D-flat major, Op. 64, No. 1",
@@ -4619,7 +5186,8 @@
 "1936-07-30T00:00:00Z"
 ],
 "_description": "American composer (1864-1936)",
-"_enwiki": "Adolf Philipp"
+"_enwiki": "Adolf Philipp",
+"_relatives": []
 },
 "Q154602": {
 "_label": "Otto Nicolai",
@@ -4677,7 +5245,8 @@
 "voice"
 ],
 "_description": "German composer and conductor (1810-1849)",
-"_enwiki": "Otto Nicolai"
+"_enwiki": "Otto Nicolai",
+"_relatives": []
 },
 "Q154812": {
 "_label": "Carl Maria von Weber",
@@ -4760,7 +5329,110 @@
 "Fridolin Weber"
 ],
 "_description": "German Romantic composer (1786–1826)",
-"_enwiki": "Carl Maria von Weber"
+"_enwiki": "Carl Maria von Weber",
+"_relatives": [
+{
+"prop": "P22",
+"name": "Franz Anton von Weber",
+"occupations": [
+"composer",
+"music director",
+"violinist"
+],
+"marriedTo": []
+},
+{
+"prop": "P25",
+"name": "Genovefa von Weber",
+"occupations": [
+"singer",
+"opera singer"
+],
+"marriedTo": [
+"Franz Anton von Weber"
+]
+},
+{
+"prop": "P26",
+"name": "Caroline Weber",
+"occupations": [
+"singer",
+"opera singer"
+],
+"marriedTo": []
+},
+{
+"prop": "P1038",
+"name": "Josepha Weber",
+"occupations": [
+"opera singer"
+],
+"marriedTo": [
+"Sebastian Mayer"
+]
+},
+{
+"prop": "P1038",
+"name": "Aloysia Weber",
+"occupations": [
+"composer",
+"singer",
+"opera singer"
+],
+"marriedTo": [
+"Joseph Lange"
+]
+},
+{
+"prop": "P1038",
+"name": "Constanze Mozart",
+"occupations": [
+"opera singer"
+],
+"marriedTo": [
+"Wolfgang Amadeus Mozart",
+"Georg Nikolaus von Nissen"
+]
+},
+{
+"prop": "P1038",
+"name": "Franz Fridolin Weber",
+"occupations": [
+"singer",
+"opera singer"
+],
+"marriedTo": []
+},
+{
+"prop": "P1038",
+"name": "Sophie Weber",
+"occupations": [
+"singer",
+"opera singer"
+],
+"marriedTo": [
+"Jakob Haibel"
+]
+},
+{
+"prop": "P3373",
+"name": "Edmund Weber",
+"occupations": [
+"composer",
+"conductor",
+"singer"
+],
+"marriedTo": []
+},
+{
+"prop": "P3373",
+"name": "Fridolin Weber",
+"occupations": [
+"musician"
+],
+"marriedTo": []
+}
+]
 },
 "Q15498202": {
 "_label": "James Lynam Molloy",
@@ -4786,7 +5458,8 @@
 "Bernard Charles Molloy"
 ],
 "_description": "Irish composer, poet, and author",
-"_enwiki": "James Lynam Molloy"
+"_enwiki": "James Lynam Molloy",
+"_relatives": []
 },
 "Q155425": {
 "_label": "Friedrich von Flotow",
@@ -4835,7 +5508,17 @@
 "Johann Peter Pixis"
 ],
 "_description": "German composer (1812–1883)",
-"_enwiki": "Friedrich von Flotow"
+"_enwiki": "Friedrich von Flotow",
+"_relatives": [
+{
+"prop": "P40",
+"name": "Martha von Flotow",
+"occupations": [
+"composer"
+],
+"marriedTo": []
+}
+]
 },
 "Q1557135": {
 "_label": "Wiegenlied, Op. 49, No. 4",
@@ -4882,7 +5565,8 @@
 "1930-12-22T00:00:00Z"
 ],
 "_description": "American composer (1865-1930)",
-"_enwiki": "Charles K. Harris"
+"_enwiki": "Charles K. Harris",
+"_relatives": []
 },
 "Q1569982": {
 "_label": "Kinderszenen",
@@ -4988,7 +5672,8 @@
 "Ignaz Ladurner"
 ],
 "_description": "French composer (1782-1871)",
-"_enwiki": "Daniel Auber"
+"_enwiki": "Daniel Auber",
+"_relatives": []
 },
 "Q15824771": {
 "_label": "Käthe Heinemann",
@@ -5020,7 +5705,8 @@
 "1975-04-07T00:00:00Z"
 ],
 "_description": "German pianist and music educator (1891-1975)",
-"_enwiki": "Käthe Heinemann"
+"_enwiki": "Käthe Heinemann",
+"_relatives": []
 },
 "Q158899": {
 "_label": "Carl Loewe",
@@ -5081,7 +5767,18 @@
 "voice"
 ],
 "_description": "German composer (1796–1869)",
-"_enwiki": "Carl Loewe"
+"_enwiki": "Carl Loewe",
+"_relatives": [
+{
+"prop": "P22",
+"name": "Johann Andreas Loewe",
+"occupations": [
+"composer",
+"musician"
+],
+"marriedTo": []
+}
+]
 },
 "Q159569": {
 "_label": "Carl Reinecke",
@@ -5148,7 +5845,26 @@
 "Maria Reinecke"
 ],
 "_description": "German composer, conductor and pianist (1824–1910)",
-"_enwiki": "Carl Reinecke"
+"_enwiki": "Carl Reinecke",
+"_relatives": [
+{
+"prop": "P22",
+"name": "Rudolf Reinecke",
+"occupations": [
+"music educator"
+],
+"marriedTo": []
+},
+{
+"prop": "P3373",
+"name": "Maria Reinecke",
+"occupations": [
+"pianist",
+"music educator"
+],
+"marriedTo": []
+}
+]
 },
 "Q15990970": {
 "_label": "Prélude et Nocturne for Piano",
@@ -5187,7 +5903,8 @@
 "voice"
 ],
 "_description": "American singer (1864-1947)",
-"_enwiki": "S. H. Dudley (singer)"
+"_enwiki": "S. H. Dudley (singer)",
+"_relatives": []
 },
 "Q15998460": {
 "_label": "Reinald Werrenrath",
@@ -5225,7 +5942,8 @@
 "voice"
 ],
 "_description": "American singer (1883-1953)",
-"_enwiki": "Reinald Werrenrath"
+"_enwiki": "Reinald Werrenrath",
+"_relatives": []
 },
 "Q16003026": {
 "_label": "Q16003026",
@@ -5257,7 +5975,8 @@
 "piano"
 ],
 "_description": "Hungarian-American musician (1887–1963)",
-"_enwiki": "Yolanda Mero"
+"_enwiki": "Yolanda Mero",
+"_relatives": []
 },
 "Q16003912": {
 "_label": "Joseph Cyrus Smith",
@@ -5283,7 +6002,8 @@
 "violin"
 ],
 "_description": "conductor, bandleader, recording artist (1883-1965)",
-"_enwiki": "Joseph C. Smith"
+"_enwiki": "Joseph C. Smith",
+"_relatives": []
 },
 "Q16043778": {
 "_label": "J. W. Myers",
@@ -5306,7 +6026,8 @@
 "voice"
 ],
 "_description": "British singer",
-"_enwiki": "J. W. Myers"
+"_enwiki": "J. W. Myers",
+"_relatives": []
 },
 "Q16059481": {
 "_label": "William F. Hooley",
@@ -5338,7 +6059,8 @@
 "voice"
 ],
 "_description": "American bass singer, pioneer recording artist (1861-1918)",
-"_enwiki": "William F. Hooley"
+"_enwiki": "William F. Hooley",
+"_relatives": []
 },
 "Q16142728": {
 "_label": "Nocturne No. 1 in B-flat minor, Op. 9, No. 1",
@@ -5433,7 +6155,19 @@
 "P1303": [
 "piano"
 ],
-"_description": "Austrian composer, pianist, author and music educator (1879–1950)"
+"_description": "Austrian composer, pianist, author and music educator (1879–1950)",
+"_relatives": [
+{
+"prop": "P26",
+"name": "Sandra Drouker",
+"occupations": [
+"composer",
+"pianist",
+"musician"
+],
+"marriedTo": []
+}
+]
 },
 "Q16259195": {
 "_label": "I Hear You Calling Me",
@@ -5556,7 +6290,8 @@
 "P570": [
 "1940-07-13T00:00:00Z"
 ],
-"_description": "German pianist and music educator (1869–1940)"
+"_description": "German pianist and music educator (1869–1940)",
+"_relatives": []
 },
 "Q1635249": {
 "_label": "Schwanengesang",
@@ -5593,7 +6328,8 @@
 "P570": [
 "1910-11-14T00:00:00Z"
 ],
-"_description": "German entrepreneur (1857-1910)"
+"_description": "German entrepreneur (1857-1910)",
+"_relatives": []
 },
 "Q16385220": {
 "_label": "Orson Scott Card bibliography",
@@ -5670,7 +6406,17 @@
 "Aleksandra Lukash"
 ],
 "_description": "Russian composer, doctor and chemist (1833–1887)",
-"_enwiki": "Alexander Borodin"
+"_enwiki": "Alexander Borodin",
+"_relatives": [
+{
+"prop": "P26",
+"name": "Ekaterina Protopopova",
+"occupations": [
+"pianist"
+],
+"marriedTo": []
+}
+]
 },
 "Q1646954": {
 "_label": "Toccata",
@@ -6029,7 +6775,8 @@
 "flute"
 ],
 "_description": "Australian composer (1861–1949)",
-"_enwiki": "John Lemmone"
+"_enwiki": "John Lemmone",
+"_relatives": []
 },
 "Q170209": {
 "_label": "Vincenzo Bellini",
@@ -6083,7 +6830,17 @@
 "Niccolò Antonio Zingarelli"
 ],
 "_description": "Italian opera composer (1801–1835)",
-"_enwiki": "Vincenzo Bellini"
+"_enwiki": "Vincenzo Bellini",
+"_relatives": [
+{
+"prop": "P1038",
+"name": "Vincenzo Tobia Bellini",
+"occupations": [
+"composer"
+],
+"marriedTo": []
+}
+]
 },
 "Q1706020": {
 "_label": "Josef Weiss",
@@ -6111,7 +6868,8 @@
 "piano"
 ],
 "_description": "Hungarian-Jewish composer and pianist (1864–1945)",
-"_enwiki": "Josef Weiss"
+"_enwiki": "Josef Weiss",
+"_relatives": []
 },
 "Q17060232": {
 "_label": "You're Breaking My Heart",
@@ -6194,7 +6952,25 @@
 "voice"
 ],
 "_description": "Italian opera singer (1873–1921)",
-"_enwiki": "Enrico Caruso"
+"_enwiki": "Enrico Caruso",
+"_relatives": [
+{
+"prop": "P40",
+"name": "Gloria Grazianna Victoria America Caruso",
+"occupations": [
+"singer"
+],
+"marriedTo": []
+},
+{
+"prop": "P40",
+"name": "Enrico Caruso Jr.",
+"occupations": [
+"opera singer"
+],
+"marriedTo": []
+}
+]
 },
 "Q1711977": {
 "_label": "Julian Edwards",
@@ -6223,7 +6999,8 @@
 "1910-09-05T00:00:00Z"
 ],
 "_description": "American composer (1855–1910)",
-"_enwiki": "Julian Edwards"
+"_enwiki": "Julian Edwards",
+"_relatives": []
 },
 "Q171277": {
 "_label": "Aida",
@@ -6411,7 +7188,8 @@
 "P1303": [
 "piano"
 ],
-"_description": "German pianist (1857-1918)"
+"_description": "German pianist (1857-1918)",
+"_relatives": []
 },
 "Q1734181": {
 "_label": "Karol Kurpiński",
@@ -6446,7 +7224,8 @@
 "Warszawianka"
 ],
 "_description": "Polish composer and conductor (1785-1857)",
-"_enwiki": "Karol Kurpiński"
+"_enwiki": "Karol Kurpiński",
+"_relatives": []
 },
 "Q174178": {
 "_label": "Franz Abt",
@@ -6487,7 +7266,17 @@
 "Brunswick"
 ],
 "_description": "German composer and choral conductor (1819–1885)",
-"_enwiki": "Franz Abt"
+"_enwiki": "Franz Abt",
+"_relatives": [
+{
+"prop": "P40",
+"name": "Alfred Abt",
+"occupations": [
+"conductor"
+],
+"marriedTo": []
+}
+]
 },
 "Q1746043": {
 "_label": "Piano Sonata No. 3 in B minor, Op. 58",
@@ -6542,7 +7331,8 @@
 "voice"
 ],
 "_description": "French opera singer (1868–1933)",
-"_enwiki": "Marcel Journet"
+"_enwiki": "Marcel Journet",
+"_relatives": []
 },
 "Q17586720": {
 "_label": "Mazurka no. 13 in A minor, op. 17 no. 4",
@@ -6603,7 +7393,8 @@
 "piano"
 ],
 "_description": "Italian pianist and music educator (1861–1943)",
-"_enwiki": "Lazzaro Uzielli"
+"_enwiki": "Lazzaro Uzielli",
+"_relatives": []
 },
 "Q180278": {
 "_label": "Charles Gounod",
@@ -6679,7 +7470,8 @@
 "organ"
 ],
 "_description": "French composer (1818–1893)",
-"_enwiki": "Charles Gounod"
+"_enwiki": "Charles Gounod",
+"_relatives": []
 },
 "Q18112067": {
 "_label": "Vladimir Drozdov",
@@ -6709,7 +7501,8 @@
 "piano"
 ],
 "_description": "Russian musician",
-"_enwiki": "Vladimir Drozdov"
+"_enwiki": "Vladimir Drozdov",
+"_relatives": []
 },
 "Q181894": {
 "_label": "Pietro Mascagni",
@@ -6763,7 +7556,8 @@
 "Alfredo Soffredini"
 ],
 "_description": "Italian composer known for operas (1863–1945)",
-"_enwiki": "Pietro Mascagni"
+"_enwiki": "Pietro Mascagni",
+"_relatives": []
 },
 "Q18414262": {
 "_label": "Gustave Michiels",
@@ -6789,7 +7583,8 @@
 "Paris",
 "Saint Petersburg"
 ],
-"_description": "Belgian conductor"
+"_description": "Belgian conductor",
+"_relatives": []
 },
 "Q185312": {
 "_label": "Giovanni Battista Pergolesi",
@@ -6825,7 +7620,8 @@
 "organ"
 ],
 "_description": "Italian composer, violinist and organist (1710–1736)",
-"_enwiki": "Giovanni Battista Pergolesi"
+"_enwiki": "Giovanni Battista Pergolesi",
+"_relatives": []
 },
 "Q185647": {
 "_label": "Alexander Scriabin",
@@ -6893,7 +7689,70 @@
 "Ksenia Nikolayevna Scriabin"
 ],
 "_description": "Russian composer and pianist (1872–1915)",
-"_enwiki": "Alexander Scriabin"
+"_enwiki": "Alexander Scriabin",
+"_relatives": [
+{
+"prop": "P25",
+"name": "Lyubov Petrovna Shchetinina",
+"occupations": [
+"pianist"
+],
+"marriedTo": []
+},
+{
+"prop": "P26",
+"name": "Tatiana Schlözer",
+"occupations": [
+"composer",
+"pianist"
+],
+"marriedTo": []
+},
+{
+"prop": "P26",
+"name": "Vera Scriabina",
+"occupations": [
+"pianist"
+],
+"marriedTo": []
+},
+{
+"prop": "P40",
+"name": "Marina Scriabine",
+"occupations": [
+"composer",
+"musicologist"
+],
+"marriedTo": []
+},
+{
+"prop": "P40",
+"name": "Julian Scriabin",
+"occupations": [
+"composer",
+"pianist"
+],
+"marriedTo": []
+},
+{
+"prop": "P40",
+"name": "Ariadna Scriabina",
+"occupations": [
+"musician"
+],
+"marriedTo": []
+},
+{
+"prop": "P1038",
+"name": "Boris de Schlözer",
+"occupations": [
+"music critic",
+"literary critic",
+"critic"
+],
+"marriedTo": []
+}
+]
 },
 "Q185968": {
 "_label": "Carmen",
@@ -7037,7 +7896,8 @@
 "violin"
 ],
 "_description": "violinist, recording pioneer",
-"_enwiki": "Charles D'Almaine"
+"_enwiki": "Charles D'Almaine",
+"_relatives": []
 },
 "Q1874076": {
 "_label": "Ludvig Schytte",
@@ -7073,7 +7933,17 @@
 "piano"
 ],
 "_description": "Danish composer (1848–1909)",
-"_enwiki": "Ludvig Schytte"
+"_enwiki": "Ludvig Schytte",
+"_relatives": [
+{
+"prop": "P40",
+"name": "Anna Schytte",
+"occupations": [
+"pianist"
+],
+"marriedTo": []
+}
+]
 },
 "Q1885813": {
 "_label": "Pasquale Amato",
@@ -7115,7 +7985,8 @@
 "voice"
 ],
 "_description": "Italian opera singer (1878–1942)",
-"_enwiki": "Pasquale Amato"
+"_enwiki": "Pasquale Amato",
+"_relatives": []
 },
 "Q188621": {
 "_label": "La bohème",
@@ -7215,7 +8086,8 @@
 "piano"
 ],
 "_description": "Italian composer (1857–1919)",
-"_enwiki": "Ruggero Leoncavallo"
+"_enwiki": "Ruggero Leoncavallo",
+"_relatives": []
 },
 "Q189234": {
 "_label": "Rigoletto",
@@ -7332,7 +8204,27 @@
 "piano"
 ],
 "_description": "French composer (1803–1856)",
-"_enwiki": "Adolphe Adam"
+"_enwiki": "Adolphe Adam",
+"_relatives": [
+{
+"prop": "P22",
+"name": "Louis Adam",
+"occupations": [
+"composer",
+"pianist",
+"music educator"
+],
+"marriedTo": []
+},
+{
+"prop": "P26",
+"name": "Chérie-Louise Couraud",
+"occupations": [
+"opera singer"
+],
+"marriedTo": []
+}
+]
 },
 "Q1900092": {
 "_label": "Mark Hambourg",
@@ -7379,7 +8271,50 @@
 "Jan Hambourg"
 ],
 "_description": "British musician (1879-1960)",
-"_enwiki": "Mark Hambourg"
+"_enwiki": "Mark Hambourg",
+"_relatives": [
+{
+"prop": "P22",
+"name": "Michael Hambourg",
+"occupations": [
+"pianist",
+"music educator"
+],
+"marriedTo": []
+},
+{
+"prop": "P26",
+"name": "Dorothea Frances Muir Mackenzie",
+"occupations": [
+"violinist"
+],
+"marriedTo": []
+},
+{
+"prop": "P3373",
+"name": "Boris Hambourg",
+"occupations": [
+"cellist"
+],
+"marriedTo": []
+},
+{
+"prop": "P3373",
+"name": "Clement Hambourg",
+"occupations": [
+"pianist"
+],
+"marriedTo": []
+},
+{
+"prop": "P3373",
+"name": "Jan Hambourg",
+"occupations": [
+"violinist"
+],
+"marriedTo": []
+}
+]
 },
 "Q19005": {
 "_label": "Madama Butterfly",
@@ -7546,7 +8481,19 @@
 "Anton Lehár"
 ],
 "_description": "Komárom-born Austrian music composer (1870–1948)",
-"_enwiki": "Franz Lehár"
+"_enwiki": "Franz Lehár",
+"_relatives": [
+{
+"prop": "P22",
+"name": "Franz Lehár Sr.",
+"occupations": [
+"composer",
+"conductor",
+"musician"
+],
+"marriedTo": []
+}
+]
 },
 "Q191957": {
 "_label": "Ignacy Jan Paderewski",
@@ -7620,7 +8567,8 @@
 "Stanisław Paderewski"
 ],
 "_description": "Polish pianist, composer, supporter of Poland's independence movements, politician, Prime Minister of reborn Poland (1860–1941)",
-"_enwiki": "Ignacy Jan Paderewski"
+"_enwiki": "Ignacy Jan Paderewski",
+"_relatives": []
 },
 "Q192039": {
 "_label": "Don Giovanni",
@@ -7735,7 +8683,8 @@
 "piano"
 ],
 "_description": "French composer of songs and operettas (1848–1903)",
-"_enwiki": "Robert Planquette"
+"_enwiki": "Robert Planquette",
+"_relatives": []
 },
 "Q192941": {
 "_label": "Tosca",
@@ -8013,7 +8962,17 @@
 "Auguste Massenet"
 ],
 "_description": "French composer (1842–1912)",
-"_enwiki": "Jules Massenet"
+"_enwiki": "Jules Massenet",
+"_relatives": [
+{
+"prop": "P26",
+"name": "Ninon de Gressy",
+"occupations": [
+"pianist"
+],
+"marriedTo": []
+}
+]
 },
 "Q19708805": {
 "_label": "Pietro Romani",
@@ -8035,7 +8994,19 @@
 "P570": [
 "1877-01-11T00:00:00Z"
 ],
-"_description": "Italian composer and conductor"
+"_description": "Italian composer and conductor",
+"_relatives": [
+{
+"prop": "P1038",
+"name": "Carlo Romani",
+"occupations": [
+"composer",
+"conductor",
+"opera composer"
+],
+"marriedTo": []
+}
+]
 },
 "Q19787879": {
 "_label": "Anna Schytte",
@@ -8070,7 +9041,19 @@
 "piano"
 ],
 "_description": "Danish composer, pianist, and teacher",
-"_enwiki": "Anna Schytte"
+"_enwiki": "Anna Schytte",
+"_relatives": [
+{
+"prop": "P22",
+"name": "Ludvig Schytte",
+"occupations": [
+"composer",
+"pianist",
+"violinist"
+],
+"marriedTo": []
+}
+]
 },
 "Q1989023": {
 "_label": "Hérodiade",
@@ -8149,7 +9132,8 @@
 "organ",
 "piano"
 ],
-"_description": "American composer, pianist, and organist (1874-1961)"
+"_description": "American composer, pianist, and organist (1874-1961)",
+"_relatives": []
 },
 "Q19946061": {
 "_label": "Vincent O'Brien",
@@ -8170,7 +9154,8 @@
 "organ"
 ],
 "_description": "Irish organist, music teacher and composer",
-"_enwiki": "Vincent O'Brien (composer)"
+"_enwiki": "Vincent O'Brien (composer)",
+"_relatives": []
 },
 "Q20003656": {
 "_label": "John Barnes Wells",
@@ -8202,7 +9187,8 @@
 "Jack Wells"
 ],
 "_description": "American singer and composer",
-"_enwiki": "John Barnes Wells"
+"_enwiki": "John Barnes Wells",
+"_relatives": []
 },
 "Q201873": {
 "_label": "The Marriage of Figaro",
@@ -8285,7 +9271,8 @@
 "drum kit",
 "musical keyboard"
 ],
-"_description": "American musician (1944–2002)"
+"_description": "American musician (1944–2002)",
+"_relatives": []
 },
 "Q203470": {
 "_label": "Il trovatore",
@@ -8420,7 +9407,50 @@
 "Serafine Klinger"
 ],
 "_description": "Viennese composer (1870-1954)",
-"_enwiki": "Oscar Straus (composer)"
+"_enwiki": "Oscar Straus (composer)",
+"_relatives": [
+{
+"prop": "P26",
+"name": "Clara Straus",
+"occupations": [
+"singer"
+],
+"marriedTo": []
+},
+{
+"prop": "P26",
+"name": "Nelly Irmen",
+"occupations": [
+"violinist"
+],
+"marriedTo": []
+},
+{
+"prop": "P40",
+"name": "Erwin Straus",
+"occupations": [
+"composer",
+"pianist"
+],
+"marriedTo": []
+},
+{
+"prop": "P40",
+"name": "Leo Straus",
+"occupations": [
+"librettist"
+],
+"marriedTo": []
+},
+{
+"prop": "P1038",
+"name": "Josef Singer",
+"occupations": [
+"opera singer"
+],
+"marriedTo": []
+}
+]
 },
 "Q207390": {
 "_label": "Amilcare Ponchielli",
@@ -8486,7 +9516,17 @@
 "organ"
 ],
 "_description": "Italian composer (1834-1886)",
-"_enwiki": "Amilcare Ponchielli"
+"_enwiki": "Amilcare Ponchielli",
+"_relatives": [
+{
+"prop": "P26",
+"name": "Teresina Brambilla",
+"occupations": [
+"opera singer"
+],
+"marriedTo": []
+}
+]
 },
 "Q207875": {
 "_label": "Requiem",
@@ -8580,7 +9620,8 @@
 "organ"
 ],
 "_description": "French composer (1836–1891)",
-"_enwiki": "Léo Delibes"
+"_enwiki": "Léo Delibes",
+"_relatives": []
 },
 "Q20811130": {
 "_label": "Olive Kline",
@@ -8609,7 +9650,8 @@
 "voice"
 ],
 "_description": "American opera singer (1887-1976)",
-"_enwiki": "Olive Kline"
+"_enwiki": "Olive Kline",
+"_relatives": []
 },
 "Q208659": {
 "_label": "The Barber of Seville",
@@ -8824,7 +9866,8 @@
 "pipe organ"
 ],
 "_description": "English composer of the Gilbert & Sullivan duo (1842-1900)",
-"_enwiki": "Arthur Sullivan"
+"_enwiki": "Arthur Sullivan",
+"_relatives": []
 },
 "Q21281809": {
 "_label": "Q21281809",
@@ -8859,7 +9902,8 @@
 "P1303": [
 "voice"
 ],
-"_description": "American singer"
+"_description": "American singer",
+"_relatives": []
 },
 "Q213688": {
 "_label": "Artur Schnabel",
@@ -8914,7 +9958,28 @@
 "piano"
 ],
 "_description": "Austrian pianist (1882-1951)",
-"_enwiki": "Artur Schnabel"
+"_enwiki": "Artur Schnabel",
+"_relatives": [
+{
+"prop": "P26",
+"name": "Therese Behr",
+"occupations": [
+"singer",
+"opera singer"
+],
+"marriedTo": []
+},
+{
+"prop": "P40",
+"name": "Karl Ulrich Schnabel",
+"occupations": [
+"pianist",
+"musician",
+"music educator"
+],
+"marriedTo": []
+}
+]
 },
 "Q215333": {
 "_label": "Carl Czerny",
@@ -8969,7 +10034,8 @@
 "piano"
 ],
 "_description": "Austrian composer and pianist (1791-1857)",
-"_enwiki": "Carl Czerny"
+"_enwiki": "Carl Czerny",
+"_relatives": []
 },
 "Q215747": {
 "_label": "Hugo Wolf",
@@ -9017,7 +10083,8 @@
 "piano"
 ],
 "_description": "Austrian composer (1860–1903)",
-"_enwiki": "Hugo Wolf"
+"_enwiki": "Hugo Wolf",
+"_relatives": []
 },
 "Q2166612": {
 "_label": "Rosamunde",
@@ -9096,7 +10163,53 @@
 "Gustave Alkan"
 ],
 "_description": "French composer and pianist (1813–1888)",
-"_enwiki": "Charles-Valentin Alkan"
+"_enwiki": "Charles-Valentin Alkan",
+"_relatives": [
+{
+"prop": "P40",
+"name": "Élie-Miriam Delaborde",
+"occupations": [
+"composer",
+"pianist"
+],
+"marriedTo": []
+},
+{
+"prop": "P3373",
+"name": "Napoléon Alkan",
+"occupations": [
+"composer",
+"musician"
+],
+"marriedTo": []
+},
+{
+"prop": "P3373",
+"name": "Celeste Alkan Meyer Marix",
+"occupations": [
+"composer"
+],
+"marriedTo": []
+},
+{
+"prop": "P3373",
+"name": "Maxime Alkan",
+"occupations": [
+"composer",
+"pianist"
+],
+"marriedTo": []
+},
+{
+"prop": "P3373",
+"name": "Gustave Alkan",
+"occupations": [
+"composer",
+"pianist"
+],
+"marriedTo": []
+}
+]
 },
 "Q217613": {
 "_label": "Stanisław Moniuszko",
@@ -9167,7 +10280,17 @@
 "pipe organ"
 ],
 "_description": "Polish composer (1819–1872)",
-"_enwiki": "Stanisław Moniuszko"
+"_enwiki": "Stanisław Moniuszko",
+"_relatives": [
+{
+"prop": "P40",
+"name": "Bolesław Moniuszko",
+"occupations": [
+"musician"
+],
+"marriedTo": []
+}
+]
 },
 "Q21804546": {
 "_label": "Dorfschwalben aus Österreich",
@@ -9227,7 +10350,8 @@
 "Nerone"
 ],
 "_description": "Italian poet and opera composer and librettist of Verdi's opera ''Otello'' (1842-1918)",
-"_enwiki": "Arrigo Boito"
+"_enwiki": "Arrigo Boito",
+"_relatives": []
 },
 "Q219551": {
 "_label": "Ferruccio Busoni",
@@ -9313,7 +10437,32 @@
 "piano"
 ],
 "_description": "Italian composer, pianist, and conductor (1866–1924)",
-"_enwiki": "Ferruccio Busoni"
+"_enwiki": "Ferruccio Busoni",
+"_relatives": [
+{
+"prop": "P22",
+"name": "Ferdinando Busoni",
+"occupations": [
+"composer",
+"musician"
+],
+"marriedTo": [
+"Anna Weiss-Busoni"
+]
+},
+{
+"prop": "P25",
+"name": "Anna Weiss-Busoni",
+"occupations": [
+"composer",
+"pianist",
+"musician"
+],
+"marriedTo": [
+"Ferdinando Busoni"
+]
+}
+]
 },
 "Q220340": {
 "_label": "Parsifal",
@@ -9446,7 +10595,8 @@
 "piano"
 ],
 "_description": "Italian conductor (1882–1973)",
-"_enwiki": "Domenico Savino"
+"_enwiki": "Domenico Savino",
+"_relatives": []
 },
 "Q221806": {
 "_label": "Cavalleria rusticana",
@@ -9526,7 +10676,19 @@
 "piano"
 ],
 "_description": "Russian musician (1876–1944)",
-"_enwiki": "Sandra Droucker"
+"_enwiki": "Sandra Droucker",
+"_relatives": [
+{
+"prop": "P26",
+"name": "Gottfried Galston",
+"occupations": [
+"composer",
+"pianist",
+"musician"
+],
+"marriedTo": []
+}
+]
 },
 "Q223524": {
 "_label": "Symphony No. 3",
@@ -9617,7 +10779,25 @@
 "viola"
 ],
 "_description": "French composer",
-"_enwiki": "Édouard Lalo"
+"_enwiki": "Édouard Lalo",
+"_relatives": [
+{
+"prop": "P26",
+"name": "Julie-Marie-Victoire Bernier de Maligny",
+"occupations": [
+"singer"
+],
+"marriedTo": []
+},
+{
+"prop": "P40",
+"name": "Pierre Lalo",
+"occupations": [
+"music critic"
+],
+"marriedTo": []
+}
+]
 },
 "Q2245188": {
 "_label": "Vincent Wallace",
@@ -9655,7 +10835,8 @@
 "австралийский Паганини"
 ],
 "_description": "Irish composer and musician (1812–1865)",
-"_enwiki": "William Vincent Wallace"
+"_enwiki": "William Vincent Wallace",
+"_relatives": []
 },
 "Q2286813": {
 "_label": "Q2286813",
@@ -9678,7 +10859,8 @@
 "1928-12-19T00:00:00Z"
 ],
 "_description": "American composer (1879–1928)",
-"_enwiki": "Silvio Hein"
+"_enwiki": "Silvio Hein",
+"_relatives": []
 },
 "Q2301740": {
 "_label": "Jean Gabriel Marie",
@@ -9710,7 +10892,17 @@
 "1928-08-29T00:00:00Z"
 ],
 "_description": "French composer and conductor (1852-1928)",
-"_enwiki": "Jean Gabriel-Marie"
+"_enwiki": "Jean Gabriel-Marie",
+"_relatives": [
+{
+"prop": "P40",
+"name": "Jean Gabriel Marie",
+"occupations": [
+"composer"
+],
+"marriedTo": []
+}
+]
 },
 "Q23023583": {
 "_label": "Victor Herbert",
@@ -9763,7 +10955,8 @@
 "P570": [
 "1955-10-21T00:00:00Z"
 ],
-"_description": "journalist, philosopher, pianist (1878-1955)"
+"_description": "journalist, philosopher, pianist (1878-1955)",
+"_relatives": []
 },
 "Q23062688": {
 "_label": "Fritz Berend",
@@ -9789,7 +10982,8 @@
 "Eduard Berend"
 ],
 "_description": "German English Conductor, Music Director",
-"_enwiki": "Fritz Berend"
+"_enwiki": "Fritz Berend",
+"_relatives": []
 },
 "Q23085": {
 "_label": "Lohengrin",
@@ -9966,7 +11160,8 @@
 "organ"
 ],
 "_description": "English musician and composer (1862–1936)",
-"_enwiki": "Edward German"
+"_enwiki": "Edward German",
+"_relatives": []
 },
 "Q236438": {
 "_label": "Cécile Chaminade",
@@ -10017,7 +11212,8 @@
 "piano"
 ],
 "_description": "French composer and pianist (1857-1944)",
-"_enwiki": "Cécile Chaminade"
+"_enwiki": "Cécile Chaminade",
+"_relatives": []
 },
 "Q237607": {
 "_label": "Nellie Melba",
@@ -10080,7 +11276,8 @@
 "voice"
 ],
 "_description": "Australian opera singer (1861–1931)",
-"_enwiki": "Nellie Melba"
+"_enwiki": "Nellie Melba",
+"_relatives": []
 },
 "Q239214": {
 "_label": "Karl Goldmark",
@@ -10133,7 +11330,27 @@
 "Joseph Goldmark"
 ],
 "_description": "Hungarian-born Viennese composer (1830–1915)",
-"_enwiki": "Karl Goldmark"
+"_enwiki": "Karl Goldmark",
+"_relatives": [
+{
+"prop": "P1038",
+"name": "Rubin Goldmark",
+"occupations": [
+"composer",
+"pianist",
+"musician"
+],
+"marriedTo": []
+},
+{
+"prop": "P1038",
+"name": "Móric Friedmann",
+"occupations": [
+"composer"
+],
+"marriedTo": []
+}
+]
 },
 "Q240989": {
 "_label": "Amelita Galli-Curci",
@@ -10188,7 +11405,17 @@
 "voice"
 ],
 "_description": "Italian American opera singer",
-"_enwiki": "Amelita Galli-Curci"
+"_enwiki": "Amelita Galli-Curci",
+"_relatives": [
+{
+"prop": "P26",
+"name": "Homer David Samuels",
+"occupations": [
+"composer"
+],
+"marriedTo": []
+}
+]
 },
 "Q241000": {
 "_label": "Heinrich Berté",
@@ -10219,7 +11446,8 @@
 "1924-08-23T00:00:00Z"
 ],
 "_description": "Austrian composer (1857-1924)",
-"_enwiki": "Heinrich Berté"
+"_enwiki": "Heinrich Berté",
+"_relatives": []
 },
 "Q241494": {
 "_label": "Teresa Carreño",
@@ -10270,7 +11498,61 @@
 "piano"
 ],
 "_description": "Venezuelan classical pianist",
-"_enwiki": "Teresa Carreño"
+"_enwiki": "Teresa Carreño",
+"_relatives": [
+{
+"prop": "P22",
+"name": "Manuel Antonio Carreño",
+"occupations": [
+"musician"
+],
+"marriedTo": []
+},
+{
+"prop": "P26",
+"name": "Eugen d'Albert",
+"occupations": [
+"composer",
+"pianist"
+],
+"marriedTo": []
+},
+{
+"prop": "P26",
+"name": "Émile Sauret",
+"occupations": [
+"composer",
+"violinist",
+"music educator"
+],
+"marriedTo": []
+},
+{
+"prop": "P26",
+"name": "Giovanni Tagliapietra",
+"occupations": [
+"opera singer"
+],
+"marriedTo": []
+},
+{
+"prop": "P40",
+"name": "Eugenia Harris-D'Albert",
+"occupations": [
+"pianist"
+],
+"marriedTo": []
+},
+{
+"prop": "P1038",
+"name": "Cayetano Carreño",
+"occupations": [
+"composer",
+"musician"
+],
+"marriedTo": []
+}
+]
 },
 "Q241498": {
 "_label": "Geraldine Farrar",
@@ -10326,7 +11608,17 @@
 "voice"
 ],
 "_description": "American soprano opera singer and film actress (1882–1967)",
-"_enwiki": "Geraldine Farrar"
+"_enwiki": "Geraldine Farrar",
+"_relatives": [
+{
+"prop": "P26",
+"name": "Lou Tellegen",
+"occupations": [
+"theatre director"
+],
+"marriedTo": []
+}
+]
 },
 "Q2424993": {
 "_label": "Ballade No. 3 in A-flat major, Op. 47",
@@ -10455,7 +11747,8 @@
 "grand piano"
 ],
 "_description": "Ukrainian musician, university teacher and pianist (1878-1930)",
-"_enwiki": "Télémaque Lambrino"
+"_enwiki": "Télémaque Lambrino",
+"_relatives": []
 },
 "Q246589": {
 "_label": "Symphony No. 6",
@@ -10587,7 +11880,8 @@
 "voice"
 ],
 "_description": "American composer and songwriter (1874–1948)",
-"_enwiki": "Oley Speaks"
+"_enwiki": "Oley Speaks",
+"_relatives": []
 },
 "Q25217592": {
 "_label": "Allerseelen",
@@ -10649,7 +11943,8 @@
 "violin"
 ],
 "_description": "composer (1855-1933)",
-"_enwiki": "Theodore Moses Tobani"
+"_enwiki": "Theodore Moses Tobani",
+"_relatives": []
 },
 "Q254": {
 "_label": "Wolfgang Amadeus Mozart",
@@ -10753,7 +12048,66 @@
 "Maria Anna Mozart"
 ],
 "_description": "Austrian composer of the Classical period (1756–1791)",
-"_enwiki": "Wolfgang Amadeus Mozart"
+"_enwiki": "Wolfgang Amadeus Mozart",
+"_relatives": [
+{
+"prop": "P22",
+"name": "Leopold Mozart",
+"occupations": [
+"composer",
+"music publisher",
+"musician"
+],
+"marriedTo": []
+},
+{
+"prop": "P25",
+"name": "Anna Maria Mozart",
+"occupations": [],
+"marriedTo": [
+"Leopold Mozart"
+]
+},
+{
+"prop": "P26",
+"name": "Constanze Mozart",
+"occupations": [
+"opera singer"
+],
+"marriedTo": [
+"Georg Nikolaus von Nissen"
+]
+},
+{
+"prop": "P40",
+"name": "Franz Xaver Wolfgang Mozart",
+"occupations": [
+"composer",
+"conductor",
+"pianist"
+],
+"marriedTo": []
+},
+{
+"prop": "P40",
+"name": "Carl Thomas Mozart",
+"occupations": [
+"composer",
+"pianist"
+],
+"marriedTo": []
+},
+{
+"prop": "P3373",
+"name": "Maria Anna Mozart",
+"occupations": [
+"composer",
+"pianist",
+"harpsichordist"
+],
+"marriedTo": []
+}
+]
 },
 "Q25405129": {
 "_label": "Caro nome che il mio cor",
@@ -10883,7 +12237,47 @@
 "Johann Peter Anton Leym"
 ],
 "_description": "German composer (1770-1827)",
-"_enwiki": "Ludwig van Beethoven"
+"_enwiki": "Ludwig van Beethoven",
+"_relatives": [
+{
+"prop": "P22",
+"name": "Johann van Beethoven",
+"occupations": [
+"composer",
+"conductor",
+"singer"
+],
+"marriedTo": []
+},
+{
+"prop": "P25",
+"name": "Maria Magdalena van Beethoven",
+"occupations": [],
+"marriedTo": [
+"Johann van Beethoven"
+]
+},
+{
+"prop": "P1038",
+"name": "Ludwig van Beethoven",
+"occupations": [
+"composer",
+"singer",
+"musician"
+],
+"marriedTo": []
+},
+{
+"prop": "P3373",
+"name": "Kaspar Anton Karl van Beethoven",
+"occupations": [
+"composer"
+],
+"marriedTo": [
+"Johanna van Beethoven"
+]
+}
+]
 },
 "Q2552096": {
 "_label": "Wassily Sapellnikoff",
@@ -10923,7 +12317,8 @@
 "piano"
 ],
 "_description": "Russian pianist and composer (1867–1941)",
-"_enwiki": "Wassily Sapellnikoff"
+"_enwiki": "Wassily Sapellnikoff",
+"_relatives": []
 },
 "Q2572020": {
 "_label": "Estampes",
@@ -10990,7 +12385,8 @@
 "Dmitry Glazunov"
 ],
 "_description": "Russian composer, music teacher and conductor (1865-1936)",
-"_enwiki": "Alexander Glazunov"
+"_enwiki": "Alexander Glazunov",
+"_relatives": []
 },
 "Q261781": {
 "_label": "Luigi Denza",
@@ -11027,7 +12423,8 @@
 "voice"
 ],
 "_description": "Italian composer (1846-1922)",
-"_enwiki": "Luigi Denza"
+"_enwiki": "Luigi Denza",
+"_relatives": []
 },
 "Q2622524": {
 "_label": "Humoresques, Op. 101",
@@ -11097,7 +12494,8 @@
 "piano"
 ],
 "_description": "Brazilian composer (1836–1896)",
-"_enwiki": "Antônio Carlos Gomes"
+"_enwiki": "Antônio Carlos Gomes",
+"_relatives": []
 },
 "Q265698": {
 "_label": "Marcella Sembrich",
@@ -11159,7 +12557,17 @@
 "voice"
 ],
 "_description": "Polish coloratura soprano singer (1858–1935)",
-"_enwiki": "Marcella Sembrich"
+"_enwiki": "Marcella Sembrich",
+"_relatives": [
+{
+"prop": "P26",
+"name": "Wilhelm Stengel",
+"occupations": [
+"pianist"
+],
+"marriedTo": []
+}
+]
 },
 "Q2680887": {
 "_label": "Transcendental Étude No. 9",
@@ -11271,7 +12679,28 @@
 "voice"
 ],
 "_description": "American singer (1884–1938)",
-"_enwiki": "Alma Gluck"
+"_enwiki": "Alma Gluck",
+"_relatives": [
+{
+"prop": "P26",
+"name": "Efrem Zimbalist",
+"occupations": [
+"composer",
+"conductor",
+"musician"
+],
+"marriedTo": []
+},
+{
+"prop": "P40",
+"name": "Marcia Davenport",
+"occupations": [
+"music critic",
+"musicologist"
+],
+"marriedTo": []
+}
+]
 },
 "Q271731": {
 "_label": "Emmy Destinn",
@@ -11312,7 +12741,8 @@
 "Jindřiška Freyová"
 ],
 "_description": "Czech operatic soprano with a strong and soaring lyric-playwright voice (1878-1930)",
-"_enwiki": "Emmy Destinn"
+"_enwiki": "Emmy Destinn",
+"_relatives": []
 },
 "Q277364": {
 "_label": "The Chocolate Soldier",
@@ -11361,7 +12791,17 @@
 "Biarritz"
 ],
 "_description": "French pianist (1859-1925)",
-"_enwiki": "Berthe Marx"
+"_enwiki": "Berthe Marx",
+"_relatives": [
+{
+"prop": "P22",
+"name": "Elias Isaac",
+"occupations": [
+"musician"
+],
+"marriedTo": []
+}
+]
 },
 "Q281643": {
 "_label": "musical trio",
@@ -11421,7 +12861,8 @@
 "piano"
 ],
 "_description": "American composer (1874–1939)",
-"_enwiki": "Abe Holzmann"
+"_enwiki": "Abe Holzmann",
+"_relatives": []
 },
 "Q284448": {
 "_label": "Piano Sonata No. 2 in B-flat minor, Op. 35",
@@ -11533,7 +12974,8 @@
 "François Benoist"
 ],
 "_description": "French composer",
-"_enwiki": "Émile Paladilhe"
+"_enwiki": "Émile Paladilhe",
+"_relatives": []
 },
 "Q286488": {
 "_label": "Louise",
@@ -11615,7 +13057,8 @@
 "Édouard Waldteufel"
 ],
 "_description": "French composer (1837-1915)",
-"_enwiki": "Émile Waldteufel"
+"_enwiki": "Émile Waldteufel",
+"_relatives": []
 },
 "Q2896940": {
 "_label": "Berceuse",
@@ -11678,7 +13121,19 @@
 "voice"
 ],
 "_description": "American opera singer (1881-1963)",
-"_enwiki": "Margaret Matzenauer"
+"_enwiki": "Margaret Matzenauer",
+"_relatives": [
+{
+"prop": "P26",
+"name": "Edoardo Ferrari-Fontana",
+"occupations": [
+"singer",
+"musician",
+"opera singer"
+],
+"marriedTo": []
+}
+]
 },
 "Q294225": {
 "_label": "Enrique Granados",
@@ -11755,7 +13210,17 @@
 "piano"
 ],
 "_description": "Spanish pianist and composer (1867–1916)",
-"_enwiki": "Enrique Granados"
+"_enwiki": "Enrique Granados",
+"_relatives": [
+{
+"prop": "P40",
+"name": "Eduard Granados Gal",
+"occupations": [
+"composer"
+],
+"marriedTo": []
+}
+]
 },
 "Q294826": {
 "_label": "Umberto Giordano",
@@ -11798,7 +13263,8 @@
 "Baveno"
 ],
 "_description": "Italian opera composer (1867–1948)",
-"_enwiki": "Umberto Giordano"
+"_enwiki": "Umberto Giordano",
+"_relatives": []
 },
 "Q2958579": {
 "_label": "Charles Borel-Clerc",
@@ -11832,7 +13298,8 @@
 "P1303": [
 "oboe"
 ],
-"_description": "French composer, oboist"
+"_description": "French composer, oboist",
+"_relatives": []
 },
 "Q297717": {
 "_label": "Ambroise Thomas",
@@ -11907,7 +13374,27 @@
 "Jeanne Marie Williaume"
 ],
 "_description": "French composer",
-"_enwiki": "Ambroise Thomas"
+"_enwiki": "Ambroise Thomas",
+"_relatives": [
+{
+"prop": "P22",
+"name": "Jean-Baptiste-Martin Thomas",
+"occupations": [
+"violinist"
+],
+"marriedTo": []
+},
+{
+"prop": "P25",
+"name": "Jeanne Marie Williaume",
+"occupations": [
+"pianist",
+"opera singer",
+"music educator"
+],
+"marriedTo": []
+}
+]
 },
 "Q3025008": {
 "_label": "Two rondos for piano",
@@ -12034,7 +13521,26 @@
 "keyboard instrument"
 ],
 "_description": "18th-century British composer",
-"_enwiki": "Thomas Arne"
+"_enwiki": "Thomas Arne",
+"_relatives": [
+{
+"prop": "P26",
+"name": "Cecilia Young",
+"occupations": [
+"opera singer"
+],
+"marriedTo": []
+},
+{
+"prop": "P40",
+"name": "Michael Arne",
+"occupations": [
+"composer",
+"singer"
+],
+"marriedTo": []
+}
+]
 },
 "Q310343": {
 "_label": "Dudley Moore",
@@ -12086,7 +13592,8 @@
 "piano"
 ],
 "_description": "British actor, comedian, composer and musician (1935–2002)",
-"_enwiki": "Dudley Moore"
+"_enwiki": "Dudley Moore",
+"_relatives": []
 },
 "Q310431": {
 "_label": "Franz von Suppè",
@@ -12138,7 +13645,18 @@
 "Giuseppe Ferrari"
 ],
 "_description": "Austrian composer and conductor (1819–1895)",
-"_enwiki": "Franz von Suppé"
+"_enwiki": "Franz von Suppé",
+"_relatives": [
+{
+"prop": "P26",
+"name": "Sofie von Suppè",
+"occupations": [
+"singer",
+"musician"
+],
+"marriedTo": []
+}
+]
 },
 "Q3113022": {
 "_label": "Mon cœur s'ouvre à ta voix",
@@ -12190,7 +13708,8 @@
 "piano"
 ],
 "_description": "Russian composer",
-"_enwiki": "Alexander Dargomyzhsky"
+"_enwiki": "Alexander Dargomyzhsky",
+"_relatives": []
 },
 "Q311571": {
 "_label": "Antonio Caldara",
@@ -12230,7 +13749,8 @@
 "cello"
 ],
 "_description": "Italian composer (c.1670–1736)",
-"_enwiki": "Antonio Caldara"
+"_enwiki": "Antonio Caldara",
+"_relatives": []
 },
 "Q311663": {
 "_label": "Gustave Charpentier",
@@ -12283,7 +13803,17 @@
 "Victor Charpentier"
 ],
 "_description": "French composer (1860-1956)",
-"_enwiki": "Gustave Charpentier"
+"_enwiki": "Gustave Charpentier",
+"_relatives": [
+{
+"prop": "P3373",
+"name": "Victor Charpentier",
+"occupations": [
+"conductor"
+],
+"marriedTo": []
+}
+]
 },
 "Q311791": {
 "_label": "Nikolai Rubinstein",
@@ -12338,7 +13868,27 @@
 "Sofia Grigorievna Rubinstein"
 ],
 "_description": "Russian pianist, conductor and composer (1835-1881)",
-"_enwiki": "Nikolai Rubinstein"
+"_enwiki": "Nikolai Rubinstein",
+"_relatives": [
+{
+"prop": "P3373",
+"name": "Anton Rubinstein",
+"occupations": [
+"composer",
+"conductor",
+"pianist"
+],
+"marriedTo": []
+},
+{
+"prop": "P3373",
+"name": "Sofia Grigorievna Rubinstein",
+"occupations": [
+"musician"
+],
+"marriedTo": []
+}
+]
 },
 "Q312686": {
 "_label": "Giacomo Carissimi",
@@ -12375,7 +13925,8 @@
 "organ"
 ],
 "_description": "Italian composer (1605–1674)",
-"_enwiki": "Giacomo Carissimi"
+"_enwiki": "Giacomo Carissimi",
+"_relatives": []
 },
 "Q313371": {
 "_label": "Erich Wolfgang Korngold",
@@ -12439,7 +13990,28 @@
 "piano"
 ],
 "_description": "Austrian-born American composer and conductor (1897–1957)",
-"_enwiki": "Erich Wolfgang Korngold"
+"_enwiki": "Erich Wolfgang Korngold",
+"_relatives": [
+{
+"prop": "P22",
+"name": "Julius Korngold",
+"occupations": [
+"pianist",
+"musician",
+"music critic"
+],
+"marriedTo": []
+},
+{
+"prop": "P40",
+"name": "George Korngold",
+"occupations": [
+"composer",
+"music publisher"
+],
+"marriedTo": []
+}
+]
 },
 "Q313917": {
 "_label": "Fromental Halévy",
@@ -12520,7 +14092,43 @@
 "Léon Halévy"
 ],
 "_description": "French composer",
-"_enwiki": "Fromental Halévy"
+"_enwiki": "Fromental Halévy",
+"_relatives": [
+{
+"prop": "P40",
+"name": "Geneviève Halévy",
+"occupations": [],
+"marriedTo": [
+"Georges Bizet"
+]
+},
+{
+"prop": "P1038",
+"name": "Georges Bizet",
+"occupations": [
+"composer",
+"conductor",
+"pianist"
+],
+"marriedTo": []
+},
+{
+"prop": "P1038",
+"name": "Ludovic Halévy",
+"occupations": [
+"librettist"
+],
+"marriedTo": []
+},
+{
+"prop": "P3373",
+"name": "Léon Halévy",
+"occupations": [
+"literary critic"
+],
+"marriedTo": []
+}
+]
 },
 "Q3156080": {
 "_label": "Ivan Caryll",
@@ -12547,7 +14155,8 @@
 "1921-11-29T00:00:00Z"
 ],
 "_description": "Belgian composer (1861-1921)",
-"_enwiki": "Ivan Caryll"
+"_enwiki": "Ivan Caryll",
+"_relatives": []
 },
 "Q316402": {
 "_label": "Jacques Arcadelt",
@@ -12570,7 +14179,8 @@
 "1568-10-24T00:00:00Z"
 ],
 "_description": "Netherlandish composer of the Renaissance",
-"_enwiki": "Jacques Arcadelt"
+"_enwiki": "Jacques Arcadelt",
+"_relatives": []
 },
 "Q3178652": {
 "_label": "Polonaise in A-flat major \"Heroic\", Op. 53",
@@ -12678,7 +14288,8 @@
 "saxophone"
 ],
 "_description": "Australian-born composer, arranger and pianist (1882–1961)",
-"_enwiki": "Percy Grainger"
+"_enwiki": "Percy Grainger",
+"_relatives": []
 },
 "Q3184044": {
 "_label": "Josef Pasternack",
@@ -12708,7 +14319,8 @@
 "Aleksander Michałowski"
 ],
 "_description": "Polish conductor (1881–1940)",
-"_enwiki": "Josef Pasternack"
+"_enwiki": "Josef Pasternack",
+"_relatives": []
 },
 "Q318455": {
 "_label": "Falstaff",
@@ -12916,7 +14528,17 @@
 "Alexander Moszkowski"
 ],
 "_description": "German composer, pianist and teacher (1854–1925)",
-"_enwiki": "Moritz Moszkowski"
+"_enwiki": "Moritz Moszkowski",
+"_relatives": [
+{
+"prop": "P3373",
+"name": "Alexander Moszkowski",
+"occupations": [
+"music critic"
+],
+"marriedTo": []
+}
+]
 },
 "Q3235293": {
 "_label": "The Seasons",
@@ -13041,7 +14663,8 @@
 "piano"
 ],
 "_description": "French pianist (1888–1982)",
-"_enwiki": "Germaine Schnitzer"
+"_enwiki": "Germaine Schnitzer",
+"_relatives": []
 },
 "Q332536": {
 "_label": "L'elisir d'amore",
@@ -13180,7 +14803,19 @@
 "piano"
 ],
 "_description": "American pianist (1880–1948)",
-"_enwiki": "Olga Samaroff"
+"_enwiki": "Olga Samaroff",
+"_relatives": [
+{
+"prop": "P26",
+"name": "Leopold Stokowski",
+"occupations": [
+"composer",
+"conductor",
+"organist"
+],
+"marriedTo": []
+}
+]
 },
 "Q336668": {
 "_label": "Johan Svendsen",
@@ -13242,7 +14877,17 @@
 "Elise Svendsen"
 ],
 "_description": "Norwegian composer and conductor (1840–1911)",
-"_enwiki": "Johan Svendsen"
+"_enwiki": "Johan Svendsen",
+"_relatives": [
+{
+"prop": "P3373",
+"name": "Elise Svendsen",
+"occupations": [
+"singer"
+],
+"marriedTo": []
+}
+]
 },
 "Q339043": {
 "_label": "La Juive",
@@ -13330,7 +14975,26 @@
 "voice"
 ],
 "_description": "New Zealand-born Australian operatic soprano (1879–1952)",
-"_enwiki": "Frances Alda"
+"_enwiki": "Frances Alda",
+"_relatives": [
+{
+"prop": "P26",
+"name": "Giulio Gatti-Casazza",
+"occupations": [
+"conductor",
+"impresario"
+],
+"marriedTo": []
+},
+{
+"prop": "P1038",
+"name": "Fanny Simonsen",
+"occupations": [
+"opera singer"
+],
+"marriedTo": []
+}
+]
 },
 "Q3412947": {
 "_label": "Quando me'n vo'",
@@ -13379,7 +15043,8 @@
 "1906-11-25T00:00:00Z"
 ],
 "_description": "French composer (1838-1906)",
-"_enwiki": "René de Boisdeffre"
+"_enwiki": "René de Boisdeffre",
+"_relatives": []
 },
 "Q347524": {
 "_label": "Béla Kéler",
@@ -13415,7 +15080,8 @@
 "violin"
 ],
 "_description": "composer and conductor from the Kingdom of Hungary (1820-1882)",
-"_enwiki": "Béla Kéler"
+"_enwiki": "Béla Kéler",
+"_relatives": []
 },
 "Q3477975": {
 "_label": "Sixteen Waltzes, Op. 39",
@@ -13494,7 +15160,28 @@
 "piano"
 ],
 "_description": "Swiss composer and pianist (1812–1871)",
-"_enwiki": "Sigismond Thalberg"
+"_enwiki": "Sigismond Thalberg",
+"_relatives": [
+{
+"prop": "P40",
+"name": "Zare Thalberg",
+"occupations": [
+"singer",
+"opera singer"
+],
+"marriedTo": []
+},
+{
+"prop": "P1038",
+"name": "Luigi Lablache",
+"occupations": [
+"composer",
+"singer",
+"opera singer"
+],
+"marriedTo": []
+}
+]
 },
 "Q348527": {
 "_label": "Carl Zeller",
@@ -13555,7 +15242,8 @@
 "piano"
 ],
 "_description": "Austrian lawyer and composer (1842-1898)",
-"_enwiki": "Carl Zeller"
+"_enwiki": "Carl Zeller",
+"_relatives": []
 },
 "Q3485663": {
 "_label": "Études After Paganini Caprices",
@@ -13638,7 +15326,8 @@
 "piano"
 ],
 "_description": "Polish pianist and composer (1852–1905)",
-"_enwiki": "Adolf Schulz-Evler"
+"_enwiki": "Adolf Schulz-Evler",
+"_relatives": []
 },
 "Q352722": {
 "_label": "Alfredo Catalani",
@@ -13677,7 +15366,8 @@
 "Antonio Bazzini"
 ],
 "_description": "Italian operatic composer (1854-1893)",
-"_enwiki": "Alfredo Catalani"
+"_enwiki": "Alfredo Catalani",
+"_relatives": []
 },
 "Q353933": {
 "_label": "Adelaide",
@@ -13768,7 +15458,8 @@
 "piano"
 ],
 "_description": "American composer (1937–2022)",
-"_enwiki": "Angelo Badalamenti"
+"_enwiki": "Angelo Badalamenti",
+"_relatives": []
 },
 "Q3620210": {
 "_label": "Antonio Scotti",
@@ -13797,7 +15488,8 @@
 "voice"
 ],
 "_description": "Italian opera singer (1866–1936)",
-"_enwiki": "Antonio Scotti"
+"_enwiki": "Antonio Scotti",
+"_relatives": []
 },
 "Q362139": {
 "_label": "Adolf von Henselt",
@@ -13840,7 +15532,8 @@
 "piano"
 ],
 "_description": "German composer and pianist (1814–1889)",
-"_enwiki": "Adolf von Henselt"
+"_enwiki": "Adolf von Henselt",
+"_relatives": []
 },
 "Q362340": {
 "_label": "Theodor Leschetizky",
@@ -13908,7 +15601,19 @@
 "piano"
 ],
 "_description": "Polish composer and pianist (1830–1915)",
-"_enwiki": "Theodor Leschetizky"
+"_enwiki": "Theodor Leschetizky",
+"_relatives": [
+{
+"prop": "P26",
+"name": "Anna Yesipova",
+"occupations": [
+"pianist",
+"musician",
+"music educator"
+],
+"marriedTo": []
+}
+]
 },
 "Q3629276": {
 "_label": "Attilio Parelli",
@@ -13934,7 +15639,8 @@
 "1944-12-26T00:00:00Z"
 ],
 "_description": "Italian composer and conductor (1874–1944)",
-"_enwiki": "Attilio Parelli"
+"_enwiki": "Attilio Parelli",
+"_relatives": []
 },
 "Q364854": {
 "_label": "Christian Sinding",
@@ -14001,7 +15707,8 @@
 "Johanna Sinding"
 ],
 "_description": "Norwegian composer (1856–1941)",
-"_enwiki": "Christian Sinding"
+"_enwiki": "Christian Sinding",
+"_relatives": []
 },
 "Q366629": {
 "_label": "Rikard Nordraak",
@@ -14041,7 +15748,19 @@
 "piano"
 ],
 "_description": "Norwegian composer (1842–1866)",
-"_enwiki": "Rikard Nordraak"
+"_enwiki": "Rikard Nordraak",
+"_relatives": [
+{
+"prop": "P1038",
+"name": "Gudrun Nordraak-Feyling",
+"occupations": [
+"composer",
+"singer",
+"music educator"
+],
+"marriedTo": []
+}
+]
 },
 "Q367717": {
 "_label": "Cyril Scott",
@@ -14079,7 +15798,8 @@
 "piano"
 ],
 "_description": "English composer, writer, and poet (1879–1970)",
-"_enwiki": "Cyril Scott"
+"_enwiki": "Cyril Scott",
+"_relatives": []
 },
 "Q3706452": {
 "_label": "Di quella pira",
@@ -14148,7 +15868,8 @@
 "Waves of the Danube"
 ],
 "_description": "Romanian military band leader and composer (1845–1902)",
-"_enwiki": "Ion Ivanovici"
+"_enwiki": "Ion Ivanovici",
+"_relatives": []
 },
 "Q382376": {
 "_label": "Pol Plançon",
@@ -14180,7 +15901,8 @@
 "voice"
 ],
 "_description": "French opera singer, operatic bass (1851–1914)",
-"_enwiki": "Pol Plançon"
+"_enwiki": "Pol Plançon",
+"_relatives": []
 },
 "Q3848279": {
 "_label": "Mario Ancona",
@@ -14209,7 +15931,8 @@
 "voice"
 ],
 "_description": "Italian opera singer (1860–1931)",
-"_enwiki": "Mario Ancona"
+"_enwiki": "Mario Ancona",
+"_relatives": []
 },
 "Q3852210": {
 "_label": "Matteo Salvi",
@@ -14239,7 +15962,8 @@
 "Vienna"
 ],
 "_description": "Italian operatic composer and theatre director (1816–1887)",
-"_enwiki": "Matteo Salvi"
+"_enwiki": "Matteo Salvi",
+"_relatives": []
 },
 "Q386896": {
 "_label": "Morceaux de fantaisie",
@@ -14353,7 +16077,8 @@
 "voice"
 ],
 "_description": "(1887-1959) American opera singer",
-"_enwiki": "Marguerite Dunlap"
+"_enwiki": "Marguerite Dunlap",
+"_relatives": []
 },
 "Q3968188": {
 "_label": "Stanislao Gastaldon",
@@ -14379,7 +16104,8 @@
 "1939-03-06T00:00:00Z"
 ],
 "_description": "Italian composer (1861–1939)",
-"_enwiki": "Stanislao Gastaldon"
+"_enwiki": "Stanislao Gastaldon",
+"_relatives": []
 },
 "Q3981571": {
 "_label": "Tausend und eine Nacht",
@@ -14620,7 +16346,54 @@
 "piano"
 ],
 "_description": "Hungarian romantic composer and virtuoso pianist (1811-1886)",
-"_enwiki": "Franz Liszt"
+"_enwiki": "Franz Liszt",
+"_relatives": [
+{
+"prop": "P22",
+"name": "Adam Liszt",
+"occupations": [
+"composer",
+"cellist"
+],
+"marriedTo": []
+},
+{
+"prop": "P25",
+"name": "Anna Liszt",
+"occupations": [],
+"marriedTo": [
+"Adam Liszt"
+]
+},
+{
+"prop": "P26",
+"name": "Marie d'Agoult",
+"occupations": [
+"composer"
+],
+"marriedTo": []
+},
+{
+"prop": "P40",
+"name": "Cosima Wagner",
+"occupations": [
+"composer",
+"musician"
+],
+"marriedTo": [
+"Richard Wagner",
+"Hans von Bülow"
+]
+},
+{
+"prop": "P451",
+"name": "Marie d'Agoult",
+"occupations": [
+"composer"
+],
+"marriedTo": []
+}
+]
 },
 "Q41555": {
 "_label": "Jacques Offenbach",
@@ -14690,7 +16463,27 @@
 "Offre-un-bock"
 ],
 "_description": "German-born French composer (1819–1880)",
-"_enwiki": "Jacques Offenbach"
+"_enwiki": "Jacques Offenbach",
+"_relatives": [
+{
+"prop": "P22",
+"name": "Isaac Offenbach",
+"occupations": [
+"composer",
+"music teacher"
+],
+"marriedTo": []
+},
+{
+"prop": "P40",
+"name": "Charles Ignace Auguste Jacques Offenbach",
+"occupations": [
+"composer",
+"musician"
+],
+"marriedTo": []
+}
+]
 },
 "Q41804451": {
 "_label": "George Hamlin",
@@ -14731,7 +16524,17 @@
 "voice"
 ],
 "_description": "American tenor (1869-1923)",
-"_enwiki": "George Hamlin"
+"_enwiki": "George Hamlin",
+"_relatives": [
+{
+"prop": "P40",
+"name": "Anna Hamlin",
+"occupations": [
+"singer"
+],
+"marriedTo": []
+}
+]
 },
 "Q4214": {
 "_label": "Adam de la Halle",
@@ -14769,7 +16572,8 @@
 "Jeux partis"
 ],
 "_description": "French poet, composer and trouvère",
-"_enwiki": "Adam de la Halle"
+"_enwiki": "Adam de la Halle",
+"_relatives": []
 },
 "Q42192261": {
 "_label": "Liebeslieder Waltzes",
@@ -14822,7 +16626,8 @@
 "piano"
 ],
 "_description": "French pianist (1866–1909)",
-"_enwiki": "Clotilde Kleeberg"
+"_enwiki": "Clotilde Kleeberg",
+"_relatives": []
 },
 "Q4230337": {
 "_label": "Paul de Conne",
@@ -14852,7 +16657,8 @@
 "P1303": [
 "piano"
 ],
-"_description": "Russian concert pianist and piano teacher, pupil of Anton Rubinstein"
+"_description": "Russian concert pianist and piano teacher, pupil of Anton Rubinstein",
+"_relatives": []
 },
 "Q4247497": {
 "_label": "Le veau d'or est toujours debout",
@@ -14893,7 +16699,8 @@
 "P570": [
 "1936-01-01T00:00:00Z"
 ],
-"_description": "Italian soprano"
+"_description": "Italian soprano",
+"_relatives": []
 },
 "Q426361": {
 "_label": "Mario Sammarco",
@@ -14923,7 +16730,8 @@
 "voice"
 ],
 "_description": "Italian operatic baritone (1868–1930)",
-"_enwiki": "Mario Sammarco"
+"_enwiki": "Mario Sammarco",
+"_relatives": []
 },
 "Q42998": {
 "_label": "orchestra",
@@ -14977,7 +16785,17 @@
 "piano"
 ],
 "_description": "Venezuelan-French composer (1874-1947)",
-"_enwiki": "Reynaldo Hahn"
+"_enwiki": "Reynaldo Hahn",
+"_relatives": [
+{
+"prop": "P451",
+"name": "Marcel Proust",
+"occupations": [
+"literary critic"
+],
+"marriedTo": []
+}
+]
 },
 "Q433131": {
 "_label": "Luisa Tetrazzini",
@@ -15019,7 +16837,17 @@
 "Eva Tetrazzini"
 ],
 "_description": "Italian opera singer (1871-1940)",
-"_enwiki": "Luisa Tetrazzini"
+"_enwiki": "Luisa Tetrazzini",
+"_relatives": [
+{
+"prop": "P3373",
+"name": "Eva Tetrazzini",
+"occupations": [
+"singer"
+],
+"marriedTo": []
+}
+]
 },
 "Q4334036": {
 "_label": "Paul Shearer Althouse",
@@ -15064,7 +16892,8 @@
 "voice"
 ],
 "_description": "American opera singer (1889-1954)",
-"_enwiki": "Paul Althouse"
+"_enwiki": "Paul Althouse",
+"_relatives": []
 },
 "Q433749": {
 "_label": "Gabriel Pierné",
@@ -15127,7 +16956,8 @@
 "pipe organ"
 ],
 "_description": "French composer, conductor, and organist (1863–1937)",
-"_enwiki": "Gabriel Pierné"
+"_enwiki": "Gabriel Pierné",
+"_relatives": []
 },
 "Q434171": {
 "_label": "Michael William Balfe",
@@ -15171,7 +17001,26 @@
 "voice"
 ],
 "_description": "Irish composer (1808–1870)",
-"_enwiki": "Michael William Balfe"
+"_enwiki": "Michael William Balfe",
+"_relatives": [
+{
+"prop": "P26",
+"name": "Magdalena Roser",
+"occupations": [
+"singer",
+"opera singer"
+],
+"marriedTo": []
+},
+{
+"prop": "P40",
+"name": "Victoria Balfe",
+"occupations": [
+"opera singer"
+],
+"marriedTo": []
+}
+]
 },
 "Q4350526": {
 "_label": "Reginald De Koven",
@@ -15222,7 +17071,8 @@
 "Wilhelm Speidel"
 ],
 "_description": "American music critic and composer (1859–1920)",
-"_enwiki": "Reginald De Koven"
+"_enwiki": "Reginald De Koven",
+"_relatives": []
 },
 "Q4379929": {
 "_label": "Scherzo no. 4 in E major, op. 54",
@@ -15282,7 +17132,8 @@
 "pipe organ"
 ],
 "_description": "English composer, organist and editor",
-"_enwiki": "Thomas Morley"
+"_enwiki": "Thomas Morley",
+"_relatives": []
 },
 "Q43883005": {
 "_label": "Opus 76",
@@ -15323,7 +17174,8 @@
 "piano"
 ],
 "_description": "Russian pianist (1855–1942)",
-"_enwiki": "Vera Timanova"
+"_enwiki": "Vera Timanova",
+"_relatives": []
 },
 "Q44261": {
 "_label": "Piano Concerto",
@@ -15373,7 +17225,8 @@
 "piano"
 ],
 "_description": "French pianist and composer (1872–1953)",
-"_enwiki": "Victor Staub"
+"_enwiki": "Victor Staub",
+"_relatives": []
 },
 "Q445852": {
 "_label": "Francis Thomé",
@@ -15411,7 +17264,19 @@
 "piano"
 ],
 "_description": "French pianist and composer (1850-1909)",
-"_enwiki": "Francis Thomé"
+"_enwiki": "Francis Thomé",
+"_relatives": [
+{
+"prop": "P1038",
+"name": "Anna de La Grange",
+"occupations": [
+"composer",
+"singer",
+"opera singer"
+],
+"marriedTo": []
+}
+]
 },
 "Q4463404": {
 "_label": "Walter B. Rogers",
@@ -15437,7 +17302,8 @@
 "cornet"
 ],
 "_description": "American cornet player, conductor and composer (1865–1939)",
-"_enwiki": "Walter B. Rogers"
+"_enwiki": "Walter B. Rogers",
+"_relatives": []
 },
 "Q447124": {
 "_label": "Alphons Czibulka",
@@ -15469,7 +17335,8 @@
 "piano"
 ],
 "_description": "Hungarian musician (1842–1894)",
-"_enwiki": "Alphons Czibulka"
+"_enwiki": "Alphons Czibulka",
+"_relatives": []
 },
 "Q447133": {
 "_label": "Emil von Sauer",
@@ -15515,7 +17382,17 @@
 "piano"
 ],
 "_description": "German composer, pianist, score editor, and music (piano) teacher (1862-1942)",
-"_enwiki": "Emil von Sauer"
+"_enwiki": "Emil von Sauer",
+"_relatives": [
+{
+"prop": "P25",
+"name": "Julia von Sauer",
+"occupations": [
+"musician"
+],
+"marriedTo": []
+}
+]
 },
 "Q450467": {
 "_label": "Edward MacDowell",
@@ -15571,7 +17448,17 @@
 "piano"
 ],
 "_description": "American composer (1860–1908)",
-"_enwiki": "Edward MacDowell"
+"_enwiki": "Edward MacDowell",
+"_relatives": [
+{
+"prop": "P26",
+"name": "Marian MacDowell",
+"occupations": [
+"pianist"
+],
+"marriedTo": []
+}
+]
 },
 "Q45123": {
 "_label": "Over There",
@@ -15654,7 +17541,19 @@
 "voice"
 ],
 "_description": "American singer (1865-1952)",
-"_enwiki": "Emma Eames"
+"_enwiki": "Emma Eames",
+"_relatives": [
+{
+"prop": "P26",
+"name": "Emilio de Gogorza",
+"occupations": [
+"singer",
+"musician",
+"opera singer"
+],
+"marriedTo": []
+}
+]
 },
 "Q452065": {
 "_label": "Emma Calvé",
@@ -15697,7 +17596,8 @@
 "voice"
 ],
 "_description": "French operatic soprano (1858-1942)",
-"_enwiki": "Emma Calvé"
+"_enwiki": "Emma Calvé",
+"_relatives": []
 },
 "Q4530783": {
 "_label": "Élégie",
@@ -15733,7 +17633,8 @@
 "cello"
 ],
 "_description": "French cellist and composer",
-"_enwiki": "Daniël van Goens"
+"_enwiki": "Daniël van Goens",
+"_relatives": []
 },
 "Q4532288": {
 "_label": "Richard Epstein",
@@ -15766,7 +17667,8 @@
 "P1303": [
 "piano"
 ],
-"_description": "Austrian pianist (1869-1919)"
+"_description": "Austrian pianist (1869-1919)",
+"_relatives": []
 },
 "Q456099": {
 "_label": "Carl Millöcker",
@@ -15833,7 +17735,17 @@
 "flute"
 ],
 "_description": "Austrian operetta composer (1842-1899)",
-"_enwiki": "Carl Millöcker"
+"_enwiki": "Carl Millöcker",
+"_relatives": [
+{
+"prop": "P26",
+"name": "Karoline Millöcker",
+"occupations": [
+"singer"
+],
+"marriedTo": []
+}
+]
 },
 "Q45682": {
 "_label": "Jean Sibelius",
@@ -15943,7 +17855,35 @@
 "Christian Sibelius"
 ],
 "_description": "Finnish composer (1865–1957)",
-"_enwiki": "Jean Sibelius"
+"_enwiki": "Jean Sibelius",
+"_relatives": [
+{
+"prop": "P26",
+"name": "Aino Sibelius",
+"occupations": [
+"composer"
+],
+"marriedTo": []
+},
+{
+"prop": "P1038",
+"name": "Jaakko Ilves",
+"occupations": [
+"musician",
+"violinist"
+],
+"marriedTo": []
+},
+{
+"prop": "P3373",
+"name": "Christian Sibelius",
+"occupations": [
+"composer",
+"cellist"
+],
+"marriedTo": []
+}
+]
 },
 "Q457645": {
 "_label": "André Messager",
@@ -15996,7 +17936,18 @@
 "organ"
 ],
 "_description": "French opera composer and conductor (1853–1929)",
-"_enwiki": "André Messager"
+"_enwiki": "André Messager",
+"_relatives": [
+{
+"prop": "P26",
+"name": "Hope Temple",
+"occupations": [
+"composer",
+"songwriter"
+],
+"marriedTo": []
+}
+]
 },
 "Q457734": {
 "_label": "Leopoldo Miguez",
@@ -16025,7 +17976,8 @@
 "violin"
 ],
 "_description": "Brazilian composer (1852–1902)",
-"_enwiki": "Leopoldo Miguez"
+"_enwiki": "Leopoldo Miguez",
+"_relatives": []
 },
 "Q459341": {
 "_label": "Manon Lescaut",
@@ -16188,7 +18140,70 @@
 "Paul Mendelssohn Bartholdy"
 ],
 "_description": "German composer, pianist, organist and conductor of Jewish descent (1809-1847)",
-"_enwiki": "Felix Mendelssohn"
+"_enwiki": "Felix Mendelssohn",
+"_relatives": [
+{
+"prop": "P26",
+"name": "Cécile Mendelssohn Bartholdy",
+"occupations": [
+"musician"
+],
+"marriedTo": []
+},
+{
+"prop": "P1038",
+"name": "Albrecht Mendelssohn Bartholdy",
+"occupations": [
+"composer",
+"librettist"
+],
+"marriedTo": []
+},
+{
+"prop": "P1038",
+"name": "Arnold Mendelssohn",
+"occupations": [
+"composer",
+"music educator"
+],
+"marriedTo": []
+},
+{
+"prop": "P1038",
+"name": "Eleonora von Mendelssohn",
+"occupations": [],
+"marriedTo": [
+"Edwin Fischer"
+]
+},
+{
+"prop": "P1038",
+"name": "Erik Rubín",
+"occupations": [
+"singer"
+],
+"marriedTo": []
+},
+{
+"prop": "P1038",
+"name": "Betty Beer",
+"occupations": [
+"singer"
+],
+"marriedTo": [
+"Heinrich Beer"
+]
+},
+{
+"prop": "P3373",
+"name": "Fanny Mendelssohn",
+"occupations": [
+"composer",
+"pianist"
+],
+"marriedTo": []
+}
+]
 },
 "Q461403": {
 "_label": "Juventino Rosas",
@@ -16225,7 +18240,8 @@
 "violin"
 ],
 "_description": "Mexican composer, violinist and band leader (1868–1894)",
-"_enwiki": "Juventino Rosas"
+"_enwiki": "Juventino Rosas",
+"_relatives": []
 },
 "Q463343": {
 "_label": "Bernhard Stavenhagen",
@@ -16275,7 +18291,26 @@
 "Hildegard Neuffer-Stavenhagen"
 ],
 "_description": "German composer (1862–1914)",
-"_enwiki": "Bernhard Stavenhagen"
+"_enwiki": "Bernhard Stavenhagen",
+"_relatives": [
+{
+"prop": "P26",
+"name": "Agnes Stavenhagen",
+"occupations": [
+"singer",
+"opera singer"
+],
+"marriedTo": []
+},
+{
+"prop": "P1038",
+"name": "Dagobert Neuffer",
+"occupations": [
+"theatre director"
+],
+"marriedTo": []
+}
+]
 },
 "Q463861": {
 "_label": "Joseph Gungl",
@@ -16316,7 +18351,37 @@
 "Johann Gungl"
 ],
 "_description": "Hungarian musician (1809–1889)",
-"_enwiki": "Joseph Gungl"
+"_enwiki": "Joseph Gungl",
+"_relatives": [
+{
+"prop": "P40",
+"name": "Virginia Naumann-Gungl",
+"occupations": [
+"opera singer"
+],
+"marriedTo": []
+},
+{
+"prop": "P1038",
+"name": "Johann Gungl",
+"occupations": [
+"composer",
+"conductor",
+"musician"
+],
+"marriedTo": []
+},
+{
+"prop": "P3373",
+"name": "Johann Gungl",
+"occupations": [
+"composer",
+"conductor",
+"musician"
+],
+"marriedTo": []
+}
+]
 },
 "Q464930": {
 "_label": "Die Fledermaus",
@@ -16489,7 +18554,8 @@
 "voice"
 ],
 "_description": "Australian singer (1874–1929)",
-"_enwiki": "Ada Crossley"
+"_enwiki": "Ada Crossley",
+"_relatives": []
 },
 "Q468112": {
 "_label": "I due Foscari",
@@ -16565,7 +18631,8 @@
 "piano"
 ],
 "_description": "German musician (1863–1907)",
-"_enwiki": "Alfred Reisenauer"
+"_enwiki": "Alfred Reisenauer",
+"_relatives": []
 },
 "Q4700": {
 "_label": "Claude Debussy",
@@ -16644,7 +18711,19 @@
 "Alfred Debussy"
 ],
 "_description": "French classical composer (1862–1918)",
-"_enwiki": "Claude Debussy"
+"_enwiki": "Claude Debussy",
+"_relatives": [
+{
+"prop": "P26",
+"name": "Emma Bardac",
+"occupations": [
+"opera singer"
+],
+"marriedTo": [
+"Gabriel Fauré"
+]
+}
+]
 },
 "Q4719358": {
 "_label": "Alexander László",
@@ -16676,7 +18755,8 @@
 "piano"
 ],
 "_description": "Hungarian-American musician",
-"_enwiki": "Alexander László"
+"_enwiki": "Alexander László",
+"_relatives": []
 },
 "Q4726032": {
 "_label": "Alice Nielsen",
@@ -16712,7 +18792,8 @@
 "voice"
 ],
 "_description": "American opera singer (1872–1943)",
-"_enwiki": "Alice Nielsen"
+"_enwiki": "Alice Nielsen",
+"_relatives": []
 },
 "Q4735910": {
 "_label": "Alt-Wiener Tanzweisen",
@@ -16887,7 +18968,18 @@
 "Karel Smetana"
 ],
 "_description": "Czech composer",
-"_enwiki": "Bedřich Smetana"
+"_enwiki": "Bedřich Smetana",
+"_relatives": [
+{
+"prop": "P26",
+"name": "Kateřina Otylie Kolářová",
+"occupations": [
+"pianist",
+"musician"
+],
+"marriedTo": []
+}
+]
 },
 "Q4818000": {
 "_label": "Dope Boys",
@@ -16993,7 +19085,8 @@
 "piano"
 ],
 "_description": "Czech composer (1879–1972)",
-"_enwiki": "Rudolf Friml"
+"_enwiki": "Rudolf Friml",
+"_relatives": []
 },
 "Q4861173": {
 "_label": "Impromptus",
@@ -17037,7 +19130,8 @@
 "Odesa",
 "Leipzig"
 ],
-"_description": "Russian pianist and music educator"
+"_description": "Russian pianist and music educator",
+"_relatives": []
 },
 "Q4883726": {
 "_label": "Belle nuit, ô nuit d'amour",
@@ -17072,7 +19166,8 @@
 "1938-03-02T00:00:00Z"
 ],
 "_description": "American musician",
-"_enwiki": "Ben Harney"
+"_enwiki": "Ben Harney",
+"_relatives": []
 },
 "Q4896455": {
 "_label": "Bessie Abott",
@@ -17120,7 +19215,8 @@
 "voice"
 ],
 "_description": "opera singer",
-"_enwiki": "Bessie Abott"
+"_enwiki": "Bessie Abott",
+"_relatives": []
 },
 "Q493656": {
 "_label": "Andrea Chénier",
@@ -17274,7 +19370,27 @@
 "Joseph Franck"
 ],
 "_description": "Belgian-French composer and organist (1822–1890)",
-"_enwiki": "César Franck"
+"_enwiki": "César Franck",
+"_relatives": [
+{
+"prop": "P26",
+"name": "Félicité Saillot Desmousseaux",
+"occupations": [
+"pianist"
+],
+"marriedTo": []
+},
+{
+"prop": "P3373",
+"name": "Joseph Franck",
+"occupations": [
+"composer",
+"pianist",
+"musician"
+],
+"marriedTo": []
+}
+]
 },
 "Q5046775": {
 "_label": "Carry Me Back to Old Virginny",
@@ -17385,7 +19501,8 @@
 "voice"
 ],
 "_description": "Cuban opera singer",
-"_enwiki": "Chalía Herrera"
+"_enwiki": "Chalía Herrera",
+"_relatives": []
 },
 "Q5076618": {
 "_label": "Charles Cuvillier",
@@ -17417,7 +19534,8 @@
 "1955-02-14T00:00:00Z"
 ],
 "_description": "French composer",
-"_enwiki": "Charles Cuvillier"
+"_enwiki": "Charles Cuvillier",
+"_relatives": []
 },
 "Q5076690": {
 "_label": "Charles Dalmorès",
@@ -17446,7 +19564,8 @@
 "voice"
 ],
 "_description": "French opera singer (1871–1939)",
-"_enwiki": "Charles Dalmorès"
+"_enwiki": "Charles Dalmorès",
+"_relatives": []
 },
 "Q5081189": {
 "_label": "Charles N. Daniels",
@@ -17469,7 +19588,8 @@
 "1943-01-23T00:00:00Z"
 ],
 "_description": "American composer, occasional lyricist, and music publishing executive",
-"_enwiki": "Charles N. Daniels (music)"
+"_enwiki": "Charles N. Daniels (music)",
+"_relatives": []
 },
 "Q50956": {
 "_label": "Eugene Onegin",
@@ -17574,7 +19694,27 @@
 "Henriette Dreifus"
 ],
 "_description": "German-born composer and conductor (1804–1885)",
-"_enwiki": "Julius Benedict"
+"_enwiki": "Julius Benedict",
+"_relatives": [
+{
+"prop": "P26",
+"name": "Mary Paramore Comber",
+"occupations": [
+"composer",
+"pianist"
+],
+"marriedTo": []
+},
+{
+"prop": "P3373",
+"name": "Henriette Dreifus",
+"occupations": [
+"composer",
+"musician"
+],
+"marriedTo": []
+}
+]
 },
 "Q5126814": {
 "_label": "Clarence Whitehill",
@@ -17603,7 +19743,8 @@
 "voice"
 ],
 "_description": "American opera singer",
-"_enwiki": "Clarence Whitehill"
+"_enwiki": "Clarence Whitehill",
+"_relatives": []
 },
 "Q512715": {
 "_label": "Préludes",
@@ -17654,7 +19795,43 @@
 "guitar"
 ],
 "_description": "Austrian composer (1787–1863)",
-"_enwiki": "Franz Xaver Gruber"
+"_enwiki": "Franz Xaver Gruber",
+"_relatives": [
+{
+"prop": "P40",
+"name": "Franz Xaver Gruber",
+"occupations": [
+"composer",
+"organist"
+],
+"marriedTo": []
+},
+{
+"prop": "P40",
+"name": "Felix Gruber",
+"occupations": [
+"musician"
+],
+"marriedTo": []
+},
+{
+"prop": "P1038",
+"name": "Anna Gruber",
+"occupations": [
+"organist",
+"music teacher"
+],
+"marriedTo": []
+},
+{
+"prop": "P1038",
+"name": "Franz Xaver Gruber",
+"occupations": [
+"choir director"
+],
+"marriedTo": []
+}
+]
 },
 "Q5140792": {
 "_label": "Coenraad Valentijn Bos",
@@ -17691,7 +19868,8 @@
 "piano"
 ],
 "_description": "Dutch musician (1875-1955)",
-"_enwiki": "Coenraad V. Bos"
+"_enwiki": "Coenraad V. Bos",
+"_relatives": []
 },
 "Q5172146": {
 "_label": "Coronach",
@@ -17748,7 +19926,19 @@
 "piano"
 ],
 "_description": "Russian pianist (1851-1914)",
-"_enwiki": "Anna Yesipova"
+"_enwiki": "Anna Yesipova",
+"_relatives": [
+{
+"prop": "P26",
+"name": "Theodor Leschetizky",
+"occupations": [
+"composer",
+"pianist",
+"musician"
+],
+"marriedTo": []
+}
+]
 },
 "Q5232948": {
 "_label": "David Devriès",
@@ -17790,7 +19980,35 @@
 "Henri Büsser"
 ],
 "_description": "French opera singer",
-"_enwiki": "David Devriès"
+"_enwiki": "David Devriès",
+"_relatives": [
+{
+"prop": "P22",
+"name": "Marcel Devriès",
+"occupations": [
+"opera singer"
+],
+"marriedTo": []
+},
+{
+"prop": "P40",
+"name": "Ivan Devries",
+"occupations": [
+"composer"
+],
+"marriedTo": []
+},
+{
+"prop": "P3373",
+"name": "Henri Büsser",
+"occupations": [
+"composer",
+"conductor",
+"musician"
+],
+"marriedTo": []
+}
+]
 },
 "Q5255031": {
 "_label": "Waltz No. 7 in C-sharp minor, Op. 64, No. 2",
@@ -17858,7 +20076,25 @@
 "Zinaida Vengerova"
 ],
 "_description": "Russian-American musician (1877–1956)",
-"_enwiki": "Isabelle Vengerova"
+"_enwiki": "Isabelle Vengerova",
+"_relatives": [
+{
+"prop": "P3373",
+"name": "Semyon Vengerov",
+"occupations": [
+"literary critic"
+],
+"marriedTo": []
+},
+{
+"prop": "P3373",
+"name": "Zinaida Vengerova",
+"occupations": [
+"literary critic"
+],
+"marriedTo": []
+}
+]
 },
 "Q52733964": {
 "_label": "Nina Dimitrieff",
@@ -17912,7 +20148,8 @@
 "The Dutch Nightingale"
 ],
 "_description": "Dutch singer (1880-1970)",
-"_enwiki": "Julia Culp"
+"_enwiki": "Julia Culp",
+"_relatives": []
 },
 "Q53068": {
 "_label": "Claudio Monteverdi",
@@ -17970,7 +20207,26 @@
 "Giulio Cesare Monteverdi"
 ],
 "_description": "Italian composer, string player, choirmaster, and priest (1567–1643)",
-"_enwiki": "Claudio Monteverdi"
+"_enwiki": "Claudio Monteverdi",
+"_relatives": [
+{
+"prop": "P26",
+"name": "Claudia Cattaneo",
+"occupations": [
+"singer"
+],
+"marriedTo": []
+},
+{
+"prop": "P3373",
+"name": "Giulio Cesare Monteverdi",
+"occupations": [
+"composer",
+"organist"
+],
+"marriedTo": []
+}
+]
 },
 "Q530690": {
 "_label": "Henry Burr",
@@ -18012,7 +20268,8 @@
 "voice"
 ],
 "_description": "Canadian singer, radio performer and producer (1882-1941)",
-"_enwiki": "Henry Burr"
+"_enwiki": "Henry Burr",
+"_relatives": []
 },
 "Q5338565": {
 "_label": "Edith Helena",
@@ -18035,7 +20292,8 @@
 "voice"
 ],
 "_description": "American singer (1876–1956)",
-"_enwiki": "Edith Helena"
+"_enwiki": "Edith Helena",
+"_relatives": []
 },
 "Q5338851": {
 "_label": "Edmond Clément",
@@ -18079,7 +20337,8 @@
 "voice"
 ],
 "_description": "French opera singer (1867-1928)",
-"_enwiki": "Edmond Clément"
+"_enwiki": "Edmond Clément",
+"_relatives": []
 },
 "Q534268": {
 "_label": "Georg Schumann",
@@ -18120,7 +20379,18 @@
 "Camillo Schumann"
 ],
 "_description": "German comnposer (1866–1952)",
-"_enwiki": "Georg Schumann (composer)"
+"_enwiki": "Georg Schumann (composer)",
+"_relatives": [
+{
+"prop": "P3373",
+"name": "Camillo Schumann",
+"occupations": [
+"composer",
+"organist"
+],
+"marriedTo": []
+}
+]
 },
 "Q5345535": {
 "_label": "Edward T. King",
@@ -18145,7 +20415,8 @@
 "1939-12-24T00:00:00Z"
 ],
 "_description": "American conductor",
-"_enwiki": "Edward T. King"
+"_enwiki": "Edward T. King",
+"_relatives": []
 },
 "Q5346809": {
 "_label": "Edwin Schneider",
@@ -18175,7 +20446,8 @@
 "piano"
 ],
 "_description": "American pianist",
-"_enwiki": "Edwin Schneider"
+"_enwiki": "Edwin Schneider",
+"_relatives": []
 },
 "Q5367571": {
 "_label": "Elsie Baker",
@@ -18208,7 +20480,8 @@
 "voice"
 ],
 "_description": "(1893-1971) American actress and singer",
-"_enwiki": "Elsie Baker"
+"_enwiki": "Elsie Baker",
+"_relatives": []
 },
 "Q5371973": {
 "_label": "Emilio de Gogorza",
@@ -18245,7 +20518,19 @@
 "voice"
 ],
 "_description": "American opera singer",
-"_enwiki": "Emilio de Gogorza"
+"_enwiki": "Emilio de Gogorza",
+"_relatives": [
+{
+"prop": "P26",
+"name": "Emma Eames",
+"occupations": [
+"singer",
+"musician",
+"opera singer"
+],
+"marriedTo": []
+}
+]
 },
 "Q538894": {
 "_label": "Charles Lecocq",
@@ -18287,7 +20572,8 @@
 "piano"
 ],
 "_description": "French composer (1832–1918)",
-"_enwiki": "Charles Lecocq"
+"_enwiki": "Charles Lecocq",
+"_relatives": []
 },
 "Q540114": {
 "_label": "Sobre las Olas",
@@ -18342,7 +20628,8 @@
 "piano"
 ],
 "_description": "British pianist and music teacher (1861–1934)",
-"_enwiki": "Fanny Davies"
+"_enwiki": "Fanny Davies",
+"_relatives": []
 },
 "Q5460849": {
 "_label": "Florencio Constantino",
@@ -18380,7 +20667,8 @@
 "voice"
 ],
 "_description": "Spanish opera singer",
-"_enwiki": "Florencio Constantino"
+"_enwiki": "Florencio Constantino",
+"_relatives": []
 },
 "Q547301": {
 "_label": "Joachim Raff",
@@ -18431,7 +20719,17 @@
 "piano"
 ],
 "_description": "Swiss composer (1822-1882)",
-"_enwiki": "Joachim Raff"
+"_enwiki": "Joachim Raff",
+"_relatives": [
+{
+"prop": "P40",
+"name": "Helene Raff",
+"occupations": [
+"librettist"
+],
+"marriedTo": []
+}
+]
 },
 "Q5487829": {
 "_label": "Frank La Forge",
@@ -18466,7 +20764,8 @@
 "piano"
 ],
 "_description": "American composer and pianist (1879–1953)",
-"_enwiki": "Frank La Forge"
+"_enwiki": "Frank La Forge",
+"_relatives": []
 },
 "Q54974073": {
 "_label": "Q54974073",
@@ -18588,7 +20887,41 @@
 "Max Humperdinck"
 ],
 "_description": "German composer (1854–1921)",
-"_enwiki": "Engelbert Humperdinck (composer)"
+"_enwiki": "Engelbert Humperdinck (composer)",
+"_relatives": [
+{
+"prop": "P25",
+"name": "Gertrud Olivia Humperdinck",
+"occupations": [
+"singer"
+],
+"marriedTo": []
+},
+{
+"prop": "P26",
+"name": "Hedwig Humperdinck",
+"occupations": [
+"librettist"
+],
+"marriedTo": []
+},
+{
+"prop": "P1038",
+"name": "Adelheid Wette",
+"occupations": [
+"librettist"
+],
+"marriedTo": []
+},
+{
+"prop": "P3373",
+"name": "Adelheid Wette",
+"occupations": [
+"librettist"
+],
+"marriedTo": []
+}
+]
 },
 "Q5506773": {
 "_label": "Frühlingsrauschen",
@@ -18666,7 +20999,27 @@
 "Blanche Gottschalk"
 ],
 "_description": "American musician and composer (1829-1869)",
-"_enwiki": "Louis Moreau Gottschalk"
+"_enwiki": "Louis Moreau Gottschalk",
+"_relatives": [
+{
+"prop": "P1038",
+"name": "Louis F. Gottschalk",
+"occupations": [
+"composer",
+"conductor"
+],
+"marriedTo": []
+},
+{
+"prop": "P3373",
+"name": "Clara Gottschalk Peterson",
+"occupations": [
+"composer",
+"pianist"
+],
+"marriedTo": []
+}
+]
 },
 "Q5565367": {
 "_label": "Giuseppe Campanari",
@@ -18700,7 +21053,8 @@
 "voice"
 ],
 "_description": "Italian musician (1855–1927)",
-"_enwiki": "Giuseppe Campanari"
+"_enwiki": "Giuseppe Campanari",
+"_relatives": []
 },
 "Q5566022": {
 "_label": "Joseph Barnby",
@@ -18747,7 +21101,8 @@
 "voice"
 ],
 "_description": "British musician (1838-1896)",
-"_enwiki": "Joseph Barnby"
+"_enwiki": "Joseph Barnby",
+"_relatives": []
 },
 "Q557478": {
 "_label": "Arthur Friedheim",
@@ -18789,7 +21144,17 @@
 "piano"
 ],
 "_description": "Russian musician (1859–1932)",
-"_enwiki": "Arthur Friedheim"
+"_enwiki": "Arthur Friedheim",
+"_relatives": [
+{
+"prop": "P25",
+"name": "Annette Hempel-Friedheim",
+"occupations": [
+"musician"
+],
+"marriedTo": []
+}
+]
 },
 "Q55830366": {
 "_label": "William Tell Overture",
@@ -18827,7 +21192,8 @@
 "P570": [
 "1945-08-23T00:00:00Z"
 ],
-"_description": "American composer and band leader (1883-1945)"
+"_description": "American composer and band leader (1883-1945)",
+"_relatives": []
 },
 "Q560619": {
 "_label": "Tannhäuser",
@@ -18970,7 +21336,35 @@
 "François Benoist"
 ],
 "_description": "French composer (1838–1875)",
-"_enwiki": "Georges Bizet"
+"_enwiki": "Georges Bizet",
+"_relatives": [
+{
+"prop": "P22",
+"name": "Adolphe Armand Bizet",
+"occupations": [
+"composer",
+"music educator"
+],
+"marriedTo": []
+},
+{
+"prop": "P25",
+"name": "Aimée Léopoldine Joséphine Delsarte Anaya",
+"occupations": [],
+"marriedTo": [
+"Adolphe Armand Bizet"
+]
+},
+{
+"prop": "P1038",
+"name": "Fromental Halévy",
+"occupations": [
+"composer",
+"academic musician"
+],
+"marriedTo": []
+}
+]
 },
 "Q56159": {
 "_label": "The Pearl Fishers",
@@ -19061,7 +21455,18 @@
 "voice"
 ],
 "_description": "American entertainer, composer and playwright (1878–1942)",
-"_enwiki": "George M. Cohan"
+"_enwiki": "George M. Cohan",
+"_relatives": [
+{
+"prop": "P40",
+"name": "Mary Cohan",
+"occupations": [
+"composer",
+"songwriter"
+],
+"marriedTo": []
+}
+]
 },
 "Q5670849": {
 "_label": "Harry Macdonough",
@@ -19090,7 +21495,8 @@
 "voice"
 ],
 "_description": "Canadian singer (1871–1931)",
-"_enwiki": "Harry Macdonough"
+"_enwiki": "Harry Macdonough",
+"_relatives": []
 },
 "Q567462": {
 "_label": "Années de pèlerinage",
@@ -19183,7 +21589,47 @@
 "piano"
 ],
 "_description": "Scottish-born German pianist and composer (1864-1932)",
-"_enwiki": "Eugen d'Albert"
+"_enwiki": "Eugen d'Albert",
+"_relatives": [
+{
+"prop": "P22",
+"name": "Charles Louis Napoléon d’Albert",
+"occupations": [
+"composer",
+"musician",
+"classical composer"
+],
+"marriedTo": []
+},
+{
+"prop": "P26",
+"name": "Teresa Carreño",
+"occupations": [
+"composer",
+"singer",
+"pianist"
+],
+"marriedTo": [
+"Émile Sauret"
+]
+},
+{
+"prop": "P26",
+"name": "Hermine d'Albert",
+"occupations": [
+"opera singer"
+],
+"marriedTo": []
+},
+{
+"prop": "P40",
+"name": "Eugenia Harris-D'Albert",
+"occupations": [
+"pianist"
+],
+"marriedTo": []
+}
+]
 },
 "Q57210": {
 "_label": "Arthur Nikisch",
@@ -19248,7 +21694,39 @@
 "violin"
 ],
 "_description": "Hungarian conductor (1855-1922)",
-"_enwiki": "Arthur Nikisch"
+"_enwiki": "Arthur Nikisch",
+"_relatives": [
+{
+"prop": "P26",
+"name": "Amélie Nikisch",
+"occupations": [
+"composer",
+"singer",
+"opera singer"
+],
+"marriedTo": []
+},
+{
+"prop": "P40",
+"name": "Mitja Nikisch",
+"occupations": [
+"composer",
+"conductor",
+"pianist"
+],
+"marriedTo": []
+},
+{
+"prop": "P1038",
+"name": "Edgar Wollgandt",
+"occupations": [
+"conductor",
+"musician",
+"violinist"
+],
+"marriedTo": []
+}
+]
 },
 "Q572446": {
 "_label": "Otto Neitzel",
@@ -19290,7 +21768,8 @@
 "piano"
 ],
 "_description": "German composer (1852–1920)",
-"_enwiki": "Otto Neitzel"
+"_enwiki": "Otto Neitzel",
+"_relatives": []
 },
 "Q57257": {
 "_label": "Peter Cornelius",
@@ -19346,7 +21825,8 @@
 "Elise Schily"
 ],
 "_description": "German composer (1824–1874)",
-"_enwiki": "Peter Cornelius"
+"_enwiki": "Peter Cornelius",
+"_relatives": []
 },
 "Q57275": {
 "_label": "Ermanno Wolf-Ferrari",
@@ -19402,7 +21882,26 @@
 "Teodoro Wolf Ferrari"
 ],
 "_description": "Italian composer and teacher (1876–1948)",
-"_enwiki": "Ermanno Wolf-Ferrari"
+"_enwiki": "Ermanno Wolf-Ferrari",
+"_relatives": [
+{
+"prop": "P40",
+"name": "Federico Wolf-Ferrari",
+"occupations": [
+"opera director"
+],
+"marriedTo": []
+},
+{
+"prop": "P1038",
+"name": "Manno Wolf-Ferrari",
+"occupations": [
+"conductor",
+"musician"
+],
+"marriedTo": []
+}
+]
 },
 "Q5730737": {
 "_label": "Herman Finck",
@@ -19426,7 +21925,8 @@
 "1939-04-21T00:00:00Z"
 ],
 "_description": "British composer (1872–1939)",
-"_enwiki": "Herman Finck"
+"_enwiki": "Herman Finck",
+"_relatives": []
 },
 "Q5734131": {
 "_label": "Herbert Fryer",
@@ -19460,7 +21960,8 @@
 "piano"
 ],
 "_description": "British pianist, composer and music pedagogue (1877–1957)",
-"_enwiki": "Herbert Fryer"
+"_enwiki": "Herbert Fryer",
+"_relatives": []
 },
 "Q5750558": {
 "_label": "Hiawatha",
@@ -19546,7 +22047,28 @@
 "flugelhorn"
 ],
 "_description": "Czech conductor, composer and choirmaster (1850-1905)",
-"_enwiki": "Karel Komzák II"
+"_enwiki": "Karel Komzák II",
+"_relatives": [
+{
+"prop": "P22",
+"name": "Karel Komzák",
+"occupations": [
+"composer",
+"conductor",
+"musician"
+],
+"marriedTo": []
+},
+{
+"prop": "P40",
+"name": "Karel Komzák",
+"occupations": [
+"composer",
+"conductor"
+],
+"marriedTo": []
+}
+]
 },
 "Q581306": {
 "_label": "Der Tod und das Mädchen",
@@ -19636,7 +22158,17 @@
 "voice"
 ],
 "_description": "American opera singer (1871-1947)",
-"_enwiki": "Louise Homer"
+"_enwiki": "Louise Homer",
+"_relatives": [
+{
+"prop": "P26",
+"name": "Sidney Homer, Sr.",
+"occupations": [
+"composer"
+],
+"marriedTo": []
+}
+]
 },
 "Q591072": {
 "_label": "Three Concert Études",
@@ -19802,7 +22334,8 @@
 "organ"
 ],
 "_description": "English organist, church musician, and music editor",
-"_enwiki": "William Henry Monk"
+"_enwiki": "William Henry Monk",
+"_relatives": []
 },
 "Q60040869": {
 "_label": "Myrtle Elvyn",
@@ -19820,7 +22353,8 @@
 "1975-01-01T00:00:00Z"
 ],
 "_description": "American pianist and composer",
-"_enwiki": "Myrtle Elvyn"
+"_enwiki": "Myrtle Elvyn",
+"_relatives": []
 },
 "Q6012920": {
 "_label": "Michael Zadora",
@@ -19856,7 +22390,8 @@
 "P1303": [
 "piano"
 ],
-"_description": "American pianist and composer (1882-1946)"
+"_description": "American pianist and composer (1882-1946)",
+"_relatives": []
 },
 "Q60256": {
 "_label": "Wilhelm Backhaus",
@@ -19905,7 +22440,8 @@
 "piano"
 ],
 "_description": "German pianist (1884–1969)",
-"_enwiki": "Wilhelm Backhaus"
+"_enwiki": "Wilhelm Backhaus",
+"_relatives": []
 },
 "Q6030409": {
 "_label": "Vess Ossman",
@@ -19934,7 +22470,8 @@
 "banjo"
 ],
 "_description": "American musician",
-"_enwiki": "Vess Ossman"
+"_enwiki": "Vess Ossman",
+"_relatives": []
 },
 "Q6128039": {
 "_label": "James A. Bland",
@@ -19964,7 +22501,8 @@
 "1911-05-06T00:00:00Z"
 ],
 "_description": "American musician (1854–1911)",
-"_enwiki": "James A. Bland"
+"_enwiki": "James A. Bland",
+"_relatives": []
 },
 "Q6131406": {
 "_label": "Three Marches Militaires",
@@ -20028,7 +22566,19 @@
 "violin"
 ],
 "_description": "Russian-American violinist, composer, teacher, conductor (1889–1985)",
-"_enwiki": "Efrem Zimbalist"
+"_enwiki": "Efrem Zimbalist",
+"_relatives": [
+{
+"prop": "P26",
+"name": "Alma Gluck",
+"occupations": [
+"singer",
+"musician",
+"opera singer"
+],
+"marriedTo": []
+}
+]
 },
 "Q615663": {
 "_label": "The Merry Wives of Windsor",
@@ -20104,7 +22654,8 @@
 "voice"
 ],
 "_description": "French opera singer (1882–1915)",
-"_enwiki": "Jeanne Gerville-Réache"
+"_enwiki": "Jeanne Gerville-Réache",
+"_relatives": []
 },
 "Q619370": {
 "_label": "Artur Lemba",
@@ -20157,7 +22708,28 @@
 "Ludmilla Hellat-Lemba"
 ],
 "_description": "Estonian composer and pianist (1885-1963)",
-"_enwiki": "Artur Lemba"
+"_enwiki": "Artur Lemba",
+"_relatives": [
+{
+"prop": "P3373",
+"name": "Theodor Lemba",
+"occupations": [
+"pianist",
+"music teacher",
+"classical pianist"
+],
+"marriedTo": []
+},
+{
+"prop": "P3373",
+"name": "Ludmilla Hellat-Lemba",
+"occupations": [
+"opera singer",
+"music educator"
+],
+"marriedTo": []
+}
+]
 },
 "Q62075": {
 "_label": "Friedrich Burgmüller",
@@ -20199,7 +22771,41 @@
 "Norbert Burgmüller"
 ],
 "_description": "German composer (1806–1874)",
-"_enwiki": "Friedrich Burgmüller"
+"_enwiki": "Friedrich Burgmüller",
+"_relatives": [
+{
+"prop": "P22",
+"name": "Johann August Franz Burgmüller",
+"occupations": [
+"composer",
+"conductor",
+"pianist"
+],
+"marriedTo": []
+},
+{
+"prop": "P25",
+"name": "Therese Burgmüller",
+"occupations": [
+"singer",
+"pianist",
+"music journalist"
+],
+"marriedTo": [
+"Johann August Franz Burgmüller"
+]
+},
+{
+"prop": "P3373",
+"name": "Norbert Burgmüller",
+"occupations": [
+"composer",
+"pianist",
+"music teacher"
+],
+"marriedTo": []
+}
+]
 },
 "Q62097": {
 "_label": "Karl Muck",
@@ -20243,7 +22849,8 @@
 "Brno"
 ],
 "_description": "German-born Swiss conductor of classical music (1859–1940)",
-"_enwiki": "Karl Muck"
+"_enwiki": "Karl Muck",
+"_relatives": []
 },
 "Q623826": {
 "_label": "Arabeske in C major",
@@ -20413,7 +23020,8 @@
 "voice"
 ],
 "_description": "American opera singer (1885-1954)",
-"_enwiki": "Lambert Murphy"
+"_enwiki": "Lambert Murphy",
+"_relatives": []
 },
 "Q6507632": {
 "_label": "Le Régiment de Sambre et Meuse",
@@ -20538,7 +23146,8 @@
 "piano"
 ],
 "_description": "Ukrainian musician (1891–1959)",
-"_enwiki": "Lev Pouishnoff"
+"_enwiki": "Lev Pouishnoff",
+"_relatives": []
 },
 "Q652170": {
 "_label": "Tre giorni son che Nina",
@@ -20639,7 +23248,8 @@
 "cello"
 ],
 "_description": "French Canadian cellist, violinist, conductor, arranger and composer (1885–1961)",
-"_enwiki": "Rosario Bourdon"
+"_enwiki": "Rosario Bourdon",
+"_relatives": []
 },
 "Q663965": {
 "_label": "Der Graf von Luxemburg",
@@ -20718,7 +23328,27 @@
 "piano"
 ],
 "_description": "German musician (1862–1930)",
-"_enwiki": "Conrad Ansorge"
+"_enwiki": "Conrad Ansorge",
+"_relatives": [
+{
+"prop": "P26",
+"name": "Margarethe Ansorge",
+"occupations": [
+"pianist",
+"musician"
+],
+"marriedTo": []
+},
+{
+"prop": "P40",
+"name": "Joachim Albert Conrad Ansorge",
+"occupations": [
+"pianist",
+"musician"
+],
+"marriedTo": []
+}
+]
 },
 "Q668821": {
 "_label": "Davidsbündlertänze",
@@ -20788,7 +23418,18 @@
 "piano"
 ],
 "_description": "German pianist (1882–1968)",
-"_enwiki": "Elly Ney"
+"_enwiki": "Elly Ney",
+"_relatives": [
+{
+"prop": "P26",
+"name": "Willem van Hoogstraten",
+"occupations": [
+"conductor",
+"violinist"
+],
+"marriedTo": []
+}
+]
 },
 "Q670140": {
 "_label": "Rudolph Ganz",
@@ -20840,7 +23481,17 @@
 "Emil Ganz"
 ],
 "_description": "Swiss musician (1877-1972)",
-"_enwiki": "Rudolph Ganz"
+"_enwiki": "Rudolph Ganz",
+"_relatives": [
+{
+"prop": "P3373",
+"name": "Hans Ganz",
+"occupations": [
+"composer"
+],
+"marriedTo": []
+}
+]
 },
 "Q6721441": {
 "_label": "Mabel Garrison",
@@ -20879,7 +23530,17 @@
 "voice"
 ],
 "_description": "American opera singer (1886-1963)",
-"_enwiki": "Mabel Garrison"
+"_enwiki": "Mabel Garrison",
+"_relatives": [
+{
+"prop": "P26",
+"name": "George Siemonn",
+"occupations": [
+"conductor"
+],
+"marriedTo": []
+}
+]
 },
 "Q6746380": {
 "_label": "Man lebt nur einmal!",
@@ -20946,7 +23607,18 @@
 "piano"
 ],
 "_description": "Ukrainian pianist (1848-1933)",
-"_enwiki": "Vladimir de Pachmann"
+"_enwiki": "Vladimir de Pachmann",
+"_relatives": [
+{
+"prop": "P26",
+"name": "Marguerite Okey",
+"occupations": [
+"composer",
+"pianist"
+],
+"marriedTo": []
+}
+]
 },
 "Q6761157": {
 "_label": "Maria Duchêne",
@@ -20981,7 +23653,8 @@
 "voice"
 ],
 "_description": "French opera singer",
-"_enwiki": "Maria Duchêne"
+"_enwiki": "Maria Duchêne",
+"_relatives": []
 },
 "Q678753": {
 "_label": "Lieder eines fahrenden Gesellen",
@@ -21030,7 +23703,8 @@
 "piano"
 ],
 "_description": "Austrian pianist and composer",
-"_enwiki": "Max Vogrich"
+"_enwiki": "Max Vogrich",
+"_relatives": []
 },
 "Q68038": {
 "_label": "Jean Gilbert",
@@ -21061,7 +23735,8 @@
 "Die keusche Susanne"
 ],
 "_description": "German composer and conductor (1879–1942)",
-"_enwiki": "Jean Gilbert"
+"_enwiki": "Jean Gilbert",
+"_relatives": []
 },
 "Q6869758": {
 "_label": "Minuet in G",
@@ -21137,7 +23812,19 @@
 "Emanuel Gurlitt"
 ],
 "_description": "German composer (1820-1901)",
-"_enwiki": "Cornelius Gurlitt (composer)"
+"_enwiki": "Cornelius Gurlitt (composer)",
+"_relatives": [
+{
+"prop": "P1038",
+"name": "Manfred Gurlitt",
+"occupations": [
+"composer",
+"conductor",
+"musician"
+],
+"marriedTo": []
+}
+]
 },
 "Q6885735": {
 "_label": "Mlle. Modiste",
@@ -21264,7 +23951,26 @@
 "Joseph Hellmesberger"
 ],
 "_description": "Austrian conductor and composer (1856-1911)",
-"_enwiki": "Felix Mottl"
+"_enwiki": "Felix Mottl",
+"_relatives": [
+{
+"prop": "P26",
+"name": "Zdenka Hanfstaengl",
+"occupations": [
+"singer",
+"opera singer"
+],
+"marriedTo": []
+},
+{
+"prop": "P26",
+"name": "Henriette Mottl",
+"occupations": [
+"opera singer"
+],
+"marriedTo": []
+}
+]
 },
 "Q6965655": {
 "_label": "Narcissus",
@@ -21316,7 +24022,17 @@
 "violin"
 ],
 "_description": "Austrian composer (1843–1922)",
-"_enwiki": "Carl Michael Ziehrer"
+"_enwiki": "Carl Michael Ziehrer",
+"_relatives": [
+{
+"prop": "P26",
+"name": "Marianne Edelmann",
+"occupations": [
+"singer"
+],
+"marriedTo": []
+}
+]
 },
 "Q700090": {
 "_label": "Friedrich Silcher",
@@ -21357,7 +24073,8 @@
 "Tübingen"
 ],
 "_description": "German composer (1789-1860)",
-"_enwiki": "Friedrich Silcher"
+"_enwiki": "Friedrich Silcher",
+"_relatives": []
 },
 "Q702158": {
 "_label": "Ludwig Thuille",
@@ -21419,7 +24136,27 @@
 "Josef Rheinberger"
 ],
 "_description": "Austrian composer (1861–1907)",
-"_enwiki": "Ludwig Thuille"
+"_enwiki": "Ludwig Thuille",
+"_relatives": [
+{
+"prop": "P40",
+"name": "Hedwig Courvoisier",
+"occupations": [],
+"marriedTo": [
+"Walter Courvoisier"
+]
+},
+{
+"prop": "P1038",
+"name": "Walter Courvoisier",
+"occupations": [
+"composer",
+"conductor",
+"music educator"
+],
+"marriedTo": []
+}
+]
 },
 "Q7029139": {
 "_label": "Nicola Zerola",
@@ -21448,7 +24185,8 @@
 "voice"
 ],
 "_description": "Italian opera singer (1876–1936)",
-"_enwiki": "Nicola Zerola"
+"_enwiki": "Nicola Zerola",
+"_relatives": []
 },
 "Q703370": {
 "_label": "Xaver Scharwenka",
@@ -21501,7 +24239,30 @@
 "Philipp Scharwenka"
 ],
 "_description": "German pianist, composer and teacher (1850-1924)",
-"_enwiki": "Xaver Scharwenka"
+"_enwiki": "Xaver Scharwenka",
+"_relatives": [
+{
+"prop": "P1038",
+"name": "Walter Scharwenka",
+"occupations": [
+"composer",
+"organist"
+],
+"marriedTo": []
+},
+{
+"prop": "P3373",
+"name": "Philipp Scharwenka",
+"occupations": [
+"composer",
+"musician",
+"musicologist"
+],
+"marriedTo": [
+"Marianne Scharwenka"
+]
+}
+]
 },
 "Q706082": {
 "_label": "Theodor Kullak",
@@ -21554,7 +24315,29 @@
 "Adolph Kullak"
 ],
 "_description": "German musician (1818-1882)",
-"_enwiki": "Theodor Kullak"
+"_enwiki": "Theodor Kullak",
+"_relatives": [
+{
+"prop": "P40",
+"name": "Franz Kullak",
+"occupations": [
+"composer",
+"pianist",
+"musician"
+],
+"marriedTo": []
+},
+{
+"prop": "P3373",
+"name": "Adolph Kullak",
+"occupations": [
+"composer",
+"pianist",
+"music teacher"
+],
+"marriedTo": []
+}
+]
 },
 "Q7080530": {
 "_label": "Oh Promise Me",
@@ -21612,7 +24395,18 @@
 "Hahnenklee"
 ],
 "_description": "German composer (1866–1946)",
-"_enwiki": "Paul Lincke"
+"_enwiki": "Paul Lincke",
+"_relatives": [
+{
+"prop": "P26",
+"name": "Anna Müller-Lincke",
+"occupations": [
+"singer",
+"opera singer"
+],
+"marriedTo": []
+}
+]
 },
 "Q713268": {
 "_label": "Francesco Maria Veracini",
@@ -21638,7 +24432,18 @@
 "violin"
 ],
 "_description": "Italian composer",
-"_enwiki": "Francesco Maria Veracini"
+"_enwiki": "Francesco Maria Veracini",
+"_relatives": [
+{
+"prop": "P1038",
+"name": "Antonio Veracini",
+"occupations": [
+"composer",
+"violinist"
+],
+"marriedTo": []
+}
+]
 },
 "Q714574": {
 "_label": "Titta Ruffo",
@@ -21681,7 +24486,8 @@
 "Ettore Titta"
 ],
 "_description": "Italian opera singer (1877-1953)",
-"_enwiki": "Titta Ruffo"
+"_enwiki": "Titta Ruffo",
+"_relatives": []
 },
 "Q7154584": {
 "_label": "Paul de Schlözer",
@@ -21713,7 +24519,8 @@
 "piano"
 ],
 "_description": "pianist (1841–1898)",
-"_enwiki": "Paul de Schlözer"
+"_enwiki": "Paul de Schlözer",
+"_relatives": []
 },
 "Q7167439": {
 "_label": "Percy Kahn",
@@ -21738,7 +24545,8 @@
 "piano"
 ],
 "_description": "British musician (1880–1966)",
-"_enwiki": "Percy Kahn"
+"_enwiki": "Percy Kahn",
+"_relatives": []
 },
 "Q7210085": {
 "_label": "Pieśni, Op. posth. 74",
@@ -21831,7 +24639,8 @@
 "piano"
 ],
 "_description": "Portuguese pianist and composer (1868–1948)",
-"_enwiki": "José Vianna da Motta"
+"_enwiki": "José Vianna da Motta",
+"_relatives": []
 },
 "Q7228764": {
 "_label": "Poor Butterfly",
@@ -21921,7 +24730,17 @@
 "Edoardo Franchetti"
 ],
 "_description": "Italian opera composer (1860–1942)",
-"_enwiki": "Alberto Franchetti"
+"_enwiki": "Alberto Franchetti",
+"_relatives": [
+{
+"prop": "P3373",
+"name": "Giorgio Franchetti",
+"occupations": [
+"musician"
+],
+"marriedTo": []
+}
+]
 },
 "Q7235697": {
 "_label": "Pour le piano",
@@ -22048,7 +24867,27 @@
 "piano"
 ],
 "_description": "Dutch musician (1881-1962)",
-"_enwiki": "Egon Petri"
+"_enwiki": "Egon Petri",
+"_relatives": [
+{
+"prop": "P22",
+"name": "Henri Petri",
+"occupations": [
+"composer",
+"conductor",
+"musician"
+],
+"marriedTo": []
+},
+{
+"prop": "P25",
+"name": "Katharina Petri",
+"occupations": [],
+"marriedTo": [
+"Henri Petri"
+]
+}
+]
 },
 "Q7294": {
 "_label": "Johannes Brahms",
@@ -22140,7 +24979,17 @@
 "Fritz Brahms"
 ],
 "_description": "German composer (1833–1897)",
-"_enwiki": "Johannes Brahms"
+"_enwiki": "Johannes Brahms",
+"_relatives": [
+{
+"prop": "P3373",
+"name": "Fritz Brahms",
+"occupations": [
+"piano teacher"
+],
+"marriedTo": []
+}
+]
 },
 "Q729659": {
 "_label": "William Tell",
@@ -22299,7 +25148,57 @@
 "pipe organ"
 ],
 "_description": "Czech composer (1841–1904)",
-"_enwiki": "Antonín Dvořák"
+"_enwiki": "Antonín Dvořák",
+"_relatives": [
+{
+"prop": "P22",
+"name": "František Dvořák",
+"occupations": [
+"musician"
+],
+"marriedTo": []
+},
+{
+"prop": "P26",
+"name": "Anna Čermáková",
+"occupations": [
+"singer"
+],
+"marriedTo": []
+},
+{
+"prop": "P40",
+"name": "Otilie Suková",
+"occupations": [
+"composer",
+"pianist"
+],
+"marriedTo": [
+"Josef Suk"
+]
+},
+{
+"prop": "P40",
+"name": "Magdalena Dvořáková",
+"occupations": [
+"singer",
+"opera singer"
+],
+"marriedTo": []
+},
+{
+"prop": "P1038",
+"name": "Josef Suk",
+"occupations": [
+"composer",
+"violinist",
+"music educator"
+],
+"marriedTo": [
+"Otilie Suková"
+]
+}
+]
 },
 "Q7302": {
 "_label": "George Frideric Handel",
@@ -22385,7 +25284,8 @@
 "pipe organ"
 ],
 "_description": "German-British Baroque composer (1685–1759)",
-"_enwiki": "George Frideric Handel"
+"_enwiki": "George Frideric Handel",
+"_relatives": []
 },
 "Q7304": {
 "_label": "Gustav Mahler",
@@ -22465,7 +25365,95 @@
 "Emma Rosé"
 ],
 "_description": "Austrian late-Romantic composer (1860–1911)",
-"_enwiki": "Gustav Mahler"
+"_enwiki": "Gustav Mahler",
+"_relatives": [
+{
+"prop": "P26",
+"name": "Alma Mahler",
+"occupations": [
+"composer",
+"musician"
+],
+"marriedTo": []
+},
+{
+"prop": "P40",
+"name": "Anna Mahler",
+"occupations": [
+"composer"
+],
+"marriedTo": [
+"Ernst Krenek"
+]
+},
+{
+"prop": "P1038",
+"name": "Fritz Mahler",
+"occupations": [
+"composer",
+"conductor"
+],
+"marriedTo": []
+},
+{
+"prop": "P1038",
+"name": "Ernst Krenek",
+"occupations": [
+"composer",
+"conductor",
+"musician"
+],
+"marriedTo": [
+"Anna Mahler",
+"Gladys Nordenstrom"
+]
+},
+{
+"prop": "P1038",
+"name": "Arnold Rosé",
+"occupations": [
+"composer",
+"musician",
+"violinist"
+],
+"marriedTo": []
+},
+{
+"prop": "P1038",
+"name": "Alfred Rosé",
+"occupations": [
+"composer",
+"conductor",
+"pianist"
+],
+"marriedTo": []
+},
+{
+"prop": "P1038",
+"name": "Zdeněk Mahler",
+"occupations": [
+"musicologist"
+],
+"marriedTo": []
+},
+{
+"prop": "P3373",
+"name": "Otto Mahler",
+"occupations": [
+"composer",
+"musician"
+],
+"marriedTo": []
+},
+{
+"prop": "P3373",
+"name": "Justine Rosé",
+"occupations": [],
+"marriedTo": [
+"Arnold Rosé"
+]
+}
+]
 },
 "Q7306677": {
 "_label": "Reed Miller",
@@ -22500,7 +25488,17 @@
 "voice"
 ],
 "_description": "American singer (1880–1923)",
-"_enwiki": "Reed Miller"
+"_enwiki": "Reed Miller",
+"_relatives": [
+{
+"prop": "P26",
+"name": "Nevada Van der Veer",
+"occupations": [
+"singer"
+],
+"marriedTo": []
+}
+]
 },
 "Q7311": {
 "_label": "Giacomo Puccini",
@@ -22570,7 +25568,37 @@
 "organ"
 ],
 "_description": "Italian opera composer (1858–1924)",
-"_enwiki": "Giacomo Puccini"
+"_enwiki": "Giacomo Puccini",
+"_relatives": [
+{
+"prop": "P22",
+"name": "Michele Puccini",
+"occupations": [
+"composer",
+"organist"
+],
+"marriedTo": []
+},
+{
+"prop": "P1038",
+"name": "Giacomo Puccini",
+"occupations": [
+"composer",
+"conductor",
+"organist"
+],
+"marriedTo": []
+},
+{
+"prop": "P1038",
+"name": "Domenico Puccini",
+"occupations": [
+"composer",
+"organist"
+],
+"marriedTo": []
+}
+]
 },
 "Q7312": {
 "_label": "Franz Schubert",
@@ -22636,7 +25664,27 @@
 "Maria Theresia Schubert"
 ],
 "_description": "Austrian composer (1797–1828)",
-"_enwiki": "Franz Schubert"
+"_enwiki": "Franz Schubert",
+"_relatives": [
+{
+"prop": "P22",
+"name": "Franz Theodor Schubert",
+"occupations": [
+"composer"
+],
+"marriedTo": []
+},
+{
+"prop": "P3373",
+"name": "Ferdinand Schubert",
+"occupations": [
+"composer",
+"organist",
+"choir director"
+],
+"marriedTo": []
+}
+]
 },
 "Q7312695": {
 "_label": "Renato Zanelli",
@@ -22669,7 +25717,19 @@
 "Carlo Morelli"
 ],
 "_description": "Chilean opera singer (1892–1935)",
-"_enwiki": "Renato Zanelli"
+"_enwiki": "Renato Zanelli",
+"_relatives": [
+{
+"prop": "P3373",
+"name": "Carlo Morelli",
+"occupations": [
+"singer",
+"musician",
+"opera singer"
+],
+"marriedTo": []
+}
+]
 },
 "Q7315": {
 "_label": "Pyotr Ilyich Tchaikovsky",
@@ -22768,7 +25828,27 @@
 "Aleksandra Davydova"
 ],
 "_description": "Russian composer (1840–1893)",
-"_enwiki": "Pyotr Ilyich Tchaikovsky"
+"_enwiki": "Pyotr Ilyich Tchaikovsky",
+"_relatives": [
+{
+"prop": "P26",
+"name": "Antonina Miliukova",
+"occupations": [
+"pianist"
+],
+"marriedTo": []
+},
+{
+"prop": "P3373",
+"name": "Modest Tchaikovsky",
+"occupations": [
+"composer",
+"librettist",
+"theatre critic"
+],
+"marriedTo": []
+}
+]
 },
 "Q7317": {
 "_label": "Giuseppe Verdi",
@@ -22842,7 +25922,25 @@
 "piano"
 ],
 "_description": "Italian opera composer (1813–1901)",
-"_enwiki": "Giuseppe Verdi"
+"_enwiki": "Giuseppe Verdi",
+"_relatives": [
+{
+"prop": "P26",
+"name": "Giuseppina Strepponi",
+"occupations": [
+"opera singer"
+],
+"marriedTo": []
+},
+{
+"prop": "P26",
+"name": "Margherita Barezzi",
+"occupations": [
+"composer"
+],
+"marriedTo": []
+}
+]
 },
 "Q7324433": {
 "_label": "Richard Buhlig",
@@ -22884,7 +25982,8 @@
 "piano"
 ],
 "_description": "American musician (1880–1952)",
-"_enwiki": "Richard Buhlig"
+"_enwiki": "Richard Buhlig",
+"_relatives": []
 },
 "Q732784": {
 "_label": "Wanderer Fantasy",
@@ -22933,7 +26032,8 @@
 "voice"
 ],
 "_description": "singer (1878–1922)",
-"_enwiki": "Rita Fornia"
+"_enwiki": "Rita Fornia",
+"_relatives": []
 },
 "Q733814": {
 "_label": "John McCormack",
@@ -22974,7 +26074,8 @@
 "voice"
 ],
 "_description": "Irish tenor (1884–1945)",
-"_enwiki": "John McCormack (tenor)"
+"_enwiki": "John McCormack (tenor)",
+"_relatives": []
 },
 "Q7349": {
 "_label": "Joseph Haydn",
@@ -23052,7 +26153,39 @@
 "Michael Haydn"
 ],
 "_description": "Austrian composer (1732–1809)",
-"_enwiki": "Joseph Haydn"
+"_enwiki": "Joseph Haydn",
+"_relatives": [
+{
+"prop": "P22",
+"name": "Mathias Haydn",
+"occupations": [
+"composer",
+"musician",
+"harpist"
+],
+"marriedTo": []
+},
+{
+"prop": "P3373",
+"name": "Johann Evangelist Haydn",
+"occupations": [
+"composer",
+"singer",
+"organist"
+],
+"marriedTo": []
+},
+{
+"prop": "P3373",
+"name": "Michael Haydn",
+"occupations": [
+"composer",
+"conductor",
+"organist"
+],
+"marriedTo": []
+}
+]
 },
 "Q7351": {
 "_label": "Robert Schumann",
@@ -23143,7 +26276,46 @@
 "Karl Schumann"
 ],
 "_description": "German composer, pianist and critic (1810–1856)",
-"_enwiki": "Robert Schumann"
+"_enwiki": "Robert Schumann",
+"_relatives": [
+{
+"prop": "P26",
+"name": "Clara Schumann",
+"occupations": [
+"composer",
+"pianist",
+"music arranger"
+],
+"marriedTo": []
+},
+{
+"prop": "P40",
+"name": "Eugenie Schumann",
+"occupations": [
+"pianist",
+"piano teacher"
+],
+"marriedTo": []
+},
+{
+"prop": "P40",
+"name": "Marie Schumann",
+"occupations": [
+"pianist",
+"music teacher",
+"piano teacher"
+],
+"marriedTo": []
+},
+{
+"prop": "P451",
+"name": "Ernestine von Fricken",
+"occupations": [
+"pianist"
+],
+"marriedTo": []
+}
+]
 },
 "Q7386135": {
 "_label": "Réminiscences de Don Juan",
@@ -23222,7 +26394,18 @@
 "piano"
 ],
 "_description": "Hungarian born German classical pianist (1875–1942)",
-"_enwiki": "Gisella Grosz"
+"_enwiki": "Gisella Grosz",
+"_relatives": [
+{
+"prop": "P26",
+"name": "Adolf Weissmann",
+"occupations": [
+"music critic",
+"musicologist"
+],
+"marriedTo": []
+}
+]
 },
 "Q745951": {
 "_label": "Faust",
@@ -23416,7 +26599,8 @@
 "voice"
 ],
 "_description": "American singer (1892–1935)",
-"_enwiki": "Sophie Braslau"
+"_enwiki": "Sophie Braslau",
+"_relatives": []
 },
 "Q767249": {
 "_label": "Rinaldo",
@@ -23583,7 +26767,8 @@
 "piano"
 ],
 "_description": "American pianist and composer (1889–1918)",
-"_enwiki": "Felix Arndt"
+"_enwiki": "Felix Arndt",
+"_relatives": []
 },
 "Q7811203": {
 "_label": "To an Evening Star",
@@ -23723,7 +26908,8 @@
 "violin"
 ],
 "_description": "Austrian violinist and composer (1875-1962)",
-"_enwiki": "Fritz Kreisler"
+"_enwiki": "Fritz Kreisler",
+"_relatives": []
 },
 "Q78532": {
 "_label": "Ernő Dohnányi",
@@ -23799,7 +26985,37 @@
 "piano"
 ],
 "_description": "Hungarian conductor, composer, and pianist (1877–1960)",
-"_enwiki": "Ernst von Dohnányi"
+"_enwiki": "Ernst von Dohnányi",
+"_relatives": [
+{
+"prop": "P22",
+"name": "Frigyes Dohnányi",
+"occupations": [
+"music teacher"
+],
+"marriedTo": []
+},
+{
+"prop": "P26",
+"name": "Elsa Marguérite Galafrés",
+"occupations": [
+"singer",
+"pianist",
+"opera singer"
+],
+"marriedTo": [
+"Bronisław Huberman"
+]
+},
+{
+"prop": "P1038",
+"name": "Christoph von Dohnányi",
+"occupations": [
+"conductor"
+],
+"marriedTo": []
+}
+]
 },
 "Q78585": {
 "_label": "Leo Fall",
@@ -23850,7 +27066,45 @@
 "Siegfried Fall"
 ],
 "_description": "Austrian composer (1873–1925)",
-"_enwiki": "Leo Fall"
+"_enwiki": "Leo Fall",
+"_relatives": [
+{
+"prop": "P22",
+"name": "Moritz Fall",
+"occupations": [
+"composer"
+],
+"marriedTo": []
+},
+{
+"prop": "P1038",
+"name": "Fritz Fall",
+"occupations": [
+"composer",
+"conductor"
+],
+"marriedTo": []
+},
+{
+"prop": "P3373",
+"name": "Richard Fall",
+"occupations": [
+"composer",
+"conductor",
+"pianist"
+],
+"marriedTo": []
+},
+{
+"prop": "P3373",
+"name": "Siegfried Fall",
+"occupations": [
+"composer",
+"pianist"
+],
+"marriedTo": []
+}
+]
 },
 "Q78657": {
 "_label": "Alfred Grünfeld",
@@ -23908,7 +27162,28 @@
 "Heinrich Grünfeld"
 ],
 "_description": "Czech composer and pianist (1852–1924)",
-"_enwiki": "Alfred Grünfeld"
+"_enwiki": "Alfred Grünfeld",
+"_relatives": [
+{
+"prop": "P1038",
+"name": "Arnoštka Grünfeldová",
+"occupations": [
+"pianist",
+"music educator"
+],
+"marriedTo": []
+},
+{
+"prop": "P3373",
+"name": "Heinrich Grünfeld",
+"occupations": [
+"composer",
+"conductor",
+"music teacher"
+],
+"marriedTo": []
+}
+]
 },
 "Q78982": {
 "_label": "Emil Paur",
@@ -23939,7 +27214,8 @@
 "violin"
 ],
 "_description": "Austrian conductor (1855-1932)",
-"_enwiki": "Emil Paur"
+"_enwiki": "Emil Paur",
+"_relatives": []
 },
 "Q79035": {
 "_label": "Ernestine Schumann-Heink",
@@ -23995,7 +27271,8 @@
 "voice"
 ],
 "_description": "Austrian-American singer (1861–1936)",
-"_enwiki": "Ernestine Schumann-Heink"
+"_enwiki": "Ernestine Schumann-Heink",
+"_relatives": []
 },
 "Q7966834": {
 "_label": "Waltz No. 5 in A-flat major, Op. 42",
@@ -24082,7 +27359,46 @@
 "John Grieg"
 ],
 "_description": "Norwegian composer and pianist (1843–1907)",
-"_enwiki": "Edvard Grieg"
+"_enwiki": "Edvard Grieg",
+"_relatives": [
+{
+"prop": "P25",
+"name": "Gesine Hagerup",
+"occupations": [
+"pianist",
+"music teacher"
+],
+"marriedTo": []
+},
+{
+"prop": "P26",
+"name": "Nina Grieg",
+"occupations": [
+"composer",
+"singer",
+"pianist"
+],
+"marriedTo": []
+},
+{
+"prop": "P1038",
+"name": "Ole Bull",
+"occupations": [
+"composer",
+"conductor",
+"musician"
+],
+"marriedTo": []
+},
+{
+"prop": "P3373",
+"name": "John Grieg",
+"occupations": [
+"cellist"
+],
+"marriedTo": []
+}
+]
 },
 "Q8076045": {
 "_label": "Zélie de Lussan",
@@ -24115,7 +27431,8 @@
 "voice"
 ],
 "_description": "American opera singer (1861–1949)",
-"_enwiki": "Zélie de Lussan"
+"_enwiki": "Zélie de Lussan",
+"_relatives": []
 },
 "Q817524": {
 "_label": "Benjamin Godard",
@@ -24170,7 +27487,25 @@
 "Magdeleine Godard"
 ],
 "_description": "French violinist and composer (1849–1895)",
-"_enwiki": "Benjamin Godard"
+"_enwiki": "Benjamin Godard",
+"_relatives": [
+{
+"prop": "P3373",
+"name": "Amédée Godard",
+"occupations": [
+"composer"
+],
+"marriedTo": []
+},
+{
+"prop": "P3373",
+"name": "Magdeleine Godard",
+"occupations": [
+"violinist"
+],
+"marriedTo": []
+}
+]
 },
 "Q826818": {
 "_label": "Max Pauer",
@@ -24208,7 +27543,19 @@
 "P1303": [
 "piano"
 ],
-"_description": "German pianist, teacher, and composer (1866–1945)"
+"_description": "German pianist, teacher, and composer (1866–1945)",
+"_relatives": [
+{
+"prop": "P22",
+"name": "Ernst Pauer",
+"occupations": [
+"composer",
+"pianist",
+"music educator"
+],
+"marriedTo": []
+}
+]
 },
 "Q83309": {
 "_label": "Johann Strauss II",
@@ -24287,7 +27634,60 @@
 "Anna Strauss"
 ],
 "_description": "Austrian composer (1825-1899)",
-"_enwiki": "Johann Strauss II"
+"_enwiki": "Johann Strauss II",
+"_relatives": [
+{
+"prop": "P22",
+"name": "Johann Strauss I",
+"occupations": [
+"composer",
+"conductor"
+],
+"marriedTo": []
+},
+{
+"prop": "P25",
+"name": "Maria Anna Streim",
+"occupations": [],
+"marriedTo": [
+"Johann Strauss I"
+]
+},
+{
+"prop": "P26",
+"name": "Henrietta Treffz",
+"occupations": [
+"opera singer"
+],
+"marriedTo": []
+},
+{
+"prop": "P26",
+"name": "Angelika Strauss",
+"occupations": [
+"singer"
+],
+"marriedTo": []
+},
+{
+"prop": "P3373",
+"name": "Joseph Strauss",
+"occupations": [
+"composer",
+"conductor"
+],
+"marriedTo": []
+},
+{
+"prop": "P3373",
+"name": "Eduard Strauss",
+"occupations": [
+"composer",
+"conductor"
+],
+"marriedTo": []
+}
+]
 },
 "Q842063": {
 "_label": "Manon",
@@ -24426,7 +27826,101 @@
 "Johann Nepomuk Weber"
 ],
 "_description": "Austrian singer",
-"_enwiki": "Constanze Mozart"
+"_enwiki": "Constanze Mozart",
+"_relatives": [
+{
+"prop": "P22",
+"name": "Franz Fridolin Weber",
+"occupations": [
+"singer",
+"opera singer"
+],
+"marriedTo": []
+},
+{
+"prop": "P26",
+"name": "Wolfgang Amadeus Mozart",
+"occupations": [
+"composer",
+"conductor",
+"pianist"
+],
+"marriedTo": []
+},
+{
+"prop": "P26",
+"name": "Georg Nikolaus von Nissen",
+"occupations": [
+"composer",
+"music historian"
+],
+"marriedTo": []
+},
+{
+"prop": "P40",
+"name": "Franz Xaver Wolfgang Mozart",
+"occupations": [
+"composer",
+"conductor",
+"pianist"
+],
+"marriedTo": []
+},
+{
+"prop": "P40",
+"name": "Carl Thomas Mozart",
+"occupations": [
+"composer",
+"pianist"
+],
+"marriedTo": []
+},
+{
+"prop": "P1038",
+"name": "Joseph Lange",
+"occupations": [
+"composer",
+"conductor"
+],
+"marriedTo": [
+"Aloysia Weber",
+"Maria Anna Mozart"
+]
+},
+{
+"prop": "P3373",
+"name": "Josepha Weber",
+"occupations": [
+"opera singer"
+],
+"marriedTo": [
+"Sebastian Mayer"
+]
+},
+{
+"prop": "P3373",
+"name": "Aloysia Weber",
+"occupations": [
+"composer",
+"singer",
+"opera singer"
+],
+"marriedTo": [
+"Joseph Lange"
+]
+},
+{
+"prop": "P3373",
+"name": "Sophie Weber",
+"occupations": [
+"singer",
+"opera singer"
+],
+"marriedTo": [
+"Jakob Haibel"
+]
+}
+]
 },
 "Q84605": {
 "_label": "Fannie Bloomfield Zeisler",
@@ -24467,7 +27961,8 @@
 "Maurice Bloomfield"
 ],
 "_description": "American musician (1863–1927)",
-"_enwiki": "Fannie Bloomfield Zeisler"
+"_enwiki": "Fannie Bloomfield Zeisler",
+"_relatives": []
 },
 "Q847300": {
 "_label": "Children's Corner",
@@ -24523,7 +28018,8 @@
 "P937": [
 "Paris"
 ],
-"_description": "pianist (1897-1980)"
+"_description": "pianist (1897-1980)",
+"_relatives": []
 },
 "Q85790107": {
 "_label": "O soave fanciulla",
@@ -24632,7 +28128,8 @@
 "voice"
 ],
 "_description": "German soprano singer (1885–1955)",
-"_enwiki": "Frieda Hempel"
+"_enwiki": "Frieda Hempel",
+"_relatives": []
 },
 "Q87567": {
 "_label": "Anton Rubinstein",
@@ -24706,7 +28203,27 @@
 "Sofia Grigorievna Rubinstein"
 ],
 "_description": "Russian pianist, composer and conductor (1829–1894)",
-"_enwiki": "Anton Rubinstein"
+"_enwiki": "Anton Rubinstein",
+"_relatives": [
+{
+"prop": "P3373",
+"name": "Nikolai Rubinstein",
+"occupations": [
+"composer",
+"conductor",
+"pianist"
+],
+"marriedTo": []
+},
+{
+"prop": "P3373",
+"name": "Sofia Grigorievna Rubinstein",
+"occupations": [
+"musician"
+],
+"marriedTo": []
+}
+]
 },
 "Q876833": {
 "_label": "Heinrich Reinhardt",
@@ -24735,7 +28252,8 @@
 "Anton Bruckner"
 ],
 "_description": "Austrian composer (1865-1922)",
-"_enwiki": "Heinrich Reinhardt (composer)"
+"_enwiki": "Heinrich Reinhardt (composer)",
+"_relatives": []
 },
 "Q88090": {
 "_label": "Richard Fall",
@@ -24777,7 +28295,45 @@
 "Siegfried Fall"
 ],
 "_description": "Austrian composer",
-"_enwiki": "Richard Fall"
+"_enwiki": "Richard Fall",
+"_relatives": [
+{
+"prop": "P22",
+"name": "Moritz Fall",
+"occupations": [
+"composer"
+],
+"marriedTo": []
+},
+{
+"prop": "P1038",
+"name": "Fritz Fall",
+"occupations": [
+"composer",
+"conductor"
+],
+"marriedTo": []
+},
+{
+"prop": "P3373",
+"name": "Leo Fall",
+"occupations": [
+"composer",
+"conductor",
+"pianist"
+],
+"marriedTo": []
+},
+{
+"prop": "P3373",
+"name": "Siegfried Fall",
+"occupations": [
+"composer",
+"pianist"
+],
+"marriedTo": []
+}
+]
 },
 "Q88593914": {
 "_label": "Alice Ripper",
@@ -24800,7 +28356,8 @@
 "P570": [
 "1961-01-19T00:00:00Z"
 ],
-"_description": "Hungarian pianist"
+"_description": "Hungarian pianist",
+"_relatives": []
 },
 "Q8862782": {
 "_label": "Leopold Leon Lewandowski",
@@ -24832,7 +28389,8 @@
 "P1303": [
 "violin"
 ],
-"_description": "composer (1831-1896)"
+"_description": "composer (1831-1896)",
+"_relatives": []
 },
 "Q900744": {
 "_label": "Semiramide",
@@ -24934,7 +28492,19 @@
 "piano"
 ],
 "_description": "German pianist and piano teacher",
-"_enwiki": "Frieda Kwast-Hodapp"
+"_enwiki": "Frieda Kwast-Hodapp",
+"_relatives": [
+{
+"prop": "P26",
+"name": "James Kwast",
+"occupations": [
+"composer",
+"pianist",
+"musicologist"
+],
+"marriedTo": []
+}
+]
 },
 "Q908534": {
 "_label": "Piano Sonata No. 11",
@@ -24981,7 +28551,8 @@
 "piano"
 ],
 "_description": "German composer (1854–1931)",
-"_enwiki": "Oscar Fetrás"
+"_enwiki": "Oscar Fetrás",
+"_relatives": []
 },
 "Q918714": {
 "_label": "Roméo et Juliete",
@@ -25179,7 +28750,50 @@
 "Voin Rimsky-Korsakov"
 ],
 "_description": "Russian composer (1844–1908)",
-"_enwiki": "Nikolai Rimsky-Korsakov"
+"_enwiki": "Nikolai Rimsky-Korsakov",
+"_relatives": [
+{
+"prop": "P26",
+"name": "Nadezhda Rimskaya-Korsakova",
+"occupations": [
+"composer",
+"pianist",
+"music arranger"
+],
+"marriedTo": []
+},
+{
+"prop": "P40",
+"name": "Andrey Rimsky-Korsakov",
+"occupations": [
+"music critic",
+"musicologist"
+],
+"marriedTo": [
+"Yuliya Veysberg"
+]
+},
+{
+"prop": "P40",
+"name": "Vladimir Rimsky-Korsakov",
+"occupations": [
+"violinist",
+"musicologist",
+"music educator"
+],
+"marriedTo": []
+},
+{
+"prop": "P1038",
+"name": "Yuliya Veysberg",
+"occupations": [
+"composer",
+"music critic",
+"musicologist"
+],
+"marriedTo": []
+}
+]
 },
 "Q933915": {
 "_label": "Lucrezia Bori",
@@ -25214,7 +28828,8 @@
 "voice"
 ],
 "_description": "Spanish opera singer (1887–1960)",
-"_enwiki": "Lucrezia Bori"
+"_enwiki": "Lucrezia Bori",
+"_relatives": []
 },
 "Q941678": {
 "_label": "Archibald Joyce",
@@ -25238,7 +28853,8 @@
 "1963-03-22T00:00:00Z"
 ],
 "_description": "British composer (1873-1963)",
-"_enwiki": "Archibald Joyce"
+"_enwiki": "Archibald Joyce",
+"_relatives": []
 },
 "Q944986": {
 "_label": "Giovanni Martinelli",
@@ -25278,7 +28894,8 @@
 "voice"
 ],
 "_description": "Italian operatic tenor (1880–1969)",
-"_enwiki": "Giovanni Martinelli"
+"_enwiki": "Giovanni Martinelli",
+"_relatives": []
 },
 "Q951486": {
 "_label": "Josef Lhévinne",
@@ -25329,7 +28946,19 @@
 "piano"
 ],
 "_description": "Russian pianist (1874–1944)",
-"_enwiki": "Josef Lhévinne"
+"_enwiki": "Josef Lhévinne",
+"_relatives": [
+{
+"prop": "P26",
+"name": "Rosina Lhévinne",
+"occupations": [
+"pianist",
+"musician",
+"music educator"
+],
+"marriedTo": []
+}
+]
 },
 "Q951933": {
 "_label": "Félicien-César David",
@@ -25375,7 +29004,8 @@
 "François Benoist"
 ],
 "_description": "French composer (1810–1876)",
-"_enwiki": "Félicien David"
+"_enwiki": "Félicien David",
+"_relatives": []
 },
 "Q952983": {
 "_label": "Edmond Audran",
@@ -25421,7 +29051,17 @@
 "organ"
 ],
 "_description": "French composer (1840–1901)",
-"_enwiki": "Edmond Audran"
+"_enwiki": "Edmond Audran",
+"_relatives": [
+{
+"prop": "P22",
+"name": "Marius Audran",
+"occupations": [
+"opera singer"
+],
+"marriedTo": []
+}
+]
 },
 "Q952991": {
 "_label": "Giuseppe De Luca",
@@ -25464,7 +29104,8 @@
 "voice"
 ],
 "_description": "Italian opera singer (1876-1950)",
-"_enwiki": "Giuseppe De Luca"
+"_enwiki": "Giuseppe De Luca",
+"_relatives": []
 },
 "Q954019": {
 "_label": "Sebastián Iradier",
@@ -25494,7 +29135,8 @@
 "1865-12-06T00:00:00Z"
 ],
 "_description": "Spanish composer from Basque Country",
-"_enwiki": "Sebastián Iradier"
+"_enwiki": "Sebastián Iradier",
+"_relatives": []
 },
 "Q96176": {
 "_label": "Johanna Gadski",
@@ -25532,7 +29174,17 @@
 "voice"
 ],
 "_description": "German-born operatic soprano",
-"_enwiki": "Johanna Gadski"
+"_enwiki": "Johanna Gadski",
+"_relatives": [
+{
+"prop": "P40",
+"name": "Lotte Tauscher",
+"occupations": [
+"singer"
+],
+"marriedTo": []
+}
+]
 },
 "Q96371706": {
 "_label": "Albumblätter",
@@ -25596,7 +29248,8 @@
 "trumpet"
 ],
 "_description": "Spanish composer (1851–1909)",
-"_enwiki": "Ruperto Chapí"
+"_enwiki": "Ruperto Chapí",
+"_relatives": []
 },
 "Q96744123": {
 "_label": "Q96744123",
@@ -25627,7 +29280,8 @@
 "P570": [
 "1951-08-07T00:00:00Z"
 ],
-"_description": "American baritone, recording artist (1877-1951)"
+"_description": "American baritone, recording artist (1877-1951)",
+"_relatives": []
 },
 "Q969684": {
 "_label": "All-Night Vigil",
@@ -25684,7 +29338,8 @@
 "1948-09-22T00:00:00Z"
 ],
 "_description": "American singer and actor",
-"_enwiki": "Eugene Cowles"
+"_enwiki": "Eugene Cowles",
+"_relatives": []
 },
 "Q9726": {
 "_label": "Gioachino Rossini",
@@ -25763,7 +29418,26 @@
 "cello"
 ],
 "_description": "Italian opera composer (1792–1868)",
-"_enwiki": "Gioachino Rossini"
+"_enwiki": "Gioachino Rossini",
+"_relatives": [
+{
+"prop": "P25",
+"name": "Anna Guidarini",
+"occupations": [
+"opera singer"
+],
+"marriedTo": []
+},
+{
+"prop": "P26",
+"name": "Isabella Colbran",
+"occupations": [
+"composer",
+"opera singer"
+],
+"marriedTo": []
+}
+]
 },
 "Q97311359": {
 "_label": "Rondo capriccioso",
@@ -25818,7 +29492,8 @@
 "piano"
 ],
 "_description": "American conductor (1876–1939)",
-"_enwiki": "Ernest Schelling"
+"_enwiki": "Ernest Schelling",
+"_relatives": []
 },
 "Q984983": {
 "_label": "La bohème",
