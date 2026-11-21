@@ -40,34 +40,36 @@ def clean_vals(vals, banned):
         out.append(v)
     return out
 
+MUSICAL = re.compile(r"(?i)music|musik|musique|musica|muzy|opera|oper\b|philharm|symphon|orchest|conservat|konservat|hochschule|academy of music|beaux-arts|prix de rome|grammy|choir|chor\b|quartet|kammersänger|singer|piano|violin|organ|composer|composition|concert|theat|scala|liceu|covent|bayreuth|juilliard|curtis|schola cantorum")
 def person_clues(qid, banned, subj):
+    """Only things that say something about the musician: teachers, pupils, music schools, posts, where they lived and worked."""
     f = facts.get(qid) or {}
     c = []
     def add(lvl, text): c.append({"t": text, "lvl": lvl})
-    v = clean_vals(f.get("P119"), banned)
-    if v: add(1, f"{subj} is buried " + ("at " if re.search(r"(?i)cemetery|friedhof|cimitero|cimetière|church|abbey|cathedral|basilica|chapel|kirche|mausoleum|pantheon|panthéon|crypt|tomb", v[0]) else "in ") + v[0])
-    v = clean_vals(f.get("P166"), banned)
-    if v: add(1, f"{subj} received the {v[0]}")
-    v = clean_vals(f.get("P26"), banned)
-    if v: add(1, f"{subj} was married to {listing(v)}")
+    the = lambda x: x if re.match(r"(?i)the ", x) else "the " + x
+    music = lambda vals: [x for x in vals if MUSICAL.search(x)]
     v = clean_vals(f.get("P802"), banned)
     if v: add(1, f"{subj} taught {listing(v)}")
-    v = clean_vals(f.get("P20"), banned)
-    if v: add(1, f"{subj} died in {v[0]}")
-    for p, rel in (("P22", "father"), ("P25", "mother")):
-        v = clean_vals(f.get(p), banned)
-        if v: add(1, f"{subj}'s {rel} was {v[0]}")
+    v = [x for x in music(clean_vals(f.get("P166"), banned)) if not re.match(r"(?i)honorary", x)]
+    if v: add(1, f"{subj} received the {v[0]}")
     v = clean_vals(f.get("P1066"), banned)
-    if v: add(2, f"{subj} studied with {listing(v)}")
-    v = clean_vals(f.get("P69"), banned)
-    if v: add(2, f"{subj} studied at the {v[0]}" if not v[0].lower().startswith("the ") else f"{subj} studied at {v[0]}")
-    the = lambda x: x if re.match(r"(?i)the ", x) else "the " + x
-    v = [x for x in clean_vals(f.get("P108"), banned) if not re.search(r"(?i)welte|victor|columbia|edison|aeolian|ampico|duo-art", x)]
-    if v: add(2, f"{subj} worked at {the(v[0])}" if re.search(r"(?i)universit|conservat|hochschule|academ|school|college|institut|opera|theat|orchest", v[0]) else f"{subj} worked for {v[0]}")
-    v = clean_vals(f.get("P463"), banned)
+    if v: add(1, f"{subj} studied with {listing(v)}")
+    v = music(clean_vals(f.get("P69"), banned))
+    if v: add(2, f"{subj} studied at {the(v[0])}")
+    v = [x for x in music(clean_vals(f.get("P108"), banned)) if not re.search(r"(?i)welte|victor|columbia|edison|aeolian|ampico|duo-art", x)]
+    if v: add(2, f"{subj} worked at {the(v[0])}")
+    v = music(clean_vals(f.get("P463"), banned))
     if v: add(2, f"{subj} was a member of {the(v[0])}")
-    v = [x for x in clean_vals(f.get("P800"), banned) if not re.match(r"(?i)(symphony|piano sonata|sonata|string quartet|piano concerto|concerto|piano trio|mass|requiem)\b", x)]
+    places = []
+    for p in ("P937", "P551"):
+        for x in clean_vals(f.get(p), banned):
+            if x not in places: places.append(x)
+    if len(places) >= 2: add(2, f"{subj} lived and worked in {listing(places, 3)}")
+    elif places: add(2, f"{subj} worked in {places[0]}")
+    v = [x for x in clean_vals(f.get("P800"), banned) if not re.match(r"(?i)(symphony|piano sonata|sonata|string quartet|piano concerto|concerto|piano trio|mass|requiem|études?|nocturnes?|preludes?|waltz(es)?)\b", x)]
     if v: add(2, f"{subj} is known for {listing(v)}")
+    v = [x for x in clean_vals(f.get("P27"), banned) if not re.search(r"(?i)empire|kingdom|confederation|duchy|crown|congress|hamburg|bavaria|prussia|saxony|republic of|state of", x)] or []
+    if len(v) >= 2: add(2, f"{subj} held citizenship of {listing(v, 3)}")      # a move abroad (Rachmaninoff, Prokofiev ...)
     v = clean_vals(f.get("P19"), banned)
     if v: add(3, f"{subj} was born in {v[0]}")
     return c
@@ -98,33 +100,33 @@ def work_clues(qid, banned, composer_banned):
     return c
 
 # a few events for each year, for year clues (stable facts; checked by hand)
-YEARS = {
-    1900: ["Puccini's Tosca had its premiere in Rome", "the Exposition Universelle opened in Paris"],
-    1901: ["Queen Victoria died", "Rachmaninoff's Second Piano Concerto had its first complete performance", "the first Nobel Prizes were awarded"],
-    1902: ["Debussy's Pelléas et Mélisande had its premiere in Paris", "Enrico Caruso made his first recordings, in Milan"],
-    1903: ["the Wright brothers made their first powered flight"],
-    1904: ["Puccini's Madama Butterfly had its premiere at La Scala", "the New York City Subway opened"],
-    1905: ["Richard Strauss's Salome had its premiere in Dresden", "Debussy's La mer had its premiere", "Einstein published his paper on special relativity"],
-    1906: ["the San Francisco earthquake struck while Caruso was in the city", "Victor introduced the Victrola"],
-    1907: ["Gustav Mahler left the Vienna Court Opera", "Picasso painted Les Demoiselles d'Avignon"],
-    1908: ["Gustav Mahler made his debut at the Metropolitan Opera", "Ford introduced the Model T"],
-    1909: ["Rachmaninoff's Third Piano Concerto had its premiere in New York", "Richard Strauss's Elektra had its premiere"],
-    1910: ["Puccini's La fanciulla del West had its premiere at the Metropolitan Opera", "Stravinsky's The Firebird had its premiere in Paris"],
-    1911: ["Gustav Mahler died", "Richard Strauss's Der Rosenkavalier had its premiere", "Stravinsky's Petrushka had its premiere"],
-    1912: ["the Titanic sank", "Schoenberg's Pierrot lunaire had its premiere"],
+YEARS = {   # music only: premieres, deaths, recording milestones (checked by hand)
+    1900: ["Puccini's Tosca had its premiere in Rome", "Elgar's The Dream of Gerontius had its premiere in Birmingham", "Charpentier's Louise had its premiere in Paris"],
+    1901: ["Giuseppe Verdi died", "Rachmaninoff's Second Piano Concerto had its first complete performance", "Dvořák's Rusalka had its premiere in Prague"],
+    1902: ["Debussy's Pelléas et Mélisande had its premiere in Paris", "Enrico Caruso made his first recordings, in Milan", "Cilea's Adriana Lecouvreur had its premiere in Milan"],
+    1903: ["Hugo Wolf died", "Enrico Caruso made his debut at the Metropolitan Opera"],
+    1904: ["Puccini's Madama Butterfly had its premiere at La Scala", "Antonín Dvořák died", "Janáček's Jenůfa had its premiere in Brno"],
+    1905: ["Richard Strauss's Salome had its premiere in Dresden", "Debussy's La mer had its premiere", "Lehár's The Merry Widow had its premiere in Vienna"],
+    1906: ["Victor introduced the Victrola", "Anton Arensky died", "the San Francisco earthquake struck while Caruso was singing there"],
+    1907: ["Edvard Grieg died", "Gustav Mahler left the Vienna Court Opera"],
+    1908: ["Gustav Mahler made his debut at the Metropolitan Opera", "Nikolai Rimsky-Korsakov died", "Pablo de Sarasate died"],
+    1909: ["Rachmaninoff's Third Piano Concerto had its premiere in New York", "Richard Strauss's Elektra had its premiere in Dresden", "Isaac Albéniz died"],
+    1910: ["Puccini's La fanciulla del West had its premiere at the Metropolitan Opera", "Stravinsky's The Firebird had its premiere in Paris", "Mahler's Eighth Symphony had its premiere in Munich"],
+    1911: ["Gustav Mahler died", "Richard Strauss's Der Rosenkavalier had its premiere in Dresden", "Stravinsky's Petrushka had its premiere in Paris"],
+    1912: ["Schoenberg's Pierrot lunaire had its premiere in Berlin", "Jules Massenet died", "Ravel's Daphnis et Chloé had its premiere in Paris"],
     1913: ["Stravinsky's The Rite of Spring had its riotous premiere in Paris"],
-    1914: ["the First World War began"],
-    1915: ["the Lusitania was sunk"],
-    1916: ["Enrique Granados died when the Sussex was torpedoed", "the Battle of the Somme was fought"],
-    1917: ["the United States entered the First World War", "the first jazz record was made, by the Original Dixieland Jass Band"],
-    1918: ["the First World War ended", "Claude Debussy died", "Puccini's Il trittico had its premiere at the Metropolitan Opera"],
-    1919: ["the Treaty of Versailles was signed"],
-    1920: ["women in the United States won the right to vote", "regular commercial radio broadcasting began"],
-    1921: ["Enrico Caruso died"],
-    1922: ["the BBC was founded", "Tutankhamun's tomb was found"],
-    1923: ["the Charleston dance craze began with the song of the same name"],
-    1924: ["Gershwin's Rhapsody in Blue had its premiere", "Giacomo Puccini died"],
-    1925: ["Victor and Columbia began making records with microphones (electrical recording)", "Berg's Wozzeck had its premiere in Berlin"],
+    1914: ["Vaughan Williams's A London Symphony had its premiere"],
+    1915: ["Alexander Scriabin died", "Karl Goldmark died"],
+    1916: ["Enrique Granados died when the Sussex was torpedoed", "Max Reger died"],
+    1917: ["the first jazz record was made, by the Original Dixieland Jass Band", "Prokofiev wrote his Classical Symphony"],
+    1918: ["Claude Debussy died", "Puccini's Il trittico had its premiere at the Metropolitan Opera", "Arrigo Boito died", "Prokofiev left Russia for America"],
+    1919: ["Ruggero Leoncavallo died", "Elgar's Cello Concerto had its premiere in London"],
+    1920: ["Max Bruch died", "Holst's The Planets had its first complete public performance"],
+    1921: ["Enrico Caruso died", "Camille Saint-Saëns died", "Engelbert Humperdinck died"],
+    1922: ["Ravel orchestrated Mussorgsky's Pictures at an Exhibition"],
+    1923: ["Bartók wrote his Dance Suite", "Honegger's Pacific 231 had its premiere"],
+    1924: ["Gershwin's Rhapsody in Blue had its premiere", "Giacomo Puccini died", "Gabriel Fauré died", "Ferruccio Busoni died"],
+    1925: ["Victor and Columbia began making records with microphones (electrical recording)", "Berg's Wozzeck had its premiere in Berlin", "Erik Satie died"],
 }
 
 out = {"people": {}, "composers": {}, "works": {}, "years": {str(y): v for y, v in YEARS.items()}}

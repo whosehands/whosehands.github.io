@@ -1,6 +1,6 @@
 # Whose Hands
 
-A daily guessing game for historic recordings. Every day you hear a random moment from a piano roll or a 78 record made between 1900 and 1925, and you guess who's performing, the piece and the year. A Practice tab gives you as many extra puzzles as you like, and a Score tab shows a few bars of sheet music to name.
+A daily guessing game for historic recordings. Every day you hear a random moment from a piano roll or a 78 record made between 1900 and 1925, and you guess who's performing, the piece and the year. A Practice tab gives you as many extra puzzles as you like, a Score tab shows a few bars of sheet music to name, and a Library tab lists every recording, searchable, with downloads.
 
 Play it at https://whosehands.github.io
 
@@ -10,18 +10,23 @@ Play it at https://whosehands.github.io
 - The sooner you get each answer, the more it's worth: performers up to 5, piece up to 3, year up to 2 (within 2 years counts; a wrong year tells you "earlier" or "later").
 - Naming only the right composer earns 1 point for the piece, but not after you've opened the hint that names the composer.
 - Every puzzle plays a random part of the piece, so a recording can come back later with a different section.
-- Clues work like quiz bowl: each kind (performer, piece, year) starts with obscure, specific facts and gets more obvious. Clues about what you already know are skipped.
+- The year counts as solved only when it's exact. Every year guess earns points by how close it is (half a point less per year off) and how early it came; the best guess counts. There's no earlier/later hint.
+- Clues work like quiz bowl: each kind (performer, piece, year) starts with obscure, specific facts and gets more obvious. They're all about music: teachers, pupils, conservatories, where people lived and worked, premieres, librettists, what else happened in music that year. Clues about what you already know are skipped.
 - Pieces that belong to a published set (Chopin's Études, Op. 10; Brahms's Intermezzi, Op. 117): name the set first, then pick which piece from a second list. The right set alone is worth 2 points.
 - After a round you can download the whole recording. Rolls are rendered in the browser on the same piano as the game (MP3 or lossless WAV), or as the original MIDI.
 
 ## Guess the Score
 
-A few bars of a score; name the piece. Each miss shows more bars and a clue, and you can listen to the bars. Scores are Humdrum files engraved in the browser with [Verovio](https://www.verovio.org) (LGPL-3.0, `vendor/verovio-*`).
+A few bars of a score; name the piece. Each miss shows more of the score and a clue (no sound). Scores are engraved in the browser with [Verovio](https://www.verovio.org) (LGPL-3.0, `vendor/verovio-*`).
 
 - Chopin: his first editions, encoded by The Fryderyk Chopin Institute ([humdrum-chopin-first-editions](https://github.com/pl-wnifc/humdrum-chopin-first-editions)), CC BY 4.0.
 - Mozart and Haydn piano sonatas: encoded by Craig Stuart Sapp ([mozart-piano-sonatas](https://github.com/craigsapp/mozart-piano-sonatas), [haydn-piano-sonatas](https://github.com/craigsapp/haydn-piano-sonatas)), CC BY-NC-SA 4.0.
+- The [Distant Listening Corpus](https://github.com/DCMLab) of the Digital and Cognitive Musicology Lab, EPFL (Beethoven sonatas and quartets, Bach, Corelli, Debussy, Grieg, Liszt, Schumann, Schubert, Tchaikovsky, Dvořák, Bartók, Ravel and more), CC BY-NC-SA 4.0.
+- [OpenScore Lieder](https://github.com/OpenScore/Lieder) and [OpenScore String Quartets](https://github.com/OpenScore/StringQuartets), CC0.
 
-`tools/build_scores.py` picks one edition per piece, removes the titles (so the file doesn't give the answer away) and writes `scores/` and `data/scores.json`.
+Only works that are public domain in the US and the EU: composers who died by 1930, or works dated 1930 or earlier by composers who died by 1955. IMSLP isn't used: its files are mostly scanned PDFs (pictures of pages, not notes the site can cut into bars), and whether each scan is public domain depends on the country.
+
+`tools/build_scores.py` picks one edition per piece, converts the MuseScore files to MusicXML with MuseScore 3, removes titles, credits and lyrics (so the file doesn't give the answer away) and writes `scores/` and `data/scores.json`.
 
 ## Where the music comes from
 

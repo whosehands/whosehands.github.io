@@ -55,10 +55,13 @@
   /* ---------- scoring (based on misses before the answer was found) ---------- */
   const namePts = a => (a ? [0, 5, 4, 3, 2, 1, 1, 1][a] : 0);
   const piecePts = a => (a ? (a <= 2 ? 3 : a <= 4 ? 2 : 1) : 0);
+  // The year is solved only by the exact year. Every year guess earns points by how close it is and how early it came:
+  // 2, 1.5 or 1 for the exact year (tries 1-2, 3-4, 5+), half a point less for each year off. The best guess counts.
   const yearPtsAt = a => (a ? (a <= 2 ? 2 : a <= 4 ? 1.5 : 1) : 0);
-  const YEAR_TOL = 2;                                   // a year guess within 2 years of the recording counts
+  const YEAR_TOL = 2;                                   // only for games saved under the old rule
   const yearOff = y => (y < P.yearMin ? P.yearMin - y : y > P.yearMax ? y - P.yearMax : 0);
-  const yearPts = () => yearPtsAt(S.yearAt);
+  const yearGuessPts = (y, a) => Math.max(0, yearPtsAt(a) - 0.5 * yearOff(y));
+  const yearPts = () => (S.yearBest !== undefined ? S.yearBest : yearPtsAt(S.yearAt));
   const namesScore = () => S.nameAt.reduce((s, a) => s + namePts(a) / P.performers.length, 0);
   const pieceScore = () => (S.pieceAt ? piecePts(S.pieceAt) : S.setAt ? 2 : S.composerAt ? 1 : 0);   // the right set without the piece: 2
   const total = () => Math.round((namesScore() + pieceScore() + yearPts()) * 10) / 10;
@@ -142,17 +145,18 @@
   };
 
   /* ---------- downloads ---------- */
-  const fileBase = () => `${P.performers.join(", ")} – ${P.piece.split(" – ").slice(1).join(" – ") || P.piece} (${P.yearMin})`.replace(/[\\/:*?"<>|]+/g, "").slice(0, 150);
+  const fileBase = (r = P) => `${r.performers.join(", ")} – ${r.piece.split(" – ").slice(1).join(" – ") || r.piece} (${r.yearMin})`.replace(/[\\/:*?"<>|]+/g, "").slice(0, 150);
   let lameLoading = null;
   const loadLame = () => (lameLoading = lameLoading || new Promise((res, rej) => { const s = document.createElement("script"); s.src = "vendor/lame-1.2.1.min.js"; s.onload = res; s.onerror = rej; document.head.appendChild(s); }));
-  async function downloadRoll(fmt, btn) {
+  async function downloadRoll(rec, fmt, btn) {     // renders the whole roll in the browser, on the game's piano
     const label = btn.textContent; btn.disabled = true;
     try {
       const ctx = Player.audio();
       btn.textContent = "Loading the piano…";
-      await Promise.all([Player.load(), Piano.loadAll(ctx), fmt === "mp3" ? loadLame() : null]);
-      const blob = await (fmt === "wav" ? Piano.renderWav : Piano.renderMp3)(Player.song, p => (btn.textContent = `Rendering ${Math.round(p * 100)}%`));
-      const a = document.createElement("a"); a.href = URL.createObjectURL(blob); a.download = fileBase() + "." + fmt;
+      const songP = fetch(rec.midi).then(r => r.arrayBuffer()).then(b => Piano.prepare(new Midi(b)));
+      const [song] = await Promise.all([songP, Piano.loadAll(ctx), fmt === "mp3" ? loadLame() : null]);
+      const blob = await (fmt === "wav" ? Piano.renderWav : Piano.renderMp3)(song, p => (btn.textContent = `Rendering ${Math.round(p * 100)}%`));
+      const a = document.createElement("a"); a.href = URL.createObjectURL(blob); a.download = fileBase(rec) + "." + fmt;
       document.body.appendChild(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(a.href), 60000);
       btn.textContent = label;
     } catch (e) { console.error(e); btn.textContent = "Couldn't render. Try again"; }
@@ -192,7 +196,7 @@
 
   /* ---------- game state ---------- */
   function freshState(id, frac) {
-    return { id, frac, guesses: [], misses: 0, nameAt: BY_ID[id].performers.map(() => 0), pieceAt: 0, setAt: 0, setTried: [], composerAt: 0, year: null, yearAt: 0, hints: [], done: false };
+    return { id, frac, guesses: [], misses: 0, nameAt: BY_ID[id].performers.map(() => 0), pieceAt: 0, setAt: 0, setTried: [], composerAt: 0, year: null, yearAt: 0, yearBest: 0, hints: [], done: false };
   }
   const stateKey = () => (MODE === "daily" ? "wh3-day-" + DAY : "wh3-practice");
   const save = () => store.set(stateKey(), S);
@@ -298,21 +302,14 @@
   function hintLadder(kind, i) {
     const out = [], y = P.yearMin, C = CAT.clues || {};
     if (kind === "who") {
-      const name = P.performers[i], who = whoOf(i), d = (P.performerDates || {})[name], cnt = CAT.countBy[name] || 1;
+      const name = P.performers[i], who = whoOf(i), d = (P.performerDates || {})[name];
       byLevel((C.people || {})[name] || []).forEach(c => out.push(fillClue(c.t, i)));
       const about = (P.performerAbout || {})[name];
       if (about) out.push(`${who} was ${aAn(about)}`);
       if (born(d)) out.push(`${who} ${lifeText(d)}`);
-      out.push(cnt > 1 ? `${who} is on ${cnt} recordings in this game` : `This is ${who.toLowerCase()}'s only recording in this game`);
       const words = name.split(/\s+/).filter(Boolean);
-      if (roleOf(i) === "orchestra" || /orchestra|band|quartet|trio|chorus|ensemble|company|choir/i.test(name)) {
-        out.push(`The name has ${words.length} word${words.length > 1 ? "s" : ""}`);
-        out.push(`The name starts with “${name[0]}”`);
-      } else {
-        const sn = words[words.length - 1].replace(/[^\p{L}]/gu, "");
-        out.push(`${who}'s last name has ${sn.length} letters`);
-        out.push(`${who}'s initials are ${words.filter(w => /^\p{Lu}/u.test(w)).map(w => w[0] + ".").join(" ")}`);
-      }
+      if (roleOf(i) === "orchestra" || /orchestra|band|quartet|trio|chorus|ensemble|company|choir/i.test(name)) out.push(`The name starts with “${name[0]}”`);
+      else out.push(`${who}'s initials are ${words.filter(w => /^\p{Lu}/u.test(w)).map(w => w[0] + ".").join(" ")}`);
     } else if (kind === "what") {
       const comp = !knowsComposer();
       const facts = ((C.works || {})[P.pieceKey] || []).concat(comp ? ((C.composers || {})[P.composer] || []) : []);
@@ -400,7 +397,7 @@
   }
 
   function tabsHTML(on) {
-    const t = [["daily", "#", "Daily"], ["practice", "#practice", "Practice"], ["score", "#score", "Score"]];
+    const t = [["daily", "#", "Daily"], ["practice", "#practice", "Practice"], ["score", "#score", "Score"], ["library", "#library", "Library"]];
     return `<nav class="tabs" aria-label="Mode">${t.map(([k, h, l]) => `<a href="${h}" class="${on === k ? "on" : ""}" ${on === k ? 'aria-current="page"' : ""}>${l}</a>`).join("")}</nav>`;
   }
 
@@ -417,8 +414,17 @@
       SC.keyOf = {}; SC.data.pieces.forEach(p => { SC.keyOf[norm(p.piece)] = p.answerKey; });
       Object.entries(SC.data.sets).forEach(([k, x]) => { SC.keyOf[norm(x.name)] = "set:" + k; });
       SC.index = index(names);
-      const order = SC.data.pieces.map((p, i) => [seeded(i * 7 + 3), i]).sort((a, b) => a[0] - b[0]).map(x => x[1]);
-      SC.order = order;
+      // keyboard music most days, a song or a string quartet now and then, so the many songs don't crowd out everything else
+      const grp = p => (/song/i.test(p.genre || "") ? "song" : /quartet|trio|violin|cello/i.test(p.genre || "") ? "chamber" : "keys");
+      const pools = { keys: [], song: [], chamber: [] };
+      SC.data.pieces.forEach((p, i) => pools[grp(p)].push([seeded(i * 7 + 3), i]));
+      Object.values(pools).forEach(l => l.sort((a, b) => a[0] - b[0]));
+      const pattern = ["keys", "keys", "song", "keys", "chamber", "keys", "song"], pos = { keys: 0, song: 0, chamber: 0 }, order = [];
+      for (let n = 0; order.length < SC.data.pieces.length && n < SC.data.pieces.length * 3; n++) {
+        const g = pattern[n % pattern.length], l = pools[g];
+        if (l.length) order.push(l[pos[g]++ % l.length][1]);
+      }
+      SC.order = order; SC.pools = pools;
     }
     if (!SC.vrv) {
       SC.vrv = (async () => {
@@ -429,51 +435,72 @@
     }
     SC.tk = await SC.vrv;
   }
-  function scFresh(i, frac) { return { i, frac, guesses: [], misses: 0, pieceAt: 0, setAt: 0, setTried: [], composerAt: 0, done: false }; }
+  function scFresh(i, frac) { return { i, pid: SC.data.pieces[i].id, frac, guesses: [], misses: 0, pieceAt: 0, setAt: 0, setTried: [], composerAt: 0, done: false }; }
   function scPick(practice) {
     SC.practice = practice;
     let st = store.get(scKey(), null);
-    if (!practice) { const want = SC.order[DAY % SC.order.length]; if (!st || st.i !== want) st = scFresh(want, seeded(DAY * 31 + 5)); }
-    else if (!st || !SC.data.pieces[st.i]) st = scFresh(Math.floor(Math.random() * SC.data.pieces.length), Math.random());
+    const byId = st && st.pid ? SC.data.pieces.findIndex(p => p.id === st.pid) : -1;   // a saved game keeps its piece even if the list changes
+    if (byId >= 0) st.i = byId;
+    if (!practice) { const want = SC.order[DAY % SC.order.length]; if (!st || byId < 0) st = scFresh(want, seeded(DAY * 31 + 5)); }
+    else if (!st || byId < 0) {
+      const g = ["keys", "keys", "keys", "song", "chamber"][Math.floor(Math.random() * 5)], l = SC.pools[g].length ? SC.pools[g] : SC.pools.keys;
+      st = scFresh(l[Math.floor(Math.random() * l.length)][1], Math.random());
+    }
     SC.st = st; SC.item = SC.data.pieces[st.i];
   }
-  async function scRenderPiece() {
-    const tk = SC.tk, box = document.getElementById("sc-work");
-    const kern = await (await fetch("scores/" + SC.item.id + ".krn")).text();
-    const w = Math.max(320, Math.min(760, app.clientWidth || 560));
-    tk.setOptions({ pageWidth: w < 500 ? 1500 : 1800, pageHeight: 60000, adjustPageHeight: true, breaks: "auto", header: "none", footer: "none", scale: 33,
-      pageMarginTop: 20, pageMarginBottom: 20, pageMarginLeft: 20, pageMarginRight: 20, spacingSystem: 10, systemMaxPerPage: 24 });
-    tk.loadData(kern);
-    SC.systems = [];
-    box.innerHTML = "";
+  // Long scores (a whole string quartet) are slow to lay out, so only a 40-bar window is engraved, plus the opening when a clue calls for it.
+  const SC_WINDOW = 40;
+  function scSystemsOf(tk, box, list) {
     for (let p = 1; p <= tk.getPageCount(); p++) {
       const holder = document.createElement("div"); holder.className = "sc-page"; holder.innerHTML = tk.renderToSVG(p); box.appendChild(holder);
       const root = holder.querySelector("svg"), r0 = root.getBoundingClientRect();
       holder.querySelectorAll("g.system").forEach((g, k) => {
-        const r = g.getBoundingClientRect();
-        const ms = [...g.querySelectorAll("g.measure")].map(m => m.id);
-        SC.systems.push({ page: p - 1, k, box: [r.left - r0.left - 6, r.top - r0.top - 10, r.width + 12, r.height + 20], measures: ms });
+        // measure by the bars themselves: a system's own box can include stray layout far below the music
+        const rs = [...g.querySelectorAll("g.measure > g.staff")].map(m => m.getBoundingClientRect()).filter(r => r.width && r.height);
+        if (!rs.length) return;
+        const L = Math.min(...rs.map(r => r.left)), T = Math.min(...rs.map(r => r.top)), R = Math.max(...rs.map(r => r.right)), B = Math.max(...rs.map(r => r.bottom));
+        const gl = g.getBoundingClientRect().left;
+        list.push({ pageEl: root, k, box: [Math.min(L, gl) - r0.left - 6, T - r0.top - 34, R - Math.min(L, gl) + 12, B - T + 64] });   // room for tempo marks above and dynamics below
       });
     }
-    SC.pages = [...box.children];
-    try { SC.timemap = tk.renderToTimemap({ includeMeasures: true }); } catch (e) { SC.timemap = []; }
-    try {
-      const b = atob(tk.renderToMIDI()), u = new Uint8Array(b.length); for (let i = 0; i < b.length; i++) u[i] = b.charCodeAt(i);
-      SC.song = Piano.prepare(new Midi(u));
-    } catch (e) { SC.song = null; }
+    return list;
+  }
+  async function scRenderPiece() {
+    const tk = SC.tk, box = document.getElementById("sc-work"), it = SC.item;
+    const file = it.file || "scores/" + it.id + ".krn", res = await fetch(file);
+    const data = file.endsWith(".mxl") ? await res.arrayBuffer() : await res.text();
+    const w = Math.max(320, Math.min(760, app.clientWidth || 560));
+    tk.setOptions({ pageWidth: w < 500 ? 1500 : 1800, pageHeight: 60000, adjustPageHeight: true, breaks: "auto", header: "none", footer: "none", scale: 33,
+      pageMarginTop: 20, pageMarginBottom: 20, pageMarginLeft: 20, pageMarginRight: 20, spacingSystem: 10, systemMaxPerPage: 30 });
+    if (typeof data === "string") tk.loadData(data); else tk.loadZipDataBuffer(data);
+    const M = it.measures || 0;
+    SC.windowed = M > SC_WINDOW + 16;
+    box.innerHTML = "";
+    SC.opening = null;
+    if (SC.windowed) {
+      const s0 = 1 + Math.floor(SC.st.frac * (M - SC_WINDOW));
+      SC.winStart = s0;
+      tk.select({ measureRange: `${s0}-${s0 + SC_WINDOW - 1}` }); tk.redoLayout();
+    }
+    SC.systems = scSystemsOf(tk, box, []);
+    if (SC.windowed && SC.winStart > 1) {
+      tk.select({ measureRange: "1-6" }); tk.redoLayout();
+      SC.opening = scSystemsOf(tk, box, [])[0] || null;
+    }
   }
   function scShown() {                       // which systems are visible: the chosen one, then one more after, before, after ...
     const n = SC.systems.length, st = SC.st;
-    const start = Math.min(n - 1, Math.max(n > 2 ? 1 : 0, Math.floor(st.frac * n)));
+    const start = Math.min(n - 1, Math.max(n > 2 ? 1 : 0, Math.floor((SC.windowed ? 0.35 : st.frac) * n)));
     const extra = SC.whole ? n : Math.min(st.misses, 3);
     let a = start, b = start;
     for (let i = 0; i < extra; i++) { if (i % 2 === 0 && b < n - 1) b++; else if (a > 0) a--; else if (b < n - 1) b++; }
-    const list = []; for (let i = a; i <= b; i++) list.push(i);
-    if (st.misses >= 4 && a > 0 && !SC.whole) list.unshift(0);   // the opening, as a hint
+    const list = []; for (let i = a; i <= b; i++) list.push(SC.systems[i]);
+    const opening = SC.windowed ? SC.opening : a > 0 ? SC.systems[0] : null;
+    if (scClues().some(c => c.startsWith("The opening")) && opening && !SC.whole) list.unshift(opening);   // the opening, as a clue
     return SC.whole ? list.slice(0, 60) : list;
   }
-  function scSystemSVG(i) {
-    const sys = SC.systems[i], page = SC.pages[sys.page].querySelector("svg").cloneNode(true);
+  function scSystemSVG(sys) {
+    const page = sys.pageEl.cloneNode(true);
     const inner = page.querySelector("svg.definition-scale");     // keep the page's own size, or the whole page shrinks into the crop
     if (inner) { inner.setAttribute("width", parseFloat(page.getAttribute("width"))); inner.setAttribute("height", parseFloat(page.getAttribute("height"))); }
     page.querySelectorAll("g.system").forEach((g, k) => { if (k !== sys.k) g.remove(); });
@@ -482,26 +509,31 @@
     page.setAttribute("preserveAspectRatio", "xMinYMin meet"); page.style.aspectRatio = `${w} / ${h}`;
     return page;
   }
-  function scClues() {
-    const it = SC.item, form = (it.piece.split(" – ")[1] || "").match(/^([^,]+?)(?: in [A-G]|,|$)/);
-    const c = [];
+  function scClues() {                       // music facts only, from less to more obvious; nothing the score already shows
+    const it = SC.item, c = [];
+    if (it.words) c.push(`Words by ${it.words}`);
+    if (it.year) c.push(`Written in ${it.year}`);
+    if (it.language) c.push(`Sung in ${it.language}`);
     if (it.key) c.push(`Key: ${it.key}`);
-    if (form) c.push(`Kind of piece: ${form[1].replace(/ No\. \d+$/, "")}${it.movement ? ` (${it.movement.toLowerCase()})` : ""}`);
+    const cc = (CAT.clues || {}).composers || {}, full = Object.keys(cc).filter(n => n.split(" ").pop() === it.composer.split(" ").pop() && (it.composer.includes(" ") ? n === it.composer || n.endsWith(it.composer.split(" ").pop()) : true));
+    if (full.length === 1) { const f = (cc[full[0]] || []).find(x => x.lvl <= 2); if (f) c.push(f.t.replace(/\{Composer\}/g, "The composer")); }
+    if (it.genre && !/song|quartet/i.test(it.genre)) c.push(`Kind of piece: ${it.genre}${it.movement ? ` (${it.movement.replace(/:.*/, "").toLowerCase()})` : ""}`);
     c.push(`Composer: ${it.composer}`);
     c.push("The opening bars are now shown at the top");
-    const num = it.piece.match(/(Op\. \d+[^,]*|K\. [\w. ]+|Hob\. [\w:]+)$/);
-    c.push(num ? `Catalogue number: ${num[1]}` : `The title starts with “${(it.piece.split(" – ")[1] || "")[0]}”`);
-    return c.slice(0, Math.min(SC.st.misses, 5));
+    const num = it.piece.match(/(Op\. ?\d+[^,]*|K\. [\w. ]+|Hob\. [\w:]+|BWV \d+|D\. ?\d+|S\.\s?\d+)$/);
+    if (num) c.push(`Catalogue number: ${num[1]}`);
+    else c.push(`The title starts with “${((it.piece.split(" – ")[1] || "").replace(/^[^\p{L}]+/u, ""))[0]}”`);
+    return c.slice(0, Math.min(SC.st.misses, 6));
   }
-  const scComposerShown = () => SC.st.misses >= 3;
+  const scComposerShown = () => scClues().some(c => c.startsWith("Composer:"));
   function scSave() { store.set(scKey(), SC.st); }
   async function renderScore(practice) {
     Player.stop(); MODE = "score";
     app.innerHTML = `<header><h1>Whose <em>Hands</em></h1><span class="meta">${practice ? "Score practice" : `Score No. ${DAY + 1}`}</span></header>
       ${tabsHTML("score")}
-      <p class="how">Name the piece from a few bars of its score. Each miss shows more bars and a clue. You can listen to the bars, played from the score.</p>
+      <p class="how">Name the piece from a few bars of its score. Each miss shows more of the score and a clue. No sound: just the notes.</p>
       <section class="panel"><p class="how" id="sc-loading">Loading the score engine (about 4 MB, once)…</p></section><div id="sc-work" class="sc-work" aria-hidden="true"></div>
-      <footer><span>${practice ? "Practice scores are random." : "A new score every day at midnight."} Chopin scores: his first editions, encoded by the Fryderyk Chopin Institute (CC BY 4.0). Mozart and Haydn sonatas encoded by Craig Stuart Sapp (CC BY-NC-SA 4.0). Engraved with Verovio (LGPL). Played on the Salamander Grand Piano by Alexander Holm (CC BY 3.0).</span>
+      <footer><span>${practice ? "Practice scores are random." : "A new score every day at midnight."} Scores: Chopin's first editions encoded by the Fryderyk Chopin Institute (CC BY 4.0); Mozart and Haydn sonatas by Craig Stuart Sapp (CC BY-NC-SA 4.0); the Distant Listening Corpus of the Digital and Cognitive Musicology Lab, EPFL (CC BY-NC-SA 4.0); OpenScore Lieder and String Quartets (CC0). Engraved with Verovio (LGPL).</span>
       <span><a href="#changelog">What's new</a></span></footer>`;
     try { await scLoad(); } catch (e) { console.error(e); document.getElementById("sc-loading").textContent = "The score engine didn't load. Reload the page to try again."; return; }
     if (MODE !== "score") return;
@@ -522,7 +554,7 @@
     panel.innerHTML = `
       <div class="row"><h2>What piece is this?</h2><span class="pts">${st.misses}/${SC_MAX} misses</span></div>
       <div class="sc-systems" id="sc-systems"></div>
-      <div class="controls"><button class="btn" id="sc-play">▶ Listen to these bars</button><button class="btn" id="sc-stop">Stop</button>${st.done && !SC.whole ? `<button class="btn" id="sc-whole">Show the whole score</button>` : ""}</div>
+      ${st.done && !SC.whole ? `<div class="controls"><button class="btn" id="sc-whole">${SC.windowed ? "Show more of the score" : "Show the whole score"}</button></div>` : ""}
       ${st.done ? "" : `<form id="sc-form" autocomplete="off">${fieldHTML}
         <div class="controls"><button class="btn primary" type="submit">Guess</button><button class="btn" type="button" id="sc-skip">Skip, show more</button></div></form>`}
       ${scClues().length ? `<div><div class="label">Clues</div><ul class="hints">${scClues().map(c => `<li>${esc(c)}</li>`).join("")}</ul></div>` : ""}
@@ -532,7 +564,7 @@
         <dt>Edition</dt><dd>${esc(it.by)} · ${esc(it.license)}</dd></dl>
         <div class="controls">${SC.practice ? "" : `<button class="btn primary" id="sc-copy">Copy result</button>`}<button class="btn ${SC.practice ? "primary" : ""}" id="sc-next">${SC.practice ? "Next score" : "Practice another score"}</button></div></div>` : ""}`;
     const holder = document.getElementById("sc-systems");
-    shown.forEach(i => holder.appendChild(scSystemSVG(i)));
+    shown.forEach(sys => holder.appendChild(scSystemSVG(sys)));
     const form = document.getElementById("sc-form");
     if (form) {
       const g = document.getElementById("sc-guess"); if (g) suggest(g, SC.index);
@@ -560,24 +592,6 @@
       form.onsubmit = e => { e.preventDefault(); form.querySelectorAll(".suggest").forEach(x => (x.hidden = true)); submit(false); };
       document.getElementById("sc-skip").onclick = () => submit(true);
     }
-    const play = document.getElementById("sc-play");
-    play.disabled = !SC.song;
-    play.onclick = async () => {
-      const ctx = Player.audio(); const resumed = ctx.resume();
-      const ids = shown.filter(i => !(i === 0 && shown[1] !== 1 && shown.length > 1 && !SC.whole)).flatMap(i => SC.systems[i].measures);
-      const on = {}; (SC.timemap || []).forEach(e => { if (e.measureOn && on[e.measureOn] === undefined) on[e.measureOn] = e.tstamp / 1000; });
-      const starts = ids.map(id => on[id]).filter(x => x !== undefined);
-      if (!starts.length) return;
-      const from = Math.min(...starts), lastIdx = SC.systems.findIndex(s => s.measures.includes(ids[ids.length - 1]));
-      const nextM = SC.systems[lastIdx + 1] && SC.systems[lastIdx + 1].measures[0];
-      const to = nextM && on[nextM] !== undefined ? on[nextM] : from + 30;
-      await Promise.all([resumed, Player.loadSamples()]);
-      Player.stop();
-      Player.fx = Piano.chain(ctx, ctx.destination);
-      Player.sources = Piano.schedule(ctx, Player.fx.input, SC.song, { from, to, at: ctx.currentTime + 0.08, cut: to + 0.4 });
-      Player.playing = true; Player.poll = setTimeout(() => Player.stop(), (to - from + 2) * 1000);
-    };
-    document.getElementById("sc-stop").onclick = () => Player.stop();
     const whole = document.getElementById("sc-whole");
     if (whole) whole.onclick = () => { SC.whole = true; scDraw(); };
     const next = document.getElementById("sc-next");
@@ -587,6 +601,74 @@
       const txt = `Whose Hands · Score No. ${DAY + 1} · ${scTotal()}/5\n${st.guesses.map(x => (x.ok ? "🟩" : x.part ? "🟨" : "⬛")).join("")}\nhttps://whosehands.github.io/#score`;
       try { await navigator.clipboard.writeText(txt); copy.textContent = "Copied"; } catch (e) { copy.textContent = "Couldn't copy"; }
     };
+  }
+
+  /* ---------- library: every recording, searchable, with downloads ---------- */
+  const LIB = { q: "", format: "", genre: "", from: YEAR_MIN, to: YEAR_MAX, sort: "year", shown: 50 };
+  function libRows() {
+    const today = CAT.schedule && BY_ID[CAT.schedule[DAY]], todayDone = (store.get("wh3-day-" + DAY, null) || {}).done;
+    const words = norm(LIB.q).split(" ").filter(Boolean);
+    const rows = CAT.recordings.filter(r => {
+      if (today && r.id === today.id && !todayDone) return false;      // no spoilers for today's puzzle
+      if (LIB.format && (LIB.format === "record") !== (r.kind === "record")) return false;
+      if (LIB.genre && r.genre !== LIB.genre) return false;
+      if (r.yearMax < LIB.from || r.yearMin > LIB.to) return false;
+      if (!words.length) return true;
+      const hay = norm([r.piece, r.composer, r.performers.join(" "), r.yearMin, r.yearMax, r.label || "", r.genre || "", r.title || ""].join(" "));
+      return words.every(w => hay.includes(w));
+    });
+    const by = { year: r => r.yearMin * 1e4, composer: r => r.composer, performer: r => r.performers[0], piece: r => r.piece.split(" – ").slice(1).join(" – ") };
+    const f = by[LIB.sort];
+    rows.sort((a, b) => { const x = f(a), y = f(b); return x < y ? -1 : x > y ? 1 : a.yearMin - b.yearMin; });
+    return { rows, hidden: today && !todayDone };
+  }
+  function libItem(r) {
+    const roles = r.performers.map((n, i) => { const role = r.roles && r.roles[i]; return esc(n) + (role && role !== "piano" ? ` <span class="pts">${esc(ROLE_NAMES[role] || role)}</span>` : ""); }).join(", ");
+    const yr = r.yearMin === r.yearMax ? r.yearMin : `${r.yearMin}–${r.yearMax}`;
+    const dl = r.kind === "record"
+      ? `<a class="btn small" href="${esc(r.audio)}" target="_blank" rel="noopener" download>MP3</a><a class="btn small" href="${esc(r.source)}" target="_blank" rel="noopener">Library of Congress</a>`
+      : `<button class="btn small" data-ldl="mp3" data-id="${esc(r.id)}">MP3</button><button class="btn small" data-ldl="wav" data-id="${esc(r.id)}">WAV</button><a class="btn small" href="${esc(r.midi)}" download="${esc(fileBase(r))}.mid">MIDI</a>${r.source ? `<a class="btn small" href="${esc(r.source)}" target="_blank" rel="noopener">Stanford</a>` : ""}`;
+    return `<li class="lib-item"><div class="lib-head"><b>${esc(r.piece)}</b><span class="pts">${yr}</span></div>
+      <div class="lib-meta">${roles} · ${r.kind === "record" ? "78 record" : "piano roll"}${r.label ? " · " + esc(r.label) : ""} · ${esc(r.genre || "")}</div>
+      <div class="controls">${dl}</div></li>`;
+  }
+  function libList() {
+    const { rows, hidden } = libRows(), box = document.getElementById("lib-list");
+    document.getElementById("lib-count").textContent = `${rows.length} recording${rows.length === 1 ? "" : "s"}${hidden ? " · today's puzzle is hidden until you've played it" : ""}`;
+    box.innerHTML = rows.slice(0, LIB.shown).map(libItem).join("") || `<li class="how">Nothing matches.</li>`;
+    const more = document.getElementById("lib-more");
+    more.hidden = rows.length <= LIB.shown;
+    box.querySelectorAll("[data-ldl]").forEach(b => (b.onclick = () => downloadRoll(BY_ID[b.dataset.id], b.dataset.ldl, b)));
+  }
+  function renderLibrary() {
+    Player.stop(); MODE = "library";
+    const genres = [...new Set(CAT.recordings.map(r => r.genre).filter(Boolean))].sort();
+    const years = []; for (let y = YEAR_MIN; y <= YEAR_MAX; y++) years.push(y);
+    const opt = (v, l, sel) => `<option value="${esc(v)}" ${sel ? "selected" : ""}>${esc(l)}</option>`;
+    app.innerHTML = `<header><h1>Whose <em>Hands</em></h1><span class="meta">Library</span></header>
+    ${tabsHTML("library")}
+    <p class="how">Every recording in the game. Search by composer, performer, piece or year, and download any of them. Rolls are made into audio in your browser on the game's piano; records come from the Library of Congress.</p>
+    <section class="panel lib">
+      <input type="search" id="lib-q" placeholder="Search: Chopin, Caruso, Op. 28, 1912…" value="${esc(LIB.q)}" aria-label="Search recordings">
+      <div class="lib-filters">
+        <select id="lib-format" aria-label="Format">${opt("", "Rolls and records", !LIB.format)}${opt("roll", "Piano rolls", LIB.format === "roll")}${opt("record", "78 records", LIB.format === "record")}</select>
+        <select id="lib-genre" aria-label="Kind of music">${opt("", "All kinds", !LIB.genre)}${genres.map(g => opt(g, g, LIB.genre === g)).join("")}</select>
+        <span class="lib-years"><select id="lib-from" aria-label="From year">${years.map(y => opt(y, y, y === LIB.from)).join("")}</select>–<select id="lib-to" aria-label="To year">${years.map(y => opt(y, y, y === LIB.to)).join("")}</select></span>
+        <select id="lib-sort" aria-label="Sort by">${[["year", "Sort by year"], ["composer", "Sort by composer"], ["performer", "Sort by performer"], ["piece", "Sort by piece"]].map(([v, l]) => opt(v, l, LIB.sort === v)).join("")}</select>
+      </div>
+      <div class="pts" id="lib-count"></div>
+      <ul class="lib-list" id="lib-list"></ul>
+      <button class="btn" id="lib-more">Show more</button>
+    </section>
+    <footer><span>Rolls: Stanford University Piano Roll Archive (CC BY-NC-SA 4.0). Records: Library of Congress National Jukebox (public domain). Piano: Salamander Grand Piano V3 by Alexander Holm (CC BY 3.0).</span><span><a href="#changelog">What's new</a></span></footer>`;
+    const q = document.getElementById("lib-q");
+    let t = 0;
+    q.oninput = () => { clearTimeout(t); t = setTimeout(() => { LIB.q = q.value; LIB.shown = 50; libList(); }, 150); };
+    [["lib-format", "format"], ["lib-genre", "genre"], ["lib-sort", "sort"]].forEach(([id, k]) => (document.getElementById(id).onchange = e => { LIB[k] = e.target.value; LIB.shown = 50; libList(); }));
+    document.getElementById("lib-from").onchange = e => { LIB.from = +e.target.value; libList(); };
+    document.getElementById("lib-to").onchange = e => { LIB.to = +e.target.value; libList(); };
+    document.getElementById("lib-more").onclick = () => { LIB.shown += 100; libList(); };
+    libList();
   }
 
   /* ---------- changelog ---------- */
@@ -617,7 +699,7 @@
     ${fresh ? `<p class="how">${P.kind === "record"
       ? "This is a 78 record. Guess everyone featured on it, the piece, and the year it was recorded."
       : "A pianist recorded this on a piano roll. You hear their exact notes, pedaling and timing on a modern piano. Guess who, what, and the year it was recorded."}
-      You hear a random part of the piece. Guess all three together: the sooner you get each one, the more it's worth. Right answers keep the clip as it is; each miss plays more and earns a hint, and you choose what it's about.</p>` : ""}
+      You hear a random part of the piece. Guess all three together: the sooner you get each one, the more it's worth. The year counts as solved only when it's exact, but a close year still earns points. Right answers keep the clip as it is; each miss plays more and earns a hint, and you choose what it's about.</p>` : ""}
     ${!daily ? filtersHTML() + `<div class="controls"><button class="btn" id="newp">${S.done ? "Next puzzle" : "Skip to a new puzzle"}</button></div>` : ""}
 
     <section class="player" aria-label="Recording">
@@ -633,8 +715,8 @@
         ${P.performers.map((p, i) => `<div class="field ${S.nameAt[i] ? "solved" : ""}"><div class="row"><label class="label" for="g-p${i}">${esc(roleLabel(i))}</label>${S.nameAt[i] ? `<span class="chip">✓</span>` : `<span class="pts">up to ${Math.round(50 / P.performers.length) / 10} pts</span>`}</div>
           <input type="text" id="g-p${i}" placeholder="${roleOf(i) === "orchestra" ? "Start typing an orchestra" : "Start typing a name"}" ${S.nameAt[i] ? `value="${esc(p)}" disabled` : ""}></div>`).join("")}
         ${pieceFieldHTML()}
-        <div class="field year ${S.yearAt ? "solved" : ""}"><div class="row"><label class="label" for="year">Year recorded</label>${S.yearAt ? `<span class="chip">✓</span>` : `<span class="pts">up to 2 pts · within ${YEAR_TOL} years</span>`}</div>
-          <div class="row"><span class="val" id="yv">${S.year ?? "—"}</span>${!S.yearAt && S.year != null ? `<span class="pts" id="ydir">${S.year < P.yearMin ? "Later than " + S.year : "Earlier than " + S.year}</span>` : ""}</div>
+        <div class="field year ${S.yearAt ? "solved" : ""}"><div class="row"><label class="label" for="year">Year recorded</label>${S.yearAt ? `<span class="chip">✓</span>` : `<span class="pts">up to 2 pts · closer is worth more</span>`}</div>
+          <div class="row"><span class="val" id="yv">${S.year ?? "—"}</span>${!S.yearAt && S.year != null ? `<span class="pts">best so far: ${yearPts()} pt${yearPts() === 1 ? "" : "s"}</span>` : ""}</div>
           <input type="range" id="year" min="${YEAR_MIN}" max="${YEAR_MAX}" step="1" value="${S.year ?? Math.round((YEAR_MIN + YEAR_MAX) / 2)}" ${S.yearAt ? "disabled" : ""} aria-label="Year recorded"></div>
         <div class="controls"><button class="btn primary" type="submit">Guess</button><button class="btn" type="button" id="skip">Skip, play more</button></div>
       </form>`}
@@ -642,7 +724,7 @@
         ${hs.length ? `<ul class="hints">${hs.map(h => `<li><span class="kind">${h.kind}</span> ${esc(h.text)}</li>`).join("")}</ul>` : ""}
         ${toOpen > 0 ? `<div class="hintpick"><span class="pts">${toOpen === 1 ? "You have a hint. What should it be about?" : `You have ${toOpen} hints. What should the next one be about?`}</span>
           <div class="controls">${HINT_KINDS.map(([k, label]) => `<button class="btn small" type="button" data-hint="${k}" ${nextHint(k) ? "" : "disabled"}>${label}</button>`).join("")}</div></div>` : ""}</div>` : ""}
-      ${S.guesses.length ? `<ul class="tries">${S.guesses.map((t, i) => `<li><span class="n">${t.miss ? "✕" : "✓"}</span><span class="g">${t.p.map(x => `<span class="${x.ok ? "ok" : "no"}">${esc(x.g || "—")}</span>`).join(" · ")}<br><span class="${t.piece.ok ? "ok" : t.piece.comp ? "part" : "no"}">${esc(t.piece.g || "—")}</span>${t.y ? ` · <span class="${t.y.ok ? "ok" : "no"}">${t.y.g}</span>` : ""}</span></li>`).join("")}</ul>` : ""}
+      ${S.guesses.length ? `<ul class="tries">${S.guesses.map((t, i) => `<li><span class="n">${t.miss ? "✕" : "✓"}</span><span class="g">${t.p.map(x => `<span class="${x.ok ? "ok" : "no"}">${esc(x.g || "—")}</span>`).join(" · ")}<br><span class="${t.piece.ok ? "ok" : t.piece.comp ? "part" : "no"}">${esc(t.piece.g || "—")}</span>${t.y ? ` · <span class="${t.y.ok ? "ok" : t.y.pts ? "part" : "no"}">${t.y.g}</span>${t.y.ok || t.y.pts === undefined ? "" : ` <span class="pts">${t.y.pts} pt${t.y.pts === 1 ? "" : "s"}</span>`}` : ""}</span></li>`).join("")}</ul>` : ""}
     </section>
 
     ${S.done ? resultHTML() : ""}
@@ -679,7 +761,7 @@
     }));
     const yr = document.getElementById("year"), yv = document.getElementById("yv");
     let yearTouched = S.year != null;
-    if (yr) yr.oninput = () => { yv.textContent = yr.value; yearTouched = true; const d = document.getElementById("ydir"); if (d) d.hidden = true; };
+    if (yr) yr.oninput = () => { yv.textContent = yr.value; yearTouched = true; };
 
     const form = document.getElementById("guess");
     if (form) {
@@ -713,11 +795,13 @@
           if (comp && !S.composerAt) { S.composerAt = attempt; progress = true; }
           rec.piece = { g: skip ? "(skipped)" : pcg, ok, comp: comp || isSet };
         }
-        if (!S.yearAt && !skip && yearTouched && yr) {
-          const yg = +yr.value, ok = yearOff(yg) <= YEAR_TOL;
+        const lastYear = [...S.guesses].reverse().find(t => t.y);
+        if (!S.yearAt && !skip && yearTouched && yr && !(lastYear && lastYear.y.g === +yr.value)) {   // the same year again isn't a new guess
+          const yg = +yr.value, ok = yearOff(yg) === 0, pts = yearGuessPts(yg, attempt);
           S.year = yg;
+          S.yearBest = Math.max(S.yearBest || 0, pts);
           if (ok) { S.yearAt = attempt; progress = true; }
-          rec.y = { g: yg, ok };
+          rec.y = { g: yg, ok, pts };
         }
         if (!skip && !progress && !pg.some(x => x.trim()) && !pcg.trim() && !rec.y) return;
         if (!progress) { S.misses++; rec.miss = true; }   // only misses play more
@@ -734,7 +818,7 @@
       try { await navigator.clipboard.writeText(box.textContent); copy.textContent = "Copied"; }
       catch (e) { const r = document.createRange(); r.selectNodeContents(box); const s = getSelection(); s.removeAllRanges(); s.addRange(r); copy.textContent = "Selected, now copy"; }
     };
-    app.querySelectorAll("[data-dl]").forEach(b => (b.onclick = () => downloadRoll(b.dataset.dl, b)));
+    app.querySelectorAll("[data-dl]").forEach(b => (b.onclick = () => downloadRoll(P, b.dataset.dl, b)));
     const full = document.getElementById("full");
     if (full) full.onclick = () => { DRAW_LIMIT = 60; window.scrollTo({ top: 0, behavior: "smooth" }); document.getElementById("status").textContent = "PLAYING"; Player.play(60, tick, () => { status.textContent = ""; }); };
   }
@@ -753,7 +837,7 @@
   }
   function shareText() {
     const rows = S.guesses.map(g => (g.miss ? "⬛" : "🟩")).join("");
-    return `Whose Hands No. ${DAY + 1} · ${total()}/10\n${P.kind === "record" ? "Performers" : "Pianist"} ${allNames() ? "✅" : "❌"}  Piece ${S.pieceAt ? "✅" : S.setAt || S.composerAt ? "🟨" : "❌"}  Year ${S.yearAt ? "✅" : "❌"}\n${rows}${S.hints && S.hints.length ? ` · 💡${S.hints.length}` : ""}\nhttps://whosehands.github.io`;
+    return `Whose Hands No. ${DAY + 1} · ${total()}/10\n${P.kind === "record" ? "Performers" : "Pianist"} ${allNames() ? "✅" : "❌"}  Piece ${S.pieceAt ? "✅" : S.setAt || S.composerAt ? "🟨" : "❌"}  Year ${S.yearAt ? "✅" : yearPts() ? "🟨" : "❌"}\n${rows}${S.hints && S.hints.length ? ` · 💡${S.hints.length}` : ""}\nhttps://whosehands.github.io`;
   }
   function resultHTML() {
     const daily = MODE === "daily";
@@ -795,7 +879,7 @@
     cat.recordings.forEach(r => { CAT.pieceKeyOf[norm(r.piece)] = r.pieceKey || norm(r.piece); });
     CAT.pieceOptions = [...new Set((cat.pieceOptions || []).map(o => o[0]))].sort();   // the build lists every answer once
     CAT.nameIndex = index(CAT.nameOptions); CAT.pieceIndex = index(CAT.pieceOptions);
-    const route = () => (location.hash === "#changelog" ? renderChangelog()
+    const route = () => (location.hash === "#changelog" ? renderChangelog() : location.hash === "#library" ? renderLibrary()
       : location.hash === "#score" || location.hash === "#score-practice" ? renderScore(location.hash === "#score-practice")
       : setMode(location.hash === "#practice" ? "practice" : "daily"));
     window.addEventListener("hashchange", route);
