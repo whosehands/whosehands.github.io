@@ -41,6 +41,7 @@ def clean_vals(vals, banned):
     return out
 
 MUSICAL = re.compile(r"(?i)music|musik|musique|musica|muzy|opera|oper\b|philharm|symphon|orchest|conservat|konservat|hochschule|academy of music|beaux-arts|prix de rome|grammy|choir|chor\b|quartet|kammersänger|singer|piano|violin|organ|composer|composition|concert|theat|scala|liceu|covent|bayreuth|juilliard|curtis|schola cantorum")
+def aan(t): return ("an " if re.match(r"(?i)[aeiou]", t) else "a ") + t if t and not t.startswith("who ") else t
 def person_clues(qid, banned, subj):
     """Only things that say something about the musician: teachers, pupils, music schools, posts, where they lived and worked."""
     f = facts.get(qid) or {}
@@ -48,6 +49,19 @@ def person_clues(qid, banned, subj):
     def add(lvl, text): c.append({"t": text, "lvl": lvl})
     the = lambda x: x if re.match(r"(?i)the ", x) else "the " + x
     music = lambda vals: [x for x in vals if MUSICAL.search(x)]
+    # relatives and partners, only those who mattered in music (see tools/fetch_clues.py for the rule)
+    REL = {"P26": "{s} was married to {x}", "P451": "{s} had a relationship with {x}", "P22": "{s}'s father was {x}", "P25": "{s}'s mother was {x}",
+           "P40": "{s} was the parent of {x}", "P3373": "{s}'s sibling was {x}", "P1038": "{s} was related to {x}"}
+    for r in (f.get("_relatives") or [])[:6]:
+        name, occ = r["name"], [o for o in r.get("occupations", []) if MUSICAL.search(o) or re.search(r"(?i)director|librettist|impresario|publisher|critic|dancer", o)]
+        if r.get("marriedTo") and not occ: desc = "who married " + listing([m for m in r["marriedTo"] if not (toks(m) & banned)] or ["a composer"], 1)
+        else: desc = listing(occ[:2], 2)
+        if toks(name) & banned:                      # same surname as the answer (Clara Schumann): first name only
+            first = [w for w in name.split() if not (toks(w) & banned)]
+            if not first: continue
+            name = " ".join(first)
+        who = f"{name}, {aan(desc)}" if desc else name
+        add(1, REL[r["prop"]].format(s=subj, x=who))
     v = clean_vals(f.get("P802"), banned)
     if v: add(1, f"{subj} taught {listing(v)}")
     v = [x for x in music(clean_vals(f.get("P166"), banned)) if not re.match(r"(?i)honorary", x)]

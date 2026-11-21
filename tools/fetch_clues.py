@@ -110,13 +110,16 @@ for i in range(0, len(people_q), 40):
       VALUES ?item { %s }
       VALUES ?prop { wdt:P26 wdt:P451 wdt:P22 wdt:P25 wdt:P40 wdt:P3373 wdt:P1038 }
       ?item ?prop ?rel .
-      { VALUES ?occ { wd:Q639669 wd:Q36834 wd:Q177220 wd:Q158852 wd:Q8178443 wd:Q943995 wd:Q2516866 wd:Q1350157 wd:Q3387717 wd:Q486748 wd:Q1259917 }
-        ?rel wdt:P106 ?o . ?o wdt:P279* ?occ . BIND(?o AS ?occ2) }
+      { VALUES ?occ { wd:Q639669 wd:Q36834 wd:Q177220 wd:Q2865819 wd:Q158852 wd:Q8178443 wd:Q943995 wd:Q2516866 wd:Q1350157 wd:Q3387717
+                      wd:Q486748 wd:Q1259917 wd:Q765778 wd:Q13219637 wd:Q855091 wd:Q2675537 wd:Q14915627 wd:Q753110 wd:Q1415090 wd:Q6168364 }
+        ?rel wdt:P106 ?occ . }
       UNION { ?rel wdt:P26|wdt:P451 ?via . ?via wdt:P106 wd:Q36834 . FILTER(?via != ?item) }
       OPTIONAL { ?rel wdt:P106 ?occ3 . ?occ3 rdfs:label ?occLabel . FILTER(LANG(?occLabel) = "en") }
       SERVICE wikibase:label { bd:serviceParam wikibase:language "en,fr,de,it". ?rel rdfs:label ?relLabel . ?via rdfs:label ?viaLabel . }
     }""" % " ".join("wd:" + x for x in batch)
-    rows = sparql(q)
+    d = get("https://query.wikidata.org/sparql?" + urllib.parse.urlencode({"query": q, "format": "json"}), tries=3)
+    if d is None: print("relatives query failed; will retry next run", flush=True); continue
+    rows = d.get("results", {}).get("bindings", [])
     for x in batch: facts[x]["_relatives"] = []
     seen = {}
     for b in rows:
