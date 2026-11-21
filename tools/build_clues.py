@@ -40,7 +40,7 @@ def clean_vals(vals, banned):
         out.append(v)
     return out
 
-MUSICAL = re.compile(r"(?i)music|musik|musique|musica|muzy|opera|oper\b|philharm|symphon|orchest|conservat|konservat|hochschule|academy of music|beaux-arts|prix de rome|grammy|choir|chor\b|quartet|kammersänger|singer|piano|violin|organ|composer|composition|concert|theat|scala|liceu|covent|bayreuth|juilliard|curtis|schola cantorum")
+MUSICAL = re.compile(r"(?i)pianist|violinist|cellist|organist|harpist|conductor|soprano|tenor|baritone|contralto|music|musik|musique|musica|muzy|opera|oper\b|philharm|symphon|orchest|conservat|konservat|hochschule|academy of music|beaux-arts|prix de rome|grammy|choir|chor\b|quartet|kammersänger|singer|piano|violin|organ|composer|composition|concert|theat|scala|liceu|covent|bayreuth|juilliard|curtis|schola cantorum")
 def aan(t): return ("an " if re.match(r"(?i)[aeiou]", t) else "a ") + t if t and not t.startswith("who ") else t
 def person_clues(qid, banned, subj):
     """Only things that say something about the musician: teachers, pupils, music schools, posts, where they lived and worked."""
@@ -52,16 +52,25 @@ def person_clues(qid, banned, subj):
     # relatives and partners, only those who mattered in music (see tools/fetch_clues.py for the rule)
     REL = {"P26": "{s} was married to {x}", "P451": "{s} had a relationship with {x}", "P22": "{s}'s father was {x}", "P25": "{s}'s mother was {x}",
            "P40": "{s} was the parent of {x}", "P3373": "{s}'s sibling was {x}", "P1038": "{s} was related to {x}"}
-    for r in (f.get("_relatives") or [])[:6]:
+    seen_rel = set()
+    order = ["P26", "P451", "P40", "P22", "P25", "P3373", "P1038"]
+    rels = f.get("_relatives") or []
+    both = {r["name"] for r in rels if r["prop"] == "P451"} & {r["name"] for r in rels if r["prop"] == "P26"}
+    rels = [r for r in rels if not (r["prop"] == "P26" and r["name"] in both)]        # listed as both spouse and partner: say partner, which is true either way
+    for r in sorted(rels, key=lambda r: order.index(r["prop"]) if r["prop"] in order else 9):
+        if r["name"] in seen_rel or len(seen_rel) >= 3: continue        # the same person as partner and spouse; at most three relatives
+        seen_rel.add(r["name"])
         name, occ = r["name"], [o for o in r.get("occupations", []) if MUSICAL.search(o) or re.search(r"(?i)director|librettist|impresario|publisher|critic|dancer", o)]
-        if not occ and not r.get("marriedTo"): continue        # nothing musical about them after all
-        if r.get("marriedTo") and not occ: desc = "who married " + listing([m for m in r["marriedTo"] if not (toks(m) & banned)] or ["a composer"], 1)
-        else: desc = listing(occ[:2], 2)
+        if not occ and (not r.get("marriedTo") or r["prop"] in ("P22", "P25", "P3373")): continue   # nothing musical about them (a parent "married to a composer" is just the other parent)
+        married = [m for m in r.get("marriedTo", []) if not (toks(m) & banned)]
+        desc = listing(occ[:2], 2)
+        if married: desc = (aan(desc) + " " if desc else "") + "who married " + listing(married, 2)
+        elif r.get("marriedTo") and not desc: desc = "who married a composer"
         if toks(name) & banned:                      # same surname as the answer (Clara Schumann): first name only
             first = [w for w in name.split() if not (toks(w) & banned)]
             if not first: continue
             name = " ".join(first)
-        who = f"{name}, {aan(desc)}" if desc else name
+        who = f"{name}, {desc if desc.startswith(('a ', 'an ', 'who ')) else aan(desc)}" if desc else name
         add(1, REL[r["prop"]].format(s=subj, x=who))
     v = clean_vals(f.get("P802"), banned)
     if v: add(1, f"{subj} taught {listing(v)}")

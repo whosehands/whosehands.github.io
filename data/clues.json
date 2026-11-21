@@ -2,6 +2,18 @@
 "people": {
 "Teresa Carreño": [
 {
+"t": "{Who} was married to Eugen d'Albert, a composer and pianist",
+"lvl": 1
+},
+{
+"t": "{Who} was married to Émile Sauret, a composer and violinist",
+"lvl": 1
+},
+{
+"t": "{Who} was married to Giovanni Tagliapietra, an opera singer",
+"lvl": 1
+},
+{
 "t": "{Who} studied with Louis Moreau Gottschalk",
 "lvl": 1
 },
@@ -11,6 +23,14 @@
 }
 ],
 "Ferruccio Busoni": [
+{
+"t": "{Who}'s father was Ferdinando, a composer and musician",
+"lvl": 1
+},
+{
+"t": "{Who}'s mother was Anna, a composer and pianist",
+"lvl": 1
+},
 {
 "t": "{Who} taught Eduard Steuermann and Natalie Curtis",
 "lvl": 1
@@ -56,6 +76,10 @@
 ],
 "Olga Samaroff Stokowski": [
 {
+"t": "{Who} was married to Leopold, a composer and conductor",
+"lvl": 1
+},
+{
 "t": "{Who} taught William Kapell and Thomas Schippers",
 "lvl": 1
 },
@@ -69,6 +93,18 @@
 }
 ],
 "Ernő Dohnányi": [
+{
+"t": "{Who} was married to Elsa Marguérite Galafrés, a singer and pianist who married Bronisław Huberman",
+"lvl": 1
+},
+{
+"t": "{Who}'s father was Frigyes, a music teacher",
+"lvl": 1
+},
+{
+"t": "{Who} was related to Christoph von, a conductor",
+"lvl": 1
+},
 {
 "t": "{Who} taught Ervin Nyiregyházi and György Ferenczy",
 "lvl": 1
@@ -142,6 +178,14 @@
 ],
 "Alfred Grünfeld": [
 {
+"t": "{Who}'s sibling was Heinrich, a composer and conductor",
+"lvl": 1
+},
+{
+"t": "{Who} was related to Arnoštka Grünfeldová, a pianist and music educator",
+"lvl": 1
+},
+{
 "t": "{Who} studied with Theodor Kullak",
 "lvl": 1
 },
@@ -169,6 +213,14 @@
 }
 ],
 "Bernhard Stavenhagen": [
+{
+"t": "{Who} was married to Agnes, a singer and opera singer",
+"lvl": 1
+},
+{
+"t": "{Who} was related to Dagobert Neuffer, a theatre director",
+"lvl": 1
+},
 {
 "t": "{Who} taught Klaus Pringsheim and Edvard Fazer",
 "lvl": 1
@@ -200,6 +252,10 @@
 ],
 "Emil von Sauer": [
 {
+"t": "{Who}'s mother was Julia, a musician",
+"lvl": 1
+},
+{
 "t": "{Who} taught Tonis Georgiou and Olof Wibergh",
 "lvl": 1
 },
@@ -221,6 +277,10 @@
 }
 ],
 "Rudolph Ganz": [
+{
+"t": "{Who}'s sibling was Hans, a composer",
+"lvl": 1
+},
 {
 "t": "{Who} taught Abby Whiteside and Joan Caldwell",
 "lvl": 1
@@ -298,6 +358,14 @@
 ],
 "Xaver Scharwenka": [
 {
+"t": "{Who}'s sibling was Philipp, a composer and musician",
+"lvl": 1
+},
+{
+"t": "{Who} was related to Walter, a composer and organist",
+"lvl": 1
+},
+{
 "t": "{Who} taught José Vianna da Motta and Edvard Fazer",
 "lvl": 1
 },
@@ -318,6 +386,10 @@
 ],
 "Frieda Kwast-Hodapp": [
 {
+"t": "{Who} was married to James, a composer and pianist",
+"lvl": 1
+},
+{
 "t": "{Who} studied at the Hoch Conservatory",
 "lvl": 2
 },
@@ -327,6 +399,10 @@
 }
 ],
 "Vladimir de Pachmann": [
+{
+"t": "{Who} was married to Marguerite Okey, a composer and pianist",
+"lvl": 1
+},
 {
 "t": "{Who} received the Royal Philharmonic Society Gold Medal",
 "lvl": 1
@@ -364,6 +440,10 @@
 ],
 "Elly Ney": [
 {
+"t": "{Who} was married to Willem van Hoogstraten, a conductor and violinist",
+"lvl": 1
+},
+{
 "t": "{Who} studied with Theodor Leschetizky and Emil von Sauer",
 "lvl": 1
 },
@@ -385,6 +465,18 @@
 }
 ],
 "Arthur Nikisch": [
+{
+"t": "{Who} was married to Amélie, a composer and singer",
+"lvl": 1
+},
+{
+"t": "{Who} was the parent of Mitja, a composer and conductor",
+"lvl": 1
+},
+{
+"t": "{Who} was related to Edgar Wollgandt, a conductor and musician",
+"lvl": 1
+},
 {
 "t": "{Who} taught Wilhelm Furtwängler and Sándor Jemnitz",
 "lvl": 1
@@ -419,6 +511,10 @@
 }
 ],
 "Claude Debussy": [
+{
+"t": "{Who} was married to Emma Bardac, an opera singer who married Gabriel Fauré",
+"lvl": 1
+},
 {
 "t": "{Who} taught María Grever and Raoul Bardac",
 "lvl": 1
@@ -492,6 +588,14 @@
 ],
 "Felix Mottl": [
 {
+"t": "{Who} was married to Zdenka Hanfstaengl, a singer and opera singer",
+"lvl": 1
+},
+{
+"t": "{Who} was married to Henriette, an opera singer",
+"lvl": 1
+},
+{
 "t": "{Who} taught Ralph Benatzky",
 "lvl": 1
 },
@@ -513,6 +617,10 @@
 }
 ],
 "Josef Lhévinne": [
+{
+"t": "{Who} was married to Rosina, a pianist and musician",
+"lvl": 1
+},
 {
 "t": "{Who} studied with Vasily Safonov",
 "lvl": 1
@@ -542,6 +650,10 @@
 ],
 "Anna Jutta Schytte": [
 {
+"t": "{Who}'s father was Ludvig, a composer and pianist",
+"lvl": 1
+},
+{
 "t": "{Who} studied at the University of Music and Theatre Leipzig",
 "lvl": 2
 },
@@ -567,6 +679,10 @@
 }
 ],
 "Egon Petri": [
+{
+"t": "{Who}'s father was Henri, a composer and conductor",
+"lvl": 1
+},
 {
 "t": "{Who} taught Dimitri Tiomkin and John Ogdon",
 "lvl": 1
@@ -598,6 +714,18 @@
 ],
 "Eugen d'Albert": [
 {
+"t": "{Who} was married to Teresa Carreño, a composer and singer who married Émile Sauret",
+"lvl": 1
+},
+{
+"t": "{Who} was married to Hermine, an opera singer",
+"lvl": 1
+},
+{
+"t": "{Who} was the parent of Eugenia, a pianist",
+"lvl": 1
+},
+{
 "t": "{Who} taught Wilhelm Backhaus",
 "lvl": 1
 },
@@ -623,6 +751,14 @@
 }
 ],
 "Artur Lemba": [
+{
+"t": "{Who}'s sibling was Theodor, a pianist and music teacher",
+"lvl": 1
+},
+{
+"t": "{Who}'s sibling was Ludmilla, an opera singer and music educator",
+"lvl": 1
+},
 {
 "t": "{Who} taught Els Aarne",
 "lvl": 1
@@ -718,6 +854,10 @@
 ],
 "Max Pauer": [
 {
+"t": "{Who}'s father was Ernst, a composer and pianist",
+"lvl": 1
+},
+{
 "t": "{Who} taught Hildegard Tamm",
 "lvl": 1
 },
@@ -754,6 +894,10 @@
 ],
 "Ossip Gabrilowitsch": [
 {
+"t": "{Who} was married to Clara Clemens, a singer and pianist",
+"lvl": 1
+},
+{
 "t": "{Who} studied with Anton Rubinstein and Theodor Leschetizky",
 "lvl": 1
 },
@@ -773,6 +917,10 @@
 }
 ],
 "Gisella Grosz": [
+{
+"t": "{Who} was married to Adolf Weissmann, a music critic and musicologist",
+"lvl": 1
+},
 {
 "t": "{Who} studied with Teresa Carreño and István Thomán",
 "lvl": 1
@@ -802,6 +950,10 @@
 ],
 "Arthur Friedheim": [
 {
+"t": "{Who}'s mother was Annette, a musician",
+"lvl": 1
+},
+{
 "t": "{Who} taught Natalie Curtis",
 "lvl": 1
 },
@@ -825,6 +977,18 @@
 }
 ],
 "Mark Hambourg": [
+{
+"t": "{Who} was married to Dorothea Frances Muir Mackenzie, a violinist",
+"lvl": 1
+},
+{
+"t": "{Who}'s father was Michael, a pianist and music educator",
+"lvl": 1
+},
+{
+"t": "{Who}'s sibling was Boris, a cellist",
+"lvl": 1
+},
 {
 "t": "{Who} studied with Theodor Leschetizky",
 "lvl": 1
@@ -878,6 +1042,18 @@
 ],
 "Edvard Grieg": [
 {
+"t": "{Who} was married to Nina, a composer and singer",
+"lvl": 1
+},
+{
+"t": "{Who}'s mother was Gesine Hagerup, a pianist and music teacher",
+"lvl": 1
+},
+{
+"t": "{Who}'s sibling was John, a cellist",
+"lvl": 1
+},
+{
 "t": "{Who} taught Barbara Larssen and Astrid Onarheim",
 "lvl": 1
 },
@@ -903,6 +1079,10 @@
 }
 ],
 "Gottfried Galston": [
+{
+"t": "{Who} was married to Sandra Drouker, a composer and pianist",
+"lvl": 1
+},
 {
 "t": "{Who} studied at the University of Music and Theatre Leipzig",
 "lvl": 2
@@ -954,6 +1134,14 @@
 ],
 "Artur Schnabel": [
 {
+"t": "{Who} was married to Therese Behr, a singer and opera singer",
+"lvl": 1
+},
+{
+"t": "{Who} was the parent of Karl Ulrich, a pianist and musician",
+"lvl": 1
+},
+{
 "t": "{Who} taught Ferdinand Leitner and Claude Frank",
 "lvl": 1
 },
@@ -987,6 +1175,10 @@
 }
 ],
 "Richard Burmeister": [
+{
+"t": "{Who} was married to Dory, a pianist",
+"lvl": 1
+},
 {
 "t": "{Who} taught Mary Howe",
 "lvl": 1
@@ -1028,6 +1220,10 @@
 ],
 "Berthe Marx-Goldschmidt": [
 {
+"t": "{Who}'s father was Elias Isaac, a musician",
+"lvl": 1
+},
+{
 "t": "{Who} studied at the Conservatoire National Supérieur de Musique et de Danse",
 "lvl": 2
 },
@@ -1057,6 +1253,10 @@
 }
 ],
 "Franciszek Brzeziński": [
+{
+"t": "{Who} was related to Filipina Brzezinska-Szymanowska, a composer and pianist",
+"lvl": 1
+},
 {
 "t": "{Who} studied at the University of Music and Theatre Leipzig",
 "lvl": 2
@@ -1089,6 +1289,18 @@
 }
 ],
 "Engelbert Humperdinck": [
+{
+"t": "{Who} was married to Hedwig, a librettist",
+"lvl": 1
+},
+{
+"t": "{Who}'s mother was Gertrud Olivia, a singer",
+"lvl": 1
+},
+{
+"t": "{Who}'s sibling was Adelheid Wette, a librettist",
+"lvl": 1
+},
 {
 "t": "{Who} taught Siegfried Wagner and Yuliya Veysberg",
 "lvl": 1
@@ -1126,6 +1338,14 @@
 ],
 "Isabelle Vengerova": [
 {
+"t": "{Who}'s sibling was Semyon Vengerov, a literary critic",
+"lvl": 1
+},
+{
+"t": "{Who}'s sibling was Zinaida, a literary critic",
+"lvl": 1
+},
+{
 "t": "{Who} taught Dimitri Tiomkin and Marcelle de Manziarly",
 "lvl": 1
 },
@@ -1156,6 +1376,10 @@
 ],
 "Georg Schumann": [
 {
+"t": "{Who}'s sibling was Camillo, a composer and organist",
+"lvl": 1
+},
+{
 "t": "{Who} studied at the University of Music and Theatre Leipzig",
 "lvl": 2
 },
@@ -1169,6 +1393,10 @@
 }
 ],
 "Theodor Leschetizky": [
+{
+"t": "{Who} was married to Anna Yesipova, a pianist and musician",
+"lvl": 1
+},
 {
 "t": "{Who} taught Elly Ney and Irene Abendroth",
 "lvl": 1
@@ -1195,6 +1423,10 @@
 }
 ],
 "James Reese Europe": [
+{
+"t": "{Who} was the parent of Mary, a pianist",
+"lvl": 1
+},
 {
 "t": "{Who} studied with Harry T. Burleigh",
 "lvl": 1
@@ -1227,6 +1459,18 @@
 }
 ],
 "Gustav Mahler": [
+{
+"t": "{Who} was married to Alma, a composer and musician",
+"lvl": 1
+},
+{
+"t": "{Who} was the parent of Anna, a composer who married Ernst Krenek",
+"lvl": 1
+},
+{
+"t": "{Who}'s sibling was Otto, a composer and musician",
+"lvl": 1
+},
 {
 "t": "{Who} taught Anna von Mildenburg and Klaus Pringsheim",
 "lvl": 1
@@ -1274,6 +1518,14 @@
 ],
 "Conrad Ansorge": [
 {
+"t": "{Who} was married to Margarethe, a pianist and musician",
+"lvl": 1
+},
+{
+"t": "{Who} was the parent of Joachim Albert, a pianist and musician",
+"lvl": 1
+},
+{
 "t": "{Who} taught Eduard Erdmann and Selim Palmgren",
 "lvl": 1
 },
@@ -1299,6 +1551,14 @@
 }
 ],
 "Carl Reinecke": [
+{
+"t": "{Who}'s father was Rudolf, a music educator",
+"lvl": 1
+},
+{
+"t": "{Who}'s sibling was Maria, a pianist and music educator",
+"lvl": 1
+},
 {
 "t": "{Who} taught Ernst Rudorff and Isaac Albéniz",
 "lvl": 1
@@ -1340,6 +1600,14 @@
 ],
 "Richard Strauss": [
 {
+"t": "{Who} was married to Pauline de Ahna, an opera singer",
+"lvl": 1
+},
+{
+"t": "{Who}'s father was Franz, a composer",
+"lvl": 1
+},
+{
 "t": "{Who} is known for Also sprach Zarathustra and Der Rosenkavalier",
 "lvl": 2
 },
@@ -1355,6 +1623,14 @@
 }
 ],
 "Enrico Caruso": [
+{
+"t": "{Who} was the parent of Gloria Grazianna Victoria America, a singer",
+"lvl": 1
+},
+{
+"t": "{Who} was the parent of Jr., an opera singer",
+"lvl": 1
+},
 {
 "t": "{Who} received the Grammy Lifetime Achievement Award",
 "lvl": 1
@@ -1380,6 +1656,14 @@
 ],
 "Frances Alda": [
 {
+"t": "{Who} was married to Giulio Gatti-Casazza, a conductor and impresario",
+"lvl": 1
+},
+{
+"t": "{Who} was related to Fanny Simonsen, an opera singer",
+"lvl": 1
+},
+{
 "t": "{Who} lived and worked in New York City and London",
 "lvl": 2
 },
@@ -1400,6 +1684,10 @@
 ],
 "Geraldine Farrar": [
 {
+"t": "{Who} was married to Lou Tellegen, a theatre director",
+"lvl": 1
+},
+{
 "t": "{Who} studied with Lilli Lehmann and Francesco Graziani",
 "lvl": 1
 },
@@ -1413,6 +1701,10 @@
 }
 ],
 "Louise Homer": [
+{
+"t": "{Who} was married to Sidney Sr., a composer",
+"lvl": 1
+},
 {
 "t": "{Who} was born in Pittsburgh",
 "lvl": 3
@@ -1546,6 +1838,10 @@
 ],
 "Reed Miller": [
 {
+"t": "{Who} was married to Nevada Van der Veer, a singer",
+"lvl": 1
+},
+{
 "t": "{Who} was born in South Carolina",
 "lvl": 3
 }
@@ -1614,6 +1910,10 @@
 ],
 "Emilio de Gogorza": [
 {
+"t": "{Who} was married to Emma Eames, a singer and musician",
+"lvl": 1
+},
+{
 "t": "{Who} taught Florence Kirk and Brenda Lewis",
 "lvl": 1
 },
@@ -1623,6 +1923,14 @@
 }
 ],
 "Alma Gluck": [
+{
+"t": "{Who} was married to Efrem Zimbalist, a composer and conductor",
+"lvl": 1
+},
+{
+"t": "{Who} was the parent of Marcia Davenport, a music critic and musicologist",
+"lvl": 1
+},
 {
 "t": "{Who} held citizenship of United States and Romania",
 "lvl": 2
@@ -1776,6 +2084,14 @@
 ],
 "Victor Herbert": [
 {
+"t": "{Who} was married to Therese Förster, an opera singer",
+"lvl": 1
+},
+{
+"t": "{Who} was related to Samuel Lover, a composer",
+"lvl": 1
+},
+{
 "t": "{Who} studied at the State University of Music and Performing Arts Stuttgart",
 "lvl": 2
 },
@@ -1836,6 +2152,18 @@
 ],
 "E. F. Wagner": [
 {
+"t": "{Who} was married to Cosima, a composer and musician who married Hans von Bülow",
+"lvl": 1
+},
+{
+"t": "{Who} was married to Minna Planer, a composer and opera singer",
+"lvl": 1
+},
+{
+"t": "{Who} was the parent of Siegfried, a composer and conductor",
+"lvl": 1
+},
+{
 "t": "{Who} taught Anton Seidl",
 "lvl": 1
 },
@@ -1880,6 +2208,10 @@
 ],
 "Amelita Galli-Curci": [
 {
+"t": "{Who} was married to Homer David Samuels, a composer",
+"lvl": 1
+},
+{
 "t": "{Who} taught Jean Fenn",
 "lvl": 1
 },
@@ -1901,6 +2233,10 @@
 }
 ],
 "Mabel Garrison": [
+{
+"t": "{Who} was married to George Siemonn, a conductor",
+"lvl": 1
+},
 {
 "t": "{Who} studied with Herbert Witherspoon and Oscar Saenger",
 "lvl": 1
@@ -1990,6 +2326,10 @@
 ],
 "Marcella Sembrich": [
 {
+"t": "{Who} was married to Wilhelm Stengel, a pianist",
+"lvl": 1
+},
+{
 "t": "{Who} taught Dusolina Giannini and Josephine Antoine",
 "lvl": 1
 },
@@ -2015,6 +2355,10 @@
 }
 ],
 "Luisa Tetrazzini": [
+{
+"t": "{Who}'s sibling was Eva, a singer",
+"lvl": 1
+},
 {
 "t": "{Who} received the Royal Philharmonic Society Gold Medal",
 "lvl": 1
@@ -2056,6 +2400,10 @@
 ],
 "George Hamlin": [
 {
+"t": "{Who} was the parent of Anna, a singer",
+"lvl": 1
+},
+{
 "t": "{Who} worked at the Chicago Grand Opera Company",
 "lvl": 2
 },
@@ -2082,6 +2430,10 @@
 ],
 "Renato Zanelli": [
 {
+"t": "{Who}'s sibling was Carlo Morelli, a singer and musician",
+"lvl": 1
+},
+{
 "t": "{Who} was born in Valparaíso",
 "lvl": 3
 }
@@ -2101,6 +2453,18 @@
 }
 ],
 "David Devriès": [
+{
+"t": "{Who} was the parent of Ivan, a composer",
+"lvl": 1
+},
+{
+"t": "{Who}'s father was Marcel, an opera singer",
+"lvl": 1
+},
+{
+"t": "{Who}'s sibling was Henri Büsser, a composer and conductor",
+"lvl": 1
+},
 {
 "t": "{Who} studied at the Conservatoire National Supérieur de Musique et de Danse",
 "lvl": 2
@@ -2128,6 +2492,10 @@
 ],
 "Mischa Elman": [
 {
+"t": "{Who}'s father was Saul, a violinist",
+"lvl": 1
+},
+{
 "t": "{Who} studied with Leopold Auer and Alexander Fiedemann",
 "lvl": 1
 },
@@ -2148,6 +2516,10 @@
 ],
 "Johanna Gadski": [
 {
+"t": "{Who} was the parent of Lotte Tauscher, a singer",
+"lvl": 1
+},
+{
 "t": "{Who} was born in Anklam",
 "lvl": 3
 }
@@ -2165,6 +2537,10 @@
 }
 ],
 "Emma Eames": [
+{
+"t": "{Who} was married to Emilio de Gogorza, a singer and musician",
+"lvl": 1
+},
 {
 "t": "{Who} studied with Mathilde Marchesi and Charles R. Adams",
 "lvl": 1
@@ -2201,6 +2577,10 @@
 }
 ],
 "Efrem Zimbalist": [
+{
+"t": "{Who} was married to Alma Gluck, a singer and musician",
+"lvl": 1
+},
 {
 "t": "{Who} studied with Leopold Auer",
 "lvl": 1
@@ -2246,6 +2626,18 @@
 "composers": {
 "Frédéric Chopin": [
 {
+"t": "{Composer} had a relationship with George Sand, a composer and librettist",
+"lvl": 1
+},
+{
+"t": "{Composer} had a relationship with Maria Wodzińska, a composer",
+"lvl": 1
+},
+{
+"t": "{Composer}'s sibling was Ludwika Jędrzejewicz, a composer and musician",
+"lvl": 1
+},
+{
 "t": "{Composer} taught Carl Filtsch and Georges Mathias",
 "lvl": 1
 },
@@ -2268,6 +2660,14 @@
 ],
 "Ludwig van Beethoven": [
 {
+"t": "{Composer}'s father was Johann, a composer and conductor",
+"lvl": 1
+},
+{
+"t": "{Composer}'s sibling was Kaspar Anton Karl, a composer",
+"lvl": 1
+},
+{
 "t": "{Composer} taught Giulietta Guicciardi and Archduke Rudolf of Austria",
 "lvl": 1
 },
@@ -2289,6 +2689,18 @@
 }
 ],
 "Felix Mendelssohn-Bartholdy": [
+{
+"t": "{Composer} was married to Cécile, a musician",
+"lvl": 1
+},
+{
+"t": "{Composer}'s sibling was Fanny, a composer and pianist",
+"lvl": 1
+},
+{
+"t": "{Composer} was related to Albrecht, a composer and librettist",
+"lvl": 1
+},
 {
 "t": "{Composer} taught Wilhelm Joseph von Wasielewski and Carl Reinecke",
 "lvl": 1
@@ -2316,6 +2728,18 @@
 ],
 "Edvard Grieg": [
 {
+"t": "{Composer} was married to Nina, a composer and singer",
+"lvl": 1
+},
+{
+"t": "{Composer}'s mother was Gesine Hagerup, a pianist and music teacher",
+"lvl": 1
+},
+{
+"t": "{Composer}'s sibling was John, a cellist",
+"lvl": 1
+},
+{
 "t": "{Composer} taught Barbara Larssen and Astrid Onarheim",
 "lvl": 1
 },
@@ -2342,6 +2766,18 @@
 ],
 "Franz Liszt": [
 {
+"t": "{Composer} had a relationship with Marie d'Agoult, a composer",
+"lvl": 1
+},
+{
+"t": "{Composer} was the parent of Cosima Wagner, a composer and musician who married Richard Wagner and Hans von Bülow",
+"lvl": 1
+},
+{
+"t": "{Composer}'s father was Adam, a composer and cellist",
+"lvl": 1
+},
+{
 "t": "{Composer} taught Eugen d'Albert and Hans Bronsart von Schellendorff",
 "lvl": 1
 },
@@ -2367,6 +2803,18 @@
 }
 ],
 "Robert Schumann": [
+{
+"t": "{Composer} was married to Clara, a composer and pianist",
+"lvl": 1
+},
+{
+"t": "{Composer} had a relationship with Ernestine von Fricken, a pianist",
+"lvl": 1
+},
+{
+"t": "{Composer} was the parent of Eugenie, a pianist and piano teacher",
+"lvl": 1
+},
 {
 "t": "{Composer} taught Wilhelm Joseph von Wasielewski and Carl Reinecke",
 "lvl": 1
@@ -2398,6 +2846,18 @@
 ],
 "Ernő Dohnányi": [
 {
+"t": "{Composer} was married to Elsa Marguérite Galafrés, a singer and pianist who married Bronisław Huberman",
+"lvl": 1
+},
+{
+"t": "{Composer}'s father was Frigyes, a music teacher",
+"lvl": 1
+},
+{
+"t": "{Composer} was related to Christoph von, a conductor",
+"lvl": 1
+},
+{
 "t": "{Composer} taught Ervin Nyiregyházi and György Ferenczy",
 "lvl": 1
 },
@@ -2427,6 +2887,18 @@
 }
 ],
 "Richard Wagner": [
+{
+"t": "{Composer} was married to Cosima, a composer and musician who married Hans von Bülow",
+"lvl": 1
+},
+{
+"t": "{Composer} was married to Minna Planer, a composer and opera singer",
+"lvl": 1
+},
+{
+"t": "{Composer} was the parent of Siegfried, a composer and conductor",
+"lvl": 1
+},
 {
 "t": "{Composer} taught Anton Seidl",
 "lvl": 1
@@ -2542,6 +3014,14 @@
 ],
 "Franz Schubert": [
 {
+"t": "{Composer}'s father was Theodor, a composer",
+"lvl": 1
+},
+{
+"t": "{Composer}'s sibling was Ferdinand, a composer and organist",
+"lvl": 1
+},
+{
 "t": "{Composer} taught Maria Theresia, Gräfin Esterházy de Galántha",
 "lvl": 1
 },
@@ -2567,6 +3047,14 @@
 }
 ],
 "Anton Rubinstein": [
+{
+"t": "{Composer}'s sibling was Nikolai, a composer and conductor",
+"lvl": 1
+},
+{
+"t": "{Composer}'s sibling was Sofia Grigorievna, a musician",
+"lvl": 1
+},
 {
 "t": "{Composer} taught Pyotr Ilyich Tchaikovsky and Ella Adayevskaya",
 "lvl": 1
@@ -2620,6 +3108,14 @@
 ],
 "Erich Wolfgang Korngold": [
 {
+"t": "{Composer} was the parent of George, a composer and music publisher",
+"lvl": 1
+},
+{
+"t": "{Composer}'s father was Julius, a pianist and musician",
+"lvl": 1
+},
+{
 "t": "{Composer} taught Jean Fenn",
 "lvl": 1
 },
@@ -2664,6 +3160,10 @@
 ],
 "Johannes Brahms": [
 {
+"t": "{Composer}'s sibling was Fritz, a piano teacher",
+"lvl": 1
+},
+{
 "t": "{Composer} received the Royal Philharmonic Society Gold Medal",
 "lvl": 1
 },
@@ -2693,6 +3193,10 @@
 }
 ],
 "Claude Debussy": [
+{
+"t": "{Composer} was married to Emma Bardac, an opera singer who married Gabriel Fauré",
+"lvl": 1
+},
 {
 "t": "{Composer} taught María Grever and Raoul Bardac",
 "lvl": 1
@@ -2724,6 +3228,14 @@
 ],
 "Louis Brassin": [
 {
+"t": "{Composer}'s sibling was Gerard, a composer and pianist",
+"lvl": 1
+},
+{
+"t": "{Composer}'s sibling was Leopold, a pianist and bass singer",
+"lvl": 1
+},
+{
 "t": "{Composer} taught Edgar Tinel and Arthur De Greef",
 "lvl": 1
 },
@@ -2750,6 +3262,10 @@
 ],
 "Edward MacDowell": [
 {
+"t": "{Composer} was married to Marian, a pianist",
+"lvl": 1
+},
+{
 "t": "{Composer} studied with Carl Heymann and Teresa Carreño",
 "lvl": 1
 },
@@ -2767,6 +3283,18 @@
 }
 ],
 "Wolfgang Amadeus Mozart": [
+{
+"t": "{Composer} was married to Constanze, an opera singer who married Georg Nikolaus von Nissen",
+"lvl": 1
+},
+{
+"t": "{Composer} was the parent of Franz Xaver, a composer and conductor",
+"lvl": 1
+},
+{
+"t": "{Composer} was the parent of Carl Thomas, a composer and pianist",
+"lvl": 1
+},
 {
 "t": "{Composer} taught Johann Nepomuk Hummel and Franz Xaver Süssmayr",
 "lvl": 1
@@ -2789,6 +3317,14 @@
 }
 ],
 "Hector Berlioz": [
+{
+"t": "{Composer} was married to Harriet Smithson, a composer",
+"lvl": 1
+},
+{
+"t": "{Composer} was married to Marie Recio, an opera singer",
+"lvl": 1
+},
 {
 "t": "{Composer} taught Antoine Elwart and Théodore Ritter",
 "lvl": 1
@@ -2842,6 +3378,10 @@
 ],
 "Ludvig Schytte": [
 {
+"t": "{Composer} was the parent of Anna, a pianist",
+"lvl": 1
+},
+{
 "t": "{Composer} worked in Copenhagen",
 "lvl": 2
 },
@@ -2851,6 +3391,18 @@
 }
 ],
 "Engelbert Humperdinck": [
+{
+"t": "{Composer} was married to Hedwig, a librettist",
+"lvl": 1
+},
+{
+"t": "{Composer}'s mother was Gertrud Olivia, a singer",
+"lvl": 1
+},
+{
+"t": "{Composer}'s sibling was Adelheid Wette, a librettist",
+"lvl": 1
+},
 {
 "t": "{Composer} taught Siegfried Wagner and Yuliya Veysberg",
 "lvl": 1
@@ -2926,6 +3478,14 @@
 ],
 "Giacomo Puccini": [
 {
+"t": "{Composer}'s father was Michele, a composer and organist",
+"lvl": 1
+},
+{
+"t": "{Composer} was related to Domenico, a composer and organist",
+"lvl": 1
+},
+{
 "t": "{Composer} studied with Amilcare Ponchielli and Antonio Bazzini",
 "lvl": 1
 },
@@ -2947,6 +3507,10 @@
 }
 ],
 "Jules Massenet": [
+{
+"t": "{Composer} was married to Ninon de Gressy, a pianist",
+"lvl": 1
+},
 {
 "t": "{Composer} taught Charles Koechlin and Georges Enescou",
 "lvl": 1
@@ -3002,6 +3566,10 @@
 ],
 "Paul Lincke": [
 {
+"t": "{Composer} was married to Anna, a singer and opera singer",
+"lvl": 1
+},
+{
 "t": "{Composer} lived and worked in Berlin, Norderney and Hahnenklee",
 "lvl": 2
 },
@@ -3025,6 +3593,14 @@
 }
 ],
 "Alfred Grünfeld": [
+{
+"t": "{Composer}'s sibling was Heinrich, a composer and conductor",
+"lvl": 1
+},
+{
+"t": "{Composer} was related to Arnoštka Grünfeldová, a pianist and music educator",
+"lvl": 1
+},
 {
 "t": "{Composer} studied with Theodor Kullak",
 "lvl": 1
@@ -3074,6 +3650,14 @@
 ],
 "Georges Bizet": [
 {
+"t": "{Composer}'s father was Adolphe Armand, a composer and music educator",
+"lvl": 1
+},
+{
+"t": "{Composer} was related to Fromental Halévy, a composer and academic musician",
+"lvl": 1
+},
+{
 "t": "{Composer} taught Paul Lacombe",
 "lvl": 1
 },
@@ -3104,6 +3688,18 @@
 ],
 "Jean Sibelius": [
 {
+"t": "{Composer} was married to Aino, a composer",
+"lvl": 1
+},
+{
+"t": "{Composer}'s sibling was Christian, a composer and cellist",
+"lvl": 1
+},
+{
+"t": "{Composer} was related to Jaakko Ilves, a musician and violinist",
+"lvl": 1
+},
+{
 "t": "{Composer} taught Toivo Kuula and Leevi Madetoja",
 "lvl": 1
 },
@@ -3130,6 +3726,18 @@
 ],
 "Teresa Carreño": [
 {
+"t": "{Composer} was married to Eugen d'Albert, a composer and pianist",
+"lvl": 1
+},
+{
+"t": "{Composer} was married to Émile Sauret, a composer and violinist",
+"lvl": 1
+},
+{
+"t": "{Composer} was married to Giovanni Tagliapietra, an opera singer",
+"lvl": 1
+},
+{
 "t": "{Composer} studied with Louis Moreau Gottschalk",
 "lvl": 1
 },
@@ -3139,6 +3747,10 @@
 }
 ],
 "Joachim Raff": [
+{
+"t": "{Composer} was the parent of Helene, a librettist",
+"lvl": 1
+},
 {
 "t": "{Composer} taught August Wilhelmj and Anton Urspruch",
 "lvl": 1
@@ -3153,6 +3765,18 @@
 }
 ],
 "Leo Fall": [
+{
+"t": "{Composer}'s father was Moritz, a composer",
+"lvl": 1
+},
+{
+"t": "{Composer}'s sibling was Richard, a composer and conductor",
+"lvl": 1
+},
+{
+"t": "{Composer}'s sibling was Siegfried, a composer and pianist",
+"lvl": 1
+},
 {
 "t": "{Composer} studied at the University of Music and Performing Arts Vienna",
 "lvl": 2
@@ -3171,6 +3795,10 @@
 }
 ],
 "Moritz Moszkowski": [
+{
+"t": "{Composer}'s sibling was Alexander, a music critic",
+"lvl": 1
+},
 {
 "t": "{Composer} taught Vlado Perlemuter and Kathleen Lockhart Manning",
 "lvl": 1
@@ -3216,6 +3844,18 @@
 ],
 "F. Halévy": [
 {
+"t": "{Composer} was the parent of Geneviève, who married Georges Bizet",
+"lvl": 1
+},
+{
+"t": "{Composer}'s sibling was Léon, a literary critic",
+"lvl": 1
+},
+{
+"t": "{Composer} was related to Georges Bizet, a composer and conductor",
+"lvl": 1
+},
+{
 "t": "{Composer} taught Jacques Offenbach and Georges Bizet",
 "lvl": 1
 },
@@ -3250,6 +3890,10 @@
 ],
 "Lowell Mason": [
 {
+"t": "{Composer} was the parent of William, a composer and pianist",
+"lvl": 1
+},
+{
 "t": "{Composer} taught William Fiske Sherwin",
 "lvl": 1
 },
@@ -3263,6 +3907,14 @@
 }
 ],
 "Jacques Offenbach": [
+{
+"t": "{Composer} was the parent of Charles Ignace Auguste, a composer and musician",
+"lvl": 1
+},
+{
+"t": "{Composer}'s father was Isaac, a composer and music teacher",
+"lvl": 1
+},
 {
 "t": "{Composer} studied with Fromental Halévy and Louis-Pierre Norblin",
 "lvl": 1
@@ -3281,6 +3933,18 @@
 }
 ],
 "Carl Maria von Weber": [
+{
+"t": "{Composer} was married to Caroline, a singer and opera singer",
+"lvl": 1
+},
+{
+"t": "{Composer}'s father was Franz Anton, a composer and music director",
+"lvl": 1
+},
+{
+"t": "{Composer}'s mother was Genovefa, a singer and opera singer",
+"lvl": 1
+},
 {
 "t": "{Composer} taught Julius Benedict and Caroline Ridderstolpe",
 "lvl": 1
@@ -3308,6 +3972,18 @@
 ],
 "Oscar Straus": [
 {
+"t": "{Composer} was married to Clara, a singer",
+"lvl": 1
+},
+{
+"t": "{Composer} was married to Nelly Irmen, a violinist",
+"lvl": 1
+},
+{
+"t": "{Composer} was the parent of Erwin, a composer and pianist",
+"lvl": 1
+},
+{
 "t": "{Composer} is known for Ein Walzertraum",
 "lvl": 2
 },
@@ -3321,6 +3997,14 @@
 }
 ],
 "Louis Moreau Gottschalk": [
+{
+"t": "{Composer}'s sibling was Clara Peterson, a composer and pianist",
+"lvl": 1
+},
+{
+"t": "{Composer} was related to F., a composer and conductor",
+"lvl": 1
+},
 {
 "t": "{Composer} taught Teresa Carreño and Eloísa D’Herbil",
 "lvl": 1
@@ -3339,6 +4023,10 @@
 }
 ],
 "Sergei Rachmaninoff": [
+{
+"t": "{Composer} was married to Natalya Satina, a pianist",
+"lvl": 1
+},
 {
 "t": "{Composer} taught Gina Bachauer and Ruth Slenczynska",
 "lvl": 1
@@ -3365,6 +4053,18 @@
 }
 ],
 "Johann Strauss": [
+{
+"t": "{Composer} was married to Henrietta Treffz, an opera singer",
+"lvl": 1
+},
+{
+"t": "{Composer} was married to Angelika, a singer",
+"lvl": 1
+},
+{
+"t": "{Composer}'s father was I, a composer and conductor",
+"lvl": 1
+},
 {
 "t": "{Composer} studied with Joseph Drechsler and Franz Amon",
 "lvl": 1
@@ -3416,6 +4116,18 @@
 ],
 "Charles-Valentin Alkan": [
 {
+"t": "{Composer} was the parent of Élie-Miriam Delaborde, a composer and pianist",
+"lvl": 1
+},
+{
+"t": "{Composer}'s sibling was Napoléon, a composer and musician",
+"lvl": 1
+},
+{
+"t": "{Composer}'s sibling was Celeste Meyer Marix, a composer",
+"lvl": 1
+},
+{
 "t": "{Composer} taught Franz Stockhausen",
 "lvl": 1
 },
@@ -3433,6 +4145,10 @@
 }
 ],
 "Ede Poldini": [
+{
+"t": "{Composer} was related to István Kerner, a conductor",
+"lvl": 1
+},
 {
 "t": "{Composer} studied at the University of Music and Performing Arts Vienna",
 "lvl": 2
@@ -3453,6 +4169,14 @@
 }
 ],
 "Giuseppe Verdi": [
+{
+"t": "{Composer} was married to Giuseppina Strepponi, an opera singer",
+"lvl": 1
+},
+{
+"t": "{Composer} was married to Margherita Barezzi, a composer",
+"lvl": 1
+},
 {
 "t": "{Composer} studied with Vincenzo Lavigna and Ferdinando Provesi",
 "lvl": 1
@@ -3512,6 +4236,10 @@
 ],
 "Franz Lehár": [
 {
+"t": "{Composer}'s father was Sr., a composer and conductor",
+"lvl": 1
+},
+{
 "t": "{Composer} taught María Grever",
 "lvl": 1
 },
@@ -3548,6 +4276,10 @@
 ],
 "Berthe Marx-Goldschmidt": [
 {
+"t": "{Composer}'s father was Elias Isaac, a musician",
+"lvl": 1
+},
+{
 "t": "{Composer} studied at the Conservatoire National Supérieur de Musique et de Danse",
 "lvl": 2
 },
@@ -3557,6 +4289,10 @@
 }
 ],
 "Vladimir de Pachmann": [
+{
+"t": "{Composer} was married to Marguerite Okey, a composer and pianist",
+"lvl": 1
+},
 {
 "t": "{Composer} received the Royal Philharmonic Society Gold Medal",
 "lvl": 1
@@ -3602,6 +4338,18 @@
 ],
 "Richard Fall": [
 {
+"t": "{Composer}'s father was Moritz, a composer",
+"lvl": 1
+},
+{
+"t": "{Composer}'s sibling was Leo, a composer and conductor",
+"lvl": 1
+},
+{
+"t": "{Composer}'s sibling was Siegfried, a composer and pianist",
+"lvl": 1
+},
+{
 "t": "{Composer} worked in United States",
 "lvl": 2
 },
@@ -3641,6 +4389,14 @@
 }
 ],
 "Adolphe Adam": [
+{
+"t": "{Composer} was married to Chérie-Louise Couraud, an opera singer",
+"lvl": 1
+},
+{
+"t": "{Composer}'s father was Louis, a composer and pianist",
+"lvl": 1
+},
 {
 "t": "{Composer} taught Léo Delibes and Ferdinand Poise",
 "lvl": 1
@@ -3686,6 +4442,10 @@
 ],
 "Theodor Leschetizky": [
 {
+"t": "{Composer} was married to Anna Yesipova, a pianist and musician",
+"lvl": 1
+},
+{
 "t": "{Composer} taught Elly Ney and Irene Abendroth",
 "lvl": 1
 },
@@ -3711,6 +4471,18 @@
 }
 ],
 "Eugen d'Albert": [
+{
+"t": "{Composer} was married to Teresa Carreño, a composer and singer who married Émile Sauret",
+"lvl": 1
+},
+{
+"t": "{Composer} was married to Hermine, an opera singer",
+"lvl": 1
+},
+{
+"t": "{Composer} was the parent of Eugenia, a pianist",
+"lvl": 1
+},
 {
 "t": "{Composer} taught Wilhelm Backhaus",
 "lvl": 1
@@ -3756,6 +4528,14 @@
 ],
 "Sigismond Thalberg": [
 {
+"t": "{Composer} was the parent of Zare, a singer and opera singer",
+"lvl": 1
+},
+{
+"t": "{Composer} was related to Luigi Lablache, a composer and singer",
+"lvl": 1
+},
+{
 "t": "{Composer} taught Fanny Arthur Robinson and Richard Hoffman",
 "lvl": 1
 },
@@ -3799,6 +4579,18 @@
 }
 ],
 "Gustav Mahler": [
+{
+"t": "{Composer} was married to Alma, a composer and musician",
+"lvl": 1
+},
+{
+"t": "{Composer} was the parent of Anna, a composer who married Ernst Krenek",
+"lvl": 1
+},
+{
+"t": "{Composer}'s sibling was Otto, a composer and musician",
+"lvl": 1
+},
 {
 "t": "{Composer} taught Anna von Mildenburg and Klaus Pringsheim",
 "lvl": 1
@@ -3882,6 +4674,18 @@
 ],
 "Antonín Dvořák": [
 {
+"t": "{Composer} was married to Anna Čermáková, a singer",
+"lvl": 1
+},
+{
+"t": "{Composer} was the parent of Otilie Suková, a composer and pianist who married Josef Suk",
+"lvl": 1
+},
+{
+"t": "{Composer} was the parent of Magdalena Dvořáková, a singer and opera singer",
+"lvl": 1
+},
+{
 "t": "{Composer} taught Rudolf Friml and Franz Lehár",
 "lvl": 1
 },
@@ -3912,6 +4716,14 @@
 ],
 "Ferruccio Busoni": [
 {
+"t": "{Composer}'s father was Ferdinando, a composer and musician",
+"lvl": 1
+},
+{
+"t": "{Composer}'s mother was Anna, a composer and pianist",
+"lvl": 1
+},
+{
 "t": "{Composer} taught Eduard Steuermann and Natalie Curtis",
 "lvl": 1
 },
@@ -3941,6 +4753,10 @@
 }
 ],
 "Ossip Gabrilowitsch": [
+{
+"t": "{Composer} was married to Clara Clemens, a singer and pianist",
+"lvl": 1
+},
 {
 "t": "{Composer} studied with Anton Rubinstein and Theodor Leschetizky",
 "lvl": 1
@@ -3982,6 +4798,14 @@
 ],
 "Richard Strauss": [
 {
+"t": "{Composer} was married to Pauline de Ahna, an opera singer",
+"lvl": 1
+},
+{
+"t": "{Composer}'s father was Franz, a composer",
+"lvl": 1
+},
+{
 "t": "{Composer} is known for Also sprach Zarathustra and Der Rosenkavalier",
 "lvl": 2
 },
@@ -3997,6 +4821,10 @@
 }
 ],
 "Friedrich von Flotow": [
+{
+"t": "{Composer} was the parent of Martha, a composer",
+"lvl": 1
+},
 {
 "t": "{Composer} studied with Anton Reicha and Johann Peter Pixis",
 "lvl": 1
@@ -4038,6 +4866,14 @@
 ],
 "Jean Baptiste Lully": [
 {
+"t": "{Composer} was the parent of fils, a composer and musician",
+"lvl": 1
+},
+{
+"t": "{Composer} was the parent of Louis, a composer",
+"lvl": 1
+},
+{
 "t": "{Composer} taught Georg Muffat and Marin Marais",
 "lvl": 1
 },
@@ -4059,6 +4895,10 @@
 }
 ],
 "Gaetano Donizetti": [
+{
+"t": "{Composer}'s sibling was Giuseppe, a composer and conductor",
+"lvl": 1
+},
 {
 "t": "{Composer} taught Michele Puccini",
 "lvl": 1
@@ -4085,6 +4925,10 @@
 }
 ],
 "Ethelbert Woodbridge Nevin": [
+{
+"t": "{Composer}'s sibling was Arthur Finley, a composer and conductor",
+"lvl": 1
+},
 {
 "t": "{Composer} studied with Karl Klindworth",
 "lvl": 1
@@ -4118,6 +4962,14 @@
 ],
 "Michael William Balfe": [
 {
+"t": "{Composer} was married to Magdalena Roser, a singer and opera singer",
+"lvl": 1
+},
+{
+"t": "{Composer} was the parent of Victoria, an opera singer",
+"lvl": 1
+},
+{
 "t": "{Composer} was born in Dublin",
 "lvl": 3
 }
@@ -4148,6 +5000,10 @@
 ],
 "Carl Michael Ziehrer": [
 {
+"t": "{Composer} was married to Marianne Edelmann, a singer",
+"lvl": 1
+},
+{
 "t": "{Composer} studied with Simon Sechter and Johann Emmerich Hasel",
 "lvl": 1
 },
@@ -4161,6 +5017,14 @@
 }
 ],
 "Victor Herbert": [
+{
+"t": "{Composer} was married to Therese Förster, an opera singer",
+"lvl": 1
+},
+{
+"t": "{Composer} was related to Samuel Lover, a composer",
+"lvl": 1
+},
 {
 "t": "{Composer} studied at the State University of Music and Performing Arts Stuttgart",
 "lvl": 2
@@ -4226,6 +5090,10 @@
 ],
 "Francis Thomé": [
 {
+"t": "{Composer} was related to Anna de La Grange, a composer and singer",
+"lvl": 1
+},
+{
 "t": "{Composer} studied at the Conservatoire de Paris",
 "lvl": 2
 },
@@ -4247,6 +5115,14 @@
 }
 ],
 "Thomas Augustine Arne": [
+{
+"t": "{Composer} was married to Cecilia Young, an opera singer",
+"lvl": 1
+},
+{
+"t": "{Composer} was the parent of Michael, a composer and singer",
+"lvl": 1
+},
 {
 "t": "{Composer} taught John Fawcett and Margaret Kennedy",
 "lvl": 1
@@ -4271,6 +5147,18 @@
 }
 ],
 "Joseph Haydn": [
+{
+"t": "{Composer}'s father was Mathias, a composer and musician",
+"lvl": 1
+},
+{
+"t": "{Composer}'s sibling was Johann Evangelist, a composer and singer",
+"lvl": 1
+},
+{
+"t": "{Composer}'s sibling was Michael, a composer and conductor",
+"lvl": 1
+},
 {
 "t": "{Composer} taught Ludwig van Beethoven and Pavel Vranický",
 "lvl": 1
@@ -4330,6 +5218,14 @@
 ],
 "Claudio Monteverdi": [
 {
+"t": "{Composer} was married to Claudia Cattaneo, a singer",
+"lvl": 1
+},
+{
+"t": "{Composer}'s sibling was Giulio Cesare, a composer and organist",
+"lvl": 1
+},
+{
 "t": "{Composer} taught Giovanni Rovetta",
 "lvl": 1
 },
@@ -4361,6 +5257,14 @@
 }
 ],
 "Ambroise Thomas": [
+{
+"t": "{Composer}'s father was Jean-Baptiste-Martin, a violinist",
+"lvl": 1
+},
+{
+"t": "{Composer}'s mother was Jeanne Marie Williaume, a pianist and opera singer",
+"lvl": 1
+},
 {
 "t": "{Composer} taught Jules Massenet and Théodore Dubois",
 "lvl": 1
@@ -4402,6 +5306,14 @@
 ],
 "Julius Benedict": [
 {
+"t": "{Composer} was married to Mary Paramore Comber, a composer and pianist",
+"lvl": 1
+},
+{
+"t": "{Composer}'s sibling was Henriette Dreifus, a composer and musician",
+"lvl": 1
+},
+{
 "t": "{Composer} taught Theodor Döhler and Mary Paramore Comber",
 "lvl": 1
 },
@@ -4425,6 +5337,18 @@
 }
 ],
 "Antonín Dvořák": [
+{
+"t": "{Composer} was married to Anna Čermáková, a singer",
+"lvl": 1
+},
+{
+"t": "{Composer} was the parent of Otilie Suková, a composer and pianist who married Josef Suk",
+"lvl": 1
+},
+{
+"t": "{Composer} was the parent of Magdalena Dvořáková, a singer and opera singer",
+"lvl": 1
+},
 {
 "t": "{Composer} taught Rudolf Friml and Franz Lehár",
 "lvl": 1
@@ -4476,6 +5400,10 @@
 ],
 "Cornelius Gurlitt": [
 {
+"t": "{Composer} was related to Manfred, a composer and conductor",
+"lvl": 1
+},
+{
 "t": "{Composer} studied with Christoph Ernst Friedrich Weyse and Rudolf Reinecke",
 "lvl": 1
 },
@@ -4498,6 +5426,14 @@
 ],
 "Theodor Kullak": [
 {
+"t": "{Composer} was the parent of Franz, a composer and pianist",
+"lvl": 1
+},
+{
+"t": "{Composer}'s sibling was Adolph, a composer and pianist",
+"lvl": 1
+},
+{
 "t": "{Composer} taught Agathe Backer Grøndahl and Nikolai Rubinstein",
 "lvl": 1
 },
@@ -4512,6 +5448,18 @@
 ],
 "Friedrich Burgmüller": [
 {
+"t": "{Composer}'s father was Johann August Franz, a composer and conductor",
+"lvl": 1
+},
+{
+"t": "{Composer}'s mother was Therese, a singer and pianist",
+"lvl": 1
+},
+{
+"t": "{Composer}'s sibling was Norbert, a composer and pianist",
+"lvl": 1
+},
+{
 "t": "{Composer} is known for 25 Études faciles et progressives",
 "lvl": 2
 },
@@ -4521,6 +5469,10 @@
 }
 ],
 "Reynaldo Hahn": [
+{
+"t": "{Composer} had a relationship with Marcel Proust, a literary critic",
+"lvl": 1
+},
 {
 "t": "{Composer} studied with Albert Lavignac",
 "lvl": 1
@@ -4570,6 +5522,10 @@
 ],
 "Pietro Romani": [
 {
+"t": "{Composer} was related to Carlo, a composer and conductor",
+"lvl": 1
+},
+{
 "t": "{Composer} was born in Rome",
 "lvl": 3
 }
@@ -4585,6 +5541,10 @@
 }
 ],
 "Amilcare Ponchielli": [
+{
+"t": "{Composer} was married to Teresina Brambilla, an opera singer",
+"lvl": 1
+},
 {
 "t": "{Composer} taught Giacomo Puccini and Pietro Mascagni",
 "lvl": 1
@@ -4640,6 +5600,10 @@
 ],
 "James Reese Europe": [
 {
+"t": "{Composer} was the parent of Mary, a pianist",
+"lvl": 1
+},
+{
 "t": "{Composer} studied with Harry T. Burleigh",
 "lvl": 1
 },
@@ -4659,6 +5623,10 @@
 }
 ],
 "Enrique Granados": [
+{
+"t": "{Composer} was the parent of Eduard Gal, a composer",
+"lvl": 1
+},
 {
 "t": "{Composer} taught Alicia de Larrocha and Conchita Badía",
 "lvl": 1
@@ -4708,6 +5676,10 @@
 ],
 "Franz Abt": [
 {
+"t": "{Composer} was the parent of Alfred, a conductor",
+"lvl": 1
+},
+{
 "t": "{Composer} worked in Brunswick",
 "lvl": 2
 },
@@ -4717,6 +5689,14 @@
 }
 ],
 "Franz Xaver Gruber": [
+{
+"t": "{Composer} was the parent of Felix, a musician",
+"lvl": 1
+},
+{
+"t": "{Composer} was related to Anna, an organist and music teacher",
+"lvl": 1
+},
 {
 "t": "{Composer} worked in Arnsdorf",
 "lvl": 2
@@ -4731,6 +5711,10 @@
 }
 ],
 "Franz von Suppé": [
+{
+"t": "{Composer} was married to Sofie, a singer and musician",
+"lvl": 1
+},
 {
 "t": "{Composer} taught Carl Millöcker",
 "lvl": 1
@@ -4754,6 +5738,10 @@
 ],
 "Edmond Audran": [
 {
+"t": "{Composer}'s father was Marius, an opera singer",
+"lvl": 1
+},
+{
 "t": "{Composer} studied with Jules Duprato",
 "lvl": 1
 },
@@ -4768,6 +5756,10 @@
 ],
 "Alberto Franchetti": [
 {
+"t": "{Composer}'s sibling was Giorgio, a musician",
+"lvl": 1
+},
+{
 "t": "{Composer} studied at the Hochschule für Musik Carl Maria von Weber",
 "lvl": 2
 },
@@ -4781,6 +5773,10 @@
 }
 ],
 "George M. Cohan": [
+{
+"t": "{Composer} was the parent of Mary, a composer",
+"lvl": 1
+},
 {
 "t": "{Composer} was born in Providence",
 "lvl": 3
@@ -4811,6 +5807,14 @@
 }
 ],
 "Ermanno Wolf-Ferrari": [
+{
+"t": "{Composer} was the parent of Federico, an opera director",
+"lvl": 1
+},
+{
+"t": "{Composer} was related to Manno, a conductor and musician",
+"lvl": 1
+},
 {
 "t": "{Composer} studied with Josef Rheinberger",
 "lvl": 1
@@ -4906,6 +5910,14 @@
 ],
 "César Franck": [
 {
+"t": "{Composer} was married to Félicité Saillot Desmousseaux, a pianist",
+"lvl": 1
+},
+{
+"t": "{Composer}'s sibling was Joseph, a composer and pianist",
+"lvl": 1
+},
+{
 "t": "{Composer} taught Vincent d'Indy and Augusta Holmès",
 "lvl": 1
 },
@@ -4940,6 +5952,10 @@
 ],
 "Vincenzo Bellini": [
 {
+"t": "{Composer} was related to Tobia, a composer",
+"lvl": 1
+},
+{
 "t": "{Composer} studied with Niccolò Antonio Zingarelli",
 "lvl": 1
 },
@@ -4957,6 +5973,10 @@
 }
 ],
 "Bedřich Smetana": [
+{
+"t": "{Composer} was married to Kateřina Otylie Kolářová, a pianist and musician",
+"lvl": 1
+},
 {
 "t": "{Composer} taught Klementina Kalašová",
 "lvl": 1
@@ -4979,6 +5999,14 @@
 }
 ],
 "Benjamin Godard": [
+{
+"t": "{Composer}'s sibling was Amédée, a composer",
+"lvl": 1
+},
+{
+"t": "{Composer}'s sibling was Magdeleine, a violinist",
+"lvl": 1
+},
 {
 "t": "{Composer} taught Cécile Chaminade and Eleanor Everest Freer",
 "lvl": 1
@@ -5005,6 +6033,10 @@
 }
 ],
 "Gustave Charpentier": [
+{
+"t": "{Composer}'s sibling was Victor, a conductor",
+"lvl": 1
+},
 {
 "t": "{Composer} received the Prix de Rome",
 "lvl": 1
@@ -5036,6 +6068,10 @@
 ],
 "Carl Loewe": [
 {
+"t": "{Composer}'s father was Johann Andreas, a composer and musician",
+"lvl": 1
+},
+{
 "t": "{Composer} taught Emilie Mayer",
 "lvl": 1
 },
@@ -5053,6 +6089,10 @@
 }
 ],
 "Carl Millöcker": [
+{
+"t": "{Composer} was married to Karoline, a singer",
+"lvl": 1
+},
 {
 "t": "{Composer} studied with Franz von Suppè and Franz Joseph Zierer",
 "lvl": 1
@@ -5138,6 +6178,10 @@
 ],
 "Johan Severin Svendsen": [
 {
+"t": "{Composer}'s sibling was Elise, a singer",
+"lvl": 1
+},
+{
 "t": "{Composer} taught Nancy Dalberg and Robert Kajanus",
 "lvl": 1
 },
@@ -5163,6 +6207,10 @@
 }
 ],
 "Rikard Nordraak": [
+{
+"t": "{Composer} was related to Gudrun, a composer and singer",
+"lvl": 1
+},
 {
 "t": "{Composer} studied with Theodor Kullak",
 "lvl": 1
@@ -5252,6 +6300,14 @@
 ],
 "Jean Philippe Rameau": [
 {
+"t": "{Composer} was the parent of Claude-François, a musician",
+"lvl": 1
+},
+{
+"t": "{Composer}'s sibling was Claude, an organist",
+"lvl": 1
+},
+{
 "t": "{Composer} taught François Joseph Gossec",
 "lvl": 1
 },
@@ -5265,6 +6321,14 @@
 }
 ],
 "Edouard Lalo": [
+{
+"t": "{Composer} was married to Julie-Marie-Victoire Bernier de Maligny, a singer",
+"lvl": 1
+},
+{
+"t": "{Composer} was the parent of Pierre, a music critic",
+"lvl": 1
+},
 {
 "t": "{Composer} studied with Pierre Baillot and Julius Schulhoff",
 "lvl": 1
@@ -5283,6 +6347,10 @@
 }
 ],
 "André Messager": [
+{
+"t": "{Composer} was married to Hope Temple, a composer",
+"lvl": 1
+},
 {
 "t": "{Composer} taught Henry Février and Hope Temple",
 "lvl": 1
@@ -5340,6 +6408,14 @@
 ],
 "Victor Massé": [
 {
+"t": "{Composer} was related to Philippe Gille, a literary critic and librettist",
+"lvl": 1
+},
+{
+"t": "{Composer} was related to Gille, a pianist",
+"lvl": 1
+},
+{
 "t": "{Composer} taught Alexis de Castillon",
 "lvl": 1
 },
@@ -5388,6 +6464,14 @@
 ],
 "Ludwig Thuille": [
 {
+"t": "{Composer} was the parent of Hedwig Courvoisier, who married Walter Courvoisier",
+"lvl": 1
+},
+{
+"t": "{Composer} was related to Walter Courvoisier, a composer and conductor",
+"lvl": 1
+},
+{
 "t": "{Composer} taught Hermann Abendroth and Klaus Pringsheim",
 "lvl": 1
 },
@@ -5414,11 +6498,27 @@
 ],
 "Francesco Maria Veracini": [
 {
+"t": "{Composer} was related to Antonio, a composer and violinist",
+"lvl": 1
+},
+{
 "t": "{Composer} was born in Florence",
 "lvl": 3
 }
 ],
 "Johann Sebastian Bach": [
+{
+"t": "{Composer} was married to Anna Magdalena, a composer and singer",
+"lvl": 1
+},
+{
+"t": "{Composer} was married to Maria Barbara, a singer",
+"lvl": 1
+},
+{
+"t": "{Composer} was the parent of Christoph Friedrich, a composer and musician",
+"lvl": 1
+},
 {
 "t": "{Composer} taught Carl Gotthelf Gerlach",
 "lvl": 1

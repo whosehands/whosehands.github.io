@@ -11,7 +11,7 @@ Play it at https://whosehands.github.io
 - Naming only the right composer earns 1 point for the piece, but not after you've opened the hint that names the composer.
 - Every puzzle plays a random part of the piece, so a recording can come back later with a different section.
 - The year counts as solved only when it's exact. Every year guess earns points by how close it is (half a point less per year off) and how early it came; the best guess counts. There's no earlier/later hint.
-- Clues work like quiz bowl: each kind (performer, piece, year) starts with obscure, specific facts and gets more obvious. They're all about music: teachers, pupils, conservatories, where people lived and worked, premieres, librettists, what else happened in music that year. Clues about what you already know are skipped.
+- Clues work like quiz bowl: each kind (performer, piece, year) starts with obscure, specific facts and gets more obvious. They're all about music: teachers, pupils, conservatories, where people lived and worked, relatives and partners who were musicians themselves (or married a composer), premieres, librettists, what else happened in music that year. Clues about what you already know are skipped.
 - Pieces that belong to a published set (Chopin's Études, Op. 10; Brahms's Intermezzi, Op. 117): name the set first, then pick which piece from a second list. The right set alone is worth 2 points.
 - After a round you can download the whole recording. Rolls are rendered in the browser on the same piano as the game (MP3 or lossless WAV), or as the original MIDI.
 
@@ -26,7 +26,7 @@ A few bars of a score; name the piece. Each miss shows more of the score and a c
 
 Only works that are public domain in the US and the EU: composers who died by 1930, or works dated 1930 or earlier by composers who died by 1955. IMSLP isn't used: its files are mostly scanned PDFs (pictures of pages, not notes the site can cut into bars), and whether each scan is public domain depends on the country.
 
-`tools/build_scores.py` picks one edition per piece, converts the MuseScore files to MusicXML with MuseScore 3, removes titles, credits and lyrics (so the file doesn't give the answer away) and writes `scores/` and `data/scores.json`.
+`tools/build_scores.py` picks one edition per piece, converts the MuseScore files to MusicXML with MuseScore 3, removes titles and credits (so the file doesn't give the answer away; lyrics stay) and writes `scores/` and `data/scores.json`.
 
 ## Where the music comes from
 
