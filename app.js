@@ -606,10 +606,8 @@
   /* ---------- library: every recording, searchable, with downloads ---------- */
   const LIB = { q: "", format: "", genre: "", from: YEAR_MIN, to: YEAR_MAX, sort: "year", shown: 50 };
   function libRows() {
-    const today = CAT.schedule && BY_ID[CAT.schedule[DAY]], todayDone = (store.get("wh3-day-" + DAY, null) || {}).done;
     const words = norm(LIB.q).split(" ").filter(Boolean);
     const rows = CAT.recordings.filter(r => {
-      if (today && r.id === today.id && !todayDone) return false;      // no spoilers for today's puzzle
       if (LIB.format && (LIB.format === "record") !== (r.kind === "record")) return false;
       if (LIB.genre && r.genre !== LIB.genre) return false;
       if (r.yearMax < LIB.from || r.yearMin > LIB.to) return false;
@@ -620,7 +618,7 @@
     const by = { year: r => r.yearMin * 1e4, composer: r => r.composer, performer: r => r.performers[0], piece: r => r.piece.split(" – ").slice(1).join(" – ") };
     const f = by[LIB.sort];
     rows.sort((a, b) => { const x = f(a), y = f(b); return x < y ? -1 : x > y ? 1 : a.yearMin - b.yearMin; });
-    return { rows, hidden: today && !todayDone };
+    return { rows };
   }
   function libItem(r) {
     const roles = r.performers.map((n, i) => { const role = r.roles && r.roles[i]; return esc(n) + (role && role !== "piano" ? ` <span class="pts">${esc(ROLE_NAMES[role] || role)}</span>` : ""); }).join(", ");
@@ -633,8 +631,8 @@
       <div class="controls">${dl}</div></li>`;
   }
   function libList() {
-    const { rows, hidden } = libRows(), box = document.getElementById("lib-list");
-    document.getElementById("lib-count").textContent = `${rows.length} recording${rows.length === 1 ? "" : "s"}${hidden ? " · today's puzzle is hidden until you've played it" : ""}`;
+    const { rows } = libRows(), box = document.getElementById("lib-list");
+    document.getElementById("lib-count").textContent = `${rows.length} recording${rows.length === 1 ? "" : "s"}`;
     box.innerHTML = rows.slice(0, LIB.shown).map(libItem).join("") || `<li class="how">Nothing matches.</li>`;
     const more = document.getElementById("lib-more");
     more.hidden = rows.length <= LIB.shown;

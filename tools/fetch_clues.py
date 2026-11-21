@@ -101,6 +101,37 @@ for i in range(0, len(todo), 60):
         if "title" in b: facts[item]["_enwiki"] = b["title"]["value"]
     print("facts", i + len(batch), "/", len(todo), flush=True)
     time.sleep(1)
+# 2b. relatives and partners who matter musically: the other person worked in music (musician, singer, composer, conductor,
+#     librettist, impresario, music publisher or critic, theatre director) or was married to a composer (Liszt's daughter Cosima)
+people_q = sorted(q for q in want if q in facts and "_relatives" not in facts[q] and (facts[q].get("P569") or facts[q].get("P19")))
+for i in range(0, len(people_q), 40):
+    batch = people_q[i:i + 40]
+    q = """SELECT ?item ?prop ?rel ?relLabel ?occLabel ?viaLabel WHERE {
+      VALUES ?item { %s }
+      VALUES ?prop { wdt:P26 wdt:P451 wdt:P22 wdt:P25 wdt:P40 wdt:P3373 wdt:P1038 }
+      ?item ?prop ?rel .
+      { VALUES ?occ { wd:Q639669 wd:Q36834 wd:Q177220 wd:Q158852 wd:Q8178443 wd:Q943995 wd:Q2516866 wd:Q1350157 wd:Q3387717 wd:Q486748 wd:Q1259917 }
+        ?rel wdt:P106 ?o . ?o wdt:P279* ?occ . BIND(?o AS ?occ2) }
+      UNION { ?rel wdt:P26|wdt:P451 ?via . ?via wdt:P106 wd:Q36834 . FILTER(?via != ?item) }
+      OPTIONAL { ?rel wdt:P106 ?occ3 . ?occ3 rdfs:label ?occLabel . FILTER(LANG(?occLabel) = "en") }
+      SERVICE wikibase:label { bd:serviceParam wikibase:language "en,fr,de,it". ?rel rdfs:label ?relLabel . ?via rdfs:label ?viaLabel . }
+    }""" % " ".join("wd:" + x for x in batch)
+    rows = sparql(q)
+    for x in batch: facts[x]["_relatives"] = []
+    seen = {}
+    for b in rows:
+        item = b["item"]["value"].rsplit("/", 1)[-1]; prop = b["prop"]["value"].rsplit("/", 1)[-1]
+        rel = b.get("relLabel", {}).get("value", "")
+        if not rel or re.match(r"^Q\d+$", rel): continue
+        k = (item, prop, rel)
+        if k not in seen:
+            seen[k] = {"prop": prop, "name": rel, "occupations": [], "marriedTo": []}
+            facts[item]["_relatives"].append(seen[k])
+        o, v = b.get("occLabel", {}).get("value"), b.get("viaLabel", {}).get("value")
+        if o and o not in seen[k]["occupations"] and len(seen[k]["occupations"]) < 4: seen[k]["occupations"].append(o)
+        if v and v not in seen[k]["marriedTo"]: seen[k]["marriedTo"].append(v)
+    print("relatives", i + len(batch), "/", len(people_q), flush=True)
+    time.sleep(1)
 json.dump(facts, open("sources/clue-facts.json", "w", encoding="utf-8"), ensure_ascii=False, indent=0)
 
 # 3. Wikipedia article text for everything that has one

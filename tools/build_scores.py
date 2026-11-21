@@ -8,7 +8,7 @@ Sources (clone them first, then pass the folders):
     github.com/OpenScore/Lieder, github.com/OpenScore/StringQuartets                     CC0
     github.com/DCMLab/<name> for each name in DCML below (Distant Listening Corpus)      CC BY-NC-SA 4.0
 The OpenScore and DCML files are MuseScore files; MuseScore 3 converts them to MusicXML (set MSCORE to its command,
-e.g. "xvfb-run -a /path/to/AppRun"). Lyrics, titles and credits are removed so the file doesn't give the answer away.
+e.g. "xvfb-run -a /path/to/AppRun"). Titles and credits are removed (lyrics stay) so the file doesn't give the answer away.
 Copyright: only works by composers who died by 1930 (public domain in the US and EU), or with a known date of 1930 or
 earlier by composers who died by 1955.
 Writes scores/<id>.krn or scores/<id>.mxl and data/scores.json.
@@ -264,7 +264,7 @@ if todo and os.environ.get("MSCORE"):
         job = os.path.abspath(os.path.join(CACHE, "job.json")); json.dump(todo[i:i + 150], open(job, "w"))
         subprocess.run(shlex.split(os.environ["MSCORE"]) + ["-j", job], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, timeout=3600)
         print("converted", min(i + 150, len(todo)), "/", len(todo), flush=True)
-STRIP = [re.compile(p, re.S) for p in (r"<lyric(?=[\s>]).*?</lyric>", r"<credit(?=[\s>]).*?</credit>", r"<work>.*?</work>", r"<movement-title>.*?</movement-title>",
+STRIP = [re.compile(p, re.S) for p in (r"<credit(?=[\s>]).*?</credit>", r"<work>.*?</work>", r"<movement-title>.*?</movement-title>",
                                          r"<movement-number>.*?</movement-number>", r"<creator(?=[\s>])[^>]*>.*?</creator>", r"<part-abbreviation>.*?</part-abbreviation>", r"<words(?=[\s>])[^>]*>[^<]*(?:Lied|Song|Op\.|No\.)[^<]*</words>")]
 kept = 0
 for sid, src, it in pending:
