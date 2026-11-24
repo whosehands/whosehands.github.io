@@ -3,8 +3,36 @@
 Searches sound items dated 1895-1925 whose rights allow reuse (Europeana's "open" and "restricted" groups: public domain,
 CC0, CC BY, CC BY-SA, and non-commercial licenses), using music words in several languages and composer names.
 Writes sources/europeana-audio.json: title, people, year, rights, provider, media URL, landing page, description, subjects.
+Then checks that each item's audio file really plays (some providers moved their files or block automated requests) and
+writes sources/europeana-media.json: {item id: working https URL, or "" when none answered}. --verify runs only that check.
 """
 import json, os, re, sys, time, urllib.parse, urllib.request
+# (the API adds the key to its "guid" links, so only the part before "?" is kept)
+
+def verify():
+    try: items = json.load(open("sources/europeana-audio.json", encoding="utf-8"))
+    except FileNotFoundError: return
+    try: known = json.load(open("sources/europeana-media.json", encoding="utf-8"))
+    except FileNotFoundError: known = {}
+    hdr = {"User-Agent": "Mozilla/5.0 (compatible; WhoseHands-bot/1.0; +https://github.com/whosehands/whosehands.github.io)", "Range": "bytes=0-2047"}
+    ok = 0
+    for it in items:
+        m = it.get("media") or ""
+        if not m or it["provider"].startswith("Westphalian") or known.get(it["id"]): ok += bool(known.get(it["id"])); continue
+        m = re.sub(r"^http://", "https://", m)
+        tries = [m.replace("phonobase.org/audio/", "phonobase.org/audios/"), m] if "phonobase.org/audio/" in m else [m]
+        known[it["id"]] = ""
+        for u in tries:
+            try:
+                with urllib.request.urlopen(urllib.request.Request(u, headers=hdr), timeout=60) as r:
+                    head = r.read(2048)
+                    if r.status in (200, 206) and (re.search(r"audio|mpeg|ogg", r.headers.get("Content-Type", "")) or head[:3] == b"ID3" or head[:2] == b"\xff\xfb"):
+                        known[it["id"]] = r.geturl(); ok += 1; break
+            except Exception: pass
+        time.sleep(0.3)
+    json.dump(known, open("sources/europeana-media.json", "w", encoding="utf-8"), ensure_ascii=False, indent=0)
+    print(ok, "items with a playable audio file", flush=True)
+if "--verify" in sys.argv: verify(); sys.exit()
 
 KEY = os.environ.get("EUROPEANA_KEY", "").strip()
 if not KEY: sys.exit("EUROPEANA_KEY is not set")
@@ -41,7 +69,7 @@ for q in QUERIES:
             out.append({"id": it["id"], "title": first("title"), "titles": (it.get("title") or [])[:4], "creators": (it.get("dcCreator") or [])[:8],
                         "contributors": lang("dcContributorLangAware")[:8], "year": (it.get("year") or [""])[0], "rights": first("rights"),
                         "provider": first("dataProvider"), "aggregator": first("provider"), "media": first("edmIsShownBy"), "page": first("edmIsShownAt"),
-                        "europeana": it.get("guid"), "description": " ".join(lang("dcDescriptionLangAware") or it.get("dcDescription") or [])[:700],
+                        "europeana": (it.get("guid") or "").split("?")[0], "description": " ".join(lang("dcDescriptionLangAware") or it.get("dcDescription") or [])[:700],
                         "subjects": lang("dcSubjectLangAware")[:10], "language": (it.get("language") or [])[:3], "query": q})
         n += 1
         cursor = d.get("nextCursor")
@@ -49,3 +77,4 @@ for q in QUERIES:
     print(q, "->", len(out), "items so far", flush=True)
 json.dump(out, open("sources/europeana-audio.json", "w", encoding="utf-8"), ensure_ascii=False, indent=0)
 print(len(out), "items written")
+verify()
