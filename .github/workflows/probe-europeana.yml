@@ -1,0 +1,17 @@
+name: Probe Europeana audio hosts
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [.github/workflows/probe-europeana.yml]
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          for u in www.phonobase.org/audio/AD-2013/2013_6872.mp3 www.phonobase.org/audio/AC-2010/2010-02_3179.mp3 www.doria.fi/bitstream/10024/66457/1/RAI-GramophoneGC-82955.mp3 www.lwl.org/ www.euskariana.euskadi.eus/ ; do
+            for s in https http; do
+              echo "== $s://$u"
+              curl -s -o /dev/null -r 0-1023 -m 30 -H "Origin: https://whosehands.github.io" -D - -w "final=%{url_effective} code=%{http_code}\n" -L "$s://$u" | grep -iE "^(HTTP|content-type|content-length|content-range|access-control|location|accept-ranges)|final=" || true
+            done
+          done
