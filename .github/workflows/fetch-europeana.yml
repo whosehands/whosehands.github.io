@@ -1,0 +1,31 @@
+name: Fetch Europeana recordings
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "41 6 25 * *"
+  push:
+    branches: [main]
+    paths: [tools/fetch_europeana.py, .github/workflows/fetch-europeana.yml]
+permissions:
+  contents: write
+concurrency:
+  group: fetch-europeana
+  cancel-in-progress: false
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - name: List early classical recordings
+        env:
+          EUROPEANA_KEY: ${{ secrets.EUROPEANA_KEY }}
+        run: python3 tools/fetch_europeana.py
+      - name: Commit
+        run: |
+          git config user.name "whose-hands-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add sources/europeana-audio.json
+          git commit -m "Update Europeana recording list" || echo "nothing to commit"
+          git pull --rebase origin main
+          git push origin HEAD:main
