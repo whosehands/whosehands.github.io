@@ -1,0 +1,29 @@
+name: Fetch Wikimedia Commons recordings
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 5 26 * *"
+  push:
+    branches: [main]
+    paths: [tools/fetch_commons.py, .github/workflows/fetch-commons.yml]
+permissions:
+  contents: write
+concurrency:
+  group: fetch-commons
+  cancel-in-progress: false
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - name: List freely licensed historical recordings
+        run: python3 tools/fetch_commons.py
+      - name: Commit
+        run: |
+          git config user.name "whose-hands-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add sources/commons-audio.json
+          git commit -m "Update Wikimedia Commons recording list" || echo "nothing to commit"
+          git pull --rebase origin main
+          git push origin HEAD:main
