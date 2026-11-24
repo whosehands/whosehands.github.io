@@ -2621,6 +2621,36 @@
 "t": "{Who} was born in Province of Novara",
 "lvl": 3
 }
+],
+"Sergei Rachmaninoff": [
+{
+"t": "{Who} was married to Natalya Satina, a pianist",
+"lvl": 1
+},
+{
+"t": "{Who} taught Gina Bachauer and Ruth Slenczynska",
+"lvl": 1
+},
+{
+"t": "{Who} received the Royal Philharmonic Society Gold Medal",
+"lvl": 1
+},
+{
+"t": "{Who} studied with Anton Arensky and Alexander Siloti",
+"lvl": 1
+},
+{
+"t": "{Who} studied at the Saint Petersburg Conservatory",
+"lvl": 2
+},
+{
+"t": "{Who} is known for All-Night Vigil and Suite No. 1",
+"lvl": 2
+},
+{
+"t": "{Who} was born in Semenovo",
+"lvl": 3
+}
 ]
 },
 "composers": {

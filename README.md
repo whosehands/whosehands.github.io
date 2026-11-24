@@ -31,7 +31,7 @@ Only works that are public domain in the US and the EU: composers who died by 19
 ## Where the music comes from
 
 - **Piano rolls:** MIDI files from the [Stanford University Piano Roll Archive (SUPRA)](https://supra.stanford.edu), by Zhengshan Shi and Craig Stuart Sapp, licensed [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). The files in `midi/` are unchanged copies and keep that license. Only rolls published in 1925 or earlier are used.
-- **Records:** the [Library of Congress National Jukebox](https://www.loc.gov/collections/national-jukebox/), recordings that are in the US public domain.
+- **Records:** the [Library of Congress National Jukebox](https://www.loc.gov/collections/national-jukebox/), recordings that are in the US public domain; and about 50 pre-1926 recordings on [Wikimedia Commons](https://commons.wikimedia.org) (public domain), picked and checked by hand in `data/commons-picks.json` (Edison, Columbia, Gramophone, Brunswick and others: Chaliapin, Patti, Moreschi, Ponselle, Grieg at the piano, Holst conducting The Planets). `tools/fetch_commons.py` lists candidates monthly; `tools/select_commons.py` skips any that duplicate a Library of Congress record.
 - **Piece names:** composers' work lists from [Wikidata](https://www.wikidata.org) (CC0).
 - **Piano sound:** Salamander Grand Piano V3 by Alexander Holm, licensed [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/): seven velocity layers, key-release and pedal noises (`piano/`, see `piano/README.md`). Played by `piano.js` with Web Audio.
 - **Clues:** facts from [Wikidata](https://www.wikidata.org) (CC0), fetched monthly by `tools/fetch_clues.py`; `tools/build_clues.py` turns them into clues.
