@@ -66,8 +66,10 @@ for q in QUERIES:
             seen.add(it["id"])
             first = lambda k: (it.get(k) or [""])[0] if isinstance(it.get(k), list) else (it.get(k) or "")
             lang = lambda k: [v for vals in (it.get(k) or {}).values() for v in vals] if isinstance(it.get(k), dict) else (it.get(k) or [])
+            # names as the provider wrote them, not Europeana's machine translations ("André Maréchal", not "André Marshal")
+            orig = lambda k: (it[k].get("def") or next(iter(it[k].values()), [])) if isinstance(it.get(k), dict) else (it.get(k) or [])
             out.append({"id": it["id"], "title": first("title"), "titles": (it.get("title") or [])[:4], "creators": (it.get("dcCreator") or [])[:8],
-                        "contributors": lang("dcContributorLangAware")[:8], "year": (it.get("year") or [""])[0], "rights": first("rights"),
+                        "contributors": orig("dcContributorLangAware")[:8], "year": (it.get("year") or [""])[0], "rights": first("rights"),
                         "provider": first("dataProvider"), "aggregator": first("provider"), "media": first("edmIsShownBy"), "page": first("edmIsShownAt"),
                         "europeana": (it.get("guid") or "").split("?")[0], "description": " ".join(lang("dcDescriptionLangAware") or it.get("dcDescription") or [])[:700],
                         "subjects": lang("dcSubjectLangAware")[:10], "language": (it.get("language") or [])[:3], "query": q})
