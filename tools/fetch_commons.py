@@ -27,26 +27,22 @@ ROOTS = ["Category:Audio files of opera", "Category:Audio files of classical mus
 AUDIO = re.compile(r"\.(ogg|oga|opus|flac|mp3|wav|webm)$", re.I)
 SKIP_CAT = re.compile(r"(?i)speech|spoken|podcast|interview|birds?|animal|wikipedia|pronunciation|lingua|language|poetry|news|radio|jazz|blues|ragtime|country|folk|hymn|anthem|military|film|television|game")
 def verify_picks():
-    """for each hand-picked file (data/commons-picks.json), find an MP3 every browser can play: the file itself or Commons' MP3 copy"""
+    """for each hand-picked file (data/commons-picks.json), find an MP3 every browser can play: the file itself or one of
+    Commons' own MP3 copies (listed by the API, so no guessing and no extra requests)"""
     try: picks = json.load(open("data/commons-picks.json", encoding="utf-8"))
     except FileNotFoundError: return
     try: known = json.load(open("sources/commons-mp3.json", encoding="utf-8"))
     except FileNotFoundError: known = {}
-    for pk in picks:
-        t = pk["file"]
-        if known.get(t): continue
-        name = t.split(":", 1)[1].replace(" ", "_")
-        h = hashlib.md5(name.encode()).hexdigest()
-        q = urllib.parse.quote(name)
-        urls = ([f"https://upload.wikimedia.org/wikipedia/commons/{h[0]}/{h[:2]}/{q}"] if name.lower().endswith(".mp3") else []) + \
-               [f"https://upload.wikimedia.org/wikipedia/commons/transcoded/{h[0]}/{h[:2]}/{q}/{q}.mp3"]
-        for u in urls:
-            try:
-                with urllib.request.urlopen(urllib.request.Request(u, method="HEAD", headers=UA), timeout=60) as r:
-                    if r.status == 200: known[t] = u; break
-            except Exception as e: print("no", u, e)
-            time.sleep(0.5)
-        print(t, "->", known.get(t), flush=True)
+    todo = [pk["file"] for pk in picks if not known.get(pk["file"])]
+    for i in range(0, len(todo), 25):
+        d = get({"action": "query", "titles": "|".join(todo[i:i + 25]), "prop": "videoinfo", "viprop": "url|derivatives|mime"})
+        for p in d.get("query", {}).get("pages", []):
+            vi = (p.get("videoinfo") or [{}])[0]
+            if vi.get("mime") == "audio/mpeg" and vi.get("url"): known[p["title"]] = vi["url"]; continue
+            mp3s = [x for x in vi.get("derivatives", []) if "mpeg" in (x.get("type") or "") or (x.get("src") or "").endswith(".mp3")]
+            if mp3s: known[p["title"]] = mp3s[0]["src"]
+            print(p["title"], "->", known.get(p["title"]), flush=True)
+        time.sleep(2)
     json.dump(known, open("sources/commons-mp3.json", "w", encoding="utf-8"), ensure_ascii=False, indent=0)
 if "--verify" in sys.argv: verify_picks(); sys.exit()
 
