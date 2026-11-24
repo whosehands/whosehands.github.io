@@ -4,7 +4,7 @@ Walks audio categories (a few levels down), keeps audio files whose license is p
 license, and writes sources/commons-audio.json with each file's title, url, license, date, description and categories.
 Run: python3 tools/fetch_commons.py
 """
-import json, re, time, urllib.parse, urllib.request
+import json, re, sys, time, hashlib, urllib.parse, urllib.request
 
 UA = {"User-Agent": "WhoseHands-bot/1.0 (https://github.com/whosehands/whosehands.github.io)"}
 API = "https://commons.wikimedia.org/w/api.php?"
@@ -26,6 +26,30 @@ ROOTS = ["Category:Audio files of opera", "Category:Audio files of classical mus
          "Category:1920s audio recordings", "Category:Sound recordings by decade"]
 AUDIO = re.compile(r"\.(ogg|oga|opus|flac|mp3|wav|webm)$", re.I)
 SKIP_CAT = re.compile(r"(?i)speech|spoken|podcast|interview|birds?|animal|wikipedia|pronunciation|lingua|language|poetry|news|radio|jazz|blues|ragtime|country|folk|hymn|anthem|military|film|television|game")
+def verify_picks():
+    """for each hand-picked file (data/commons-picks.json), find an MP3 every browser can play: the file itself or Commons' MP3 copy"""
+    try: picks = json.load(open("data/commons-picks.json", encoding="utf-8"))
+    except FileNotFoundError: return
+    try: known = json.load(open("sources/commons-mp3.json", encoding="utf-8"))
+    except FileNotFoundError: known = {}
+    for pk in picks:
+        t = pk["file"]
+        if known.get(t): continue
+        name = t.split(":", 1)[1].replace(" ", "_")
+        h = hashlib.md5(name.encode()).hexdigest()
+        q = urllib.parse.quote(name)
+        urls = ([f"https://upload.wikimedia.org/wikipedia/commons/{h[0]}/{h[:2]}/{q}"] if name.lower().endswith(".mp3") else []) + \
+               [f"https://upload.wikimedia.org/wikipedia/commons/transcoded/{h[0]}/{h[:2]}/{q}/{q}.mp3"]
+        for u in urls:
+            try:
+                with urllib.request.urlopen(urllib.request.Request(u, method="HEAD", headers=UA), timeout=60) as r:
+                    if r.status == 200: known[t] = u; break
+            except Exception as e: print("no", u, e)
+            time.sleep(0.5)
+        print(t, "->", known.get(t), flush=True)
+    json.dump(known, open("sources/commons-mp3.json", "w", encoding="utf-8"), ensure_ascii=False, indent=0)
+if "--verify" in sys.argv: verify_picks(); sys.exit()
+
 seen_cats, files = set(), {}
 queue = [(c, 0) for c in ROOTS]
 while queue:
@@ -63,3 +87,4 @@ for i in range(0, len(names), 40):
     time.sleep(0.3)
 json.dump(out, open("sources/commons-audio.json", "w", encoding="utf-8"), ensure_ascii=False, indent=0)
 print(len(out), "freely licensed audio files written")
+verify_picks()

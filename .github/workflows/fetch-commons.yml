@@ -5,7 +5,7 @@ on:
     - cron: "0 5 26 * *"
   push:
     branches: [main]
-    paths: [tools/fetch_commons.py, .github/workflows/fetch-commons.yml]
+    paths: [tools/fetch_commons.py, .github/workflows/fetch-commons.yml, data/commons-picks.json]
 permissions:
   contents: write
 concurrency:
@@ -17,13 +17,13 @@ jobs:
     timeout-minutes: 120
     steps:
       - uses: actions/checkout@v4
-      - name: List freely licensed historical recordings
-        run: python3 tools/fetch_commons.py
+      - name: List freely licensed historical recordings (monthly), or only check the picked files (on push)
+        run: if [ "${{ github.event_name }}" = "push" ]; then python3 tools/fetch_commons.py --verify; else python3 tools/fetch_commons.py; fi
       - name: Commit
         run: |
           git config user.name "whose-hands-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add sources/commons-audio.json
+          git add sources/commons-audio.json sources/commons-mp3.json
           git commit -m "Update Wikimedia Commons recording list" || echo "nothing to commit"
           git pull --rebase origin main
           git push origin HEAD:main
