@@ -5,6 +5,8 @@ cat = json.load(open(CAT, encoding="utf-8"))
 sel = json.load(open("sources/loc-selected.json", encoding="utf-8"))
 try: sel += json.load(open("sources/commons-selected.json", encoding="utf-8"))     # hand-checked Wikimedia Commons recordings (tools/select_commons.py)
 except FileNotFoundError: pass
+try: sel += json.load(open("sources/europeana-selected.json", encoding="utf-8"))  # Europeana recordings (tools/select_europeana.py)
+except FileNotFoundError: pass
 cat["recordings"] = [r for r in cat["recordings"] if r.get("kind") != "record"]
 try: wd = json.load(open("sources/wikidata-works.json", encoding="utf-8"))
 except FileNotFoundError: wd = {}
@@ -42,11 +44,13 @@ for r in sel:
         "performers": [p for p, _ in r["performers"]], "roles": [x for _, x in r["performers"]],
         "performerDates": {}, "credits": "; ".join(r["credits"]),
         "composer": comp, "composerDates": "", "otherComposers": r["composers"][1:],
-        "piece": f"{sn} – {title}", "work": f"{sn} – {title}", "part": "", "title": title, "rollLabel": "",
+        # an aria whose opera is known (Europeana) is filed under the opera, with the aria as the part
+        "piece": f"{sn} – {r.get('opera') or title}", "work": f"{sn} – {r.get('opera') or title}", "part": title if r.get("opera") else "", "title": title, "rollLabel": "",
         "yearMin": r["year"], "yearMax": r.get("yearMax", r["year"]), "yearExact": r.get("yearMax", r["year"]) == r["year"], "date": r["date"],
         "place": r["place"], "label": r["label"], "format": r.get("format") or (f"{r['label']} 78 record" + (f" no. {r['catalog']}" if r.get("catalog") else "")),
         "rollNumber": "", "source": r["source"], "license": r.get("license") or "Public domain (US)", "genreHint": r.get("genreHint") or genre_hint(r),
         "artSong": r["artSong"] if "artSong" in r else (genre_hint(r) == "Songs" and art_song(r)), "famous": False,
+        **({"sourceName": r["sourceName"]} if r.get("sourceName") else {}),
     })
 json.dump(cat, open(CAT, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 print(sum(1 for r in cat["recordings"] if r.get("kind") == "record"), "records added;", len(cat["recordings"]), "recordings in total")

@@ -7904,20 +7904,6 @@
 "lvl": 2
 }
 ],
-"adam|t|etai roi si": [
-{
-"t": "{It} has words by Jules Brésil",
-"lvl": 1
-},
-{
-"t": "{It} was first performed in 1852, at Theatre Lyrique",
-"lvl": 2
-},
-{
-"t": "{It} is in French",
-"lvl": 3
-}
-],
 "strauss|t|blut wiener": [
 {
 "t": "{It} has words by Viktor Léon",
@@ -8904,6 +8890,16 @@
 "lvl": 3
 }
 ],
+"adam|t|cantique noel": [
+{
+"t": "{It} has words by Placide Cappeau",
+"lvl": 1
+},
+{
+"t": "{It} is in French",
+"lvl": 3
+}
+],
 "massenet|t|herodiade": [
 {
 "t": "Its characters include A high priest and A voice",
@@ -9344,7 +9340,7 @@
 "lvl": 3
 }
 ],
-"godard|t|avec nous petit vien": [
+"godard|t|vivandiere": [
 {
 "t": "{It} is in French",
 "lvl": 3
@@ -9385,6 +9381,28 @@
 "gounod|t|immortelle lyre ma": [
 {
 "t": "{It} is in French",
+"lvl": 3
+}
+],
+"gluck|t|ed euridice orfeo": [
+{
+"t": "Its characters include Orpheus and Eurydice",
+"lvl": 1
+},
+{
+"t": "{It} has words by Ranieri de' Calzabigi",
+"lvl": 1
+},
+{
+"t": "{It} is based on Georgics",
+"lvl": 2
+},
+{
+"t": "{It} was first performed in 1762, at Burgtheater",
+"lvl": 2
+},
+{
+"t": "{It} is in Italian",
 "lvl": 3
 }
 ],

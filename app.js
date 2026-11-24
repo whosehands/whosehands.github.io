@@ -1,6 +1,6 @@
 /* Whose Hands — a daily guessing game for historic recordings.
    Rolls: Stanford University Piano Roll Archive (CC BY-NC-SA 4.0).
-   Records: Library of Congress National Jukebox (public domain in the US) and Wikimedia Commons (public domain).
+   Records: Library of Congress National Jukebox (public domain in the US), Wikimedia Commons (public domain), Europeana (Phonobase CC BY-NC-ND 4.0; National Library of Finland public domain).
    Piano sound: Salamander Grand Piano V3 by Alexander Holm (CC BY 3.0). MIDI parsing: @tonejs/midi (MIT). MP3 encoding: LAME via lamejs (LGPL). */
 (function () {
   "use strict";
@@ -144,7 +144,7 @@
     }
   };
 
-  const srcName = r => (/wikimedia\.org/.test(r.source || "") ? "Wikimedia Commons" : "Library of Congress");
+  const srcName = r => r.sourceName ? r.sourceName.replace(/\s*\(.*\)$/, "") : (/wikimedia\.org/.test(r.source || "") ? "Wikimedia Commons" : "Library of Congress");
   /* ---------- downloads ---------- */
   const fileBase = (r = P) => `${r.performers.join(", ")} – ${r.piece.split(" – ").slice(1).join(" – ") || r.piece} (${r.yearMin})`.replace(/[\\/:*?"<>|]+/g, "").slice(0, 150);
   let lameLoading = null;
@@ -628,7 +628,7 @@
       ? `<a class="btn small" href="${esc(r.audio)}" target="_blank" rel="noopener" download>MP3</a><a class="btn small" href="${esc(r.source)}" target="_blank" rel="noopener">${srcName(r)}</a>`
       : `<button class="btn small" data-ldl="mp3" data-id="${esc(r.id)}">MP3</button><button class="btn small" data-ldl="wav" data-id="${esc(r.id)}">WAV</button><a class="btn small" href="${esc(r.midi)}" download="${esc(fileBase(r))}.mid">MIDI</a>${r.source ? `<a class="btn small" href="${esc(r.source)}" target="_blank" rel="noopener">Stanford</a>` : ""}`;
     return `<li class="lib-item"><div class="lib-head"><b>${esc(r.piece)}</b><span class="pts">${yr}</span></div>
-      <div class="lib-meta">${roles} · ${r.kind === "record" ? "78 record" : "piano roll"}${r.label ? " · " + esc(r.label) : ""} · ${esc(r.genre || "")}</div>
+      <div class="lib-meta">${roles} · ${r.kind === "record" ? (/cylinder/i.test(r.format || "") && !/disc/i.test(r.format) ? "cylinder" : "record") : "piano roll"}${r.label && r.label !== "Historical" ? " · " + esc(r.label) : ""} · ${esc(r.genre || "")}</div>
       <div class="controls">${dl}</div></li>`;
   }
   function libList() {
@@ -646,7 +646,7 @@
     const opt = (v, l, sel) => `<option value="${esc(v)}" ${sel ? "selected" : ""}>${esc(l)}</option>`;
     app.innerHTML = `<header><h1>Whose <em>Hands</em></h1><span class="meta">Library</span></header>
     ${tabsHTML("library")}
-    <p class="how">Every recording in the game. Search by composer, performer, piece or year, and download any of them. Rolls are made into audio in your browser on the game's piano; records come from the Library of Congress and Wikimedia Commons.</p>
+    <p class="how">Every recording in the game. Search by composer, performer, piece or year, and download any of them. Rolls are made into audio in your browser on the game's piano; records come from the Library of Congress, Wikimedia Commons and Europeana.</p>
     <section class="panel lib">
       <input type="search" id="lib-q" placeholder="Search: Chopin, Caruso, Op. 28, 1912…" value="${esc(LIB.q)}" aria-label="Search recordings">
       <div class="lib-filters">
@@ -659,7 +659,7 @@
       <ul class="lib-list" id="lib-list"></ul>
       <button class="btn" id="lib-more">Show more</button>
     </section>
-    <footer><span>Rolls: Stanford University Piano Roll Archive (CC BY-NC-SA 4.0). Records: Library of Congress National Jukebox and Wikimedia Commons (public domain). Piano: Salamander Grand Piano V3 by Alexander Holm (CC BY 3.0).</span><span><a href="#changelog">What's new</a></span></footer>`;
+    <footer><span>Rolls: Stanford University Piano Roll Archive (CC BY-NC-SA 4.0). Records: Library of Congress National Jukebox and Wikimedia Commons (public domain); Europeana (Phonobase, CC BY-NC-ND 4.0; National Library of Finland, public domain). Piano: Salamander Grand Piano V3 by Alexander Holm (CC BY 3.0).</span><span><a href="#changelog">What's new</a></span></footer>`;
     const q = document.getElementById("lib-q");
     let t = 0;
     q.oninput = () => { clearTimeout(t); t = setTimeout(() => { LIB.q = q.value; LIB.shown = 50; libList(); }, 150); };
@@ -729,7 +729,7 @@
     ${S.done ? resultHTML() : ""}
 
     <footer>
-      <span>${daily ? "A new recording every day at midnight." : "Practice puzzles are random and don't count toward your daily stats."} Rolls from the <a href="https://supra.stanford.edu" target="_blank" rel="noopener">Stanford University Piano Roll Archive</a> (CC BY-NC-SA 4.0). Records from the <a href="https://www.loc.gov/collections/national-jukebox/" target="_blank" rel="noopener">Library of Congress National Jukebox</a> and <a href="https://commons.wikimedia.org" target="_blank" rel="noopener">Wikimedia Commons</a> (public domain). Piano sound: Salamander Grand Piano V3 by Alexander Holm (CC BY 3.0).</span>
+      <span>${daily ? "A new recording every day at midnight." : "Practice puzzles are random and don't count toward your daily stats."} Rolls from the <a href="https://supra.stanford.edu" target="_blank" rel="noopener">Stanford University Piano Roll Archive</a> (CC BY-NC-SA 4.0). Records from the <a href="https://www.loc.gov/collections/national-jukebox/" target="_blank" rel="noopener">Library of Congress National Jukebox</a> and <a href="https://commons.wikimedia.org" target="_blank" rel="noopener">Wikimedia Commons</a> (public domain), and <a href="https://www.europeana.eu" target="_blank" rel="noopener">Europeana</a>: <a href="https://www.phonobase.org" target="_blank" rel="noopener">Phonobase</a> (CC BY-NC-ND 4.0) and the National Library of Finland (public domain). Piano sound: Salamander Grand Piano V3 by Alexander Holm (CC BY 3.0).</span>
       <span><a href="#changelog">What's new</a> · Something wrong with an answer? <a href="https://github.com/${REPO}/issues/new?title=${encodeURIComponent("Problem with " + (daily ? "No. " + (DAY + 1) : "a practice puzzle"))}&body=${encodeURIComponent("Recording id: " + P.id + "\nWhat's wrong:\n")}" target="_blank" rel="noopener">Report it</a>.</span>
     </footer>
 `;
@@ -852,7 +852,7 @@
         <dt>Clip</dt><dd>Starts ${fmt(Player.start)} into the ${P.kind === "record" ? "record" : "roll"}</dd>
         <dt>Recorded</dt><dd>${esc(String(yr))}${P.yearExact ? "" : " (published; exact date unknown)"}</dd>
         <dt>Your year</dt><dd>${S.year ?? "—"} · ${yearPts()} pt${yearPts() === 1 ? "" : "s"}</dd>
-        <dt>Source</dt><dd>${P.kind === "record" ? esc(P.format) : "Piano roll" + (P.rollNumber ? " no. " + esc(P.rollNumber) : "")} · <a href="${esc(P.source)}" target="_blank" rel="noopener">${P.kind === "record" ? "Library of Congress" : "Stanford"} record</a></dd>
+        <dt>Source</dt><dd>${P.kind === "record" ? esc(P.format) : "Piano roll" + (P.rollNumber ? " no. " + esc(P.rollNumber) : "")} · <a href="${esc(P.source)}" target="_blank" rel="noopener">${P.kind === "record" ? srcName(P) : "Stanford"}</a>${P.kind === "record" && P.license ? ` · <span class="pts">${esc(P.license)}</span>` : ""}</dd>
       </dl>
       <div class="dl"><span class="label">Download the whole recording</span><div class="controls">${P.kind === "record"
         ? `<a class="btn small" href="${esc(P.audio)}" target="_blank" rel="noopener" download>Audio (MP3)</a><a class="btn small" href="${esc(P.source)}" target="_blank" rel="noopener">${srcName(P)} page</a>`
