@@ -4,12 +4,17 @@ Uses the public loc.gov JSON API, slowly. Writes sources/loc-jukebox-extra.jsonl
 """
 import json, re, time, urllib.parse, urllib.request
 UA = {"User-Agent": "WhoseHands-bot/1.0 (https://github.com/whosehands/whosehands.github.io)"}
+START = time.time()
 def get(u):
-    for i in range(5):
+    """loc.gov answers 429 when asked too often; back off for longer each time (up to 10 minutes)"""
+    for i in range(8):
         try:
             with urllib.request.urlopen(urllib.request.Request(u, headers=UA), timeout=120) as r: return json.load(r)
         except Exception as e:
-            print("retry", i, e, flush=True); time.sleep(20 * (i + 1))
+            wait = min(600, 30 * 2 ** i)
+            print("retry", i, e, "waiting", wait, flush=True)
+            if time.time() - START + wait > 100 * 60: return None
+            time.sleep(wait)
     return None
 have = set()
 for line in open("sources/loc-jukebox-metadata.jsonl", encoding="utf-8"):
@@ -18,13 +23,21 @@ def role_of(parts):
     if len(parts) >= 3 and parts[1] == parts[2]: return parts[1]
     if parts[1] in ("Vocalist", "Instrumentalist"): return " -- ".join(parts[1:])
     return parts[1]
+# resume: keep what earlier runs found and the page each search got to
 rows, seen = [], set()
+try:
+    for line in open("sources/loc-jukebox-extra.jsonl", encoding="utf-8"):
+        r = json.loads(line); rows.append(r); seen.add(r["Id"].rstrip("/"))
+except FileNotFoundError: pass
+try: state = json.load(open("sources/loc-jukebox-extra-state.json"))
+except FileNotFoundError: state = {}
 for genre in ("opera", "classical music"):
-    url = "https://www.loc.gov/collections/national-jukebox/?" + urllib.parse.urlencode({"fo": "json", "c": "150", "dates": "1900/1925", "fa": f"subject_genre:{genre}"})
+    url = state.get(genre, "https://www.loc.gov/collections/national-jukebox/?" + urllib.parse.urlencode({"fo": "json", "c": "100", "dates": "1900/1925", "fa": f"subject_genre:{genre}"}))
     page = 0
-    while url:
+    while url and url != "done":
         d = get(url); page += 1
-        if not d: print("gave up on", url); break
+        if not d: print("stopping for now at", url); break
+        state[genre] = url
         for r in d.get("results", []):
             rid = (r.get("id") or "").rstrip("/").replace("https://", "http://")
             if not rid or rid in have or rid in seen: continue
@@ -43,8 +56,14 @@ for genre in ("opera", "classical music"):
                          "Recording_label": it.get("recording_label"), "Recording_catalog_number": it.get("recording_catalog_number"),
                          "Location_text": ", ".join(loc[:2]) if loc else "", "Audio_url": media[0], "Repository": it.get("recording_repository")})
         print(genre, "page", page, "->", len(rows), "new so far", flush=True)
-        url = (d.get("pagination") or {}).get("next")
-        time.sleep(4)
+        print("   of", (d.get("pagination") or {}).get("of"), flush=True)
+        url = (d.get("pagination") or {}).get("next") or "done"
+        state[genre] = url
+        json.dump(state, open("sources/loc-jukebox-extra-state.json", "w"))
+        with open("sources/loc-jukebox-extra.jsonl", "w", encoding="utf-8") as f:
+            for r in rows: f.write(json.dumps(r, ensure_ascii=False) + "\n")
+        time.sleep(15)
 with open("sources/loc-jukebox-extra.jsonl", "w", encoding="utf-8") as f:
     for r in rows: f.write(json.dumps(r, ensure_ascii=False) + "\n")
-print(len(rows), "recordings not in the dataset")
+json.dump(state, open("sources/loc-jukebox-extra-state.json", "w"))
+print(len(rows), "recordings not in the dataset;", "finished" if all(state.get(g) == "done" for g in ("opera", "classical music")) else "more next run")

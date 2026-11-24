@@ -2,6 +2,9 @@
 Writes sources/loc-selected.json (one entry per record)."""
 import json, re, collections, sys
 rows = [json.loads(l) for l in open("sources/loc-jukebox-metadata.jsonl", encoding="utf-8")]
+try:   # National Jukebox recordings outside the 1900-1922 dataset (tools/fetch_loc_extra.py): 1923-1925 and other repositories
+    rows += [json.loads(l) for l in open("sources/loc-jukebox-extra.jsonl", encoding="utf-8")]
+except FileNotFoundError: pass
 audio = {}
 for line in open("sources/loc-jukebox-manifest.txt", encoding="utf-8"):
     f = line.rstrip("\n").split("\t")
@@ -26,7 +29,7 @@ for r in rows:
     if r.get("Audio_type") == "Spoken": why["spoken"] += 1; continue
     t = r.get("Title") or ""
     if re.search(r"(?i)\bgems from|medley|selections?\b|potpourri|fantasia on|reminiscences of", t): why["medley"] += 1; continue
-    a = audio.get(r["Id"].rstrip("/"))
+    a = r.get("Audio_url") or audio.get(r["Id"].rstrip("/"))
     if not a: why["no audio"] += 1; continue
     cons = r.get("Contributors") or []
     composers = [flip(c["Name"]) for c in cons if c["Role"] in ("Composer", "Songwriter")]
