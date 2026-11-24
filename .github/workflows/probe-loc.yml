@@ -1,16 +1,18 @@
-name: Probe LoC dataset files
-on: workflow_dispatch
+name: Probe LoC API
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [tools/probe_loc_api.py, .github/workflows/probe-loc.yml]
 permissions:
-  contents: read
+  contents: write
 jobs:
   probe:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v4
+      - run: python3 tools/probe_loc_api.py
       - run: |
-          for u in https://data.labs.loc.gov/jukebox/ \
-                   https://data.labs.loc.gov/jukebox/metadata.csv https://data.labs.loc.gov/jukebox/metadata.jsonl https://data.labs.loc.gov/jukebox/metadata.json \
-                   https://data.labs.loc.gov/jukebox/data/metadata.csv https://data.labs.loc.gov/jukebox/data/metadata.jsonl \
-                   https://data.labs.loc.gov/jukebox/sample.zip https://data.labs.loc.gov/jukebox/data.zip https://data.labs.loc.gov/jukebox/manifest.txt \
-                   "https://data.labs.loc.gov/?prefix=jukebox/" "https://s3.amazonaws.com/data.labs.loc.gov/?prefix=jukebox/&delimiter=/"; do
-            code=$(curl -s -o /tmp/out -w "%{http_code} %{size_download} %{content_type}" -A "WhoseHands-bot" "$u"); echo "$code  $u"; head -c 600 /tmp/out | tr '\n' ' '; echo; echo ----
-          done
+          git config user.name "whose-hands-bot"; git config user.email "actions@users.noreply.github.com"
+          git add sources/loc-probe.json; git commit -m "LoC API probe" || true
+          git pull --rebase origin main; git push origin HEAD:main
