@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: [tools/fetch_loc.py, .github/workflows/fetch-sources.yml]
+    paths: [tools/fetch_loc.py, tools/fetch_loc_extra.py, .github/workflows/fetch-sources.yml]
   schedule:
     - cron: "17 9 28 * *"   # monthly, 28th, 09:17 UTC (before the 1st-of-month check)
 permissions:
@@ -20,6 +20,7 @@ jobs:
         run: |
           mkdir -p sources
           python3 tools/fetch_loc.py
+          python3 tools/fetch_loc_extra.py
           ls -la sources
       - name: Commit
         run: |
