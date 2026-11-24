@@ -26,6 +26,10 @@ def role_of(parts):
 # resume: keep what earlier runs found and the page each search got to
 rows, seen = [], set()
 try:
+    if all(json.load(open("sources/loc-jukebox-extra-state.json")).get(g) == "done" for g in ("opera", "classical music")):
+        print("listing already complete"); raise SystemExit
+except FileNotFoundError: pass
+try:
     for line in open("sources/loc-jukebox-extra.jsonl", encoding="utf-8"):
         r = json.loads(line); rows.append(r); seen.add(r["Id"].rstrip("/"))
 except FileNotFoundError: pass

@@ -1,0 +1,28 @@
+name: Fetch more National Jukebox listings
+# loc.gov allows only a few requests before it pauses us, so this runs every few hours and picks up where it stopped.
+# Once the listing is complete it finishes in seconds; the monthly rebuild adds the new recordings to the game.
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "23 */4 * * *"
+permissions:
+  contents: write
+concurrency:
+  group: fetch-sources
+  cancel-in-progress: false
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 110
+    steps:
+      - uses: actions/checkout@v4
+      - name: Continue the listing
+        run: python3 tools/fetch_loc_extra.py
+      - name: Commit
+        run: |
+          git config user.name "whose-hands-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add sources/loc-jukebox-extra.jsonl sources/loc-jukebox-extra-state.json
+          git commit -m "More National Jukebox listings" || echo "nothing to commit"
+          git pull --rebase origin main
+          git push origin HEAD:main
