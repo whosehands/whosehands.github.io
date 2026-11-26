@@ -42631,7 +42631,6 @@
 "Category:Audio files from the Swedish Performing Arts Agency",
 "Category:CC-Zero",
 "Category:Content made available through Wikimedia Sverige partnerships",
-"Category:Creative Commons CC0 1.0 Universal Public Domain Dedication missing SDC copyright license",
 "Category:Edward M. Favor",
 "Category:Files with no machine-readable author",
 "Category:Media contributed by the Swedish Performing Arts Agency: 2026-11",
@@ -43001,7 +43000,7 @@
 "seconds": 13.609773242630386,
 "license": "CC BY-SA 4.0",
 "date": "0202-07-16",
-"description": "Anfang der Chaconne von Bach BWV 1004\n\nMusical scores are temporarily disabled.",
+"description": "Anfang der Chaconne von Bach BWV 1004",
 "artist": "Joachim Mohr",
 "credit": "Own work",
 "name": "Chaconne",
@@ -52328,7 +52327,7 @@
 "seconds": 27.00480725623583,
 "license": "CC BY-SA 4.0",
 "date": "2014-12-07",
-"description": "A random example of a Clarinet and Bassoon duet. Could be useful for a sample of music that an examiner would use in an audio exam.",
+"description": "A random example of a Clarinet and Bassoon duet. Could be useful for a sample of music that an examiner would use in an audio exam. Made in MuseScore 1.",
 "artist": "Qwertyxp2000",
 "credit": "Own work",
 "name": "Clarinet and Bassoon",
@@ -54407,7 +54406,7 @@
 "description": "Content: 2nd part; Straram Symphony Orchestra; Conductor: Walther Straram (1876-1933); Recording date: 24-02-1930; First release: 1930",
 "artist": "Claude Debussy",
 "credit": "Public Domain Projekt; Carl Flisch",
-"name": "French:  Prélude à l'Après-midi d'un faune Prélude à l'après-midi d'un faunetitle QS:P1476,fr:\"Prélude à l'Après-midi d'un faune \"label QS:Lfr,\"Prélude à l'Après-midi d'un faune \"label QS:Lit,\"Prélude",
+"name": "French:  Prélude à l'Après-midi d'un faune Prélude à l'après-midi d'un faunetitle QS:P1476,fr:\"Prélude à l'Après-midi d'un faune \"label QS:Lfr,\"Prélude à l'Après-midi d'un faune \"label QS:Les,\"Preludi",
 "categories": [
 "Category:1930s music",
 "Category:All media supported by Wikimedia Deutschland",
@@ -88612,7 +88611,6 @@
 "Category:CC-PD-Mark",
 "Category:Files with no machine-readable author",
 "Category:PD-old-70-expired",
-"Category:PD-old missing SDC copyright status",
 "Category:PD EU Audio",
 "Category:PD US record"
 ]
@@ -88634,7 +88632,6 @@
 "Category:CC-PD-Mark",
 "Category:Files with no machine-readable author",
 "Category:PD-old-70-expired",
-"Category:PD-old missing SDC copyright status",
 "Category:PD EU Audio",
 "Category:PD US record"
 ]
@@ -88656,7 +88653,6 @@
 "Category:CC-PD-Mark",
 "Category:Files with no machine-readable author",
 "Category:PD-old-70-expired",
-"Category:PD-old missing SDC copyright status",
 "Category:PD EU Audio",
 "Category:PD US record"
 ]
@@ -88699,7 +88695,6 @@
 "Category:CC-PD-Mark",
 "Category:Files with no machine-readable author",
 "Category:PD-old-70-expired",
-"Category:PD-old missing SDC copyright status",
 "Category:PD EU Audio",
 "Category:PD US record"
 ]
@@ -124883,10 +124878,7 @@
 "categories": [
 "Category:Audio files of music by Edvard Grieg",
 "Category:CC-BY-4.0",
-"Category:Creative Commons Attribution 4.0 missing SDC copyright license",
-"Category:Creative Commons Attribution missing SDC copyright status",
-"Category:Self-published work",
-"Category:Self-published work missing SDC copyright license"
+"Category:Self-published work"
 ]
 },
 {
@@ -129474,15 +129466,22 @@
 "seconds": 856.2720006726458,
 "license": "CC BY-SA 4.0",
 "date": "2002",
-"description": "Felix Mendelssohn Bartholdy: Sonate d-Moll op. 65 Nr. 6Matthias Privler an der Späth-Orgel der katholischen Allerheiligenkirche München-Schwabing (live)aus einem Konzertmitschnitt von 2002",
-"artist": "Matthias Privler",
-"credit": "YouTube",
+"description": "Felix Mendelssohn: Sonate d-Moll op. 65 (MWV SD 31; 1844-5) Nr. 6 (MWV W 61; 1845).\n\nMatthias Privler an der Späth-Orgel der katholischen Allerheiligenkirche München-Schwabing (live) aus einem Konzertmitschnitt von 2002.\n\n\nSiehe auch \"Liste der Werke von Felix Mendelssohn Bartholdy: Gegenüberstellung zum Opus-Verzeichnis: Sechs Sonaten: op. 65 Nr. 6 | MWV W 61\".",
+"artist": "Composition: Felix Mendelssohn\n\nPerformance and file: Matthias Privler",
+"credit": "YouTube.",
 "name": "Mendelssohn Vater-unser-Sonate op. 65,6｜Matthias Privler｜Späth-Orgel Allerheiligenkirche München-Schwabing｜2002｜live",
 "categories": [
+"Category:1845 works",
 "Category:Audio files of music by Felix Mendelssohn",
 "Category:Audio files of organ music",
+"Category:Audio files of sonatas",
 "Category:CC-BY-SA-4.0",
-"Category:Pipe organ of Allerheiligenkirche, röm.-kath. (München-Schwabing)"
+"Category:Compositions in D minor",
+"Category:Music in 1845",
+"Category:Picardy thirds",
+"Category:Pipe organ of Allerheiligenkirche, röm.-kath. (München-Schwabing)",
+"Category:Recorded music in 2002",
+"Category:Six organ sonatas (Mendelssohn)"
 ]
 },
 {
@@ -130063,22 +130062,35 @@
 "seconds": 1119.4253,
 "license": "Public domain",
 "date": "1845",
-"description": "Felix Mendelssohn's organ sonata in D minor op. 65 no. 6 played by Wolfram Syré, recorded with a sample of the 1737 Engler organ in Krzeszów Abbey, Poland",
-"artist": "composition: Felix Mendelssohn Bartoldy\n\nrecording (using a Hauptwerk digital organ): Wolfram Syré",
+"description": "Felix Mendelssohn's organ sonata in D minor (op. 65 no. 6) played by Wolfram Syré, recorded with a sample of the 1737 Engler organ in Krzeszów Abbey, Poland.\n\nEngler: Michael Engler the Younger (1688-1760), german organ builder from Silesia.\n\nSee also \"Hauptwerk (virtual pipe organ)\", \"Vater unser im Himmelreich (Our Father in Heaven): Use in musical compositions: Felix Mendelssohn included the melody in his Sixth Organ Sonata\", \"Organ Sonatas (Mendelssohn): Music: No. 5 in D major\", \"Chorale\", \"Chorale setting: 'organ chorales'\", \"Cistercian abbey in Krzeszów\" and \"Interior of Saint Joseph ch",
+"artist": "Composition: Felix Mendelssohn (1809-1847)\n\nPerforming and recording (using a Hauptwerk digital organ): Wolfram Syré (b. 1950)",
 "credit": "Organ Repertory Dr. Wolfram Syré\n\n\n\n\n\nThis file is part of the Organ Repertory by Wolfram Syré.",
 "name": "Mendelssohn organ sonata D minor op. 65 no. 6 Wolfram Syré",
 "categories": [
+"Category:1845 works",
+"Category:Allegro (music)",
+"Category:Andante",
 "Category:Audio files of German and Austrian Romantic music recorded by Wolfram Syré",
 "Category:Audio files of music by Felix Mendelssohn",
 "Category:Audio files of music by Felix Mendelssohn recorded by Wolfram Syré",
 "Category:Audio files of music of Germany",
 "Category:Audio files of organ music recorded by Wolfram Syré",
 "Category:Audio files of sonatas",
+"Category:Baroque pipe organs in Poland",
 "Category:CC-BY-SA-4.0",
 "Category:CC-PD-Mark",
+"Category:Chorale preludes",
+"Category:Compositions in D minor",
+"Category:Fugues",
+"Category:Interior of Saint Joseph church in Krzeszów",
 "Category:Items with VRTS permission confirmed",
+"Category:Music in 1845",
 "Category:PD-old-100-expired",
-"Category:Six organ sonatas (Mendelssohn)"
+"Category:Picardy thirds",
+"Category:Pipe organs built in 1737",
+"Category:Pipe organs of churches in Lower Silesian Voivodeship",
+"Category:Six organ sonatas (Mendelssohn)",
+"Category:Variations"
 ]
 },
 {
@@ -142229,10 +142241,7 @@
 "categories": [
 "Category:Audio files of music by Pyotr Ilyich Tchaikovsky",
 "Category:CC-BY-4.0",
-"Category:Creative Commons Attribution 4.0 missing SDC copyright license",
-"Category:Creative Commons Attribution missing SDC copyright status",
-"Category:Self-published work",
-"Category:Self-published work missing SDC copyright license"
+"Category:Self-published work"
 ]
 },
 {
