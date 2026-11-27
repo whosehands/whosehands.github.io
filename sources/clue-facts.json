@@ -29573,5 +29573,2718 @@
 ],
 "_description": "Romantic concerto by Robert Schumann",
 "_enwiki": "Piano Concerto (Schumann)"
+},
+"Q102046197": {
+"_label": "Elliott Stanton Shaw",
+"P19": [
+"Des Moines"
+],
+"P20": [
+"Eastchester"
+],
+"P27": [
+"United States"
+],
+"P31": [
+"human"
+],
+"P119": [
+"Ferncliff Cemetery"
+],
+"P412": [
+"baritone"
+],
+"P463": [
+"The Revelers",
+"The Shannon Four"
+],
+"P569": [
+"1887-04-10T00:00:00Z"
+],
+"P570": [
+"1973-08-01T00:00:00Z",
+"1973-08-13T00:00:00Z"
+],
+"_description": "American singer",
+"_relatives": []
+},
+"Q106359341": {
+"_label": "A Waltz by Strauss",
+"P31": [
+"Wikimedia disambiguation page"
+],
+"_description": "Wikimedia disambiguation page",
+"_enwiki": "A Waltz by Strauss"
+},
+"Q106989422": {
+"_label": "L'Ombre",
+"P31": [
+"dramatico-musical work"
+],
+"P86": [
+"Friedrich von Flotow"
+],
+"P87": [
+"Jules-Henri Vernoy de Saint-Georges"
+],
+"P136": [
+"opéra comique"
+],
+"P407": [
+"French"
+],
+"P1191": [
+"1870-07-07T00:00:00Z"
+],
+"P1476": [
+"L'Ombre"
+],
+"_description": "opéra comique composed by Friedrich von Flotow"
+},
+"Q1071310": {
+"_label": "Robert le diable",
+"P31": [
+"dramatico-musical work"
+],
+"P86": [
+"Giacomo Meyerbeer"
+],
+"P87": [
+"Eugène Scribe",
+"Germain Delavigne"
+],
+"P136": [
+"opera",
+"grand opera"
+],
+"P407": [
+"French"
+],
+"P674": [
+"Robert the Devil"
+],
+"P1191": [
+"1831-11-21T00:00:00Z"
+],
+"P4647": [
+"Paris Opera",
+"Académie royale de musique"
+],
+"_description": "1831 opera by Giacomo Meyerbeer",
+"_enwiki": "Robert le diable"
+},
+"Q107180635": {
+"_label": "Rip",
+"P31": [
+"dramatico-musical work"
+],
+"P86": [
+"Robert Planquette"
+],
+"P87": [
+"Philippe Gille",
+"Henri Meilhac"
+],
+"P136": [
+"opéra comique"
+],
+"P407": [
+"French"
+],
+"P1476": [
+"Rip"
+],
+"_description": "opéra comique composed by Robert Planquette"
+},
+"Q109242636": {
+"_label": "Se fossi Re",
+"P31": [
+"dramatico-musical work"
+],
+"P86": [
+"Adolphe Adam"
+],
+"P87": [
+"A. Dannery"
+],
+"P136": [
+"opera"
+],
+"P1191": [
+"1852-09-14T00:00:00Z"
+],
+"P1476": [
+"Si j'étais Roi"
+],
+"P4647": [
+"Theatre Lyrique"
+],
+"_description": "opera in 3 acts composed by Adolphe Charles Adam. First representation in 1852 at Théatre Lyrique, Paris"
+},
+"Q109244771": {
+"_label": "Ariana",
+"P31": [
+"dramatico-musical work"
+],
+"P86": [
+"Jules Massenet"
+],
+"P87": [
+"Catulle Mendès"
+],
+"P136": [
+"opera"
+],
+"P1191": [
+"1907-12-19T00:00:00Z"
+],
+"P1476": [
+"Ariana"
+],
+"P4647": [
+"Teatro Regio"
+],
+"_description": "lyric drama in 4 acts composed by Jules Massenet. First representation in 1907 at Teatro Regio , Turin"
+},
+"Q110912796": {
+"_label": "Raymond, ou Le secret de la reine",
+"P31": [
+"dramatico-musical work"
+],
+"_description": null,
+"_enwiki": "Raymond, ou Le secret de la reine"
+},
+"Q117104098": {
+"_label": "Serenade (song from The Student Prince)",
+"P31": [
+"song"
+],
+"P86": [
+"Sigmund Romberg"
+],
+"P175": [
+"Mario Lanza"
+],
+"P407": [
+"English"
+],
+"P676": [
+"Dorothy Donnelly"
+],
+"P1476": [
+"Serenade"
+],
+"_description": "a song",
+"_enwiki": "Serenade (The Student Prince song)"
+},
+"Q119040949": {
+"_label": "Morning, Noon and Night in Vienna",
+"P31": [
+"musical work/composition"
+],
+"P86": [
+"Franz von Suppè"
+],
+"P136": [
+"comedy"
+],
+"P407": [
+"German"
+],
+"P1476": [
+"Ein Morgen, ein Mittag, ein Abend in Wien"
+],
+"_description": null
+},
+"Q12018027": {
+"_label": "Galathée",
+"P31": [
+"dramatico-musical work"
+],
+"P86": [
+"Victor Massé"
+],
+"P87": [
+"Jules Barbier",
+"Michel Carré"
+],
+"P136": [
+"opéra comique"
+],
+"P407": [
+"French"
+],
+"P1191": [
+"1852-04-14T00:00:00Z"
+],
+"_description": "opera by Victor Massé"
+},
+"Q123235761": {
+"_label": "Three Little Maids From School Are We",
+"P31": [
+"musical work/composition"
+],
+"P86": [
+"Arthur Sullivan"
+],
+"P361": [
+"The Mikado"
+],
+"P407": [
+"English"
+],
+"P676": [
+"W. S. Gilbert"
+],
+"P1476": [
+"Three Little Maids From School Are We"
+],
+"_description": "song from Gilbert & Sillivan's 'The Mikado'",
+"_enwiki": "Three Little Maids from School Are We"
+},
+"Q123471756": {
+"_label": "Mazurka in C-sharp minor, op. 63 no. 3",
+"P31": [
+"musical work/composition"
+],
+"P86": [
+"Frédéric Chopin"
+],
+"P136": [
+"mazurka"
+],
+"P361": [
+"Mazurkas",
+"Mazurkas, Op. 63"
+],
+"P571": [
+"1846-01-01T00:00:00Z"
+],
+"P826": [
+"C-sharp minor"
+],
+"P1476": [
+"Mazurka no. 41 in C-sharp minor, op. 63 no. 3"
+],
+"_description": "Mazurka composed by Frédéric Chopin."
+},
+"Q1234960": {
+"_label": "Philémon et Baucis",
+"P31": [
+"dramatico-musical work"
+],
+"P86": [
+"Charles Gounod"
+],
+"P87": [
+"Jules Barbier",
+"Michel Carré"
+],
+"P136": [
+"opera",
+"opéra comique"
+],
+"P407": [
+"French"
+],
+"P1191": [
+"1860-02-18T00:00:00Z"
+],
+"P4647": [
+"Theatre Lyrique"
+],
+"_description": "opéra comique by Charles Gounod",
+"_enwiki": "Philémon et Baucis"
+},
+"Q124997285": {
+"_label": "Q124997285",
+"P31": [
+"musical work/composition"
+],
+"P86": [
+"César Franck"
+],
+"_description": null
+},
+"Q130910566": {
+"_label": "Q130910566",
+"P31": [
+"dramatico-musical work"
+],
+"P86": [
+"Rudolf Friml"
+],
+"P87": [
+"Jiří Roll",
+"Ivo T. Havlů"
+],
+"P407": [
+"Czech"
+],
+"_description": "operetta by Rudolf Friml, libretto Ivo T. Havlů, Jiří Roll"
+},
+"Q1314372": {
+"_label": "La reine de Saba",
+"P31": [
+"dramatico-musical work"
+],
+"P86": [
+"Charles Gounod"
+],
+"P87": [
+"Jules Barbier",
+"Michel Carré"
+],
+"P144": [
+"Journey to the East"
+],
+"P407": [
+"French"
+],
+"P571": [
+"1861-01-01T00:00:00Z"
+],
+"P674": [
+"Amrou",
+"Bénoni",
+"Méthousaël",
+"Phanor",
+"Sarahil",
+"Adoniram",
+"Soliman",
+"Balkis"
+],
+"P1191": [
+"1862-02-28T00:00:00Z"
+],
+"P4647": [
+"Salle Le Peletier"
+],
+"_description": "opera by Charles Gounod",
+"_enwiki": "La reine de Saba"
+},
+"Q136337018": {
+"_label": "Julia Ainsley",
+"P31": [
+"human"
+],
+"P569": [
+"1985-09-23T00:00:00Z"
+],
+"_description": "American TV journalist",
+"_enwiki": "Julia Ainsley",
+"_relatives": []
+},
+"Q1365006": {
+"_label": "Chant du départ",
+"P31": [
+"musical work/composition"
+],
+"P86": [
+"Étienne Méhul"
+],
+"P136": [
+"march"
+],
+"P407": [
+"French"
+],
+"P676": [
+"Marie-Joseph Chénier"
+],
+"P1476": [
+"Le Chant du départ"
+],
+"_description": "French revolutionary composed by Étienne Méhul, lyrics by Marie-Joseph Chénier",
+"_enwiki": "Chant du départ"
+},
+"Q1439127": {
+"_label": "La chanson de Fortunio",
+"P31": [
+"dramatico-musical work"
+],
+"P86": [
+"Jacques Offenbach"
+],
+"P87": [
+"Ludovic Halévy",
+"Hector Crémieux"
+],
+"P136": [
+"opéra comique"
+],
+"P144": [
+"Le Chandelier"
+],
+"P407": [
+"French"
+],
+"P840": [
+"Lorraine"
+],
+"P1191": [
+"1861-01-05T00:00:00Z"
+],
+"P4647": [
+"Théâtre des Bouffes-Parisiens"
+],
+"_description": "opera by Jacques Offenbach",
+"_enwiki": "La chanson de Fortunio"
+},
+"Q1464243": {
+"_label": "Ride of the Valkyries",
+"P31": [
+"musical work/composition"
+],
+"P86": [
+"Richard Wagner"
+],
+"P87": [
+"Richard Wagner"
+],
+"P361": [
+"Die Walküre"
+],
+"P571": [
+"1851-07-23T00:00:00Z"
+],
+"P826": [
+"B minor"
+],
+"P1476": [
+"Walkürenritt",
+"Ride of the Valkyries"
+],
+"_description": "musical composition by Richard Wagner",
+"_enwiki": "Ride of the Valkyries"
+},
+"Q156435": {
+"_label": "Der Freischütz",
+"P31": [
+"dramatico-musical work"
+],
+"P86": [
+"Carl Maria von Weber"
+],
+"P87": [
+"Johann Friedrich Kind"
+],
+"P136": [
+"opera",
+"Romantic music",
+"singspiel"
+],
+"P138": [
+"Freischütz"
+],
+"P144": [
+"Gespensterbuch"
+],
+"P407": [
+"German"
+],
+"P571": [
+"1817-01-01T00:00:00Z"
+],
+"P674": [
+"Ottokar",
+"Cuno",
+"Agathe",
+"Ännchen",
+"Caspar",
+"Max",
+"Hermit",
+"Kilian",
+"Four bridesmaids",
+"Samiel",
+"Erster",
+"Kuno"
+],
+"P840": [
+"Bohemia"
+],
+"P1191": [
+"1821-06-18T00:00:00Z"
+],
+"P1476": [
+"Der Freischütz"
+],
+"P4647": [
+"Konzerthaus Berlin"
+],
+"_description": "German opera by Carl Maria von Weber",
+"_enwiki": "Der Freischütz"
+},
+"Q1625070": {
+"_label": "Nathaniel Shilkret",
+"P19": [
+"New York City"
+],
+"P20": [
+"New York City"
+],
+"P27": [
+"United States"
+],
+"P31": [
+"human"
+],
+"P108": [
+"Victor Talking Machine Company"
+],
+"P463": [
+"International Novelty Orchestra"
+],
+"P569": [
+"1889-12-25T00:00:00Z"
+],
+"P570": [
+"1982-02-18T00:00:00Z"
+],
+"P1303": [
+"piano"
+],
+"P3373": [
+"Jack Shilkret"
+],
+"_description": "American composer, conductor, clarinetist, pianist, business executive, and music director (1889-1982)",
+"_enwiki": "Nat Shilkret",
+"_relatives": [
+{
+"prop": "P3373",
+"name": "Jack Shilkret",
+"occupations": [
+"composer"
+],
+"marriedTo": []
+}
+]
+},
+"Q1661622": {
+"_label": "Wedding Day at Troldhaugen",
+"P31": [
+"musical work/composition"
+],
+"P86": [
+"Edvard Grieg"
+],
+"P138": [
+"Troldhaugen"
+],
+"P361": [
+"Lyric Pieces"
+],
+"P571": [
+"1896-01-01T00:00:00Z"
+],
+"P826": [
+"D major"
+],
+"_description": "composition by Edvard Grieg",
+"_enwiki": "Wedding Day at Troldhaugen"
+},
+"Q168488": {
+"_label": "Martha",
+"P31": [
+"dramatico-musical work"
+],
+"P86": [
+"Friedrich von Flotow"
+],
+"P87": [
+"Friedrich Wilhelm Riese",
+"Crevel de Charlemagne"
+],
+"P136": [
+"opera"
+],
+"P407": [
+"German"
+],
+"P674": [
+"Lady Harriet Durham",
+"Nancy",
+"Sir Tristan Mickleford",
+"Lyonel",
+"Sheriff",
+"Plunkett",
+"La reine Anne"
+],
+"P1191": [
+"1847-11-25T00:00:00Z"
+],
+"P1476": [
+"Martha, oder Der Markt zu Richmond"
+],
+"P4647": [
+"Theater am Kärntnertor"
+],
+"_description": "romantic comic opera by Friedrich von Flotow",
+"_enwiki": "Martha (opera)"
+},
+"Q1883161": {
+"_label": "Madame Favart",
+"P31": [
+"dramatico-musical work"
+],
+"P50": [
+"Jacques Offenbach"
+],
+"P86": [
+"Jacques Offenbach"
+],
+"P87": [
+"Henri Chivot",
+"Alfred Duru"
+],
+"P136": [
+"opéra comique"
+],
+"P407": [
+"French"
+],
+"P674": [
+"Justine Favart",
+"Charles Simon Favart"
+],
+"P1191": [
+"1878-12-28T00:00:00Z"
+],
+"P4647": [
+"Théâtre des Folies-Dramatiques"
+],
+"_description": "opera written by Jacques Offenbach",
+"_enwiki": "Madame Favart"
+},
+"Q188709": {
+"_label": "Symphony No. 5",
+"P31": [
+"musical work/composition"
+],
+"P86": [
+"Ludwig van Beethoven"
+],
+"P361": [
+"list of symphonies by Ludwig van Beethoven",
+"list of compositions by Ludwig van Beethoven by opus number"
+],
+"P571": [
+"1807-01-01T00:00:00Z"
+],
+"P825": [
+"Andrii Rozumovskyi",
+"Joseph Francis, 7th Prince of Lobkowicz"
+],
+"P826": [
+"C minor"
+],
+"P1191": [
+"1808-12-22T00:00:00Z"
+],
+"P1476": [
+"5. Sinfonie"
+],
+"P4647": [
+"Theater an der Wien"
+],
+"_description": "symphony by Ludwig van Beethoven",
+"_enwiki": "Symphony No. 5 (Beethoven)"
+},
+"Q199400": {
+"_label": "Gipsy Love",
+"P31": [
+"dramatico-musical work"
+],
+"P86": [
+"Franz Lehár"
+],
+"P87": [
+"Alfred Maria Willner",
+"Robert Bodanzky"
+],
+"P1191": [
+"1910-01-08T00:00:00Z"
+],
+"P1476": [
+"Zigeunerliebe",
+"Amore di zingaro"
+],
+"P4647": [
+"Carltheater"
+],
+"_description": "operetta by Franz Lehár",
+"_enwiki": "Gypsy Love (operetta)"
+},
+"Q202287": {
+"_label": "overture",
+"P31": [
+"music genre",
+"musical form",
+"type of musical work/composition"
+],
+"P361": [
+"opera"
+],
+"_description": "instrumental introduction to any musical piece",
+"_enwiki": "Overture"
+},
+"Q2060389": {
+"_label": "Una furtiva lagrima",
+"P31": [
+"musical work/composition"
+],
+"P86": [
+"Gaetano Donizetti"
+],
+"P136": [
+"opera"
+],
+"P361": [
+"L'elisir d'amore"
+],
+"P674": [
+"Nemorino"
+],
+"P826": [
+"B-flat minor"
+],
+"_description": "Romanza from opera L'elisir d'amore by Gaetano Donizetti",
+"_enwiki": "Una furtiva lagrima"
+},
+"Q2063125": {
+"_label": "Le chalet",
+"P31": [
+"dramatico-musical work"
+],
+"P86": [
+"Adolphe Adam"
+],
+"P87": [
+"Eugène Scribe"
+],
+"P136": [
+"opera",
+"opéra comique"
+],
+"P407": [
+"French"
+],
+"P1191": [
+"1834-09-25T00:00:00Z",
+"1834-09-26T00:00:00Z"
+],
+"P4647": [
+"Opéra-Comique"
+],
+"_description": "opera by Adolphe Adam",
+"_enwiki": "Le chalet"
+},
+"Q211460": {
+"_label": "Attila",
+"P31": [
+"dramatico-musical work"
+],
+"P86": [
+"Giuseppe Verdi"
+],
+"P87": [
+"Temistocle Solera",
+"Francesco Maria Piave"
+],
+"P136": [
+"opera"
+],
+"P138": [
+"Attila"
+],
+"P407": [
+"Italian"
+],
+"P571": [
+"1846-09-01T00:00:00Z"
+],
+"P674": [
+"Attila",
+"Ezio",
+"Leone",
+"Odabella",
+"Foresto",
+"Uldino"
+],
+"P840": [
+"Rome",
+"Aquileia"
+],
+"P1191": [
+"1846-03-17T00:00:00Z"
+],
+"P1476": [
+"Attila"
+],
+"P4647": [
+"Teatro La Fenice"
+],
+"_description": "opera by Giuseppe Verdi",
+"_enwiki": "Attila (opera)"
+},
+"Q2115452": {
+"_label": "Prelude in C-sharp minor",
+"P31": [
+"musical work/composition"
+],
+"P86": [
+"Sergei Rachmaninoff"
+],
+"P175": [
+"The King Cole Trio"
+],
+"P361": [
+"Morceaux de fantaisie"
+],
+"P407": [
+"no linguistic content"
+],
+"P737": [
+"Piano Sonata No. 14"
+],
+"P825": [
+"Anton Arensky"
+],
+"P826": [
+"C-sharp minor"
+],
+"P1191": [
+"1892-09-26T00:00:00Z"
+],
+"_description": "Piano composition by Sergei Rachmaninoff",
+"_enwiki": "Prelude in C-sharp minor (Rachmaninoff)"
+},
+"Q212451": {
+"_label": "La forza del destino",
+"P31": [
+"dramatico-musical work"
+],
+"P86": [
+"Giuseppe Verdi"
+],
+"P87": [
+"Francesco Maria Piave"
+],
+"P136": [
+"opera"
+],
+"P144": [
+"Don Álvaro o la fuerza del sino"
+],
+"P407": [
+"Italian"
+],
+"P571": [
+"1861-01-01T00:00:00Z"
+],
+"P674": [
+"The Marquis of Calatrava",
+"Leonora",
+"Don Carlo di Vargas",
+"Don Alvaro",
+"Preziosilla",
+"Il Padre Guardiano (The Father Superior)",
+"Fra Melitone",
+"Curra",
+"Mayor",
+"A surgeon",
+"Maestro Trabuco"
+],
+"P840": [
+"Spain",
+"Italy"
+],
+"P1191": [
+"1862-11-10T00:00:00Z"
+],
+"P1476": [
+"La forza del destino"
+],
+"P4647": [
+"Mariinsky Theatre",
+"Bolshoi Kamenny Theatre"
+],
+"_description": "opera by Giuseppe Verdi",
+"_enwiki": "La forza del destino"
+},
+"Q2623107": {
+"_label": "The Demon",
+"P31": [
+"dramatico-musical work"
+],
+"P86": [
+"Anton Rubinstein"
+],
+"P87": [
+"Pavel Viskovatov"
+],
+"P144": [
+"Demon"
+],
+"P407": [
+"Russian"
+],
+"P571": [
+"1872-01-01T00:00:00Z"
+],
+"P1191": [
+"1875-01-25T00:00:00Z"
+],
+"P1476": [
+"Демон"
+],
+"P4647": [
+"Mariinsky Theatre"
+],
+"_description": "opera by Anton Rubinstein",
+"_enwiki": "The Demon (opera)"
+},
+"Q263297": {
+"_label": "Le prophète",
+"P31": [
+"dramatico-musical work"
+],
+"P86": [
+"Giacomo Meyerbeer"
+],
+"P87": [
+"Eugène Scribe",
+"Émile Deschamps"
+],
+"P136": [
+"opera",
+"grand opera"
+],
+"P144": [
+"Essai sur les mœurs et l'esprit des nations"
+],
+"P407": [
+"French"
+],
+"P571": [
+"1836-01-01T00:00:00Z"
+],
+"P1191": [
+"1849-04-16T00:00:00Z"
+],
+"P1476": [
+"Le prophète"
+],
+"P4647": [
+"Paris Opera"
+],
+"_description": "opera by Giacomo Meyerbeer",
+"_enwiki": "Le prophète"
+},
+"Q272029": {
+"_label": "Götterdämmerung",
+"P31": [
+"dramatico-musical work"
+],
+"P86": [
+"Richard Wagner"
+],
+"P87": [
+"Richard Wagner"
+],
+"P136": [
+"opera",
+"Musikdrama"
+],
+"P144": [
+"Norse mythology"
+],
+"P361": [
+"Der Ring des Nibelungen"
+],
+"P407": [
+"German"
+],
+"P571": [
+"1874-01-01T00:00:00Z"
+],
+"P674": [
+"Alberich",
+"Brünnhilde",
+"Siegfried",
+"Gunther",
+"Woglinde",
+"Wellgunde",
+"Floßhilde",
+"Hagen",
+"Gutrune",
+"Waltraute",
+"First Norn",
+"Second Norn"
+],
+"P840": [
+"Rhine",
+"Germania"
+],
+"P1191": [
+"1876-08-17T00:00:00Z"
+],
+"P1476": [
+"Götterdämmerung"
+],
+"P4647": [
+"Bayreuth Festival Theatre"
+],
+"_description": "opera by Richard Wagner",
+"_enwiki": "Götterdämmerung"
+},
+"Q2737834": {
+"_label": "Beau soir",
+"P31": [
+"musical work/composition",
+"lyrico-musical work"
+],
+"P86": [
+"Claude Debussy"
+],
+"P175": [
+"Barbra Streisand"
+],
+"P407": [
+"French"
+],
+"P676": [
+"Paul Bourget"
+],
+"P1476": [
+"Beau soir"
+],
+"_description": "1891 song composed by Claude Debussy with lyrics by Paul Bourget performed by Barbra Streisand",
+"_enwiki": "Beau soir"
+},
+"Q27734163": {
+"_label": "Justin Herbert",
+"P19": [
+"Eugene"
+],
+"P27": [
+"United States"
+],
+"P31": [
+"human"
+],
+"P69": [
+"Sheldon High School"
+],
+"P569": [
+"1998-03-10T00:00:00Z"
+],
+"_description": "American football player (born 1998)",
+"_enwiki": "Justin Herbert",
+"_relatives": []
+},
+"Q287383": {
+"_label": "Landon Ronald",
+"P19": [
+"London"
+],
+"P20": [
+"London"
+],
+"P22": [
+"Henry Russell"
+],
+"P27": [
+"United Kingdom"
+],
+"P31": [
+"human"
+],
+"P69": [
+"Royal College of Music",
+"St Marylebone Grammar School"
+],
+"P119": [
+"Kensal Green Cemetery"
+],
+"P166": [
+"Knight Bachelor"
+],
+"P569": [
+"1873-06-07T00:00:00Z"
+],
+"P570": [
+"1938-08-14T00:00:00Z"
+],
+"P1303": [
+"piano"
+],
+"_description": "British musician (1873-1938)",
+"_enwiki": "Landon Ronald",
+"_relatives": [
+{
+"prop": "P22",
+"name": "Henry Russell",
+"occupations": [
+"composer",
+"singer",
+"pianist"
+],
+"marriedTo": []
+}
+]
+},
+"Q303508": {
+"_label": "The Planets",
+"P31": [
+"musical work/composition"
+],
+"P86": [
+"Gustav Holst"
+],
+"P138": [
+"astrological planet"
+],
+"P825": [
+"Imogen Holst"
+],
+"P1191": [
+"1918-09-29T00:00:00Z"
+],
+"_description": "orchestral suite by Gustav Holst",
+"_enwiki": "The Planets"
+},
+"Q3076437": {
+"_label": "Les noces de Jeannette",
+"P31": [
+"dramatico-musical work"
+],
+"P86": [
+"Victor Massé"
+],
+"P87": [
+"Jules Barbier",
+"Michel Carré"
+],
+"P136": [
+"opéra comique"
+],
+"P407": [
+"French"
+],
+"P1191": [
+"1853-02-04T00:00:00Z"
+],
+"P1476": [
+"Les noces de Jeannette"
+],
+"P4647": [
+"Opéra-Comique"
+],
+"_description": "opera by Victor Massé",
+"_enwiki": "Les noces de Jeannette"
+},
+"Q3109729": {
+"_label": "L'attaque du moulin",
+"P31": [
+"dramatico-musical work"
+],
+"P86": [
+"Alfred Bruneau"
+],
+"P87": [
+"Louis Gallet"
+],
+"P144": [
+"The Attack on the Mill"
+],
+"P407": [
+"French"
+],
+"P1191": [
+"1893-11-23T00:00:00Z"
+],
+"P4647": [
+"Opéra-Comique"
+],
+"_description": "opera in four acts by Alfred Bruneau",
+"_enwiki": "L'attaque du moulin"
+},
+"Q3208918": {
+"_label": "La fille du tambour-major",
+"P31": [
+"dramatico-musical work"
+],
+"P50": [
+"Jacques Offenbach"
+],
+"P86": [
+"Jacques Offenbach"
+],
+"P87": [
+"Henri Chivot",
+"Alfred Duru"
+],
+"P136": [
+"opéra comique"
+],
+"P407": [
+"French"
+],
+"P840": [
+"Italy",
+"Milan",
+"Novara",
+"Biella"
+],
+"P1191": [
+"1879-12-13T00:00:00Z"
+],
+"P4647": [
+"Théâtre des Folies-Dramatiques"
+],
+"_description": "opera written by Jacques Offenbach",
+"_enwiki": "La fille du tambour-major"
+},
+"Q3210615": {
+"_label": "La mascotte",
+"P31": [
+"dramatico-musical work"
+],
+"P86": [
+"Edmond Audran"
+],
+"P87": [
+"Henri Chivot",
+"Alfred Duru"
+],
+"P136": [
+"opéra comique"
+],
+"P407": [
+"French"
+],
+"_description": "three-act comic opera by Edmond Audran",
+"_enwiki": "La mascotte"
+},
+"Q3226048": {
+"_label": "Le pré aux clercs",
+"P31": [
+"dramatico-musical work"
+],
+"P86": [
+"Ferdinand Hérold"
+],
+"P87": [
+"Eugène de Planard"
+],
+"P136": [
+"opéra comique"
+],
+"P407": [
+"French"
+],
+"P1191": [
+"1832-12-15T00:00:00Z"
+],
+"P4647": [
+"Opéra-Comique"
+],
+"_description": "opera by Ferdinand Hérold",
+"_enwiki": "Le pré aux clercs"
+},
+"Q3505177": {
+"_label": "Surcouf (opéra comique)",
+"P31": [
+"dramatico-musical work"
+],
+"P86": [
+"Robert Planquette"
+],
+"P136": [
+"opéra comique"
+],
+"P175": [
+"Montrouge"
+],
+"P407": [
+"French"
+],
+"P571": [
+"1887-10-06T00:00:00Z"
+],
+"P676": [
+"Henri Chivot",
+"Alfred Duru"
+],
+"_description": "opera by Robert Planquette",
+"_enwiki": "Surcouf (opéra comique)"
+},
+"Q3564266": {
+"_label": "Véronique",
+"P31": [
+"dramatico-musical work"
+],
+"P86": [
+"André Messager"
+],
+"P136": [
+"opéra comique"
+],
+"P407": [
+"French"
+],
+"P4647": [
+"Théâtre des Bouffes-Parisiens"
+],
+"_description": "opera",
+"_enwiki": "Véronique (operetta)"
+},
+"Q368019": {
+"_label": "Pelléas et Mélisande",
+"P31": [
+"dramatico-musical work"
+],
+"P86": [
+"Claude Debussy"
+],
+"P87": [
+"Maurice Maeterlinck"
+],
+"P136": [
+"drame lyrique"
+],
+"P144": [
+"Pelléas and Mélisande"
+],
+"P407": [
+"French"
+],
+"P571": [
+"1901-01-01T00:00:00Z"
+],
+"P1191": [
+"1902-04-30T00:00:00Z"
+],
+"P1476": [
+"Pelléas et Mélisande"
+],
+"P4647": [
+"Opéra-Comique"
+],
+"_description": "1902 opera by Claude Debussy",
+"_enwiki": "Pelléas et Mélisande (opera)"
+},
+"Q373076": {
+"_label": "Barbe-bleue",
+"P31": [
+"dramatico-musical work"
+],
+"P86": [
+"Jacques Offenbach"
+],
+"P87": [
+"Ludovic Halévy",
+"Henri Meilhac"
+],
+"P136": [
+"opéra bouffe"
+],
+"P144": [
+"Bluebeard"
+],
+"P407": [
+"French"
+],
+"P1191": [
+"1866-02-05T00:00:00Z"
+],
+"_description": "operetta by Jacques Offenbach",
+"_enwiki": "Barbe-bleue (opera)"
+},
+"Q374412": {
+"_label": "Sigurd",
+"P31": [
+"Wikimedia disambiguation page"
+],
+"_description": "Wikimedia disambiguation page",
+"_enwiki": "Sigurd (disambiguation)"
+},
+"Q378237": {
+"_label": "La serva padrona",
+"P31": [
+"dramatico-musical work"
+],
+"P86": [
+"Giovanni Battista Pergolesi"
+],
+"P87": [
+"Gennaro Antonio Federico"
+],
+"P136": [
+"opera",
+"intermezzo"
+],
+"P144": [
+"La serva padrona"
+],
+"P407": [
+"Italian"
+],
+"P571": [
+"1733-01-01T00:00:00Z"
+],
+"P674": [
+"Serpina",
+"Uberto",
+"Vespone"
+],
+"P1191": [
+"1733-08-28T00:00:00Z",
+"1733-09-05T00:00:00Z"
+],
+"P1476": [
+"La serva padrona"
+],
+"P4647": [
+"Comédie-Italienne"
+],
+"_description": "opera by Giovanni Battista Pergolesi",
+"_enwiki": "La serva padrona"
+},
+"Q467394": {
+"_label": "La favorite",
+"P31": [
+"dramatico-musical work"
+],
+"P86": [
+"Gaetano Donizetti"
+],
+"P87": [
+"Eugène Scribe",
+"Gustave Vaëz",
+"Alphonse Royer"
+],
+"P136": [
+"opera",
+"grand opera"
+],
+"P144": [
+"L'ange de Nisida"
+],
+"P407": [
+"French"
+],
+"P674": [
+"Alphonse XI",
+"Léonor de Guzman (Leonora di Gusmann)",
+"Fernand (Fernando)",
+"Don Gaspar",
+"A lord",
+"Inès (Inez)",
+"Balthazar (Baldassare)"
+],
+"P1191": [
+"1840-12-02T00:00:00Z"
+],
+"P1476": [
+"La favorita"
+],
+"P4647": [
+"Salle Le Peletier"
+],
+"_description": "1840 opera by Gaetano Donizetti",
+"_enwiki": "La Favorite"
+},
+"Q470739": {
+"_label": "Dinorah",
+"P31": [
+"dramatico-musical work"
+],
+"P86": [
+"Giacomo Meyerbeer"
+],
+"P87": [
+"Jules Barbier",
+"Michel Carré"
+],
+"P136": [
+"opera",
+"opéra comique"
+],
+"P138": [
+"Ploërmel"
+],
+"P407": [
+"French"
+],
+"P1191": [
+"1859-04-04T00:00:00Z"
+],
+"P1476": [
+"Dinorah, ou Le Pardon de Ploermel"
+],
+"P4647": [
+"Opéra-Comique"
+],
+"_description": "opera by Giacomo Meyerbeer",
+"_enwiki": "Dinorah"
+},
+"Q470773": {
+"_label": "La muette de Portici",
+"P31": [
+"dramatico-musical work"
+],
+"P86": [
+"Daniel François Esprit Auber"
+],
+"P87": [
+"Eugène Scribe",
+"Germain Delavigne"
+],
+"P136": [
+"opera"
+],
+"P407": [
+"French"
+],
+"P571": [
+"1828-01-01T00:00:00Z"
+],
+"P674": [
+"Masaniello",
+"Lady-in-waiting to Elvire"
+],
+"P1191": [
+"1828-02-29T00:00:00Z"
+],
+"P1476": [
+"La muette de Portici"
+],
+"P4647": [
+"Académie royale de musique"
+],
+"_description": "opera by Daniel Auber",
+"_enwiki": "La muette de Portici"
+},
+"Q471784": {
+"_label": "La jolie fille de Perth",
+"P31": [
+"dramatico-musical work"
+],
+"P86": [
+"Georges Bizet"
+],
+"P87": [
+"Jules Adenis",
+"Jules-Henri Vernoy de Saint-Georges"
+],
+"P136": [
+"opera"
+],
+"P144": [
+"The Fair Maid of Perth"
+],
+"P407": [
+"French"
+],
+"P1191": [
+"1867-12-26T00:00:00Z"
+],
+"P1476": [
+"La jolie fille de Perth"
+],
+"P4647": [
+"Theatre Lyrique"
+],
+"_description": "opera by Georges Bizet",
+"_enwiki": "La jolie fille de Perth"
+},
+"Q472315": {
+"_label": "Le toréador",
+"P31": [
+"dramatico-musical work"
+],
+"P86": [
+"Adolphe Adam"
+],
+"P87": [
+"Thomas Sauvage"
+],
+"P136": [
+"opéra comique"
+],
+"P407": [
+"French"
+],
+"P1191": [
+"1849-05-18T00:00:00Z"
+],
+"P1476": [
+"Le Toréador"
+],
+"P4647": [
+"Opéra-Comique"
+],
+"_description": "opera by Adolphe Adam",
+"_enwiki": "Le toréador"
+},
+"Q472318": {
+"_label": "La gazza ladra",
+"P31": [
+"dramatico-musical work"
+],
+"P86": [
+"Gioachino Rossini"
+],
+"P87": [
+"Giovanni Gherardini"
+],
+"P136": [
+"opera",
+"opera semiseria"
+],
+"P407": [
+"Italian"
+],
+"P571": [
+"1817-01-01T00:00:00Z"
+],
+"P674": [
+"Fabrizio Vingradito",
+"Lucia",
+"Ninetta",
+"Gottardo the Podestà",
+"Pippo",
+"Isacco",
+"Antonio",
+"Giorgio",
+"Amtsrichter",
+"Gregorio",
+"Giannetto",
+"Fernando Villabella"
+],
+"P1191": [
+"1817-05-31T00:00:00Z",
+"1941-08-21T00:00:00Z"
+],
+"P1476": [
+"La gazza ladra",
+"Straka zlodějka"
+],
+"P4647": [
+"La Scala",
+"Teatro Rossini"
+],
+"_description": "opera semiseria by Gioacchino Rossini",
+"_enwiki": "La gazza ladra"
+},
+"Q472325": {
+"_label": "Les Troyens",
+"P31": [
+"dramatico-musical work"
+],
+"P86": [
+"Hector Berlioz"
+],
+"P87": [
+"Hector Berlioz"
+],
+"P144": [
+"Aeneid"
+],
+"P407": [
+"French"
+],
+"P674": [
+"Ascagne (Ascanius)",
+"Panthée (Pantheus)",
+"Cassandre (Cassandra)",
+"Chorèbe (Chorebus)",
+"Priam",
+"Hécube (Hecuba)",
+"Helenus",
+"Polyxène (Polyxena)",
+"Ghost of Hector",
+"A Greek chieftain",
+"Andromaque (Andromache) and Astyanax",
+"Didon (Dido)"
+],
+"P1191": [
+"1863-11-04T00:00:00Z"
+],
+"P1476": [
+"Les Troyens"
+],
+"P4647": [
+"Badisches Staatstheater Karlsruhe"
+],
+"_description": "opera by Hector Berlioz",
+"_enwiki": "Les Troyens"
+},
+"Q48996568": {
+"_label": "Patrie!",
+"P31": [
+"dramatico-musical work"
+],
+"P86": [
+"Émile Paladilhe"
+],
+"P87": [
+"Victorien Sardou"
+],
+"P407": [
+"French"
+],
+"P571": [
+"1886-12-16T00:00:00Z"
+],
+"P676": [
+"Louis Gallet"
+],
+"P1476": [
+"Patrie!"
+],
+"_description": "opera by Émile Paladilhe",
+"_enwiki": "Patrie!"
+},
+"Q5083209": {
+"_label": "Charles W. Harrison",
+"P19": [
+"Jersey City"
+],
+"P20": [
+"Summit"
+],
+"P27": [
+"United States"
+],
+"P31": [
+"human"
+],
+"P412": [
+"tenor"
+],
+"P463": [
+"The Shannon Four"
+],
+"P569": [
+"1878-09-11T00:00:00Z"
+],
+"P570": [
+"1965-02-02T00:00:00Z"
+],
+"P1303": [
+"voice"
+],
+"_description": "American singer",
+"_enwiki": "Charles W. Harrison",
+"_relatives": []
+},
+"Q5307735": {
+"_label": "Drinking Song",
+"P31": [
+"drinking song",
+"musical work/composition"
+],
+"P86": [
+"Sigmund Romberg"
+],
+"P136": [
+"waltz"
+],
+"P175": [
+"Mario Lanza"
+],
+"P407": [
+"English"
+],
+"P676": [
+"Dorothy Donnelly"
+],
+"P1476": [
+"Drinking Song"
+],
+"_description": "song composed by Sigmund Romberg",
+"_enwiki": "Drinking Song"
+},
+"Q5343715": {
+"_label": "Edward Jakobowski",
+"P19": [
+"London"
+],
+"P20": [
+"London"
+],
+"P27": [
+"United Kingdom",
+"United Kingdom of Great Britain and Ireland"
+],
+"P31": [
+"human"
+],
+"P569": [
+"1856-04-17T00:00:00Z"
+],
+"P570": [
+"1929-04-29T00:00:00Z"
+],
+"_description": "British composer",
+"_enwiki": "Edward Jakobowski",
+"_relatives": []
+},
+"Q536026": {
+"_label": "Sapho",
+"P31": [
+"dramatico-musical work"
+],
+"P86": [
+"Jules Massenet"
+],
+"P87": [
+"Arthur Bernède",
+"Henri Caïn"
+],
+"P407": [
+"French"
+],
+"P674": [
+"A farmer",
+"A restaurant owner",
+"Caoudal",
+"Jean Gaussin",
+"FannyLegrand",
+"Irène",
+"Césaire",
+"Divonne",
+"La Borderie"
+],
+"P1191": [
+"1897-11-27T00:00:00Z"
+],
+"P4647": [
+"Opéra-Comique"
+],
+"_description": "opera by Jules Massenet",
+"_enwiki": "Sapho (Massenet)"
+},
+"Q5485629": {
+"_label": "Frank C. Stanley",
+"P19": [
+"Orange"
+],
+"P20": [
+"Orange"
+],
+"P27": [
+"United States"
+],
+"P31": [
+"human"
+],
+"P119": [
+"Rosedale Cemetery"
+],
+"P569": [
+"1868-12-29T00:00:00Z"
+],
+"P570": [
+"1910-12-12T00:00:00Z"
+],
+"P1303": [
+"banjo",
+"voice"
+],
+"_description": "American singer",
+"_enwiki": "Frank C. Stanley",
+"_relatives": []
+},
+"Q5493471": {
+"_label": "François les bas-bleus",
+"P31": [
+"dramatico-musical work"
+],
+"P86": [
+"André Messager",
+"Firmin Bernicat"
+],
+"P87": [
+"Paul Burani",
+"Eugène Humbert",
+"Ernest Dubreuil"
+],
+"P136": [
+"opéra comique"
+],
+"P407": [
+"French"
+],
+"P1191": [
+"1883-11-08T00:00:00Z"
+],
+"_description": "opera by Firmin Bernicat",
+"_enwiki": "François les bas-bleus"
+},
+"Q54996752": {
+"_label": "Q54996752",
+"P31": [
+"dramatico-musical work"
+],
+"P86": [
+"Edmond Audran"
+],
+"P407": [
+"French"
+],
+"P1191": [
+"1882-01-01T00:00:00Z"
+],
+"P1476": [
+"Gillette de Narbonne"
+],
+"_description": "opera by Edmond Audran"
+},
+"Q60788625": {
+"_label": "La petite mariée",
+"P31": [
+"dramatico-musical work"
+],
+"_description": "three-act opera-bouffe",
+"_enwiki": "La Petite Mariée"
+},
+"Q60788671": {
+"_label": "Le coeur et la main",
+"P31": [
+"dramatico-musical work"
+],
+"P86": [
+"Charles Lecocq"
+],
+"P87": [
+"Charles Nuitter",
+"Alexandre Beaumont"
+],
+"P136": [
+"opéra comique"
+],
+"P407": [
+"French"
+],
+"P1191": [
+"1882-10-19T00:00:00Z"
+],
+"P1476": [
+"Le Cœur et la Main"
+],
+"_description": "opéra comique by Charles Lecocq",
+"_enwiki": "Le Cœur et la Main"
+},
+"Q61756538": {
+"_label": "Poet and Peasant",
+"P31": [
+"dramatico-musical work"
+],
+"P86": [
+"Franz von Suppè"
+],
+"P87": [
+"Karl Swiedack",
+"K. Elmar"
+],
+"P571": [
+"1846-01-01T00:00:00Z"
+],
+"_description": "1846 opera",
+"_enwiki": "Dichter und Bauer"
+},
+"Q6207086": {
+"_label": "Jocelyn",
+"P31": [
+"dramatico-musical work"
+],
+"P86": [
+"Benjamin Godard"
+],
+"P87": [
+"Armand Silvestre",
+"Victor Capoul"
+],
+"P407": [
+"French"
+],
+"P674": [
+"Jocelyn",
+"The bishop",
+"Old man",
+"Old shepherd",
+"Laurence's father",
+"Julie's fiancé",
+"Laurence",
+"Jocelyn's mother",
+"Julie",
+"Young mountain girl",
+"Gaoler"
+],
+"P1191": [
+"1888-02-25T00:00:00Z"
+],
+"P1476": [
+"Jocelyn"
+],
+"P4647": [
+"Royal Theatre of La Monnaie"
+],
+"_description": "1888 opera by Benjamin Godard",
+"_enwiki": "Jocelyn (opera)"
+},
+"Q631016": {
+"_label": "Hamlet",
+"P31": [
+"dramatico-musical work"
+],
+"P86": [
+"Ambroise Thomas"
+],
+"P87": [
+"Jules Barbier",
+"Michel Carré"
+],
+"P144": [
+"Hamlet"
+],
+"P407": [
+"French"
+],
+"P674": [
+"Hamlet",
+"Claudius",
+"Laërte",
+"Ghost of the late King Hamlet",
+"Polonius",
+"First gravedigger",
+"Second gravedigger",
+"Ophélie",
+"Horatio",
+"Marcellus",
+"Gertrude"
+],
+"P1191": [
+"1868-03-09T00:00:00Z"
+],
+"P1476": [
+"Hamlet"
+],
+"P4647": [
+"Salle Le Peletier"
+],
+"_description": "opera by Ambroise Thomas",
+"_enwiki": "Hamlet (Thomas)"
+},
+"Q66312190": {
+"_label": "Barbara Neßler",
+"P19": [
+"Dornbirn"
+],
+"P27": [
+"Austria"
+],
+"P31": [
+"human"
+],
+"P69": [
+"University of Innsbruck"
+],
+"P108": [
+"Caritas Vorarlberg"
+],
+"P569": [
+"1991-03-02T00:00:00Z"
+],
+"_description": "Member of the National Council of Austria",
+"_enwiki": "Barbara Nessler",
+"_relatives": []
+},
+"Q6710600": {
+"_label": "Là ci darem la mano",
+"P31": [
+"musical work/composition"
+],
+"P86": [
+"Wolfgang Amadeus Mozart"
+],
+"P361": [
+"Don Giovanni"
+],
+"P407": [
+"Italian"
+],
+"_description": "duet from the opera Don Giovanni, by W. A. Mozart",
+"_enwiki": "Là ci darem la mano"
+},
+"Q685501": {
+"_label": "Lucrezia Borgia",
+"P31": [
+"dramatico-musical work"
+],
+"P86": [
+"Gaetano Donizetti"
+],
+"P87": [
+"Felice Romani"
+],
+"P136": [
+"opera",
+"melodrama"
+],
+"P144": [
+"Lucrèce Borgia"
+],
+"P407": [
+"Italian"
+],
+"P674": [
+"Don Alfonso d’Este",
+"Lucrezia Borgia",
+"Gennaro",
+"Maffio Orsini"
+],
+"P1191": [
+"1833-12-26T00:00:00Z"
+],
+"P1476": [
+"Lucrezia Borgia"
+],
+"P4647": [
+"La Scala"
+],
+"_description": "Opera by Gaetano Donizetti",
+"_enwiki": "Lucrezia Borgia (opera)"
+},
+"Q6981145": {
+"_label": "Naughty Marietta",
+"P31": [
+"dramatico-musical work"
+],
+"P86": [
+"Victor Herbert"
+],
+"P87": [
+"Rida Johnson Young"
+],
+"P136": [
+"comic opera"
+],
+"P407": [
+"English"
+],
+"P571": [
+"1910-01-01T00:00:00Z"
+],
+"P676": [
+"Rida Johnson Young"
+],
+"P840": [
+"New Orleans"
+],
+"P1191": [
+"1910-11-07T00:00:00Z"
+],
+"P1476": [
+"Naughty Marietta"
+],
+"_description": "comic opera in two acts by Victor Herbert",
+"_enwiki": "Naughty Marietta (operetta)"
+},
+"Q700157": {
+"_label": "Heidenröslein",
+"P31": [
+"musical work/composition"
+],
+"P86": [
+"Franz Schubert"
+],
+"P144": [
+"Heidenröslein"
+],
+"P407": [
+"German"
+],
+"P676": [
+"Johann Wolfgang von Goethe"
+],
+"P1476": [
+"Heidenröslein"
+],
+"_description": "musical work based on the poem by Johann Wolfgang von Goethe, published in 1799"
+},
+"Q724008": {
+"_label": "L'Orfeo",
+"P31": [
+"dramatico-musical work"
+],
+"P86": [
+"Claudio Monteverdi"
+],
+"P87": [
+"Alessandro Striggio"
+],
+"P136": [
+"favola in musica"
+],
+"P407": [
+"Italian"
+],
+"P571": [
+"1607-01-01T00:00:00Z"
+],
+"P674": [
+"Charon",
+"Apollo",
+"Pluto",
+"Orpheus",
+"Echo",
+"Eurydice",
+"nymph",
+"Proserpina",
+"Caronte (Charon)",
+"Plutone (Pluto)",
+"La Musica (Music)",
+"La messaggera (The Messenger)"
+],
+"P921": [
+"Orpheus"
+],
+"P1191": [
+"1607-02-24T00:00:00Z"
+],
+"P1476": [
+"L'Orfeo"
+],
+"P4647": [
+"Palazzo Ducale Mantua"
+],
+"_description": "Opera: music by Claudio Monteverdi with libretto by Alessandro Striggio",
+"_enwiki": "L'Orfeo"
+},
+"Q729568": {
+"_label": "La Fille du régiment",
+"P31": [
+"dramatico-musical work"
+],
+"P86": [
+"Gaetano Donizetti"
+],
+"P87": [
+"Jules-Henri Vernoy de Saint-Georges",
+"Jean-François Bayard"
+],
+"P136": [
+"opera",
+"opéra comique"
+],
+"P407": [
+"French"
+],
+"P571": [
+"1840-01-01T00:00:00Z"
+],
+"P674": [
+"A corporal",
+"A notary",
+"A peasant",
+"Sergeant Sulpice",
+"The Duchess of Crakentorp",
+"The Marquise of Berkenfield",
+"Hortensius",
+"Marie",
+"Tonio",
+"French soldiers"
+],
+"P840": [
+"Tyrol"
+],
+"P1191": [
+"1840-02-11T00:00:00Z"
+],
+"P1476": [
+"La figlia del reggimento",
+"La Fille du régiment",
+"La fille du régiment"
+],
+"P4647": [
+"Opéra-Comique"
+],
+"_description": "opéra-comique in two acts by Gaetano Donizetti",
+"_enwiki": "La Fille du régiment"
+},
+"Q730336": {
+"_label": "La Périchole",
+"P31": [
+"dramatico-musical work"
+],
+"P86": [
+"Jacques Offenbach"
+],
+"P87": [
+"Ludovic Halévy",
+"Henri Meilhac"
+],
+"P136": [
+"opera",
+"opéra bouffe"
+],
+"P144": [
+"Le Carrosse du Saint-Sacrement"
+],
+"P407": [
+"French"
+],
+"P1191": [
+"1868-10-06T00:00:00Z"
+],
+"P1476": [
+"La périchole"
+],
+"P4647": [
+"Théâtre des Variétés"
+],
+"_description": "opera by Jacques Offenbach",
+"_enwiki": "La Périchole"
+},
+"Q753123": {
+"_label": "La sonnambula",
+"P31": [
+"dramatico-musical work"
+],
+"P86": [
+"Vincenzo Bellini"
+],
+"P87": [
+"Felice Romani"
+],
+"P136": [
+"opera",
+"opera semiseria"
+],
+"P144": [
+"La somnambule, ou L'arrivée d'un nouveau seigneur"
+],
+"P407": [
+"Italian"
+],
+"P674": [
+"Count Rodolfo",
+"Teresa",
+"Notary",
+"Alessio",
+"Amina",
+"Elvino",
+"Lisa"
+],
+"P937": [
+"Villa Passalacqua"
+],
+"P1191": [
+"1831-03-06T00:00:00Z"
+],
+"P1476": [
+"La sonnambula"
+],
+"P4647": [
+"Teatro Carcano"
+],
+"_description": "opera by Vincenzo Bellini",
+"_enwiki": "La sonnambula"
+},
+"Q7655717": {
+"_label": "Sweethearts",
+"P31": [
+"dramatico-musical work"
+],
+"P86": [
+"Victor Herbert"
+],
+"P87": [
+"Harry B. Smith",
+"Fred de Gresac"
+],
+"P407": [
+"English"
+],
+"P676": [
+"Robert B. Smith"
+],
+"P1191": [
+"1913-03-01T00:00:00Z"
+],
+"P1476": [
+"Sweethearts"
+],
+"_description": "opera by Victor Herbert",
+"_enwiki": "Sweethearts (musical)"
+},
+"Q766121": {
+"_label": "Richard Coeur-de-lion",
+"P31": [
+"dramatico-musical work"
+],
+"P86": [
+"André Grétry"
+],
+"P87": [
+"Michel-Jean Sedaine"
+],
+"P136": [
+"opéra comique"
+],
+"P407": [
+"French"
+],
+"P676": [
+"Michel-Jean Sedaine"
+],
+"P1191": [
+"1784-01-01T00:00:00Z"
+],
+"_description": "opéra comique by André-Ernest-Modeste Grétry",
+"_enwiki": "Richard Coeur-de-lion (opera)"
+},
+"Q7763341": {
+"_label": "The Serenade",
+"P31": [
+"dramatico-musical work"
+],
+"P86": [
+"Victor Herbert"
+],
+"P87": [
+"Victor Herbert"
+],
+"P676": [
+"Harry B. Smith"
+],
+"_description": "opera by Victor Herbert",
+"_enwiki": "The Serenade"
+},
+"Q7884111": {
+"_label": "Une demoiselle en loterie",
+"P31": [
+"dramatico-musical work"
+],
+"P86": [
+"Jacques Offenbach"
+],
+"P87": [
+"Hector Crémieux",
+"Adolphe Jaime"
+],
+"P136": [
+"opéra comique"
+],
+"P407": [
+"French"
+],
+"P1191": [
+"1857-07-27T00:00:00Z"
+],
+"P1476": [
+"Une demoiselle en loterie"
+],
+"P4647": [
+"Théâtre des Bouffes-Parisiens"
+],
+"_description": "opera by Jacques Offenbach",
+"_enwiki": "Une demoiselle en loterie"
+},
+"Q790310": {
+"_label": "Ave Maria",
+"P31": [
+"musical work/composition"
+],
+"P86": [
+"Charles Gounod"
+],
+"P144": [
+"Hail Mary",
+"Prelude and Fugue in C major, BWV 846"
+],
+"P1476": [
+"Ave Maria"
+],
+"_description": "composition by Bach and Gounod",
+"_enwiki": "Ave Maria (Bach/Gounod)"
+},
+"Q7992686": {
+"_label": "When My Blue Moon Turns to Gold Again",
+"P31": [
+"musical work/composition"
+],
+"P175": [
+"Bill Monroe"
+],
+"P407": [
+"English"
+],
+"P1476": [
+"When My Blue Moon Turns to Gold Again"
+],
+"_description": "song written and composed by Wiley Walker and Gene Sullivan; originally recorded by Wiley Walker and Gene Sullivan and released in 1941",
+"_enwiki": "When My Blue Moon Turns to Gold Again"
+},
+"Q8012193": {
+"_label": "La jolie parfumeuse",
+"P31": [
+"dramatico-musical work"
+],
+"P50": [
+"Jacques Offenbach"
+],
+"P86": [
+"Jacques Offenbach"
+],
+"P87": [
+"Hector Crémieux",
+"Ernest Blum"
+],
+"P136": [
+"opéra comique"
+],
+"P407": [
+"French"
+],
+"P1191": [
+"1873-11-29T00:00:00Z"
+],
+"P4647": [
+"Théâtre de la Renaissance"
+],
+"_description": "opera written by Jacques Offenbach",
+"_enwiki": "La jolie parfumeuse"
+},
+"Q839622": {
+"_label": "Die Dollarprinzessin",
+"P31": [
+"dramatico-musical work"
+],
+"P86": [
+"Leo Fall"
+],
+"P87": [
+"Alfred Maria Willner"
+],
+"P1191": [
+"1907-11-02T00:00:00Z"
+],
+"_description": "opera by Leo Fall",
+"_enwiki": "Die Dollarprinzessin"
+},
+"Q87331610": {
+"_label": "The Wedding March",
+"P31": [
+"film series",
+"television film series"
+],
+"_description": "television film series",
+"_enwiki": "The Wedding March (film series)"
+},
+"Q8773631": {
+"_label": "Le Caïd",
+"P31": [
+"dramatico-musical work"
+],
+"P86": [
+"Ambroise Thomas"
+],
+"P87": [
+"Thomas Sauvage"
+],
+"P136": [
+"opéra bouffe"
+],
+"P407": [
+"French"
+],
+"P674": [
+"Muezzin",
+"Michel",
+"Birotteau",
+"Virginie",
+"Fathma",
+"Aboul-y-far",
+"Ali-Bajou",
+"Kabyles"
+],
+"P1191": [
+"1849-01-03T00:00:00Z"
+],
+"P4647": [
+"Opéra-Comique"
+],
+"_description": "opera by Ambroise Thomas",
+"_enwiki": "Le caïd"
+},
+"Q959242": {
+"_label": "Les cloches de Corneville",
+"P31": [
+"dramatico-musical work"
+],
+"P86": [
+"Robert Planquette"
+],
+"P87": [
+"Louis François Clairville",
+"Charles Gabet"
+],
+"P136": [
+"opéra comique"
+],
+"P407": [
+"French"
+],
+"P1191": [
+"1877-04-19T00:00:00Z"
+],
+"P1476": [
+"Les Cloches de Corneville"
+],
+"_description": "opéra comique",
+"_enwiki": "Les cloches de Corneville"
+},
+"Q973780": {
+"_label": "La dame blanche",
+"P31": [
+"dramatico-musical work"
+],
+"P86": [
+"François Adrien Boieldieu"
+],
+"P87": [
+"Eugène Scribe"
+],
+"P136": [
+"opera",
+"opéra comique"
+],
+"P407": [
+"French"
+],
+"P674": [
+"Georges Brown",
+"Gaveston",
+"Anna",
+"Dickson",
+"Jenny",
+"Marguerite",
+"MacIrton",
+"Gabriel"
+],
+"P1191": [
+"1825-12-10T00:00:00Z"
+],
+"P4647": [
+"Opéra-Comique"
+],
+"_description": "opéra comique by François-Adrien Boieldieu",
+"_enwiki": "La dame blanche"
 }
 }

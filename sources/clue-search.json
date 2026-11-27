@@ -940,5 +940,293 @@
 "dvorak|t|dievca travu zalo": null,
 "massenet|t|aime ancora fanciullo": null,
 "puccini|t|addio dolce quartet svegliare": null,
-"rubinstein|t|arioso": null
+"rubinstein|t|arioso": null,
+"luders|t|sea shell tale": null,
+"luders|t|heidelberg": null,
+"edwards|t|jay lay": {
+"title": "Julia Ainsley",
+"qid": "Q136337018"
+},
+"lortzing|t|brueder mutter schwestern vater": null,
+"nessler|t|es hat nicht sein sollen": null,
+"gounod|t|faust serenade": {
+"title": "Faust (opera)",
+"qid": "Q745951"
+},
+"flotow|t|romanza": null,
+"straus|t|duet kiss": null,
+"ponchielli|t|aria del fieri gioconda momenti questi suicidio": null,
+"bizet|t|air carte": null,
+"verdi|t|di il mar provenza suol": null,
+"offenbach|t|charmille dans oiseaux": null,
+"verdi|t|assisa ch io quest vesto": null,
+"tchaikovsky|t|pauline romance": null,
+"verdi|t|aida bella morir pura si": null,
+"giordano|t|amor ti vieta": null,
+"bizet|t|bastion di il presso siviglia": null,
+"verdi|t|1 aida del escena giudizio heaven nume part spirit spirto": null,
+"wagner|t|di incantan non": null,
+"verdi|t|1 acerbe il lacrime lagrime mira part trovatore": null,
+"leoncavallo|t|gioco tal un": null,
+"nessler|t|be it not so was": {
+"title": "Barbara Nessler",
+"qid": "Q66312190"
+},
+"mascagni|t|coeli regina": null,
+"verdi|t|kapu tevu uzmirsai": null,
+"wagner|t|gluck nes verlor": null,
+"flotow|t|presto": null,
+"flotow|t|notturno quartetto": null,
+"gounod|t|iii part prison scene": null,
+"delibes|t|doux lakme regard se ton voile": null,
+"massenet|t|je nom sais votre": null,
+"donizetti|t|belle ciel piu splendon stelle": null,
+"verdi|t|fatale me ora per": null,
+"leoncavallo|t|qua son": null,
+"mcnaughton|t|three tree": null,
+"lincke|t|glow intermezzo worm": null,
+"de koven|t|song turnkey": null,
+"mascagni|t|andate mamma": null,
+"mascagni|t|allor comare santa": null,
+"mascagni|t|qui santuzza tu": null,
+"mascagni|t|mi onore tolse turiddu": null,
+"romberg|t|serenade": {
+"title": "Serenade (The Student Prince song)",
+"qid": "Q117104098"
+},
+"romberg|t|drinking song": {
+"title": "Drinking Song",
+"qid": "Q5307735"
+},
+"sullivan|t|farewell my own": null,
+"verdi|t|donna veglia": null,
+"jakobowski|t|erminie lullaby": null,
+"handel|t|god host return": null,
+"garbayo|t|el juramento": null,
+"leoncavallo|t|fantasia": null,
+"verdi|t|fantasia": null,
+"gounod|t|bravest heart may swell": null,
+"benedict|t|bawn colleen": null,
+"wagner|t|lohengrin prelude": {
+"title": "Lohengrin (opera)",
+"qid": "Q23085"
+},
+"herbert|t|day just": {
+"title": "Justin Herbert",
+"qid": "Q27734163"
+},
+"mozart|t|ci darem": {
+"title": "Là ci darem la mano",
+"qid": "Q6710600"
+},
+"mozart|t|minuet": null,
+"handel|t|angel bright ever fair": null,
+"flotow|t|great guide jehovah me thou": null,
+"verdi|t|beviam": null,
+"verdi|t|che da di ho quel veduta": null,
+"verdi|t|scegli seguimi te": null,
+"verdi|t|buon come il vedi vegliardo": null,
+"verdi|t|crudel ferna": null,
+"leoncavallo|t|campane coro delle": null,
+"leoncavallo|t|ben che difforme so": null,
+"leoncavallo|t|non pagliaccio son": null,
+"leoncavallo|t|filtro il nella sua tazza versa": null,
+"thomas|t|bel conosci il non suol": null,
+"thomas|t|ballata ofelia": null,
+"meyerbeer|t|caprettina carina si": null,
+"de koven|t|ah love yes you": null,
+"fall|t|siren waltze": null,
+"friml|t|at come heart knocking maid when your": null,
+"friml|t|firefly waltze": null,
+"donizetti|t|furtive tear": {
+"title": "Una furtiva lagrima",
+"qid": "Q2060389"
+},
+"gounod|t|all dwelling hail lowly thou": null,
+"lincke|t|love taps ticking": null,
+"mascagni|t|ave maria": null,
+"herbert|t|estellita": null,
+"mascagni|t|prelude siciliana": null,
+"mascagni|t|2 part prelude": null,
+"mascagni|t|choru introduction villager": null,
+"mascagni|t|2 choru part villager": null,
+"mascagni|t|2 easter hymn part": null,
+"mascagni|t|dite lucia mamma": null,
+"mascagni|t|ah rimani turiddu": null,
+"verdi|t|prelude traviata": {
+"title": "La traviata",
+"qid": "Q186162"
+},
+"thomas|t|overture raymond": {
+"title": "Raymond, ou Le secret de la reine",
+"qid": "Q110912796"
+},
+"gounod|t|ballet dance music nubian slave": null,
+"gounod|t|kermesse scene waltz": null,
+"strauss|t|waltz you": {
+"title": "A Waltz by Strauss",
+"qid": "Q106359341"
+},
+"adam|t|if king overture were": null,
+"massenet|t|nous pari vivron": {
+"title": "Manon",
+"qid": "Q842063"
+},
+"puccini|t|madrigale": null,
+"giordano|t|grand lucenti occhi": null,
+"puccini|t|quelle trine": null,
+"puccini|t|boh di me musetta valtzer": null,
+"rossini|t|asile hereditaire": null,
+"rossini|t|accour barcarolle dans ma nacelle": null,
+"verdi|t|non sapete": null,
+"massenet|t|gavotta": null,
+"cesti|t|all idol intorno mio": null,
+"caccini|t|non piango sospiro": null,
+"wagner|t|liebeslied siegmund": null,
+"purcell|t|attempt fly love sickness": null,
+"verdi|t|au comme plume vent": null,
+"verdi|t|belle qu une": null,
+"donizetti|t|ange pur si": null,
+"donizetti|t|ange femme inconnue un une": null,
+"puccini|t|ciel etoile luisait": null,
+"puccini|t|ah allee est mimi": null,
+"thomas|t|addio mignon": null,
+"donizetti|t|gentil spirto": null,
+"herbert|t|again kiss me": null,
+"jacobi|t|are free you": null,
+"herbert|t|cricket hearth": null,
+"fall|t|del duo examen": null,
+"rossini|t|il mio nome se": null,
+"traditional|t|el mar playa sin": null,
+"thomas|t|come fior il romito": null,
+"meyerbeer|t|duetto marcello valentina": null,
+"rossini|t|gioia pace": null,
+"puccini|t|3 atto preludio": null,
+"puccini|t|1 act deum finale te": null,
+"boito|t|altra notte": null,
+"wagner|t|march wedding": {
+"title": "The Wedding March (film series)",
+"qid": "Q87331610"
+},
+"peri|t|funeste piagge": null,
+"herbert|t|march toys": null,
+"verdi|t|ardori fuggiam gli": null,
+"wagner|t|charfreitagszauber": null,
+"gounod|t|bravest even heart": null,
+"massenet|t|liberte ne non pas ravie sera votre": null,
+"herbert|t|ball military": null,
+"herbert|t|dagger dance": null,
+"offenbach|t|elle est": {
+"title": "Une demoiselle en loterie",
+"qid": "Q7884111"
+},
+"straus|t|hero my": null,
+"lehar|t|love melody": null,
+"herbert|t|land my own romance": null,
+"bizet|t|1st 2 acte entr intermezzo": null,
+"sullivan|t|song yum": {
+"title": "Three Little Maids from School Are We",
+"qid": "Q123235761"
+},
+"sullivan|t|fair moon": {
+"title": "When My Blue Moon Turns to Gold Again",
+"qid": "Q7992686"
+},
+"goldmark|t|erzahlung": null,
+"verdi|t|angeli degli vergine": null,
+"verdi|t|follia od scherzo": null,
+"gounod|t|merveille moi plaisir": null,
+"ronald|t|lovely night summertime": null,
+"wagner|t|dawn gotterdammerung": {
+"title": "Götterdämmerung",
+"qid": "Q272029"
+},
+"saint-saens|t|choru philistine women": null,
+"halevy|t|est grand pitie": null,
+"holst|t|planet": {
+"title": "The Planets",
+"qid": "Q303508"
+},
+"massenet|t|mes pleurez yeux": null,
+"meyerbeer|t|baal pretre": null,
+"dell'acqua|t|villanelle": null,
+"adam|t|ah dirai je maman vous": null,
+"tchaikovsky|t|dance fairy flute nutcracker plum reed sugar": null,
+"tchaikovsky|t|chinese dance miniature nutcracker overture": null,
+"grieg|t|gynt mood morning peer": {
+"title": "Peer Gynt (Grieg)",
+"qid": "Q14912776"
+},
+"grieg|t|ase death gynt peer": {
+"title": "Peer Gynt (Grieg)",
+"qid": "Q14912776"
+},
+"liszt|t|3 keyaflatmaj liebestraum": null,
+"wagner|t|leuchtend morgenlich": null,
+"wagner|t|die ride valkyrie walkure": {
+"title": "Ride of the Valkyries",
+"qid": "Q1464243"
+},
+"mendelssohn|t|blas overture ruy": {
+"title": "Overture",
+"qid": "Q202287"
+},
+"tosti|t|ideale": null,
+"massenet|t|noel paien": null,
+"boieldieu|t|blanche dame": {
+"title": "La dame blanche",
+"qid": "Q973780"
+},
+"masse|t|saison": null,
+"herold|t|aux clerc pre": {
+"title": "Le pré aux clercs",
+"qid": "Q3226048"
+},
+"reyer|t|sigurd": {
+"title": "Sigurd (disambiguation)",
+"qid": "Q374412"
+},
+"beethoven|t|sanctu": null,
+"gounod|t|ah comme pleure priere saviez si vous": null,
+"planquette|t|panurge": null,
+"holmes|t|ange apporter belle bien ce chose noel soir sont troi venu": null,
+"massenet|t|automne pensee": null,
+"chaminade|t|ritournelle": null,
+"yradier|t|rosilla": null,
+"merikanto|op2|1": null,
+"gounod|t|vallon": null,
+"hahn|t|incredule": null,
+"massenet|t|enfant": null,
+"saint-saens|t|boire chanson": null,
+"holmes|t|chanson gas irlande": null,
+"mascagni|t|etoile une": null,
+"masse|t|mule pedro": null,
+"gounod|t|aller ou voulez vous": null,
+"lincke|t|amour patrouille": null,
+"lecocq|t|mariee petite": {
+"title": "La Petite Mariée",
+"qid": "Q60788625"
+},
+"denza|t|aimai si tu": null,
+"mehul|t|chant depart": {
+"title": "Chant du départ",
+"qid": "Q1365006"
+},
+"gretry|t|coeur lion richard": {
+"title": "Richard Coeur-de-lion (opera)",
+"qid": "Q766121"
+},
+"debussy|t|5 ariette green": null,
+"saint-saens|t|cloche": null,
+"gounod|t|aimon nous": null,
+"massenet|t|enchantement": null,
+"bruneau|t|attaque moulin": {
+"title": "L'attaque du moulin",
+"qid": "Q3109729"
+},
+"chaminade|t|anneau argent": null,
+"chaminade|t|ecrin": null,
+"gounod|t|chanter souffrir": null,
+"leoncavallo|t|delivrance": null,
+"offenbach|t|bresilien ronde": null
 }
